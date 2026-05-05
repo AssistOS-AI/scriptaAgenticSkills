@@ -1,5 +1,5 @@
 import { mkdir, readdir, rm, writeFile } from 'node:fs/promises';
-import { basename, join, resolve } from 'node:path';
+import { join, resolve } from 'node:path';
 import { writeStructuredMarkdown, writeText } from '../core/workspace.mjs';
 import { loadQaBookInputs } from './bookVisionParser.mjs';
 import { runBookPipeline } from './runBookPipeline.mjs';
@@ -18,7 +18,7 @@ export async function runQaGeneration(baseRoot = null) {
   await resetQaOutput(summaryRoot);
 
   for (const qaBook of qaBooks) {
-      await prepareBookWorkspace(qaBook, summaryRoot);
+      await prepareBookWorkspace(qaBook);
       const result = await runBookPipeline({
         ...qaBook,
         baselineProfile: qaBook.profile,
@@ -107,19 +107,10 @@ async function resetQaOutput(summaryRoot) {
   }
 }
 
-async function prepareBookWorkspace(qaBook, summaryRoot) {
+async function prepareBookWorkspace(qaBook) {
   await rm(qaBook.workspaceRoot, { recursive: true, force: true });
   await mkdir(qaBook.workspaceRoot, { recursive: true });
   await writeFile(join(qaBook.workspaceRoot, 'book-vision.md'), qaBook.visionContent, 'utf8');
-
-  if (resolve(summaryRoot) === resolve(`${process.cwd()}/QA`)) {
-    return;
-  }
-
-  const sourceBookRoot = resolve(join(`${process.cwd()}/QA`, basename(qaBook.workspaceRoot)));
-  if (sourceBookRoot !== qaBook.workspaceRoot) {
-    await writeFile(join(qaBook.workspaceRoot, 'book-vision.md'), qaBook.visionContent, 'utf8');
-  }
 }
 
 function renderQaTaskReport(tasks) {
