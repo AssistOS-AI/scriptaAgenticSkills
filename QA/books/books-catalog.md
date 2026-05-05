@@ -27,7 +27,7 @@ Published QA reader editions mirrored from the latest book workspaces.
       "title": "The River Knows First",
       "profile": "detective-police",
       "languageCode": "en",
-      "workspaceSource": "phase8-exports/edition-en.reader.iter-002.html",
+      "workspaceSource": "phase8-exports/edition-en.reader.iter-003.html",
       "publishedPath": "books/en/qa-detective-river.html",
       "metricsPage": "books/metrics/qa-detective-river.html",
       "metricsSnapshot": {
@@ -59,7 +59,7 @@ Published QA reader editions mirrored from the latest book workspaces.
       "title": "Raul stie primul",
       "profile": "detective-police",
       "languageCode": "ro",
-      "workspaceSource": "phase9-translations/edition-ro.reader.iter-001.html",
+      "workspaceSource": "phase9-translations/edition-ro.reader.iter-002.html",
       "publishedPath": "books/ro/qa-detective-river.html",
       "metricsPage": "books/metrics/qa-detective-river.html",
       "metricsSnapshot": {
@@ -75,7 +75,7 @@ Published QA reader editions mirrored from the latest book workspaces.
       "title": "When the Silence Returns",
       "profile": "drama",
       "languageCode": "en",
-      "workspaceSource": "phase8-exports/edition-en.reader.iter-002.html",
+      "workspaceSource": "phase8-exports/edition-en.reader.iter-003.html",
       "publishedPath": "books/en/qa-drama-silence.html",
       "metricsPage": "books/metrics/qa-drama-silence.html",
       "metricsSnapshot": {
@@ -107,7 +107,7 @@ Published QA reader editions mirrored from the latest book workspaces.
       "title": "Cand se intoarce tacerea",
       "profile": "drama",
       "languageCode": "ro",
-      "workspaceSource": "phase9-translations/edition-ro.reader.iter-001.html",
+      "workspaceSource": "phase9-translations/edition-ro.reader.iter-002.html",
       "publishedPath": "books/ro/qa-drama-silence.html",
       "metricsPage": "books/metrics/qa-drama-silence.html",
       "metricsSnapshot": {
@@ -123,7 +123,7 @@ Published QA reader editions mirrored from the latest book workspaces.
       "title": "The Ash Keeps Your Name",
       "profile": "fantasy",
       "languageCode": "en",
-      "workspaceSource": "phase8-exports/edition-en.reader.iter-002.html",
+      "workspaceSource": "phase8-exports/edition-en.reader.iter-003.html",
       "publishedPath": "books/en/qa-fantasy-ash.html",
       "metricsPage": "books/metrics/qa-fantasy-ash.html",
       "metricsSnapshot": {
@@ -155,7 +155,7 @@ Published QA reader editions mirrored from the latest book workspaces.
       "title": "Cenusa iti pastreaza numele",
       "profile": "fantasy",
       "languageCode": "ro",
-      "workspaceSource": "phase9-translations/edition-ro.reader.iter-001.html",
+      "workspaceSource": "phase9-translations/edition-ro.reader.iter-002.html",
       "publishedPath": "books/ro/qa-fantasy-ash.html",
       "metricsPage": "books/metrics/qa-fantasy-ash.html",
       "metricsSnapshot": {
@@ -171,7 +171,7 @@ Published QA reader editions mirrored from the latest book workspaces.
       "title": "Margins of the Heart",
       "profile": "romance-relational",
       "languageCode": "en",
-      "workspaceSource": "phase8-exports/edition-en.reader.iter-002.html",
+      "workspaceSource": "phase8-exports/edition-en.reader.iter-003.html",
       "publishedPath": "books/en/qa-romance-margins.html",
       "metricsPage": "books/metrics/qa-romance-margins.html",
       "metricsSnapshot": {
@@ -203,7 +203,7 @@ Published QA reader editions mirrored from the latest book workspaces.
       "title": "Marginile inimii",
       "profile": "romance-relational",
       "languageCode": "ro",
-      "workspaceSource": "phase9-translations/edition-ro.reader.iter-001.html",
+      "workspaceSource": "phase9-translations/edition-ro.reader.iter-002.html",
       "publishedPath": "books/ro/qa-romance-margins.html",
       "metricsPage": "books/metrics/qa-romance-margins.html",
       "metricsSnapshot": {
@@ -219,7 +219,7 @@ Published QA reader editions mirrored from the latest book workspaces.
       "title": "Orbit of the Unreturned",
       "profile": "science-fiction",
       "languageCode": "en",
-      "workspaceSource": "phase8-exports/edition-en.reader.iter-002.html",
+      "workspaceSource": "phase8-exports/edition-en.reader.iter-003.html",
       "publishedPath": "books/en/qa-scifi-orbit.html",
       "metricsPage": "books/metrics/qa-scifi-orbit.html",
       "metricsSnapshot": {
@@ -251,7 +251,7 @@ Published QA reader editions mirrored from the latest book workspaces.
       "title": "Orbita celor nereveniti",
       "profile": "science-fiction",
       "languageCode": "ro",
-      "workspaceSource": "phase9-translations/edition-ro.reader.iter-001.html",
+      "workspaceSource": "phase9-translations/edition-ro.reader.iter-002.html",
       "publishedPath": "books/ro/qa-scifi-orbit.html",
       "metricsPage": "books/metrics/qa-scifi-orbit.html",
       "metricsSnapshot": {
