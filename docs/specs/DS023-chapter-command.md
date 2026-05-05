@@ -3,7 +3,7 @@ id: DS023
 title: Chapter Command
 status: planned
 owner: repository
-summary: Defines the CNL command for chapter planning as a purposeful micro-narrative with continuity obligations.
+summary: Defines the CNL command for chapter planning as a purposeful micro-narrative with explicit carry-forward pressure.
 ---
 
 # DS023 Chapter Command
@@ -29,7 +29,7 @@ The `define` block must contain:
 | `opening-mode:` | How the chapter begins |
 | `development-mode:` | How tension grows |
 | `closing-mode:` | Partial resolution, revelation, or escalation |
-| `continuity-obligations:` | Facts later chapters must preserve |
+| `handoff-pressure:` | The concrete consequence the next chapter must inherit |
 | `thematic-focus:` | Which thematic pressure dominates here |
 | `rhythm-note:` | Pace expectation for the chapter |
 
@@ -66,7 +66,7 @@ stakes: legal credibility, memory stability, family trust
 opening-mode: contextual-setup
 development-mode: escalation
 closing-mode: reversal
-continuity-obligations: the daughter must notice the first explicit memory gap
+handoff-pressure: the daughter must notice the first explicit memory gap
 thematic-focus: truth versus protective concealment
 rhythm-note: escalating
 ```
@@ -79,4 +79,4 @@ Response: STG treats chapters as large narrative units with their own pacing fun
 
 ## Conclusion
 
-The chapter command must define each chapter as a state-changing unit with explicit purpose, continuity, and rhythm.
+The chapter command must define each chapter as a state-changing unit with explicit purpose, carry-forward pressure, and rhythm.
