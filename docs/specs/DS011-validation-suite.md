@@ -40,6 +40,8 @@ Validation must enforce stage discipline. At minimum, it must be able to detect 
 
 Validation must also audit the publication surface. When final reader editions exist, the suite must verify requested language coverage, embedded-cover presence, table of contents structure, chapter anchoring, print styling, dependency-free packaging, and visible localization leaks in final HTML editions.
 
+When the validated workspace belongs to the canonical QA campaign, the suite must also refresh the published QA metrics surface so the latest normalized indicators, stage audit, localized issues, and revision tasks are visible under `QA/books/metrics/`.
+
 Each validation run must write both raw artifacts and revision-facing reports. At minimum, the suite must produce:
 
 | Artifact | Requirement |
@@ -75,6 +77,10 @@ Response: The user explicitly asked for final English and Romanian reader editio
 ### Question #5: Why does the suite emit revision tasks instead of only scores and problems?
 
 Response: The user asked for generated tasks that can drive the next remediation pass. The suite therefore has to translate observations into concrete stage-scoped follow-up work, not just describe failure.
+
+### Question #6: Why is the QA metrics surface part of the validation contract instead of a separate reporting afterthought?
+
+Response: The user explicitly wants per-book HTML dashboards that stay current after each run or regeneration. Because those dashboards are built from validation results, keeping them current is part of validation completion rather than optional post-processing.
 
 ## Conclusion
 

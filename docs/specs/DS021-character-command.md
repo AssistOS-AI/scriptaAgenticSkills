@@ -1,7 +1,7 @@
 ---
 id: DS021
 title: Character Command
-status: planned
+status: implemented
 owner: repository
 summary: Defines the CNL command for building characters as engines of desire, conflict, and transformation.
 ---
@@ -47,29 +47,36 @@ For symbolic seed generation, the block must also include:
 
 The relationship vocabulary inside `relationships:` must draw from the STG set: `conflictual`, `cooperative`, `mentor-student`, `hierarchical`, `romantic`, `rivalry`, `ambiguous`, `betrayal-based`, `familial`.
 
+When `naming-state` has moved from placeholder to resolved, character names must satisfy all of the following:
+
+1. They are internationally portable proper names rather than locale-locked forms unless a downstream project explicitly overrides that policy.
+2. They do not embed role words such as `inspector`, `journalist`, `doctor`, `mayor`, or comparable occupational labels inside the proper name field.
+3. Titles, professions, and social functions belong in separate descriptive fields or natural-language hints, not inside the canonical resolved name.
+
 Constraint rules:
 
 1. `development-type: static` is incompatible with `arc: positive-change`, `negative-change`, `corruption`, or `redemption`.
 2. `complexity: flat` should not claim deep contradictions without an explicit exception note.
 3. `role: protagonist` normally requires `development-type: dynamic` or `arc: flat`; purely inert protagonists are not valid default seeds.
+4. A resolved character block that still contains placeholder tokens or role-bearing pseudo-names must fail downstream validation.
 
 Example:
 
 ```text
-@character-judge-ionescu define
+@character-mara-voss define
 complexity: round
 development-type: dynamic
 archetype: hero
 role: protagonist
-desire: correct unjust verdicts without losing authority
-need: accept that justice without self-knowledge becomes destructive
-fear: becoming morally irrelevant and personally empty
-lie: control and procedural mastery are enough to keep justice pure
-truth: justice requires vulnerability and irreversible ethical cost
+desire: expose the protected structure behind a falsified drowning case
+need: accept that justice requires public risk rather than procedural distance
+fear: becoming another official who preserves order by burying the truth
+lie: technical mastery and patience are enough to keep justice clean
+truth: justice requires visible cost and moral exposure
 conflict-mode: mixed
 arc: tragic
 contradictions: disciplined yet obsessive, compassionate yet controlling
-relationships: clashes with the chief prosecutor, protects his daughter, depends on a compromised archivist
+relationships: Luca Mercer [cooperative], Anika Berin [conflictual], witness network [hierarchical]
 ```
 
 ## Decisions & Questions
@@ -77,6 +84,10 @@ relationships: clashes with the chief prosecutor, protects his daughter, depends
 ### Question #1: Why are `lie` and `truth` mandatory?
 
 Response: The STG character material and the broader craft theory cited there emphasize inner contradiction and transformation. `Lie` and `truth` make that change path explicit for planning and later drift detection.
+
+### Question #2: Why does the command now constrain resolved names instead of leaving naming entirely to free text?
+
+Response: The user explicitly observed that locale-specific or role-bearing names leaked into English exports and weakened the result. The resolved-name policy gives symbolic generation, refinement, and validation the same naming target.
 
 ## Conclusion
 

@@ -29,9 +29,13 @@ The subsystem must support at least these finishing capabilities:
 
 The current reference runtime implements manuscript assembly, editorial smoothing, and self-contained HTML reader editions for English and Romanian. For other target languages, the runtime must preserve the requested language code and translation instruction as part of the export contract even when a built-in fluent renderer is not available.
 
+The final published edition must reflect the latest validation snapshot rather than a pre-validation draft export. A compliant orchestration may therefore emit an initial export for structural auditing, run validation, and then emit a later export iteration whose appendix contains the newest metric snapshot and readable provenance lines.
+
 Every export must record its provenance. At minimum, the output must identify the source manuscript version, target language, content language, editorial profile, translation instruction if any, and creation order relative to the validated draft.
 
-Final reader editions must remain single-file artifacts. They must not depend on external CSS, JavaScript, image files, or runtime services. Cover imagery, screen styling, print styling, and machine-readable metadata must all live inside the exported HTML file.
+Final reader editions must remain single-file artifacts. They must not depend on external CSS, JavaScript, image files, or runtime services. Cover imagery, screen styling, print styling, and machine-readable metadata must all live inside the exported HTML file. Human-visible provenance inside the appendix must be rendered as readable stage lists or notes, not leaked raw JSON blobs.
+
+When the workspace belongs to the canonical QA campaign, BookWriter must cooperate with the publication surface so the latest English and Romanian editions are mirrored into `QA/books/<lang>/` and tied to the matching `QA/books/metrics/<book-id>.html` dashboard.
 
 If BookWriter materially changes a passage that has already been validated, the system must preserve a revision map so later reports can still connect the export to the earlier evidence or flag the need for re-validation.
 
@@ -52,6 +56,10 @@ Response: The user explicitly asked for printable, dependency-free book readers 
 ### Question #4: Why does the current contract distinguish built-in EN/RO rendering from instruction-backed translation for other languages?
 
 Response: The repository now ships deterministic bilingual rendering for English and Romanian. Extending that same quality level to arbitrary languages requires a dedicated translation backend, but the contract still needs a stable way to preserve target-language intent and provenance until that backend exists.
+
+### Question #5: Why may BookWriter run twice inside the full orchestration?
+
+Response: Export auditing needs an HTML edition to exist before validation can inspect it, but the final edition should still display the latest validation snapshot. A two-pass append-only export sequence satisfies both requirements without rewriting earlier artifacts.
 
 ## Conclusion
 

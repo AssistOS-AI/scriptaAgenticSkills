@@ -44,6 +44,14 @@ The workspace must preserve the distinction between symbolic seed artifacts and 
 
 The workspace must keep provenance visible enough that validators can compare upstream and downstream files. At minimum, every non-seed stage must be able to declare which prior artifact versions it consumed.
 
+When a workspace lives under the canonical `QA/` root, the latest final reader editions and their latest validation dashboards must also be mirrored into the published QA library. The required public mirror is:
+
+| Published surface | Purpose |
+| --- | --- |
+| `QA/books/<lang>/<book-id>.html` | Latest final reader edition for each requested language |
+| `QA/books/metrics/<book-id>.html` | Latest per-book HTML metrics and issue dashboard |
+| `QA/books/index.html` and `QA/books/metrics/index.html` | Browsable entry points for the QA library |
+
 The `validation/` folder must contain five baseline validation profiles that can be reused across books and specialized into genre-specific variants. The initial baseline bundle must cover:
 
 | Profile | Purpose |
@@ -71,6 +79,10 @@ Response: Validation stores check definitions, raw evidence, and intermediate ou
 ### Question #3: Why are append-only stage files mandatory instead of a convenience choice?
 
 Response: The user explicitly wants stages to create new files rather than update previous ones so verifiers can compare iterations and force better compliance through failing checks. Without preserved stage history, placeholder validation and plan-improvement accountability would weaken immediately.
+
+### Question #4: Why does the workspace contract mention the QA public mirror even though the authoritative artifacts still live inside each book workspace?
+
+Response: The user explicitly wants to open the final books and metrics directly under `QA/books/`. That public mirror is not a replacement for the per-book workspace. It is a publication surface derived from the latest append-only workspace artifacts.
 
 ## Conclusion
 

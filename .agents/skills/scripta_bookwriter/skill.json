@@ -1,7 +1,7 @@
 {
   "title": "SCRIPTA BookWriter",
   "family": "anthropic",
-  "summary": "Combines chapter drafts into export-ready manuscript artifacts and single-file HTML reader editions.",
+  "summary": "Combines chapter drafts into export-ready manuscript artifacts, single-file HTML reader editions, and QA publication mirrors.",
   "aliases": [
     "scripta_bookwriter",
     "scripta-bookwriter"

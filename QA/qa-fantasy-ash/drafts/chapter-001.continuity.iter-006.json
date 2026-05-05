@@ -1,0 +1,17 @@
+{
+  "chapterId": "chapter-001",
+  "entryState": "the inherited curse is visible, but its true origin remains protected by ritual silence",
+  "exitState": "chapter 1 exits with sharper setup pressure, narrower choices, and a cost that cannot be folded back into routine",
+  "unresolvedObligations": [
+    "later chapters must preserve the consequence introduced in chapter-001"
+  ],
+  "introducedEntities": [
+    "Teren Vaul",
+    "Soriel Vane",
+    "Quiet Flame Abbey"
+  ],
+  "changedRelationships": [
+    "redemption under sacrifice pressure"
+  ],
+  "continuityWarnings": []
+}

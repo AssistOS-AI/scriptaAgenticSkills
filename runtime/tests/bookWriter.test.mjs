@@ -1,0 +1,37 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import { createTempWorkspace } from './testUtils.mjs';
+import { listLatestStageArtifacts } from '../core/workspace.mjs';
+import { runBookPipeline } from '../pipeline/runBookPipeline.mjs';
+
+test('BookWriter emits single-file English and Romanian reader editions', async () => {
+  const workspace = await createTempWorkspace('scripta-bookwriter-');
+
+  try {
+    await runBookPipeline({
+      bookId: 'bookwriter-book',
+      baselineProfile: 'drama',
+      workspaceRoot: workspace.directoryPath,
+      chapterCount: 3,
+      targetLanguages: 'en,ro',
+      seed: 'bookwriter-seed'
+    });
+
+    const exportArtifacts = await listLatestStageArtifacts(workspace.directoryPath, 'exports');
+    const englishHtml = await readFile(exportArtifacts.find((artifact) => artifact.baseName === 'edition-en' && artifact.label === 'reader').filePath, 'utf8');
+    const romanianHtml = await readFile(exportArtifacts.find((artifact) => artifact.baseName === 'edition-ro' && artifact.label === 'reader').filePath, 'utf8');
+    const bundle = JSON.parse(await readFile(exportArtifacts.find((artifact) => artifact.baseName === 'editions' && artifact.label === 'bundle').filePath, 'utf8'));
+
+    assert.match(englishHtml, /<svg/);
+    assert.match(englishHtml, /Contents/);
+    assert.match(englishHtml, /@media print/);
+    assert.doesNotMatch(englishHtml, /Stage sources:\s*\{/);
+    assert.match(romanianHtml, /Cuprins/);
+    assert.match(romanianHtml, /Pagina de titlu/);
+    assert.doesNotMatch(romanianHtml, /\{\{/);
+    assert.deepEqual(bundle.targetLanguages, ['en', 'ro']);
+  } finally {
+    await workspace.cleanup();
+  }
+});

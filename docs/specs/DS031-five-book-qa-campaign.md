@@ -51,12 +51,14 @@ The `qa` command must generate all five books end to end and then emit consolida
 | Artifact | Purpose |
 | --- | --- |
 | `books/<lang>/<book-id>.html` | Public, directly browsable final reader editions grouped by language |
+| `books/metrics/<book-id>.html` | Public per-book HTML dashboard for the latest validation run |
 | `books/index.html` | Landing page for the published QA library |
+| `books/metrics/index.html` | Landing page for the published QA metrics library |
 | `qa-summary.json` | Per-book metrics, stage audit, export audit, and revision tasks |
 | `qa-review.json` | Consolidated review snapshot across the campaign |
 | `qa-tasks.md` | Human-readable task list for the next remediation pass |
 
-Every per-book workspace produced by the campaign must include final English and Romanian HTML reader editions in `exports/`, plus validation summaries and task reports under `validation/` and `reports/`.
+Every per-book workspace produced by the campaign must include final English and Romanian HTML reader editions in `exports/`, plus validation summaries and task reports under `validation/` and `reports/`. After each QA regeneration, the public `QA/books/` library and `QA/books/metrics/` library must be refreshed from the latest workspace iterations.
 
 ## Decisions & Questions
 
@@ -71,6 +73,10 @@ Response: The user explicitly asked for instructions to generate the books step 
 ### Question #3: Why do revision tasks belong to the QA campaign output?
 
 Response: The QA run is not complete when it merely reports scores. The user asked for generated tasks that can guide the next fix pass, so task generation is part of the QA contract itself.
+
+### Question #4: Why does the QA campaign publish a separate metrics library instead of leaving metrics buried inside JSON summaries?
+
+Response: The user explicitly asked for browsable HTML metric pages under `QA/books/metrics/`, updated after every run. The campaign therefore has two public surfaces: readable books and readable dashboards.
 
 ## Conclusion
 

@@ -1,0 +1,96 @@
+[
+  {
+    "name": "macro",
+    "score": 100,
+    "status": "pass",
+    "checks": [
+      {
+        "name": "macro successor files exist",
+        "pass": true
+      },
+      {
+        "name": "macro blocks expose central idea, theme, and world rules",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "name": "chapters",
+    "score": 100,
+    "status": "pass",
+    "checks": [
+      {
+        "name": "chapter symbolic plans match requested chapter count",
+        "pass": true
+      },
+      {
+        "name": "chapter refined plans match requested chapter count",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "name": "micro",
+    "score": 100,
+    "status": "pass",
+    "checks": [
+      {
+        "name": "micro refined plans match requested chapter count",
+        "pass": true
+      },
+      {
+        "name": "micro plans contain scene definitions",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "name": "cnl",
+    "score": 50,
+    "status": "fail",
+    "checks": [
+      {
+        "name": "placeholder resolution artifact exists",
+        "pass": true
+      },
+      {
+        "name": "refined plans do not retain placeholders",
+        "pass": false
+      }
+    ]
+  },
+  {
+    "name": "drafts",
+    "score": 100,
+    "status": "pass",
+    "checks": [
+      {
+        "name": "draft count matches requested chapter count",
+        "pass": true
+      },
+      {
+        "name": "continuity packets match chapter count",
+        "pass": true
+      },
+      {
+        "name": "drafts are not trivially short",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "name": "exports",
+    "score": 100,
+    "status": "pass",
+    "checks": [
+      {
+        "name": "all requested language editions exist",
+        "pass": true
+      },
+      {
+        "name": "all editions passed structural checks",
+        "pass": true
+      }
+    ]
+  }
+]
