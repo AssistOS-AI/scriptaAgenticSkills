@@ -8,7 +8,7 @@ stakes: {{stakes:autonomy-tenderness-trust-future}}
 opening-mode: contextual-setup
 development-mode: psychological-pressure
 closing-mode: open-question
-continuity-obligations: later chapters must preserve the consequence introduced in chapter-003
+handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-003
 thematic-focus: love-connection under transformation pressure
 rhythm-note: escalating
 chapter-question: {{chapter-question:reversal}}

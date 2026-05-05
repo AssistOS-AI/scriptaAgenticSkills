@@ -1,11 +1,11 @@
 @plot-element-core-object define
-name: {{object:plot-001}}
+name: {{object:OBJECT_001}}
 category: relationship
 subtype: discovery
 function: revelation
 stakes: {{stakes:plot-element}}
-holders: {{organization:institution-001}}, $character-pressure-001
-activation: the protagonist decodes {{object:plot-001}} near the midpoint
+holders: {{organization:ORG_001}}, $character-pressure-001
+activation: the protagonist decodes {{object:OBJECT_001}} near the midpoint
 payoff-zone: midpoint and final confrontation
 
 @plot-device-pressure-shift define
@@ -23,7 +23,7 @@ visibility: explicit
 
 @world-rule-primary define
 subsystem: primary
-rule-type: metaphysical-cost
+rule-type: social-norm
 rule: {{rule:world-primary}}
 cost: every attempt to solve the central problem increases another kind of loss
 exception: exceptions require a visible trade-off and cannot erase consequences
@@ -32,7 +32,7 @@ violation-effect: validation must flag coherence failure if the rule stops matte
 
 @world-rule-secondary define
 subsystem: secondary
-rule-type: physical-limitation
+rule-type: social-norm
 rule: {{rule:world-secondary}}
 conflict-transform: {{conflict-transform:world-secondary}}
 reveal-mode: structural
@@ -46,7 +46,7 @@ reveal-strategy: embed-rule-in-dialogue
 rule-to-conflict: {{rule-to-conflict:world}}
 
 @location-primary define
-name: {{location:primary-001}}
+name: {{location:LOCATION_001}}
 role: primary pressure stage
 sensory-anchor: {{sensory-anchor:location-primary}}
 social-signal: {{social-signal:location-primary}}
@@ -54,7 +54,7 @@ symbolic-charge: {{symbolic-charge:location-primary}}
 conflict-use: {{conflict-use:location-primary}}
 
 @location-secondary define
-name: {{location:secondary-001}}
+name: {{location:LOCATION_002}}
 role: revelation or narrowing stage
 sensory-anchor: {{sensory-anchor:location-secondary}}
 social-signal: {{social-signal:location-secondary}}

@@ -1,33 +1,33 @@
 @chapter-004 define
 chapter-role: culmination
-purpose: Culmination movement anchored by the furnace broken in public
-input-state: During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.
-output-state: power changes from inherited command to shared burden
-conflict: The valley must choose whether to stand in fear with Maeron or bear the truth and rebuild the wards differently.
-stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
+purpose: the narrative purpose of this culmination chapter
+input-state: the state entering this culmination-3 chapter
+output-state: the state leaving this culmination-3 chapter
+conflict: Keep the inherited oath that protects the valley through coerced obedience, or break it and let both truth and danger return together.
+stakes: what is at risk if the protagonist fails
 opening-mode: aftermath-entry
 development-mode: confrontation
 closing-mode: reversal
-continuity-obligations: later chapters must preserve the consequence introduced in chapter-004
+handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-004
 thematic-focus: identity-self under reconciliation pressure
 rhythm-note: breathless
 chapter-question: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
-answer-shift: the valley was never protected from cost; it was merely trained to pay it quietly
+answer-shift: how the answer shifts across this chapter
 arc-stage: irreversible-choice
-world-pressure: every promise of protection arrives already entangled with control, debt, and ancestral shame
+world-pressure: how world rules create pressure in this unit
 location-focus: $location-primary
 block-alternation: description-action-dialogue-suspense-interior-monologue-revelation-pause
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.
 
 @chapter-004 refine
-ref: stakes:lineage-survival-legitimacy-cost -> the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
-ref: answer-shift:fantasy -> the valley was never protected from cost; it was merely trained to pay it quietly
-ref: purpose:culmination -> Culmination movement anchored by the furnace broken in public
-ref: input-state:culmination-3 -> During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.
-ref: output-state:culmination-3 -> power changes from inherited command to shared burden
-ref: conflict:culmination -> The valley must choose whether to stand in fear with Maeron or bear the truth and rebuild the wards differently.
+ref: stakes:lineage-survival-legitimacy-cost -> what is at risk if the protagonist fails
+ref: answer-shift:fantasy -> how the answer shifts across this chapter
+ref: purpose:culmination -> the narrative purpose of this culmination chapter
+ref: input-state:culmination-3 -> the state entering this culmination-3 chapter
+ref: output-state:culmination-3 -> the state leaving this culmination-3 chapter
+ref: conflict:culmination -> Keep the inherited oath that protects the valley through coerced obedience, or break it and let both truth and danger return together.
 ref: chapter-question:culmination -> Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
-ref: world-pressure:culmination -> every promise of protection arrives already entangled with control, debt, and ancestral shame
+ref: world-pressure:culmination -> how world rules create pressure in this unit
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: anchor wonder in material detail, cost, and consequence

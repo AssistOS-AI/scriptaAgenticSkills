@@ -11,7 +11,7 @@ dilemma: {{dilemma:central}}
 story-question: {{story-question:central}}
 audience-fit: science fiction readers
 pitch-test: {{pitch:what-if}}
-A memory architect learns that her orbital station stays peaceful by deleting politically inconvenient memories.
+Memory architect Elian Quill discovers that the orbital station Nacre keeps social harmony by erasing witness memory whenever dissent threatens the station council. With shuttle pilot Yara Sen she traces a series of benign technical anomalies back to a hidden archive where entire political decisions have been amputated from collective recall.
 The symbolic seed leaves surface naming unresolved on purpose so later refinement can introduce more natural language detail.
 
 @theme define
@@ -32,28 +32,28 @@ emotional: {{wisdom:emotional}}
 moral: {{wisdom:moral}}
 reflexive: {{wisdom:reflexive}}
 experiential: {{wisdom:experiential}}
-perspective-mode: single-perspective
+perspective-mode: multi-perspective
 openness: open
 anti-didactic-rule: insight must emerge from consequences, reversals, and conflicting voices
 
 @narrative-structure define
 information-order: chronological
-causal-density: loose
+causal-density: tight
 macro-form: linear
-beginning: establish $character-protagonist-001 inside $location-primary and the pressure around {{organization:institution-001}}
+beginning: establish $character-protagonist-001 inside $location-primary and the pressure around {{organization:ORG_001}}
 inciting-incident: {{inciting-incident:primary}}
 middle: escalation, pressure, and relational strain expose the cost of {{desire:protagonist}}
 plot-point-1: $character-protagonist-001 commits to action instead of withdrawal
-midpoint: {{object:plot-001}} reveals a hidden layer of the conflict
+midpoint: {{object:OBJECT_001}} reveals a hidden layer of the conflict
 plot-point-2: $character-pressure-001 turns pressure into direct threat
 climax: {{dilemma:central}}
 resolution: a new equilibrium forms after $character-protagonist-001 accepts irreversible cost
 causal-rule: every-escalation-must-narrow-the-safe-options
 
 @narrative-model select
-adaptation-strength: hybridized
+adaptation-strength: adapted
 model-name: equilibrium-disruption-restoration
-core-pattern: investigation-reveals-hidden-structure
+core-pattern: desire-opposed-by-system
 fit-reason: the science fiction profile needs direct escalation with meaningful internal cost
 transformation-logic: $character-protagonist-001 changes while the surrounding system reveals its hidden logic
 genre-compatibility: Science Fiction
@@ -61,11 +61,11 @@ adaptation-note: the chosen model is bent toward short-form clarity and evidence
 
 @blueprint map
 premise: {{premise:primary}}
-exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around {{object:plot-001}}
-rising-action: pressure from $character-pressure-001 and {{organization:institution-001}} complicates every attempt to act
-midpoint-shift: {{object:plot-001}} changes what the protagonist understands about the conflict
+exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around {{object:OBJECT_001}}
+rising-action: pressure from $character-pressure-001 and {{organization:ORG_001}} complicates every attempt to act
+midpoint-shift: {{object:OBJECT_001}} changes what the protagonist understands about the conflict
 climax: {{dilemma:central}}
-resolution: the core conflict resolves with lasting cost and a redefined relation to {{organization:institution-001}}
+resolution: the core conflict resolves with lasting cost and a redefined relation to {{organization:ORG_001}}
 emotional-layer: intrigue -> tension -> surprise -> dread -> bittersweet-release
 stakes-ladder: private-to-public
 

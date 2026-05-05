@@ -2,9 +2,9 @@
 sequence-type: courtship
 link-logic: causal
 chapter: $chapter-001
-objective: stabilize the commission schedule before old hurt destabilizes the work
+objective: professional collaboration becomes impossible to keep emotionally neutral
 scene-chain: scene-001-01, scene-001-02, scene-001-03
-continuity-thread: each scene must inherit and intensify the previous scene's unresolved pressure
+carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
 conflict-line: Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.
 payoff: professional collaboration becomes impossible to keep emotionally neutral
 
@@ -13,24 +13,24 @@ chapter: $chapter-001
 primary-setting: $location-primary
 secondary-setting: $location-secondary
 sensory-anchor: ink oil, paper dust, hot metal type, winter air trapped in skylight glass
-social-signal: work replaces confession here because every surface carries the memory of collaboration
-symbolic-charge: a place where touch leaves visible marks and every correction shows
-conflict-use: routine tasks keep exposing the intimacy both women call professional
+social-signal: how this location signals social dynamics
+symbolic-charge: the symbolic weight this location carries
+conflict-use: how this location intensifies conflict
 
 @rule-pressure-001-core apply
 chapter: $chapter-001
 rule-reference: $world-rule-primary
-visible-symptom: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work
-action-limitation: Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure.
-conflict-output: shared labor turns every practical choice into a referendum on trust, apology, and future risk
+visible-symptom: how the world rule becomes visible to characters
+action-limitation: how the world rule limits what characters can do
+conflict-output: what kind of conflict the world rule produces
 reveal-pattern: show-exception-to-reveal-rule
 
 @arc-001-protagonist map
 chapter: $chapter-001
-entry-belief: competence is safer than emotional dependence at the start of the setup chapter
+entry-belief: the belief the protagonist holds at entry at the start of the setup chapter
 challenge: Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.
-insight-pressure: the job starts carrying evidence of love rather than just shared labor
-exit-belief: shared risk creates a truer form of security than controlled distance after the setup chapter
+insight-pressure: professional collaboration becomes impossible to keep emotionally neutral
+exit-belief: the belief the protagonist holds after change after the setup chapter
 
 @arc-001-relationship map
 chapter: $chapter-001
@@ -56,28 +56,28 @@ conflict: Leora wants clear workflow boundaries, while Talia keeps treating prac
 resolution: They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: the studio moves from inheritance problem to emotional workplace
+state-change: professional collaboration becomes impossible to keep emotionally neutral
 
 @action-001-1 place
 action-mode: pursuit
 scene: $scene-001-01
 actor: $character-protagonist-001
-goal: stabilize the commission schedule before old hurt destabilizes the work
-obstacle: every useful object in the room still belongs to their unfinished history
+goal: professional collaboration becomes impossible to keep emotionally neutral
+obstacle: Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-001-1 place
 scope: $scene-001-01
 type: external-character
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
+stakes: what is at stake in this conflict
 escalation: Cassia announces the launch deadline and makes their joint contract unavoidable.
 
 @event-001-1 trigger
 scope: $scene-001-01
 event-type: reversal
-trigger: the annotated proof reveals a page Talia once designed around Leora's private dedication line
-impact: the job starts carrying evidence of love rather than just shared labor
+trigger: Inventory with old annotations
+impact: professional collaboration becomes impossible to keep emotionally neutral
 follow-through: professional collaboration becomes impossible to keep emotionally neutral
 
 @dialogue-turn-001-01-01 line
@@ -85,7 +85,7 @@ scene: $scene-001-01
 speaker: $character-counterpart-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: the annotated proof reveals a page Talia once designed around Leora's private dedication line
+line-hint: Inventory with old annotations
 reaction-beat: The challenge strips politeness away from the scene.
 
 @dialogue-turn-001-01-02 line
@@ -93,7 +93,7 @@ scene: $scene-001-01
 speaker: $character-protagonist-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: the annotated proof reveals a page Talia once designed around Leora's private dedication line
+line-hint: Inventory with old annotations
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-001-02 define
@@ -107,28 +107,28 @@ conflict: Leora wants clear workflow boundaries, while Talia keeps treating prac
 resolution: They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: the studio moves from inheritance problem to emotional workplace
+state-change: professional collaboration becomes impossible to keep emotionally neutral
 
 @action-001-2 place
 action-mode: revelation-act
 scene: $scene-001-02
 actor: $character-protagonist-001
 goal: professional collaboration becomes impossible to keep emotionally neutral
-obstacle: every useful object in the room still belongs to their unfinished history
+obstacle: Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-001-2 place
 scope: $scene-001-02
 type: internal
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
+stakes: what is at stake in this conflict
 escalation: Cassia announces the launch deadline and makes their joint contract unavoidable.
 
 @event-001-2 trigger
 scope: $scene-001-02
 event-type: deadline
-trigger: the annotated proof reveals a page Talia once designed around Leora's private dedication line
-impact: the job starts carrying evidence of love rather than just shared labor
+trigger: Inventory with old annotations
+impact: professional collaboration becomes impossible to keep emotionally neutral
 follow-through: professional collaboration becomes impossible to keep emotionally neutral
 
 @dialogue-turn-001-02-01 line
@@ -152,34 +152,34 @@ chapter: $chapter-001
 showing-mode: compressed-showing
 focalization: internal-single
 time-space: $location-primary
-introduction: the annotated proof reveals a page Talia once designed around Leora's private dedication line
-development: the job starts carrying evidence of love rather than just shared labor
+introduction: On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes.
+development: Cassia announces the launch deadline and makes their joint contract unavoidable.
 conflict: Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.
 resolution: They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.
 exit: the chapter hands off to a sharper setup consequence
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: the studio moves from inheritance problem to emotional workplace
+state-change: professional collaboration becomes impossible to keep emotionally neutral
 
 @action-001-3 place
 action-mode: attempt
 scene: $scene-001-03
 actor: $character-protagonist-001
 goal: Inventory with old annotations
-obstacle: every useful object in the room still belongs to their unfinished history
-result: the studio moves from inheritance problem to emotional workplace
+obstacle: Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.
+result: professional collaboration becomes impossible to keep emotionally neutral
 
 @conflict-001-3 place
 scope: $scene-001-03
 type: external-character
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
+stakes: what is at stake in this conflict
 escalation: Cassia announces the launch deadline and makes their joint contract unavoidable.
 
 @event-001-3 trigger
 scope: $scene-001-03
 event-type: loss
-trigger: the annotated proof reveals a page Talia once designed around Leora's private dedication line
-impact: the job starts carrying evidence of love rather than just shared labor
+trigger: Inventory with old annotations
+impact: professional collaboration becomes impossible to keep emotionally neutral
 follow-through: professional collaboration becomes impossible to keep emotionally neutral
 
 @dialogue-turn-001-03-01 line
@@ -201,7 +201,7 @@ reaction-beat: The honesty changes the balance of power in the room.
 @description-001-atmosphere apply
 scope: $chapter-001
 description-type: mixed
-focus: a place where touch leaves visible marks and every correction shows
+focus: what the description focuses on
 function: narrative
 rhythm-effect: contrast
 
@@ -210,11 +210,11 @@ scene: $scene-001-01
 speakers: $character-protagonist-001, $character-counterpart-001
 exchange-type: question-answer
 purpose: characterization
-subtext: Leora Kestrel and Talia Voss keep circling the truth they cannot safely name yet
+subtext: Leora Kestrel and Leora Kestrel keep circling the truth they cannot safely name yet
 
 @narration-001-bridge apply
 scope: $chapter-001
-narrator-mode: first-person
+narrator-mode: close-third-person
 function: organizational
 time-handling: mixed
 
@@ -222,7 +222,7 @@ time-handling: mixed
 scene: $scene-001-03
 character: $character-protagonist-001
 function: psychological-insight
-trigger: the job starts carrying evidence of love rather than just shared labor
+trigger: professional collaboration becomes impossible to keep emotionally neutral
 texture: reflective
 
 @suspense-001-core build
@@ -236,47 +236,47 @@ Delayed access, withheld explanation, and emotional pressure should work togethe
 @pause-001-core hold
 scope: $chapter-001
 pause-function: psychological
-focus: the studio moves from inheritance problem to emotional workplace
+focus: professional collaboration becomes impossible to keep emotionally neutral
 placement: after-first-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-001-core burst
 scope: $chapter-001
 acceleration-mode: transition-skip
-trigger: the annotated proof reveals a page Talia once designed around Leora's private dedication line
+trigger: Inventory with old annotations
 reader-effect: compress time and force the next consequence to land without emotional escape
 target-zone: $scene-001-03
 
 @cliffhanger-001-exit cut
 scope: $chapter-001
 cliffhanger-type: interrupted-revelation
-cut-moment: the annotated proof reveals a page Talia once designed around Leora's private dedication line
+cut-moment: Inventory with old annotations
 continuation-pressure: professional collaboration becomes impossible to keep emotionally neutral
 
 @location-001-anchor refine
 ref: sensory-anchor:location-primary -> ink oil, paper dust, hot metal type, winter air trapped in skylight glass
-ref: social-signal:location-primary -> work replaces confession here because every surface carries the memory of collaboration
-ref: symbolic-charge:location-primary -> a place where touch leaves visible marks and every correction shows
-ref: conflict-use:location-primary -> routine tasks keep exposing the intimacy both women call professional
+ref: social-signal:location-primary -> how this location signals social dynamics
+ref: symbolic-charge:location-primary -> the symbolic weight this location carries
+ref: conflict-use:location-primary -> how this location intensifies conflict
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the place intimate through work, routine, and shared objects
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @rule-pressure-001-core refine
-ref: visible-symptom:setup -> the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work
-ref: action-limitation:setup -> Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure.
-ref: conflict-output-rule:setup -> shared labor turns every practical choice into a referendum on trust, apology, and future risk
+ref: visible-symptom:setup -> how the world rule becomes visible to characters
+ref: action-limitation:setup -> how the world rule limits what characters can do
+ref: conflict-output-rule:setup -> what kind of conflict the world rule produces
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: treat social expectations as real constraints on intimacy and choice
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @arc-001-protagonist refine
-ref: entry-belief:protagonist -> competence is safer than emotional dependence
-ref: exit-belief:protagonist -> shared risk creates a truer form of security than controlled distance
+ref: entry-belief:protagonist -> the belief the protagonist holds at entry
+ref: exit-belief:protagonist -> the belief the protagonist holds after change
 ref: challenge:protagonist-setup -> Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.
-ref: insight-pressure:protagonist-setup -> the job starts carrying evidence of love rather than just shared labor
+ref: insight-pressure:protagonist-setup -> professional collaboration becomes impossible to keep emotionally neutral
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the arc move through defensiveness, dependence, and honest reciprocity
@@ -301,7 +301,7 @@ ref: scene-introduction:setup-0 -> On the first day back in the studio, Leora an
 ref: scene-development:setup-0 -> Cassia announces the launch deadline and makes their joint contract unavoidable.
 ref: scene-conflict:setup -> Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.
 ref: scene-resolution:setup-mid -> They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.
-ref: scene-state-change:setup-mid -> the studio moves from inheritance problem to emotional workplace
+ref: scene-state-change:setup-mid -> professional collaboration becomes impossible to keep emotionally neutral
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let attraction and defensiveness coexist inside the same exchange
@@ -309,7 +309,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 
 @dialogue-turn-001-01-01 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
-ref: dialogue-line-hint:setup-0-0 -> the annotated proof reveals a page Talia once designed around Leora's private dedication line
+ref: dialogue-line-hint:setup-0-0 -> Inventory with old annotations
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
@@ -319,7 +319,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-001-01-02 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:setup-0-1 -> the annotated proof reveals a page Talia once designed around Leora's private dedication line
+ref: dialogue-line-hint:setup-0-1 -> Inventory with old annotations
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let practical language and emotional risk coexist in the same line
@@ -328,7 +328,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @scene-001-02 refine
 ref: scene-conflict:setup -> Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.
 ref: scene-resolution:setup-mid -> They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.
-ref: scene-state-change:setup-mid -> the studio moves from inheritance problem to emotional workplace
+ref: scene-state-change:setup-mid -> professional collaboration becomes impossible to keep emotionally neutral
 ref: scene-introduction:setup-1 -> Cassia announces the launch deadline and makes their joint contract unavoidable.
 ref: scene-development:setup-1 -> Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
@@ -356,10 +356,10 @@ The refined artifact preserves identifier continuity so deterministic validation
 
 @scene-001-03 refine
 ref: scene-conflict:setup -> Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.
-ref: scene-introduction:setup-2 -> the annotated proof reveals a page Talia once designed around Leora's private dedication line
-ref: scene-development:setup-2 -> the job starts carrying evidence of love rather than just shared labor
+ref: scene-introduction:setup-2 -> On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes.
+ref: scene-development:setup-2 -> Cassia announces the launch deadline and makes their joint contract unavoidable.
 ref: scene-resolution:setup-final -> They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.
-ref: scene-state-change:setup-final -> the studio moves from inheritance problem to emotional workplace
+ref: scene-state-change:setup-final -> professional collaboration becomes impossible to keep emotionally neutral
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let attraction and defensiveness coexist inside the same exchange
@@ -384,7 +384,7 @@ should: let practical language and emotional risk coexist in the same line
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-001-core refine
-ref: dialogue-core-subtext:romance-relational -> Leora Kestrel and Talia Voss keep circling the truth they cannot safely name yet
+ref: dialogue-core-subtext:romance-relational -> Leora Kestrel and Leora Kestrel keep circling the truth they cannot safely name yet
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make subtext carry as much weight as direct confession
@@ -398,14 +398,14 @@ should: make subtext carry as much weight as direct confession
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @pause-001-core refine
-ref: pause-focus:setup -> the studio moves from inheritance problem to emotional workplace
+ref: pause-focus:setup -> professional collaboration becomes impossible to keep emotionally neutral
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pauses and bursts to make vulnerability feel earned rather than abrupt
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @acceleration-001-core refine
-ref: acceleration-trigger:setup -> the annotated proof reveals a page Talia once designed around Leora's private dedication line
+ref: acceleration-trigger:setup -> Inventory with old annotations
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pauses and bursts to make vulnerability feel earned rather than abrupt

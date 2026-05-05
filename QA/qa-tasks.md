@@ -1,26 +1,5 @@
 # QA revision tasks
 
-## qa-drama-silence — Increase lexical novelty
-- Profile: drama
-- Priority: medium
-- Stage: micro
-- Action: Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.
-- Evidence: OI=68
-
-## qa-drama-silence — Reinforce character continuity
-- Profile: drama
-- Priority: medium
-- Stage: cnl
-- Action: Carry character beliefs, fears, and relationship changes more explicitly from refined plans into drafts and exports.
-- Evidence: CAD_score=88
-
-## qa-drama-silence — Improve final prose polish
-- Profile: drama
-- Priority: high
-- Stage: bookwriter
-- Action: Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.
-- Evidence: NQS=88
-
 ## qa-detective-river — Increase lexical novelty
 - Profile: detective-police
 - Priority: medium
@@ -42,22 +21,22 @@
 - Action: Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.
 - Evidence: NQS=88
 
-## qa-scifi-orbit — Increase lexical novelty
-- Profile: science-fiction
+## qa-drama-silence — Increase lexical novelty
+- Profile: drama
 - Priority: medium
 - Stage: micro
 - Action: Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.
-- Evidence: OI=69
+- Evidence: OI=68
 
-## qa-scifi-orbit — Reinforce character continuity
-- Profile: science-fiction
+## qa-drama-silence — Reinforce character continuity
+- Profile: drama
 - Priority: medium
 - Stage: cnl
 - Action: Carry character beliefs, fears, and relationship changes more explicitly from refined plans into drafts and exports.
 - Evidence: CAD_score=88
 
-## qa-scifi-orbit — Improve final prose polish
-- Profile: science-fiction
+## qa-drama-silence — Improve final prose polish
+- Profile: drama
 - Priority: high
 - Stage: bookwriter
 - Action: Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.
@@ -100,6 +79,27 @@
 
 ## qa-romance-margins — Improve final prose polish
 - Profile: romance-relational
+- Priority: high
+- Stage: bookwriter
+- Action: Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.
+- Evidence: NQS=88
+
+## qa-scifi-orbit — Increase lexical novelty
+- Profile: science-fiction
+- Priority: medium
+- Stage: micro
+- Action: Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.
+- Evidence: OI=68
+
+## qa-scifi-orbit — Reinforce character continuity
+- Profile: science-fiction
+- Priority: medium
+- Stage: cnl
+- Action: Carry character beliefs, fears, and relationship changes more explicitly from refined plans into drafts and exports.
+- Evidence: CAD_score=88
+
+## qa-scifi-orbit — Improve final prose polish
+- Profile: science-fiction
 - Priority: high
 - Stage: bookwriter
 - Action: Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.

@@ -1,5 +1,5 @@
 @character-protagonist-001 define
-name: {{character:protagonist-001}}
+name: {{character:PERSON_001}}
 complexity: round
 development-type: dynamic
 archetype: hero
@@ -9,13 +9,13 @@ need: {{need:protagonist}}
 fear: {{fear:protagonist}}
 lie: inheritance-can-be-redeemed
 truth: shared-risk-creates-stronger-agency
-conflict-mode: external
+conflict-mode: mixed
 arc: redemption
 contradictions: {{contradictions:protagonist}}
-relationships: $character-counterpart-001 [conflictual], $character-pressure-001 [hierarchical]
+relationships: $character-counterpart-001 [mentor-student], $character-pressure-001 [hierarchical]
 
 @character-counterpart-001 define
-name: {{character:counterpart-001}}
+name: {{character:PERSON_002}}
 complexity: round
 development-type: dynamic
 archetype: witness
@@ -31,7 +31,7 @@ contradictions: loyal yet evasive, observant yet withholding
 relationships: $character-protagonist-001 [cooperative], $character-pressure-001 [conflictual]
 
 @character-pressure-001 define
-name: {{character:pressure-001}}
+name: {{character:PERSON_003}}
 complexity: round
 development-type: static
 archetype: shadow

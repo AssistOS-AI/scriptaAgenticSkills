@@ -8,7 +8,7 @@ stakes: {{stakes:freedom-consent-memory-agency}}
 opening-mode: aftermath-entry
 development-mode: revelation-ladder
 closing-mode: cliffhanger
-continuity-obligations: later chapters must preserve the consequence introduced in chapter-002
+handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-002
 thematic-focus: freedom-security under dilemma pressure
 rhythm-note: escalating
 chapter-question: {{chapter-question:escalation}}

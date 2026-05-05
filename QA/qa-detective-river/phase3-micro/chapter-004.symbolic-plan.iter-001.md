@@ -4,7 +4,7 @@ link-logic: causal
 chapter: $chapter-004
 objective: {{sequence-objective:culmination}}
 scene-chain: scene-004-01, scene-004-02, scene-004-03
-continuity-thread: each scene must inherit and intensify the previous scene's unresolved pressure
+carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
 conflict-line: {{sequence-conflict:culmination}}
 payoff: the sequence delivers its final irreversible choice
 
@@ -214,7 +214,7 @@ subtext: {{dialogue-core-subtext:detective-police}}
 
 @narration-004-bridge apply
 scope: $chapter-004
-narrator-mode: third-person
+narrator-mode: close-third-person
 function: organizational
 time-handling: mixed
 

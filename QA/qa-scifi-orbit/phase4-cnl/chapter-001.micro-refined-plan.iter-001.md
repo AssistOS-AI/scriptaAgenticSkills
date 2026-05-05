@@ -1,10 +1,10 @@
 @sequence-001-core define
 sequence-type: escape
-link-logic: temporal
+link-logic: mixed
 chapter: $chapter-001
-objective: preserve the anomalous memory trace before the orchard flushes it
+objective: Elian can no longer treat the problem as technical noise
 scene-chain: scene-001-01, scene-001-02, scene-001-03
-continuity-thread: each scene must inherit and intensify the previous scene's unresolved pressure
+carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
 conflict-line: Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.
 payoff: Elian can no longer treat the problem as technical noise
 
@@ -13,24 +13,24 @@ chapter: $chapter-001
 primary-setting: $location-primary
 secondary-setting: $location-secondary
 sensory-anchor: ionized citrus, coolant mist, glass leaves pulsing with archived light
-social-signal: citizens come here to rehearse approved memories in carefully moderated quiet
-symbolic-charge: an engineered garden where recollection has become a civic utility
-conflict-use: intimacy keeps colliding with the fact that every remembered detail may be edited
+social-signal: how this location signals social dynamics
+symbolic-charge: the symbolic weight this location carries
+conflict-use: how this location intensifies conflict
 
 @rule-pressure-001-core apply
 chapter: $chapter-001
 rule-reference: $world-rule-primary
-visible-symptom: citizens remember the emotional aftermath of conflict but not the decisions that created it
-action-limitation: Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.
-conflict-output: technical maintenance becomes indistinguishable from political censorship
+visible-symptom: how the world rule becomes visible to characters
+action-limitation: how the world rule limits what characters can do
+conflict-output: what kind of conflict the world rule produces
 reveal-pattern: embed-rule-in-dialogue
 
 @arc-001-protagonist map
 chapter: $chapter-001
-entry-belief: stable systems prevent larger human harm at the start of the setup chapter
+entry-belief: the belief the protagonist holds at entry at the start of the setup chapter
 challenge: Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.
-insight-pressure: memory corruption becomes proof of historical deletion
-exit-belief: a system that edits consent cannot claim legitimacy even if it remains efficient after the setup chapter
+insight-pressure: Elian can no longer treat the problem as technical noise
+exit-belief: the belief the protagonist holds after change after the setup chapter
 
 @arc-001-relationship map
 chapter: $chapter-001
@@ -48,7 +48,7 @@ anti-flatness-rule: do not chain action summaries without dialogue, atmosphere, 
 @scene-001-01 define
 chapter: $chapter-001
 showing-mode: dialogic
-focalization: zero
+focalization: internal-single
 time-space: $location-primary
 introduction: During a routine recalibration in the mnemonic orchard, Elian hears a protest chant no one else remembers uttering.
 development: Yara identifies the chant as dockside slang from a vanished labor vote.
@@ -56,28 +56,28 @@ conflict: Elian wants to isolate the anomaly quietly, while Yara insists anomali
 resolution: They trace the chant to a recall shard marked as botanical maintenance metadata.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: a harmless system glitch becomes political evidence
+state-change: Elian can no longer treat the problem as technical noise
 
 @action-001-1 place
 action-mode: negotiation
 scene: $scene-001-01
 actor: $character-protagonist-001
-goal: preserve the anomalous memory trace before the orchard flushes it
-obstacle: the civic recall system auto-corrects destabilizing patterns every twelve minutes
+goal: Elian can no longer treat the problem as technical noise
+obstacle: Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-001-1 place
 scope: $scene-001-01
 type: external-technology
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
+stakes: what is at stake in this conflict
 escalation: Yara identifies the chant as dockside slang from a vanished labor vote.
 
 @event-001-1 trigger
 scope: $scene-001-01
 event-type: deadline
-trigger: the shard contains voices naming a vote that station records say never occurred
-impact: memory corruption becomes proof of historical deletion
+trigger: Anomaly inside the orchard
+impact: Elian can no longer treat the problem as technical noise
 follow-through: Elian can no longer treat the problem as technical noise
 
 @dialogue-turn-001-01-01 line
@@ -85,7 +85,7 @@ scene: $scene-001-01
 speaker: $character-counterpart-001
 intent: probe
 subtext: tests whether the other speaker can bear the unsoftened truth
-line-hint: the shard contains voices naming a vote that station records say never occurred
+line-hint: Anomaly inside the orchard
 reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-001-01-02 line
@@ -93,13 +93,13 @@ scene: $scene-001-01
 speaker: $character-protagonist-001
 intent: deflect
 subtext: turns confession sideways to protect status and control
-line-hint: the shard contains voices naming a vote that station records say never occurred
+line-hint: Anomaly inside the orchard
 reaction-beat: The evasion makes the silence more visible than the answer would have.
 
 @scene-001-02 define
 chapter: $chapter-001
 showing-mode: mixed
-focalization: zero
+focalization: internal-single
 time-space: $location-primary
 introduction: Yara identifies the chant as dockside slang from a vanished labor vote.
 development: Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.
@@ -107,28 +107,28 @@ conflict: Elian wants to isolate the anomaly quietly, while Yara insists anomali
 resolution: They trace the chant to a recall shard marked as botanical maintenance metadata.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: a harmless system glitch becomes political evidence
+state-change: Elian can no longer treat the problem as technical noise
 
 @action-001-2 place
 action-mode: pursuit
 scene: $scene-001-02
 actor: $character-protagonist-001
 goal: Elian can no longer treat the problem as technical noise
-obstacle: the civic recall system auto-corrects destabilizing patterns every twelve minutes
+obstacle: Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-001-2 place
 scope: $scene-001-02
 type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
+stakes: what is at stake in this conflict
 escalation: Yara identifies the chant as dockside slang from a vanished labor vote.
 
 @event-001-2 trigger
 scope: $scene-001-02
 event-type: reversal
-trigger: the shard contains voices naming a vote that station records say never occurred
-impact: memory corruption becomes proof of historical deletion
+trigger: Anomaly inside the orchard
+impact: Elian can no longer treat the problem as technical noise
 follow-through: Elian can no longer treat the problem as technical noise
 
 @dialogue-turn-001-02-01 line
@@ -150,36 +150,36 @@ reaction-beat: The evasion makes the silence more visible than the answer would 
 @scene-001-03 define
 chapter: $chapter-001
 showing-mode: compressed-showing
-focalization: zero
+focalization: internal-single
 time-space: $location-primary
-introduction: the shard contains voices naming a vote that station records say never occurred
-development: memory corruption becomes proof of historical deletion
+introduction: During a routine recalibration in the mnemonic orchard, Elian hears a protest chant no one else remembers uttering.
+development: Yara identifies the chant as dockside slang from a vanished labor vote.
 conflict: Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.
 resolution: They trace the chant to a recall shard marked as botanical maintenance metadata.
 exit: the chapter hands off to a sharper setup consequence
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: a harmless system glitch becomes political evidence
+state-change: Elian can no longer treat the problem as technical noise
 
 @action-001-3 place
 action-mode: sacrifice
 scene: $scene-001-03
 actor: $character-protagonist-001
 goal: Anomaly inside the orchard
-obstacle: the civic recall system auto-corrects destabilizing patterns every twelve minutes
-result: a harmless system glitch becomes political evidence
+obstacle: Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.
+result: Elian can no longer treat the problem as technical noise
 
 @conflict-001-3 place
 scope: $scene-001-03
 type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
+stakes: what is at stake in this conflict
 escalation: Yara identifies the chant as dockside slang from a vanished labor vote.
 
 @event-001-3 trigger
 scope: $scene-001-03
 event-type: discovery
-trigger: the shard contains voices naming a vote that station records say never occurred
-impact: memory corruption becomes proof of historical deletion
+trigger: Anomaly inside the orchard
+impact: Elian can no longer treat the problem as technical noise
 follow-through: Elian can no longer treat the problem as technical noise
 
 @dialogue-turn-001-03-01 line
@@ -201,7 +201,7 @@ reaction-beat: The question lands harder than either speaker planned.
 @description-001-atmosphere apply
 scope: $chapter-001
 description-type: atmosphere
-focus: an engineered garden where recollection has become a civic utility
+focus: what the description focuses on
 function: atmospheric
 rhythm-effect: slow
 
@@ -210,11 +210,11 @@ scene: $scene-001-01
 speakers: $character-protagonist-001, $character-counterpart-001
 exchange-type: conflictual
 purpose: tension
-subtext: Elian Quill and Yara Sen keep circling the truth they cannot safely name yet
+subtext: Elian Quill and Elian Quill keep circling the truth they cannot safely name yet
 
 @narration-001-bridge apply
 scope: $chapter-001
-narrator-mode: subjective
+narrator-mode: close-third-person
 function: organizational
 time-handling: mixed
 
@@ -222,7 +222,7 @@ time-handling: mixed
 scene: $scene-001-03
 character: $character-protagonist-001
 function: psychological-insight
-trigger: memory corruption becomes proof of historical deletion
+trigger: Elian can no longer treat the problem as technical noise
 texture: reflective
 
 @suspense-001-core build
@@ -236,47 +236,47 @@ Delayed access, withheld explanation, and emotional pressure should work togethe
 @pause-001-core hold
 scope: $chapter-001
 pause-function: atmospheric
-focus: a harmless system glitch becomes political evidence
+focus: Elian can no longer treat the problem as technical noise
 placement: after-first-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-001-core burst
 scope: $chapter-001
 acceleration-mode: montage
-trigger: the shard contains voices naming a vote that station records say never occurred
+trigger: Anomaly inside the orchard
 reader-effect: compress time and force the next consequence to land without emotional escape
 target-zone: $scene-001-03
 
 @cliffhanger-001-exit cut
 scope: $chapter-001
 cliffhanger-type: unresolved-confrontation
-cut-moment: the shard contains voices naming a vote that station records say never occurred
+cut-moment: Anomaly inside the orchard
 continuation-pressure: Elian can no longer treat the problem as technical noise
 
 @location-001-anchor refine
 ref: sensory-anchor:location-primary -> ionized citrus, coolant mist, glass leaves pulsing with archived light
-ref: social-signal:location-primary -> citizens come here to rehearse approved memories in carefully moderated quiet
-ref: symbolic-charge:location-primary -> an engineered garden where recollection has become a civic utility
-ref: conflict-use:location-primary -> intimacy keeps colliding with the fact that every remembered detail may be edited
+ref: social-signal:location-primary -> how this location signals social dynamics
+ref: symbolic-charge:location-primary -> the symbolic weight this location carries
+ref: conflict-use:location-primary -> how this location intensifies conflict
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the setting engineered, tactile, and ethically revealing
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @rule-pressure-001-core refine
-ref: visible-symptom:setup -> citizens remember the emotional aftermath of conflict but not the decisions that created it
-ref: action-limitation:setup -> Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.
-ref: conflict-output-rule:setup -> technical maintenance becomes indistinguishable from political censorship
+ref: visible-symptom:setup -> how the world rule becomes visible to characters
+ref: action-limitation:setup -> how the world rule limits what characters can do
+ref: conflict-output-rule:setup -> what kind of conflict the world rule produces
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let system rules create action limits, not just background lore
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @arc-001-protagonist refine
-ref: entry-belief:protagonist -> stable systems prevent larger human harm
-ref: exit-belief:protagonist -> a system that edits consent cannot claim legitimacy even if it remains efficient
+ref: entry-belief:protagonist -> the belief the protagonist holds at entry
+ref: exit-belief:protagonist -> the belief the protagonist holds after change
 ref: challenge:protagonist-setup -> Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.
-ref: insight-pressure:protagonist-setup -> memory corruption becomes proof of historical deletion
+ref: insight-pressure:protagonist-setup -> Elian can no longer treat the problem as technical noise
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the arc bind system insight to ethical choice
@@ -301,7 +301,7 @@ ref: scene-introduction:setup-0 -> During a routine recalibration in the mnemoni
 ref: scene-development:setup-0 -> Yara identifies the chant as dockside slang from a vanished labor vote.
 ref: scene-conflict:setup -> Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.
 ref: scene-resolution:setup-mid -> They trace the chant to a recall shard marked as botanical maintenance metadata.
-ref: scene-state-change:setup-mid -> a harmless system glitch becomes political evidence
+ref: scene-state-change:setup-mid -> Elian can no longer treat the problem as technical noise
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance technical detail with human disorientation
@@ -309,7 +309,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 
 @dialogue-turn-001-01-01 refine
 ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
-ref: dialogue-line-hint:setup-0-0 -> the shard contains voices naming a vote that station records say never occurred
+ref: dialogue-line-hint:setup-0-0 -> Anomaly inside the orchard
 ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
@@ -318,7 +318,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 
 @dialogue-turn-001-01-02 refine
 ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
-ref: dialogue-line-hint:setup-0-1 -> the shard contains voices naming a vote that station records say never occurred
+ref: dialogue-line-hint:setup-0-1 -> Anomaly inside the orchard
 ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
@@ -328,7 +328,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @scene-001-02 refine
 ref: scene-conflict:setup -> Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.
 ref: scene-resolution:setup-mid -> They trace the chant to a recall shard marked as botanical maintenance metadata.
-ref: scene-state-change:setup-mid -> a harmless system glitch becomes political evidence
+ref: scene-state-change:setup-mid -> Elian can no longer treat the problem as technical noise
 ref: scene-introduction:setup-1 -> Yara identifies the chant as dockside slang from a vanished labor vote.
 ref: scene-development:setup-1 -> Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
@@ -356,10 +356,10 @@ The refined artifact preserves identifier continuity so deterministic validation
 
 @scene-001-03 refine
 ref: scene-conflict:setup -> Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.
-ref: scene-introduction:setup-2 -> the shard contains voices naming a vote that station records say never occurred
-ref: scene-development:setup-2 -> memory corruption becomes proof of historical deletion
+ref: scene-introduction:setup-2 -> During a routine recalibration in the mnemonic orchard, Elian hears a protest chant no one else remembers uttering.
+ref: scene-development:setup-2 -> Yara identifies the chant as dockside slang from a vanished labor vote.
 ref: scene-resolution:setup-final -> They trace the chant to a recall shard marked as botanical maintenance metadata.
-ref: scene-state-change:setup-final -> a harmless system glitch becomes political evidence
+ref: scene-state-change:setup-final -> Elian can no longer treat the problem as technical noise
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance technical detail with human disorientation
@@ -384,7 +384,7 @@ should: let technical vocabulary carry ethical pressure instead of decorative ja
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-001-core refine
-ref: dialogue-core-subtext:science-fiction -> Elian Quill and Yara Sen keep circling the truth they cannot safely name yet
+ref: dialogue-core-subtext:science-fiction -> Elian Quill and Elian Quill keep circling the truth they cannot safely name yet
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use concrete system language without losing emotional readability
@@ -398,14 +398,14 @@ should: use concrete system language without losing emotional readability
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @pause-001-core refine
-ref: pause-focus:setup -> a harmless system glitch becomes political evidence
+ref: pause-focus:setup -> Elian can no longer treat the problem as technical noise
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance orientation, system pressure, and kinetic consequence
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @acceleration-001-core refine
-ref: acceleration-trigger:setup -> the shard contains voices naming a vote that station records say never occurred
+ref: acceleration-trigger:setup -> Anomaly inside the orchard
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance orientation, system pressure, and kinetic consequence

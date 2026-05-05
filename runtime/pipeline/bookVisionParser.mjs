@@ -52,7 +52,7 @@ export function parseBookVisionMarkdown(content, { sourcePath = '' } = {}) {
     baselineProfile: String(metadata.profile ?? 'drama'),
     profile: String(metadata.profile ?? 'drama'),
     workForm: String(metadata['work-form'] ?? 'novelette'),
-    chapterCount: Number(metadata['chapter-count'] ?? countSceneGroups(scenes) || 4),
+    chapterCount: Number(metadata['chapter-count'] ?? (countSceneGroups(scenes) || 4)),
     sceneDensity: String(metadata['scene-density'] ?? 'medium'),
     targetLanguages: normalizeArray(metadata['target-languages'], ['en', 'ro']),
     brief: firstMeaningful(cleanBody(sections['Core idea']), cleanBody(sections['Short story']), `Vision packet for ${title}`),

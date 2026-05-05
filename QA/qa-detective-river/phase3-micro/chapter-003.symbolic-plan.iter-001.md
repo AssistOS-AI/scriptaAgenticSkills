@@ -1,10 +1,10 @@
 @sequence-003-core define
 sequence-type: investigation
-link-logic: thematic
+link-logic: causal
 chapter: $chapter-003
 objective: {{sequence-objective:investigation}}
 scene-chain: scene-003-01, scene-003-02, scene-003-03
-continuity-thread: each scene must inherit and intensify the previous scene's unresolved pressure
+carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
 conflict-line: {{sequence-conflict:investigation}}
 payoff: {{sequence-payoff:investigation}}
 
@@ -214,7 +214,7 @@ subtext: {{dialogue-core-subtext:detective-police}}
 
 @narration-003-bridge apply
 scope: $chapter-003
-narrator-mode: third-person
+narrator-mode: close-third-person
 function: organizational
 time-handling: mixed
 

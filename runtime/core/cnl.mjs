@@ -1,4 +1,4 @@
-const PLACEHOLDER_PATTERN = /\{\{([a-z-]+):([a-z0-9-]+)\}\}/g;
+const PLACEHOLDER_PATTERN = /\{\{([a-z-]+):([A-Za-z0-9_-]+)\}\}/g;
 const REFERENCE_PATTERN = /\$([A-Za-z][A-Za-z0-9_-]*)/g;
 
 export function createBlock(identifier, verb, fields = [], freeLines = []) {

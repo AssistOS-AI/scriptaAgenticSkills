@@ -11,7 +11,7 @@ dilemma: {{dilemma:central}}
 story-question: {{story-question:central}}
 audience-fit: romance / relational readers
 pitch-test: {{pitch:role-inversion}}
-An editor inherits a print studio and must rebuild it with the designer who once left both the work and her behind.
+Editor Leora Kestrel inherits a failing letterpress studio and can save it only by working with designer Talia Voss, the woman who left both the business and their relationship unfinished three years earlier. Estate manager Cassia Mercer gives them one season to deliver a landmark art-book commission, forcing every practical decision to reopen the tenderness and betrayal buried in the studio itself.
 The symbolic seed leaves surface naming unresolved on purpose so later refinement can introduce more natural language detail.
 
 @theme define
@@ -33,18 +33,18 @@ moral: {{wisdom:moral}}
 reflexive: {{wisdom:reflexive}}
 experiential: {{wisdom:experiential}}
 perspective-mode: single-perspective
-openness: closed
+openness: open
 anti-didactic-rule: insight must emerge from consequences, reversals, and conflicting voices
 
 @narrative-structure define
 information-order: flashback-rich
 causal-density: tight
 macro-form: linear
-beginning: establish $character-protagonist-001 inside $location-primary and the pressure around {{organization:institution-001}}
+beginning: establish $character-protagonist-001 inside $location-primary and the pressure around {{organization:ORG_001}}
 inciting-incident: {{inciting-incident:primary}}
 middle: escalation, pressure, and relational strain expose the cost of {{desire:protagonist}}
 plot-point-1: $character-protagonist-001 commits to action instead of withdrawal
-midpoint: {{object:plot-001}} reveals a hidden layer of the conflict
+midpoint: {{object:OBJECT_001}} reveals a hidden layer of the conflict
 plot-point-2: $character-pressure-001 turns pressure into direct threat
 climax: {{dilemma:central}}
 resolution: a new equilibrium forms after $character-protagonist-001 accepts irreversible cost
@@ -53,7 +53,7 @@ causal-rule: every-reveal-must-change-the-moral-reading
 @narrative-model select
 adaptation-strength: adapted
 model-name: freytag
-core-pattern: disruption-escalates-into-irreversible-choice
+core-pattern: relationship-tested-by-truth
 fit-reason: the romance / relational profile needs direct escalation with meaningful internal cost
 transformation-logic: $character-protagonist-001 changes while the surrounding system reveals its hidden logic
 genre-compatibility: Romance / Relational
@@ -61,11 +61,11 @@ adaptation-note: the chosen model is bent toward short-form clarity and evidence
 
 @blueprint map
 premise: {{premise:primary}}
-exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around {{object:plot-001}}
-rising-action: pressure from $character-pressure-001 and {{organization:institution-001}} complicates every attempt to act
-midpoint-shift: {{object:plot-001}} changes what the protagonist understands about the conflict
+exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around {{object:OBJECT_001}}
+rising-action: pressure from $character-pressure-001 and {{organization:ORG_001}} complicates every attempt to act
+midpoint-shift: {{object:OBJECT_001}} changes what the protagonist understands about the conflict
 climax: {{dilemma:central}}
-resolution: the core conflict resolves with lasting cost and a redefined relation to {{organization:institution-001}}
+resolution: the core conflict resolves with lasting cost and a redefined relation to {{organization:ORG_001}}
 emotional-layer: anticipation -> slight-tension -> surprise -> tension -> satisfaction -> bittersweet-release
 stakes-ladder: private-to-public
 

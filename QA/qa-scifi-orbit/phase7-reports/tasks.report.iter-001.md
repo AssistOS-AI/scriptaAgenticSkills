@@ -4,7 +4,7 @@
 - Priority: medium
 - Stage: micro
 - Action: Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.
-- Evidence: OI=69
+- Evidence: OI=68
 
 ## task-002 — Reinforce character continuity
 - Priority: medium

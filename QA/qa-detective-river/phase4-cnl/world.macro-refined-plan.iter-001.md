@@ -1,11 +1,11 @@
 @plot-element-core-object define
-name: the missing lock-camera drive
+name: OBJECT_001
 category: relationship
 subtype: secret
 function: revelation
-stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
-holders: County Precinct South, $character-pressure-001
-activation: the protagonist decodes the missing lock-camera drive near the midpoint
+stakes: what is at risk if the protagonist fails
+holders: ORG_001, $character-pressure-001
+activation: the protagonist decodes OBJECT_001 near the midpoint
 payoff-zone: midpoint and final confrontation
 
 @plot-device-pressure-shift define
@@ -18,13 +18,13 @@ fairness-rule: every later reveal must have at least one early concrete hint
 @world-subsystem-primary define
 domain: society
 function: defines the system that constrains action and shapes conflict
-conflict-output: every lawful request alerts the people most interested in erasing the answer
+conflict-output: how the world system generates conflict
 visibility: explicit
 
 @world-rule-primary define
 subsystem: primary
-rule-type: resource-scarcity
-rule: Any river death inside the redevelopment corridor is reviewed first by the precinct and only later by the civil prosecutor.
+rule-type: social-norm
+rule: the world rule that governs this domain
 cost: every attempt to solve the central problem increases another kind of loss
 exception: exceptions require a visible trade-off and cannot erase consequences
 traceability: the manuscript must show repeated evidence that the rule shapes decisions
@@ -32,9 +32,9 @@ violation-effect: validation must flag coherence failure if the rule stops matte
 
 @world-rule-secondary define
 subsystem: secondary
-rule-type: social-norm
-rule: Maintenance overrides can be audited only if their physical hardware is recovered from the lock site.
-conflict-transform: Maintenance overrides can be audited only if their physical hardware is recovered from the lock site.
+rule-type: resource-scarcity
+rule: the world rule that governs this domain
+conflict-transform: how the secondary rule transforms conflict
 reveal-mode: explicit
 narrative-duty: the rule should surface through scene friction, not abstract exposition
 
@@ -43,63 +43,63 @@ explicit-zone: opening pressure and late midpoint
 implicit-zone: dialogue beats, location detail, and consequence scenes
 reader-inference-goal: the reader should infer the larger system from local constraints before the book names the whole mechanism
 reveal-strategy: show-consequence-first-explain-cause-later
-rule-to-conflict: Any river death inside the redevelopment corridor is reviewed first by the precinct and only later by the civil prosecutor. so every lawful request alerts the people most interested in erasing the answer
+rule-to-conflict: how the world rule translates into narrative conflict
 
 @location-primary define
 name: the river evidence hangar beside Lock Six
 role: primary pressure stage
 sensory-anchor: diesel sheen, wet rope, fluorescent glare on metal trays
-social-signal: everyone speaks in clipped inventory terms because the room only respects what can be tagged
-symbolic-charge: a warehouse where facts are stored just long enough to be reassigned
-conflict-use: physical traces keep resisting the official story each time they are catalogued
+social-signal: how this location signals social dynamics
+symbolic-charge: the symbolic weight this location carries
+conflict-use: how this location intensifies conflict
 
 @location-secondary define
-name: the abandoned sluice control room above the spillway
+name: LOCATION_002
 role: revelation or narrowing stage
-sensory-anchor: iron rust, mossed concrete, drowned electrical hum
-social-signal: old municipal power lingers here in equipment no one admits still works
-symbolic-charge: the city's hidden mechanism for deciding what gets flushed away
-conflict-use: a confrontation here makes institutional sabotage feel material rather than abstract
+sensory-anchor: diesel sheen, wet rope, fluorescent glare on metal trays
+social-signal: how this location signals social dynamics
+symbolic-charge: the symbolic weight this location carries
+conflict-use: how this location intensifies conflict
 
 @world-rule-primary refine
-ref: rule:world-primary -> Any river death inside the redevelopment corridor is reviewed first by the precinct and only later by the civil prosecutor.
+ref: rule:world-primary -> the world rule that governs this domain
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make rules generate clue pressure and institutional obstruction
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @world-rule-secondary refine
-ref: rule:world-secondary -> Maintenance overrides can be audited only if their physical hardware is recovered from the lock site.
-ref: conflict-transform:world-secondary -> Maintenance overrides can be audited only if their physical hardware is recovered from the lock site.
+ref: rule:world-secondary -> the world rule that governs this domain
+ref: conflict-transform:world-secondary -> how the secondary rule transforms conflict
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make rules generate clue pressure and institutional obstruction
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @world-reveal-strategy refine
-ref: rule-to-conflict:world -> Any river death inside the redevelopment corridor is reviewed first by the precinct and only later by the civil prosecutor. so every lawful request alerts the people most interested in erasing the answer
+ref: rule-to-conflict:world -> how the world rule translates into narrative conflict
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make rules generate clue pressure and institutional obstruction
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @location-primary refine
-ref: location:primary-001 -> the river evidence hangar beside Lock Six
+ref: location:LOCATION_001 -> the river evidence hangar beside Lock Six
 ref: sensory-anchor:location-primary -> diesel sheen, wet rope, fluorescent glare on metal trays
-ref: social-signal:location-primary -> everyone speaks in clipped inventory terms because the room only respects what can be tagged
-ref: symbolic-charge:location-primary -> a warehouse where facts are stored just long enough to be reassigned
-ref: conflict-use:location-primary -> physical traces keep resisting the official story each time they are catalogued
+ref: social-signal:location-primary -> how this location signals social dynamics
+ref: symbolic-charge:location-primary -> the symbolic weight this location carries
+ref: conflict-use:location-primary -> how this location intensifies conflict
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the place feel procedural, political, and materially specific
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @location-secondary refine
-ref: location:secondary-001 -> the abandoned sluice control room above the spillway
-ref: sensory-anchor:location-secondary -> iron rust, mossed concrete, drowned electrical hum
-ref: social-signal:location-secondary -> old municipal power lingers here in equipment no one admits still works
-ref: symbolic-charge:location-secondary -> the city's hidden mechanism for deciding what gets flushed away
-ref: conflict-use:location-secondary -> a confrontation here makes institutional sabotage feel material rather than abstract
+ref: location:LOCATION_002 -> LOCATION_002
+ref: sensory-anchor:location-secondary -> diesel sheen, wet rope, fluorescent glare on metal trays
+ref: social-signal:location-secondary -> how this location signals social dynamics
+ref: symbolic-charge:location-secondary -> the symbolic weight this location carries
+ref: conflict-use:location-secondary -> how this location intensifies conflict
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the place feel procedural, political, and materially specific

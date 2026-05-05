@@ -8,7 +8,7 @@ stakes: {{stakes:freedom-consent-memory-agency}}
 opening-mode: action-entry
 development-mode: revelation-ladder
 closing-mode: open-question
-continuity-obligations: later chapters must preserve the consequence introduced in chapter-003
+handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-003
 thematic-focus: freedom-security under dilemma pressure
 rhythm-note: wave-like
 chapter-question: {{chapter-question:revelation}}

@@ -1,10 +1,10 @@
 @sequence-004-core define
 sequence-type: escape
-link-logic: logical
+link-logic: mixed
 chapter: $chapter-004
 objective: {{sequence-objective:culmination}}
 scene-chain: scene-004-01, scene-004-02, scene-004-03
-continuity-thread: each scene must inherit and intensify the previous scene's unresolved pressure
+carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
 conflict-line: {{sequence-conflict:culmination}}
 payoff: the sequence delivers its final irreversible choice
 
@@ -48,7 +48,7 @@ anti-flatness-rule: do not chain action summaries without dialogue, atmosphere, 
 @scene-004-01 define
 chapter: $chapter-004
 showing-mode: dialogic
-focalization: zero
+focalization: internal-single
 time-space: $location-primary
 introduction: {{scene-introduction:culmination-0}}
 development: {{scene-development:culmination-0}}
@@ -99,7 +99,7 @@ reaction-beat: {{dialogue-reaction:answer-honestly}}
 @scene-004-02 define
 chapter: $chapter-004
 showing-mode: introspective
-focalization: zero
+focalization: internal-single
 time-space: $location-primary
 introduction: {{scene-introduction:culmination-1}}
 development: {{scene-development:culmination-1}}
@@ -150,7 +150,7 @@ reaction-beat: {{dialogue-reaction:name-risk}}
 @scene-004-03 define
 chapter: $chapter-004
 showing-mode: direct-showing
-focalization: zero
+focalization: internal-single
 time-space: $location-primary
 introduction: {{scene-introduction:culmination-2}}
 development: {{scene-development:culmination-2}}
@@ -214,7 +214,7 @@ subtext: {{dialogue-core-subtext:science-fiction}}
 
 @narration-004-bridge apply
 scope: $chapter-004
-narrator-mode: subjective
+narrator-mode: close-third-person
 function: organizational
 time-handling: mixed
 

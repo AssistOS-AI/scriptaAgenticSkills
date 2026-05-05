@@ -22,7 +22,7 @@ Final reader editions assembled from the source BookWriter output and the transl
       "contentLanguage": "en",
       "mode": "source-renderer",
       "translationInstruction": "",
-      "exportPath": "phase8-exports/edition-en.reader.iter-002.html"
+      "exportPath": "phase8-exports/edition-en.reader.iter-001.html"
     },
     {
       "targetLanguage": "ro",
@@ -32,7 +32,7 @@ Final reader editions assembled from the source BookWriter output and the transl
       "exportPath": "phase9-translations/edition-ro.reader.iter-001.html"
     }
   ],
-  "sourceEditionPath": "phase8-exports/edition-en.reader.iter-002.html",
+  "sourceEditionPath": "phase8-exports/edition-en.reader.iter-001.html",
   "sourceBundlePath": "phase8-exports/translation-source.bundle.iter-001.md"
 }
 -->

@@ -4,7 +4,7 @@ link-logic: causal
 chapter: $chapter-001
 objective: {{sequence-objective:setup}}
 scene-chain: scene-001-01, scene-001-02, scene-001-03
-continuity-thread: each scene must inherit and intensify the previous scene's unresolved pressure
+carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
 conflict-line: {{sequence-conflict:setup}}
 payoff: {{sequence-payoff:setup}}
 
@@ -214,7 +214,7 @@ subtext: {{dialogue-core-subtext:romance-relational}}
 
 @narration-001-bridge apply
 scope: $chapter-001
-narrator-mode: first-person
+narrator-mode: close-third-person
 function: organizational
 time-handling: mixed
 

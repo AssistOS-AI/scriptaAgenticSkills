@@ -4,7 +4,7 @@ link-logic: causal
 chapter: $chapter-002
 objective: {{sequence-objective:escalation}}
 scene-chain: scene-002-01, scene-002-02, scene-002-03
-continuity-thread: each scene must inherit and intensify the previous scene's unresolved pressure
+carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
 conflict-line: {{sequence-conflict:escalation}}
 payoff: {{sequence-payoff:escalation}}
 
@@ -214,7 +214,7 @@ subtext: {{dialogue-core-subtext:detective-police}}
 
 @narration-002-bridge apply
 scope: $chapter-002
-narrator-mode: third-person
+narrator-mode: close-third-person
 function: organizational
 time-handling: mixed
 

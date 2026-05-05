@@ -8,7 +8,7 @@ stakes: {{stakes:identity-dignity-belonging-consequence}}
 opening-mode: contextual-setup
 development-mode: escalation
 closing-mode: cliffhanger
-continuity-obligations: later chapters must preserve the consequence introduced in chapter-001
+handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-001
 thematic-focus: identity-self under reconciliation pressure
 rhythm-note: balanced
 chapter-question: {{chapter-question:setup}}

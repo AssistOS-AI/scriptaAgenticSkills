@@ -8,7 +8,7 @@ stakes: {{stakes:lineage-survival-legitimacy-cost}}
 opening-mode: aftermath-entry
 development-mode: confrontation
 closing-mode: reversal
-continuity-obligations: later chapters must preserve the consequence introduced in chapter-004
+handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-004
 thematic-focus: identity-self under reconciliation pressure
 rhythm-note: breathless
 chapter-question: {{chapter-question:culmination}}

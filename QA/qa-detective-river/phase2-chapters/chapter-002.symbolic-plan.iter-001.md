@@ -8,7 +8,7 @@ stakes: {{stakes:justice-legitimacy-trust-safety}}
 opening-mode: dialogue-entry
 development-mode: confrontation
 closing-mode: cliffhanger
-continuity-obligations: later chapters must preserve the consequence introduced in chapter-002
+handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-002
 thematic-focus: identity-self under resistance pressure
 rhythm-note: escalating
 chapter-question: {{chapter-question:escalation}}

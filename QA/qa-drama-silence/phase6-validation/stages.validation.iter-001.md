@@ -7,7 +7,7 @@ Structured validation output stored in Markdown form.
 - {"name":"chapters","score":100,"status":"pass","checks":[{"name":"chapter symbolic plans match requested chapter count","pass":true},{"name":"chapter refined plans match requested chapter count","pass":true},{"name":"chapter plans expose question and alternation fields","pass":true}]}
 - {"name":"micro","score":100,"status":"pass","checks":[{"name":"micro refined plans match requested chapter count","pass":true},{"name":"micro plans contain scene definitions","pass":true},{"name":"micro plans contain dialogue-turn lines","pass":true},{"name":"micro plans contain location, rule-pressure, and arc packets","pass":true},{"name":"micro plans contain pause and acceleration controls","pass":true}]}
 - {"name":"cnl","score":100,"status":"pass","checks":[{"name":"placeholder resolution artifact exists","pass":true},{"name":"refined plans do not retain placeholders","pass":true}]}
-- {"name":"drafts","score":100,"status":"pass","checks":[{"name":"draft count matches requested chapter count","pass":true},{"name":"continuity packets match chapter count","pass":true},{"name":"drafts are not trivially short","pass":true}]}
+- {"name":"drafts","score":100,"status":"pass","checks":[{"name":"draft count matches requested chapter count","pass":true},{"name":"chapter drafts preserve refined chapter state fields","pass":true},{"name":"drafts are not trivially short","pass":true}]}
 - {"name":"exports","score":100,"status":"pass","checks":[{"name":"all requested language editions exist","pass":true},{"name":"all editions passed structural checks","pass":true}]}
 
 <!-- scripta-data
@@ -102,7 +102,7 @@ Structured validation output stored in Markdown form.
         "pass": true
       },
       {
-        "name": "continuity packets match chapter count",
+        "name": "chapter drafts preserve refined chapter state fields",
         "pass": true
       },
       {

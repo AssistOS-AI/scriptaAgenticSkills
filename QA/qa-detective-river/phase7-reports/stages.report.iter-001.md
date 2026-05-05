@@ -33,7 +33,7 @@
 - Score: 100%
 - Status: pass
 - [pass] draft count matches requested chapter count
-- [pass] continuity packets match chapter count
+- [pass] chapter drafts preserve refined chapter state fields
 - [pass] drafts are not trivially short
 
 ## exports

@@ -1,7 +1,7 @@
 # Validation report for qa-scifi-orbit
 
 ## Metrics
-- **OI**: 69%
+- **OI**: 68%
 - **NCS**: 100%
 - **BCI**: 96%
 - **VAD_score**: 100%

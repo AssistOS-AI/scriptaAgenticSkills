@@ -1,10 +1,10 @@
 @sequence-001-core define
 sequence-type: escape
-link-logic: temporal
+link-logic: mixed
 chapter: $chapter-001
 objective: {{sequence-objective:setup}}
 scene-chain: scene-001-01, scene-001-02, scene-001-03
-continuity-thread: each scene must inherit and intensify the previous scene's unresolved pressure
+carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
 conflict-line: {{sequence-conflict:setup}}
 payoff: {{sequence-payoff:setup}}
 
@@ -48,7 +48,7 @@ anti-flatness-rule: do not chain action summaries without dialogue, atmosphere, 
 @scene-001-01 define
 chapter: $chapter-001
 showing-mode: dialogic
-focalization: zero
+focalization: internal-single
 time-space: $location-primary
 introduction: {{scene-introduction:setup-0}}
 development: {{scene-development:setup-0}}
@@ -99,7 +99,7 @@ reaction-beat: {{dialogue-reaction:deflect}}
 @scene-001-02 define
 chapter: $chapter-001
 showing-mode: mixed
-focalization: zero
+focalization: internal-single
 time-space: $location-primary
 introduction: {{scene-introduction:setup-1}}
 development: {{scene-development:setup-1}}
@@ -150,7 +150,7 @@ reaction-beat: {{dialogue-reaction:deflect}}
 @scene-001-03 define
 chapter: $chapter-001
 showing-mode: compressed-showing
-focalization: zero
+focalization: internal-single
 time-space: $location-primary
 introduction: {{scene-introduction:setup-2}}
 development: {{scene-development:setup-2}}
@@ -214,7 +214,7 @@ subtext: {{dialogue-core-subtext:science-fiction}}
 
 @narration-001-bridge apply
 scope: $chapter-001
-narrator-mode: subjective
+narrator-mode: close-third-person
 function: organizational
 time-handling: mixed
 

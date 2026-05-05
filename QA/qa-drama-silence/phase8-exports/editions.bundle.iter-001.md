@@ -1,6 +1,6 @@
-# editions bundle
+# Source editions bundle
 
-Structured export metadata stored in Markdown form.
+Source-side export summary recorded before the translation stage.
 
 ## Languages
 - en
@@ -21,17 +21,13 @@ Structured export metadata stored in Markdown form.
     {
       "targetLanguage": "en",
       "contentLanguage": "en",
-      "mode": "built-in-renderer",
+      "mode": "source-renderer",
       "translationInstruction": "",
       "exportPath": "phase8-exports/edition-en.reader.iter-001.html"
-    },
-    {
-      "targetLanguage": "ro",
-      "contentLanguage": "ro",
-      "mode": "built-in-renderer",
-      "translationInstruction": "",
-      "exportPath": "phase8-exports/edition-ro.reader.iter-001.html"
     }
+  ],
+  "pendingTranslations": [
+    "ro"
   ],
   "validationSnapshot": null,
   "sourceArtifacts": [
@@ -39,10 +35,6 @@ Structured export metadata stored in Markdown form.
     "phase5-drafts/chapter-002.draft.iter-001.md",
     "phase5-drafts/chapter-003.draft.iter-001.md",
     "phase5-drafts/chapter-004.draft.iter-001.md",
-    "phase5-drafts/chapter-001.continuity.iter-001.md",
-    "phase5-drafts/chapter-002.continuity.iter-001.md",
-    "phase5-drafts/chapter-003.continuity.iter-001.md",
-    "phase5-drafts/chapter-004.continuity.iter-001.md",
     "phase4-cnl/chapter-001.chapter-refined-plan.iter-001.md",
     "phase4-cnl/chapter-002.chapter-refined-plan.iter-001.md",
     "phase4-cnl/chapter-003.chapter-refined-plan.iter-001.md",

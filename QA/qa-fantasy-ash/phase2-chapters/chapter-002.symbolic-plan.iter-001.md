@@ -8,7 +8,7 @@ stakes: {{stakes:lineage-survival-legitimacy-cost}}
 opening-mode: contextual-setup
 development-mode: escalation
 closing-mode: cliffhanger
-continuity-obligations: later chapters must preserve the consequence introduced in chapter-002
+handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-002
 thematic-focus: identity-self under reconciliation pressure
 rhythm-note: escalating
 chapter-question: {{chapter-question:escalation}}

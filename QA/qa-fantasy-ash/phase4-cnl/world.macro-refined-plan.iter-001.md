@@ -1,11 +1,11 @@
 @plot-element-core-object define
-name: the original vow chronicle
+name: OBJECT_001
 category: relationship
 subtype: prophecy
 function: revelation
-stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
-holders: House Vale, $character-pressure-001
-activation: the protagonist decodes the original vow chronicle near the midpoint
+stakes: what is at risk if the protagonist fails
+holders: ORG_001, $character-pressure-001
+activation: the protagonist decodes OBJECT_001 near the midpoint
 payoff-zone: midpoint and final confrontation
 
 @plot-device-pressure-shift define
@@ -19,13 +19,13 @@ fairness-rule: every later reveal must have at least one early concrete hint
 domain: magic
 magic-determinacy: semi-hard
 function: defines the system that constrains action and shapes conflict
-conflict-output: every promise of protection arrives already entangled with control, debt, and ancestral shame
+conflict-output: how the world system generates conflict
 visibility: explicit
 
 @world-rule-primary define
 subsystem: primary
-rule-type: physical-limitation
-rule: The valley wards hold only while an heir keeps the furnace vow active through lineage-bound ritual obedience.
+rule-type: metaphysical-cost
+rule: the world rule that governs this domain
 cost: every attempt to solve the central problem increases another kind of loss
 exception: exceptions require a visible trade-off and cannot erase consequences
 traceability: the manuscript must show repeated evidence that the rule shapes decisions
@@ -33,9 +33,9 @@ violation-effect: validation must flag coherence failure if the rule stops matte
 
 @world-rule-secondary define
 subsystem: secondary
-rule-type: technological-restriction
-rule: A ward can be reforged through named communal consent, but only if the hidden dead are spoken publicly first.
-conflict-transform: A ward can be reforged through named communal consent, but only if the hidden dead are spoken publicly first.
+rule-type: metaphysical-cost
+rule: the world rule that governs this domain
+conflict-transform: how the secondary rule transforms conflict
 reveal-mode: explicit
 narrative-duty: the rule should surface through scene friction, not abstract exposition
 
@@ -44,63 +44,63 @@ explicit-zone: opening pressure and late midpoint
 implicit-zone: dialogue beats, location detail, and consequence scenes
 reader-inference-goal: the reader should infer the larger system from local constraints before the book names the whole mechanism
 reveal-strategy: show-exception-to-reveal-rule
-rule-to-conflict: The valley wards hold only while an heir keeps the furnace vow active through lineage-bound ritual obedience. so every promise of protection arrives already entangled with control, debt, and ancestral shame
+rule-to-conflict: how the world rule translates into narrative conflict
 
 @location-primary define
 name: the ash terrace above Drovna village
 role: primary pressure stage
 sensory-anchor: cedar smoke, warm soot under snowlight, bells muffled by volcanic dust
-social-signal: every greeting sounds half like welcome and half like ritual surveillance
-symbolic-charge: a homeland that records lineage in the same ash that settles on the living
-conflict-use: belonging feels real here only when obedience remains visible
+social-signal: how this location signals social dynamics
+symbolic-charge: the symbolic weight this location carries
+conflict-use: how this location intensifies conflict
 
 @location-secondary define
-name: the vow furnace catacombs
+name: LOCATION_002
 role: revelation or narrowing stage
-sensory-anchor: ember breath, iron prayer chains, old ash turning slick under candle wax
-social-signal: power here speaks in liturgy because law and sacrifice were forged together
-symbolic-charge: the family's hidden engine where legitimacy is literally burned into permanence
-conflict-use: secrets become material once spoken beside the furnace that consumed them
+sensory-anchor: cedar smoke, warm soot under snowlight, bells muffled by volcanic dust
+social-signal: how this location signals social dynamics
+symbolic-charge: the symbolic weight this location carries
+conflict-use: how this location intensifies conflict
 
 @world-rule-primary refine
-ref: rule:world-primary -> The valley wards hold only while an heir keeps the furnace vow active through lineage-bound ritual obedience.
+ref: rule:world-primary -> the world rule that governs this domain
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make laws magical, political, and costly in the same movement
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @world-rule-secondary refine
-ref: rule:world-secondary -> A ward can be reforged through named communal consent, but only if the hidden dead are spoken publicly first.
-ref: conflict-transform:world-secondary -> A ward can be reforged through named communal consent, but only if the hidden dead are spoken publicly first.
+ref: rule:world-secondary -> the world rule that governs this domain
+ref: conflict-transform:world-secondary -> how the secondary rule transforms conflict
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make laws magical, political, and costly in the same movement
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @world-reveal-strategy refine
-ref: rule-to-conflict:world -> The valley wards hold only while an heir keeps the furnace vow active through lineage-bound ritual obedience. so every promise of protection arrives already entangled with control, debt, and ancestral shame
+ref: rule-to-conflict:world -> how the world rule translates into narrative conflict
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make laws magical, political, and costly in the same movement
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @location-primary refine
-ref: location:primary-001 -> the ash terrace above Drovna village
+ref: location:LOCATION_001 -> the ash terrace above Drovna village
 ref: sensory-anchor:location-primary -> cedar smoke, warm soot under snowlight, bells muffled by volcanic dust
-ref: social-signal:location-primary -> every greeting sounds half like welcome and half like ritual surveillance
-ref: symbolic-charge:location-primary -> a homeland that records lineage in the same ash that settles on the living
-ref: conflict-use:location-primary -> belonging feels real here only when obedience remains visible
+ref: social-signal:location-primary -> how this location signals social dynamics
+ref: symbolic-charge:location-primary -> the symbolic weight this location carries
+ref: conflict-use:location-primary -> how this location intensifies conflict
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the place sensorial, mythic, and constrained by cost
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @location-secondary refine
-ref: location:secondary-001 -> the vow furnace catacombs
-ref: sensory-anchor:location-secondary -> ember breath, iron prayer chains, old ash turning slick under candle wax
-ref: social-signal:location-secondary -> power here speaks in liturgy because law and sacrifice were forged together
-ref: symbolic-charge:location-secondary -> the family's hidden engine where legitimacy is literally burned into permanence
-ref: conflict-use:location-secondary -> secrets become material once spoken beside the furnace that consumed them
+ref: location:LOCATION_002 -> LOCATION_002
+ref: sensory-anchor:location-secondary -> cedar smoke, warm soot under snowlight, bells muffled by volcanic dust
+ref: social-signal:location-secondary -> how this location signals social dynamics
+ref: symbolic-charge:location-secondary -> the symbolic weight this location carries
+ref: conflict-use:location-secondary -> how this location intensifies conflict
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the place sensorial, mythic, and constrained by cost
