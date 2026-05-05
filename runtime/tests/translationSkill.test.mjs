@@ -25,7 +25,7 @@ test('translation stage emits Romanian editions from the source bundle', async (
 
     assert.match(romanianHtml, /Cuprins/);
     assert.match(romanianHtml, /Pagina de titlu/);
-    assert.match(romanianHtml, /spune/);
+    assert.match(romanianHtml, /Nimic din ceea ce s-a deschis aici nu se va inchide usor\./);
     assert.match(romanianHtml, /Generat cu/);
     assert.doesNotMatch(romanianHtml, /in the /i);
     assert.doesNotMatch(romanianHtml, /Later, in /);

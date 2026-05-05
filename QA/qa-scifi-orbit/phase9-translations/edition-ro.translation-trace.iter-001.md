@@ -7,7 +7,7 @@ Sequential chunk translation trace for the translated reader edition.
   "bookId": "qa-scifi-orbit",
   "sourceLanguage": "en",
   "targetLanguage": "ro",
-  "chunkCount": 101,
+  "chunkCount": 85,
   "chunks": [
     {
       "path": "front.subtitle",
@@ -60,14 +60,14 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 1,
-      "source": "In the mnemonic orchard ring, during a routine recalibration in the mnemonic orchard, elian hears a protest chant no one else remembers uttering..",
-      "translated": "In inelul livezii mnemonice, during a routine recalibration in the mnemonic orchard, elian hears a protest chant no one else remembers uttering.."
+      "source": "During a routine recalibration in the mnemonic orchard, Elian hears a protest chant no one else remembers uttering..",
+      "translated": "During a routine recalibration in the mnemonic orchard, Elian hears a protest chant no one else remembers uttering.."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 2,
-      "source": "Elian Quill tries to preserve the anomalous memory trace before the orchard flushes it, but the civic recall system auto-corrects destabilizing patterns every twelve minutes.",
-      "translated": "Elian Quill incearca sa preserve the anomalous memory trace before the orchard flushes it, dar the civic recall system auto-corrects destabilizing patterns every twelve minutes."
+      "source": "Yara identifies the chant as dockside slang from a vanished labor vote..",
+      "translated": "Yara identifies the chant as dockside slang from a vanished labor vote.."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
@@ -78,32 +78,56 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 4,
-      "source": "The shard contains voices naming a vote that station records say never occurred.",
-      "translated": "The shard contains voices naming a vote that station records say never occurred."
+      "source": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion.",
+      "translated": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion."
+    },
+    {
+      "path": "chapter.chapter-001.paragraph.2",
+      "chunkIndex": 5,
+      "source": "They trace the chant to a recall shard marked as botanical maintenance metadata..",
+      "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata.."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 1,
-      "source": "\"The shard contains voices naming a vote that station records say never occurred\" Yara Sen says.",
-      "translated": "\"The shard contains voices naming a vote that station records say never occurred\" spune Yara Sen."
+      "source": "Later, yara identifies the chant as dockside slang from a vanished labor vote..",
+      "translated": "Later, yara identifies the chant as dockside slang from a vanished labor vote.."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 2,
-      "source": "\"The shard contains voices naming a vote that station records say never occurred\" Elian Quill says.",
-      "translated": "\"The shard contains voices naming a vote that station records say never occurred\" spune Elian Quill."
+      "source": "Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances..",
+      "translated": "Elian vrea sa izoleze anomalia in tacere, in timp ce Yara insista ca anomaliile supravietuiesc doar daca cineva actioneaza inainte ca sistemul sa se reechilibreze.."
+    },
+    {
+      "path": "chapter.chapter-001.paragraph.3",
+      "chunkIndex": 3,
+      "source": "Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances..",
+      "translated": "Elian vrea sa izoleze anomalia in tacere, in timp ce Yara insista ca anomaliile supravietuiesc doar daca cineva actioneaza inainte ca sistemul sa se reechilibreze.."
+    },
+    {
+      "path": "chapter.chapter-001.paragraph.3",
+      "chunkIndex": 4,
+      "source": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion.",
+      "translated": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion."
+    },
+    {
+      "path": "chapter.chapter-001.paragraph.3",
+      "chunkIndex": 5,
+      "source": "They trace the chant to a recall shard marked as botanical maintenance metadata..",
+      "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata.."
     },
     {
       "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 1,
-      "source": "Later, in the mnemonic orchard ring, yara identifies the chant as dockside slang from a vanished labor vote..",
-      "translated": "Mai tarziu, in inelul livezii mnemonice, yara identifies the chant as dockside slang from a vanished labor vote.."
+      "source": "Later, the shard contains voices naming a vote that station records say never occurred.",
+      "translated": "Later, the shard contains voices naming a vote that station records say never occurred."
     },
     {
       "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 2,
-      "source": "Elian Quill tries to Elian can no longer treat the problem as technical noise, but the civic recall system auto-corrects destabilizing patterns every twelve minutes.",
-      "translated": "Elian Quill incearca sa elian can no longer treat the problem as technical noise, dar the civic recall system auto-corrects destabilizing patterns every twelve minutes."
+      "source": "Memory corruption becomes proof of historical deletion.",
+      "translated": "Memory corruption becomes proof of historical deletion."
     },
     {
       "path": "chapter.chapter-001.paragraph.4",
@@ -114,72 +138,24 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 4,
-      "source": "The shard contains voices naming a vote that station records say never occurred.",
-      "translated": "The shard contains voices naming a vote that station records say never occurred."
+      "source": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion.",
+      "translated": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion."
+    },
+    {
+      "path": "chapter.chapter-001.paragraph.4",
+      "chunkIndex": 5,
+      "source": "They trace the chant to a recall shard marked as botanical maintenance metadata..",
+      "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata.."
     },
     {
       "path": "chapter.chapter-001.paragraph.5",
       "chunkIndex": 1,
-      "source": "\"Anomaly inside the orchard\" Yara Sen says.",
-      "translated": "\"Anomalia din livada\" spune Yara Sen."
+      "source": "Nothing that has opened here will close easily.",
+      "translated": "Nimic din ceea ce s-a deschis aici nu se va inchide usor."
     },
     {
       "path": "chapter.chapter-001.paragraph.5",
       "chunkIndex": 2,
-      "source": "\"Anomaly inside the orchard\" Elian Quill says.",
-      "translated": "\"Anomalia din livada\" spune Elian Quill."
-    },
-    {
-      "path": "chapter.chapter-001.paragraph.6",
-      "chunkIndex": 1,
-      "source": "Later, in the mnemonic orchard ring, the shard contains voices naming a vote that station records say never occurred.",
-      "translated": "Mai tarziu, in inelul livezii mnemonice, the shard contains voices naming a vote that station records say never occurred."
-    },
-    {
-      "path": "chapter.chapter-001.paragraph.6",
-      "chunkIndex": 2,
-      "source": "Elian Quill tries to Anomaly inside the orchard, but the civic recall system auto-corrects destabilizing patterns every twelve minutes.",
-      "translated": "Elian Quill incearca sa anomalia din livada, dar the civic recall system auto-corrects destabilizing patterns every twelve minutes."
-    },
-    {
-      "path": "chapter.chapter-001.paragraph.6",
-      "chunkIndex": 3,
-      "source": "Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances..",
-      "translated": "Elian vrea sa izoleze anomalia in tacere, in timp ce Yara insista ca anomaliile supravietuiesc doar daca cineva actioneaza inainte ca sistemul sa se reechilibreze.."
-    },
-    {
-      "path": "chapter.chapter-001.paragraph.6",
-      "chunkIndex": 4,
-      "source": "The shard contains voices naming a vote that station records say never occurred.",
-      "translated": "The shard contains voices naming a vote that station records say never occurred."
-    },
-    {
-      "path": "chapter.chapter-001.paragraph.7",
-      "chunkIndex": 1,
-      "source": "\"Yara identifies the chant as dockside slang from a vanished labor vote.\" Yara Sen says.",
-      "translated": "\"Yara identifies the chant as dockside slang from a vanished labor vote\" spune Yara Sen."
-    },
-    {
-      "path": "chapter.chapter-001.paragraph.7",
-      "chunkIndex": 2,
-      "source": "\"Yara identifies the chant as dockside slang from a vanished labor vote.",
-      "translated": "\"Yara identifies the chant as dockside slang from a vanished labor vote."
-    },
-    {
-      "path": "chapter.chapter-001.paragraph.7",
-      "chunkIndex": 3,
-      "source": "\" Elian Quill says.",
-      "translated": "\" Elian Quill says."
-    },
-    {
-      "path": "chapter.chapter-001.paragraph.8",
-      "chunkIndex": 1,
-      "source": "Nothing that has opened here will close easily.",
-      "translated": "Nimic din ceea ce s-a deschis aici nu se va inchide usor."
-    },
-    {
-      "path": "chapter.chapter-001.paragraph.8",
-      "chunkIndex": 2,
       "source": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?.",
       "translated": "Poate Elian sa restaureze memoria statiei fara sa distruga pacea fragila construita pe uitare?."
     },
@@ -204,14 +180,14 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 1,
-      "source": "In the mnemonic orchard ring, yara flies elian through maintenance lanes no civilian archivist is meant to access..",
-      "translated": "In inelul livezii mnemonice, yara flies elian through maintenance lanes no civilian archivist is meant to access.."
+      "source": "Yara flies Elian through maintenance lanes no civilian archivist is meant to access..",
+      "translated": "Yara flies Elian through maintenance lanes no civilian archivist is meant to access.."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 2,
-      "source": "Elian Quill tries to locate the archive ring without triggering a council lockdown, but the shuttle navigation grid reassigns routes whenever forbidden sectors are approached.",
-      "translated": "Elian Quill incearca sa locate the archive ring without triggering a council lockdown, dar the shuttle navigation grid reassigns routes whenever forbidden sectors are approached."
+      "source": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute..",
+      "translated": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
@@ -222,32 +198,56 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 4,
-      "source": "One phantom crate is tagged with Elian's own authorization signature from two years earlier.",
-      "translated": "Un container fantoma poarta chiar semnatura de autorizare a lui Elian de acum doi ani."
+      "source": "When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past.",
+      "translated": "When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past."
+    },
+    {
+      "path": "chapter.chapter-002.paragraph.2",
+      "chunkIndex": 5,
+      "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map..",
+      "translated": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 1,
-      "source": "\"One phantom crate is tagged with Elian's own authorization signature from two years earlier\" Yara Sen says.",
-      "translated": "\"One phantom crate is tagged with Elian's own authorization signature from two years earlier\" spune Yara Sen."
+      "source": "Later, they discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute..",
+      "translated": "Later, they discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 2,
-      "source": "\"One phantom crate is tagged with Elian's own authorization signature from two years earlier\" Elian Quill says.",
-      "translated": "\"One phantom crate is tagged with Elian's own authorization signature from two years earlier\" spune Elian Quill."
+      "source": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent..",
+      "translated": "Elian inca spera ca forul a pastrat amintirile pentru o carantina legala, in timp ce Yara crede ca arhiva este o camera mortuara pentru disidenta.."
+    },
+    {
+      "path": "chapter.chapter-002.paragraph.3",
+      "chunkIndex": 3,
+      "source": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent..",
+      "translated": "Elian inca spera ca forul a pastrat amintirile pentru o carantina legala, in timp ce Yara crede ca arhiva este o camera mortuara pentru disidenta.."
+    },
+    {
+      "path": "chapter.chapter-002.paragraph.3",
+      "chunkIndex": 4,
+      "source": "When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past.",
+      "translated": "When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past."
+    },
+    {
+      "path": "chapter.chapter-002.paragraph.3",
+      "chunkIndex": 5,
+      "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map..",
+      "translated": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.."
     },
     {
       "path": "chapter.chapter-002.paragraph.4",
       "chunkIndex": 1,
-      "source": "Later, in the mnemonic orchard ring, they discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute..",
-      "translated": "Mai tarziu, in inelul livezii mnemonice, they discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.."
+      "source": "Later, one phantom crate is tagged with elian's own authorization signature from two years earlier.",
+      "translated": "Later, Un container fantoma poarta chiar semnatura de autorizare a lui Elian de acum doi ani."
     },
     {
       "path": "chapter.chapter-002.paragraph.4",
       "chunkIndex": 2,
-      "source": "Elian Quill tries to technical distance gives way to personal implication, but the shuttle navigation grid reassigns routes whenever forbidden sectors are approached.",
-      "translated": "Elian Quill incearca sa technical distance gives way to personal implication, dar the shuttle navigation grid reassigns routes whenever forbidden sectors are approached."
+      "source": "The conspiracy reaches into Elian's professional past.",
+      "translated": "The conspiracy reaches into Elian's professional past."
     },
     {
       "path": "chapter.chapter-002.paragraph.4",
@@ -258,71 +258,23 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.4",
       "chunkIndex": 4,
-      "source": "One phantom crate is tagged with Elian's own authorization signature from two years earlier.",
-      "translated": "Un container fantoma poarta chiar semnatura de autorizare a lui Elian de acum doi ani."
+      "source": "When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past.",
+      "translated": "When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past."
+    },
+    {
+      "path": "chapter.chapter-002.paragraph.4",
+      "chunkIndex": 5,
+      "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map..",
+      "translated": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.."
     },
     {
       "path": "chapter.chapter-002.paragraph.5",
-      "chunkIndex": 1,
-      "source": "\"Cargo route for the vanished vote\" Yara Sen says.",
-      "translated": "\"Cargo route for the vanished vote\" spune Yara Sen."
-    },
-    {
-      "path": "chapter.chapter-002.paragraph.5",
-      "chunkIndex": 2,
-      "source": "\"Cargo route for the vanished vote\" Elian Quill says.",
-      "translated": "\"Cargo route for the vanished vote\" spune Elian Quill."
-    },
-    {
-      "path": "chapter.chapter-002.paragraph.6",
-      "chunkIndex": 1,
-      "source": "Later, in the mnemonic orchard ring, one phantom crate is tagged with elian's own authorization signature from two years earlier.",
-      "translated": "Mai tarziu, in inelul livezii mnemonice, un container fantoma poarta chiar semnatura de autorizare a lui Elian de acum doi ani."
-    },
-    {
-      "path": "chapter.chapter-002.paragraph.6",
-      "chunkIndex": 2,
-      "source": "Elian Quill tries to Cargo route for the vanished vote, but the shuttle navigation grid reassigns routes whenever forbidden sectors are approached.",
-      "translated": "Elian Quill incearca sa cargo route for the vanished vote, dar the shuttle navigation grid reassigns routes whenever forbidden sectors are approached."
-    },
-    {
-      "path": "chapter.chapter-002.paragraph.6",
-      "chunkIndex": 3,
-      "source": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent..",
-      "translated": "Elian inca spera ca forul a pastrat amintirile pentru o carantina legala, in timp ce Yara crede ca arhiva este o camera mortuara pentru disidenta.."
-    },
-    {
-      "path": "chapter.chapter-002.paragraph.6",
-      "chunkIndex": 4,
-      "source": "One phantom crate is tagged with Elian's own authorization signature from two years earlier.",
-      "translated": "Un container fantoma poarta chiar semnatura de autorizare a lui Elian de acum doi ani."
-    },
-    {
-      "path": "chapter.chapter-002.paragraph.7",
-      "chunkIndex": 1,
-      "source": "\"They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.\" Yara Sen says.",
-      "translated": "\"They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute\" spune Yara Sen."
-    },
-    {
-      "path": "chapter.chapter-002.paragraph.7",
-      "chunkIndex": 2,
-      "source": "\"They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.",
-      "translated": "\"They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute."
-    },
-    {
-      "path": "chapter.chapter-002.paragraph.7",
-      "chunkIndex": 3,
-      "source": "\" Elian Quill says.",
-      "translated": "\" Elian Quill says."
-    },
-    {
-      "path": "chapter.chapter-002.paragraph.8",
       "chunkIndex": 1,
       "source": "Nothing that has opened here will close easily.",
       "translated": "Nimic din ceea ce s-a deschis aici nu se va inchide usor."
     },
     {
-      "path": "chapter.chapter-002.paragraph.8",
+      "path": "chapter.chapter-002.paragraph.5",
       "chunkIndex": 2,
       "source": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?.",
       "translated": "Poate Elian sa restaureze memoria statiei fara sa distruga pacea fragila construita pe uitare?."
@@ -348,14 +300,14 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 1,
-      "source": "In the mnemonic orchard ring, inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies..",
-      "translated": "In inelul livezii mnemonice, inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies.."
+      "source": "Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies..",
+      "translated": "Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies.."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 2,
-      "source": "Elian Quill tries to design a restoration sequence that exposes the lie without collapsing life-support trust, but the archive is wired to purge itself if council override detects mass upload behavior.",
-      "translated": "Elian Quill incearca sa design a restoration sequence that exposes the lie without collapsing life-support trust, dar the archive is wired to purge itself if council override detects mass upload behavior."
+      "source": "Elian sees that her old optimization patch became the core of the pacification protocol..",
+      "translated": "Elian sees that her old optimization patch became the core of the pacification protocol.."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
@@ -366,32 +318,56 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 4,
-      "source": "The recovered vote proves the station once rejected the pacification protocol outright.",
-      "translated": "Votul recuperat dovedeste ca statia a respins odinioara fara echivoc protocolul de pacificare."
+      "source": "When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file.",
+      "translated": "When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file."
+    },
+    {
+      "path": "chapter.chapter-003.paragraph.2",
+      "chunkIndex": 5,
+      "source": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once..",
+      "translated": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 1,
-      "source": "\"The recovered vote proves the station once rejected the pacification protocol outright\" Yara Sen says.",
-      "translated": "\"The recovered vote proves the station once rejected the pacification protocol outright\" spune Yara Sen."
+      "source": "Later, elian sees that her old optimization patch became the core of the pacification protocol..",
+      "translated": "Later, elian sees that her old optimization patch became the core of the pacification protocol.."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 2,
-      "source": "\"The recovered vote proves the station once rejected the pacification protocol outright\" Elian Quill says.",
-      "translated": "\"The recovered vote proves the station once rejected the pacification protocol outright\" spune Elian Quill."
+      "source": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent..",
+      "translated": "Restaurarea memoriei la scara intregii statii ar putea declansa panica si victime secundare, iar lasarea arhivei ascunse inseamna un consimtamant falsificat pentru totdeauna.."
+    },
+    {
+      "path": "chapter.chapter-003.paragraph.3",
+      "chunkIndex": 3,
+      "source": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent..",
+      "translated": "Restaurarea memoriei la scara intregii statii ar putea declansa panica si victime secundare, iar lasarea arhivei ascunse inseamna un consimtamant falsificat pentru totdeauna.."
+    },
+    {
+      "path": "chapter.chapter-003.paragraph.3",
+      "chunkIndex": 4,
+      "source": "When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file.",
+      "translated": "When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file."
+    },
+    {
+      "path": "chapter.chapter-003.paragraph.3",
+      "chunkIndex": 5,
+      "source": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once..",
+      "translated": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.."
     },
     {
       "path": "chapter.chapter-003.paragraph.4",
       "chunkIndex": 1,
-      "source": "Later, in the mnemonic orchard ring, elian sees that her old optimization patch became the core of the pacification protocol..",
-      "translated": "Mai tarziu, in inelul livezii mnemonice, elian sees that her old optimization patch became the core of the pacification protocol.."
+      "source": "Later, the recovered vote proves the station once rejected the pacification protocol outright.",
+      "translated": "Later, Votul recuperat dovedeste ca statia a respins odinioara fara echivoc protocolul de pacificare."
     },
     {
       "path": "chapter.chapter-003.paragraph.4",
       "chunkIndex": 2,
-      "source": "Elian Quill tries to Elian finally knows what truth must be returned first, but the archive is wired to purge itself if council override detects mass upload behavior.",
-      "translated": "Elian Quill incearca sa elian finally knows what truth must be returned first, dar the archive is wired to purge itself if council override detects mass upload behavior."
+      "source": "The council's legitimacy evaporates in one file.",
+      "translated": "The council's legitimacy evaporates in one file."
     },
     {
       "path": "chapter.chapter-003.paragraph.4",
@@ -402,71 +378,23 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.4",
       "chunkIndex": 4,
-      "source": "The recovered vote proves the station once rejected the pacification protocol outright.",
-      "translated": "Votul recuperat dovedeste ca statia a respins odinioara fara echivoc protocolul de pacificare."
+      "source": "When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file.",
+      "translated": "When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file."
+    },
+    {
+      "path": "chapter.chapter-003.paragraph.4",
+      "chunkIndex": 5,
+      "source": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once..",
+      "translated": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.."
     },
     {
       "path": "chapter.chapter-003.paragraph.5",
-      "chunkIndex": 1,
-      "source": "\"The room of amputated recall\" Yara Sen says.",
-      "translated": "\"The room of amputated recall\" spune Yara Sen."
-    },
-    {
-      "path": "chapter.chapter-003.paragraph.5",
-      "chunkIndex": 2,
-      "source": "\"The room of amputated recall\" Elian Quill says.",
-      "translated": "\"The room of amputated recall\" spune Elian Quill."
-    },
-    {
-      "path": "chapter.chapter-003.paragraph.6",
-      "chunkIndex": 1,
-      "source": "Later, in the mnemonic orchard ring, the recovered vote proves the station once rejected the pacification protocol outright.",
-      "translated": "Mai tarziu, in inelul livezii mnemonice, votul recuperat dovedeste ca statia a respins odinioara fara echivoc protocolul de pacificare."
-    },
-    {
-      "path": "chapter.chapter-003.paragraph.6",
-      "chunkIndex": 2,
-      "source": "Elian Quill tries to The room of amputated recall, but the archive is wired to purge itself if council override detects mass upload behavior.",
-      "translated": "Elian Quill incearca sa the room of amputated recall, dar the archive is wired to purge itself if council override detects mass upload behavior."
-    },
-    {
-      "path": "chapter.chapter-003.paragraph.6",
-      "chunkIndex": 3,
-      "source": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent..",
-      "translated": "Restaurarea memoriei la scara intregii statii ar putea declansa panica si victime secundare, iar lasarea arhivei ascunse inseamna un consimtamant falsificat pentru totdeauna.."
-    },
-    {
-      "path": "chapter.chapter-003.paragraph.6",
-      "chunkIndex": 4,
-      "source": "The recovered vote proves the station once rejected the pacification protocol outright.",
-      "translated": "Votul recuperat dovedeste ca statia a respins odinioara fara echivoc protocolul de pacificare."
-    },
-    {
-      "path": "chapter.chapter-003.paragraph.7",
-      "chunkIndex": 1,
-      "source": "\"Elian sees that her old optimization patch became the core of the pacification protocol.\" Yara Sen says.",
-      "translated": "\"Elian sees that her old optimization patch became the core of the pacification protocol\" spune Yara Sen."
-    },
-    {
-      "path": "chapter.chapter-003.paragraph.7",
-      "chunkIndex": 2,
-      "source": "\"Elian sees that her old optimization patch became the core of the pacification protocol.",
-      "translated": "\"Elian sees that her old optimization patch became the core of the pacification protocol."
-    },
-    {
-      "path": "chapter.chapter-003.paragraph.7",
-      "chunkIndex": 3,
-      "source": "\" Elian Quill says.",
-      "translated": "\" Elian Quill says."
-    },
-    {
-      "path": "chapter.chapter-003.paragraph.8",
       "chunkIndex": 1,
       "source": "Nothing that has opened here will close easily.",
       "translated": "Nimic din ceea ce s-a deschis aici nu se va inchide usor."
     },
     {
-      "path": "chapter.chapter-003.paragraph.8",
+      "path": "chapter.chapter-003.paragraph.5",
       "chunkIndex": 2,
       "source": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?.",
       "translated": "Poate Elian sa restaureze memoria statiei fara sa distruga pacea fragila construita pe uitare?."
@@ -492,14 +420,14 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 1,
-      "source": "In the mnemonic orchard ring, as the council begins a fresh memory smoothing cycle, elian hijacks the orchard display lattice..",
-      "translated": "In inelul livezii mnemonice, as the council begins a fresh memory smoothing cycle, elian hijacks the orchard display lattice.."
+      "source": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice..",
+      "translated": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 2,
-      "source": "Elian Quill tries to restore shared memory faster than the council can trigger another wipe, but the pacification cycle treats truth itself as a destabilizing contaminant.",
-      "translated": "Elian Quill incearca sa restore shared memory faster than the council can trigger another wipe, dar the pacification cycle treats truth itself as a destabilizing contaminant."
+      "source": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes..",
+      "translated": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
@@ -510,32 +438,56 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 4,
-      "source": "Citizens across the station begin repeating the erased vote count aloud.",
-      "translated": "Cetatenii din toata statia incep sa repete cu voce tare numarul de voturi sters."
+      "source": "When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence.",
+      "translated": "When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence."
+    },
+    {
+      "path": "chapter.chapter-004.paragraph.2",
+      "chunkIndex": 5,
+      "source": "She releases the memory to everyone and lets the station face its first honest unrest in years..",
+      "translated": "She releases the memory to everyone and lets the station face its first honest unrest in years.."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 1,
-      "source": "\"Citizens across the station begin repeating the erased vote count aloud\" Yara Sen says.",
-      "translated": "\"Citizens across the station begin repeating the erased vote count aloud\" spune Yara Sen."
+      "source": "Later, yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes..",
+      "translated": "Later, yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 2,
-      "source": "\"Citizens across the station begin repeating the erased vote count aloud\" Elian Quill says.",
-      "translated": "\"Citizens across the station begin repeating the erased vote count aloud\" spune Elian Quill."
+      "source": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once..",
+      "translated": "Elian mai poate limita divulgarea doar la consiliu sau poate lasa fiecare locuitor sa recupereze deodata aceeasi decizie disparuta.."
+    },
+    {
+      "path": "chapter.chapter-004.paragraph.3",
+      "chunkIndex": 3,
+      "source": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once..",
+      "translated": "Elian mai poate limita divulgarea doar la consiliu sau poate lasa fiecare locuitor sa recupereze deodata aceeasi decizie disparuta.."
+    },
+    {
+      "path": "chapter.chapter-004.paragraph.3",
+      "chunkIndex": 4,
+      "source": "When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence.",
+      "translated": "When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence."
+    },
+    {
+      "path": "chapter.chapter-004.paragraph.3",
+      "chunkIndex": 5,
+      "source": "She releases the memory to everyone and lets the station face its first honest unrest in years..",
+      "translated": "She releases the memory to everyone and lets the station face its first honest unrest in years.."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 1,
-      "source": "Later, in the mnemonic orchard ring, yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes..",
-      "translated": "Mai tarziu, in inelul livezii mnemonice, yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.."
+      "source": "Later, citizens across the station begin repeating the erased vote count aloud.",
+      "translated": "Later, Cetatenii din toata statia incep sa repete cu voce tare numarul de voturi sters."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 2,
-      "source": "Elian Quill tries to the station survives only by surrendering its false innocence, but the pacification cycle treats truth itself as a destabilizing contaminant.",
-      "translated": "Elian Quill incearca sa the station survives only by surrendering its false innocence, dar the pacification cycle treats truth itself as a destabilizing contaminant."
+      "source": "Public memory becomes impossible to confiscate again in silence.",
+      "translated": "Public memory becomes impossible to confiscate again in silence."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
@@ -546,71 +498,23 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 4,
-      "source": "Citizens across the station begin repeating the erased vote count aloud.",
-      "translated": "Cetatenii din toata statia incep sa repete cu voce tare numarul de voturi sters."
+      "source": "When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence.",
+      "translated": "When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence."
+    },
+    {
+      "path": "chapter.chapter-004.paragraph.4",
+      "chunkIndex": 5,
+      "source": "She releases the memory to everyone and lets the station face its first honest unrest in years..",
+      "translated": "She releases the memory to everyone and lets the station face its first honest unrest in years.."
     },
     {
       "path": "chapter.chapter-004.paragraph.5",
-      "chunkIndex": 1,
-      "source": "\"Broadcast of the unreturned\" Yara Sen says.",
-      "translated": "\"Broadcast of the unreturned\" spune Yara Sen."
-    },
-    {
-      "path": "chapter.chapter-004.paragraph.5",
-      "chunkIndex": 2,
-      "source": "\"Broadcast of the unreturned\" Elian Quill says.",
-      "translated": "\"Broadcast of the unreturned\" spune Elian Quill."
-    },
-    {
-      "path": "chapter.chapter-004.paragraph.6",
-      "chunkIndex": 1,
-      "source": "Later, in the mnemonic orchard ring, citizens across the station begin repeating the erased vote count aloud.",
-      "translated": "Mai tarziu, in inelul livezii mnemonice, cetatenii din toata statia incep sa repete cu voce tare numarul de voturi sters."
-    },
-    {
-      "path": "chapter.chapter-004.paragraph.6",
-      "chunkIndex": 2,
-      "source": "Elian Quill tries to Broadcast of the unreturned, but the pacification cycle treats truth itself as a destabilizing contaminant.",
-      "translated": "Elian Quill incearca sa broadcast of the unreturned, dar the pacification cycle treats truth itself as a destabilizing contaminant."
-    },
-    {
-      "path": "chapter.chapter-004.paragraph.6",
-      "chunkIndex": 3,
-      "source": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once..",
-      "translated": "Elian mai poate limita divulgarea doar la consiliu sau poate lasa fiecare locuitor sa recupereze deodata aceeasi decizie disparuta.."
-    },
-    {
-      "path": "chapter.chapter-004.paragraph.6",
-      "chunkIndex": 4,
-      "source": "Citizens across the station begin repeating the erased vote count aloud.",
-      "translated": "Cetatenii din toata statia incep sa repete cu voce tare numarul de voturi sters."
-    },
-    {
-      "path": "chapter.chapter-004.paragraph.7",
-      "chunkIndex": 1,
-      "source": "\"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.\" Yara Sen says.",
-      "translated": "\"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes\" spune Yara Sen."
-    },
-    {
-      "path": "chapter.chapter-004.paragraph.7",
-      "chunkIndex": 2,
-      "source": "\"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
-      "translated": "\"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
-    },
-    {
-      "path": "chapter.chapter-004.paragraph.7",
-      "chunkIndex": 3,
-      "source": "\" Elian Quill says.",
-      "translated": "\" Elian Quill says."
-    },
-    {
-      "path": "chapter.chapter-004.paragraph.8",
       "chunkIndex": 1,
       "source": "Elian Quill understands now that a system that edits consent cannot claim legitimacy even if it remains efficient visible-cost-is-preferable-to-stable-falsehood.",
       "translated": "Elian Quill intelege acum ca a system that edits consent cannot claim legitimacy even if it remains efficient visible-cost-is-preferable-to-stable-falsehood."
     },
     {
-      "path": "chapter.chapter-004.paragraph.8",
+      "path": "chapter.chapter-004.paragraph.5",
       "chunkIndex": 2,
       "source": "Scarred-trust-rebuilt-on-painful-clarity.",
       "translated": "Scarred-trust-rebuilt-on-painful-clarity."

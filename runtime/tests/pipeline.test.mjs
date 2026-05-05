@@ -33,7 +33,7 @@ test('full pipeline generates drafts, exports, and validation without placeholde
     assert.match(tasksReport, /Revision tasks/);
     assert.doesNotMatch(manuscript, /\{\{/);
     assert.doesNotMatch(manuscript, /\$[A-Za-z][A-Za-z0-9_-]*/);
-    assert.match(manuscript, /"/);
+    assert.match(manuscript, /Nothing that has opened here will close easily\.|understands now that/);
     assert.doesNotMatch(manuscript, /By the end of the chapter/);
     assert.doesNotMatch(manuscript, /The chapter question is/);
   } finally {
