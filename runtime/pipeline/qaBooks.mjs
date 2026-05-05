@@ -1,20 +1,29 @@
-import { mkdir } from 'node:fs/promises';
-import { QA_BOOKS } from '../config/qaBooks.mjs';
+import { mkdir, readdir, rm, writeFile } from 'node:fs/promises';
+import { basename, join, resolve } from 'node:path';
 import { writeStructuredMarkdown, writeText } from '../core/workspace.mjs';
+import { loadQaBookInputs } from './bookVisionParser.mjs';
 import { runBookPipeline } from './runBookPipeline.mjs';
 
 export async function runQaGeneration(baseRoot = null) {
   const summaries = [];
   const consolidatedTasks = [];
   const publishedBooks = [];
-  const summaryRoot = baseRoot ?? `${process.cwd()}/QA`;
+  const summaryRoot = resolve(baseRoot ?? `${process.cwd()}/QA`);
+  const sourceRoot = resolve(`${process.cwd()}/QA`);
+  const qaBooks = await loadQaBookInputs({
+    sourceRoot,
+    outputRoot: summaryRoot
+  });
 
-  for (const qaBook of QA_BOOKS) {
+  await resetQaOutput(summaryRoot);
+
+  for (const qaBook of qaBooks) {
+      await prepareBookWorkspace(qaBook, summaryRoot);
       const result = await runBookPipeline({
         ...qaBook,
         baselineProfile: qaBook.profile,
-        workspaceRoot: baseRoot ? `${baseRoot}/${qaBook.bookId}` : undefined,
-        targetLanguages: 'en,ro',
+        workspaceRoot: qaBook.workspaceRoot,
+        targetLanguages: qaBook.targetLanguages,
         seed: `${qaBook.bookId}:qa`
       });
     const publishedEditions = result.publishedArtifacts?.publishedEditions ?? [];
@@ -80,6 +89,37 @@ export async function runQaGeneration(baseRoot = null) {
   await writeText(`${summaryRoot}/qa-tasks.md`, renderQaTaskReport(consolidatedTasks));
 
   return summaries;
+}
+
+async function resetQaOutput(summaryRoot) {
+  await mkdir(summaryRoot, { recursive: true });
+
+  const entries = await readdir(summaryRoot, { withFileTypes: true });
+  for (const entry of entries) {
+    if (entry.isDirectory() && entry.name === 'books') {
+      await rm(join(summaryRoot, entry.name), { recursive: true, force: true });
+      continue;
+    }
+
+    if (entry.isFile() && /^qa-(summary|review|tasks)\.md$/.test(entry.name)) {
+      await rm(join(summaryRoot, entry.name), { force: true });
+    }
+  }
+}
+
+async function prepareBookWorkspace(qaBook, summaryRoot) {
+  await rm(qaBook.workspaceRoot, { recursive: true, force: true });
+  await mkdir(qaBook.workspaceRoot, { recursive: true });
+  await writeFile(join(qaBook.workspaceRoot, 'book-vision.md'), qaBook.visionContent, 'utf8');
+
+  if (resolve(summaryRoot) === resolve(`${process.cwd()}/QA`)) {
+    return;
+  }
+
+  const sourceBookRoot = resolve(join(`${process.cwd()}/QA`, basename(qaBook.workspaceRoot)));
+  if (sourceBookRoot !== qaBook.workspaceRoot) {
+    await writeFile(join(qaBook.workspaceRoot, 'book-vision.md'), qaBook.visionContent, 'utf8');
+  }
 }
 
 function renderQaTaskReport(tasks) {
