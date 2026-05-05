@@ -24,7 +24,7 @@ export async function runBookPipeline(input = {}) {
     workspaceRoot: options.workspaceRoot,
     bookId: options.bookId,
     profile: options.baselineProfile,
-    fallbackTitle: options.profile.scenario.title,
+    fallbackTitle: options.title,
     validationSummary: validationResult.summary
   });
 
