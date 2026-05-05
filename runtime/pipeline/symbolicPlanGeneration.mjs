@@ -570,9 +570,8 @@ export async function generateMicroSeeds(options) {
   return artifacts;
 }
 
-function buildChapterRoleSequence(chapterCount, profileId, chapterConfig) {
-  const profileConstraint = chapterConfig.profileConstraints[profileId];
-  const roleSequence3 = profileConstraint?.allowedRoles3 ?? ['setup', 'revelation', 'culmination'];
+function buildChapterRoleSequence(chapterCount, profile, chapterConfig) {
+  const roleSequence3 = profilePreference(profile, 'chapter', 'allowedRoles3', ['setup', 'revelation', 'culmination']);
 
   if (chapterCount <= 3) {
     return roleSequence3;
@@ -586,9 +585,9 @@ function buildChapterRoleSequence(chapterCount, profileId, chapterConfig) {
   return Array.from({ length: chapterCount }, (_, index) => defaultPattern[Math.min(index, defaultPattern.length - 1)]);
 }
 
-function resolveChapterDevelopmentMode(role, profileId, random) {
+function resolveChapterDevelopmentMode(role, profile, random) {
   const config = COMMAND_CONFIGS.chapter;
-  const allowed = config.profileConstraints[profileId]?.allowedDevelopmentModes;
+  const allowed = profilePreference(profile, 'chapter', 'allowedDevelopmentModes', []);
   if (role === 'investigation') return 'investigation';
   if (role === 'revelation') return 'revelation-ladder';
   if (allowed && allowed.length > 0) {
@@ -617,16 +616,13 @@ function chapterArcStage(role) {
   return map[role] ?? 'pressure-rise';
 }
 
-function resolvePauseFunction(profileId, role) {
-  const config = COMMAND_CONFIGS.rhythm;
-  return config.profileConstraints[profileId]?.preferredPauseFunction ?? (role === 'investigation' ? 'explanatory' : 'psychological');
+function resolvePauseFunction(profile, role) {
+  return profilePreference(profile, 'rhythm', 'preferredPauseFunction', role === 'investigation' ? 'explanatory' : 'psychological');
 }
 
-function resolveAccelerationMode(profileId, role) {
-  const config = COMMAND_CONFIGS.rhythm;
-  const profilePrefs = COMMAND_CONFIGS.rhythm.profileConstraints[profileId];
+function resolveAccelerationMode(profile, role) {
   if (role === 'culmination') return 'pursuit-compression';
-  return profilePrefs?.preferredAccelerationMode ?? 'summary-burst';
+  return profilePreference(profile, 'rhythm', 'preferredAccelerationMode', 'summary-burst');
 }
 
 function dialogueTurnBlueprints(profileId, role, sceneIndex, random) {
@@ -648,17 +644,17 @@ function reference(identifier) {
   return `$${identifier}`;
 }
 
-function pickProfileConfiguredValue(random, config, baseKey, profileId, preferenceKey) {
-  return random.pick(configuredPreferencePool(config, baseKey, profileId, preferenceKey));
+function pickProfileConfiguredValue(random, config, baseKey, profile, commandName, preferenceKey) {
+  return random.pick(configuredPreferencePool(config, baseKey, profile, commandName, preferenceKey));
 }
 
-function configuredPreferencePool(config, baseKey, profileId, preferenceKey) {
+function configuredPreferencePool(config, baseKey, profile, commandName, preferenceKey) {
   const baseValues = Array.isArray(config?.[baseKey]) ? config[baseKey] : [];
   if (baseValues.length === 0) {
     throw new Error(`Missing config values for ${baseKey}.`);
   }
 
-  const preferred = config.profileConstraints?.[profileId]?.[preferenceKey];
+  const preferred = profilePreference(profile, commandName, preferenceKey, null);
   return buildWeightedPool(preferred, baseValues);
 }
 
