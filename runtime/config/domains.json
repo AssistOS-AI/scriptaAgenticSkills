@@ -82,7 +82,7 @@
     "suspenseTypes": ["emotional", "cognitive", "situational", "dramatic"],
     "delayTechniques": ["delayed-information", "foreshadowing", "interruption", "time-slowing", "danger", "mixed"],
     "cliffhangerTypes": ["danger", "interrupted-revelation", "critical-decision", "unresolved-confrontation"],
-    "pauseFunctions": ["descriptive", "explanatory", "psychological", "atmospheric", "rhythmic"],
+    "pauseFunctions": ["psychological", "explanatory", "descriptive", "atmospheric", "rhythmic"],
     "accelerationModes": ["transition-skip", "montage", "summary-burst", "pursuit-compression"]
   }
 }

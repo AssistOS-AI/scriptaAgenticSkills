@@ -1,239 +1,37 @@
 {
-  "chapter": {
-    "roles": ["setup", "escalation", "investigation", "revelation", "reversal", "culmination", "aftermath", "bridge"],
-    "openingModes": ["contextual-setup", "in-medias-res", "aftermath-entry", "dialogue-entry", "action-entry", "mystery-entry"],
-    "developmentModes": ["escalation", "investigation", "confrontation", "pursuit", "revelation-ladder", "psychological-pressure"],
-    "closingModes": ["partial-resolution", "revelation", "reversal", "cliffhanger", "aftermath", "open-question"],
-    "rhythmNotes": ["restrained", "balanced", "escalating", "breathless", "wave-like"],
-    "arcStages": ["opening-belief", "first-pressure", "reluctant-commitment", "midpoint-recognition", "crisis", "climactic-choice", "new-equilibrium"],
-    "profileTexts": {
-      "drama": {
-        "purposes": {
-          "setup": "expose the family wound before anyone can stabilize it as a harmless memory",
-          "escalation": "turn withheld grief into a truth that changes the moral reading of the family",
-          "investigation": "force repair or rupture into the open without procedural shelter",
-          "revelation": "turn withheld grief into a truth that changes the moral reading of the family",
-          "reversal": "force repair or rupture into the open without procedural shelter",
-          "culmination": "force repair or rupture into the open without procedural shelter",
-          "aftermath": "show how the new equilibrium resists easy closure",
-          "bridge": "carry emotional pressure across a necessary transition"
-        },
-        "conflicts": {
-          "setup": "private grief and public reputation pull the same event toward incompatible meanings",
-          "escalation": "speaking the truth now threatens both dignity and belonging",
-          "investigation": "love and honesty demand incompatible timings",
-          "revelation": "speaking the truth now threatens both dignity and belonging",
-          "reversal": "dignity and disclosure start opposing each other",
-          "culmination": "everyone wants repair, but not the same version of truth",
-          "aftermath": "the new equilibrium remains emotionally unstable",
-          "bridge": "the story must move without losing causality or tension"
-        },
-        "inputStates": {
-          "setup": "the central wound is active, but the family still believes it can remain private",
-          "default": "the previous chapter has already shifted the pressure into a less survivable form"
-        },
-        "outputStates": {
-          "culmination": "the central pressure resolves, but only after public truth and intimate cost arrive together",
-          "default": "chapter exits with sharper pressure, narrower choices, and a cost that cannot be folded back into routine"
-        },
-        "stakeLines": "identity, dignity, family trust, and public consequence",
-        "questions": {
-          "setup": "what version of care has been purchased by silence?",
-          "revelation": "who benefits when grief is narrated incorrectly?",
-          "culmination": "can repair begin after the truth arrives too late?"
-        },
-        "answerShifts": {
-          "setup": "from assumed stability to visible fracture",
-          "revelation": "from partial understanding to moral discomfort",
-          "culmination": "from delayed honesty to costly truth"
-        },
-        "worldPressures": {
-          "setup": "institutional language that flattens grief into procedure",
-          "revelation": "a family version of events built to protect someone absent",
-          "culmination": "a public record that rewards emotional denial"
-        },
-        "blockAlternations": "description -> dialogue -> interior-monologue -> action -> pause -> dialogue -> cliffhanger"
-      },
-      "detective-police": {
-        "purposes": {
-          "setup": "establish the investigation as a contest between evidence and institutional denial",
-          "escalation": "tighten the clue chain until official procedure itself becomes suspect",
-          "investigation": "tighten the clue chain until official procedure itself becomes suspect",
-          "revelation": "turn a partial truth into a reshaped conflict",
-          "culmination": "force the case into a public accusation that cannot be filed away",
-          "aftermath": "show how the new equilibrium resists easy closure",
-          "bridge": "carry investigative pressure across a necessary transition"
-        },
-        "conflicts": {
-          "setup": "the system resists any reading that links procedure to corruption",
-          "escalation": "the safer interpretation of the evidence keeps serving the wrong people",
-          "investigation": "evidence and authority now point in opposite directions",
-          "revelation": "procedure protects the wrong people more efficiently than it protects truth",
-          "culmination": "truth can surface only by damaging the institution meant to contain it",
-          "aftermath": "the new equilibrium remains institutionally unstable",
-          "bridge": "the story must move without losing evidentiary chain"
-        },
-        "inputStates": {
-          "setup": "the first clue exists, but the official story still feels safer than the true one",
-          "default": "the previous chapter has already shifted the pressure into a less survivable form"
-        },
-        "outputStates": {
-          "culmination": "the case resolves with visible justice pressure and institutional damage",
-          "default": "chapter exits with sharper pressure, narrower choices, and a cost that cannot be folded back into routine"
-        },
-        "stakeLines": "justice, legitimacy, public trust, and personal safety",
-        "questions": {
-          "setup": "which fact is the city most afraid to let survive?",
-          "investigation": "how much of the institution is implicated in the case?",
-          "culmination": "what does justice require when procedure itself is compromised?"
-        },
-        "answerShifts": {
-          "setup": "from assumed procedure to visible corruption",
-          "investigation": "from isolated incident to systemic pattern",
-          "culmination": "from protected closure to public accusation"
-        },
-        "worldPressures": {
-          "setup": "a cover-up linking municipal power and law enforcement",
-          "investigation": "a procedural culture that rewards obedience over accuracy",
-          "culmination": "a network of protected records and threatened witnesses"
-        },
-        "blockAlternations": "action -> dialogue -> description -> conflict -> revelation -> suspense -> cliffhanger"
-      },
-      "science-fiction": {
-        "purposes": {
-          "setup": "show how engineered order depends on emotional and mnemonic control",
-          "escalation": "push memory control into a choice between safety and freedom",
-          "investigation": "push memory control into a choice between safety and freedom",
-          "revelation": "recast the system malfunction as a political choice rather than a technical anomaly",
-          "culmination": "make safety and freedom impossible to preserve at the same time",
-          "aftermath": "show how the new equilibrium resists easy closure",
-          "bridge": "carry systemic pressure across a necessary transition"
-        },
-        "conflicts": {
-          "setup": "security logic treats emotional memory as a civic threat",
-          "escalation": "freedom and safety now require conflicting system states",
-          "investigation": "memory repair threatens the peace built on forgetting",
-          "revelation": "the station can preserve order only by intensifying moral illegibility",
-          "culmination": "human consent collides with predictive control",
-          "aftermath": "the new equilibrium remains morally altered",
-          "bridge": "the story must move without losing systemic coherence"
-        },
-        "inputStates": {
-          "setup": "the system still appears stable even though memory control has begun to leak",
-          "default": "the previous chapter has already shifted the pressure into a less survivable form"
-        },
-        "outputStates": {
-          "culmination": "the central pressure resolves, but the surviving order is morally altered",
-          "default": "chapter exits with sharper pressure, narrower choices, and a cost that cannot be folded back into routine"
-        },
-        "stakeLines": "freedom, safety, civic memory, and collective consent",
-        "questions": {
-          "setup": "what kind of order depends on engineered forgetting?",
-          "investigation": "who authorized the memory wound at the center of the station?",
-          "culmination": "can freedom survive if stability requires curated memory?"
-        },
-        "answerShifts": {
-          "setup": "from technical malfunction to political intention",
-          "investigation": "from system maintenance to civic control",
-          "culmination": "from engineered peace to contested freedom"
-        },
-        "worldPressures": {
-          "setup": "a predictive protocol that defines freedom as system risk",
-          "investigation": "a governance layer built on curated forgetting",
-          "culmination": "an administrative model that values stability over consent"
-        },
-        "blockAlternations": "description -> dialogue -> action -> interior-monologue -> suspense -> revelation -> acceleration"
-      },
-      "fantasy": {
-        "purposes": {
-          "setup": "introduce the inherited curse as a lived social burden rather than distant legend",
-          "escalation": "bring the inherited curse into a truth-bound confrontation",
-          "investigation": "bring the inherited curse into a truth-bound confrontation",
-          "revelation": "bind the hidden oath to the protagonist's present responsibility",
-          "culmination": "demand truthful sacrifice before the valley can change",
-          "aftermath": "show how the new equilibrium resists easy closure",
-          "bridge": "carry magical pressure across a necessary transition"
-        },
-        "conflicts": {
-          "setup": "ancestral legitimacy depends on keeping the founding lie intact",
-          "escalation": "truthful speech burns through the protections it needs",
-          "investigation": "inheritance and redemption pull the same bloodline apart",
-          "revelation": "every truthful act saves the valley while stripping inherited protection away",
-          "culmination": "wonder now arrives with an enforceable cost",
-          "aftermath": "the new equilibrium remains magically unstable",
-          "bridge": "the story must move without losing ritual coherence"
-        },
-        "inputStates": {
-          "setup": "the inherited curse is visible, but its true origin remains protected by ritual silence",
-          "default": "the previous chapter has already shifted the pressure into a less survivable form"
-        },
-        "outputStates": {
-          "culmination": "the central pressure resolves through sacrifice that permanently changes belonging",
-          "default": "chapter exits with sharper pressure, narrower choices, and a cost that cannot be folded back into routine"
-        },
-        "stakeLines": "lineage, survival, oath-bound legitimacy, and magical cost",
-        "questions": {
-          "setup": "what founding lie keeps the valley obedient to the curse?",
-          "investigation": "what truth must be spoken to release the inherited harm?",
-          "culmination": "what must be relinquished for redemption to become real?"
-        },
-        "answerShifts": {
-          "setup": "from ritual silence to visible curse",
-          "investigation": "from inherited duty to personal responsibility",
-          "culmination": "from protected belonging to truthful sacrifice"
-        },
-        "worldPressures": {
-          "setup": "a regent who profits from inherited harm",
-          "investigation": "ritual law that punishes truthful speech",
-          "culmination": "a sacred order built on a concealed founding crime"
-        },
-        "blockAlternations": "description -> action -> dialogue -> suspense -> interior-monologue -> revelation -> pause"
-      },
-      "romance-relational": {
-        "purposes": {
-          "setup": "let ordinary collaboration reveal the first fracture in emotional self-protection",
-          "escalation": "turn collaboration into a test of honest intimacy",
-          "investigation": "turn collaboration into a test of honest intimacy",
-          "reversal": "flip the balance between professional control and vulnerable attachment",
-          "culmination": "test whether intimacy can survive honest interdependence",
-          "aftermath": "show how the new equilibrium resists easy closure",
-          "bridge": "carry relational pressure across a necessary transition"
-        },
-        "conflicts": {
-          "setup": "practical cooperation keeps colliding with old defensiveness and renewed desire",
-          "escalation": "what keeps the partnership functional also keeps intimacy at risk",
-          "investigation": "intimacy and self-protection keep taking turns as the wiser choice",
-          "reversal": "professional clarity cannot contain emotional consequence",
-          "culmination": "desire exposes what routine tried to keep manageable",
-          "aftermath": "the new equilibrium remains emotionally unstable",
-          "bridge": "the story must move without losing relational honesty"
-        },
-        "inputStates": {
-          "setup": "the partnership is functional on the surface, but trust remains strategically limited",
-          "default": "the previous chapter has already shifted the pressure into a less survivable form"
-        },
-        "outputStates": {
-          "culmination": "the central pressure resolves with honest attachment and visible vulnerability",
-          "default": "chapter exits with sharper pressure, narrower choices, and a cost that cannot be folded back into routine"
-        },
-        "stakeLines": "autonomy, tenderness, creative future, and mutual trust",
-        "questions": {
-          "setup": "can useful collaboration remain emotionally neutral?",
-          "reversal": "what does closeness demand that competence cannot supply?",
-          "culmination": "can honest dependence survive the fear of abandonment?"
-        },
-        "answerShifts": {
-          "setup": "from professional distance to emotional fault line",
-          "reversal": "from functional partnership to vulnerable attachment",
-          "culmination": "from guarded collaboration to honest interdependence"
-        },
-        "worldPressures": {
-          "setup": "old hurt that keeps converting tenderness into strategy",
-          "investigation": "professional history built on misread abandonment",
-          "culmination": "social routine that rewards practicality over candor"
-        },
-        "blockAlternations": "dialogue -> description -> interior-monologue -> action -> pause -> dialogue -> cliffhanger"
-      }
+  "roles": ["setup", "escalation", "investigation", "revelation", "reversal", "culmination", "aftermath", "bridge"],
+  "openingModes": ["contextual-setup", "in-medias-res", "aftermath-entry", "dialogue-entry", "action-entry", "mystery-entry"],
+  "developmentModes": ["escalation", "investigation", "confrontation", "pursuit", "revelation-ladder", "psychological-pressure"],
+  "closingModes": ["partial-resolution", "revelation", "reversal", "cliffhanger", "aftermath", "open-question"],
+  "rhythmNotes": ["restrained", "balanced", "escalating", "breathless", "wave-like"],
+  "arcStages": ["entry-instability", "pressure-rise", "evidence-gathering", "meaning-shift", "power-flip", "irreversible-choice", "changed-state-reading"],
+  "blockAlternationPatterns": ["description-action-dialogue-pause-event-monologue", "action-dialogue-description-conflict-revelation-suspense-cliffhanger", "description-dialogue-action-interior-monologue-suspense-revelation-acceleration", "description-action-dialogue-suspense-interior-monologue-revelation-pause", "dialogue-description-interior-monologue-action-pause-dialogue-cliffhanger"],
+  "answerShiftPatterns": ["from-assumed-stability-to-visible-fracture", "from-suspicion-to-systemic-pattern", "from-anomaly-to-designed-control", "from-ritual-silence-to-personal-responsibility", "from-professional-distance-to-emotional-risk"],
+  "profileConstraints": {
+    "drama": {
+      "allowedRoles3": ["setup", "revelation", "culmination"],
+      "allowedDevelopmentModes": ["escalation", "psychological-pressure"],
+      "preferredBlockAlternation": "description-action-dialogue-pause-event-monologue"
+    },
+    "detective-police": {
+      "allowedRoles3": ["setup", "investigation", "culmination"],
+      "allowedDevelopmentModes": ["investigation", "confrontation"],
+      "preferredBlockAlternation": "action-dialogue-description-conflict-revelation-suspense-cliffhanger"
+    },
+    "science-fiction": {
+      "allowedRoles3": ["setup", "revelation", "culmination"],
+      "allowedDevelopmentModes": ["escalation", "revelation-ladder"],
+      "preferredBlockAlternation": "description-dialogue-action-interior-monologue-suspense-revelation-acceleration"
+    },
+    "fantasy": {
+      "allowedRoles3": ["setup", "revelation", "culmination"],
+      "allowedDevelopmentModes": ["escalation", "confrontation"],
+      "preferredBlockAlternation": "description-action-dialogue-suspense-interior-monologue-revelation-pause"
+    },
+    "romance-relational": {
+      "allowedRoles3": ["setup", "reversal", "culmination"],
+      "allowedDevelopmentModes": ["psychological-pressure", "escalation"],
+      "preferredBlockAlternation": "dialogue-description-interior-monologue-action-pause-dialogue-cliffhanger"
     }
   }
 }

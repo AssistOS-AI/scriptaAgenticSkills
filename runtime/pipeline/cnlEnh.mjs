@@ -93,14 +93,12 @@ function buildPlaceholderMap(options, sourceEntries) {
 }
 
 function resolvePlaceholderValue(placeholder, options, random) {
-  const lexicon = options.profile.lexicon;
-
   if (placeholder.entityType === 'character') {
     return generatePlaceholderName(placeholder.stableId, options.seed);
   }
 
   if (placeholder.entityType === 'location') {
-    return generatePlaceholderLocation(placeholder.stableId, options.seed, lexicon.locations[random.int(0, lexicon.locations.length - 1)]);
+    return generatePlaceholderLocation(placeholder.stableId, options.seed, null);
   }
 
   if (placeholder.entityType === 'organization') {
@@ -108,18 +106,100 @@ function resolvePlaceholderValue(placeholder, options, random) {
   }
 
   if (placeholder.entityType === 'object') {
-    return lexicon.objects[random.int(0, lexicon.objects.length - 1)];
+    return generatePlaceholderLocation(placeholder.stableId, options.seed, null).replace(/^the\s+/i, '');
   }
 
   if (placeholder.entityType === 'artifact') {
-    return lexicon.objects[0];
+    return generatePlaceholderLocation(placeholder.stableId, options.seed, null).replace(/^the\s+/i, '');
   }
 
   if (placeholder.entityType === 'concept') {
-    return options.profile.themeTopic.replace(/-/g, ' ');
+    return options.themeTopic.replace(/-/g, ' ');
   }
 
-  return placeholder.token;
+  return generateContentPlaceholder(placeholder, options, random);
+}
+
+function generateContentPlaceholder(placeholder, options, random) {
+  const spec = placeholder.stableId;
+  const profileLabel = options.profile?.label ?? options.baselineProfile ?? 'fiction';
+  const lowerLabel = profileLabel.toLowerCase();
+  const id = placeholder.entityType;
+
+  const contentMap = {
+    'hook': `the central hook of this ${lowerLabel} story`,
+    'desire': `what the protagonist of this ${lowerLabel} story wants most`,
+    'need': `what the protagonist truly needs but cannot yet accept`,
+    'fear': `what the protagonist fears losing above all`,
+    'opposition': `the primary opposing force in this ${lowerLabel} story`,
+    'stakes': `what is at risk if the protagonist fails`,
+    'dilemma': `the central dilemma the protagonist must face`,
+    'story-question': `the central question this ${lowerLabel} story asks`,
+    'thematic-question': `the thematic question at the heart of this story`,
+    'thematic-statement': `the thematic statement this story ultimately makes`,
+    'pole-a': `one pole of the central thematic tension`,
+    'pole-b': `the opposing pole of the central thematic tension`,
+    'pitch': `the pitch for this ${lowerLabel} story`,
+    'inciting-incident': `the event that disrupts the opening equilibrium`,
+    'premise': `the premise of this ${lowerLabel} story`,
+    'purpose': `the narrative purpose of this ${spec} chapter`,
+    'input-state': `the state entering this ${spec} chapter`,
+    'output-state': `the state leaving this ${spec} chapter`,
+    'conflict': `the central conflict of this ${spec} unit`,
+    'chapter-question': `the question this chapter asks`,
+    'answer-shift': `how the answer shifts across this chapter`,
+    'world-pressure': `how world rules create pressure in this unit`,
+    'wisdom': `the ${spec} dimension of insight this story offers`,
+    'sensory-anchor': `a key sensory detail of this location`,
+    'social-signal': `how this location signals social dynamics`,
+    'symbolic-charge': `the symbolic weight this location carries`,
+    'conflict-use': `how this location intensifies conflict`,
+    'sequence-objective': `the narrative objective of this sequence`,
+    'sequence-conflict': `the conflict running through this sequence`,
+    'sequence-payoff': `what this sequence delivers`,
+    'scene-introduction': `how this scene opens`,
+    'scene-development': `how this scene develops`,
+    'scene-conflict': `the conflict in this scene`,
+    'scene-resolution': `how this scene resolves`,
+    'scene-state-change': `how this scene changes the story state`,
+    'action-goal': `what the protagonist tries to accomplish`,
+    'action-obstacle': `what prevents easy success`,
+    'action-result': `the result of the attempted action`,
+    'conflict-stakes': `what is at stake in this conflict`,
+    'conflict-escalation': `how this conflict intensifies`,
+    'event-trigger': `what triggers this event`,
+    'event-impact': `the impact of this event`,
+    'event-follow-through': `what follows from this event`,
+    'dialogue-subtext': `the subtext beneath this dialogue exchange`,
+    'dialogue-line-hint': `a hint for the dialogue line`,
+    'dialogue-reaction': `how the other character reacts`,
+    'dialogue-core-subtext': `the subtext beneath the core dialogue`,
+    'description-focus': `what the description focuses on`,
+    'monologue-trigger': `what triggers this interior monologue`,
+    'suspense-uncertainty': `what remains uncertain at this point`,
+    'cliffhanger-moment': `the moment that creates the cliffhanger`,
+    'cliffhanger-continuation': `what drives the reader to continue`,
+    'pause-focus': `what this pause allows the reader to absorb`,
+    'acceleration-trigger': `what triggers the acceleration`,
+    'reader-effect': `the intended effect on the reader`,
+    'rule': `the world rule that governs this domain`,
+    'conflict-output': `how the world system generates conflict`,
+    'rule-to-conflict': `how the world rule translates into narrative conflict`,
+    'conflict-transform': `how the secondary rule transforms conflict`,
+    'visible-symptom': `how the world rule becomes visible to characters`,
+    'action-limitation': `how the world rule limits what characters can do`,
+    'conflict-output-rule': `what kind of conflict the world rule produces`,
+    'entry-belief': `the belief the protagonist holds at entry`,
+    'exit-belief': `the belief the protagonist holds after change`,
+    'turning-insight': `the insight that drives the protagonist's change`,
+    'challenge': `what challenges the protagonist's belief`,
+    'insight-pressure': `the pressure that forces insight`,
+    'motif-object': `a recurring motif in this story`,
+    'stakes': `what is at stake`,
+    'relationship-stress': `what strains the central relationship`,
+  };
+
+  return contentMap[id] ?? `${id} for this ${lowerLabel} story`;
 }
 
 function buildRefineBlock({ sourceBlock, resolvedBlock, options, replacements }) {

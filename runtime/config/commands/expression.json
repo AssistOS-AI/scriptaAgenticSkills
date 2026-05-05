@@ -1,100 +1,57 @@
 {
-  "expression": {
-    "descriptionTypes": ["setting", "portrait", "atmosphere", "symbolic", "mixed"],
-    "descriptionFunctions": ["mimetic", "symbolic", "narrative", "atmospheric"],
-    "rhythmEffects": ["slow", "frame", "hold", "contrast"],
-    "exchangeTypes": ["simple", "question-answer", "conflictual", "informative"],
-    "dialoguePurposes": ["action-development", "characterization", "tension", "information", "dynamism"],
-    "narratorModes": ["first-person", "third-person", "subjective", "objective", "close-third-person", "omniscient-third-person"],
-    "timeHandlingModes": ["real-time", "summary", "reordered", "mixed"],
-    "monologueFunctions": ["characterization", "psychological-insight", "narrative-depth", "subjective-filtering", "emotional-intensity"],
-    "monologueTextures": ["fragmented", "reflective", "immediate", "associative", "recursive"],
-    "profileTexts": {
-      "drama": {
-        "descriptionFocus": "domestic space, institutional architecture, and the objects that carry unspoken history",
-        "dialogueSubtext": {
-          "setup": "what is not being said matters more than what is",
-          "revelation": "every answer contains a question the speaker avoids",
-          "culmination": "silence between lines carries the moral weight"
-        },
-        "monologueTriggers": {
-          "setup": "after a family ritual that exposes the fracture",
-          "revelation": "when someone names what everyone avoided",
-          "culmination": "after the truth arrives too late to prevent damage"
-        },
-        "dialogueTurnBlueprints": [
-          {"speaker": "protagonist", "intent": "test whether the other person remembers the same event", "subtext": "I need to know if I am alone in this reading", "lineHint": "indirect question about a shared moment", "reactionBeat": "deflection or partial admission"},
-          {"speaker": "counterpart", "intent": "protect the family version without lying outright", "subtext": "I know more than I can say right now", "lineHint": "careful rephrasing of the shared narrative", "reactionBeat": "protagonist notices the gap between versions"}
-        ]
-      },
-      "detective-police": {
-        "descriptionFocus": "procedural spaces, evidence rooms, and the architecture of institutional power",
-        "dialogueSubtext": {
-          "setup": "every official answer contains an unspoken boundary",
-          "investigation": "the witness knows more than the transcript shows",
-          "culmination": "accusation and defense share the same factual ground"
-        },
-        "monologueTriggers": {
-          "setup": "after reviewing a file that does not match the official timeline",
-          "investigation": "when a protected name surfaces in an unprotected context",
-          "culmination": "after the evidence chain points upward instead of outward"
-        },
-        "dialogueTurnBlueprints": [
-          {"speaker": "protagonist", "intent": "pressure the witness without breaking procedure", "subtext": "I know you are holding back, and I need you to decide", "lineHint": "factual question with implied consequence", "reactionBeat": "witness calculates risk before answering"},
-          {"speaker": "counterpart", "intent": "cooperate without exposing themselves", "subtext": "I will help, but not at the cost of my position", "lineHint": "partial information with strategic omission", "reactionBeat": "protagonist files the omission for later"}
-        ]
-      },
-      "science-fiction": {
-        "descriptionFocus": "engineered environments, interface surfaces, and the visible signs of system control",
-        "dialogueSubtext": {
-          "setup": "technical language masks civic intention",
-          "investigation": "every system response carries a political choice",
-          "culmination": "consent and control occupy the same sentence"
-        },
-        "monologueTriggers": {
-          "setup": "after a memory trace reveals the gap between maintenance and control",
-          "investigation": "when the protagonist realizes the anomaly has a political author",
-          "culmination": "after choosing between engineered peace and contested freedom"
-        },
-        "dialogueTurnBlueprints": [
-          {"speaker": "protagonist", "intent": "expose the political intention behind a technical decision", "subtext": "I know this is not maintenance, and you know I know", "lineHint": "technical question with civic implication", "reactionBeat": "system representative reframes as procedure"},
-          {"speaker": "counterpart", "intent": "defend the system without denying the human cost", "subtext": "stability requires choices no one wants to name", "lineHint": "pragmatic argument that avoids moral language", "reactionBeat": "protagonist refuses the reframing"}
-        ]
-      },
-      "fantasy": {
-        "descriptionFocus": "ritual spaces, ancestral architecture, and the visible signs of magical cost",
-        "dialogueSubtext": {
-          "setup": "ritual language conceals the founding crime",
-          "investigation": "every oath carries a price the speaker does not name",
-          "culmination": "truthful speech burns through inherited protection"
-        },
-        "monologueTriggers": {
-          "setup": "after the valley answers with omen before speech",
-          "investigation": "when the protagonist reads the founding vow correctly for the first time",
-          "culmination": "after choosing between inherited shelter and truthful sacrifice"
-        },
-        "dialogueTurnBlueprints": [
-          {"speaker": "protagonist", "intent": "name the binding oath without submitting to it", "subtext": "I will not repeat the lie, but I need to understand it", "lineHint": "ritual question that challenges the ritual answer", "reactionBeat": "authority figure responds with enforced tradition"},
-          {"speaker": "counterpart", "intent": "guide without revealing the full cost", "subtext": "I know what truth will cost you, and I am not sure you should pay it", "lineHint": "cautious warning framed as practical advice", "reactionBeat": "protagonist recognizes the protection beneath the caution"}
-        ]
-      },
-      "romance-relational": {
-        "descriptionFocus": "shared workspaces, domestic objects, and the spaces where routine becomes intimate",
-        "dialogueSubtext": {
-          "setup": "practical language carries emotional freight neither character names",
-          "reversal": "what starts as collaboration becomes confession",
-          "culmination": "honesty removes the last professional shield"
-        },
-        "monologueTriggers": {
-          "setup": "after a practical gesture reveals more than either character intended",
-          "reversal": "when the balance between professional control and vulnerable attachment flips",
-          "culmination": "after choosing interdependence over guarded distance"
-        },
-        "dialogueTurnBlueprints": [
-          {"speaker": "protagonist", "intent": "test whether honesty can coexist with collaboration", "subtext": "I need to know if you feel this too, without saying it first", "lineHint": "practical question with emotional undertow", "reactionBeat": "counterpart answers practically but lingers"},
-          {"speaker": "counterpart", "intent": "maintain professional distance while feeling the shift", "subtext": "I want to name this, but naming it changes everything", "lineHint": "careful response that almost crosses the line", "reactionBeat": "protagonist notices the almost-confession"}
-        ]
-      }
+  "descriptionTypes": ["setting", "portrait", "atmosphere", "symbolic", "mixed"],
+  "descriptionFunctions": ["mimetic", "symbolic", "narrative", "atmospheric"],
+  "rhythmEffects": ["slow", "frame", "hold", "contrast"],
+  "exchangeTypes": ["simple", "question-answer", "conflictual", "informative"],
+  "dialoguePurposes": ["action-development", "characterization", "tension", "information", "dynamism"],
+  "narratorModes": ["first-person", "third-person", "subjective", "objective", "close-third-person", "omniscient-third-person"],
+  "timeHandlingModes": ["real-time", "summary", "reordered", "mixed"],
+  "monologueFunctions": ["characterization", "psychological-insight", "narrative-depth", "subjective-filtering", "emotional-intensity"],
+  "monologueTextures": ["fragmented", "reflective", "immediate", "associative", "recursive"],
+  "dialogueIntentTypes": ["probe", "deflect", "commit", "warn", "challenge", "reframe", "answer-honestly", "tease-probe", "name-risk"],
+  "dialogueSubtextTypes": ["tests-whether-intimacy-is-possible", "hides-harder-truth", "carries-fear-disguised-as-competence", "distributes-emotional-risk", "exposes-injury-while-pretending-to-stay-practical", "turns-routine-into-emotional-leverage"],
+  "pauseFunctionTypes": ["psychological", "explanatory", "descriptive", "atmospheric", "rhythmic"],
+  "accelerationModes": ["transition-skip", "montage", "summary-burst", "pursuit-compression"],
+  "profileConstraints": {
+    "drama": {
+      "preferredDescriptionType": "atmosphere",
+      "preferredDescriptionFunction": "atmospheric",
+      "preferredExchangeType": "conflictual",
+      "preferredDialoguePurpose": "tension",
+      "preferredMonologueFunction": "psychological-insight",
+      "preferredMonologueTexture": "reflective"
+    },
+    "detective-police": {
+      "preferredDescriptionType": "setting",
+      "preferredDescriptionFunction": "narrative",
+      "preferredExchangeType": "question-answer",
+      "preferredDialoguePurpose": "information",
+      "preferredMonologueFunction": "characterization",
+      "preferredMonologueTexture": "fragmented"
+    },
+    "science-fiction": {
+      "preferredDescriptionType": "atmosphere",
+      "preferredDescriptionFunction": "atmospheric",
+      "preferredExchangeType": "conflictual",
+      "preferredDialoguePurpose": "tension",
+      "preferredMonologueFunction": "psychological-insight",
+      "preferredMonologueTexture": "reflective"
+    },
+    "fantasy": {
+      "preferredDescriptionType": "symbolic",
+      "preferredDescriptionFunction": "symbolic",
+      "preferredExchangeType": "conflictual",
+      "preferredDialoguePurpose": "tension",
+      "preferredMonologueFunction": "psychological-insight",
+      "preferredMonologueTexture": "reflective"
+    },
+    "romance-relational": {
+      "preferredDescriptionType": "mixed",
+      "preferredDescriptionFunction": "narrative",
+      "preferredExchangeType": "question-answer",
+      "preferredDialoguePurpose": "characterization",
+      "preferredMonologueFunction": "psychological-insight",
+      "preferredMonologueTexture": "reflective"
     }
   }
 }

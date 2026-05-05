@@ -26,9 +26,10 @@ Prioritized improvement backlog for the SCRIPTA project. Each entry references t
 
 ### TASK-004: Implement real CNLEnh placeholder resolution
 - **Area:** runtime/pipeline/cnlEnh.mjs, .agents/skills/scripta_cnlenh/
-- **Problem:** CNLEnh currently copies symbolic plans without resolving `{{character:...}}`, `{{location:...}}`, etc. placeholders into concrete names. The QA workspaces show "placeholder resolution artifact exists" passes but plans still contain template-level content.
-- **Action:** Implement a deterministic placeholder resolver that uses profile lexicons and seed-based name generation to replace typed placeholders with concrete values. Write resolved plans as successor artifacts in `cnl/`.
-- **Acceptance:** Refined plans in `cnl/` contain zero `{{...}}` tokens. Validation PRC check passes with evidence.
+- **Problem:** CNLEnh currently resolves entity placeholders (character, location, organization, object) but content placeholders like `{{desire:protagonist}}`, `{{purpose:setup}}`, etc. are resolved with static descriptive text rather than LLM-refined content.
+- **Status:** Partially done — entity placeholders resolve correctly, content placeholders are resolved with generic descriptive text via a contentMap in cnlEnh.mjs. Full resolution requires an LLM adapter.
+- **Remaining Action:** Connect LLM adapter (TASK-010) to CNLEnh for content placeholder resolution. Content placeholders should be refined by the LLM using profile constraint context.
+- **Acceptance:** Refined plans in `cnl/` contain zero `{{...}}` tokens. Content placeholders are replaced with concrete, genre-appropriate prose instead of generic descriptions.
 
 ### TASK-005: Add architecture documentation
 - **Area:** docs/
@@ -43,10 +44,10 @@ Prioritized improvement backlog for the SCRIPTA project. Each entry references t
 - **Acceptance:** AGENTS.md contains a complete CLI reference section.
 
 ### TASK-007: Diversify symbolic generation output per profile
-- **Area:** runtime/pipeline/symbolicPlanGeneration.mjs, runtime/config/domains.mjs
-- **Problem:** Chapter role sequences, scene content, and block alternation patterns are too similar across profiles. The `buildChapterRoleSequence` function uses the same 3-role pattern for all profiles with only label changes.
-- **Action:** Expand profile-specific generation: distinct chapter counts per work-form, profile-specific scene densities, genre-appropriate block alternation patterns, and richer lexicon domains.
-- **Acceptance:** Each of the 5 profiles produces structurally different plan files with profile-appropriate vocabulary.
+- **Area:** runtime/pipeline/symbolicPlanGeneration.mjs, runtime/config/commands/*.json, runtime/config/profile-options.json
+- **Problem:** ~~Chapter role sequences, scene content, and block alternation patterns are too similar across profiles.~~ FIXED: Hardcoded genre-specific prose replaced with enum-based config + `{{...}}` placeholders. Profile constraints now drive selection from general enums per command config.
+- **Status:** DONE. Per-command config files under `runtime/config/commands/` define general enums with `profileConstraints`. `profile-options.json` uses a `constraints` map instead of `scenarioPools`. `symbolicPlanGeneration.mjs` emits `{{type:id}}` placeholders instead of hardcoded genre-specific texts. Tests pass.
+- **Acceptance:** Each of the 5 profiles produces structurally different plan files with profile-appropriate enum selections and constraint-driven content.
 
 ## P2 — Medium
 

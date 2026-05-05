@@ -1,0 +1,28 @@
+{
+  "topics": ["love-connection", "power-corruption", "identity-self", "good-evil", "mortality-death", "freedom-security", "coming-of-age", "nature-civilization", "redemption", "hybrid"],
+  "moralShapes": ["dilemma", "sacrifice", "corruption", "resistance", "transformation", "reconciliation"],
+  "polePatterns": ["opposing-values", "competing-needs", "truth-vs-shelter", "freedom-vs-order", "care-vs-honesty"],
+  "dramatizationModes": ["consequence-driven", "choice-driven", "reversal-driven", "conflict-driven"],
+  "profileConstraints": {
+    "drama": {
+      "allowedTopics": ["identity-self", "mortality-death", "love-connection"],
+      "allowedShapes": ["transformation", "reconciliation", "resistance"]
+    },
+    "detective-police": {
+      "allowedTopics": ["power-corruption", "freedom-security", "identity-self"],
+      "allowedShapes": ["resistance", "dilemma", "corruption"]
+    },
+    "science-fiction": {
+      "allowedTopics": ["freedom-security", "identity-self", "power-corruption"],
+      "allowedShapes": ["dilemma", "transformation", "resistance"]
+    },
+    "fantasy": {
+      "allowedTopics": ["redemption", "identity-self", "good-evil"],
+      "allowedShapes": ["sacrifice", "transformation", "reconciliation"]
+    },
+    "romance-relational": {
+      "allowedTopics": ["love-connection", "identity-self", "freedom-security"],
+      "allowedShapes": ["reconciliation", "transformation", "dilemma"]
+    }
+  }
+}

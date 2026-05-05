@@ -2,180 +2,360 @@
   "drama": {
     "label": "Drama",
     "genreMode": "drama",
-    "themeTopics": ["identity-self", "mortality-death", "love-connection"],
-    "themeShapes": ["transformation", "reconciliation", "resistance"],
-    "narrativeModels": ["freytag", "three-act"],
-    "macroForms": ["linear", "fragmented"],
-    "hookPatterns": ["hidden-truth", "contradiction"],
-    "tensionSources": ["internal", "mixed"],
-    "worldDomains": ["society"],
-    "magicDeterminacies": [null],
-    "sequenceTypes": ["recovery", "confrontation-chain"],
-    "lexicon": {
-      "locations": ["the district clinic corridor", "a rain-dark apartment block", "the municipal archive annex"],
-      "organizations": ["the hospital board", "the family court office", "the grief support council"],
-      "objects": ["a sealed recorder", "a missing medical file", "a notebook filled with revisions"]
-    },
-    "scenarioPools": {
-      "protagonistRoles": ["family mediator", "estranged daughter", "public defender", "bereavement counselor"],
-      "desires": ["hold a damaged household together long enough for the truth to surface", "protect one fragile bond without repeating an inherited silence", "understand what loss has been made to hide"],
-      "oppositions": ["institutional language that flattens grief into procedure", "a family version of events built to protect someone absent", "a public record that rewards emotional denial"],
-      "stakes": ["trust, dignity, and the right to name the wound honestly", "belonging, memory, and the cost of delayed honesty", "care, blame, and the possibility of repair"],
-      "dilemmas": ["protect a stabilizing lie or expose the truth that will rearrange the family", "preserve fragile peace or speak the one truth that makes peace impossible", "stay useful to everyone or become honest with one person"],
-      "storyQuestions": ["what version of care has been purchased by silence?", "who benefits when grief is narrated incorrectly?", "can repair begin after the truth arrives too late?"],
-      "thematicQuestions": ["is honesty still compassionate when it arrives too late?", "what kind of love survives accurate memory?", "when does care become another method of concealment?"],
-      "thematicStatements": ["delayed honesty prolongs pain, but spoken truth can still create a difficult form of repair", "care without truth becomes choreography instead of comfort", "families remain legible only when private pain stops serving public order"],
-      "worldRules": ["public institutions protect reputation before they protect emotional truth", "administrative speech always arrives colder than the loss it names", "a household can survive uncertainty longer than it can survive curated memory"],
+    "constraints": {
+      "centralIdea": {
+        "hookPatterns": ["hidden-truth", "contradiction"],
+        "tensionSources": ["internal", "mixed"]
+      },
+      "theme": {
+        "topics": ["identity-self", "mortality-death", "love-connection"],
+        "moralShapes": ["transformation", "reconciliation", "resistance"]
+      },
       "wisdom": {
-        "cognitive": ["reveal how institutions organize grief into silence", "show how memory is edited by social performance"],
-        "emotional": ["build empathy for people who fail each other while trying to survive", "keep tenderness visible even when speech fails"],
-        "moral": ["show that repair often begins after irreversible harm", "force care and honesty into costly tension"],
-        "reflexive": ["invite readers to examine what they inherit from family secrecy", "turn routine gestures into ethical signals"],
-        "experiential": ["keep sorrow present without reducing characters to symbols", "let the domestic world feel socially pressurized rather than merely private"]
+        "perspectiveModes": ["single-perspective"],
+        "opennessModes": ["open"]
+      },
+      "structure": {
+        "macroForms": ["linear", "fragmented"],
+        "informationOrders": ["delayed-reveal", "flashback-rich"],
+        "causalDensities": ["tight", "moderate"]
+      },
+      "narrativeModel": {
+        "modelNames": ["freytag", "three-act"],
+        "adaptationStrengths": ["adapted"],
+        "corePatterns": ["disruption-escalates-into-irreversible-choice", "desire-opposed-by-system"]
+      },
+      "character": {
+        "protagonistArc": "tragic",
+        "counterpartRole": "witness",
+        "conflictModes": ["internal", "mixed"],
+        "relationshipTypes": ["conflictual", "cooperative", "ambiguous", "familial"]
+      },
+      "worldbuilding": {
+        "domains": ["society"],
+        "primaryRuleTypes": ["social-norm"],
+        "secondaryRuleTypes": ["social-norm"],
+        "magicDeterminacy": null
+      },
+      "chapter": {
+        "roleSequence3": ["setup", "revelation", "culmination"],
+        "developmentModes": ["escalation", "psychological-pressure"],
+        "blockAlternation": "description-action-dialogue-pause-event-monologue"
+      },
+      "sequence": {
+        "types": ["recovery", "confrontation-chain"],
+        "linkLogics": ["causal", "mixed"]
+      },
+      "content": {
+        "actionModes": ["attempt", "negotiation", "revelation-act"],
+        "conflictTypes": ["internal", "external-society", "mixed"],
+        "stakePattern": "identity-dignity-belonging-consequence"
+      },
+      "expression": {
+        "descriptionType": "atmosphere",
+        "descriptionFunction": "atmospheric",
+        "exchangeType": "conflictual",
+        "dialoguePurpose": "tension",
+        "monologueFunction": "psychological-insight",
+        "monologueTexture": "reflective"
+      },
+      "rhythm": {
+        "suspenseType": "emotional",
+        "delayTechnique": "mixed",
+        "uncertaintyPattern": "truth-vs-repair-unclear"
+      },
+      "arc": {
+        "arcAxis": "identity-under-dilemma-pressure",
+        "motifFunction": "turn-absence-into-visible-accusation",
+        "relationshipPattern": "careful-cooperation-strained-by-withheld-history"
       }
     }
   },
   "detective-police": {
     "label": "Detective / Police",
     "genreMode": "detective-police",
-    "themeTopics": ["power-corruption", "freedom-security", "identity-self"],
-    "themeShapes": ["resistance", "dilemma", "corruption"],
-    "narrativeModels": ["three-act", "freytag"],
-    "macroForms": ["linear"],
-    "hookPatterns": ["what-if", "hidden-truth"],
-    "tensionSources": ["external", "mixed"],
-    "worldDomains": ["society"],
-    "magicDeterminacies": [null],
-    "sequenceTypes": ["investigation", "confrontation-chain"],
-    "lexicon": {
-      "locations": ["the flooded riverside promenade", "the evidence archive", "the civic tribunal annex"],
-      "organizations": ["city hall", "internal affairs", "the redevelopment office"],
-      "objects": ["a falsified autopsy report", "an erased camera ledger", "a sealed witness transcript"]
-    },
-    "scenarioPools": {
-      "protagonistRoles": ["homicide inspector", "public prosecutor", "forensic archivist", "internal affairs analyst"],
-      "desires": ["prove that a staged death was political murder", "force one protected file into public visibility", "keep the evidence chain intact long enough to accuse the institution it serves"],
-      "oppositions": ["a cover-up linking municipal power and law enforcement", "a procedural culture that rewards obedience over accuracy", "a network of protected records and threatened witnesses"],
-      "stakes": ["justice, witness safety, and public trust", "legitimacy, personal safety, and the credibility of the case", "truth, institutional survival, and the cost of accusation"],
-      "dilemmas": ["close the case cleanly or expose the system that depends on closure", "save one witness quietly or accuse the structure that endangered them", "keep procedure intact or use it against itself"],
-      "storyQuestions": ["which fact is the city most afraid to let survive?", "how much of the institution is implicated in the case?", "what does justice require when procedure itself is compromised?"],
-      "thematicQuestions": ["can lawful institutions still deliver justice when they profit from concealment?", "what becomes of evidence when power decides what counts as proof?", "when does procedure become a mask for violence?"],
-      "thematicStatements": ["institutions that value stability over truth become complicit in violence", "evidence is only moral when it survives contact with power", "administrative order can hide brutality more efficiently than chaos"],
-      "worldRules": ["every protected file creates a new layer of plausible deniability", "evidence handling is never neutral inside a system built to absorb accusation", "publicly useful truth is always easier to bury than privately dangerous rumor"],
+    "constraints": {
+      "centralIdea": {
+        "hookPatterns": ["what-if", "hidden-truth"],
+        "tensionSources": ["external", "mixed"]
+      },
+      "theme": {
+        "topics": ["power-corruption", "freedom-security", "identity-self"],
+        "moralShapes": ["resistance", "dilemma", "corruption"]
+      },
       "wisdom": {
-        "cognitive": ["show how bureaucratic systems hide violence in procedure", "turn records and files into moral terrain"],
-        "emotional": ["turn investigative pressure into personal moral cost", "make every clue feel tied to a human risk"],
-        "moral": ["force tradeoffs between institutional loyalty and truth", "treat accusation as a public act, not a private insight"],
-        "reflexive": ["invite reflection on how ordinary compliance sustains corruption", "show how silence is distributed across ranks and offices"],
-        "experiential": ["keep the investigation tactile, procedural, and dangerous", "let space, paperwork, and timing generate pressure"]
+        "perspectiveModes": ["single-perspective"],
+        "opennessModes": ["partially-open", "open"]
+      },
+      "structure": {
+        "macroForms": ["linear"],
+        "informationOrders": ["delayed-reveal", "recontextualizing"],
+        "causalDensities": ["tight"]
+      },
+      "narrativeModel": {
+        "modelNames": ["three-act", "freytag"],
+        "adaptationStrengths": ["adapted"],
+        "corePatterns": ["investigation-reveals-hidden-structure"]
+      },
+      "character": {
+        "protagonistArc": "tragic",
+        "counterpartRole": "witness",
+        "conflictModes": ["external", "mixed"],
+        "relationshipTypes": ["conflictual", "hierarchical", "cooperative"]
+      },
+      "worldbuilding": {
+        "domains": ["society"],
+        "primaryRuleTypes": ["social-norm", "resource-scarcity"],
+        "secondaryRuleTypes": ["resource-scarcity"],
+        "magicDeterminacy": null
+      },
+      "chapter": {
+        "roleSequence3": ["setup", "investigation", "culmination"],
+        "developmentModes": ["investigation", "confrontation"],
+        "blockAlternation": "action-dialogue-description-conflict-revelation-suspense-cliffhanger"
+      },
+      "sequence": {
+        "types": ["investigation", "confrontation-chain"],
+        "linkLogics": ["causal"]
+      },
+      "content": {
+        "actionModes": ["pursuit", "negotiation", "revelation-act"],
+        "conflictTypes": ["external-society", "mixed"],
+        "stakePattern": "justice-legitimacy-trust-safety"
+      },
+      "expression": {
+        "descriptionType": "setting",
+        "descriptionFunction": "narrative",
+        "exchangeType": "question-answer",
+        "dialoguePurpose": "information",
+        "monologueFunction": "characterization",
+        "monologueTexture": "fragmented"
+      },
+      "rhythm": {
+        "suspenseType": "cognitive",
+        "delayTechnique": "delayed-information",
+        "uncertaintyPattern": "evidence-vs-institution-unclear"
+      },
+      "arc": {
+        "arcAxis": "evidence-vs-institution",
+        "motifFunction": "link-concrete-to-moral-contamination",
+        "relationshipPattern": "professional-alliance-with-unequal-risk"
       }
     }
   },
   "science-fiction": {
     "label": "Science Fiction",
     "genreMode": "science-fiction",
-    "themeTopics": ["freedom-security", "identity-self", "power-corruption"],
-    "themeShapes": ["dilemma", "transformation", "resistance"],
-    "narrativeModels": ["equilibrium-disruption-restoration", "three-act"],
-    "macroForms": ["linear"],
-    "hookPatterns": ["costed-power", "what-if"],
-    "tensionSources": ["mixed"],
-    "worldDomains": ["technology"],
-    "magicDeterminacies": ["semi-hard"],
-    "sequenceTypes": ["escape", "investigation"],
-    "lexicon": {
-      "locations": ["Orbital Station Horizon", "the cryo archive ring", "the restricted signal garden"],
-      "organizations": ["the continuity board", "station security", "the civilian transit council"],
-      "objects": ["a damaged continuity key", "a forbidden recall shard", "an adaptive signal relay"]
-    },
-    "scenarioPools": {
-      "protagonistRoles": ["memory systems architect", "station ethicist", "civic network engineer", "archive maintenance lead"],
-      "desires": ["restore a corrupted memory lattice before governance seals it", "keep civic memory accessible without collapsing the habitat", "prove that one engineered anomaly is political intention, not malfunction"],
-      "oppositions": ["a predictive protocol that defines freedom as system risk", "a governance layer built on curated forgetting", "an administrative model that values stability over consent"],
-      "stakes": ["collective identity, free consent, and station survival", "memory, agency, and the legitimacy of public order", "safety, truth, and who gets to remain fully remembered"],
-      "dilemmas": ["restore unstable memories or preserve a peaceful lie", "protect the station's order or return memory to its citizens", "repair the system quietly or force everyone to see what it costs"],
-      "storyQuestions": ["what kind of order depends on engineered forgetting?", "who authorized the memory wound at the center of the station?", "can freedom survive if stability requires curated memory?"],
-      "thematicQuestions": ["is safety meaningful when it depends on controlled forgetting?", "what counts as personhood when memory is administratively reversible?", "can a peaceful system remain humane if consent is curated?"],
-      "thematicStatements": ["security purchased through engineered forgetting produces obedient but diminished communities", "memory remains political even when a system calls it maintenance", "consent collapses the moment forgetting becomes infrastructure"],
-      "worldRules": ["all memory restoration consumes finite computational bandwidth and destabilizes civic prediction systems", "every restored trace makes the governing model less certain of itself", "station order depends on regulating which memories remain shareable"],
+    "constraints": {
+      "centralIdea": {
+        "hookPatterns": ["costed-power", "what-if"],
+        "tensionSources": ["mixed"]
+      },
+      "theme": {
+        "topics": ["freedom-security", "identity-self", "power-corruption"],
+        "moralShapes": ["dilemma", "transformation", "resistance"]
+      },
       "wisdom": {
-        "cognitive": ["explore how networked memory reshapes political agency", "show how infrastructure decides what citizens can know"],
-        "emotional": ["create intimacy inside a technologically regulated world", "make system pressure feel personal and tactile"],
-        "moral": ["ask whether consent survives algorithmic curation", "treat technical repair as an ethical act"],
-        "reflexive": ["invite readers to examine what they outsource to systems", "make prediction feel seductive as well as dangerous"],
-        "experiential": ["blend procedural science-fiction tension with emotional estrangement", "let environments feel engineered, elegant, and coercive"]
+        "perspectiveModes": ["single-perspective", "multi-perspective"],
+        "opennessModes": ["open"]
+      },
+      "structure": {
+        "macroForms": ["linear"],
+        "informationOrders": ["chronological", "delayed-reveal"],
+        "causalDensities": ["tight"]
+      },
+      "narrativeModel": {
+        "modelNames": ["equilibrium-disruption-restoration", "three-act"],
+        "adaptationStrengths": ["adapted", "hybridized"],
+        "corePatterns": ["desire-opposed-by-system"]
+      },
+      "character": {
+        "protagonistArc": "tragic",
+        "counterpartRole": "witness",
+        "conflictModes": ["mixed"],
+        "relationshipTypes": ["cooperative", "hierarchical", "conflictual"]
+      },
+      "worldbuilding": {
+        "domains": ["technology"],
+        "primaryRuleTypes": ["technological-restriction"],
+        "secondaryRuleTypes": ["physical-limitation"],
+        "magicDeterminacy": "semi-hard"
+      },
+      "chapter": {
+        "roleSequence3": ["setup", "revelation", "culmination"],
+        "developmentModes": ["escalation", "revelation-ladder"],
+        "blockAlternation": "description-dialogue-action-interior-monologue-suspense-revelation-acceleration"
+      },
+      "sequence": {
+        "types": ["escape", "investigation"],
+        "linkLogics": ["causal", "mixed"]
+      },
+      "content": {
+        "actionModes": ["evasion", "attempt", "sacrifice"],
+        "conflictTypes": ["external-technology", "external-society", "mixed"],
+        "stakePattern": "freedom-consent-memory-agency"
+      },
+      "expression": {
+        "descriptionType": "atmosphere",
+        "descriptionFunction": "atmospheric",
+        "exchangeType": "conflictual",
+        "dialoguePurpose": "tension",
+        "monologueFunction": "psychological-insight",
+        "monologueTexture": "reflective"
+      },
+      "rhythm": {
+        "suspenseType": "cognitive",
+        "delayTechnique": "foreshadowing",
+        "uncertaintyPattern": "safety-vs-freedom-unclear"
+      },
+      "arc": {
+        "arcAxis": "freedom-vs-system",
+        "motifFunction": "make-system-control-materially-visible",
+        "relationshipPattern": "technical-trust-without-moral-agreement"
       }
     }
   },
   "fantasy": {
     "label": "Fantasy",
     "genreMode": "fantasy",
-    "themeTopics": ["redemption", "identity-self", "good-evil"],
-    "themeShapes": ["sacrifice", "transformation", "reconciliation"],
-    "narrativeModels": ["heroic-journey", "freytag"],
-    "macroForms": ["linear"],
-    "hookPatterns": ["forbidden-combination", "hidden-truth"],
-    "tensionSources": ["mixed"],
-    "worldDomains": ["magic"],
-    "magicDeterminacies": ["semi-hard"],
-    "sequenceTypes": ["training", "recovery"],
-    "lexicon": {
-      "locations": ["the Ash Vale", "the drowned observatory", "the black cedar road"],
-      "organizations": ["the Thorn Court", "the keepers of ember law", "the abbey choir"],
-      "objects": ["a vow-bound relic", "a cracked star compass", "the ember sigil blade"]
-    },
-    "scenarioPools": {
-      "protagonistRoles": ["oath-breaker heir", "valley archivist", "banished warden", "keeper of the ash road"],
-      "desires": ["lift the curse that is devouring the valley", "recover the founding vow before it consumes another generation", "release one bloodline from the magic that protects its power"],
-      "oppositions": ["a regent who profits from inherited harm", "ritual law that punishes truthful speech", "a sacred order built on a concealed founding crime"],
-      "stakes": ["the valley's survival, ancestral memory, and the protagonist's name", "inheritance, legitimacy, and the right to remain", "belonging, sacrifice, and what can still be redeemed"],
-      "dilemmas": ["speak the binding truth and lose the inheritance, or remain silent and let the valley die slowly", "keep the family claim or free the land from it", "preserve magical shelter or force the vow into daylight"],
-      "storyQuestions": ["what founding lie keeps the valley obedient to the curse?", "what truth must be spoken to release the inherited harm?", "what must be relinquished for redemption to become real?"],
-      "thematicQuestions": ["can a damaged inheritance be redeemed without renouncing ownership of it?", "what survives a lineage after the truth removes its shelter?", "when does belonging become another name for protected harm?"],
-      "thematicStatements": ["redemption requires relinquishing the identity built on inherited harm", "truth becomes magical only when it demands visible cost", "a bloodline remains cursed for as long as it mistakes ownership for duty"],
-      "worldRules": ["every truthful oath spoken against inherited power burns away one layer of family privilege", "magic answers more directly to truthful naming than to rank", "the land remembers vows even when the bloodline edits them"],
+    "constraints": {
+      "centralIdea": {
+        "hookPatterns": ["forbidden-combination", "hidden-truth"],
+        "tensionSources": ["mixed"]
+      },
+      "theme": {
+        "topics": ["redemption", "identity-self", "good-evil"],
+        "moralShapes": ["sacrifice", "transformation", "reconciliation"]
+      },
       "wisdom": {
-        "cognitive": ["show how mythic systems encode political memory", "bind ritual law to historical concealment"],
-        "emotional": ["bind wonder to grief and duty", "let loyalty and fear share the same atmosphere"],
-        "moral": ["make redemption inseparable from relinquishment", "treat truthful speech as a sacrifice, not a slogan"],
-        "reflexive": ["invite reflection on what people protect in the name of belonging", "make inheritance feel both intimate and coercive"],
-        "experiential": ["keep magic tactile, costly, and socially embedded", "let place behave like a witness rather than a backdrop"]
+        "perspectiveModes": ["multi-perspective"],
+        "opennessModes": ["open"]
+      },
+      "structure": {
+        "macroForms": ["linear"],
+        "informationOrders": ["chronological", "delayed-reveal"],
+        "causalDensities": ["tight"]
+      },
+      "narrativeModel": {
+        "modelNames": ["heroic-journey", "freytag"],
+        "adaptationStrengths": ["adapted"],
+        "corePatterns": ["desire-opposed-by-system", "disruption-escalates-into-irreversible-choice"]
+      },
+      "character": {
+        "protagonistArc": "redemption",
+        "counterpartRole": "witness",
+        "conflictModes": ["mixed"],
+        "relationshipTypes": ["conflictual", "mentor-student", "familial", "cooperative"]
+      },
+      "worldbuilding": {
+        "domains": ["magic"],
+        "primaryRuleTypes": ["metaphysical-cost"],
+        "secondaryRuleTypes": ["metaphysical-cost"],
+        "magicDeterminacy": "semi-hard"
+      },
+      "chapter": {
+        "roleSequence3": ["setup", "revelation", "culmination"],
+        "developmentModes": ["escalation", "confrontation"],
+        "blockAlternation": "description-action-dialogue-suspense-interior-monologue-revelation-pause"
+      },
+      "sequence": {
+        "types": ["training", "confrontation-chain"],
+        "linkLogics": ["causal", "mixed"]
+      },
+      "content": {
+        "actionModes": ["pursuit", "attempt", "sacrifice"],
+        "conflictTypes": ["external-supernatural", "mixed"],
+        "stakePattern": "lineage-survival-legitimacy-cost"
+      },
+      "expression": {
+        "descriptionType": "symbolic",
+        "descriptionFunction": "symbolic",
+        "exchangeType": "conflictual",
+        "dialoguePurpose": "tension",
+        "monologueFunction": "psychological-insight",
+        "monologueTexture": "reflective"
+      },
+      "rhythm": {
+        "suspenseType": "situational",
+        "delayTechnique": "foreshadowing",
+        "uncertaintyPattern": "sacrifice-vs-release-unclear"
+      },
+      "arc": {
+        "arcAxis": "redemption-vs-inheritance",
+        "motifFunction": "bind-inheritance-to-cost-and-memory",
+        "relationshipPattern": "oath-bound-cooperation-shadowed-by-allegiance"
       }
     }
   },
   "romance-relational": {
     "label": "Romance / Relational",
     "genreMode": "romance-relational",
-    "themeTopics": ["love-connection", "identity-self", "freedom-security"],
-    "themeShapes": ["reconciliation", "transformation", "dilemma"],
-    "narrativeModels": ["three-act", "freytag"],
-    "macroForms": ["linear"],
-    "hookPatterns": ["role-inversion", "contradiction"],
-    "tensionSources": ["mixed"],
-    "worldDomains": ["society"],
-    "magicDeterminacies": [null],
-    "sequenceTypes": ["courtship", "recovery"],
-    "lexicon": {
-      "locations": ["the winter book market", "a riverside print studio", "the rooftop herb garden"],
-      "organizations": ["the independent press guild", "the family bakery cooperative", "the city arts council"],
-      "objects": ["an annotated recipe book", "a misdelivered galley proof", "a ring of greenhouse keys"]
-    },
-    "scenarioPools": {
-      "protagonistRoles": ["editor turned reluctant co-owner", "restoration architect", "printmaker returning home", "event curator with shared custody of a failing studio"],
-      "desires": ["save a failing family studio without surrendering independence", "rebuild one fragile partnership through work neither person can abandon", "protect the shared project without lying about the damage between them"],
-      "oppositions": ["old hurt that keeps converting tenderness into strategy", "professional history built on misread abandonment", "social routine that rewards practicality over candor"],
-      "stakes": ["creative future, family stability, and the risk of renewed dependence", "trust, shared labor, and the fear of being left again", "autonomy, intimacy, and whether collaboration can remain honest"],
-      "dilemmas": ["protect professional distance or accept the vulnerability required for partnership", "save the work first or speak the truth that could break the working arrangement", "keep usefulness intact or admit that care is already involved"],
-      "storyQuestions": ["can useful collaboration remain emotionally neutral?", "what does closeness demand that competence cannot supply?", "can honest dependence survive the fear of abandonment?"],
-      "thematicQuestions": ["is love a threat to autonomy or the place where autonomy becomes honest?", "what does partnership reveal that solitude can hide?", "when does practical care become unmistakably intimate?"],
-      "thematicStatements": ["intimacy does not erase autonomy, but it does demand honest interdependence", "work becomes personal long before either character agrees to name it", "distance stops protecting dignity the moment tenderness is already visible"],
-      "worldRules": ["creative partnerships reveal emotional imbalance faster than private confession does", "routine collaboration turns hidden desire into visible misalignment", "shared work keeps testing whether honesty can remain useful"],
+    "constraints": {
+      "centralIdea": {
+        "hookPatterns": ["role-inversion", "contradiction"],
+        "tensionSources": ["mixed"]
+      },
+      "theme": {
+        "topics": ["love-connection", "identity-self", "freedom-security"],
+        "moralShapes": ["reconciliation", "transformation", "dilemma"]
+      },
       "wisdom": {
-        "cognitive": ["show how practical collaboration exposes emotional truth", "make routine labor carry the structure of feeling"],
-        "emotional": ["create tenderness without flattening conflict", "let affection and defensiveness occupy the same gesture"],
-        "moral": ["treat vulnerability as a chosen responsibility, not a rescue fantasy", "make honesty reciprocal rather than cathartic"],
-        "reflexive": ["invite readers to examine the stories they use to protect themselves", "show how useful habits can delay intimacy"],
-        "experiential": ["keep intimacy grounded in work, routine, and mutual risk", "let place and objects hold relational memory"]
+        "perspectiveModes": ["single-perspective", "multi-perspective"],
+        "opennessModes": ["partially-open", "open"]
+      },
+      "structure": {
+        "macroForms": ["linear"],
+        "informationOrders": ["chronological", "flashback-rich"],
+        "causalDensities": ["tight", "moderate"]
+      },
+      "narrativeModel": {
+        "modelNames": ["three-act", "freytag"],
+        "adaptationStrengths": ["adapted"],
+        "corePatterns": ["relationship-tested-by-truth"]
+      },
+      "character": {
+        "protagonistArc": "positive-change",
+        "counterpartRole": "ally",
+        "conflictModes": ["mixed"],
+        "relationshipTypes": ["romantic", "cooperative", "ambiguous", "rivalry"]
+      },
+      "worldbuilding": {
+        "domains": ["society"],
+        "primaryRuleTypes": ["social-norm"],
+        "secondaryRuleTypes": ["social-norm"],
+        "magicDeterminacy": null
+      },
+      "chapter": {
+        "roleSequence3": ["setup", "reversal", "culmination"],
+        "developmentModes": ["psychological-pressure", "escalation"],
+        "blockAlternation": "dialogue-description-interior-monologue-action-pause-dialogue-cliffhanger"
+      },
+      "sequence": {
+        "types": ["courtship", "recovery"],
+        "linkLogics": ["causal", "mixed"]
+      },
+      "content": {
+        "actionModes": ["attempt", "negotiation", "revelation-act"],
+        "conflictTypes": ["internal", "mixed"],
+        "stakePattern": "autonomy-tenderness-trust-future"
+      },
+      "expression": {
+        "descriptionType": "mixed",
+        "descriptionFunction": "narrative",
+        "exchangeType": "question-answer",
+        "dialoguePurpose": "characterization",
+        "monologueFunction": "psychological-insight",
+        "monologueTexture": "reflective"
+      },
+      "rhythm": {
+        "suspenseType": "emotional",
+        "delayTechnique": "interruption",
+        "uncertaintyPattern": "honesty-vs-limit-unclear"
+      },
+      "arc": {
+        "arcAxis": "autonomy-vs-interdependence",
+        "motifFunction": "carry-emotional-history-through-work-objects",
+        "relationshipPattern": "productive-partnership-guarded-by-emotional-self-defense"
       }
     }
   }

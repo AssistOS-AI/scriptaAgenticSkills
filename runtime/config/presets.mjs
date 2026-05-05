@@ -1,7 +1,7 @@
 import { createRequire } from 'node:module';
 import { createSeededRandom } from '../core/random.mjs';
 import { titleCase } from '../core/text.mjs';
-import { DOMAIN_VALUES } from './domains.mjs';
+import { DOMAIN_VALUES, COMMAND_CONFIGS, isAllowedByProfile } from './domains.mjs';
 
 const require = createRequire(import.meta.url);
 
@@ -29,46 +29,26 @@ export function getProfile(profileId) {
 export function materializeProfile(profileId, { seed, brief, title }) {
   const profile = getProfile(profileId);
   const random = createSeededRandom(`${seed}:profile`);
-  const scenarioPools = profile.scenarioPools;
+  const constraints = profile.constraints;
 
   return {
     id: profileId,
     label: profile.label,
     genreMode: profile.genreMode,
-    themeTopic: random.pick(profile.themeTopics),
-    themeShape: random.pick(profile.themeShapes),
-    narrativeModel: random.pick(profile.narrativeModels),
-    macroForm: random.pick(profile.macroForms),
-    hookPattern: random.pick(profile.hookPatterns),
-    tensionSource: random.pick(profile.tensionSources),
-    worldDomain: random.pick(profile.worldDomains),
-    magicDeterminacy: pickNullable(random, profile.magicDeterminacies),
-    sequenceType: random.pick(profile.sequenceTypes),
-    lexicon: {
-      locations: pickMany(random, profile.lexicon.locations, 3),
-      organizations: pickMany(random, profile.lexicon.organizations, 3),
-      objects: pickMany(random, profile.lexicon.objects, 3)
-    },
-    scenario: {
-      title: title ?? titleCase(profileId),
-      protagonistRole: random.pick(scenarioPools.protagonistRoles),
-      desire: random.pick(scenarioPools.desires),
-      opposition: random.pick(scenarioPools.oppositions),
-      stakes: random.pick(scenarioPools.stakes),
-      dilemma: random.pick(scenarioPools.dilemmas),
-      storyQuestion: random.pick(scenarioPools.storyQuestions),
-      thematicQuestion: random.pick(scenarioPools.thematicQuestions),
-      thematicStatement: random.pick(scenarioPools.thematicStatements),
-      blueprintPremise: brief || buildBlueprintPremise(random, profile.label, scenarioPools),
-      worldRule: random.pick(scenarioPools.worldRules),
-      wisdom: {
-        cognitive: random.pick(scenarioPools.wisdom.cognitive),
-        emotional: random.pick(scenarioPools.wisdom.emotional),
-        moral: random.pick(scenarioPools.wisdom.moral),
-        reflexive: random.pick(scenarioPools.wisdom.reflexive),
-        experiential: random.pick(scenarioPools.wisdom.experiential)
-      }
-    }
+    hookPattern: random.pick(constraints.centralIdea.hookPatterns),
+    tensionSource: random.pick(constraints.centralIdea.tensionSources),
+    themeTopic: random.pick(constraints.theme.topics),
+    themeShape: random.pick(constraints.theme.moralShapes),
+    narrativeModel: random.pick(constraints.narrativeModel.modelNames),
+    macroForm: random.pick(constraints.structure.macroForms),
+    worldDomain: random.pick(constraints.worldbuilding.domains),
+    magicDeterminacy: pickNullable(random, constraints.worldbuilding.magicDeterminacy),
+    sequenceType: random.pick(constraints.sequence.types),
+    focalizationMode: random.pick(COMMAND_CONFIGS.scene.focalizations),
+    narratorMode: random.pick(COMMAND_CONFIGS.expression.narratorModes),
+    constraints,
+    profile,
+    brief
   };
 }
 
@@ -123,26 +103,13 @@ export function selectNarrativeModel(profile, requestedModel) {
   return modelName;
 }
 
-function pickMany(random, values, count) {
-  const unique = [...new Set(values)];
-  const selections = [];
-
-  while (selections.length < Math.min(count, unique.length)) {
-    const candidate = random.pick(unique);
-
-    if (!selections.includes(candidate)) {
-      selections.push(candidate);
-    }
+function pickNullable(random, value) {
+  if (value === null || value === undefined) {
+    return null;
   }
-
-  return selections.length > 0 ? selections : unique.slice(0, count);
-}
-
-function pickNullable(random, values) {
-  const choice = random.pick(values);
-  return choice === undefined ? null : choice;
-}
-
-function buildBlueprintPremise(random, label, scenarioPools) {
-  return `${titleCase(random.pick(scenarioPools.protagonistRoles))} must ${random.pick(scenarioPools.desires)} while facing ${random.pick(scenarioPools.oppositions)}.`;
+  if (Array.isArray(value)) {
+    const choice = random.pick(value);
+    return choice === undefined ? null : choice;
+  }
+  return value;
 }

@@ -1,49 +1,34 @@
 {
-  "sequence": {
-    "types": ["investigation", "travel", "training", "courtship", "confrontation-chain", "escape", "downfall", "recovery"],
-    "linkLogics": ["causal", "temporal", "thematic", "mixed"],
-    "timeSpans": ["continuous", "discontinuous", "montage", "episodic"],
-    "profileTexts": {
-      "drama": {
-        "objectives": "force private grief into an irreversible public reading",
-        "conflictLines": "the protagonist tries to hold tenderness and truth together while grief and institutions keep separating them",
-        "payoffs": {
-          "default": "the chapter exits with a more exposed wound and less shelter from consequence",
-          "final": "the chapter delivers a truth that repairs some bonds only by breaking older arrangements"
-        }
-      },
-      "detective-police": {
-        "objectives": "lock the investigation to evidence that the system cannot safely absorb",
-        "conflictLines": "the protagonist follows evidence while every official response attempts to redirect, delay, or domesticate it",
-        "payoffs": {
-          "default": "the chapter exits with cleaner evidence and dirtier institutional pressure",
-          "final": "the chapter delivers accusation, proof, and public fallout in the same movement"
-        }
-      },
-      "science-fiction": {
-        "objectives": "push memory control into a choice between safety and freedom",
-        "conflictLines": "the protagonist tries to restore human agency while the system reframes freedom as a security defect",
-        "payoffs": {
-          "default": "the chapter exits with sharper ethical visibility and reduced procedural safety",
-          "final": "the chapter delivers a civic choice that redefines what survival means"
-        }
-      },
-      "fantasy": {
-        "objectives": "bring the inherited curse into a truth-bound confrontation",
-        "conflictLines": "the protagonist seeks truthful release while inherited power keeps demanding silence as the price of belonging",
-        "payoffs": {
-          "default": "the chapter exits with greater magical clarity and heavier cost",
-          "final": "the chapter delivers sacrifice and release without restoring the old order"
-        }
-      },
-      "romance-relational": {
-        "objectives": "turn collaboration into a test of honest intimacy",
-        "conflictLines": "the protagonist wants genuine partnership while habit keeps translating vulnerability into negotiation",
-        "payoffs": {
-          "default": "the chapter exits with greater intimacy pressure and less emotional cover",
-          "final": "the chapter delivers commitment that remains honest about risk"
-        }
-      }
+  "types": ["investigation", "travel", "training", "courtship", "confrontation-chain", "escape", "downfall", "recovery"],
+  "linkLogics": ["causal", "temporal", "thematic", "mixed"],
+  "timeSpans": ["continuous", "discontinuous", "montage", "episodic"],
+  "objectivePatterns": ["push-conflict-into-clearer-irreversible-shape", "lock-pressure-to-evidence-that-system-cannot-absorb", "turn-pressure-into-test-of-honest-resolution"],
+  "payoffPatterns": ["exits-with-new-pressure-and-unresolved-cost", "exits-with-sharper-ethical-visibility", "delivers-final-irreversible-choice"],
+  "profileConstraints": {
+    "drama": {
+      "allowedTypes": ["recovery", "confrontation-chain"],
+      "allowedLinkLogics": ["causal", "mixed"],
+      "allowedTimeSpans": ["continuous", "discontinuous"]
+    },
+    "detective-police": {
+      "allowedTypes": ["investigation", "confrontation-chain"],
+      "allowedLinkLogics": ["causal"],
+      "allowedTimeSpans": ["continuous"]
+    },
+    "science-fiction": {
+      "allowedTypes": ["escape", "investigation"],
+      "allowedLinkLogics": ["causal", "mixed"],
+      "allowedTimeSpans": ["continuous", "discontinuous"]
+    },
+    "fantasy": {
+      "allowedTypes": ["training", "recovery", "confrontation-chain"],
+      "allowedLinkLogics": ["causal", "mixed"],
+      "allowedTimeSpans": ["continuous"]
+    },
+    "romance-relational": {
+      "allowedTypes": ["courtship", "recovery"],
+      "allowedLinkLogics": ["causal", "mixed"],
+      "allowedTimeSpans": ["continuous"]
     }
   }
 }

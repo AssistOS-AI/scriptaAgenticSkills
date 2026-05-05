@@ -1,0 +1,33 @@
+{
+  "modelNames": ["three-act", "freytag", "save-the-cat", "heroic-journey", "episodic", "nonlinear", "kishotenketsu", "fragmented", "in-medias-res", "circular", "frame", "equilibrium-disruption-restoration"],
+  "adaptationStrengths": ["faithful", "adapted", "hybridized"],
+  "corePatterns": ["disruption-escalates-into-irreversible-choice", "investigation-reveals-hidden-structure", "desire-opposed-by-system", "relationship-tested-by-truth"],
+  "transformationLogics": ["protagonist-changes-while-system-reveals-hidden-logic", "protagonist-changes-while-others-resist-change", "relationship-transforms-under-pressure"],
+  "profileConstraints": {
+    "drama": {
+      "allowedModels": ["freytag", "three-act"],
+      "allowedAdaptations": ["adapted"],
+      "allowedPatterns": ["disruption-escalates-into-irreversible-choice", "desire-opposed-by-system"]
+    },
+    "detective-police": {
+      "allowedModels": ["three-act", "freytag"],
+      "allowedAdaptations": ["adapted"],
+      "allowedPatterns": ["investigation-reveals-hidden-structure"]
+    },
+    "science-fiction": {
+      "allowedModels": ["equilibrium-disruption-restoration", "three-act"],
+      "allowedAdaptations": ["adapted", "hybridized"],
+      "allowedPatterns": ["desire-opposed-by-system"]
+    },
+    "fantasy": {
+      "allowedModels": ["heroic-journey", "freytag"],
+      "allowedAdaptations": ["adapted"],
+      "allowedPatterns": ["desire-opposed-by-system", "disruption-escalates-into-irreversible-choice"]
+    },
+    "romance-relational": {
+      "allowedModels": ["three-act", "freytag"],
+      "allowedAdaptations": ["adapted"],
+      "allowedPatterns": ["relationship-tested-by-truth"]
+    }
+  }
+}
