@@ -1,65 +1,92 @@
 {
-  "complexities": ["flat", "round"],
-  "developmentTypes": ["dynamic", "static"],
-  "roles": ["protagonist", "antagonist", "secondary", "ally", "mentor", "witness", "herald", "shapeshifter", "threshold-guardian", "trickster", "anti-hero"],
-  "arcs": ["positive-change", "negative-change", "flat", "corruption", "redemption", "tragic", "circular"],
-  "archetypes": ["hero", "mentor", "shadow", "herald", "shapeshifter", "trickster", "threshold-guardian", "ally", "mother-figure", "father-figure", "innocent", "outcast"],
-  "relationshipTypes": ["conflictual", "cooperative", "mentor-student", "hierarchical", "romantic", "rivalry", "ambiguous", "betrayal-based", "familial"],
-  "conflictModes": ["internal", "external", "mixed"],
-  "liePatterns": ["control-prevents-loss", "distance-keeps-safety", "procedure-ensures-justice", "stability-justifies-concealment", "inheritance-can-be-redeemed", "competence-replaces-vulnerability"],
-  "truthPatterns": ["visible-cost-is-preferable-to-stable-falsehood", "shared-risk-creates-stronger-agency", "truth-requires-breaking-procedure", "concealment-breeds-larger-collapse", "redemption-requires-relinquishment", "interdependence-is-stronger-than-isolation"],
-  "woundPatterns": ["old-compromise-that-shapes-every-choice", "institutional-loyalty-once-seen-as-justice", "trust-in-managed-systems-over-unstable-testimony", "belonging-purchased-through-partial-blindness", "earlier-abandonment-transformed-need-into-logistics"],
-  "pressurePatterns": ["every-truthful-move-threatens-the-bond-being-saved", "every-lawful-move-risks-proving-the-law-compromised", "every-repair-exposes-the-politics-in-the-machine", "every-truthful-act-burns-a-layer-of-inherited-shelter", "every-useful-act-asks-whether-care-can-remain-impersonal"],
-  "profileConstraints": {
-    "drama": {
-      "allowedLiePatterns": ["control-prevents-loss", "distance-keeps-safety"],
-      "allowedTruthPatterns": ["visible-cost-is-preferable-to-stable-falsehood", "shared-risk-creates-stronger-agency"],
-      "allowedWoundPatterns": ["old-compromise-that-shapes-every-choice"],
-      "allowedPressurePatterns": ["every-truthful-move-threatens-the-bond-being-saved"],
-      "protagonistArc": ["tragic"],
-      "counterpartRole": ["witness"],
-      "allowedConflictModes": ["internal", "mixed"],
-      "allowedRelationshipTypes": ["conflictual", "cooperative", "ambiguous", "familial"]
-    },
-    "detective-police": {
-      "allowedLiePatterns": ["procedure-ensures-justice", "stability-justifies-concealment"],
-      "allowedTruthPatterns": ["truth-requires-breaking-procedure", "concealment-breeds-larger-collapse"],
-      "allowedWoundPatterns": ["institutional-loyalty-once-seen-as-justice"],
-      "allowedPressurePatterns": ["every-lawful-move-risks-proving-the-law-compromised"],
-      "protagonistArc": ["tragic"],
-      "counterpartRole": ["witness"],
-      "allowedConflictModes": ["external", "mixed"],
-      "allowedRelationshipTypes": ["conflictual", "hierarchical", "cooperative"]
-    },
-    "science-fiction": {
-      "allowedLiePatterns": ["procedure-ensures-justice", "control-prevents-loss"],
-      "allowedTruthPatterns": ["concealment-breeds-larger-collapse", "visible-cost-is-preferable-to-stable-falsehood"],
-      "allowedWoundPatterns": ["trust-in-managed-systems-over-unstable-testimony"],
-      "allowedPressurePatterns": ["every-repair-exposes-the-politics-in-the-machine"],
-      "protagonistArc": ["tragic"],
-      "counterpartRole": ["witness"],
-      "allowedConflictModes": ["mixed"],
-      "allowedRelationshipTypes": ["cooperative", "hierarchical", "conflictual"]
-    },
-    "fantasy": {
-      "allowedLiePatterns": ["inheritance-can-be-redeemed", "stability-justifies-concealment"],
-      "allowedTruthPatterns": ["redemption-requires-relinquishment", "concealment-breeds-larger-collapse"],
-      "allowedWoundPatterns": ["belonging-purchased-through-partial-blindness"],
-      "allowedPressurePatterns": ["every-truthful-act-burns-a-layer-of-inherited-shelter"],
-      "protagonistArc": ["redemption"],
-      "counterpartRole": ["witness", "ally"],
-      "allowedConflictModes": ["mixed"],
-      "allowedRelationshipTypes": ["conflictual", "mentor-student", "familial", "cooperative"]
-    },
-    "romance-relational": {
-      "allowedLiePatterns": ["competence-replaces-vulnerability", "control-prevents-loss"],
-      "allowedTruthPatterns": ["interdependence-is-stronger-than-isolation", "visible-cost-is-preferable-to-stable-falsehood"],
-      "allowedWoundPatterns": ["earlier-abandonment-transformed-need-into-logistics"],
-      "allowedPressurePatterns": ["every-useful-act-asks-whether-care-can-remain-impersonal"],
-      "protagonistArc": ["positive-change"],
-      "counterpartRole": ["ally"],
-      "allowedConflictModes": ["mixed"],
-      "allowedRelationshipTypes": ["romantic", "cooperative", "ambiguous", "rivalry"]
-    }
-  }
+  "complexities": [
+    "flat",
+    "round"
+  ],
+  "developmentTypes": [
+    "dynamic",
+    "static"
+  ],
+  "roles": [
+    "protagonist",
+    "antagonist",
+    "secondary",
+    "ally",
+    "mentor",
+    "witness",
+    "herald",
+    "shapeshifter",
+    "threshold-guardian",
+    "trickster",
+    "anti-hero"
+  ],
+  "arcs": [
+    "positive-change",
+    "negative-change",
+    "flat",
+    "corruption",
+    "redemption",
+    "tragic",
+    "circular"
+  ],
+  "archetypes": [
+    "hero",
+    "mentor",
+    "shadow",
+    "herald",
+    "shapeshifter",
+    "trickster",
+    "threshold-guardian",
+    "ally",
+    "mother-figure",
+    "father-figure",
+    "innocent",
+    "outcast"
+  ],
+  "relationshipTypes": [
+    "conflictual",
+    "cooperative",
+    "mentor-student",
+    "hierarchical",
+    "romantic",
+    "rivalry",
+    "ambiguous",
+    "betrayal-based",
+    "familial"
+  ],
+  "conflictModes": [
+    "internal",
+    "external",
+    "mixed"
+  ],
+  "liePatterns": [
+    "control-prevents-loss",
+    "distance-keeps-safety",
+    "procedure-ensures-justice",
+    "stability-justifies-concealment",
+    "inheritance-can-be-redeemed",
+    "competence-replaces-vulnerability"
+  ],
+  "truthPatterns": [
+    "visible-cost-is-preferable-to-stable-falsehood",
+    "shared-risk-creates-stronger-agency",
+    "truth-requires-breaking-procedure",
+    "concealment-breeds-larger-collapse",
+    "redemption-requires-relinquishment",
+    "interdependence-is-stronger-than-isolation"
+  ],
+  "woundPatterns": [
+    "old-compromise-that-shapes-every-choice",
+    "institutional-loyalty-once-seen-as-justice",
+    "trust-in-managed-systems-over-unstable-testimony",
+    "belonging-purchased-through-partial-blindness",
+    "earlier-abandonment-transformed-need-into-logistics"
+  ],
+  "pressurePatterns": [
+    "every-truthful-move-threatens-the-bond-being-saved",
+    "every-lawful-move-risks-proving-the-law-compromised",
+    "every-repair-exposes-the-politics-in-the-machine",
+    "every-truthful-act-burns-a-layer-of-inherited-shelter",
+    "every-useful-act-asks-whether-care-can-remain-impersonal"
+  ]
 }

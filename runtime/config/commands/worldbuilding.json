@@ -1,40 +1,43 @@
 {
-  "domains": ["physics", "society", "economy", "technology", "magic", "metaphysics", "time", "geography", "biology"],
-  "visibilityModes": ["explicit", "implicit", "structural"],
-  "ruleTypes": ["physical-limitation", "social-norm", "resource-scarcity", "technological-restriction", "metaphysical-cost", "temporal-law"],
-  "magicDeterminacies": ["hard", "semi-hard", "soft"],
-  "revealStrategies": ["show-consequence-first-explain-cause-later", "embed-rule-in-dialogue", "show-exception-to-reveal-rule"],
-  "secondaryRuleTypes": ["physical-limitation", "social-norm", "resource-scarcity", "technological-restriction", "metaphysical-cost"],
-  "profileConstraints": {
-    "drama": {
-      "allowedDomains": ["society"],
-      "allowedRuleTypes": ["social-norm"],
-      "allowedSecondaryRuleTypes": ["social-norm"],
-      "magicDeterminacy": null
-    },
-    "detective-police": {
-      "allowedDomains": ["society"],
-      "allowedRuleTypes": ["social-norm", "resource-scarcity"],
-      "allowedSecondaryRuleTypes": ["resource-scarcity"],
-      "magicDeterminacy": null
-    },
-    "science-fiction": {
-      "allowedDomains": ["technology"],
-      "allowedRuleTypes": ["technological-restriction"],
-      "allowedSecondaryRuleTypes": ["physical-limitation"],
-      "magicDeterminacy": "semi-hard"
-    },
-    "fantasy": {
-      "allowedDomains": ["magic"],
-      "allowedRuleTypes": ["metaphysical-cost"],
-      "allowedSecondaryRuleTypes": ["metaphysical-cost"],
-      "magicDeterminacy": "semi-hard"
-    },
-    "romance-relational": {
-      "allowedDomains": ["society"],
-      "allowedRuleTypes": ["social-norm"],
-      "allowedSecondaryRuleTypes": ["social-norm"],
-      "magicDeterminacy": null
-    }
-  }
+  "domains": [
+    "physics",
+    "society",
+    "economy",
+    "technology",
+    "magic",
+    "metaphysics",
+    "time",
+    "geography",
+    "biology"
+  ],
+  "visibilityModes": [
+    "explicit",
+    "implicit",
+    "structural"
+  ],
+  "ruleTypes": [
+    "physical-limitation",
+    "social-norm",
+    "resource-scarcity",
+    "technological-restriction",
+    "metaphysical-cost",
+    "temporal-law"
+  ],
+  "magicDeterminacies": [
+    "hard",
+    "semi-hard",
+    "soft"
+  ],
+  "revealStrategies": [
+    "show-consequence-first-explain-cause-later",
+    "embed-rule-in-dialogue",
+    "show-exception-to-reveal-rule"
+  ],
+  "secondaryRuleTypes": [
+    "physical-limitation",
+    "social-norm",
+    "resource-scarcity",
+    "technological-restriction",
+    "metaphysical-cost"
+  ]
 }

@@ -1,29 +1,32 @@
 {
-  "dominantDimensions": ["cognitive", "emotional", "moral", "reflexive", "experiential", "balanced"],
-  "perspectiveModes": ["single-perspective", "multi-perspective", "polyphonic"],
-  "opennessModes": ["closed", "partially-open", "open"],
-  "insightSources": ["consequence", "reversal", "conflicting-voices", "structural-reveal", "emotional-cost"],
-  "antiDidacticRules": ["insight-from-consequences", "insight-from-reversals", "insight-from-conflicting-voices"],
-  "profileConstraints": {
-    "drama": {
-      "allowedPerspectiveModes": ["single-perspective"],
-      "allowedOpennessModes": ["open"]
-    },
-    "detective-police": {
-      "allowedPerspectiveModes": ["single-perspective"],
-      "allowedOpennessModes": ["partially-open", "open"]
-    },
-    "science-fiction": {
-      "allowedPerspectiveModes": ["single-perspective", "multi-perspective"],
-      "allowedOpennessModes": ["open"]
-    },
-    "fantasy": {
-      "allowedPerspectiveModes": ["multi-perspective"],
-      "allowedOpennessModes": ["open"]
-    },
-    "romance-relational": {
-      "allowedPerspectiveModes": ["single-perspective", "multi-perspective"],
-      "allowedOpennessModes": ["partially-open", "open"]
-    }
-  }
+  "dominantDimensions": [
+    "cognitive",
+    "emotional",
+    "moral",
+    "reflexive",
+    "experiential",
+    "balanced"
+  ],
+  "perspectiveModes": [
+    "single-perspective",
+    "multi-perspective",
+    "polyphonic"
+  ],
+  "opennessModes": [
+    "closed",
+    "partially-open",
+    "open"
+  ],
+  "insightSources": [
+    "consequence",
+    "reversal",
+    "conflicting-voices",
+    "structural-reveal",
+    "emotional-cost"
+  ],
+  "antiDidacticRules": [
+    "insight-from-consequences",
+    "insight-from-reversals",
+    "insight-from-conflicting-voices"
+  ]
 }

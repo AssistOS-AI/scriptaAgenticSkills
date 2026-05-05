@@ -1,45 +1,43 @@
 {
-  "suspenseTypes": ["emotional", "cognitive", "situational", "dramatic"],
-  "delayTechniques": ["delayed-information", "foreshadowing", "interruption", "time-slowing", "danger", "mixed"],
-  "cliffhangerTypes": ["danger", "interrupted-revelation", "critical-decision", "unresolved-confrontation"],
-  "pauseFunctions": ["psychological", "explanatory", "descriptive", "atmospheric", "rhythmic"],
-  "accelerationModes": ["transition-skip", "montage", "summary-burst", "pursuit-compression"],
-  "uncertaintyPatterns": ["outcome-remains-unreadable", "truth-vs-repair-unclear", "evidence-vs-institution-unclear", "safety-vs-freedom-unclear", "sacrifice-vs-release-unclear", "honesty-vs-limit-unclear"],
-  "profileConstraints": {
-    "drama": {
-      "preferredSuspenseType": "emotional",
-      "preferredDelayTechnique": "mixed",
-      "preferredUncertaintyPattern": "truth-vs-repair-unclear",
-      "preferredPauseFunction": "psychological",
-      "preferredAccelerationMode": "summary-burst"
-    },
-    "detective-police": {
-      "preferredSuspenseType": "cognitive",
-      "preferredDelayTechnique": "delayed-information",
-      "preferredUncertaintyPattern": "evidence-vs-institution-unclear",
-      "preferredPauseFunction": "explanatory",
-      "preferredAccelerationMode": "pursuit-compression"
-    },
-    "science-fiction": {
-      "preferredSuspenseType": "cognitive",
-      "preferredDelayTechnique": "foreshadowing",
-      "preferredUncertaintyPattern": "safety-vs-freedom-unclear",
-      "preferredPauseFunction": "atmospheric",
-      "preferredAccelerationMode": "montage"
-    },
-    "fantasy": {
-      "preferredSuspenseType": "situational",
-      "preferredDelayTechnique": "foreshadowing",
-      "preferredUncertaintyPattern": "sacrifice-vs-release-unclear",
-      "preferredPauseFunction": "atmospheric",
-      "preferredAccelerationMode": "summary-burst"
-    },
-    "romance-relational": {
-      "preferredSuspenseType": "emotional",
-      "preferredDelayTechnique": "interruption",
-      "preferredUncertaintyPattern": "honesty-vs-limit-unclear",
-      "preferredPauseFunction": "psychological",
-      "preferredAccelerationMode": "transition-skip"
-    }
-  }
+  "suspenseTypes": [
+    "emotional",
+    "cognitive",
+    "situational",
+    "dramatic"
+  ],
+  "delayTechniques": [
+    "delayed-information",
+    "foreshadowing",
+    "interruption",
+    "time-slowing",
+    "danger",
+    "mixed"
+  ],
+  "cliffhangerTypes": [
+    "danger",
+    "interrupted-revelation",
+    "critical-decision",
+    "unresolved-confrontation"
+  ],
+  "pauseFunctions": [
+    "psychological",
+    "explanatory",
+    "descriptive",
+    "atmospheric",
+    "rhythmic"
+  ],
+  "accelerationModes": [
+    "transition-skip",
+    "montage",
+    "summary-burst",
+    "pursuit-compression"
+  ],
+  "uncertaintyPatterns": [
+    "outcome-remains-unreadable",
+    "truth-vs-repair-unclear",
+    "evidence-vs-institution-unclear",
+    "safety-vs-freedom-unclear",
+    "sacrifice-vs-release-unclear",
+    "honesty-vs-limit-unclear"
+  ]
 }

@@ -1,29 +1,29 @@
 {
-  "hookPatterns": ["contradiction", "what-if", "forbidden-combination", "hidden-truth", "costed-power", "role-inversion"],
-  "tensionSources": ["internal", "external", "mixed"],
-  "namingStates": ["placeholder", "resolved"],
-  "audienceFits": ["genre-readers", "literary-readers", "cross-genre-readers"],
-  "pitchTemplates": ["protagonist-vs-opposition", "desire-vs-cost", "dilemma-as-question"],
-  "profileConstraints": {
-    "drama": {
-      "allowedHookPatterns": ["hidden-truth", "contradiction"],
-      "allowedTensionSources": ["internal", "mixed"]
-    },
-    "detective-police": {
-      "allowedHookPatterns": ["what-if", "hidden-truth"],
-      "allowedTensionSources": ["external", "mixed"]
-    },
-    "science-fiction": {
-      "allowedHookPatterns": ["costed-power", "what-if"],
-      "allowedTensionSources": ["mixed"]
-    },
-    "fantasy": {
-      "allowedHookPatterns": ["forbidden-combination", "hidden-truth"],
-      "allowedTensionSources": ["mixed"]
-    },
-    "romance-relational": {
-      "allowedHookPatterns": ["role-inversion", "contradiction"],
-      "allowedTensionSources": ["mixed"]
-    }
-  }
+  "hookPatterns": [
+    "contradiction",
+    "what-if",
+    "forbidden-combination",
+    "hidden-truth",
+    "costed-power",
+    "role-inversion"
+  ],
+  "tensionSources": [
+    "internal",
+    "external",
+    "mixed"
+  ],
+  "namingStates": [
+    "placeholder",
+    "resolved"
+  ],
+  "audienceFits": [
+    "genre-readers",
+    "literary-readers",
+    "cross-genre-readers"
+  ],
+  "pitchTemplates": [
+    "protagonist-vs-opposition",
+    "desire-vs-cost",
+    "dilemma-as-question"
+  ]
 }

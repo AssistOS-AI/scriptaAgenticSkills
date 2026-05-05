@@ -1,15 +1,84 @@
 {
-  "descriptionTypes": ["setting", "portrait", "atmosphere", "symbolic", "mixed"],
-  "descriptionFunctions": ["mimetic", "symbolic", "narrative", "atmospheric", "social"],
-  "rhythmEffects": ["slow", "frame", "hold", "contrast"],
-  "exchangeTypes": ["simple", "question-answer", "conflictual", "informative"],
-  "dialoguePurposes": ["action-development", "characterization", "tension", "information", "dynamism"],
-  "narratorModes": ["first-person", "third-person", "subjective", "objective", "close-third-person", "omniscient-third-person"],
-  "timeHandlingModes": ["real-time", "summary", "reordered", "mixed"],
-  "monologueFunctions": ["characterization", "psychological-insight", "narrative-depth", "subjective-filtering", "emotional-intensity"],
-  "monologueTextures": ["fragmented", "reflective", "immediate", "associative", "recursive"],
-  "dialogueIntentTypes": ["probe", "deflect", "commit", "warn", "challenge", "reframe", "answer-honestly", "tease-probe", "name-risk"],
-  "dialogueSubtextTypes": ["tests-whether-intimacy-is-possible", "hides-harder-truth", "carries-fear-disguised-as-competence", "distributes-emotional-risk", "exposes-injury-while-pretending-to-stay-practical", "turns-routine-into-emotional-leverage"],
+  "descriptionTypes": [
+    "setting",
+    "portrait",
+    "atmosphere",
+    "symbolic",
+    "mixed"
+  ],
+  "descriptionFunctions": [
+    "mimetic",
+    "symbolic",
+    "narrative",
+    "atmospheric",
+    "social"
+  ],
+  "rhythmEffects": [
+    "slow",
+    "frame",
+    "hold",
+    "contrast"
+  ],
+  "exchangeTypes": [
+    "simple",
+    "question-answer",
+    "conflictual",
+    "informative"
+  ],
+  "dialoguePurposes": [
+    "action-development",
+    "characterization",
+    "tension",
+    "information",
+    "dynamism"
+  ],
+  "narratorModes": [
+    "first-person",
+    "third-person",
+    "subjective",
+    "objective",
+    "close-third-person",
+    "omniscient-third-person"
+  ],
+  "timeHandlingModes": [
+    "real-time",
+    "summary",
+    "reordered",
+    "mixed"
+  ],
+  "monologueFunctions": [
+    "characterization",
+    "psychological-insight",
+    "narrative-depth",
+    "subjective-filtering",
+    "emotional-intensity"
+  ],
+  "monologueTextures": [
+    "fragmented",
+    "reflective",
+    "immediate",
+    "associative",
+    "recursive"
+  ],
+  "dialogueIntentTypes": [
+    "probe",
+    "deflect",
+    "commit",
+    "warn",
+    "challenge",
+    "reframe",
+    "answer-honestly",
+    "tease-probe",
+    "name-risk"
+  ],
+  "dialogueSubtextTypes": [
+    "tests-whether-intimacy-is-possible",
+    "hides-harder-truth",
+    "carries-fear-disguised-as-competence",
+    "distributes-emotional-risk",
+    "exposes-injury-while-pretending-to-stay-practical",
+    "turns-routine-into-emotional-leverage"
+  ],
   "dialogueIntentSubtext": {
     "probe": "tests whether the other speaker can bear the unsoftened truth",
     "deflect": "turns confession sideways to protect status and control",
@@ -32,48 +101,17 @@
     "tease-probe": "The joke opens a bruise neither speaker can ignore now.",
     "name-risk": "Naming the risk turns pressure into irreversible commitment."
   },
-  "pauseFunctionTypes": ["psychological", "explanatory", "descriptive", "atmospheric", "rhythmic"],
-  "accelerationModes": ["transition-skip", "montage", "summary-burst", "pursuit-compression"],
-  "profileConstraints": {
-    "drama": {
-      "preferredDescriptionType": "atmosphere",
-      "preferredDescriptionFunction": "atmospheric",
-      "preferredExchangeType": "conflictual",
-      "preferredDialoguePurpose": "tension",
-      "preferredMonologueFunction": "psychological-insight",
-      "preferredMonologueTexture": "reflective"
-    },
-    "detective-police": {
-      "preferredDescriptionType": "setting",
-      "preferredDescriptionFunction": "narrative",
-      "preferredExchangeType": "question-answer",
-      "preferredDialoguePurpose": "information",
-      "preferredMonologueFunction": "characterization",
-      "preferredMonologueTexture": "fragmented"
-    },
-    "science-fiction": {
-      "preferredDescriptionType": "atmosphere",
-      "preferredDescriptionFunction": "atmospheric",
-      "preferredExchangeType": "conflictual",
-      "preferredDialoguePurpose": "tension",
-      "preferredMonologueFunction": "psychological-insight",
-      "preferredMonologueTexture": "reflective"
-    },
-    "fantasy": {
-      "preferredDescriptionType": "symbolic",
-      "preferredDescriptionFunction": "symbolic",
-      "preferredExchangeType": "conflictual",
-      "preferredDialoguePurpose": "tension",
-      "preferredMonologueFunction": "psychological-insight",
-      "preferredMonologueTexture": "reflective"
-    },
-    "romance-relational": {
-      "preferredDescriptionType": "mixed",
-      "preferredDescriptionFunction": "narrative",
-      "preferredExchangeType": "question-answer",
-      "preferredDialoguePurpose": "characterization",
-      "preferredMonologueFunction": "psychological-insight",
-      "preferredMonologueTexture": "reflective"
-    }
-  }
+  "pauseFunctionTypes": [
+    "psychological",
+    "explanatory",
+    "descriptive",
+    "atmospheric",
+    "rhythmic"
+  ],
+  "accelerationModes": [
+    "transition-skip",
+    "montage",
+    "summary-burst",
+    "pursuit-compression"
+  ]
 }

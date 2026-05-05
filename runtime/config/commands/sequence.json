@@ -1,34 +1,35 @@
 {
-  "types": ["investigation", "travel", "training", "courtship", "confrontation-chain", "escape", "downfall", "recovery"],
-  "linkLogics": ["causal", "logical", "temporal", "thematic", "mixed"],
-  "timeSpans": ["continuous", "discontinuous", "montage", "episodic"],
-  "objectivePatterns": ["push-conflict-into-clearer-irreversible-shape", "lock-pressure-to-evidence-that-system-cannot-absorb", "turn-pressure-into-test-of-honest-resolution"],
-  "payoffPatterns": ["exits-with-new-pressure-and-unresolved-cost", "exits-with-sharper-ethical-visibility", "delivers-final-irreversible-choice"],
-  "profileConstraints": {
-    "drama": {
-      "allowedTypes": ["recovery", "confrontation-chain"],
-      "allowedLinkLogics": ["causal", "mixed"],
-      "allowedTimeSpans": ["continuous", "discontinuous"]
-    },
-    "detective-police": {
-      "allowedTypes": ["investigation", "confrontation-chain"],
-      "allowedLinkLogics": ["causal"],
-      "allowedTimeSpans": ["continuous"]
-    },
-    "science-fiction": {
-      "allowedTypes": ["escape", "investigation"],
-      "allowedLinkLogics": ["causal", "mixed"],
-      "allowedTimeSpans": ["continuous", "discontinuous"]
-    },
-    "fantasy": {
-      "allowedTypes": ["training", "recovery", "confrontation-chain"],
-      "allowedLinkLogics": ["causal", "mixed"],
-      "allowedTimeSpans": ["continuous"]
-    },
-    "romance-relational": {
-      "allowedTypes": ["courtship", "recovery"],
-      "allowedLinkLogics": ["causal", "mixed"],
-      "allowedTimeSpans": ["continuous"]
-    }
-  }
+  "types": [
+    "investigation",
+    "travel",
+    "training",
+    "courtship",
+    "confrontation-chain",
+    "escape",
+    "downfall",
+    "recovery"
+  ],
+  "linkLogics": [
+    "causal",
+    "logical",
+    "temporal",
+    "thematic",
+    "mixed"
+  ],
+  "timeSpans": [
+    "continuous",
+    "discontinuous",
+    "montage",
+    "episodic"
+  ],
+  "objectivePatterns": [
+    "push-conflict-into-clearer-irreversible-shape",
+    "lock-pressure-to-evidence-that-system-cannot-absorb",
+    "turn-pressure-into-test-of-honest-resolution"
+  ],
+  "payoffPatterns": [
+    "exits-with-new-pressure-and-unresolved-cost",
+    "exits-with-sharper-ethical-visibility",
+    "delivers-final-irreversible-choice"
+  ]
 }

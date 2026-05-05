@@ -1,33 +1,29 @@
 {
-  "macroForms": ["linear", "nonlinear", "circular", "episodic", "fragmented", "in-medias-res-led", "kishotenketsu-driven", "frame-based"],
-  "informationOrders": ["chronological", "delayed-reveal", "flashback-rich", "parallel-threaded", "recontextualizing"],
-  "causalDensities": ["tight", "moderate", "loose"],
-  "causalRules": ["every-major-choice-must-create-visible-consequence", "every-reveal-must-change-the-moral-reading", "every-escalation-must-narrow-the-safe-options"],
-  "profileConstraints": {
-    "drama": {
-      "allowedMacroForms": ["linear", "fragmented"],
-      "allowedInformationOrders": ["delayed-reveal", "flashback-rich"],
-      "allowedCausalDensities": ["tight", "moderate"]
-    },
-    "detective-police": {
-      "allowedMacroForms": ["linear"],
-      "allowedInformationOrders": ["delayed-reveal", "recontextualizing"],
-      "allowedCausalDensities": ["tight"]
-    },
-    "science-fiction": {
-      "allowedMacroForms": ["linear"],
-      "allowedInformationOrders": ["chronological", "delayed-reveal"],
-      "allowedCausalDensities": ["tight"]
-    },
-    "fantasy": {
-      "allowedMacroForms": ["linear"],
-      "allowedInformationOrders": ["chronological", "delayed-reveal"],
-      "allowedCausalDensities": ["tight"]
-    },
-    "romance-relational": {
-      "allowedMacroForms": ["linear"],
-      "allowedInformationOrders": ["chronological", "flashback-rich"],
-      "allowedCausalDensities": ["tight", "moderate"]
-    }
-  }
+  "macroForms": [
+    "linear",
+    "nonlinear",
+    "circular",
+    "episodic",
+    "fragmented",
+    "in-medias-res-led",
+    "kishotenketsu-driven",
+    "frame-based"
+  ],
+  "informationOrders": [
+    "chronological",
+    "delayed-reveal",
+    "flashback-rich",
+    "parallel-threaded",
+    "recontextualizing"
+  ],
+  "causalDensities": [
+    "tight",
+    "moderate",
+    "loose"
+  ],
+  "causalRules": [
+    "every-major-choice-must-create-visible-consequence",
+    "every-reveal-must-change-the-moral-reading",
+    "every-escalation-must-narrow-the-safe-options"
+  ]
 }

@@ -1,40 +1,66 @@
 {
-  "arcAxes": ["identity-under-dilemma-pressure", "truth-vs-shelter", "evidence-vs-institution", "freedom-vs-system", "redemption-vs-inheritance", "autonomy-vs-interdependence"],
-  "openingStatePatterns": ["unstable-but-socially-protected-equilibrium", "initial-promise-unstable-but-not-public", "system-appears-stable-but-is-leaking", "visible-curse-protected-by-ritual-silence", "functional-partnership-guarded-by-self-defense"],
-  "escalationPatterns": ["pressure-converts-hidden-contradiction-into-visible-consequence", "each-escalation-narrows-safe-options", "each-fix-proves-system-resists-change"],
-  "midpointPatterns": ["apparent-problem-hides-larger-moral-structure", "repair-impossible-without-naming-wound-correctly", "malfunction-is-not-accidental-but-designed"],
-  "endingPatterns": ["preserves-meaning-by-leaving-cost-visible", "truth-reorders-structure-at-irreversible-cost", "survival-remains-but-innocence-does-not"],
-  "relationshipOpeningPatterns": ["careful-cooperation-strained-by-withheld-history", "professional-alliance-with-unequal-risk", "technical-trust-without-moral-agreement", "oath-bound-cooperation-shadowed-by-allegiance", "productive-partnership-guarded-by-emotional-self-defense"],
-  "relationshipStressPatterns": ["cooperation-intensifies-rather-than-dissolves-contradiction", "shared-work-keeps-exposing-emotional-imbalance", "shared-danger-exposes-opposite-loyalties"],
-  "relationshipRepairPatterns": ["repair-requires-shared-risk-rather-than-strategic-distance", "repair-requires-naming-the-most-damaging-truth", "alignment-requires-consent-over-prediction"],
-  "relationshipExitPatterns": ["altered-but-legible-bond", "scarred-trust-rebuilt-on-painful-clarity", "solidarity-forged-through-contested-truth"],
-  "motifPatterns": ["recurring-object-that-changes-meaning", "recurring-phrase-that-deepens-pressure", "recurring-location-that-accumulates-charge"],
-  "motifFunctions": ["turn-absence-into-visible-accusation", "link-concrete-to-moral-contamination", "make-system-control-materially-visible", "bind-inheritance-to-cost-and-memory", "carry-emotional-history-through-work-objects"],
-  "profileConstraints": {
-    "drama": {
-      "allowedArcAxes": ["identity-under-dilemma-pressure", "truth-vs-shelter"],
-      "allowedMotifFunctions": ["turn-absence-into-visible-accusation", "link-concrete-to-moral-contamination"],
-      "preferredRelationshipPattern": "careful-cooperation-strained-by-withheld-history"
-    },
-    "detective-police": {
-      "allowedArcAxes": ["evidence-vs-institution", "identity-under-dilemma-pressure"],
-      "allowedMotifFunctions": ["link-concrete-to-moral-contamination", "make-system-control-materially-visible"],
-      "preferredRelationshipPattern": "professional-alliance-with-unequal-risk"
-    },
-    "science-fiction": {
-      "allowedArcAxes": ["freedom-vs-system", "identity-under-dilemma-pressure"],
-      "allowedMotifFunctions": ["make-system-control-materially-visible", "link-concrete-to-moral-contamination"],
-      "preferredRelationshipPattern": "technical-trust-without-moral-agreement"
-    },
-    "fantasy": {
-      "allowedArcAxes": ["redemption-vs-inheritance", "identity-under-dilemma-pressure"],
-      "allowedMotifFunctions": ["bind-inheritance-to-cost-and-memory", "make-system-control-materially-visible"],
-      "preferredRelationshipPattern": "oath-bound-cooperation-shadowed-by-allegiance"
-    },
-    "romance-relational": {
-      "allowedArcAxes": ["autonomy-vs-interdependence", "identity-under-dilemma-pressure"],
-      "allowedMotifFunctions": ["carry-emotional-history-through-work-objects", "turn-absence-into-visible-accusation"],
-      "preferredRelationshipPattern": "productive-partnership-guarded-by-emotional-self-defense"
-    }
-  }
+  "arcAxes": [
+    "identity-under-dilemma-pressure",
+    "truth-vs-shelter",
+    "evidence-vs-institution",
+    "freedom-vs-system",
+    "redemption-vs-inheritance",
+    "autonomy-vs-interdependence"
+  ],
+  "openingStatePatterns": [
+    "unstable-but-socially-protected-equilibrium",
+    "initial-promise-unstable-but-not-public",
+    "system-appears-stable-but-is-leaking",
+    "visible-curse-protected-by-ritual-silence",
+    "functional-partnership-guarded-by-self-defense"
+  ],
+  "escalationPatterns": [
+    "pressure-converts-hidden-contradiction-into-visible-consequence",
+    "each-escalation-narrows-safe-options",
+    "each-fix-proves-system-resists-change"
+  ],
+  "midpointPatterns": [
+    "apparent-problem-hides-larger-moral-structure",
+    "repair-impossible-without-naming-wound-correctly",
+    "malfunction-is-not-accidental-but-designed"
+  ],
+  "endingPatterns": [
+    "preserves-meaning-by-leaving-cost-visible",
+    "truth-reorders-structure-at-irreversible-cost",
+    "survival-remains-but-innocence-does-not"
+  ],
+  "relationshipOpeningPatterns": [
+    "careful-cooperation-strained-by-withheld-history",
+    "professional-alliance-with-unequal-risk",
+    "technical-trust-without-moral-agreement",
+    "oath-bound-cooperation-shadowed-by-allegiance",
+    "productive-partnership-guarded-by-emotional-self-defense"
+  ],
+  "relationshipStressPatterns": [
+    "cooperation-intensifies-rather-than-dissolves-contradiction",
+    "shared-work-keeps-exposing-emotional-imbalance",
+    "shared-danger-exposes-opposite-loyalties"
+  ],
+  "relationshipRepairPatterns": [
+    "repair-requires-shared-risk-rather-than-strategic-distance",
+    "repair-requires-naming-the-most-damaging-truth",
+    "alignment-requires-consent-over-prediction"
+  ],
+  "relationshipExitPatterns": [
+    "altered-but-legible-bond",
+    "scarred-trust-rebuilt-on-painful-clarity",
+    "solidarity-forged-through-contested-truth"
+  ],
+  "motifPatterns": [
+    "recurring-object-that-changes-meaning",
+    "recurring-phrase-that-deepens-pressure",
+    "recurring-location-that-accumulates-charge"
+  ],
+  "motifFunctions": [
+    "turn-absence-into-visible-accusation",
+    "link-concrete-to-moral-contamination",
+    "make-system-control-materially-visible",
+    "bind-inheritance-to-cost-and-memory",
+    "carry-emotional-history-through-work-objects"
+  ]
 }

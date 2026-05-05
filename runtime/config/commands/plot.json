@@ -1,33 +1,48 @@
 {
-  "categories": ["physical-object", "information", "relationship", "event", "abstract-concept"],
-  "subtypes": ["artifact", "key", "document", "weapon", "secret", "prophecy", "evidence", "memory", "promise", "debt", "betrayal", "inheritance", "accident", "crime", "deadline", "discovery", "curse", "blessing", "revenge", "destiny", "fate"],
-  "functions": ["conflict-generation", "motivation", "obstacle", "revelation", "redirection"],
-  "deviceTypes": ["macguffin", "chekhov-gun", "red-herring", "foreshadowing", "flashback", "flash-forward", "delayed-reveal"],
-  "profileConstraints": {
-    "drama": {
-      "allowedCategories": ["information", "relationship", "event"],
-      "allowedSubtypes": ["secret", "memory", "promise", "debt", "betrayal", "inheritance", "document", "evidence"],
-      "allowedDeviceTypes": ["delayed-reveal", "chekhov-gun", "flashback"]
-    },
-    "detective-police": {
-      "allowedCategories": ["information", "physical-object", "event"],
-      "allowedSubtypes": ["evidence", "document", "secret", "crime", "deadline", "betrayal"],
-      "allowedDeviceTypes": ["chekhov-gun", "red-herring", "delayed-reveal"]
-    },
-    "science-fiction": {
-      "allowedCategories": ["information", "abstract-concept", "physical-object"],
-      "allowedSubtypes": ["memory", "discovery", "secret", "prophecy", "artifact"],
-      "allowedDeviceTypes": ["foreshadowing", "delayed-reveal", "chekhov-gun"]
-    },
-    "fantasy": {
-      "allowedCategories": ["physical-object", "abstract-concept", "relationship"],
-      "allowedSubtypes": ["artifact", "curse", "blessing", "prophecy", "destiny", "inheritance", "promise"],
-      "allowedDeviceTypes": ["foreshadowing", "chekhov-gun", "delayed-reveal"]
-    },
-    "romance-relational": {
-      "allowedCategories": ["relationship", "information", "event"],
-      "allowedSubtypes": ["promise", "secret", "betrayal", "memory", "discovery", "debt"],
-      "allowedDeviceTypes": ["flashback", "foreshadowing", "delayed-reveal"]
-    }
-  }
+  "categories": [
+    "physical-object",
+    "information",
+    "relationship",
+    "event",
+    "abstract-concept"
+  ],
+  "subtypes": [
+    "artifact",
+    "key",
+    "document",
+    "weapon",
+    "secret",
+    "prophecy",
+    "evidence",
+    "memory",
+    "promise",
+    "debt",
+    "betrayal",
+    "inheritance",
+    "accident",
+    "crime",
+    "deadline",
+    "discovery",
+    "curse",
+    "blessing",
+    "revenge",
+    "destiny",
+    "fate"
+  ],
+  "functions": [
+    "conflict-generation",
+    "motivation",
+    "obstacle",
+    "revelation",
+    "redirection"
+  ],
+  "deviceTypes": [
+    "macguffin",
+    "chekhov-gun",
+    "red-herring",
+    "foreshadowing",
+    "flashback",
+    "flash-forward",
+    "delayed-reveal"
+  ]
 }
