@@ -221,29 +221,7 @@ function chunkText(text) {
   }
 
   const sentences = normalized.match(/[^.!?]+(?:[.!?]+|$)/g)?.map((entry) => entry.trim()).filter(Boolean) ?? [normalized];
-  const chunks = [];
-  let current = '';
-
-  for (const sentence of sentences) {
-    if (!current) {
-      current = sentence;
-      continue;
-    }
-
-    if (`${current} ${sentence}`.length > MAX_TRANSLATION_CHUNK_LENGTH) {
-      chunks.push(current);
-      current = sentence;
-      continue;
-    }
-
-    current = `${current} ${sentence}`;
-  }
-
-  if (current) {
-    chunks.push(current);
-  }
-
-  return chunks;
+  return sentences.flatMap((sentence) => splitLongSentence(sentence));
 }
 
 function translateChunk(chunk, targetLanguage) {
@@ -353,4 +331,30 @@ function lowerFirst(value) {
 
 function stripTerminalPunctuation(value) {
   return String(value ?? '').trim().replace(/[.!?]+$/g, '');
+}
+
+function splitLongSentence(sentence) {
+  if (sentence.length <= MAX_TRANSLATION_CHUNK_LENGTH) {
+    return [sentence];
+  }
+
+  const chunks = [];
+  let current = '';
+
+  for (const fragment of sentence.split(/,\s+/)) {
+    const next = current ? `${current}, ${fragment}` : fragment;
+    if (next.length > MAX_TRANSLATION_CHUNK_LENGTH && current) {
+      chunks.push(current);
+      current = fragment;
+      continue;
+    }
+
+    current = next;
+  }
+
+  if (current) {
+    chunks.push(current);
+  }
+
+  return chunks;
 }
