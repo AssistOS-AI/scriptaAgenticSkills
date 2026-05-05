@@ -332,51 +332,45 @@ function buildEditionChapter(model, chapter, languageCode) {
     const location = localizeBookText(firstScene['time-space'], languageCode);
     const placeSignal = sentenceCase(chapterLocationSignal || chapterLocationSymbol);
     if (languageCode === 'ro') {
-      paragraphs.push(
+      pushUniqueParagraph(paragraphs,
         `${firstScene.participants[0]} ajunge ${locationPhrase(location, languageCode)}, unde ${profileFlavor.atmosphere}. ${placeSignal ? `${placeSignal}.` : ''} ${firstScene.participants[1]} citeste prea atent incaperea, iar ${firstScene.participants[2]} tine in viata versiunea de evenimente pe care ceilalti ar prefera sa o creada.`.replace(/\s+/g, ' ').trim()
       );
     } else {
-      paragraphs.push(
+      pushUniqueParagraph(paragraphs,
         `${firstScene.participants[0]} reaches ${location}, where ${profileFlavor.atmosphere}. ${placeSignal ? `${placeSignal}.` : ''} ${firstScene.participants[1]} reads the room too carefully, while ${firstScene.participants[2]} keeps alive the version of events other people would rather believe.`.replace(/\s+/g, ' ').trim()
       );
     }
   }
 
   chapter.scenes.forEach((scene, index) => {
-    const location = localizeBookText(scene['time-space'], languageCode);
     const introduction = normalizeNarrativePhrase(scene.introduction, languageCode);
+    const development = normalizeNarrativePhrase(scene.development, languageCode);
     const conflict = normalizeNarrativePhrase(scene.conflict, languageCode);
     const trigger = sentenceCase(localizeBookText(scene.event.trigger ?? model.plotElement.activation ?? '', languageCode));
-    const actionGoal = localizeBookText(scene.action.goal ?? model.characters.protagonist.desire, languageCode);
-    const actionObstacle = localizeBookText(scene.action.obstacle ?? model.characters.pressure.desire, languageCode);
-    const dialogueParagraph = renderEditionDialogue(scene.dialogueTurns ?? [], languageCode);
+    const impact = sentenceCase(localizeBookText(scene.event.impact ?? scene.stateChange ?? '', languageCode));
+    const resolution = normalizeNarrativePhrase(scene.resolution, languageCode);
 
     if (languageCode === 'ro') {
-      paragraphs.push([
-        index === 0 ? `${sentenceCase(locationPhrase(location, languageCode))}, ${introduction.toLowerCase()}.` : `Mai tarziu, ${locationPhrase(location, languageCode)}, ${introduction.toLowerCase()}.`,
-        `${scene.participants[0]} incearca sa ${actionGoal}, dar ${actionObstacle}.`,
+      pushUniqueParagraph(paragraphs, [
+        index === 0 ? `${introduction}.` : `Mai tarziu, ${introduction.toLowerCase()}.`,
+        development ? `${development}.` : '',
         `${conflict}.`,
-        trigger ? `${trigger}.` : ''
+        trigger && impact ? `Cand ${lowerFirst(trigger)}, ${lowerFirst(stripTerminalPeriod(impact))}.` : '',
+        resolution ? `${resolution}.` : ''
       ].filter(Boolean).join(' '));
-      if (dialogueParagraph) {
-        paragraphs.push(dialogueParagraph);
-      }
       return;
     }
 
-    paragraphs.push([
-      index === 0 ? `In ${location}, ${introduction.toLowerCase()}.` : `Later, in ${location}, ${introduction.toLowerCase()}.`,
-      `${scene.participants[0]} tries to ${actionGoal}, but ${actionObstacle}.`,
+    pushUniqueParagraph(paragraphs, [
+      index === 0 ? `${introduction}.` : `Later, ${introduction.toLowerCase()}.`,
+      development ? `${development}.` : '',
       `${conflict}.`,
-      trigger ? `${trigger}.` : ''
+      trigger && impact ? `When ${lowerFirst(trigger)}, ${lowerFirst(stripTerminalPeriod(impact))}.` : '',
+      resolution ? `${resolution}.` : ''
     ].filter(Boolean).join(' '));
-
-    if (dialogueParagraph) {
-      paragraphs.push(dialogueParagraph);
-    }
   });
 
-  paragraphs.push(buildChapterClosingParagraph({
+  pushUniqueParagraph(paragraphs, buildChapterClosingParagraph({
     chapter,
     lastScene,
     finalBelief,
@@ -455,6 +449,15 @@ function sentenceCase(value) {
   return text ? text.charAt(0).toUpperCase() + text.slice(1) : text;
 }
 
+function lowerFirst(value) {
+  const text = String(value ?? '').trim();
+  return text ? text.charAt(0).toLowerCase() + text.slice(1) : text;
+}
+
+function stripTerminalPeriod(value) {
+  return String(value ?? '').trim().replace(/[.]+$/g, '');
+}
+
 function splitCsv(value) {
   return String(value ?? '')
     .split(',')
@@ -480,6 +483,19 @@ function locationPhrase(location, languageCode) {
   }
 
   return `in ${location}`;
+}
+
+function pushUniqueParagraph(paragraphs, paragraph) {
+  const normalized = String(paragraph ?? '').replace(/\s+/g, ' ').trim();
+  if (!normalized) {
+    return;
+  }
+
+  if (paragraphs.at(-1) === normalized) {
+    return;
+  }
+
+  paragraphs.push(normalized);
 }
 
 function renderEditionDialogue(turns, languageCode) {
