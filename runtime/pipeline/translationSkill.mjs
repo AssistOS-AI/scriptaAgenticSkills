@@ -220,7 +220,7 @@ function chunkText(text) {
     return [];
   }
 
-  const sentences = normalized.match(/[^.!?]+(?:[.!?]+|$)/g)?.map((entry) => entry.trim()).filter(Boolean) ?? [normalized];
+  const sentences = normalized.match(/"[^"]+" [^.?!]+ says\.|[^.!?]+(?:[.!?]+|$)/g)?.map((entry) => entry.trim()).filter(Boolean) ?? [normalized];
   return sentences.flatMap((sentence) => splitLongSentence(sentence));
 }
 
