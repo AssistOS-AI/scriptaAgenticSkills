@@ -24,7 +24,6 @@ export async function runValidationSuite(input = {}) {
   await ensureWorkspace(options.workspaceRoot);
 
   const draftArtifacts = await listLatestStageArtifacts(options.workspaceRoot, 'drafts', 'draft');
-  const continuityArtifacts = await listLatestStageArtifacts(options.workspaceRoot, 'drafts', 'continuity');
   const chapterPlanArtifacts = await listLatestStageArtifacts(options.workspaceRoot, 'chapters', 'symbolic-plan');
   const refinedArtifacts = await listLatestStageArtifacts(options.workspaceRoot, 'cnl', 'chapter-refined-plan');
   const refinedMacroArtifacts = await listLatestStageArtifacts(options.workspaceRoot, 'cnl', 'macro-refined-plan');
@@ -47,10 +46,6 @@ export async function runValidationSuite(input = {}) {
     artifact,
     content: await readText(artifact.filePath),
     paragraphs: splitParagraphs(await readText(artifact.filePath))
-  })));
-  const continuityPackets = await Promise.all(continuityArtifacts.map(async (artifact) => ({
-    artifact,
-    content: await readStructuredMarkdown(artifact.filePath, {})
   })));
   const chapterPlans = await Promise.all(chapterPlanArtifacts.map(async (artifact) => ({
     artifact,
@@ -116,7 +111,7 @@ export async function runValidationSuite(input = {}) {
   const TOP_score = clampScore(100 - overlapMatches.length * 20);
   const placeholderScore = clampScore(100 - placeholderHits.length * 25);
   const SFSG = clampScore(70 + comparePlanCoverage(chapterPlans, drafts, refinedPlans) - placeholderHits.length * 10);
-  const CCI = clampScore(74 + compareContinuity(continuityPackets, draftArtifacts.length));
+  const CCI = clampScore(74 + compareContinuity(refinedPlans, drafts, options.chapterCount));
   const CAD_score = clampScore(76 + compareCharacterStability(drafts, refinedMacroText));
   const EAP = clampScore(72 + compareEmotionalArc(drafts));
   const thematicDepth = clampScore(68 + detectThemeDensity(drafts, options.profile.themeTopic));
@@ -163,7 +158,6 @@ export async function runValidationSuite(input = {}) {
     refinedMicro,
     placeholderResolutionArtifacts,
     drafts,
-    continuityPackets,
     exportAudit
   });
   const revisionTasks = buildRevisionTasks({
@@ -197,7 +191,6 @@ export async function runValidationSuite(input = {}) {
     stage: 'validation',
     consumed: [
       ...draftArtifacts.map((artifact) => artifact.relativePath),
-      ...continuityArtifacts.map((artifact) => artifact.relativePath),
       ...chapterPlanArtifacts.map((artifact) => artifact.relativePath),
       ...refinedArtifacts.map((artifact) => artifact.relativePath),
       ...refinedMacroArtifacts.map((artifact) => artifact.relativePath),
@@ -311,7 +304,6 @@ function buildStageAudit({
   refinedMicro,
   placeholderResolutionArtifacts,
   drafts,
-  continuityPackets,
   exportAudit
 }) {
   const macroBlocks = refinedMacro.map((entry) => entry.content).join('\n');
@@ -345,7 +337,7 @@ function buildStageAudit({
     ]),
     stageResult('drafts', [
       check('draft count matches requested chapter count', drafts.length === options.chapterCount),
-      check('continuity packets match chapter count', continuityPackets.length === options.chapterCount),
+      check('chapter drafts preserve refined chapter state fields', refinedPlans.every((entry) => entry.content.includes('input-state:') && entry.content.includes('output-state:'))),
       check('drafts are not trivially short', drafts.every((draft) => countWords(draft.content) >= 120))
     ]),
     stageResult('exports', [
@@ -437,15 +429,15 @@ function comparePlanCoverage(chapterPlans, drafts, refinedPlans) {
   return draftCount === 0 ? 0 : Math.min(25, Math.round((Math.min(planCount, draftCount * 2) / planCount) * 25));
 }
 
-function compareContinuity(continuityPackets, chapterCount) {
-  if (continuityPackets.length !== chapterCount) {
+function compareContinuity(refinedPlans, drafts, chapterCount) {
+  if (refinedPlans.length !== chapterCount || drafts.length !== chapterCount) {
     return -25;
   }
 
   let score = 20;
-  for (let index = 0; index < continuityPackets.length; index += 1) {
-    const packet = continuityPackets[index].content;
-    if (!packet.entryState || !packet.exitState) {
+  for (let index = 0; index < refinedPlans.length; index += 1) {
+    const planText = refinedPlans[index].content;
+    if (!planText.includes('input-state:') || !planText.includes('output-state:')) {
       score -= 10;
     }
   }
