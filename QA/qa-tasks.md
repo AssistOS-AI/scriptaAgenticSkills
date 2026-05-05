@@ -5,7 +5,7 @@
 - Priority: medium
 - Stage: micro
 - Action: Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.
-- Evidence: OI=71
+- Evidence: OI=68
 
 ## qa-drama-silence — Reinforce character continuity
 - Profile: drama
@@ -26,7 +26,7 @@
 - Priority: medium
 - Stage: micro
 - Action: Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.
-- Evidence: OI=71
+- Evidence: OI=68
 
 ## qa-detective-river — Reinforce character continuity
 - Profile: detective-police
@@ -47,7 +47,7 @@
 - Priority: medium
 - Stage: micro
 - Action: Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.
-- Evidence: OI=70
+- Evidence: OI=68
 
 ## qa-scifi-orbit — Reinforce character continuity
 - Profile: science-fiction
@@ -68,7 +68,7 @@
 - Priority: medium
 - Stage: micro
 - Action: Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.
-- Evidence: OI=71
+- Evidence: OI=68
 
 ## qa-fantasy-ash — Reinforce character continuity
 - Profile: fantasy
@@ -89,7 +89,7 @@
 - Priority: medium
 - Stage: micro
 - Action: Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.
-- Evidence: OI=70
+- Evidence: OI=68
 
 ## qa-romance-margins — Reinforce character continuity
 - Profile: romance-relational

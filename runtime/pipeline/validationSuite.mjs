@@ -308,6 +308,7 @@ function buildStageAudit({
   exportAudit
 }) {
   const macroBlocks = refinedMacro.map((entry) => entry.content).join('\n');
+  const microTexts = refinedMicro.map((entry) => entry.content);
   const refinedPlaceholders = [
     ...refinedPlans.flatMap((entry) => collectPlaceholdersFromText(entry.content)),
     ...refinedMacro.flatMap((entry) => collectPlaceholdersFromText(entry.content))
@@ -316,15 +317,20 @@ function buildStageAudit({
   return [
     stageResult('macro', [
       check('macro successor files exist', refinedMacro.length >= 3),
-      check('macro blocks expose central idea, theme, and world rules', macroBlocks.includes('@central-idea') && macroBlocks.includes('@theme') && macroBlocks.includes('@world-rule-primary'))
+      check('macro blocks expose central idea, theme, and world rules', macroBlocks.includes('@central-idea') && macroBlocks.includes('@theme') && macroBlocks.includes('@world-rule-primary')),
+      check('macro blocks expose arc, motif, and location packets', macroBlocks.includes('@arc-book-main') && macroBlocks.includes('@motif-primary') && macroBlocks.includes('@location-primary') && macroBlocks.includes('@location-secondary'))
     ]),
     stageResult('chapters', [
       check('chapter symbolic plans match requested chapter count', chapterPlans.length === options.chapterCount),
-      check('chapter refined plans match requested chapter count', refinedPlans.length === options.chapterCount)
+      check('chapter refined plans match requested chapter count', refinedPlans.length === options.chapterCount),
+      check('chapter plans expose question and alternation fields', refinedPlans.every((entry) => entry.content.includes('chapter-question:') && entry.content.includes('block-alternation:')))
     ]),
     stageResult('micro', [
       check('micro refined plans match requested chapter count', refinedMicro.length === options.chapterCount),
-      check('micro plans contain scene definitions', refinedMicro.every((entry) => (entry.content.match(/^@scene-/gm) ?? []).length >= 2))
+      check('micro plans contain scene definitions', refinedMicro.every((entry) => (entry.content.match(/^@scene-/gm) ?? []).length >= 2)),
+      check('micro plans contain dialogue-turn lines', microTexts.every((text) => (text.match(/^@dialogue-turn-/gm) ?? []).length >= 2)),
+      check('micro plans contain location, rule-pressure, and arc packets', microTexts.every((text) => text.includes('@location-') && text.includes('@rule-pressure-') && text.includes('@arc-') && text.includes('@alternation-'))),
+      check('micro plans contain pause and acceleration controls', microTexts.every((text) => text.includes('@pause-') && text.includes('@acceleration-')))
     ]),
     stageResult('cnl', [
       check('placeholder resolution artifact exists', placeholderResolutionArtifacts.length > 0),

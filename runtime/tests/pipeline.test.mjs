@@ -32,6 +32,8 @@ test('full pipeline generates drafts, exports, and validation without placeholde
     assert.match(report, /Validation report/);
     assert.match(tasksReport, /Revision tasks/);
     assert.doesNotMatch(manuscript, /\{\{/);
+    assert.match(manuscript, /"/);
+    assert.match(manuscript, /world rule/i);
   } finally {
     await workspace.cleanup();
   }

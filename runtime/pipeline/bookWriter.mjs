@@ -130,7 +130,15 @@ function buildManuscriptModel({
   const theme = blockToObject(findRequiredBlock(macroBlocks, 'theme', 'define'));
   const wisdom = blockToObject(findRequiredBlock(macroBlocks, 'wisdom', 'define'));
   const blueprint = blockToObject(findRequiredBlock(macroBlocks, 'blueprint', 'map'));
+  const bookArc = blockToObject(findRequiredBlock(macroBlocks, 'arc-book-main', 'map'));
+  const protagonistArc = blockToObject(findRequiredBlock(macroBlocks, 'arc-protagonist-main', 'map'));
+  const relationshipArc = blockToObject(findRequiredBlock(macroBlocks, 'arc-relationship-main', 'map'));
+  const motif = blockToObject(findRequiredBlock(macroBlocks, 'motif-primary', 'define'));
   const worldRule = blockToObject(findRequiredBlock(macroBlocks, 'world-rule-primary', 'define'));
+  const secondaryWorldRule = blockToObject(findRequiredBlock(macroBlocks, 'world-rule-secondary', 'define'));
+  const worldReveal = blockToObject(findRequiredBlock(macroBlocks, 'world-reveal-strategy', 'define'));
+  const primaryLocation = blockToObject(findRequiredBlock(macroBlocks, 'location-primary', 'define'));
+  const secondaryLocation = blockToObject(findRequiredBlock(macroBlocks, 'location-secondary', 'define'));
   const plotElement = blockToObject(findRequiredBlock(macroBlocks, 'plot-element-core-object', 'define'));
   const characters = {
     protagonist: blockToObject(findRequiredBlock(macroBlocks, 'character-protagonist-001', 'define')),
@@ -148,19 +156,33 @@ function buildManuscriptModel({
     const chapter = blockToObject(chapterBlock);
     const sequenceBlock = microEntry.blocks.find((block) => block.identifier.startsWith('sequence-') && block.verb === 'define');
     const dialogueBlock = microEntry.blocks.find((block) => block.identifier.startsWith('dialogue-') && block.verb === 'apply');
+    const dialogueTurns = microEntry.blocks
+      .filter((block) => block.identifier.startsWith('dialogue-turn-') && block.verb === 'line')
+      .map((block) => blockToObject(block));
     const monologueBlock = microEntry.blocks.find((block) => block.identifier.startsWith('interior-monologue-') && block.verb === 'apply');
     const suspenseBlock = microEntry.blocks.find((block) => block.identifier.startsWith('suspense-') && block.verb === 'build');
+    const locationBlock = microEntry.blocks.find((block) => block.identifier.startsWith('location-') && block.verb === 'define');
+    const rulePressureBlock = microEntry.blocks.find((block) => block.identifier.startsWith('rule-pressure-') && block.verb === 'apply');
+    const protagonistArcBlock = microEntry.blocks.find((block) => block.identifier.startsWith('arc-') && block.identifier.endsWith('-protagonist') && block.verb === 'map');
+    const relationshipArcBlock = microEntry.blocks.find((block) => block.identifier.startsWith('arc-') && block.identifier.endsWith('-relationship') && block.verb === 'map');
+    const pauseBlock = microEntry.blocks.find((block) => block.identifier.startsWith('pause-') && block.verb === 'hold');
+    const accelerationBlock = microEntry.blocks.find((block) => block.identifier.startsWith('acceleration-') && block.verb === 'burst');
+    const alternationBlock = microEntry.blocks.find((block) => block.identifier.startsWith('alternation-') && block.verb === 'arrange');
     const scenes = microEntry.blocks
       .filter((block) => block.identifier.startsWith('scene-') && block.verb === 'define')
       .map((sceneBlock) => {
         const scene = blockToObject(sceneBlock);
         const actionBlock = microEntry.blocks.find((block) => block.identifier.startsWith('action-') && field(block, 'scene') === sceneBlock.identifier);
         const eventBlock = microEntry.blocks.find((block) => block.identifier.startsWith('event-') && field(block, 'scope') === sceneBlock.identifier);
+        const conflictBlock = microEntry.blocks.find((block) => block.identifier.startsWith('conflict-') && field(block, 'scope') === sceneBlock.identifier);
+        const sceneDialogueTurns = dialogueTurns.filter((turn) => turn.scene === sceneBlock.identifier);
         return {
           ...scene,
           participants: splitCsv(scene.participants),
           action: blockToObject(actionBlock ?? emptyBlock()),
-          event: blockToObject(eventBlock ?? emptyBlock())
+          event: blockToObject(eventBlock ?? emptyBlock()),
+          conflictPacket: blockToObject(conflictBlock ?? emptyBlock()),
+          dialogueTurns: sceneDialogueTurns
         };
       });
 
@@ -171,10 +193,21 @@ function buildManuscriptModel({
       outputState: chapter['output-state'],
       closingMode: chapter['closing-mode'],
       thematicFocus: chapter['thematic-focus'],
+      chapterQuestion: chapter['chapter-question'],
+      answerShift: chapter['answer-shift'],
+      worldPressure: chapter['world-pressure'],
+      blockAlternation: chapter['block-alternation'],
       sequence: blockToObject(sequenceBlock ?? emptyBlock()),
       dialogue: blockToObject(dialogueBlock ?? emptyBlock()),
       monologue: blockToObject(monologueBlock ?? emptyBlock()),
       suspense: blockToObject(suspenseBlock ?? emptyBlock()),
+      location: blockToObject(locationBlock ?? emptyBlock()),
+      rulePressure: blockToObject(rulePressureBlock ?? emptyBlock()),
+      protagonistArc: blockToObject(protagonistArcBlock ?? emptyBlock()),
+      relationshipArc: blockToObject(relationshipArcBlock ?? emptyBlock()),
+      pause: blockToObject(pauseBlock ?? emptyBlock()),
+      acceleration: blockToObject(accelerationBlock ?? emptyBlock()),
+      alternation: blockToObject(alternationBlock ?? emptyBlock()),
       scenes,
       draftText: draftMap.get(chapterEntry.artifact.baseName) ?? '',
       continuity: continuityMap.get(chapterEntry.artifact.baseName) ?? {}
@@ -192,8 +225,16 @@ function buildManuscriptModel({
     theme,
     wisdom,
     blueprint,
+    bookArc,
+    protagonistArc,
+    relationshipArc,
+    motif,
     plotElement,
     worldRule,
+    secondaryWorldRule,
+    worldReveal,
+    primaryLocation,
+    secondaryLocation,
     chapters,
     characters,
     validationSummary
@@ -241,16 +282,25 @@ function buildEditionChapter(model, chapter, languageCode) {
   const profileFlavor = getProfileFlavor(model.profileId, languageCode);
   const firstScene = chapter.scenes[0];
   const paragraphs = [];
+  const chapterQuestion = localizeBookText(chapter.chapterQuestion ?? '', languageCode);
+  const chapterLocation = localizeBookText(chapter.location['primary-setting'] ?? model.primaryLocation.name ?? '', languageCode);
+  const chapterLocationSignal = localizeBookText(chapter.location['social-signal'] ?? model.primaryLocation['social-signal'] ?? '', languageCode);
+  const chapterLocationSymbol = localizeBookText(chapter.location['symbolic-charge'] ?? model.primaryLocation['symbolic-charge'] ?? '', languageCode);
+  const rulePressure = localizeBookText(chapter.rulePressure['action-limitation'] ?? model.worldRule.rule ?? '', languageCode);
+  const protagonistShift = localizeBookText(chapter.protagonistArc['exit-belief'] ?? model.protagonistArc['exit-belief'] ?? '', languageCode);
+  const relationshipShift = localizeBookText(chapter.relationshipArc['exit-dynamic'] ?? model.relationshipArc['exit-dynamic'] ?? '', languageCode);
+  const pauseFocus = localizeBookText(chapter.pause.focus ?? '', languageCode);
+  const accelerationTrigger = localizeBookText(chapter.acceleration.trigger ?? '', languageCode);
 
   if (firstScene) {
     const location = localizeBookText(firstScene['time-space'], languageCode);
     if (languageCode === 'ro') {
       paragraphs.push(
-        `${firstScene.participants[0]} ajunge ${locationPhrase(location, languageCode)}, unde ${profileFlavor.atmosphere}. ${firstScene.participants[1]} citeste incaperea cu o grija tensionata, iar ${firstScene.participants[2]} apara in continuare versiunea de evenimente pe care sistemul o poate suporta. ${roleLead(chapter.role, languageCode)}`
+        `${firstScene.participants[0]} ajunge ${locationPhrase(location, languageCode)}, unde ${profileFlavor.atmosphere}. ${firstScene.participants[1]} citeste incaperea cu o grija tensionata, iar ${firstScene.participants[2]} apara in continuare versiunea de evenimente pe care sistemul o poate suporta. ${roleLead(chapter.role, languageCode)} ${chapterQuestion ? `Intrebarea capitolului este ${chapterQuestion.toLowerCase()}.` : ''} ${chapterLocation ? `Spatiul dominant ramane ${chapterLocation.toLowerCase()}, marcat de ${chapterLocationSignal.toLowerCase() || chapterLocationSymbol.toLowerCase()}.` : ''}`.replace(/\s+/g, ' ').trim()
       );
     } else {
       paragraphs.push(
-        `${firstScene.participants[0]} reaches ${location}, where ${profileFlavor.atmosphere}. ${firstScene.participants[1]} reads the room with uneasy care, while ${firstScene.participants[2]} still protects the version of events the system can survive. ${roleLead(chapter.role, languageCode)}`
+        `${firstScene.participants[0]} reaches ${location}, where ${profileFlavor.atmosphere}. ${firstScene.participants[1]} reads the room with uneasy care, while ${firstScene.participants[2]} still protects the version of events the system can survive. ${roleLead(chapter.role, languageCode)} ${chapterQuestion ? `The chapter question is ${chapterQuestion.toLowerCase()}.` : ''} ${chapterLocation ? `Its dominant stage remains ${chapterLocation}, marked by ${chapterLocationSignal.toLowerCase() || chapterLocationSymbol.toLowerCase()}.` : ''}`.replace(/\s+/g, ' ').trim()
       );
     }
   }
@@ -262,21 +312,35 @@ function buildEditionChapter(model, chapter, languageCode) {
     const trigger = sentenceCase(localizeBookText(scene.event.trigger ?? model.plotElement.activation ?? '', languageCode));
     const actionGoal = localizeBookText(scene.action.goal ?? model.characters.protagonist.desire, languageCode);
     const actionObstacle = localizeBookText(scene.action.obstacle ?? model.characters.pressure.desire, languageCode);
+    const conflictStakes = localizeBookText(scene.conflictPacket?.stakes ?? '', languageCode);
     const uncertainty = localizeBookText(chapter.suspense.uncertainty ?? '', languageCode).toLowerCase();
     const monologue = sentenceCase(localizeBookText(chapter.monologue.trigger ?? '', languageCode));
     const stateChange = localizeBookText(scene['state-change'], languageCode);
+    const dialogueParagraph = renderEditionDialogue(scene.dialogueTurns ?? [], languageCode);
 
     if (languageCode === 'ro') {
       paragraphs.push([
         index === 0 ? `${sentenceCase(locationPhrase(location, languageCode))}, ${introduction.toLowerCase()}.` : `Mai tarziu, ${locationPhrase(location, languageCode)}, ${introduction.toLowerCase()}.`,
         `${scene.participants[0]} incearca sa ${actionGoal}, dar ${actionObstacle}.`,
         `${conflict}.`,
-        chapter.dialogue.speakers ? `Schimbul dintre ${localizeBookText(chapter.dialogue.speakers, languageCode)} ramane la suprafata, desi dedesubt preseaza un adevar emotional mai dur.` : '',
+        conflictStakes ? `Miza locala ramane ${conflictStakes.toLowerCase()}.` : '',
         trigger ? `${trigger}.` : '',
-        index === chapter.scenes.length - 1 && monologue ? `${scene.participants[0]} simte cum costul recent o obliga sa-si reordoneze certitudinile.` : '',
+        rulePressure ? `Regula lumii actioneaza direct aici: ${rulePressure.toLowerCase()}.` : '',
         uncertainty ? `Incertitudinea ramane vie fiindca nimeni nu poate citi inca rezultatul deplin.` : '',
         `Rezultatul imediat este limpede: ${stateChange}.`
       ].filter(Boolean).join(' '));
+      if (dialogueParagraph) {
+        paragraphs.push(dialogueParagraph);
+      }
+      if (index === 0 && pauseFocus) {
+        paragraphs.push(`Pauza narativa lasa consecinta sa se sedimenteze: ${pauseFocus.toLowerCase()}.`);
+      }
+      if (index === chapter.scenes.length - 1 && monologue) {
+        paragraphs.push(`${scene.participants[0]} simte cum costul recent o obliga sa-si reordoneze certitudinile. ${protagonistShift ? `Linia interioara se misca acum spre ${protagonistShift.toLowerCase()}.` : ''}`.trim());
+      }
+      if (index === chapter.scenes.length - 1 && accelerationTrigger) {
+        paragraphs.push(`Apoi ritmul se comprima brusc: ${accelerationTrigger.toLowerCase()}.`);
+      }
       return;
     }
 
@@ -284,21 +348,34 @@ function buildEditionChapter(model, chapter, languageCode) {
       index === 0 ? `In ${location}, ${introduction.toLowerCase()}.` : `Later, in ${location}, ${introduction.toLowerCase()}.`,
       `${scene.participants[0]} tries to ${actionGoal}, but ${actionObstacle}.`,
       `${conflict}.`,
-      chapter.dialogue.speakers ? `The exchange between ${localizeBookText(chapter.dialogue.speakers, languageCode)} stays on the surface even while a harder emotional truth presses underneath.` : '',
+      conflictStakes ? `The local stakes remain ${conflictStakes.toLowerCase()}.` : '',
       trigger ? `${trigger}.` : '',
-      index === chapter.scenes.length - 1 && monologue ? `${scene.participants[0]} feels the latest cost rearranging every earlier certainty.` : '',
+      rulePressure ? `The world rule presses directly here: ${rulePressure.toLowerCase()}.` : '',
       uncertainty ? `Uncertainty remains active because no one can yet read the full result.` : '',
       `The immediate result is clear: ${stateChange}.`
     ].filter(Boolean).join(' '));
+
+    if (dialogueParagraph) {
+      paragraphs.push(dialogueParagraph);
+    }
+    if (index === 0 && pauseFocus) {
+      paragraphs.push(`The narrative pause matters here: ${pauseFocus.toLowerCase()}.`);
+    }
+    if (index === chapter.scenes.length - 1 && monologue) {
+      paragraphs.push(`${scene.participants[0]} feels the latest cost rearranging every earlier certainty. ${protagonistShift ? `The interior line now leans toward ${protagonistShift.toLowerCase()}.` : ''}`.trim());
+    }
+    if (index === chapter.scenes.length - 1 && accelerationTrigger) {
+      paragraphs.push(`Then the tempo compresses: ${accelerationTrigger.toLowerCase()}.`);
+    }
   });
 
   if (languageCode === 'ro') {
     paragraphs.push(
-      `La finalul capitolului, ${renderOutputState(chapter, languageCode)}. Miscarea emotionala merge acum spre ${localizeClosingMode(chapter.closingMode, languageCode)}, iar cartea continua sa testeze intrebarea centrala: ${localizeBookText(model.theme['thematic-question'], languageCode).toLowerCase()} ${profileFlavor.thematicBridge}`
+      `La finalul capitolului, ${renderOutputState(chapter, languageCode)}. Miscarea emotionala merge acum spre ${localizeClosingMode(chapter.closingMode, languageCode)}, iar cartea continua sa testeze intrebarea centrala: ${localizeBookText(model.theme['thematic-question'], languageCode).toLowerCase()} ${profileFlavor.thematicBridge} ${chapter.answerShift ? `Raspunsul partial al capitolului este ${localizeBookText(chapter.answerShift, languageCode).toLowerCase()}.` : ''} ${relationshipShift ? `Relatia centrala se reaseaza ca ${relationshipShift.toLowerCase()}.` : ''}`.replace(/\s+/g, ' ').trim()
     );
   } else {
     paragraphs.push(
-      `By the end of the chapter, ${renderOutputState(chapter, languageCode)}. The emotional movement now leans toward ${localizeClosingMode(chapter.closingMode, languageCode)}, while the book keeps testing its central question: ${localizeBookText(model.theme['thematic-question'], languageCode).toLowerCase()} ${profileFlavor.thematicBridge}`
+      `By the end of the chapter, ${renderOutputState(chapter, languageCode)}. The emotional movement now leans toward ${localizeClosingMode(chapter.closingMode, languageCode)}, while the book keeps testing its central question: ${localizeBookText(model.theme['thematic-question'], languageCode).toLowerCase()} ${profileFlavor.thematicBridge} ${chapter.answerShift ? `The chapter's partial answer is ${localizeBookText(chapter.answerShift, languageCode).toLowerCase()}.` : ''} ${relationshipShift ? `The central relationship settles into ${relationshipShift.toLowerCase()}.` : ''}`.replace(/\s+/g, ' ').trim()
     );
   }
 
@@ -564,6 +641,26 @@ function locationPhrase(location, languageCode) {
   }
 
   return `in ${location}`;
+}
+
+function renderEditionDialogue(turns, languageCode) {
+  if (!turns?.length) {
+    return '';
+  }
+
+  if (languageCode === 'ro') {
+    return turns.map((turn) => {
+      const line = sentenceCase(localizeBookText(turn['line-hint'] ?? '', languageCode));
+      const reaction = localizeBookText(turn['reaction-beat'] ?? '', languageCode).toLowerCase();
+      return `"${line}" spune ${turn.speaker}.${reaction ? ` ${sentenceCase(reaction)}.` : ''}`;
+    }).join(' ');
+  }
+
+  return turns.map((turn) => {
+    const line = sentenceCase(localizeBookText(turn['line-hint'] ?? '', languageCode));
+    const reaction = localizeBookText(turn['reaction-beat'] ?? '', languageCode).toLowerCase();
+    return `"${line}" ${turn.speaker} says.${reaction ? ` ${sentenceCase(reaction)}.` : ''}`;
+  }).join(' ');
 }
 
 function renderOutputState(chapter, languageCode) {

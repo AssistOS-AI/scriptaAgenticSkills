@@ -3462,6 +3462,670 @@
           "baselineProfile": "drama"
         }
       }
+    },
+    {
+      "runIndex": 55,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "book",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/macro/book.symbolic-plan.iter-007.md",
+          "relativePath": "macro/book.symbolic-plan.iter-007.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "characters",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/macro/characters.symbolic-plan.iter-007.md",
+          "relativePath": "macro/characters.symbolic-plan.iter-007.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "world",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/macro/world.symbolic-plan.iter-007.md",
+          "relativePath": "macro/world.symbolic-plan.iter-007.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-drama-silence",
+          "baselineProfile": "drama",
+          "workForm": "novelette"
+        }
+      }
+    },
+    {
+      "runIndex": 56,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-001",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/chapters/chapter-001.symbolic-plan.iter-007.md",
+          "relativePath": "chapters/chapter-001.symbolic-plan.iter-007.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-002",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/chapters/chapter-002.symbolic-plan.iter-007.md",
+          "relativePath": "chapters/chapter-002.symbolic-plan.iter-007.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-003",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/chapters/chapter-003.symbolic-plan.iter-007.md",
+          "relativePath": "chapters/chapter-003.symbolic-plan.iter-007.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-004",
+          "label": "symbolic-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/chapters/chapter-004.symbolic-plan.iter-001.md",
+          "relativePath": "chapters/chapter-004.symbolic-plan.iter-001.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-drama-silence",
+          "baselineProfile": "drama",
+          "workForm": "novelette"
+        }
+      }
+    },
+    {
+      "runIndex": 57,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-001",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/micro/chapter-001.symbolic-plan.iter-007.md",
+          "relativePath": "micro/chapter-001.symbolic-plan.iter-007.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-002",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/micro/chapter-002.symbolic-plan.iter-007.md",
+          "relativePath": "micro/chapter-002.symbolic-plan.iter-007.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-003",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/micro/chapter-003.symbolic-plan.iter-007.md",
+          "relativePath": "micro/chapter-003.symbolic-plan.iter-007.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-004",
+          "label": "symbolic-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/micro/chapter-004.symbolic-plan.iter-001.md",
+          "relativePath": "micro/chapter-004.symbolic-plan.iter-001.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-drama-silence",
+          "baselineProfile": "drama",
+          "workForm": "novelette"
+        }
+      }
+    },
+    {
+      "runIndex": 58,
+      "stage": "cnl",
+      "consumed": [
+        "macro/book.symbolic-plan.iter-007.md",
+        "macro/characters.symbolic-plan.iter-007.md",
+        "macro/world.symbolic-plan.iter-007.md",
+        "chapters/chapter-001.symbolic-plan.iter-007.md",
+        "chapters/chapter-002.symbolic-plan.iter-007.md",
+        "chapters/chapter-003.symbolic-plan.iter-007.md",
+        "chapters/chapter-004.symbolic-plan.iter-001.md",
+        "micro/chapter-001.symbolic-plan.iter-007.md",
+        "micro/chapter-002.symbolic-plan.iter-007.md",
+        "micro/chapter-003.symbolic-plan.iter-007.md",
+        "micro/chapter-004.symbolic-plan.iter-001.md"
+      ],
+      "produced": [
+        {
+          "stage": "cnl",
+          "baseName": "book",
+          "label": "macro-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/book.macro-refined-plan.iter-007.md",
+          "relativePath": "cnl/book.macro-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "characters",
+          "label": "macro-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/characters.macro-refined-plan.iter-007.md",
+          "relativePath": "cnl/characters.macro-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "world",
+          "label": "macro-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/world.macro-refined-plan.iter-007.md",
+          "relativePath": "cnl/world.macro-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-001",
+          "label": "chapter-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-001.chapter-refined-plan.iter-007.md",
+          "relativePath": "cnl/chapter-001.chapter-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-002",
+          "label": "chapter-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-002.chapter-refined-plan.iter-007.md",
+          "relativePath": "cnl/chapter-002.chapter-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-003",
+          "label": "chapter-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-003.chapter-refined-plan.iter-007.md",
+          "relativePath": "cnl/chapter-003.chapter-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-004",
+          "label": "chapter-refined-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-004.chapter-refined-plan.iter-001.md",
+          "relativePath": "cnl/chapter-004.chapter-refined-plan.iter-001.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-001",
+          "label": "micro-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-001.micro-refined-plan.iter-007.md",
+          "relativePath": "cnl/chapter-001.micro-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-002",
+          "label": "micro-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-002.micro-refined-plan.iter-007.md",
+          "relativePath": "cnl/chapter-002.micro-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-003",
+          "label": "micro-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-003.micro-refined-plan.iter-007.md",
+          "relativePath": "cnl/chapter-003.micro-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-004",
+          "label": "micro-refined-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-004.micro-refined-plan.iter-001.md",
+          "relativePath": "cnl/chapter-004.micro-refined-plan.iter-001.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "placeholder-resolution",
+          "label": "cnl-resolution",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/placeholder-resolution.cnl-resolution.iter-007.json",
+          "relativePath": "cnl/placeholder-resolution.cnl-resolution.iter-007.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-drama-silence",
+          "baselineProfile": "drama"
+        }
+      }
+    },
+    {
+      "runIndex": 59,
+      "stage": "drafts",
+      "consumed": [
+        "cnl/chapter-001.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-004.chapter-refined-plan.iter-001.md",
+        "cnl/chapter-001.micro-refined-plan.iter-007.md",
+        "cnl/chapter-002.micro-refined-plan.iter-007.md",
+        "cnl/chapter-003.micro-refined-plan.iter-007.md",
+        "cnl/chapter-004.micro-refined-plan.iter-001.md",
+        "cnl/book.macro-refined-plan.iter-007.md",
+        "cnl/characters.macro-refined-plan.iter-007.md",
+        "cnl/world.macro-refined-plan.iter-007.md"
+      ],
+      "produced": [
+        {
+          "stage": "drafts",
+          "baseName": "chapter-001",
+          "label": "draft",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-001.draft.iter-007.md",
+          "relativePath": "drafts/chapter-001.draft.iter-007.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-001",
+          "label": "continuity",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-001.continuity.iter-007.json",
+          "relativePath": "drafts/chapter-001.continuity.iter-007.json"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-002",
+          "label": "draft",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-002.draft.iter-007.md",
+          "relativePath": "drafts/chapter-002.draft.iter-007.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-002",
+          "label": "continuity",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-002.continuity.iter-007.json",
+          "relativePath": "drafts/chapter-002.continuity.iter-007.json"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-003",
+          "label": "draft",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-003.draft.iter-007.md",
+          "relativePath": "drafts/chapter-003.draft.iter-007.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-003",
+          "label": "continuity",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-003.continuity.iter-007.json",
+          "relativePath": "drafts/chapter-003.continuity.iter-007.json"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-004",
+          "label": "draft",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-004.draft.iter-001.md",
+          "relativePath": "drafts/chapter-004.draft.iter-001.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-004",
+          "label": "continuity",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-004.continuity.iter-001.json",
+          "relativePath": "drafts/chapter-004.continuity.iter-001.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-drama-silence",
+          "baselineProfile": "drama"
+        }
+      }
+    },
+    {
+      "runIndex": 60,
+      "stage": "exports",
+      "consumed": [
+        "drafts/chapter-001.draft.iter-007.md",
+        "drafts/chapter-002.draft.iter-007.md",
+        "drafts/chapter-003.draft.iter-007.md",
+        "drafts/chapter-004.draft.iter-001.md",
+        "drafts/chapter-001.continuity.iter-007.json",
+        "drafts/chapter-002.continuity.iter-007.json",
+        "drafts/chapter-003.continuity.iter-007.json",
+        "drafts/chapter-004.continuity.iter-001.json",
+        "cnl/chapter-001.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-004.chapter-refined-plan.iter-001.md",
+        "cnl/chapter-001.micro-refined-plan.iter-007.md",
+        "cnl/chapter-002.micro-refined-plan.iter-007.md",
+        "cnl/chapter-003.micro-refined-plan.iter-007.md",
+        "cnl/chapter-004.micro-refined-plan.iter-001.md",
+        "cnl/book.macro-refined-plan.iter-007.md",
+        "cnl/characters.macro-refined-plan.iter-007.md",
+        "cnl/world.macro-refined-plan.iter-007.md"
+      ],
+      "produced": [
+        {
+          "stage": "exports",
+          "baseName": "manuscript",
+          "label": "book",
+          "iteration": 14,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/exports/manuscript.book.iter-014.md",
+          "relativePath": "exports/manuscript.book.iter-014.md"
+        },
+        {
+          "stage": "exports",
+          "baseName": "edition-en",
+          "label": "reader",
+          "iteration": 13,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/exports/edition-en.reader.iter-013.html",
+          "relativePath": "exports/edition-en.reader.iter-013.html"
+        },
+        {
+          "stage": "exports",
+          "baseName": "edition-ro",
+          "label": "reader",
+          "iteration": 13,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/exports/edition-ro.reader.iter-013.html",
+          "relativePath": "exports/edition-ro.reader.iter-013.html"
+        },
+        {
+          "stage": "exports",
+          "baseName": "editions",
+          "label": "bundle",
+          "iteration": 13,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/exports/editions.bundle.iter-013.json",
+          "relativePath": "exports/editions.bundle.iter-013.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-drama-silence",
+          "baselineProfile": "drama"
+        }
+      }
+    },
+    {
+      "runIndex": 61,
+      "stage": "validation",
+      "consumed": [
+        "drafts/chapter-001.draft.iter-007.md",
+        "drafts/chapter-002.draft.iter-007.md",
+        "drafts/chapter-003.draft.iter-007.md",
+        "drafts/chapter-004.draft.iter-001.md",
+        "drafts/chapter-001.continuity.iter-007.json",
+        "drafts/chapter-002.continuity.iter-007.json",
+        "drafts/chapter-003.continuity.iter-007.json",
+        "drafts/chapter-004.continuity.iter-001.json",
+        "chapters/chapter-001.symbolic-plan.iter-007.md",
+        "chapters/chapter-002.symbolic-plan.iter-007.md",
+        "chapters/chapter-003.symbolic-plan.iter-007.md",
+        "chapters/chapter-004.symbolic-plan.iter-001.md",
+        "cnl/chapter-001.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-004.chapter-refined-plan.iter-001.md",
+        "cnl/book.macro-refined-plan.iter-007.md",
+        "cnl/characters.macro-refined-plan.iter-007.md",
+        "cnl/world.macro-refined-plan.iter-007.md",
+        "cnl/chapter-001.micro-refined-plan.iter-007.md",
+        "cnl/chapter-002.micro-refined-plan.iter-007.md",
+        "cnl/chapter-003.micro-refined-plan.iter-007.md",
+        "cnl/chapter-004.micro-refined-plan.iter-001.md",
+        "cnl/placeholder-resolution.cnl-resolution.iter-007.json",
+        "exports/edition-en.reader.iter-013.html",
+        "exports/edition-ro.reader.iter-013.html",
+        "exports/editions.bundle.iter-013.json"
+      ],
+      "produced": [
+        {
+          "stage": "validation",
+          "baseName": "summary",
+          "label": "validation",
+          "iteration": 12,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/validation/summary.validation.iter-012.json",
+          "relativePath": "validation/summary.validation.iter-012.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "issues",
+          "label": "validation",
+          "iteration": 12,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/validation/issues.validation.iter-012.json",
+          "relativePath": "validation/issues.validation.iter-012.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "stages",
+          "label": "validation",
+          "iteration": 11,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/validation/stages.validation.iter-011.json",
+          "relativePath": "validation/stages.validation.iter-011.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "tasks",
+          "label": "validation",
+          "iteration": 11,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/validation/tasks.validation.iter-011.json",
+          "relativePath": "validation/tasks.validation.iter-011.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "summary",
+          "label": "report",
+          "iteration": 12,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/reports/summary.report.iter-012.md",
+          "relativePath": "reports/summary.report.iter-012.md"
+        },
+        {
+          "stage": "validation",
+          "baseName": "stages",
+          "label": "report",
+          "iteration": 11,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/reports/stages.report.iter-011.md",
+          "relativePath": "reports/stages.report.iter-011.md"
+        },
+        {
+          "stage": "validation",
+          "baseName": "tasks",
+          "label": "report",
+          "iteration": 11,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/reports/tasks.report.iter-011.md",
+          "relativePath": "reports/tasks.report.iter-011.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-drama-silence",
+          "baselineProfile": "drama"
+        }
+      }
+    },
+    {
+      "runIndex": 62,
+      "stage": "exports",
+      "consumed": [
+        "drafts/chapter-001.draft.iter-007.md",
+        "drafts/chapter-002.draft.iter-007.md",
+        "drafts/chapter-003.draft.iter-007.md",
+        "drafts/chapter-004.draft.iter-001.md",
+        "drafts/chapter-001.continuity.iter-007.json",
+        "drafts/chapter-002.continuity.iter-007.json",
+        "drafts/chapter-003.continuity.iter-007.json",
+        "drafts/chapter-004.continuity.iter-001.json",
+        "cnl/chapter-001.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-004.chapter-refined-plan.iter-001.md",
+        "cnl/chapter-001.micro-refined-plan.iter-007.md",
+        "cnl/chapter-002.micro-refined-plan.iter-007.md",
+        "cnl/chapter-003.micro-refined-plan.iter-007.md",
+        "cnl/chapter-004.micro-refined-plan.iter-001.md",
+        "cnl/book.macro-refined-plan.iter-007.md",
+        "cnl/characters.macro-refined-plan.iter-007.md",
+        "cnl/world.macro-refined-plan.iter-007.md"
+      ],
+      "produced": [
+        {
+          "stage": "exports",
+          "baseName": "manuscript",
+          "label": "book",
+          "iteration": 15,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/exports/manuscript.book.iter-015.md",
+          "relativePath": "exports/manuscript.book.iter-015.md"
+        },
+        {
+          "stage": "exports",
+          "baseName": "edition-en",
+          "label": "reader",
+          "iteration": 14,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/exports/edition-en.reader.iter-014.html",
+          "relativePath": "exports/edition-en.reader.iter-014.html"
+        },
+        {
+          "stage": "exports",
+          "baseName": "edition-ro",
+          "label": "reader",
+          "iteration": 14,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/exports/edition-ro.reader.iter-014.html",
+          "relativePath": "exports/edition-ro.reader.iter-014.html"
+        },
+        {
+          "stage": "exports",
+          "baseName": "editions",
+          "label": "bundle",
+          "iteration": 14,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/exports/editions.bundle.iter-014.json",
+          "relativePath": "exports/editions.bundle.iter-014.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-drama-silence",
+          "baselineProfile": "drama"
+        }
+      }
+    },
+    {
+      "runIndex": 63,
+      "stage": "validation",
+      "consumed": [
+        "drafts/chapter-001.draft.iter-007.md",
+        "drafts/chapter-002.draft.iter-007.md",
+        "drafts/chapter-003.draft.iter-007.md",
+        "drafts/chapter-004.draft.iter-001.md",
+        "drafts/chapter-001.continuity.iter-007.json",
+        "drafts/chapter-002.continuity.iter-007.json",
+        "drafts/chapter-003.continuity.iter-007.json",
+        "drafts/chapter-004.continuity.iter-001.json",
+        "chapters/chapter-001.symbolic-plan.iter-007.md",
+        "chapters/chapter-002.symbolic-plan.iter-007.md",
+        "chapters/chapter-003.symbolic-plan.iter-007.md",
+        "chapters/chapter-004.symbolic-plan.iter-001.md",
+        "cnl/chapter-001.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-004.chapter-refined-plan.iter-001.md",
+        "cnl/book.macro-refined-plan.iter-007.md",
+        "cnl/characters.macro-refined-plan.iter-007.md",
+        "cnl/world.macro-refined-plan.iter-007.md",
+        "cnl/chapter-001.micro-refined-plan.iter-007.md",
+        "cnl/chapter-002.micro-refined-plan.iter-007.md",
+        "cnl/chapter-003.micro-refined-plan.iter-007.md",
+        "cnl/chapter-004.micro-refined-plan.iter-001.md",
+        "cnl/placeholder-resolution.cnl-resolution.iter-007.json",
+        "exports/edition-en.reader.iter-014.html",
+        "exports/edition-ro.reader.iter-014.html",
+        "exports/editions.bundle.iter-014.json"
+      ],
+      "produced": [
+        {
+          "stage": "validation",
+          "baseName": "summary",
+          "label": "validation",
+          "iteration": 13,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/validation/summary.validation.iter-013.json",
+          "relativePath": "validation/summary.validation.iter-013.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "issues",
+          "label": "validation",
+          "iteration": 13,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/validation/issues.validation.iter-013.json",
+          "relativePath": "validation/issues.validation.iter-013.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "stages",
+          "label": "validation",
+          "iteration": 12,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/validation/stages.validation.iter-012.json",
+          "relativePath": "validation/stages.validation.iter-012.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "tasks",
+          "label": "validation",
+          "iteration": 12,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/validation/tasks.validation.iter-012.json",
+          "relativePath": "validation/tasks.validation.iter-012.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "summary",
+          "label": "report",
+          "iteration": 13,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/reports/summary.report.iter-013.md",
+          "relativePath": "reports/summary.report.iter-013.md"
+        },
+        {
+          "stage": "validation",
+          "baseName": "stages",
+          "label": "report",
+          "iteration": 12,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/reports/stages.report.iter-012.md",
+          "relativePath": "reports/stages.report.iter-012.md"
+        },
+        {
+          "stage": "validation",
+          "baseName": "tasks",
+          "label": "report",
+          "iteration": 12,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/reports/tasks.report.iter-012.md",
+          "relativePath": "reports/tasks.report.iter-012.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-drama-silence",
+          "baselineProfile": "drama"
+        }
+      }
     }
   ],
   "latest": {
@@ -3470,25 +4134,33 @@
         "stage": "symbolic-seed",
         "baseName": "chapter-001",
         "label": "symbolic-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/micro/chapter-001.symbolic-plan.iter-006.md",
-        "relativePath": "micro/chapter-001.symbolic-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/micro/chapter-001.symbolic-plan.iter-007.md",
+        "relativePath": "micro/chapter-001.symbolic-plan.iter-007.md"
       },
       {
         "stage": "symbolic-seed",
         "baseName": "chapter-002",
         "label": "symbolic-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/micro/chapter-002.symbolic-plan.iter-006.md",
-        "relativePath": "micro/chapter-002.symbolic-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/micro/chapter-002.symbolic-plan.iter-007.md",
+        "relativePath": "micro/chapter-002.symbolic-plan.iter-007.md"
       },
       {
         "stage": "symbolic-seed",
         "baseName": "chapter-003",
         "label": "symbolic-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/micro/chapter-003.symbolic-plan.iter-006.md",
-        "relativePath": "micro/chapter-003.symbolic-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/micro/chapter-003.symbolic-plan.iter-007.md",
+        "relativePath": "micro/chapter-003.symbolic-plan.iter-007.md"
+      },
+      {
+        "stage": "symbolic-seed",
+        "baseName": "chapter-004",
+        "label": "symbolic-plan",
+        "iteration": 1,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/micro/chapter-004.symbolic-plan.iter-001.md",
+        "relativePath": "micro/chapter-004.symbolic-plan.iter-001.md"
       }
     ],
     "cnl": [
@@ -3496,81 +4168,97 @@
         "stage": "cnl",
         "baseName": "book",
         "label": "macro-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/book.macro-refined-plan.iter-006.md",
-        "relativePath": "cnl/book.macro-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/book.macro-refined-plan.iter-007.md",
+        "relativePath": "cnl/book.macro-refined-plan.iter-007.md"
       },
       {
         "stage": "cnl",
         "baseName": "characters",
         "label": "macro-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/characters.macro-refined-plan.iter-006.md",
-        "relativePath": "cnl/characters.macro-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/characters.macro-refined-plan.iter-007.md",
+        "relativePath": "cnl/characters.macro-refined-plan.iter-007.md"
       },
       {
         "stage": "cnl",
         "baseName": "world",
         "label": "macro-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/world.macro-refined-plan.iter-006.md",
-        "relativePath": "cnl/world.macro-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/world.macro-refined-plan.iter-007.md",
+        "relativePath": "cnl/world.macro-refined-plan.iter-007.md"
       },
       {
         "stage": "cnl",
         "baseName": "chapter-001",
         "label": "chapter-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-001.chapter-refined-plan.iter-006.md",
-        "relativePath": "cnl/chapter-001.chapter-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-001.chapter-refined-plan.iter-007.md",
+        "relativePath": "cnl/chapter-001.chapter-refined-plan.iter-007.md"
       },
       {
         "stage": "cnl",
         "baseName": "chapter-002",
         "label": "chapter-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-002.chapter-refined-plan.iter-006.md",
-        "relativePath": "cnl/chapter-002.chapter-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-002.chapter-refined-plan.iter-007.md",
+        "relativePath": "cnl/chapter-002.chapter-refined-plan.iter-007.md"
       },
       {
         "stage": "cnl",
         "baseName": "chapter-003",
         "label": "chapter-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-003.chapter-refined-plan.iter-006.md",
-        "relativePath": "cnl/chapter-003.chapter-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-003.chapter-refined-plan.iter-007.md",
+        "relativePath": "cnl/chapter-003.chapter-refined-plan.iter-007.md"
+      },
+      {
+        "stage": "cnl",
+        "baseName": "chapter-004",
+        "label": "chapter-refined-plan",
+        "iteration": 1,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-004.chapter-refined-plan.iter-001.md",
+        "relativePath": "cnl/chapter-004.chapter-refined-plan.iter-001.md"
       },
       {
         "stage": "cnl",
         "baseName": "chapter-001",
         "label": "micro-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-001.micro-refined-plan.iter-006.md",
-        "relativePath": "cnl/chapter-001.micro-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-001.micro-refined-plan.iter-007.md",
+        "relativePath": "cnl/chapter-001.micro-refined-plan.iter-007.md"
       },
       {
         "stage": "cnl",
         "baseName": "chapter-002",
         "label": "micro-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-002.micro-refined-plan.iter-006.md",
-        "relativePath": "cnl/chapter-002.micro-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-002.micro-refined-plan.iter-007.md",
+        "relativePath": "cnl/chapter-002.micro-refined-plan.iter-007.md"
       },
       {
         "stage": "cnl",
         "baseName": "chapter-003",
         "label": "micro-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-003.micro-refined-plan.iter-006.md",
-        "relativePath": "cnl/chapter-003.micro-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-003.micro-refined-plan.iter-007.md",
+        "relativePath": "cnl/chapter-003.micro-refined-plan.iter-007.md"
+      },
+      {
+        "stage": "cnl",
+        "baseName": "chapter-004",
+        "label": "micro-refined-plan",
+        "iteration": 1,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/chapter-004.micro-refined-plan.iter-001.md",
+        "relativePath": "cnl/chapter-004.micro-refined-plan.iter-001.md"
       },
       {
         "stage": "cnl",
         "baseName": "placeholder-resolution",
         "label": "cnl-resolution",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/placeholder-resolution.cnl-resolution.iter-006.json",
-        "relativePath": "cnl/placeholder-resolution.cnl-resolution.iter-006.json"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/cnl/placeholder-resolution.cnl-resolution.iter-007.json",
+        "relativePath": "cnl/placeholder-resolution.cnl-resolution.iter-007.json"
       }
     ],
     "drafts": [
@@ -3578,49 +4266,65 @@
         "stage": "drafts",
         "baseName": "chapter-001",
         "label": "draft",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-001.draft.iter-006.md",
-        "relativePath": "drafts/chapter-001.draft.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-001.draft.iter-007.md",
+        "relativePath": "drafts/chapter-001.draft.iter-007.md"
       },
       {
         "stage": "drafts",
         "baseName": "chapter-001",
         "label": "continuity",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-001.continuity.iter-006.json",
-        "relativePath": "drafts/chapter-001.continuity.iter-006.json"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-001.continuity.iter-007.json",
+        "relativePath": "drafts/chapter-001.continuity.iter-007.json"
       },
       {
         "stage": "drafts",
         "baseName": "chapter-002",
         "label": "draft",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-002.draft.iter-006.md",
-        "relativePath": "drafts/chapter-002.draft.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-002.draft.iter-007.md",
+        "relativePath": "drafts/chapter-002.draft.iter-007.md"
       },
       {
         "stage": "drafts",
         "baseName": "chapter-002",
         "label": "continuity",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-002.continuity.iter-006.json",
-        "relativePath": "drafts/chapter-002.continuity.iter-006.json"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-002.continuity.iter-007.json",
+        "relativePath": "drafts/chapter-002.continuity.iter-007.json"
       },
       {
         "stage": "drafts",
         "baseName": "chapter-003",
         "label": "draft",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-003.draft.iter-006.md",
-        "relativePath": "drafts/chapter-003.draft.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-003.draft.iter-007.md",
+        "relativePath": "drafts/chapter-003.draft.iter-007.md"
       },
       {
         "stage": "drafts",
         "baseName": "chapter-003",
         "label": "continuity",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-003.continuity.iter-006.json",
-        "relativePath": "drafts/chapter-003.continuity.iter-006.json"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-003.continuity.iter-007.json",
+        "relativePath": "drafts/chapter-003.continuity.iter-007.json"
+      },
+      {
+        "stage": "drafts",
+        "baseName": "chapter-004",
+        "label": "draft",
+        "iteration": 1,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-004.draft.iter-001.md",
+        "relativePath": "drafts/chapter-004.draft.iter-001.md"
+      },
+      {
+        "stage": "drafts",
+        "baseName": "chapter-004",
+        "label": "continuity",
+        "iteration": 1,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/drafts/chapter-004.continuity.iter-001.json",
+        "relativePath": "drafts/chapter-004.continuity.iter-001.json"
       }
     ],
     "exports": [
@@ -3628,33 +4332,33 @@
         "stage": "exports",
         "baseName": "manuscript",
         "label": "book",
-        "iteration": 13,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/exports/manuscript.book.iter-013.md",
-        "relativePath": "exports/manuscript.book.iter-013.md"
+        "iteration": 15,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/exports/manuscript.book.iter-015.md",
+        "relativePath": "exports/manuscript.book.iter-015.md"
       },
       {
         "stage": "exports",
         "baseName": "edition-en",
         "label": "reader",
-        "iteration": 12,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/exports/edition-en.reader.iter-012.html",
-        "relativePath": "exports/edition-en.reader.iter-012.html"
+        "iteration": 14,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/exports/edition-en.reader.iter-014.html",
+        "relativePath": "exports/edition-en.reader.iter-014.html"
       },
       {
         "stage": "exports",
         "baseName": "edition-ro",
         "label": "reader",
-        "iteration": 12,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/exports/edition-ro.reader.iter-012.html",
-        "relativePath": "exports/edition-ro.reader.iter-012.html"
+        "iteration": 14,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/exports/edition-ro.reader.iter-014.html",
+        "relativePath": "exports/edition-ro.reader.iter-014.html"
       },
       {
         "stage": "exports",
         "baseName": "editions",
         "label": "bundle",
-        "iteration": 12,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/exports/editions.bundle.iter-012.json",
-        "relativePath": "exports/editions.bundle.iter-012.json"
+        "iteration": 14,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/exports/editions.bundle.iter-014.json",
+        "relativePath": "exports/editions.bundle.iter-014.json"
       }
     ],
     "validation": [
@@ -3662,63 +4366,63 @@
         "stage": "validation",
         "baseName": "summary",
         "label": "validation",
-        "iteration": 11,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/validation/summary.validation.iter-011.json",
-        "relativePath": "validation/summary.validation.iter-011.json"
+        "iteration": 13,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/validation/summary.validation.iter-013.json",
+        "relativePath": "validation/summary.validation.iter-013.json"
       },
       {
         "stage": "validation",
         "baseName": "issues",
         "label": "validation",
-        "iteration": 11,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/validation/issues.validation.iter-011.json",
-        "relativePath": "validation/issues.validation.iter-011.json"
+        "iteration": 13,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/validation/issues.validation.iter-013.json",
+        "relativePath": "validation/issues.validation.iter-013.json"
       },
       {
         "stage": "validation",
         "baseName": "stages",
         "label": "validation",
-        "iteration": 10,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/validation/stages.validation.iter-010.json",
-        "relativePath": "validation/stages.validation.iter-010.json"
+        "iteration": 12,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/validation/stages.validation.iter-012.json",
+        "relativePath": "validation/stages.validation.iter-012.json"
       },
       {
         "stage": "validation",
         "baseName": "tasks",
         "label": "validation",
-        "iteration": 10,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/validation/tasks.validation.iter-010.json",
-        "relativePath": "validation/tasks.validation.iter-010.json"
+        "iteration": 12,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/validation/tasks.validation.iter-012.json",
+        "relativePath": "validation/tasks.validation.iter-012.json"
       },
       {
         "stage": "validation",
         "baseName": "summary",
         "label": "report",
-        "iteration": 11,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/reports/summary.report.iter-011.md",
-        "relativePath": "reports/summary.report.iter-011.md"
+        "iteration": 13,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/reports/summary.report.iter-013.md",
+        "relativePath": "reports/summary.report.iter-013.md"
       },
       {
         "stage": "validation",
         "baseName": "stages",
         "label": "report",
-        "iteration": 10,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/reports/stages.report.iter-010.md",
-        "relativePath": "reports/stages.report.iter-010.md"
+        "iteration": 12,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/reports/stages.report.iter-012.md",
+        "relativePath": "reports/stages.report.iter-012.md"
       },
       {
         "stage": "validation",
         "baseName": "tasks",
         "label": "report",
-        "iteration": 10,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/reports/tasks.report.iter-010.md",
-        "relativePath": "reports/tasks.report.iter-010.md"
+        "iteration": 12,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence/reports/tasks.report.iter-012.md",
+        "relativePath": "reports/tasks.report.iter-012.md"
       }
     ]
   },
   "book": {
     "bookId": "qa-drama-silence",
     "baselineProfile": "drama",
-    "workForm": "short-story"
+    "workForm": "novelette"
   }
 }

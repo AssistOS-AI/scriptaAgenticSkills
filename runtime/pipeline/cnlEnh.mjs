@@ -176,6 +176,66 @@ function genreRefinementHint(profileId, identifier) {
     return sceneHints[profileId];
   }
 
+  if (identifier.startsWith('dialogue-turn-')) {
+    const turnHints = {
+      drama: 'make each line sound emotionally specific and morally contested rather than declarative',
+      'detective-police': 'keep the speech procedural on the surface while letting leverage and danger sit underneath',
+      'science-fiction': 'let technical vocabulary carry ethical pressure instead of decorative jargon',
+      fantasy: 'make the speech feel ritual, material, and costly at once',
+      'romance-relational': 'let practical language and emotional risk coexist in the same line'
+    };
+
+    return turnHints[profileId];
+  }
+
+  if (identifier.startsWith('location-') || identifier === 'location-primary' || identifier === 'location-secondary') {
+    const locationHints = {
+      drama: 'make the setting socially legible and emotionally pressurized instead of merely visual',
+      'detective-police': 'make the place feel procedural, political, and materially specific',
+      'science-fiction': 'make the setting engineered, tactile, and ethically revealing',
+      fantasy: 'make the place sensorial, mythic, and constrained by cost',
+      'romance-relational': 'make the place intimate through work, routine, and shared objects'
+    };
+
+    return locationHints[profileId];
+  }
+
+  if (identifier.startsWith('rule-pressure-') || identifier.startsWith('world-rule-') || identifier.startsWith('world-reveal-')) {
+    const ruleHints = {
+      drama: 'show how institutions and norms shape action without over-explaining them',
+      'detective-police': 'make rules generate clue pressure and institutional obstruction',
+      'science-fiction': 'let system rules create action limits, not just background lore',
+      fantasy: 'make laws magical, political, and costly in the same movement',
+      'romance-relational': 'treat social expectations as real constraints on intimacy and choice'
+    };
+
+    return ruleHints[profileId];
+  }
+
+  if (identifier.startsWith('arc-') || identifier === 'arc-book-main') {
+    const arcHints = {
+      drama: 'make the arc move through grief, blame, and difficult honesty',
+      'detective-police': 'make the arc track moral courage as much as clue discovery',
+      'science-fiction': 'make the arc bind system insight to ethical choice',
+      fantasy: 'make the arc bind inheritance to sacrifice and renunciation',
+      'romance-relational': 'make the arc move through defensiveness, dependence, and honest reciprocity'
+    };
+
+    return arcHints[profileId];
+  }
+
+  if (identifier.startsWith('pause-') || identifier.startsWith('acceleration-') || identifier.startsWith('alternation-')) {
+    const pacingHints = {
+      drama: 'let rhythm changes expose emotional consequence instead of merely changing speed',
+      'detective-police': 'use pacing to alternate clue logic, danger, and institutional tension',
+      'science-fiction': 'balance orientation, system pressure, and kinetic consequence',
+      fantasy: 'alternate wonder, cost, and decisive movement deliberately',
+      'romance-relational': 'use pauses and bursts to make vulnerability feel earned rather than abrupt'
+    };
+
+    return pacingHints[profileId];
+  }
+
   const genericHints = {
     drama: 'keep the language intimate, restrained, and emotionally specific',
     'detective-police': 'prefer clean procedural detail over melodramatic explanation',
@@ -190,10 +250,20 @@ function genreRefinementHint(profileId, identifier) {
 function shouldRefineBlock(identifier) {
   return identifier === 'central-idea' ||
     identifier === 'theme' ||
+    identifier === 'arc-book-main' ||
     identifier.startsWith('chapter-') ||
     identifier.startsWith('scene-') ||
+    identifier.startsWith('location-') ||
+    identifier.startsWith('rule-pressure-') ||
+    identifier.startsWith('arc-') ||
+    identifier.startsWith('dialogue-turn-') ||
     identifier.startsWith('dialogue-') ||
-    identifier.startsWith('suspense-');
+    identifier.startsWith('suspense-') ||
+    identifier.startsWith('pause-') ||
+    identifier.startsWith('acceleration-') ||
+    identifier.startsWith('alternation-') ||
+    identifier.startsWith('world-rule-') ||
+    identifier.startsWith('world-reveal-');
 }
 
 function mapRefinedLabel(relativePath) {

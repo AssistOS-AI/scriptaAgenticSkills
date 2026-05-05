@@ -41,6 +41,10 @@
             {
               "name": "macro blocks expose central idea, theme, and world rules",
               "pass": true
+            },
+            {
+              "name": "macro blocks expose arc, motif, and location packets",
+              "pass": true
             }
           ]
         },
@@ -56,6 +60,10 @@
             {
               "name": "chapter refined plans match requested chapter count",
               "pass": true
+            },
+            {
+              "name": "chapter plans expose question and alternation fields",
+              "pass": true
             }
           ]
         },
@@ -70,6 +78,18 @@
             },
             {
               "name": "micro plans contain scene definitions",
+              "pass": true
+            },
+            {
+              "name": "micro plans contain dialogue-turn lines",
+              "pass": true
+            },
+            {
+              "name": "micro plans contain location, rule-pressure, and arc packets",
+              "pass": true
+            },
+            {
+              "name": "micro plans contain pause and acceleration controls",
               "pass": true
             }
           ]
@@ -131,7 +151,7 @@
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=71"
+          "evidence": "OI=68"
         },
         {
           "id": "task-002",
@@ -156,14 +176,14 @@
           "title": "When the Silence Returns",
           "profile": "drama",
           "languageCode": "en",
-          "workspaceSource": "exports/edition-en.reader.iter-012.html",
+          "workspaceSource": "exports/edition-en.reader.iter-014.html",
           "publishedPath": "books/en/qa-drama-silence.html",
           "metricsPage": "books/metrics/qa-drama-silence.html",
           "metricsSnapshot": {
             "NQS": 88,
             "CS": 93,
             "CAR": 99,
-            "OI": 71,
+            "OI": 68,
             "EAP": 92
           }
         },
@@ -172,14 +192,14 @@
           "title": "Cand se intoarce tacerea",
           "profile": "drama",
           "languageCode": "ro",
-          "workspaceSource": "exports/edition-ro.reader.iter-012.html",
+          "workspaceSource": "exports/edition-ro.reader.iter-014.html",
           "publishedPath": "books/ro/qa-drama-silence.html",
           "metricsPage": "books/metrics/qa-drama-silence.html",
           "metricsSnapshot": {
             "NQS": 88,
             "CS": 93,
             "CAR": 99,
-            "OI": 71,
+            "OI": 68,
             "EAP": 92
           }
         }
@@ -227,6 +247,10 @@
             {
               "name": "macro blocks expose central idea, theme, and world rules",
               "pass": true
+            },
+            {
+              "name": "macro blocks expose arc, motif, and location packets",
+              "pass": true
             }
           ]
         },
@@ -242,6 +266,10 @@
             {
               "name": "chapter refined plans match requested chapter count",
               "pass": true
+            },
+            {
+              "name": "chapter plans expose question and alternation fields",
+              "pass": true
             }
           ]
         },
@@ -256,6 +284,18 @@
             },
             {
               "name": "micro plans contain scene definitions",
+              "pass": true
+            },
+            {
+              "name": "micro plans contain dialogue-turn lines",
+              "pass": true
+            },
+            {
+              "name": "micro plans contain location, rule-pressure, and arc packets",
+              "pass": true
+            },
+            {
+              "name": "micro plans contain pause and acceleration controls",
               "pass": true
             }
           ]
@@ -317,7 +357,7 @@
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=71"
+          "evidence": "OI=68"
         },
         {
           "id": "task-002",
@@ -342,14 +382,14 @@
           "title": "The River Knows First",
           "profile": "detective-police",
           "languageCode": "en",
-          "workspaceSource": "exports/edition-en.reader.iter-007.html",
+          "workspaceSource": "exports/edition-en.reader.iter-009.html",
           "publishedPath": "books/en/qa-detective-river.html",
           "metricsPage": "books/metrics/qa-detective-river.html",
           "metricsSnapshot": {
             "NQS": 88,
             "CS": 93,
             "CAR": 99,
-            "OI": 71,
+            "OI": 68,
             "EAP": 92
           }
         },
@@ -358,14 +398,14 @@
           "title": "Raul stie primul",
           "profile": "detective-police",
           "languageCode": "ro",
-          "workspaceSource": "exports/edition-ro.reader.iter-007.html",
+          "workspaceSource": "exports/edition-ro.reader.iter-009.html",
           "publishedPath": "books/ro/qa-detective-river.html",
           "metricsPage": "books/metrics/qa-detective-river.html",
           "metricsSnapshot": {
             "NQS": 88,
             "CS": 93,
             "CAR": 99,
-            "OI": 71,
+            "OI": 68,
             "EAP": 92
           }
         }
@@ -413,6 +453,10 @@
             {
               "name": "macro blocks expose central idea, theme, and world rules",
               "pass": true
+            },
+            {
+              "name": "macro blocks expose arc, motif, and location packets",
+              "pass": true
             }
           ]
         },
@@ -428,6 +472,10 @@
             {
               "name": "chapter refined plans match requested chapter count",
               "pass": true
+            },
+            {
+              "name": "chapter plans expose question and alternation fields",
+              "pass": true
             }
           ]
         },
@@ -442,6 +490,18 @@
             },
             {
               "name": "micro plans contain scene definitions",
+              "pass": true
+            },
+            {
+              "name": "micro plans contain dialogue-turn lines",
+              "pass": true
+            },
+            {
+              "name": "micro plans contain location, rule-pressure, and arc packets",
+              "pass": true
+            },
+            {
+              "name": "micro plans contain pause and acceleration controls",
               "pass": true
             }
           ]
@@ -503,7 +563,7 @@
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=70"
+          "evidence": "OI=68"
         },
         {
           "id": "task-002",
@@ -528,14 +588,14 @@
           "title": "Orbit of the Unreturned",
           "profile": "science-fiction",
           "languageCode": "en",
-          "workspaceSource": "exports/edition-en.reader.iter-007.html",
+          "workspaceSource": "exports/edition-en.reader.iter-009.html",
           "publishedPath": "books/en/qa-scifi-orbit.html",
           "metricsPage": "books/metrics/qa-scifi-orbit.html",
           "metricsSnapshot": {
             "NQS": 88,
             "CS": 93,
             "CAR": 99,
-            "OI": 70,
+            "OI": 68,
             "EAP": 92
           }
         },
@@ -544,14 +604,14 @@
           "title": "Orbita celor nereveniti",
           "profile": "science-fiction",
           "languageCode": "ro",
-          "workspaceSource": "exports/edition-ro.reader.iter-007.html",
+          "workspaceSource": "exports/edition-ro.reader.iter-009.html",
           "publishedPath": "books/ro/qa-scifi-orbit.html",
           "metricsPage": "books/metrics/qa-scifi-orbit.html",
           "metricsSnapshot": {
             "NQS": 88,
             "CS": 93,
             "CAR": 99,
-            "OI": 70,
+            "OI": 68,
             "EAP": 92
           }
         }
@@ -599,6 +659,10 @@
             {
               "name": "macro blocks expose central idea, theme, and world rules",
               "pass": true
+            },
+            {
+              "name": "macro blocks expose arc, motif, and location packets",
+              "pass": true
             }
           ]
         },
@@ -614,6 +678,10 @@
             {
               "name": "chapter refined plans match requested chapter count",
               "pass": true
+            },
+            {
+              "name": "chapter plans expose question and alternation fields",
+              "pass": true
             }
           ]
         },
@@ -628,6 +696,18 @@
             },
             {
               "name": "micro plans contain scene definitions",
+              "pass": true
+            },
+            {
+              "name": "micro plans contain dialogue-turn lines",
+              "pass": true
+            },
+            {
+              "name": "micro plans contain location, rule-pressure, and arc packets",
+              "pass": true
+            },
+            {
+              "name": "micro plans contain pause and acceleration controls",
               "pass": true
             }
           ]
@@ -689,7 +769,7 @@
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=71"
+          "evidence": "OI=68"
         },
         {
           "id": "task-002",
@@ -714,14 +794,14 @@
           "title": "The Ash Keeps Your Name",
           "profile": "fantasy",
           "languageCode": "en",
-          "workspaceSource": "exports/edition-en.reader.iter-007.html",
+          "workspaceSource": "exports/edition-en.reader.iter-009.html",
           "publishedPath": "books/en/qa-fantasy-ash.html",
           "metricsPage": "books/metrics/qa-fantasy-ash.html",
           "metricsSnapshot": {
             "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 71,
+            "OI": 68,
             "EAP": 92
           }
         },
@@ -730,14 +810,14 @@
           "title": "Cenusa iti pastreaza numele",
           "profile": "fantasy",
           "languageCode": "ro",
-          "workspaceSource": "exports/edition-ro.reader.iter-007.html",
+          "workspaceSource": "exports/edition-ro.reader.iter-009.html",
           "publishedPath": "books/ro/qa-fantasy-ash.html",
           "metricsPage": "books/metrics/qa-fantasy-ash.html",
           "metricsSnapshot": {
             "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 71,
+            "OI": 68,
             "EAP": 92
           }
         }
@@ -785,6 +865,10 @@
             {
               "name": "macro blocks expose central idea, theme, and world rules",
               "pass": true
+            },
+            {
+              "name": "macro blocks expose arc, motif, and location packets",
+              "pass": true
             }
           ]
         },
@@ -800,6 +884,10 @@
             {
               "name": "chapter refined plans match requested chapter count",
               "pass": true
+            },
+            {
+              "name": "chapter plans expose question and alternation fields",
+              "pass": true
             }
           ]
         },
@@ -814,6 +902,18 @@
             },
             {
               "name": "micro plans contain scene definitions",
+              "pass": true
+            },
+            {
+              "name": "micro plans contain dialogue-turn lines",
+              "pass": true
+            },
+            {
+              "name": "micro plans contain location, rule-pressure, and arc packets",
+              "pass": true
+            },
+            {
+              "name": "micro plans contain pause and acceleration controls",
               "pass": true
             }
           ]
@@ -875,7 +975,7 @@
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=70"
+          "evidence": "OI=68"
         },
         {
           "id": "task-002",
@@ -900,14 +1000,14 @@
           "title": "Margins of the Heart",
           "profile": "romance-relational",
           "languageCode": "en",
-          "workspaceSource": "exports/edition-en.reader.iter-007.html",
+          "workspaceSource": "exports/edition-en.reader.iter-009.html",
           "publishedPath": "books/en/qa-romance-margins.html",
           "metricsPage": "books/metrics/qa-romance-margins.html",
           "metricsSnapshot": {
             "NQS": 88,
             "CS": 93,
             "CAR": 99,
-            "OI": 70,
+            "OI": 68,
             "EAP": 92
           }
         },
@@ -916,14 +1016,14 @@
           "title": "Marginile inimii",
           "profile": "romance-relational",
           "languageCode": "ro",
-          "workspaceSource": "exports/edition-ro.reader.iter-007.html",
+          "workspaceSource": "exports/edition-ro.reader.iter-009.html",
           "publishedPath": "books/ro/qa-romance-margins.html",
           "metricsPage": "books/metrics/qa-romance-margins.html",
           "metricsSnapshot": {
             "NQS": 88,
             "CS": 93,
             "CAR": 99,
-            "OI": 70,
+            "OI": 68,
             "EAP": 92
           }
         }
@@ -940,7 +1040,7 @@
       "stage": "micro",
       "title": "Increase lexical novelty",
       "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-      "evidence": "OI=71"
+      "evidence": "OI=68"
     },
     {
       "bookId": "qa-drama-silence",
@@ -970,7 +1070,7 @@
       "stage": "micro",
       "title": "Increase lexical novelty",
       "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-      "evidence": "OI=71"
+      "evidence": "OI=68"
     },
     {
       "bookId": "qa-detective-river",
@@ -1000,7 +1100,7 @@
       "stage": "micro",
       "title": "Increase lexical novelty",
       "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-      "evidence": "OI=70"
+      "evidence": "OI=68"
     },
     {
       "bookId": "qa-scifi-orbit",
@@ -1030,7 +1130,7 @@
       "stage": "micro",
       "title": "Increase lexical novelty",
       "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-      "evidence": "OI=71"
+      "evidence": "OI=68"
     },
     {
       "bookId": "qa-fantasy-ash",
@@ -1060,7 +1160,7 @@
       "stage": "micro",
       "title": "Increase lexical novelty",
       "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-      "evidence": "OI=70"
+      "evidence": "OI=68"
     },
     {
       "bookId": "qa-romance-margins",

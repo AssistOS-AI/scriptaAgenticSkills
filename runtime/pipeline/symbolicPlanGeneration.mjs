@@ -125,6 +125,33 @@ export async function generateMacroSeed(options) {
       { name: 'resolution', value: `the core conflict resolves with lasting cost and a redefined relation to ${organizationPlaceholder}` },
       { name: 'emotional-layer', value: emotionalTrack.join(' -> ') },
       { name: 'stakes-ladder', value: `private tension -> relational risk -> public consequence -> identity cost` }
+    ]),
+    createBlock('arc-book-main', 'map', [
+      { name: 'arc-axis', value: `${options.profile.themeTopic} under ${options.profile.themeShape} pressure` },
+      { name: 'opening-state', value: bookArcOpening(options.baselineProfile) },
+      { name: 'escalation-pattern', value: bookArcEscalation(options.baselineProfile) },
+      { name: 'midpoint-recognition', value: bookArcMidpoint(options.baselineProfile) },
+      { name: 'climactic-choice', value: scenario.dilemma },
+      { name: 'ending-state', value: bookArcEnding(options.baselineProfile) }
+    ]),
+    createBlock('arc-protagonist-main', 'map', [
+      { name: 'entry-belief', value: protagonistEntryBelief(options.baselineProfile) },
+      { name: 'core-wound', value: protagonistWound(options.baselineProfile) },
+      { name: 'pressure-line', value: protagonistPressureLine(options.baselineProfile) },
+      { name: 'turning-insight', value: protagonistTurningInsight(options.baselineProfile) },
+      { name: 'exit-belief', value: protagonistExitBelief(options.baselineProfile) }
+    ]),
+    createBlock('arc-relationship-main', 'map', [
+      { name: 'pair', value: `${protagonistPlaceholder}, ${counterpartPlaceholder}` },
+      { name: 'entry-dynamic', value: relationshipEntryDynamic(options.baselineProfile) },
+      { name: 'stress-pattern', value: relationshipStressPattern(options.baselineProfile) },
+      { name: 'repair-condition', value: relationshipRepairCondition(options.baselineProfile) },
+      { name: 'exit-dynamic', value: relationshipExitDynamic(options.baselineProfile) }
+    ]),
+    createBlock('motif-primary', 'define', [
+      { name: 'motif', value: profileMotif(options.baselineProfile) },
+      { name: 'symbolic-function', value: motifFunction(options.baselineProfile) },
+      { name: 'recurrence-rule', value: 'the motif should recur across opening, midpoint, and late consequence scenes with altered meaning' }
     ])
   ];
 
@@ -208,6 +235,36 @@ export async function generateMacroSeed(options) {
       { name: 'exception', value: 'exceptions require a visible trade-off and cannot erase consequences' },
       { name: 'traceability', value: 'the manuscript must show repeated evidence that the rule shapes decisions' },
       { name: 'violation-effect', value: 'validation must flag coherence failure if the rule stops mattering' }
+    ]),
+    createBlock('world-rule-secondary', 'define', [
+      { name: 'subsystem', value: 'secondary' },
+      { name: 'rule-type', value: secondaryRuleType(options.baselineProfile) },
+      { name: 'rule', value: secondaryWorldRule(options.baselineProfile) },
+      { name: 'conflict-transform', value: secondaryRuleConflict(options.baselineProfile) },
+      { name: 'reveal-mode', value: 'partial-explicitness' },
+      { name: 'narrative-duty', value: 'the rule should surface through scene friction, not abstract exposition' }
+    ]),
+    createBlock('world-reveal-strategy', 'define', [
+      { name: 'explicit-zone', value: 'opening pressure and late midpoint' },
+      { name: 'implicit-zone', value: 'dialogue beats, location detail, and consequence scenes' },
+      { name: 'reader-inference-goal', value: 'the reader should infer the larger system from local constraints before the book names the whole mechanism' },
+      { name: 'rule-to-conflict', value: ruleToConflict(options.baselineProfile) }
+    ]),
+    createBlock('location-primary', 'define', [
+      { name: 'name', value: options.profile.lexicon.locations[0] },
+      { name: 'role', value: 'primary pressure stage' },
+      { name: 'sensory-anchor', value: locationSensoryAnchor(options.baselineProfile, 0) },
+      { name: 'social-signal', value: locationSocialSignal(options.baselineProfile, 0) },
+      { name: 'symbolic-charge', value: locationSymbolicCharge(options.baselineProfile, 0) },
+      { name: 'conflict-use', value: locationConflictUse(options.baselineProfile, 0) }
+    ]),
+    createBlock('location-secondary', 'define', [
+      { name: 'name', value: options.profile.lexicon.locations[1] },
+      { name: 'role', value: 'revelation or narrowing stage' },
+      { name: 'sensory-anchor', value: locationSensoryAnchor(options.baselineProfile, 1) },
+      { name: 'social-signal', value: locationSocialSignal(options.baselineProfile, 1) },
+      { name: 'symbolic-charge', value: locationSymbolicCharge(options.baselineProfile, 1) },
+      { name: 'conflict-use', value: locationConflictUse(options.baselineProfile, 1) }
     ])
   ];
 
@@ -241,7 +298,13 @@ export async function generateChapterSeeds(options) {
         { name: 'closing-mode', value: closingMode },
         { name: 'continuity-obligations', value: `later chapters must preserve the consequence introduced in ${chapterId}` },
         { name: 'thematic-focus', value: `${options.profile.themeTopic} under ${options.profile.themeShape} pressure` },
-        { name: 'rhythm-note', value: chapterRhythmNote(role, chapterIndex, options.chapterCount) }
+        { name: 'rhythm-note', value: chapterRhythmNote(role, chapterIndex, options.chapterCount) },
+        { name: 'chapter-question', value: chapterQuestion(options.baselineProfile, role) },
+        { name: 'answer-shift', value: chapterAnswerShift(options.baselineProfile, role) },
+        { name: 'arc-stage', value: chapterArcStage(role) },
+        { name: 'world-pressure', value: chapterWorldPressure(options.baselineProfile, role) },
+        { name: 'location-focus', value: chapterLocationFocus(options.profile, chapterIndex) },
+        { name: 'block-alternation', value: chapterBlockAlternation(role, options.baselineProfile) }
       ], [
         `This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.`
       ])
@@ -274,6 +337,48 @@ export async function generateMicroSeeds(options) {
       { name: 'continuity-thread', value: 'each scene must inherit and intensify the previous scene\'s unresolved pressure' },
       { name: 'conflict-line', value: sequenceConflictLine(options.baselineProfile, chapterRole) },
       { name: 'payoff', value: chapterIndex === options.chapterCount - 1 ? finalSequencePayoff(options.baselineProfile, chapterRole) : sequencePayoff(options.baselineProfile, chapterRole) }
+    ]));
+
+    blocks.push(createBlock(`location-${chapterNumber}-anchor`, 'define', [
+      { name: 'chapter', value: chapterId },
+      { name: 'primary-setting', value: options.profile.lexicon.locations[0] },
+      { name: 'secondary-setting', value: options.profile.lexicon.locations[1] },
+      { name: 'sensory-anchor', value: locationSensoryAnchor(options.baselineProfile, 0) },
+      { name: 'social-signal', value: locationSocialSignal(options.baselineProfile, 0) },
+      { name: 'symbolic-charge', value: locationSymbolicCharge(options.baselineProfile, 0) },
+      { name: 'conflict-use', value: locationConflictUse(options.baselineProfile, 0) }
+    ]));
+
+    blocks.push(createBlock(`rule-pressure-${chapterNumber}-core`, 'apply', [
+      { name: 'chapter', value: chapterId },
+      { name: 'rule-reference', value: 'world-rule-primary' },
+      { name: 'visible-symptom', value: ruleVisibleSymptom(options.baselineProfile, chapterRole) },
+      { name: 'action-limitation', value: ruleActionLimitation(options.baselineProfile, chapterRole) },
+      { name: 'conflict-output', value: ruleConflictOutput(options.baselineProfile, chapterRole) },
+      { name: 'reveal-pattern', value: 'show consequence first, explain the systemic cause later' }
+    ]));
+
+    blocks.push(createBlock(`arc-${chapterNumber}-protagonist`, 'map', [
+      { name: 'chapter', value: chapterId },
+      { name: 'entry-belief', value: chapterArcEntryBelief(options.baselineProfile, chapterRole) },
+      { name: 'challenge', value: chapterArcChallenge(options.baselineProfile, chapterRole) },
+      { name: 'insight-pressure', value: chapterArcInsightPressure(options.baselineProfile, chapterRole) },
+      { name: 'exit-belief', value: chapterArcExitBelief(options.baselineProfile, chapterRole) }
+    ]));
+
+    blocks.push(createBlock(`arc-${chapterNumber}-relationship`, 'map', [
+      { name: 'chapter', value: chapterId },
+      { name: 'pair', value: '{{character:protagonist-001}}, {{character:counterpart-001}}' },
+      { name: 'entry-dynamic', value: relationshipEntryDynamic(options.baselineProfile) },
+      { name: 'stress-line', value: chapterRelationshipStress(options.baselineProfile, chapterRole) },
+      { name: 'exit-dynamic', value: chapterRelationshipExit(options.baselineProfile, chapterRole) }
+    ]));
+
+    blocks.push(createBlock(`alternation-${chapterNumber}-core`, 'arrange', [
+      { name: 'chapter', value: chapterId },
+      { name: 'block-order', value: chapterBlockAlternation(chapterRole, options.baselineProfile) },
+      { name: 'reader-effect', value: alternationEffect(options.baselineProfile, chapterRole) },
+      { name: 'anti-flatness-rule', value: 'do not chain action summaries without dialogue, atmosphere, or reflection support' }
     ]));
 
     for (let sceneIndex = 0; sceneIndex < sceneCount; sceneIndex += 1) {
@@ -317,6 +422,18 @@ export async function generateMicroSeeds(options) {
         { name: 'impact', value: eventImpact(options.baselineProfile, chapterRole, isFinalScene) },
         { name: 'follow-through', value: eventFollowThrough(options.baselineProfile, chapterRole, isFinalScene) }
       ]));
+
+      const dialogueTurns = dialogueTurnBlueprints(options.baselineProfile, chapterRole, sceneIndex);
+      dialogueTurns.forEach((turn, turnIndex) => {
+        blocks.push(createBlock(`dialogue-turn-${chapterNumber}-${String(sceneIndex + 1).padStart(2, '0')}-${String(turnIndex + 1).padStart(2, '0')}`, 'line', [
+          { name: 'scene', value: sceneId },
+          { name: 'speaker', value: turn.speaker === 'protagonist' ? '{{character:protagonist-001}}' : '{{character:counterpart-001}}' },
+          { name: 'intent', value: turn.intent },
+          { name: 'subtext', value: turn.subtext },
+          { name: 'line-hint', value: turn.lineHint },
+          { name: 'reaction-beat', value: turn.reactionBeat }
+        ]));
+      });
     }
 
     blocks.push(createBlock(`description-${chapterNumber}-atmosphere`, 'apply', [
@@ -357,6 +474,22 @@ export async function generateMicroSeeds(options) {
       { name: 'delay-technique', value: 'mixed' },
       { name: 'payoff-zone', value: `event-${chapterNumber}-${sceneCount}` }
     ], ['Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.']));
+
+    blocks.push(createBlock(`pause-${chapterNumber}-core`, 'hold', [
+      { name: 'scope', value: chapterId },
+      { name: 'pause-function', value: pauseFunction(options.baselineProfile, chapterRole) },
+      { name: 'focus', value: pauseFocus(options.baselineProfile, chapterRole) },
+      { name: 'placement', value: chapterIndex === 0 ? 'after-first-scene' : 'before-final-scene' },
+      { name: 'reader-effect', value: 'decelerate just enough to let consequence become legible' }
+    ]));
+
+    blocks.push(createBlock(`acceleration-${chapterNumber}-core`, 'burst', [
+      { name: 'scope', value: chapterId },
+      { name: 'acceleration-mode', value: accelerationMode(options.baselineProfile, chapterRole) },
+      { name: 'trigger', value: accelerationTrigger(options.baselineProfile, chapterRole) },
+      { name: 'reader-effect', value: 'compress time and force the next consequence to land without emotional escape' },
+      { name: 'target-zone', value: `scene-${chapterNumber}-${String(sceneCount).padStart(2, '0')}` }
+    ]));
 
     if (chapterIndex < options.chapterCount - 1) {
       blocks.push(createBlock(`cliffhanger-${chapterNumber}-exit`, 'cut', [
@@ -818,6 +951,528 @@ function cliffhangerContinuation(profileId, role) {
     'romance-relational': 'the reader must see whether vulnerability creates partnership or exposes its limit'
   };
   return lines[profileId] ?? `the reader must see whether the next ${role} chapter confirms ruin or transformation`;
+}
+
+function bookArcOpening(profileId) {
+  const map = {
+    drama: 'the family system still mistakes silence for care',
+    'detective-police': 'the city still treats procedural calm as proof of innocence',
+    'science-fiction': 'the station still equates managed memory with civic peace',
+    fantasy: 'the valley still treats inherited power as protection',
+    'romance-relational': 'the partnership still treats emotional distance as professionalism'
+  };
+  return map[profileId] ?? 'the story opens inside an unstable but socially protected equilibrium';
+}
+
+function bookArcEscalation(profileId) {
+  const map = {
+    drama: 'private truth keeps forcing itself into public consequence',
+    'detective-police': 'clean evidence keeps colliding with contaminated institutions',
+    'science-fiction': 'technical anomalies keep revealing political design',
+    fantasy: 'mythic revelation keeps turning into civic cost',
+    'romance-relational': 'practical collaboration keeps turning into emotional exposure'
+  };
+  return map[profileId] ?? 'pressure keeps converting hidden contradiction into visible consequence';
+}
+
+function bookArcMidpoint(profileId) {
+  const map = {
+    drama: 'repair is impossible without naming the wound correctly',
+    'detective-police': 'the case is no longer an incident but a system',
+    'science-fiction': 'the malfunction is not accidental but administered',
+    fantasy: 'the curse is not random but inherited through power',
+    'romance-relational': 'the work cannot survive without emotional honesty'
+  };
+  return map[profileId] ?? 'the apparent problem hides a larger moral structure';
+}
+
+function bookArcEnding(profileId) {
+  const map = {
+    drama: 'truth reorders the family at a cost no one can entirely refuse',
+    'detective-police': 'justice becomes visible only after institutional damage',
+    'science-fiction': 'survival remains possible, but innocence does not',
+    fantasy: 'redemption arrives only after relinquishment',
+    'romance-relational': 'partnership survives through chosen vulnerability rather than control'
+  };
+  return map[profileId] ?? 'the ending preserves meaning by leaving cost visible';
+}
+
+function protagonistEntryBelief(profileId) {
+  const map = {
+    drama: 'care means containing pain until others can survive it',
+    'detective-police': 'truth can be extracted cleanly if procedure is respected',
+    'science-fiction': 'systems can be repaired without reopening moral catastrophe',
+    fantasy: 'inheritance can be redeemed without surrendering its privileges',
+    'romance-relational': 'competence is safer than emotional dependence'
+  };
+  return map[profileId] ?? 'control protects against loss';
+}
+
+function protagonistWound(profileId) {
+  const map = {
+    drama: 'old grief trained the protagonist to equate restraint with mercy',
+    'detective-police': 'institutional loyalty once looked like justice',
+    'science-fiction': 'the protagonist once trusted managed systems over unstable testimony',
+    fantasy: 'belonging was purchased through partial blindness to ancestral harm',
+    'romance-relational': 'earlier abandonment taught the protagonist to turn need into logistics'
+  };
+  return map[profileId] ?? 'the protagonist carries an old compromise that now shapes every choice';
+}
+
+function protagonistPressureLine(profileId) {
+  const map = {
+    drama: 'every truthful move now threatens the very bond the protagonist wants to save',
+    'detective-police': 'every lawful move now risks proving the law itself compromised',
+    'science-fiction': 'every repair now exposes the politics hidden in the machine',
+    fantasy: 'every truthful act now burns one layer of inherited shelter',
+    'romance-relational': 'every useful act now asks whether care can remain impersonal'
+  };
+  return map[profileId] ?? 'the protagonist can no longer separate desire from consequence';
+}
+
+function protagonistTurningInsight(profileId) {
+  const map = {
+    drama: 'truth delayed in the name of tenderness becomes a cruelty of its own',
+    'detective-police': 'evidence without public risk only strengthens corruption',
+    'science-fiction': 'stability without consent is a curated form of violence',
+    fantasy: 'redemption requires surrendering the identity built on the lie',
+    'romance-relational': 'autonomy becomes honest only when it can admit dependence'
+  };
+  return map[profileId] ?? 'the protagonist must trade control for an honest form of agency';
+}
+
+function protagonistExitBelief(profileId) {
+  const map = {
+    drama: 'repair begins after the truth, not instead of it',
+    'detective-police': 'justice is never clean when the system profits from concealment',
+    'science-fiction': 'memory belongs to citizens, not to prediction systems',
+    fantasy: 'belonging worth keeping cannot depend on concealment',
+    'romance-relational': 'shared risk is stronger than defensive isolation'
+  };
+  return map[profileId] ?? 'visible cost is preferable to stable falsehood';
+}
+
+function relationshipEntryDynamic(profileId) {
+  const map = {
+    drama: 'careful cooperation strained by withheld history',
+    'detective-police': 'professional alliance shadowed by unequal institutional risk',
+    'science-fiction': 'technical trust without full moral agreement',
+    fantasy: 'oath-bound cooperation shadowed by old allegiance',
+    'romance-relational': 'productive partnership guarded by emotional self-defense'
+  };
+  return map[profileId] ?? 'the central pair begins with incomplete trust';
+}
+
+function relationshipStressPattern(profileId) {
+  const map = {
+    drama: 'tenderness keeps colliding with incompatible memories',
+    'detective-police': 'shared investigation keeps exposing unequal courage',
+    'science-fiction': 'joint repair work keeps exposing different thresholds for risk',
+    fantasy: 'shared danger keeps exposing opposite loyalties to blood and truth',
+    'romance-relational': 'workplace coordination keeps turning into emotional negotiation'
+  };
+  return map[profileId] ?? 'cooperation intensifies rather than dissolves contradiction';
+}
+
+function relationshipRepairCondition(profileId) {
+  const map = {
+    drama: 'the pair can only repair the bond by telling the most damaging version of events',
+    'detective-police': 'the pair can only remain allies if both accept public exposure',
+    'science-fiction': 'the pair can only remain aligned if consent matters more than prediction',
+    fantasy: 'the pair can only remain loyal if truth outranks inherited claim',
+    'romance-relational': 'the pair can only stay together if usefulness gives way to honest dependence'
+  };
+  return map[profileId] ?? 'repair requires shared risk rather than strategic distance';
+}
+
+function relationshipExitDynamic(profileId) {
+  const map = {
+    drama: 'scarred trust rebuilt on painful clarity',
+    'detective-police': 'alliance tested by public consequence',
+    'science-fiction': 'solidarity forged through contested memory',
+    fantasy: 'bond transformed by sacrifice and released allegiance',
+    'romance-relational': 'partnership made honest by vulnerability'
+  };
+  return map[profileId] ?? 'the central relationship exits in altered but legible form';
+}
+
+function profileMotif(profileId) {
+  const map = {
+    drama: 'recorded silence',
+    'detective-police': 'water-marked evidence',
+    'science-fiction': 'ghosted memory traces',
+    fantasy: 'ash and oath marks',
+    'romance-relational': 'marginal notes and unfinished print runs'
+  };
+  return map[profileId] ?? 'the recurring object that changes meaning with each return';
+}
+
+function motifFunction(profileId) {
+  const map = {
+    drama: 'turn absence into visible accusation',
+    'detective-police': 'link clue logic to moral contamination',
+    'science-fiction': 'make system control materially visible',
+    fantasy: 'bind inheritance to cost and memory',
+    'romance-relational': 'carry emotional history through work objects'
+  };
+  return map[profileId] ?? 'recur as a symbolic trace of the book\'s central pressure';
+}
+
+function secondaryRuleType(profileId) {
+  const map = {
+    drama: 'social-norm',
+    'detective-police': 'resource-scarcity',
+    'science-fiction': 'physical-limitation',
+    fantasy: 'metaphysical-cost',
+    'romance-relational': 'social-norm'
+  };
+  return map[profileId] ?? 'social-norm';
+}
+
+function secondaryWorldRule(profileId) {
+  const map = {
+    drama: 'institutional language always arrives colder than the grief it tries to classify',
+    'detective-police': 'publicly useful evidence is always easier to bury than privately damaging rumor',
+    'science-fiction': 'high-bandwidth memory restoration destabilizes every predictive system that depends on forgetting',
+    fantasy: 'truthful names awaken powers that also erase inherited protections',
+    'romance-relational': 'shared work reveals emotional imbalance faster than confession does'
+  };
+  return map[profileId] ?? 'secondary social pressure reshapes how the primary rule is felt';
+}
+
+function secondaryRuleConflict(profileId) {
+  const map = {
+    drama: 'forces characters into moral conflict over interpretation and dignity',
+    'detective-police': 'turns evidence handling into a direct conflict over power',
+    'science-fiction': 'turns system maintenance into freedom-versus-control conflict',
+    fantasy: 'turns ritual knowledge into sacrifice conflict',
+    'romance-relational': 'turns care into a conflict between honesty and self-protection'
+  };
+  return map[profileId] ?? 'transforms ambient setting into active narrative pressure';
+}
+
+function ruleToConflict(profileId) {
+  const map = {
+    drama: 'social norms regulate speech and create moral conflict around disclosure',
+    'detective-police': 'bureaucratic scarcity turns evidence into a struggle over institutional access',
+    'science-fiction': 'physical and technical limits convert restoration into a survival-versus-freedom choice',
+    fantasy: 'metaphysical cost turns truth into sacrificial conflict',
+    'romance-relational': 'social expectation turns intimacy into a negotiation of autonomy'
+  };
+  return map[profileId] ?? 'the rule should generate conflict through its logical consequence';
+}
+
+function locationSensoryAnchor(profileId, index) {
+  const map = {
+    drama: ['cleaners that cannot remove the smell of grief', 'paperwork, damp coats, and fluorescent fatigue'],
+    'detective-police': ['floodwater, archive dust, and damp concrete', 'old paper, rust, and filtered neon'],
+    'science-fiction': ['regulated air, status lights, and recycled metal', 'cold glass, cryo-hum, and static from restricted relays'],
+    fantasy: ['ash on stone, resin smoke, and iron-cold wind', 'wet cedar, old vellum, and ember scent'],
+    'romance-relational': ['ink, flour, winter fabric, and heating pipes', 'paper dust, herbs, and machine grease']
+  };
+  return pickIndexed(map[profileId], index);
+}
+
+function locationSocialSignal(profileId, index) {
+  const map = {
+    drama: ['people speak quietly because the institution prefers manageable sorrow', 'everyone performs steadiness while watching for blame'],
+    'detective-police': ['authority is visible in every locked cabinet and withheld file', 'the place teaches everyone to speak as if being recorded'],
+    'science-fiction': ['the environment treats citizens like variables inside a stability model', 'the station invites obedience through procedural elegance'],
+    fantasy: ['ritual authority is embedded in the path itself', 'the place remembers who belongs and who has broken faith'],
+    'romance-relational': ['routine hides emotion because work must keep moving', 'every shared task doubles as a small test of trust']
+  };
+  return pickIndexed(map[profileId], index);
+}
+
+function locationSymbolicCharge(profileId, index) {
+  const map = {
+    drama: ['a site where absence looks administratively complete', 'a space where memory and paperwork contradict each other'],
+    'detective-police': ['a place where truth is stored in damaged layers', 'a stage where procedural order masks corruption'],
+    'science-fiction': ['a system that looks seamless while carrying moral fracture', 'a controlled environment haunted by missing consent'],
+    fantasy: ['a landscape where ancestry behaves like a living accusation', 'a threshold where wonder and debt are indistinguishable'],
+    'romance-relational': ['a work space carrying unfinished tenderness', 'a practical room that refuses emotional neutrality']
+  };
+  return pickIndexed(map[profileId], index);
+}
+
+function locationConflictUse(profileId, index) {
+  const map = {
+    drama: ['the setting should intensify disclosure by making privacy difficult', 'the location should force grief into institutional language'],
+    'detective-police': ['the setting should make procedure feel like pressure', 'the location should restrict access and raise suspicion'],
+    'science-fiction': ['the setting should let technology display its ethical cost', 'the location should make system control tangible'],
+    fantasy: ['the setting should convert myth into material obstacle', 'the location should externalize the cost of truthful speech'],
+    'romance-relational': ['the setting should bind work and feeling together', 'the location should turn routine into emotional leverage']
+  };
+  return pickIndexed(map[profileId], index);
+}
+
+function chapterQuestion(profileId, role) {
+  const map = {
+    drama: {
+      setup: 'what version of care has been purchased by silence?',
+      revelation: 'who benefits when grief is narrated incorrectly?',
+      culmination: 'can repair still begin after the truth arrives too late?'
+    },
+    'detective-police': {
+      setup: 'which fact is the city most afraid to let survive?',
+      investigation: 'how much of the institution is implicated in the case?',
+      culmination: 'what does justice require when procedure itself is compromised?'
+    },
+    'science-fiction': {
+      setup: 'what kind of order depends on engineered forgetting?',
+      revelation: 'who authorized the memory wound at the center of the station?',
+      culmination: 'can freedom survive if stability requires curated memory?'
+    },
+    fantasy: {
+      setup: 'what founding lie keeps the valley obedient to the curse?',
+      revelation: 'what truth must be spoken to release the inherited harm?',
+      culmination: 'what must be relinquished for redemption to become real?'
+    },
+    'romance-relational': {
+      setup: 'can useful collaboration remain emotionally neutral?',
+      reversal: 'what does closeness demand that competence cannot supply?',
+      culmination: 'can honest dependence survive the fear of abandonment?'
+    }
+  };
+  return map[profileId]?.[role] ?? 'what hidden pressure is this chapter forcing into view?';
+}
+
+function chapterAnswerShift(profileId, role) {
+  const map = {
+    drama: 'the answer moves from polite uncertainty toward painful specificity',
+    'detective-police': 'the answer moves from suspicion toward institutional implication',
+    'science-fiction': 'the answer moves from anomaly toward designed control',
+    fantasy: 'the answer moves from omen toward ancestral accountability',
+    'romance-relational': 'the answer moves from practicality toward emotional risk'
+  };
+  return map[profileId] ?? `the ${role} chapter should leave the answer less abstract than it began`;
+}
+
+function chapterArcStage(role) {
+  const map = {
+    setup: 'entry-instability',
+    escalation: 'pressure-rise',
+    investigation: 'evidence-gathering',
+    revelation: 'meaning-shift',
+    reversal: 'power-flip',
+    culmination: 'irreversible-choice',
+    aftermath: 'changed-state-reading',
+    bridge: 'threshold-crossing'
+  };
+  return map[role] ?? 'pressure-rise';
+}
+
+function chapterWorldPressure(profileId, role) {
+  const map = {
+    drama: 'institutional speech keeps flattening emotional truth',
+    'detective-police': 'bureaucratic procedure keeps protecting politically useful ignorance',
+    'science-fiction': 'predictive control keeps recoding memory as a security problem',
+    fantasy: 'ritual law keeps making truth expensive to speak',
+    'romance-relational': 'social routine keeps translating vulnerability into logistics'
+  };
+  return `${map[profileId] ?? 'world rules keep reshaping the conflict'} during the ${role} movement`;
+}
+
+function chapterLocationFocus(profile, chapterIndex) {
+  return profile.lexicon.locations[chapterIndex % profile.lexicon.locations.length];
+}
+
+function chapterBlockAlternation(role, profileId) {
+  if (role === 'culmination') {
+    return 'description -> action -> dialogue -> acceleration -> event -> monologue';
+  }
+  if (profileId === 'detective-police') {
+    return 'description -> action -> dialogue -> clue-event -> pause -> event';
+  }
+  if (profileId === 'romance-relational') {
+    return 'description -> dialogue -> action -> pause -> dialogue -> monologue';
+  }
+  return 'description -> action -> dialogue -> pause -> event -> monologue';
+}
+
+function ruleVisibleSymptom(profileId, role) {
+  const map = {
+    drama: 'official language sounds tidy while the lived pain remains unresolved',
+    'detective-police': 'every protected file leaves a new procedural blind spot',
+    'science-fiction': 'restricted memory channels create behavioral smoothness that feels almost too perfect',
+    fantasy: 'ritual speech leaves visible marks on bodies, oaths, or landscape',
+    'romance-relational': 'routine tasks become emotionally charged the moment honesty approaches'
+  };
+  return `${map[profileId] ?? 'the system leaves a visible symptom'} in the ${role} chapter`;
+}
+
+function ruleActionLimitation(profileId, role) {
+  const map = {
+    drama: 'characters cannot simply speak without also risking fracture',
+    'detective-police': 'characters cannot follow evidence without triggering institutional resistance',
+    'science-fiction': 'characters cannot repair memory without destabilizing the governing model',
+    fantasy: 'characters cannot tell the truth without paying a visible metaphysical price',
+    'romance-relational': 'characters cannot work closely without exposing emotional imbalance'
+  };
+  return `${map[profileId] ?? 'action remains constrained by the world rule'} during the ${role} stage`;
+}
+
+function ruleConflictOutput(profileId, role) {
+  const map = {
+    drama: 'moral conflict over timing, blame, and compassion',
+    'detective-police': 'character-versus-society conflict disguised as procedural routine',
+    'science-fiction': 'character-versus-technology and character-versus-society conflict combined',
+    fantasy: 'character-versus-supernatural conflict fused with inherited political conflict',
+    'romance-relational': 'internal and relational conflict unfolding through practical cooperation'
+  };
+  return `${map[profileId] ?? 'mixed conflict'} becomes explicit in the ${role} chapter`;
+}
+
+function chapterArcEntryBelief(profileId, role) {
+  return `${protagonistEntryBelief(profileId)} at the start of the ${role} chapter`;
+}
+
+function chapterArcChallenge(profileId, role) {
+  const map = {
+    drama: 'the chapter confronts the belief that silence protects love',
+    'detective-police': 'the chapter confronts the belief that procedure can stay morally neutral',
+    'science-fiction': 'the chapter confronts the belief that technical repair can avoid political meaning',
+    fantasy: 'the chapter confronts the belief that inheritance can remain sacred after revelation',
+    'romance-relational': 'the chapter confronts the belief that competence can substitute for vulnerability'
+  };
+  return `${map[profileId] ?? 'the chapter confronts the protagonist\'s defensive belief'} during ${role}`;
+}
+
+function chapterArcInsightPressure(profileId, role) {
+  const map = {
+    drama: 'the protagonist is pushed to see how delayed truth becomes structural harm',
+    'detective-police': 'the protagonist is pushed to see how evidence must become accusation',
+    'science-fiction': 'the protagonist is pushed to see how system design is already moral choice',
+    fantasy: 'the protagonist is pushed to see how truth and sacrifice are bound together',
+    'romance-relational': 'the protagonist is pushed to see how love and autonomy need each other'
+  };
+  return `${map[profileId] ?? 'the protagonist is pressured toward insight'} in the ${role} chapter`;
+}
+
+function chapterArcExitBelief(profileId, role) {
+  return `${protagonistExitBelief(profileId)} after the ${role} chapter`;
+}
+
+function chapterRelationshipStress(profileId, role) {
+  return `${relationshipStressPattern(profileId)} during the ${role} chapter`;
+}
+
+function chapterRelationshipExit(profileId, role) {
+  return `${relationshipExitDynamic(profileId)} after the ${role} chapter`;
+}
+
+function alternationEffect(profileId, role) {
+  const map = {
+    drama: 'keep emotional exposure legible without flattening it into explanation',
+    'detective-police': 'balance clue movement with moral and procedural pressure',
+    'science-fiction': 'alternate system detail with human disorientation and debate',
+    fantasy: 'balance wonder, rule exposition, and sacrificial consequence',
+    'romance-relational': 'let practical collaboration and emotional subtext sharpen each other'
+  };
+  return `${map[profileId] ?? 'maintain narrative dynamism'} in the ${role} movement`;
+}
+
+function dialogueTurnBlueprints(profileId, role, sceneIndex) {
+  const map = {
+    drama: [
+      [
+        { speaker: 'counterpart', intent: 'probe', subtext: 'asks for honesty while fearing the answer', lineHint: 'Say the thing everyone has been arranging around without naming it.', reactionBeat: 'the question sounds softer than its consequence' },
+        { speaker: 'protagonist', intent: 'deflect-then-confess', subtext: 'tries to protect the relationship before admitting the wound', lineHint: 'I thought silence was the gentlest version of the truth.', reactionBeat: 'the defense collapses into partial confession' }
+      ],
+      [
+        { speaker: 'protagonist', intent: 'accuse', subtext: 'converts grief into a demand for accuracy', lineHint: 'Do not ask me to call this mercy when it was only delay.', reactionBeat: 'the line makes the room morally smaller' },
+        { speaker: 'counterpart', intent: 'counter', subtext: 'admits fear without surrendering dignity', lineHint: 'I was trying to keep one thing from breaking before everything else did.', reactionBeat: 'the reply complicates blame without dissolving it' }
+      ]
+    ],
+    'detective-police': [
+      [
+        { speaker: 'protagonist', intent: 'test', subtext: 'looks for one factual break in the official story', lineHint: 'If the ledger was complete, why is the river camera blind exactly when the body entered the water?', reactionBeat: 'the question sounds procedural and accusatory at once' },
+        { speaker: 'counterpart', intent: 'warn', subtext: 'signals that the institution is already reacting', lineHint: 'Because someone upstream decided the gap was safer than the truth.', reactionBeat: 'the answer carries fear disguised as competence' }
+      ],
+      [
+        { speaker: 'counterpart', intent: 'press', subtext: 'forces the protagonist to name the institutional target', lineHint: 'Then stop calling this a case file and say who profits if it stays closed.', reactionBeat: 'the demand removes procedural cover' },
+        { speaker: 'protagonist', intent: 'commit', subtext: 'accepts that evidence now implies accusation', lineHint: 'If the transcript holds, the city itself becomes part of the murder.', reactionBeat: 'the line transforms investigation into public danger' }
+      ]
+    ],
+    'science-fiction': [
+      [
+        { speaker: 'counterpart', intent: 'diagnose', subtext: 'names the anomaly as political rather than technical', lineHint: 'This is not corruption in the archive; it is policy pretending to be repair.', reactionBeat: 'the technical reading becomes morally unstable' },
+        { speaker: 'protagonist', intent: 'resist', subtext: 'tries to keep the crisis within the language of systems', lineHint: 'If I can isolate the drift, I can still restore the citizens without collapsing the station.', reactionBeat: 'hope sounds dangerously procedural' }
+      ],
+      [
+        { speaker: 'protagonist', intent: 'reframe', subtext: 'admits the system itself is the antagonist', lineHint: 'The station does not fear error; it fears uncurated memory.', reactionBeat: 'the insight turns maintenance into dissent' },
+        { speaker: 'counterpart', intent: 'commit', subtext: 'offers solidarity conditioned by risk', lineHint: 'Then we stop asking permission from the model that harmed them.', reactionBeat: 'the reply accelerates the ethical line of action' }
+      ]
+    ],
+    fantasy: [
+      [
+        { speaker: 'counterpart', intent: 'warn', subtext: 'treats the oath as materially dangerous', lineHint: 'The valley will hear the old name before it forgives the mouth that speaks it.', reactionBeat: 'warning and prayer occupy the same breath' },
+        { speaker: 'protagonist', intent: 'challenge', subtext: 'tests whether inherited fear still deserves obedience', lineHint: 'Then let it hear me, because silence has fed it longer than truth ever did.', reactionBeat: 'defiance carries ritual cost' }
+      ],
+      [
+        { speaker: 'protagonist', intent: 'claim', subtext: 'accepts sacrifice as the price of legitimacy', lineHint: 'If this bloodline survives only by hiding the vow, it deserves to lose its shelter.', reactionBeat: 'the claim breaks loyalty open' },
+        { speaker: 'counterpart', intent: 'witness', subtext: 'confirms the consequence while staying beside the speaker', lineHint: 'Then speak, and I will witness what the fire chooses to spare.', reactionBeat: 'support arrives as risk, not comfort' }
+      ]
+    ],
+    'romance-relational': [
+      [
+        { speaker: 'counterpart', intent: 'tease-probe', subtext: 'uses routine to approach a painful topic', lineHint: 'You keep correcting the margins as if the page offended you personally.', reactionBeat: 'the humor tests whether intimacy is possible' },
+        { speaker: 'protagonist', intent: 'deflect', subtext: 'tries to hide vulnerability inside competence', lineHint: 'The page is easier to repair than the person who left the proof half-finished.', reactionBeat: 'the line exposes injury while pretending to stay practical' }
+      ],
+      [
+        { speaker: 'protagonist', intent: 'name-risk', subtext: 'admits that work and feeling can no longer be separated', lineHint: 'I can share the studio with you, but not if we keep pretending the distance is professional.', reactionBeat: 'the confession removes procedural cover' },
+        { speaker: 'counterpart', intent: 'answer-honestly', subtext: 'accepts vulnerability without promising ease', lineHint: 'Then let the work be difficult for the right reason, not because we are still hiding.', reactionBeat: 'the reply turns collaboration into commitment pressure' }
+      ]
+    ]
+  };
+  return pickIndexed(map[profileId], sceneIndex) ?? [
+    { speaker: 'counterpart', intent: 'probe', subtext: 'tests the visible argument for its hidden weakness', lineHint: 'Say what the scene refuses to admit directly.', reactionBeat: 'the line sharpens the local tension' },
+    { speaker: 'protagonist', intent: 'counter', subtext: 'answers the surface claim while revealing a deeper cost', lineHint: 'Answer with both information and emotional consequence.', reactionBeat: 'the reply shifts the direction of the scene' }
+  ];
+}
+
+function pauseFunction(profileId, role) {
+  const map = {
+    drama: 'psychological',
+    'detective-police': 'explanatory',
+    'science-fiction': 'descriptive',
+    fantasy: 'atmospheric',
+    'romance-relational': 'psychological'
+  };
+  return map[profileId] ?? (role === 'investigation' ? 'explanatory' : 'psychological');
+}
+
+function pauseFocus(profileId, role) {
+  const map = {
+    drama: 'let grief and reinterpretation register before the next accusation',
+    'detective-police': 'let the clue settle long enough to expose its institutional meaning',
+    'science-fiction': 'let the reader feel the engineered environment before action resumes',
+    fantasy: 'let omen, cost, and place deepen the scene\'s moral register',
+    'romance-relational': 'let hesitation and attraction become legible before the next practical exchange'
+  };
+  return `${map[profileId] ?? 'let consequence become legible'} during the ${role} chapter`;
+}
+
+function accelerationMode(profileId, role) {
+  const map = {
+    drama: 'summary-burst',
+    'detective-police': 'pursuit-compression',
+    'science-fiction': 'transition-skip',
+    fantasy: 'montage',
+    'romance-relational': 'summary-burst'
+  };
+  return map[profileId] ?? (role === 'culmination' ? 'pursuit-compression' : 'summary-burst');
+}
+
+function accelerationTrigger(profileId, role) {
+  const map = {
+    drama: 'the truth has been spoken and consequences now move faster than emotion can process',
+    'detective-police': 'the evidence chain has crossed into public danger',
+    'science-fiction': 'the system has recognized the breach and begun to react',
+    fantasy: 'the oath has been named and the world starts answering immediately',
+    'romance-relational': 'honesty has removed the last plausible emotional delay'
+  };
+  return `${map[profileId] ?? 'the chapter reaches an irreversible threshold'} during the ${role} movement`;
 }
 
 function pickIndexed(values, index) {

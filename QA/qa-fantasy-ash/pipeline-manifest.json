@@ -2881,6 +2881,670 @@
           "baselineProfile": "fantasy"
         }
       }
+    },
+    {
+      "runIndex": 47,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "book",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/macro/book.symbolic-plan.iter-007.md",
+          "relativePath": "macro/book.symbolic-plan.iter-007.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "characters",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/macro/characters.symbolic-plan.iter-007.md",
+          "relativePath": "macro/characters.symbolic-plan.iter-007.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "world",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/macro/world.symbolic-plan.iter-007.md",
+          "relativePath": "macro/world.symbolic-plan.iter-007.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-fantasy-ash",
+          "baselineProfile": "fantasy",
+          "workForm": "novelette"
+        }
+      }
+    },
+    {
+      "runIndex": 48,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-001",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/chapters/chapter-001.symbolic-plan.iter-007.md",
+          "relativePath": "chapters/chapter-001.symbolic-plan.iter-007.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-002",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/chapters/chapter-002.symbolic-plan.iter-007.md",
+          "relativePath": "chapters/chapter-002.symbolic-plan.iter-007.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-003",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/chapters/chapter-003.symbolic-plan.iter-007.md",
+          "relativePath": "chapters/chapter-003.symbolic-plan.iter-007.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-004",
+          "label": "symbolic-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/chapters/chapter-004.symbolic-plan.iter-001.md",
+          "relativePath": "chapters/chapter-004.symbolic-plan.iter-001.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-fantasy-ash",
+          "baselineProfile": "fantasy",
+          "workForm": "novelette"
+        }
+      }
+    },
+    {
+      "runIndex": 49,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-001",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/micro/chapter-001.symbolic-plan.iter-007.md",
+          "relativePath": "micro/chapter-001.symbolic-plan.iter-007.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-002",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/micro/chapter-002.symbolic-plan.iter-007.md",
+          "relativePath": "micro/chapter-002.symbolic-plan.iter-007.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-003",
+          "label": "symbolic-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/micro/chapter-003.symbolic-plan.iter-007.md",
+          "relativePath": "micro/chapter-003.symbolic-plan.iter-007.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-004",
+          "label": "symbolic-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/micro/chapter-004.symbolic-plan.iter-001.md",
+          "relativePath": "micro/chapter-004.symbolic-plan.iter-001.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-fantasy-ash",
+          "baselineProfile": "fantasy",
+          "workForm": "novelette"
+        }
+      }
+    },
+    {
+      "runIndex": 50,
+      "stage": "cnl",
+      "consumed": [
+        "macro/book.symbolic-plan.iter-007.md",
+        "macro/characters.symbolic-plan.iter-007.md",
+        "macro/world.symbolic-plan.iter-007.md",
+        "chapters/chapter-001.symbolic-plan.iter-007.md",
+        "chapters/chapter-002.symbolic-plan.iter-007.md",
+        "chapters/chapter-003.symbolic-plan.iter-007.md",
+        "chapters/chapter-004.symbolic-plan.iter-001.md",
+        "micro/chapter-001.symbolic-plan.iter-007.md",
+        "micro/chapter-002.symbolic-plan.iter-007.md",
+        "micro/chapter-003.symbolic-plan.iter-007.md",
+        "micro/chapter-004.symbolic-plan.iter-001.md"
+      ],
+      "produced": [
+        {
+          "stage": "cnl",
+          "baseName": "book",
+          "label": "macro-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/book.macro-refined-plan.iter-007.md",
+          "relativePath": "cnl/book.macro-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "characters",
+          "label": "macro-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/characters.macro-refined-plan.iter-007.md",
+          "relativePath": "cnl/characters.macro-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "world",
+          "label": "macro-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/world.macro-refined-plan.iter-007.md",
+          "relativePath": "cnl/world.macro-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-001",
+          "label": "chapter-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-001.chapter-refined-plan.iter-007.md",
+          "relativePath": "cnl/chapter-001.chapter-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-002",
+          "label": "chapter-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-002.chapter-refined-plan.iter-007.md",
+          "relativePath": "cnl/chapter-002.chapter-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-003",
+          "label": "chapter-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-003.chapter-refined-plan.iter-007.md",
+          "relativePath": "cnl/chapter-003.chapter-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-004",
+          "label": "chapter-refined-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-004.chapter-refined-plan.iter-001.md",
+          "relativePath": "cnl/chapter-004.chapter-refined-plan.iter-001.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-001",
+          "label": "micro-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-001.micro-refined-plan.iter-007.md",
+          "relativePath": "cnl/chapter-001.micro-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-002",
+          "label": "micro-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-002.micro-refined-plan.iter-007.md",
+          "relativePath": "cnl/chapter-002.micro-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-003",
+          "label": "micro-refined-plan",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-003.micro-refined-plan.iter-007.md",
+          "relativePath": "cnl/chapter-003.micro-refined-plan.iter-007.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-004",
+          "label": "micro-refined-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-004.micro-refined-plan.iter-001.md",
+          "relativePath": "cnl/chapter-004.micro-refined-plan.iter-001.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "placeholder-resolution",
+          "label": "cnl-resolution",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/placeholder-resolution.cnl-resolution.iter-007.json",
+          "relativePath": "cnl/placeholder-resolution.cnl-resolution.iter-007.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-fantasy-ash",
+          "baselineProfile": "fantasy"
+        }
+      }
+    },
+    {
+      "runIndex": 51,
+      "stage": "drafts",
+      "consumed": [
+        "cnl/chapter-001.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-004.chapter-refined-plan.iter-001.md",
+        "cnl/chapter-001.micro-refined-plan.iter-007.md",
+        "cnl/chapter-002.micro-refined-plan.iter-007.md",
+        "cnl/chapter-003.micro-refined-plan.iter-007.md",
+        "cnl/chapter-004.micro-refined-plan.iter-001.md",
+        "cnl/book.macro-refined-plan.iter-007.md",
+        "cnl/characters.macro-refined-plan.iter-007.md",
+        "cnl/world.macro-refined-plan.iter-007.md"
+      ],
+      "produced": [
+        {
+          "stage": "drafts",
+          "baseName": "chapter-001",
+          "label": "draft",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-001.draft.iter-007.md",
+          "relativePath": "drafts/chapter-001.draft.iter-007.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-001",
+          "label": "continuity",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-001.continuity.iter-007.json",
+          "relativePath": "drafts/chapter-001.continuity.iter-007.json"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-002",
+          "label": "draft",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-002.draft.iter-007.md",
+          "relativePath": "drafts/chapter-002.draft.iter-007.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-002",
+          "label": "continuity",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-002.continuity.iter-007.json",
+          "relativePath": "drafts/chapter-002.continuity.iter-007.json"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-003",
+          "label": "draft",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-003.draft.iter-007.md",
+          "relativePath": "drafts/chapter-003.draft.iter-007.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-003",
+          "label": "continuity",
+          "iteration": 7,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-003.continuity.iter-007.json",
+          "relativePath": "drafts/chapter-003.continuity.iter-007.json"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-004",
+          "label": "draft",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-004.draft.iter-001.md",
+          "relativePath": "drafts/chapter-004.draft.iter-001.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-004",
+          "label": "continuity",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-004.continuity.iter-001.json",
+          "relativePath": "drafts/chapter-004.continuity.iter-001.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-fantasy-ash",
+          "baselineProfile": "fantasy"
+        }
+      }
+    },
+    {
+      "runIndex": 52,
+      "stage": "exports",
+      "consumed": [
+        "drafts/chapter-001.draft.iter-007.md",
+        "drafts/chapter-002.draft.iter-007.md",
+        "drafts/chapter-003.draft.iter-007.md",
+        "drafts/chapter-004.draft.iter-001.md",
+        "drafts/chapter-001.continuity.iter-007.json",
+        "drafts/chapter-002.continuity.iter-007.json",
+        "drafts/chapter-003.continuity.iter-007.json",
+        "drafts/chapter-004.continuity.iter-001.json",
+        "cnl/chapter-001.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-004.chapter-refined-plan.iter-001.md",
+        "cnl/chapter-001.micro-refined-plan.iter-007.md",
+        "cnl/chapter-002.micro-refined-plan.iter-007.md",
+        "cnl/chapter-003.micro-refined-plan.iter-007.md",
+        "cnl/chapter-004.micro-refined-plan.iter-001.md",
+        "cnl/book.macro-refined-plan.iter-007.md",
+        "cnl/characters.macro-refined-plan.iter-007.md",
+        "cnl/world.macro-refined-plan.iter-007.md"
+      ],
+      "produced": [
+        {
+          "stage": "exports",
+          "baseName": "manuscript",
+          "label": "book",
+          "iteration": 9,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/exports/manuscript.book.iter-009.md",
+          "relativePath": "exports/manuscript.book.iter-009.md"
+        },
+        {
+          "stage": "exports",
+          "baseName": "edition-en",
+          "label": "reader",
+          "iteration": 8,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/exports/edition-en.reader.iter-008.html",
+          "relativePath": "exports/edition-en.reader.iter-008.html"
+        },
+        {
+          "stage": "exports",
+          "baseName": "edition-ro",
+          "label": "reader",
+          "iteration": 8,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/exports/edition-ro.reader.iter-008.html",
+          "relativePath": "exports/edition-ro.reader.iter-008.html"
+        },
+        {
+          "stage": "exports",
+          "baseName": "editions",
+          "label": "bundle",
+          "iteration": 8,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/exports/editions.bundle.iter-008.json",
+          "relativePath": "exports/editions.bundle.iter-008.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-fantasy-ash",
+          "baselineProfile": "fantasy"
+        }
+      }
+    },
+    {
+      "runIndex": 53,
+      "stage": "validation",
+      "consumed": [
+        "drafts/chapter-001.draft.iter-007.md",
+        "drafts/chapter-002.draft.iter-007.md",
+        "drafts/chapter-003.draft.iter-007.md",
+        "drafts/chapter-004.draft.iter-001.md",
+        "drafts/chapter-001.continuity.iter-007.json",
+        "drafts/chapter-002.continuity.iter-007.json",
+        "drafts/chapter-003.continuity.iter-007.json",
+        "drafts/chapter-004.continuity.iter-001.json",
+        "chapters/chapter-001.symbolic-plan.iter-007.md",
+        "chapters/chapter-002.symbolic-plan.iter-007.md",
+        "chapters/chapter-003.symbolic-plan.iter-007.md",
+        "chapters/chapter-004.symbolic-plan.iter-001.md",
+        "cnl/chapter-001.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-004.chapter-refined-plan.iter-001.md",
+        "cnl/book.macro-refined-plan.iter-007.md",
+        "cnl/characters.macro-refined-plan.iter-007.md",
+        "cnl/world.macro-refined-plan.iter-007.md",
+        "cnl/chapter-001.micro-refined-plan.iter-007.md",
+        "cnl/chapter-002.micro-refined-plan.iter-007.md",
+        "cnl/chapter-003.micro-refined-plan.iter-007.md",
+        "cnl/chapter-004.micro-refined-plan.iter-001.md",
+        "cnl/placeholder-resolution.cnl-resolution.iter-007.json",
+        "exports/edition-en.reader.iter-008.html",
+        "exports/edition-ro.reader.iter-008.html",
+        "exports/editions.bundle.iter-008.json"
+      ],
+      "produced": [
+        {
+          "stage": "validation",
+          "baseName": "summary",
+          "label": "validation",
+          "iteration": 9,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/validation/summary.validation.iter-009.json",
+          "relativePath": "validation/summary.validation.iter-009.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "issues",
+          "label": "validation",
+          "iteration": 9,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/validation/issues.validation.iter-009.json",
+          "relativePath": "validation/issues.validation.iter-009.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "stages",
+          "label": "validation",
+          "iteration": 8,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/validation/stages.validation.iter-008.json",
+          "relativePath": "validation/stages.validation.iter-008.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "tasks",
+          "label": "validation",
+          "iteration": 8,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/validation/tasks.validation.iter-008.json",
+          "relativePath": "validation/tasks.validation.iter-008.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "summary",
+          "label": "report",
+          "iteration": 9,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/reports/summary.report.iter-009.md",
+          "relativePath": "reports/summary.report.iter-009.md"
+        },
+        {
+          "stage": "validation",
+          "baseName": "stages",
+          "label": "report",
+          "iteration": 8,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/reports/stages.report.iter-008.md",
+          "relativePath": "reports/stages.report.iter-008.md"
+        },
+        {
+          "stage": "validation",
+          "baseName": "tasks",
+          "label": "report",
+          "iteration": 8,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/reports/tasks.report.iter-008.md",
+          "relativePath": "reports/tasks.report.iter-008.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-fantasy-ash",
+          "baselineProfile": "fantasy"
+        }
+      }
+    },
+    {
+      "runIndex": 54,
+      "stage": "exports",
+      "consumed": [
+        "drafts/chapter-001.draft.iter-007.md",
+        "drafts/chapter-002.draft.iter-007.md",
+        "drafts/chapter-003.draft.iter-007.md",
+        "drafts/chapter-004.draft.iter-001.md",
+        "drafts/chapter-001.continuity.iter-007.json",
+        "drafts/chapter-002.continuity.iter-007.json",
+        "drafts/chapter-003.continuity.iter-007.json",
+        "drafts/chapter-004.continuity.iter-001.json",
+        "cnl/chapter-001.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-004.chapter-refined-plan.iter-001.md",
+        "cnl/chapter-001.micro-refined-plan.iter-007.md",
+        "cnl/chapter-002.micro-refined-plan.iter-007.md",
+        "cnl/chapter-003.micro-refined-plan.iter-007.md",
+        "cnl/chapter-004.micro-refined-plan.iter-001.md",
+        "cnl/book.macro-refined-plan.iter-007.md",
+        "cnl/characters.macro-refined-plan.iter-007.md",
+        "cnl/world.macro-refined-plan.iter-007.md"
+      ],
+      "produced": [
+        {
+          "stage": "exports",
+          "baseName": "manuscript",
+          "label": "book",
+          "iteration": 10,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/exports/manuscript.book.iter-010.md",
+          "relativePath": "exports/manuscript.book.iter-010.md"
+        },
+        {
+          "stage": "exports",
+          "baseName": "edition-en",
+          "label": "reader",
+          "iteration": 9,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/exports/edition-en.reader.iter-009.html",
+          "relativePath": "exports/edition-en.reader.iter-009.html"
+        },
+        {
+          "stage": "exports",
+          "baseName": "edition-ro",
+          "label": "reader",
+          "iteration": 9,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/exports/edition-ro.reader.iter-009.html",
+          "relativePath": "exports/edition-ro.reader.iter-009.html"
+        },
+        {
+          "stage": "exports",
+          "baseName": "editions",
+          "label": "bundle",
+          "iteration": 9,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/exports/editions.bundle.iter-009.json",
+          "relativePath": "exports/editions.bundle.iter-009.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-fantasy-ash",
+          "baselineProfile": "fantasy"
+        }
+      }
+    },
+    {
+      "runIndex": 55,
+      "stage": "validation",
+      "consumed": [
+        "drafts/chapter-001.draft.iter-007.md",
+        "drafts/chapter-002.draft.iter-007.md",
+        "drafts/chapter-003.draft.iter-007.md",
+        "drafts/chapter-004.draft.iter-001.md",
+        "drafts/chapter-001.continuity.iter-007.json",
+        "drafts/chapter-002.continuity.iter-007.json",
+        "drafts/chapter-003.continuity.iter-007.json",
+        "drafts/chapter-004.continuity.iter-001.json",
+        "chapters/chapter-001.symbolic-plan.iter-007.md",
+        "chapters/chapter-002.symbolic-plan.iter-007.md",
+        "chapters/chapter-003.symbolic-plan.iter-007.md",
+        "chapters/chapter-004.symbolic-plan.iter-001.md",
+        "cnl/chapter-001.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-007.md",
+        "cnl/chapter-004.chapter-refined-plan.iter-001.md",
+        "cnl/book.macro-refined-plan.iter-007.md",
+        "cnl/characters.macro-refined-plan.iter-007.md",
+        "cnl/world.macro-refined-plan.iter-007.md",
+        "cnl/chapter-001.micro-refined-plan.iter-007.md",
+        "cnl/chapter-002.micro-refined-plan.iter-007.md",
+        "cnl/chapter-003.micro-refined-plan.iter-007.md",
+        "cnl/chapter-004.micro-refined-plan.iter-001.md",
+        "cnl/placeholder-resolution.cnl-resolution.iter-007.json",
+        "exports/edition-en.reader.iter-009.html",
+        "exports/edition-ro.reader.iter-009.html",
+        "exports/editions.bundle.iter-009.json"
+      ],
+      "produced": [
+        {
+          "stage": "validation",
+          "baseName": "summary",
+          "label": "validation",
+          "iteration": 10,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/validation/summary.validation.iter-010.json",
+          "relativePath": "validation/summary.validation.iter-010.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "issues",
+          "label": "validation",
+          "iteration": 10,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/validation/issues.validation.iter-010.json",
+          "relativePath": "validation/issues.validation.iter-010.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "stages",
+          "label": "validation",
+          "iteration": 9,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/validation/stages.validation.iter-009.json",
+          "relativePath": "validation/stages.validation.iter-009.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "tasks",
+          "label": "validation",
+          "iteration": 9,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/validation/tasks.validation.iter-009.json",
+          "relativePath": "validation/tasks.validation.iter-009.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "summary",
+          "label": "report",
+          "iteration": 10,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/reports/summary.report.iter-010.md",
+          "relativePath": "reports/summary.report.iter-010.md"
+        },
+        {
+          "stage": "validation",
+          "baseName": "stages",
+          "label": "report",
+          "iteration": 9,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/reports/stages.report.iter-009.md",
+          "relativePath": "reports/stages.report.iter-009.md"
+        },
+        {
+          "stage": "validation",
+          "baseName": "tasks",
+          "label": "report",
+          "iteration": 9,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/reports/tasks.report.iter-009.md",
+          "relativePath": "reports/tasks.report.iter-009.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-fantasy-ash",
+          "baselineProfile": "fantasy"
+        }
+      }
     }
   ],
   "latest": {
@@ -2889,25 +3553,33 @@
         "stage": "symbolic-seed",
         "baseName": "chapter-001",
         "label": "symbolic-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/micro/chapter-001.symbolic-plan.iter-006.md",
-        "relativePath": "micro/chapter-001.symbolic-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/micro/chapter-001.symbolic-plan.iter-007.md",
+        "relativePath": "micro/chapter-001.symbolic-plan.iter-007.md"
       },
       {
         "stage": "symbolic-seed",
         "baseName": "chapter-002",
         "label": "symbolic-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/micro/chapter-002.symbolic-plan.iter-006.md",
-        "relativePath": "micro/chapter-002.symbolic-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/micro/chapter-002.symbolic-plan.iter-007.md",
+        "relativePath": "micro/chapter-002.symbolic-plan.iter-007.md"
       },
       {
         "stage": "symbolic-seed",
         "baseName": "chapter-003",
         "label": "symbolic-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/micro/chapter-003.symbolic-plan.iter-006.md",
-        "relativePath": "micro/chapter-003.symbolic-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/micro/chapter-003.symbolic-plan.iter-007.md",
+        "relativePath": "micro/chapter-003.symbolic-plan.iter-007.md"
+      },
+      {
+        "stage": "symbolic-seed",
+        "baseName": "chapter-004",
+        "label": "symbolic-plan",
+        "iteration": 1,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/micro/chapter-004.symbolic-plan.iter-001.md",
+        "relativePath": "micro/chapter-004.symbolic-plan.iter-001.md"
       }
     ],
     "cnl": [
@@ -2915,81 +3587,97 @@
         "stage": "cnl",
         "baseName": "book",
         "label": "macro-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/book.macro-refined-plan.iter-006.md",
-        "relativePath": "cnl/book.macro-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/book.macro-refined-plan.iter-007.md",
+        "relativePath": "cnl/book.macro-refined-plan.iter-007.md"
       },
       {
         "stage": "cnl",
         "baseName": "characters",
         "label": "macro-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/characters.macro-refined-plan.iter-006.md",
-        "relativePath": "cnl/characters.macro-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/characters.macro-refined-plan.iter-007.md",
+        "relativePath": "cnl/characters.macro-refined-plan.iter-007.md"
       },
       {
         "stage": "cnl",
         "baseName": "world",
         "label": "macro-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/world.macro-refined-plan.iter-006.md",
-        "relativePath": "cnl/world.macro-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/world.macro-refined-plan.iter-007.md",
+        "relativePath": "cnl/world.macro-refined-plan.iter-007.md"
       },
       {
         "stage": "cnl",
         "baseName": "chapter-001",
         "label": "chapter-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-001.chapter-refined-plan.iter-006.md",
-        "relativePath": "cnl/chapter-001.chapter-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-001.chapter-refined-plan.iter-007.md",
+        "relativePath": "cnl/chapter-001.chapter-refined-plan.iter-007.md"
       },
       {
         "stage": "cnl",
         "baseName": "chapter-002",
         "label": "chapter-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-002.chapter-refined-plan.iter-006.md",
-        "relativePath": "cnl/chapter-002.chapter-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-002.chapter-refined-plan.iter-007.md",
+        "relativePath": "cnl/chapter-002.chapter-refined-plan.iter-007.md"
       },
       {
         "stage": "cnl",
         "baseName": "chapter-003",
         "label": "chapter-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-003.chapter-refined-plan.iter-006.md",
-        "relativePath": "cnl/chapter-003.chapter-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-003.chapter-refined-plan.iter-007.md",
+        "relativePath": "cnl/chapter-003.chapter-refined-plan.iter-007.md"
+      },
+      {
+        "stage": "cnl",
+        "baseName": "chapter-004",
+        "label": "chapter-refined-plan",
+        "iteration": 1,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-004.chapter-refined-plan.iter-001.md",
+        "relativePath": "cnl/chapter-004.chapter-refined-plan.iter-001.md"
       },
       {
         "stage": "cnl",
         "baseName": "chapter-001",
         "label": "micro-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-001.micro-refined-plan.iter-006.md",
-        "relativePath": "cnl/chapter-001.micro-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-001.micro-refined-plan.iter-007.md",
+        "relativePath": "cnl/chapter-001.micro-refined-plan.iter-007.md"
       },
       {
         "stage": "cnl",
         "baseName": "chapter-002",
         "label": "micro-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-002.micro-refined-plan.iter-006.md",
-        "relativePath": "cnl/chapter-002.micro-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-002.micro-refined-plan.iter-007.md",
+        "relativePath": "cnl/chapter-002.micro-refined-plan.iter-007.md"
       },
       {
         "stage": "cnl",
         "baseName": "chapter-003",
         "label": "micro-refined-plan",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-003.micro-refined-plan.iter-006.md",
-        "relativePath": "cnl/chapter-003.micro-refined-plan.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-003.micro-refined-plan.iter-007.md",
+        "relativePath": "cnl/chapter-003.micro-refined-plan.iter-007.md"
+      },
+      {
+        "stage": "cnl",
+        "baseName": "chapter-004",
+        "label": "micro-refined-plan",
+        "iteration": 1,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/chapter-004.micro-refined-plan.iter-001.md",
+        "relativePath": "cnl/chapter-004.micro-refined-plan.iter-001.md"
       },
       {
         "stage": "cnl",
         "baseName": "placeholder-resolution",
         "label": "cnl-resolution",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/placeholder-resolution.cnl-resolution.iter-006.json",
-        "relativePath": "cnl/placeholder-resolution.cnl-resolution.iter-006.json"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/cnl/placeholder-resolution.cnl-resolution.iter-007.json",
+        "relativePath": "cnl/placeholder-resolution.cnl-resolution.iter-007.json"
       }
     ],
     "drafts": [
@@ -2997,49 +3685,65 @@
         "stage": "drafts",
         "baseName": "chapter-001",
         "label": "draft",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-001.draft.iter-006.md",
-        "relativePath": "drafts/chapter-001.draft.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-001.draft.iter-007.md",
+        "relativePath": "drafts/chapter-001.draft.iter-007.md"
       },
       {
         "stage": "drafts",
         "baseName": "chapter-001",
         "label": "continuity",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-001.continuity.iter-006.json",
-        "relativePath": "drafts/chapter-001.continuity.iter-006.json"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-001.continuity.iter-007.json",
+        "relativePath": "drafts/chapter-001.continuity.iter-007.json"
       },
       {
         "stage": "drafts",
         "baseName": "chapter-002",
         "label": "draft",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-002.draft.iter-006.md",
-        "relativePath": "drafts/chapter-002.draft.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-002.draft.iter-007.md",
+        "relativePath": "drafts/chapter-002.draft.iter-007.md"
       },
       {
         "stage": "drafts",
         "baseName": "chapter-002",
         "label": "continuity",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-002.continuity.iter-006.json",
-        "relativePath": "drafts/chapter-002.continuity.iter-006.json"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-002.continuity.iter-007.json",
+        "relativePath": "drafts/chapter-002.continuity.iter-007.json"
       },
       {
         "stage": "drafts",
         "baseName": "chapter-003",
         "label": "draft",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-003.draft.iter-006.md",
-        "relativePath": "drafts/chapter-003.draft.iter-006.md"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-003.draft.iter-007.md",
+        "relativePath": "drafts/chapter-003.draft.iter-007.md"
       },
       {
         "stage": "drafts",
         "baseName": "chapter-003",
         "label": "continuity",
-        "iteration": 6,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-003.continuity.iter-006.json",
-        "relativePath": "drafts/chapter-003.continuity.iter-006.json"
+        "iteration": 7,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-003.continuity.iter-007.json",
+        "relativePath": "drafts/chapter-003.continuity.iter-007.json"
+      },
+      {
+        "stage": "drafts",
+        "baseName": "chapter-004",
+        "label": "draft",
+        "iteration": 1,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-004.draft.iter-001.md",
+        "relativePath": "drafts/chapter-004.draft.iter-001.md"
+      },
+      {
+        "stage": "drafts",
+        "baseName": "chapter-004",
+        "label": "continuity",
+        "iteration": 1,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/drafts/chapter-004.continuity.iter-001.json",
+        "relativePath": "drafts/chapter-004.continuity.iter-001.json"
       }
     ],
     "exports": [
@@ -3047,33 +3751,33 @@
         "stage": "exports",
         "baseName": "manuscript",
         "label": "book",
-        "iteration": 8,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/exports/manuscript.book.iter-008.md",
-        "relativePath": "exports/manuscript.book.iter-008.md"
+        "iteration": 10,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/exports/manuscript.book.iter-010.md",
+        "relativePath": "exports/manuscript.book.iter-010.md"
       },
       {
         "stage": "exports",
         "baseName": "edition-en",
         "label": "reader",
-        "iteration": 7,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/exports/edition-en.reader.iter-007.html",
-        "relativePath": "exports/edition-en.reader.iter-007.html"
+        "iteration": 9,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/exports/edition-en.reader.iter-009.html",
+        "relativePath": "exports/edition-en.reader.iter-009.html"
       },
       {
         "stage": "exports",
         "baseName": "edition-ro",
         "label": "reader",
-        "iteration": 7,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/exports/edition-ro.reader.iter-007.html",
-        "relativePath": "exports/edition-ro.reader.iter-007.html"
+        "iteration": 9,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/exports/edition-ro.reader.iter-009.html",
+        "relativePath": "exports/edition-ro.reader.iter-009.html"
       },
       {
         "stage": "exports",
         "baseName": "editions",
         "label": "bundle",
-        "iteration": 7,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/exports/editions.bundle.iter-007.json",
-        "relativePath": "exports/editions.bundle.iter-007.json"
+        "iteration": 9,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/exports/editions.bundle.iter-009.json",
+        "relativePath": "exports/editions.bundle.iter-009.json"
       }
     ],
     "validation": [
@@ -3081,63 +3785,63 @@
         "stage": "validation",
         "baseName": "summary",
         "label": "validation",
-        "iteration": 8,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/validation/summary.validation.iter-008.json",
-        "relativePath": "validation/summary.validation.iter-008.json"
+        "iteration": 10,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/validation/summary.validation.iter-010.json",
+        "relativePath": "validation/summary.validation.iter-010.json"
       },
       {
         "stage": "validation",
         "baseName": "issues",
         "label": "validation",
-        "iteration": 8,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/validation/issues.validation.iter-008.json",
-        "relativePath": "validation/issues.validation.iter-008.json"
+        "iteration": 10,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/validation/issues.validation.iter-010.json",
+        "relativePath": "validation/issues.validation.iter-010.json"
       },
       {
         "stage": "validation",
         "baseName": "stages",
         "label": "validation",
-        "iteration": 7,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/validation/stages.validation.iter-007.json",
-        "relativePath": "validation/stages.validation.iter-007.json"
+        "iteration": 9,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/validation/stages.validation.iter-009.json",
+        "relativePath": "validation/stages.validation.iter-009.json"
       },
       {
         "stage": "validation",
         "baseName": "tasks",
         "label": "validation",
-        "iteration": 7,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/validation/tasks.validation.iter-007.json",
-        "relativePath": "validation/tasks.validation.iter-007.json"
+        "iteration": 9,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/validation/tasks.validation.iter-009.json",
+        "relativePath": "validation/tasks.validation.iter-009.json"
       },
       {
         "stage": "validation",
         "baseName": "summary",
         "label": "report",
-        "iteration": 8,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/reports/summary.report.iter-008.md",
-        "relativePath": "reports/summary.report.iter-008.md"
+        "iteration": 10,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/reports/summary.report.iter-010.md",
+        "relativePath": "reports/summary.report.iter-010.md"
       },
       {
         "stage": "validation",
         "baseName": "stages",
         "label": "report",
-        "iteration": 7,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/reports/stages.report.iter-007.md",
-        "relativePath": "reports/stages.report.iter-007.md"
+        "iteration": 9,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/reports/stages.report.iter-009.md",
+        "relativePath": "reports/stages.report.iter-009.md"
       },
       {
         "stage": "validation",
         "baseName": "tasks",
         "label": "report",
-        "iteration": 7,
-        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/reports/tasks.report.iter-007.md",
-        "relativePath": "reports/tasks.report.iter-007.md"
+        "iteration": 9,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash/reports/tasks.report.iter-009.md",
+        "relativePath": "reports/tasks.report.iter-009.md"
       }
     ]
   },
   "book": {
     "bookId": "qa-fantasy-ash",
     "baselineProfile": "fantasy",
-    "workForm": "short-story"
+    "workForm": "novelette"
   }
 }

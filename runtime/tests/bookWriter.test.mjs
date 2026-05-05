@@ -26,9 +26,14 @@ test('BookWriter emits single-file English and Romanian reader editions', async 
     assert.match(englishHtml, /<svg/);
     assert.match(englishHtml, /Contents/);
     assert.match(englishHtml, /@media print/);
+    assert.match(englishHtml, /The chapter question is/);
+    assert.match(englishHtml, /says\./);
+    assert.doesNotMatch(englishHtml, /\[object Object\]/);
     assert.doesNotMatch(englishHtml, /Stage sources:\s*\{/);
     assert.match(romanianHtml, /Cuprins/);
     assert.match(romanianHtml, /Pagina de titlu/);
+    assert.match(romanianHtml, /spune/);
+    assert.doesNotMatch(romanianHtml, /\[object Object\]/);
     assert.doesNotMatch(romanianHtml, /\{\{/);
     assert.deepEqual(bundle.targetLanguages, ['en', 'ro']);
   } finally {

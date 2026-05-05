@@ -76,10 +76,18 @@ function buildDraftText({ chapterId, chapterObject, microBlocks, macroText, prof
   const conflictBlocks = microBlocks.filter((block) => block.identifier.startsWith('conflict-') && block.verb === 'place');
   const eventBlocks = microBlocks.filter((block) => block.identifier.startsWith('event-') && block.verb === 'trigger');
   const dialogueBlocks = microBlocks.filter((block) => block.identifier.startsWith('dialogue-') && block.verb === 'apply');
+  const dialogueTurnBlocks = microBlocks.filter((block) => block.identifier.startsWith('dialogue-turn-') && block.verb === 'line');
   const suspenseBlock = microBlocks.find((block) => block.identifier.startsWith('suspense-') && block.verb === 'build');
   const sequenceBlock = microBlocks.find((block) => block.identifier.startsWith('sequence-') && block.verb === 'define');
   const descriptionBlock = microBlocks.find((block) => block.identifier.startsWith('description-') && block.verb === 'apply');
   const monologueBlock = microBlocks.find((block) => block.identifier.startsWith('interior-monologue-') && block.verb === 'apply');
+  const locationBlock = microBlocks.find((block) => block.identifier.startsWith('location-') && block.verb === 'define');
+  const rulePressureBlock = microBlocks.find((block) => block.identifier.startsWith('rule-pressure-') && block.verb === 'apply');
+  const protagonistArcBlock = microBlocks.find((block) => block.identifier.startsWith('arc-') && block.identifier.endsWith('-protagonist') && block.verb === 'map');
+  const relationshipArcBlock = microBlocks.find((block) => block.identifier.startsWith('arc-') && block.identifier.endsWith('-relationship') && block.verb === 'map');
+  const pauseBlock = microBlocks.find((block) => block.identifier.startsWith('pause-') && block.verb === 'hold');
+  const accelerationBlock = microBlocks.find((block) => block.identifier.startsWith('acceleration-') && block.verb === 'burst');
+  const alternationBlock = microBlocks.find((block) => block.identifier.startsWith('alternation-') && block.verb === 'arrange');
   const protagonist = collectFirstNamedCharacter(microBlocks) ?? 'the protagonist';
   const counterpart = collectSecondNamedCharacter(microBlocks) ?? 'the counterpart';
   const pressureFigure = collectPressureCharacter(microBlocks) ?? 'the opposing force';
@@ -91,14 +99,22 @@ function buildDraftText({ chapterId, chapterObject, microBlocks, macroText, prof
     `${protagonist} enters ${leadScene ? getFieldValue(leadScene, 'time-space') : 'the scene'} carrying the unresolved pressure of ${chapterObject['input-state']}.`,
     `This ${profileLabel.toLowerCase()} movement is built to ${chapterObject.purpose.toLowerCase()}, so even small choices around ${chapterObject['thematic-focus'].toLowerCase()} acquire ${emotionalPair[0]} and ${emotionalPair[1]}.`,
     `${counterpart} keeps searching for a path toward relief, while ${pressureFigure} works to keep the conflict inside a safer official story.`,
-    sequenceBlock ? `The sequence thread is explicit: ${getFieldValue(sequenceBlock, 'conflict-line')}.` : ''
+    chapterObject['chapter-question'] ? `The chapter question is direct: ${chapterObject['chapter-question']}` : '',
+    sequenceBlock ? `The sequence thread is explicit: ${getFieldValue(sequenceBlock, 'conflict-line')}.` : '',
+    locationBlock ? `${locationFlavor(profileId)} is anchored by ${getFieldValue(locationBlock, 'sensory-anchor')}, which keeps ${getFieldValue(locationBlock, 'symbolic-charge')?.toLowerCase() ?? 'the symbolic pressure'} visible.` : '',
+    rulePressureBlock ? `The world constraint remains active: ${getFieldValue(rulePressureBlock, 'action-limitation')}.` : '',
+    protagonistArcBlock ? `${protagonist} begins this chapter believing that ${getFieldValue(protagonistArcBlock, 'entry-belief')?.toLowerCase() ?? 'control is still possible'}.` : '',
+    alternationBlock ? `Its planned alternation is ${getFieldValue(alternationBlock, 'block-order')}.` : ''
   ].filter(Boolean).join(' ');
-  const sceneParagraphs = sceneBlocks.map((sceneBlock, index) => {
+  const sceneParagraphs = sceneBlocks.flatMap((sceneBlock, index) => {
     const scene = blockToObject(sceneBlock);
     const action = actionBlocks[index] ? blockToObject(actionBlocks[index]) : {};
     const conflict = conflictBlocks[index] ? blockToObject(conflictBlocks[index]) : {};
     const event = eventBlocks[index] ? blockToObject(eventBlocks[index]) : {};
     const dialogue = dialogueBlocks[index] ? blockToObject(dialogueBlocks[index]) : {};
+    const turnBlocks = dialogueTurnBlocks
+      .filter((block) => getFieldValue(block, 'scene') === sceneBlock.identifier)
+      .map((block) => blockToObject(block));
     const lead = sceneLead(profileId, chapterRole, index);
     const dialogueHint = dialogue.speakers
       ? `${dialogueFrame(profileId, chapterRole)} ${dialogue.speakers} keep circling ${dialogue.subtext?.toLowerCase() ?? 'the unsaid truth under the conflict'}.`
@@ -112,25 +128,41 @@ function buildDraftText({ chapterId, chapterObject, microBlocks, macroText, prof
     const descriptionHint = descriptionBlock
       ? `${locationFlavor(profileId)} mirrors ${getFieldValue(descriptionBlock, 'focus')?.toLowerCase() ?? 'the local pressure'}.`
       : '';
+    const dialogueParagraph = turnBlocks.length > 0
+      ? `${dialogueHint} ${renderDraftDialogue(turnBlocks, protagonist, counterpart)}`
+      : '';
+    const worldPressureParagraph = [
+      locationBlock ? `At the level of place, ${getFieldValue(locationBlock, 'social-signal')?.toLowerCase() ?? 'the setting shapes behavior'}; ${getFieldValue(locationBlock, 'conflict-use')?.toLowerCase() ?? 'the location supports conflict'}.` : '',
+      rulePressureBlock ? `The chapter rule keeps shaping possibility: ${getFieldValue(rulePressureBlock, 'visible-symptom')?.toLowerCase() ?? 'the system leaves a visible symptom'}, and ${getFieldValue(rulePressureBlock, 'conflict-output')?.toLowerCase() ?? 'conflict intensifies through the rule'}.` : ''
+    ].filter(Boolean).join(' ');
+    const pacingParagraph = [
+      index === 0 && pauseBlock ? `The first deceleration is deliberate: ${getFieldValue(pauseBlock, 'focus')?.toLowerCase() ?? 'the chapter pauses to read consequence clearly'}.` : '',
+      index === sceneBlocks.length - 1 && accelerationBlock ? `Then the pace compresses: ${getFieldValue(accelerationBlock, 'trigger')?.toLowerCase() ?? 'the chapter crosses an irreversible threshold'}.` : ''
+    ].filter(Boolean).join(' ');
 
-    return [
+    const movementParagraph = [
       `${lead} ${sentenceCase(scene.introduction)}.`,
       `${protagonist} tries to ${action.goal ?? 'change the local balance'}, but ${action.obstacle ?? 'the pressure adapts faster than expected'}.`,
       `${sentenceCase(scene.development)}.`,
       `${sentenceCase(scene.conflict)}.`,
       conflict.stakes ? `${pressureFigure} senses that ${conflict.stakes.toLowerCase()} now hang inside the same exchange.` : '',
-      dialogueHint,
       descriptionHint,
       eventHint,
       scene.resolution ? `${sentenceCase(scene.resolution)}.` : '',
-      monologueBlock && index === sceneBlocks.length - 1 ? `${protagonist} feels ${getFieldValue(monologueBlock, 'trigger')?.toLowerCase() ?? 'the latest cost rearranging every earlier certainty'}, a mix of ${emotionalPair[0]} and ${emotionalPair[1]} that will not settle into easy relief.` : '',
       suspenseHint,
       `The immediate result is that ${scene['state-change'].toLowerCase()}.`
     ].filter(Boolean).join(' ').replace(/\s+/g, ' ').trim();
+
+    const monologueParagraph = monologueBlock && index === sceneBlocks.length - 1
+      ? `${protagonist} feels ${getFieldValue(monologueBlock, 'trigger')?.toLowerCase() ?? 'the latest cost rearranging every earlier certainty'}, a mix of ${emotionalPair[0]} and ${emotionalPair[1]} that will not settle into easy relief. ${protagonistArcBlock ? `The chapter therefore pushes the inner line from ${getFieldValue(protagonistArcBlock, 'entry-belief')?.toLowerCase() ?? 'old certainty'} toward ${getFieldValue(protagonistArcBlock, 'exit-belief')?.toLowerCase() ?? 'a harsher insight'}.` : ''}` : '';
+
+    return [movementParagraph, dialogueParagraph, worldPressureParagraph, pacingParagraph, monologueParagraph].filter(Boolean);
   });
   const closingParagraph = [
     `By the end of ${chapterId}, ${chapterObject['output-state']}.`,
     `The chapter keeps faith with ${chapterObject['thematic-focus']} while moving toward ${chapterObject['closing-mode']}, and it refuses relief without visible cost.`,
+    chapterObject['answer-shift'] ? `Its answer shift is clear: ${chapterObject['answer-shift']}.` : '',
+    relationshipArcBlock ? `Between ${protagonist} and ${counterpart}, the relational line moves from ${getFieldValue(relationshipArcBlock, 'entry-dynamic')?.toLowerCase() ?? 'fragile alignment'} toward ${getFieldValue(relationshipArcBlock, 'exit-dynamic')?.toLowerCase() ?? 'a more exposed bond'}.` : '',
     `The closing pressure is therefore both ${emotionalPair[0]} and ${emotionalPair[1]}, which keeps the next chapter morally and emotionally legible.`,
     `Echoes from the macro promise remain visible: ${macroText.split('.').find(Boolean)?.trim() ?? macroText.trim()}.`
   ].join(' ');
@@ -202,6 +234,17 @@ function emotionalCue(profileId, chapterRole) {
 function sentenceCase(value) {
   const text = String(value ?? '').trim();
   return text ? text.charAt(0).toUpperCase() + text.slice(1) : text;
+}
+
+function renderDraftDialogue(turnBlocks, protagonist, counterpart) {
+  const lines = turnBlocks.map((turn) => {
+    const speaker = turn.speaker || protagonist;
+    const lineHint = turn['line-hint'] ?? 'Say what the scene cannot safely contain.';
+    const reaction = turn['reaction-beat'] ? ` ${sentenceCase(turn['reaction-beat'])}.` : '';
+    return `"${lineHint}" ${speaker} says.${reaction}`;
+  });
+
+  return lines.join(' ');
 }
 
 function buildMacroEcho(refinedMacroEntries) {
