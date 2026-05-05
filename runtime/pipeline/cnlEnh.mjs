@@ -1,6 +1,7 @@
 import { createBlock, collectPlaceholdersFromBlocks, replacePlaceholdersInBlock, serializeBlocks } from '../core/cnl.mjs';
 import { createSeededRandom } from '../core/random.mjs';
 import { STAGE_FOLDERS, allocateArtifactPath, ensureWorkspace, registerStageRun, writeStructuredMarkdown, writeText } from '../core/workspace.mjs';
+import { generatePlaceholderLocation, generatePlaceholderName, generatePlaceholderOrganization } from '../config/presets.mjs';
 import { normalizePipelineOptions } from './options.mjs';
 import { readLatestBlocksByBase } from './loaders.mjs';
 
@@ -95,27 +96,15 @@ function resolvePlaceholderValue(placeholder, options, random) {
   const lexicon = options.profile.lexicon;
 
   if (placeholder.entityType === 'character') {
-    if (placeholder.stableId.startsWith('protagonist')) {
-      return pickStableValue(lexicon.protagonists, placeholder.token, options.seed);
-    }
-
-    if (placeholder.stableId.startsWith('counterpart')) {
-      return pickStableValue(lexicon.counterparts, placeholder.token, options.seed);
-    }
-
-    if (placeholder.stableId.startsWith('pressure')) {
-      return pickStableValue(lexicon.pressureFigures, placeholder.token, options.seed);
-    }
-
-    return random.pick([...lexicon.protagonists, ...lexicon.counterparts, ...lexicon.pressureFigures]);
+    return generatePlaceholderName(placeholder.stableId, options.seed);
   }
 
   if (placeholder.entityType === 'location') {
-    return lexicon.locations[random.int(0, lexicon.locations.length - 1)];
+    return generatePlaceholderLocation(placeholder.stableId, options.seed, lexicon.locations[random.int(0, lexicon.locations.length - 1)]);
   }
 
   if (placeholder.entityType === 'organization') {
-    return lexicon.organizations[random.int(0, lexicon.organizations.length - 1)];
+    return generatePlaceholderOrganization(placeholder.stableId, options.seed);
   }
 
   if (placeholder.entityType === 'object') {
@@ -131,11 +120,6 @@ function resolvePlaceholderValue(placeholder, options, random) {
   }
 
   return placeholder.token;
-}
-
-function pickStableValue(values, token, seed) {
-  const picker = createSeededRandom(`${seed}:${token}`);
-  return values[picker.int(0, values.length - 1)];
 }
 
 function buildRefineBlock({ sourceBlock, resolvedBlock, options, replacements }) {
