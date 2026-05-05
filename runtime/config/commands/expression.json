@@ -1,6 +1,6 @@
 {
   "descriptionTypes": ["setting", "portrait", "atmosphere", "symbolic", "mixed"],
-  "descriptionFunctions": ["mimetic", "symbolic", "narrative", "atmospheric"],
+  "descriptionFunctions": ["mimetic", "symbolic", "narrative", "atmospheric", "social"],
   "rhythmEffects": ["slow", "frame", "hold", "contrast"],
   "exchangeTypes": ["simple", "question-answer", "conflictual", "informative"],
   "dialoguePurposes": ["action-development", "characterization", "tension", "information", "dynamism"],

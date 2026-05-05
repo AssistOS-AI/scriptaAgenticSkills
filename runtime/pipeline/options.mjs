@@ -54,6 +54,8 @@ export function normalizePipelineOptions(input = {}) {
     initialScenes: normalizeList(input.initialScenes),
     initialLocations: normalizeList(input.initialLocations),
     initialConstraints: normalizeList(input.initialConstraints),
+    storySummary: String(input.storySummary ?? ''),
+    vision: normalizeVision(input.vision),
     seed
   };
 }
@@ -125,4 +127,12 @@ function normalizeList(value) {
     .split(/\n|,/)
     .map((entry) => entry.trim())
     .filter(Boolean);
+}
+
+function normalizeVision(value) {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) {
+    return {};
+  }
+
+  return structuredClone(value);
 }

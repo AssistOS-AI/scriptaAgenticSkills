@@ -9,27 +9,37 @@
     "drama": {
       "preferredSuspenseType": "emotional",
       "preferredDelayTechnique": "mixed",
-      "preferredUncertaintyPattern": "truth-vs-repair-unclear"
+      "preferredUncertaintyPattern": "truth-vs-repair-unclear",
+      "preferredPauseFunction": "psychological",
+      "preferredAccelerationMode": "summary-burst"
     },
     "detective-police": {
       "preferredSuspenseType": "cognitive",
       "preferredDelayTechnique": "delayed-information",
-      "preferredUncertaintyPattern": "evidence-vs-institution-unclear"
+      "preferredUncertaintyPattern": "evidence-vs-institution-unclear",
+      "preferredPauseFunction": "explanatory",
+      "preferredAccelerationMode": "pursuit-compression"
     },
     "science-fiction": {
       "preferredSuspenseType": "cognitive",
       "preferredDelayTechnique": "foreshadowing",
-      "preferredUncertaintyPattern": "safety-vs-freedom-unclear"
+      "preferredUncertaintyPattern": "safety-vs-freedom-unclear",
+      "preferredPauseFunction": "atmospheric",
+      "preferredAccelerationMode": "montage"
     },
     "fantasy": {
       "preferredSuspenseType": "situational",
       "preferredDelayTechnique": "foreshadowing",
-      "preferredUncertaintyPattern": "sacrifice-vs-release-unclear"
+      "preferredUncertaintyPattern": "sacrifice-vs-release-unclear",
+      "preferredPauseFunction": "atmospheric",
+      "preferredAccelerationMode": "summary-burst"
     },
     "romance-relational": {
       "preferredSuspenseType": "emotional",
       "preferredDelayTechnique": "interruption",
-      "preferredUncertaintyPattern": "honesty-vs-limit-unclear"
+      "preferredUncertaintyPattern": "honesty-vs-limit-unclear",
+      "preferredPauseFunction": "psychological",
+      "preferredAccelerationMode": "transition-skip"
     }
   }
 }

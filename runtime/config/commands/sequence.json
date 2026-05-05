@@ -1,6 +1,6 @@
 {
   "types": ["investigation", "travel", "training", "courtship", "confrontation-chain", "escape", "downfall", "recovery"],
-  "linkLogics": ["causal", "temporal", "thematic", "mixed"],
+  "linkLogics": ["causal", "logical", "temporal", "thematic", "mixed"],
   "timeSpans": ["continuous", "discontinuous", "montage", "episodic"],
   "objectivePatterns": ["push-conflict-into-clearer-irreversible-shape", "lock-pressure-to-evidence-that-system-cannot-absorb", "turn-pressure-into-test-of-honest-resolution"],
   "payoffPatterns": ["exits-with-new-pressure-and-unresolved-cost", "exits-with-sharper-ethical-visibility", "delivers-final-irreversible-choice"],
