@@ -143,11 +143,13 @@ const WORK_FORM_LABELS = {
 
 const EDITION_MODE_LABELS = {
   en: {
-    'built-in-renderer': 'Built-in bilingual renderer',
+    'source-renderer': 'Source edition renderer',
+    'chunk-translation': 'Chunked translation renderer',
     'instruction-backed-fallback': 'Instruction-backed fallback'
   },
   ro: {
-    'built-in-renderer': 'Renderer bilingv integrat',
+    'source-renderer': 'Renderer pentru editia sursa',
+    'chunk-translation': 'Renderer cu traducere pe bucati',
     'instruction-backed-fallback': 'Fallback bazat pe instructiuni'
   }
 };
@@ -235,6 +237,11 @@ const EXACT_TEXT_TRANSLATIONS = {
     'the winter book market': 'targul de carte de iarna',
     'a riverside print studio': 'un atelier tipografic de pe malul raului',
     'the rooftop herb garden': 'gradina de plante de pe acoperis',
+    'grief has already been trained into politeness and silence': 'durerea a fost deja disciplinata in politete si tacere',
+    'the case still smells of river water, wet paper, and municipal panic': 'dosarul inca miroase a apa de rau, hartie uda si panica administrativa',
+    'the regulated air hums with memory systems that promise order at a human cost': 'aerul reglat pulseaza cu sisteme de memorie care promit ordine la un pret uman',
+    'ash, oath-smoke, and ancestral pressure cling to every threshold': 'cenusa, fumul juramantului si presiunea mostenirii se lipesc de fiecare prag',
+    'craft, routine, and old tenderness keep rubbing against unspoken hurt': 'mestesugul, rutina si tandretea veche se lovesc mereu de rani nespuse',
     'a sealed cassette recorder': 'un reportofon sigilat',
     'a missing diagnosis file': 'un dosar medical disparut',
     'a notebook of apologies': 'un caiet de scuze',

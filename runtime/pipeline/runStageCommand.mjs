@@ -5,6 +5,7 @@ import { runMicroPlan } from './microPlan.mjs';
 import { runCnlEnh } from './cnlEnh.mjs';
 import { runChapGen } from './chapGen.mjs';
 import { runBookWriter } from './bookWriter.mjs';
+import { runTranslationSkill } from './translationSkill.mjs';
 import { runValidationSuite } from './validationSuite.mjs';
 import { runBookPipeline } from './runBookPipeline.mjs';
 import { runQaGeneration } from './qaBooks.mjs';
@@ -56,7 +57,14 @@ export async function runStageCommand(command, options = {}) {
     case 'bookwriter': {
       const result = await runBookWriter(options);
       return {
-        message: `Generated export artifacts for ${result.options.bookId}.`,
+        message: `Generated source export artifacts for ${result.options.bookId}.`,
+        outputPath: result.options.workspaceRoot
+      };
+    }
+    case 'translate': {
+      const result = await runTranslationSkill(options);
+      return {
+        message: `Generated translated reader editions for ${result.options.bookId}.`,
         outputPath: result.options.workspaceRoot
       };
     }

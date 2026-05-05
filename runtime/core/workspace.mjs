@@ -9,7 +9,8 @@ export const STAGE_FOLDERS = {
   drafts: 'phase5-drafts',
   validation: 'phase6-validation',
   reports: 'phase7-reports',
-  exports: 'phase8-exports'
+  exports: 'phase8-exports',
+  translations: 'phase9-translations'
 };
 
 const MANIFEST_NAME = 'pipeline-manifest.md';

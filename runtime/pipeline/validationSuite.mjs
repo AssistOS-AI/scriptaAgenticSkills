@@ -30,8 +30,14 @@ export async function runValidationSuite(input = {}) {
   const refinedMacroArtifacts = await listLatestStageArtifacts(options.workspaceRoot, 'cnl', 'macro-refined-plan');
   const refinedMicroArtifacts = await listLatestStageArtifacts(options.workspaceRoot, 'cnl', 'micro-refined-plan');
   const placeholderResolutionArtifacts = await listLatestStageArtifacts(options.workspaceRoot, 'cnl', 'cnl-resolution');
-  const exportArtifacts = await listLatestStageArtifacts(options.workspaceRoot, 'exports', 'reader');
-  const exportBundleArtifacts = await listLatestStageArtifacts(options.workspaceRoot, 'exports', 'bundle');
+  const exportArtifacts = [
+    ...(await listLatestStageArtifacts(options.workspaceRoot, 'exports', 'reader')),
+    ...(await listLatestStageArtifacts(options.workspaceRoot, 'translations', 'reader'))
+  ];
+  const translationBundleArtifacts = await listLatestStageArtifacts(options.workspaceRoot, 'translations', 'bundle');
+  const exportBundleArtifacts = translationBundleArtifacts.length > 0
+    ? translationBundleArtifacts
+    : await listLatestStageArtifacts(options.workspaceRoot, 'exports', 'bundle');
 
   if (draftArtifacts.length === 0) {
     throw new Error(`No draft artifacts were found in ${options.workspaceRoot}. Run "scripta chapgen" first.`);
@@ -198,6 +204,7 @@ export async function runValidationSuite(input = {}) {
       ...refinedMicroArtifacts.map((artifact) => artifact.relativePath),
       ...placeholderResolutionArtifacts.map((artifact) => artifact.relativePath),
       ...exportArtifacts.map((artifact) => artifact.relativePath),
+      ...translationBundleArtifacts.map((artifact) => artifact.relativePath),
       ...exportBundleArtifacts.map((artifact) => artifact.relativePath)
     ],
     produced: [summaryArtifact, issuesArtifact, stagesArtifact, tasksArtifact, reportArtifact, stageReportArtifact, taskReportArtifact],

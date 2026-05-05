@@ -20,7 +20,10 @@ export async function publishWorkspaceLibrary({
     };
   }
 
-  const editionArtifacts = await listLatestStageArtifacts(workspaceRoot, 'exports', 'reader');
+  const editionArtifacts = [
+    ...(await listLatestStageArtifacts(workspaceRoot, 'exports', 'reader')),
+    ...(await listLatestStageArtifacts(workspaceRoot, 'translations', 'reader'))
+  ];
   const publishedEditions = [];
   const metricsPage = `books/metrics/${bookId}.html`;
   const metricsSnapshot = pickMetricsSnapshot(validationSummary);

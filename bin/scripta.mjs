@@ -101,7 +101,8 @@ Commands:
   microplan       Run the MicroPlan stage.
   cnlenh          Run the CNLEnh stage.
   chapgen         Run the ChapGen stage.
-  bookwriter      Run the BookWriter stage.
+  bookwriter      Run the BookWriter stage for the source edition.
+  translate       Run the translation stage on the source edition.
   validate        Run the Validation Suite and Metrics.
   generate-book   Run the full pipeline for one workspace.
   qa              Generate the five QA books under ./QA.
