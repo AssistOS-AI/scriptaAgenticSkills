@@ -40,12 +40,18 @@ Consolidated QA review across all canonical books.
         ],
         "foundLanguages": [
           "en",
+          "ro",
           "ro"
         ],
         "missingLanguages": [],
         "editions": [
           {
             "languageCode": "en",
+            "score": 100,
+            "failedChecks": []
+          },
+          {
+            "languageCode": "ro",
             "score": 100,
             "failedChecks": []
           },
@@ -205,7 +211,7 @@ Consolidated QA review across all canonical books.
           "title": "When the Silence Returns",
           "profile": "drama",
           "languageCode": "en",
-          "workspaceSource": "phase8-exports/edition-en.reader.iter-001.html",
+          "workspaceSource": "phase8-exports/edition-en.reader.iter-002.html",
           "publishedPath": "books/en/qa-drama-silence.html",
           "metricsPage": "books/metrics/qa-drama-silence.html",
           "metricsSnapshot": {
@@ -231,6 +237,22 @@ Consolidated QA review across all canonical books.
             "OI": 68,
             "EAP": 92
           }
+        },
+        {
+          "bookId": "qa-drama-silence",
+          "title": "Cand se intoarce tacerea",
+          "profile": "drama",
+          "languageCode": "ro",
+          "workspaceSource": "phase9-translations/edition-ro.reader.iter-001.html",
+          "publishedPath": "books/ro/qa-drama-silence.html",
+          "metricsPage": "books/metrics/qa-drama-silence.html",
+          "metricsSnapshot": {
+            "NQS": 88,
+            "CS": 93,
+            "CAR": 99,
+            "OI": 68,
+            "EAP": 92
+          }
         }
       ],
       "metricsPage": "books/metrics/qa-drama-silence.html"
@@ -246,12 +268,18 @@ Consolidated QA review across all canonical books.
         ],
         "foundLanguages": [
           "en",
+          "ro",
           "ro"
         ],
         "missingLanguages": [],
         "editions": [
           {
             "languageCode": "en",
+            "score": 100,
+            "failedChecks": []
+          },
+          {
+            "languageCode": "ro",
             "score": 100,
             "failedChecks": []
           },
@@ -411,7 +439,7 @@ Consolidated QA review across all canonical books.
           "title": "The River Knows First",
           "profile": "detective-police",
           "languageCode": "en",
-          "workspaceSource": "phase8-exports/edition-en.reader.iter-001.html",
+          "workspaceSource": "phase8-exports/edition-en.reader.iter-002.html",
           "publishedPath": "books/en/qa-detective-river.html",
           "metricsPage": "books/metrics/qa-detective-river.html",
           "metricsSnapshot": {
@@ -437,6 +465,22 @@ Consolidated QA review across all canonical books.
             "OI": 68,
             "EAP": 92
           }
+        },
+        {
+          "bookId": "qa-detective-river",
+          "title": "Raul stie primul",
+          "profile": "detective-police",
+          "languageCode": "ro",
+          "workspaceSource": "phase9-translations/edition-ro.reader.iter-001.html",
+          "publishedPath": "books/ro/qa-detective-river.html",
+          "metricsPage": "books/metrics/qa-detective-river.html",
+          "metricsSnapshot": {
+            "NQS": 88,
+            "CS": 93,
+            "CAR": 99,
+            "OI": 68,
+            "EAP": 92
+          }
         }
       ],
       "metricsPage": "books/metrics/qa-detective-river.html"
@@ -452,12 +496,18 @@ Consolidated QA review across all canonical books.
         ],
         "foundLanguages": [
           "en",
+          "ro",
           "ro"
         ],
         "missingLanguages": [],
         "editions": [
           {
             "languageCode": "en",
+            "score": 100,
+            "failedChecks": []
+          },
+          {
+            "languageCode": "ro",
             "score": 100,
             "failedChecks": []
           },
@@ -617,7 +667,7 @@ Consolidated QA review across all canonical books.
           "title": "Orbit of the Unreturned",
           "profile": "science-fiction",
           "languageCode": "en",
-          "workspaceSource": "phase8-exports/edition-en.reader.iter-001.html",
+          "workspaceSource": "phase8-exports/edition-en.reader.iter-002.html",
           "publishedPath": "books/en/qa-scifi-orbit.html",
           "metricsPage": "books/metrics/qa-scifi-orbit.html",
           "metricsSnapshot": {
@@ -643,6 +693,22 @@ Consolidated QA review across all canonical books.
             "OI": 69,
             "EAP": 92
           }
+        },
+        {
+          "bookId": "qa-scifi-orbit",
+          "title": "Orbita celor nereveniti",
+          "profile": "science-fiction",
+          "languageCode": "ro",
+          "workspaceSource": "phase9-translations/edition-ro.reader.iter-001.html",
+          "publishedPath": "books/ro/qa-scifi-orbit.html",
+          "metricsPage": "books/metrics/qa-scifi-orbit.html",
+          "metricsSnapshot": {
+            "NQS": 88,
+            "CS": 93,
+            "CAR": 99,
+            "OI": 69,
+            "EAP": 92
+          }
         }
       ],
       "metricsPage": "books/metrics/qa-scifi-orbit.html"
@@ -658,12 +724,18 @@ Consolidated QA review across all canonical books.
         ],
         "foundLanguages": [
           "en",
+          "ro",
           "ro"
         ],
         "missingLanguages": [],
         "editions": [
           {
             "languageCode": "en",
+            "score": 100,
+            "failedChecks": []
+          },
+          {
+            "languageCode": "ro",
             "score": 100,
             "failedChecks": []
           },
@@ -823,7 +895,7 @@ Consolidated QA review across all canonical books.
           "title": "The Ash Keeps Your Name",
           "profile": "fantasy",
           "languageCode": "en",
-          "workspaceSource": "phase8-exports/edition-en.reader.iter-001.html",
+          "workspaceSource": "phase8-exports/edition-en.reader.iter-002.html",
           "publishedPath": "books/en/qa-fantasy-ash.html",
           "metricsPage": "books/metrics/qa-fantasy-ash.html",
           "metricsSnapshot": {
@@ -849,6 +921,22 @@ Consolidated QA review across all canonical books.
             "OI": 68,
             "EAP": 92
           }
+        },
+        {
+          "bookId": "qa-fantasy-ash",
+          "title": "Cenusa iti pastreaza numele",
+          "profile": "fantasy",
+          "languageCode": "ro",
+          "workspaceSource": "phase9-translations/edition-ro.reader.iter-001.html",
+          "publishedPath": "books/ro/qa-fantasy-ash.html",
+          "metricsPage": "books/metrics/qa-fantasy-ash.html",
+          "metricsSnapshot": {
+            "NQS": 88,
+            "CS": 93,
+            "CAR": 99,
+            "OI": 68,
+            "EAP": 92
+          }
         }
       ],
       "metricsPage": "books/metrics/qa-fantasy-ash.html"
@@ -864,12 +952,18 @@ Consolidated QA review across all canonical books.
         ],
         "foundLanguages": [
           "en",
+          "ro",
           "ro"
         ],
         "missingLanguages": [],
         "editions": [
           {
             "languageCode": "en",
+            "score": 100,
+            "failedChecks": []
+          },
+          {
+            "languageCode": "ro",
             "score": 100,
             "failedChecks": []
           },
@@ -1029,7 +1123,7 @@ Consolidated QA review across all canonical books.
           "title": "Margins of the Heart",
           "profile": "romance-relational",
           "languageCode": "en",
-          "workspaceSource": "phase8-exports/edition-en.reader.iter-001.html",
+          "workspaceSource": "phase8-exports/edition-en.reader.iter-002.html",
           "publishedPath": "books/en/qa-romance-margins.html",
           "metricsPage": "books/metrics/qa-romance-margins.html",
           "metricsSnapshot": {
@@ -1046,6 +1140,22 @@ Consolidated QA review across all canonical books.
           "profile": "romance-relational",
           "languageCode": "ro",
           "workspaceSource": "phase8-exports/edition-ro.reader.iter-001.html",
+          "publishedPath": "books/ro/qa-romance-margins.html",
+          "metricsPage": "books/metrics/qa-romance-margins.html",
+          "metricsSnapshot": {
+            "NQS": 88,
+            "CS": 93,
+            "CAR": 99,
+            "OI": 68,
+            "EAP": 92
+          }
+        },
+        {
+          "bookId": "qa-romance-margins",
+          "title": "Marginile inimii",
+          "profile": "romance-relational",
+          "languageCode": "ro",
+          "workspaceSource": "phase9-translations/edition-ro.reader.iter-001.html",
           "publishedPath": "books/ro/qa-romance-margins.html",
           "metricsPage": "books/metrics/qa-romance-margins.html",
           "metricsSnapshot": {
