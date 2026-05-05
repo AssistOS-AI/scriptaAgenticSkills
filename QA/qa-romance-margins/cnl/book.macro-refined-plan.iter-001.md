@@ -3,14 +3,14 @@ hook-pattern: role-inversion
 tension-source: mixed
 naming-state: placeholder
 hook: Editor Turned Reluctant Co Owners who pursue save a failing family print studio without surrendering her independence risk creative future, family stability, and the risk of loving someone who can leave again
-protagonist: Ana Dragan
+protagonist: Ana Vale
 desire: save a failing family print studio without surrendering her independence
 opposition: a rival designer she must partner with and old hurt neither has named honestly
 stakes: creative future, family stability, and the risk of loving someone who can leave again
 dilemma: protect professional distance or accept the vulnerability required for partnership
 story-question: can two people rebuild trust while the work binding them together keeps exposing their old injuries?
 audience-fit: romance / relational readers
-pitch-test: Ana Dragan must decide whether to protect professional distance or accept the vulnerability required for partnership
+pitch-test: Ana Vale must decide whether to protect professional distance or accept the vulnerability required for partnership
 An editor inherits a print studio and must rebuild it with the designer who once left both the work and her behind.
 The symbolic seed leaves surface naming unresolved on purpose so later refinement can introduce more natural language detail.
 
@@ -22,7 +22,7 @@ thematic-statement: intimacy does not erase autonomy, but it does demand honest 
 pole-a: is
 pole-b: protective-concealment
 moral-pressure: protect professional distance or accept the vulnerability required for partnership
-transformation-vector: move Ana Dragan from defensive certainty toward costly honesty
+transformation-vector: move Ana Vale from defensive certainty toward costly honesty
 dramatization: major choices and consequences must carry the theme instead of direct exposition
 
 @wisdom define
@@ -40,14 +40,14 @@ anti-didactic-rule: insight must emerge from consequences, reversals, and confli
 information-order: flashback-rich
 causal-density: tight
 macro-form: linear
-beginning: establish Ana Dragan inside a riverside print studio and the pressure around the family bakery cooperative
+beginning: establish Ana Vale inside a riverside print studio and the pressure around the family bakery cooperative
 inciting-incident: an editor inherits part of a print studio and must collaborate with the designer who once abandoned the project and her trust
 middle: investigation, pressure, and relational strain expose the cost of save a failing family print studio without surrendering her independence
-plot-point-1: Ana Dragan commits to action instead of withdrawal
+plot-point-1: Ana Vale commits to action instead of withdrawal
 midpoint: an annotated recipe book reveals a hidden layer of the conflict
-plot-point-2: publisher Vera Muntean turns institutional or personal pressure into direct threat
+plot-point-2: Rosa Bell turns institutional or personal pressure into direct threat
 climax: protect professional distance or accept the vulnerability required for partnership
-resolution: a new equilibrium forms after Ana Dragan accepts irreversible cost
+resolution: a new equilibrium forms after Ana Vale accepts irreversible cost
 causal-rule: every major choice must create a visible consequence in the next structural unit
 
 @narrative-model select
@@ -55,24 +55,77 @@ adaptation-strength: adapted
 model-name: three-act
 core-pattern: disruption escalates into irreversible choice and altered equilibrium
 fit-reason: the romance / relational profile needs direct escalation with meaningful internal cost
-transformation-logic: Ana Dragan changes while the surrounding system reveals its hidden logic
+transformation-logic: Ana Vale changes while the surrounding system reveals its hidden logic
 genre-compatibility: Romance / Relational
 adaptation-note: the chosen model is bent toward short-form clarity and evidence-rich validation
 
 @blueprint map
 premise: an editor inherits part of a print studio and must collaborate with the designer who once abandoned the project and her trust
-exposition: introduce Ana Dragan, a riverside print studio, and the first unstable sign around an annotated recipe book
-rising-action: pressure from publisher Vera Muntean and the family bakery cooperative complicates every attempt to act
+exposition: introduce Ana Vale, a riverside print studio, and the first unstable sign around an annotated recipe book
+rising-action: pressure from Rosa Bell and the family bakery cooperative complicates every attempt to act
 midpoint-shift: an annotated recipe book changes what the protagonist understands about the conflict
 climax: protect professional distance or accept the vulnerability required for partnership
 resolution: the core conflict resolves with lasting cost and a redefined relation to the family bakery cooperative
 emotional-layer: curiosity -> tension -> surprise -> shock -> bittersweet-release
 stakes-ladder: private tension -> relational risk -> public consequence -> identity cost
 
+@arc-book-main map
+arc-axis: love-connection under reconciliation pressure
+opening-state: the partnership still treats emotional distance as professionalism
+escalation-pattern: practical collaboration keeps turning into emotional exposure
+midpoint-recognition: the work cannot survive without emotional honesty
+climactic-choice: protect professional distance or accept the vulnerability required for partnership
+ending-state: partnership survives through chosen vulnerability rather than control
+
+@arc-protagonist-main map
+entry-belief: competence is safer than emotional dependence
+core-wound: earlier abandonment taught the protagonist to turn need into logistics
+pressure-line: every useful act now asks whether care can remain impersonal
+turning-insight: autonomy becomes honest only when it can admit dependence
+exit-belief: shared risk is stronger than defensive isolation
+
+@arc-relationship-main map
+pair: Ana Vale, Nico Arden
+entry-dynamic: productive partnership guarded by emotional self-defense
+stress-pattern: workplace coordination keeps turning into emotional negotiation
+repair-condition: the pair can only stay together if usefulness gives way to honest dependence
+exit-dynamic: partnership made honest by vulnerability
+
+@motif-primary define
+motif: marginal notes and unfinished print runs
+symbolic-function: carry emotional history through work objects
+recurrence-rule: the motif should recur across opening, midpoint, and late consequence scenes with altered meaning
+
 @central-idea refine
+ref: character:protagonist-001 -> Ana Vale
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make subtext carry as much weight as direct confession
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @theme refine
+ref: character:protagonist-001 -> Ana Vale
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make subtext carry as much weight as direct confession
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@arc-book-main refine
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the arc move through defensiveness, dependence, and honest reciprocity
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@arc-protagonist-main refine
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the arc move through defensiveness, dependence, and honest reciprocity
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@arc-relationship-main refine
+ref: character:protagonist-001 -> Ana Vale
+ref: character:counterpart-001 -> Nico Arden
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the arc move through defensiveness, dependence, and honest reciprocity
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.

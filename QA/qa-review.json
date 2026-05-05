@@ -176,7 +176,7 @@
           "title": "When the Silence Returns",
           "profile": "drama",
           "languageCode": "en",
-          "workspaceSource": "exports/edition-en.reader.iter-022.html",
+          "workspaceSource": "exports/edition-en.reader.iter-002.html",
           "publishedPath": "books/en/qa-drama-silence.html",
           "metricsPage": "books/metrics/qa-drama-silence.html",
           "metricsSnapshot": {
@@ -192,7 +192,7 @@
           "title": "Cand se intoarce tacerea",
           "profile": "drama",
           "languageCode": "ro",
-          "workspaceSource": "exports/edition-ro.reader.iter-022.html",
+          "workspaceSource": "exports/edition-ro.reader.iter-002.html",
           "publishedPath": "books/ro/qa-drama-silence.html",
           "metricsPage": "books/metrics/qa-drama-silence.html",
           "metricsSnapshot": {
@@ -382,7 +382,7 @@
           "title": "The River Knows First",
           "profile": "detective-police",
           "languageCode": "en",
-          "workspaceSource": "exports/edition-en.reader.iter-017.html",
+          "workspaceSource": "exports/edition-en.reader.iter-002.html",
           "publishedPath": "books/en/qa-detective-river.html",
           "metricsPage": "books/metrics/qa-detective-river.html",
           "metricsSnapshot": {
@@ -398,7 +398,7 @@
           "title": "Raul stie primul",
           "profile": "detective-police",
           "languageCode": "ro",
-          "workspaceSource": "exports/edition-ro.reader.iter-017.html",
+          "workspaceSource": "exports/edition-ro.reader.iter-002.html",
           "publishedPath": "books/ro/qa-detective-river.html",
           "metricsPage": "books/metrics/qa-detective-river.html",
           "metricsSnapshot": {
@@ -588,7 +588,7 @@
           "title": "Orbit of the Unreturned",
           "profile": "science-fiction",
           "languageCode": "en",
-          "workspaceSource": "exports/edition-en.reader.iter-017.html",
+          "workspaceSource": "exports/edition-en.reader.iter-002.html",
           "publishedPath": "books/en/qa-scifi-orbit.html",
           "metricsPage": "books/metrics/qa-scifi-orbit.html",
           "metricsSnapshot": {
@@ -604,7 +604,7 @@
           "title": "Orbita celor nereveniti",
           "profile": "science-fiction",
           "languageCode": "ro",
-          "workspaceSource": "exports/edition-ro.reader.iter-017.html",
+          "workspaceSource": "exports/edition-ro.reader.iter-002.html",
           "publishedPath": "books/ro/qa-scifi-orbit.html",
           "metricsPage": "books/metrics/qa-scifi-orbit.html",
           "metricsSnapshot": {
@@ -794,7 +794,7 @@
           "title": "The Ash Keeps Your Name",
           "profile": "fantasy",
           "languageCode": "en",
-          "workspaceSource": "exports/edition-en.reader.iter-017.html",
+          "workspaceSource": "exports/edition-en.reader.iter-002.html",
           "publishedPath": "books/en/qa-fantasy-ash.html",
           "metricsPage": "books/metrics/qa-fantasy-ash.html",
           "metricsSnapshot": {
@@ -810,7 +810,7 @@
           "title": "Cenusa iti pastreaza numele",
           "profile": "fantasy",
           "languageCode": "ro",
-          "workspaceSource": "exports/edition-ro.reader.iter-017.html",
+          "workspaceSource": "exports/edition-ro.reader.iter-002.html",
           "publishedPath": "books/ro/qa-fantasy-ash.html",
           "metricsPage": "books/metrics/qa-fantasy-ash.html",
           "metricsSnapshot": {
@@ -1000,7 +1000,7 @@
           "title": "Margins of the Heart",
           "profile": "romance-relational",
           "languageCode": "en",
-          "workspaceSource": "exports/edition-en.reader.iter-017.html",
+          "workspaceSource": "exports/edition-en.reader.iter-002.html",
           "publishedPath": "books/en/qa-romance-margins.html",
           "metricsPage": "books/metrics/qa-romance-margins.html",
           "metricsSnapshot": {
@@ -1016,7 +1016,7 @@
           "title": "Marginile inimii",
           "profile": "romance-relational",
           "languageCode": "ro",
-          "workspaceSource": "exports/edition-ro.reader.iter-017.html",
+          "workspaceSource": "exports/edition-ro.reader.iter-002.html",
           "publishedPath": "books/ro/qa-romance-margins.html",
           "metricsPage": "books/metrics/qa-romance-margins.html",
           "metricsSnapshot": {

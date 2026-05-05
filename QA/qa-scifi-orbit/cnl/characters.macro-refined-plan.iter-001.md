@@ -11,7 +11,7 @@ truth: truthful action demands visible cost
 conflict-mode: mixed
 arc: tragic
 contradictions: capable yet self-protective, caring yet controlling
-relationships: engineer Pavel Quirin [ambiguous], the Horizon governance core [hierarchical]
+relationships: Hana Kepler [ambiguous], Alis Tao [hierarchical]
 
 @character-counterpart-001 define
 complexity: round
@@ -26,7 +26,7 @@ truth: shared risk can create stronger agency than isolation
 conflict-mode: mixed
 arc: positive-change
 contradictions: loyal yet evasive, observant yet withholding
-relationships: Dr. Lia Sen [cooperative], the Horizon governance core [conflictual]
+relationships: Tomas Venn [cooperative], Alis Tao [conflictual]
 
 @character-pressure-001 define
 complexity: round
@@ -41,4 +41,4 @@ truth: concealment breeds larger collapse
 conflict-mode: external
 arc: flat
 contradictions: calm yet coercive, rational yet self-serving
-relationships: Dr. Lia Sen [conflictual], engineer Pavel Quirin [hierarchical]
+relationships: Tomas Venn [conflictual], Hana Kepler [hierarchical]

@@ -68,3 +68,30 @@ climax: speak the binding truth and lose her inheritance, or remain silent and l
 resolution: the core conflict resolves with lasting cost and a redefined relation to {{organization:institution-001}}
 emotional-layer: curiosity -> tension -> surprise -> shock -> bittersweet-release
 stakes-ladder: private tension -> relational risk -> public consequence -> identity cost
+
+@arc-book-main map
+arc-axis: redemption under sacrifice pressure
+opening-state: the valley still treats inherited power as protection
+escalation-pattern: mythic revelation keeps turning into civic cost
+midpoint-recognition: the curse is not random but inherited through power
+climactic-choice: speak the binding truth and lose her inheritance, or remain silent and let the valley die slowly
+ending-state: redemption arrives only after relinquishment
+
+@arc-protagonist-main map
+entry-belief: inheritance can be redeemed without surrendering its privileges
+core-wound: belonging was purchased through partial blindness to ancestral harm
+pressure-line: every truthful act now burns one layer of inherited shelter
+turning-insight: redemption requires surrendering the identity built on the lie
+exit-belief: belonging worth keeping cannot depend on concealment
+
+@arc-relationship-main map
+pair: {{character:protagonist-001}}, {{character:counterpart-001}}
+entry-dynamic: oath-bound cooperation shadowed by old allegiance
+stress-pattern: shared danger keeps exposing opposite loyalties to blood and truth
+repair-condition: the pair can only remain loyal if truth outranks inherited claim
+exit-dynamic: bond transformed by sacrifice and released allegiance
+
+@motif-primary define
+motif: ash and oath marks
+symbolic-function: bind inheritance to cost and memory
+recurrence-rule: the motif should recur across opening, midpoint, and late consequence scenes with altered meaning

@@ -1,14 +1,14 @@
 {
   "chapterId": "chapter-003",
-  "entryState": "chapter-002 has already altered the conflict",
-  "exitState": "the central pressure resolves with visible cost",
+  "entryState": "the previous chapter has already shifted the investigation pressure into a less survivable form",
+  "exitState": "chapter 3 exits with sharper investigation pressure, narrower choices, and a cost that cannot be folded back into routine",
   "unresolvedObligations": [
     "later chapters must preserve the consequence introduced in chapter-003"
   ],
   "introducedEntities": [
-    "Inspector Mara Ionescu",
-    "journalist Luca Barbu",
-    "mayor Anca Berinde"
+    "Darius Vale",
+    "Mira Rowan",
+    "Matteo Voss"
   ],
   "changedRelationships": [
     "power-corruption under resistance pressure"

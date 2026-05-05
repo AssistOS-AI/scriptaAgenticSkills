@@ -11,7 +11,7 @@ truth: truthful action demands visible cost
 conflict-mode: mixed
 arc: tragic
 contradictions: capable yet self-protective, caring yet controlling
-relationships: journalist Luca Barbu [ambiguous], mayor Anca Berinde [hierarchical]
+relationships: Mira Rowan [ambiguous], Matteo Voss [hierarchical]
 
 @character-counterpart-001 define
 complexity: round
@@ -26,7 +26,7 @@ truth: shared risk can create stronger agency than isolation
 conflict-mode: mixed
 arc: positive-change
 contradictions: loyal yet evasive, observant yet withholding
-relationships: Inspector Mara Ionescu [cooperative], mayor Anca Berinde [conflictual]
+relationships: Darius Vale [cooperative], Matteo Voss [conflictual]
 
 @character-pressure-001 define
 complexity: round
@@ -41,4 +41,4 @@ truth: concealment breeds larger collapse
 conflict-mode: external
 arc: flat
 contradictions: calm yet coercive, rational yet self-serving
-relationships: Inspector Mara Ionescu [conflictual], journalist Luca Barbu [hierarchical]
+relationships: Darius Vale [conflictual], Mira Rowan [hierarchical]

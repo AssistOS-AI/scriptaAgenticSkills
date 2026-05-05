@@ -11,7 +11,7 @@ truth: truthful action demands visible cost
 conflict-mode: mixed
 arc: tragic
 contradictions: capable yet self-protective, caring yet controlling
-relationships: Brother Caed [ambiguous], the Thorn Regent [hierarchical]
+relationships: Soriel Vane [ambiguous], Quiet Flame Abbey [hierarchical]
 
 @character-counterpart-001 define
 complexity: round
@@ -26,7 +26,7 @@ truth: shared risk can create stronger agency than isolation
 conflict-mode: mixed
 arc: positive-change
 contradictions: loyal yet evasive, observant yet withholding
-relationships: Iria of the Ash Vale [cooperative], the Thorn Regent [conflictual]
+relationships: Teren Vaul [cooperative], Quiet Flame Abbey [conflictual]
 
 @character-pressure-001 define
 complexity: round
@@ -41,4 +41,4 @@ truth: concealment breeds larger collapse
 conflict-mode: external
 arc: flat
 contradictions: calm yet coercive, rational yet self-serving
-relationships: Iria of the Ash Vale [conflictual], Brother Caed [hierarchical]
+relationships: Teren Vaul [conflictual], Soriel Vane [hierarchical]

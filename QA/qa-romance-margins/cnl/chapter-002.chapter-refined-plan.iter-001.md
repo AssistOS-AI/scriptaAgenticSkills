@@ -1,18 +1,26 @@
 @chapter-002 define
-chapter-role: reversal
-purpose: force the relationship or system to flip its apparent balance
-input-state: chapter-001 has already altered the conflict
-output-state: chapter 2 ends with increased pressure and narrower choices
-conflict: the power balance shifts and exposes earlier misreadings
-stakes: identity, trust, and the profile-specific public consequence
-opening-mode: mystery-entry
-development-mode: escalation
-closing-mode: open-question
+chapter-role: escalation
+purpose: increase cost and narrow the protagonist’s safe options
+input-state: the previous chapter has already shifted the escalation pressure into a less survivable form
+output-state: chapter 2 exits with sharper escalation pressure, narrower choices, and a cost that cannot be folded back into routine
+conflict: every attempt to act reveals a larger cost
+stakes: autonomy, tenderness, creative future, and mutual trust
+opening-mode: aftermath-entry
+development-mode: psychological-pressure
+closing-mode: cliffhanger
 continuity-obligations: later chapters must preserve the consequence introduced in chapter-002
 thematic-focus: love-connection under reconciliation pressure
 rhythm-note: escalating
+chapter-question: what hidden pressure is this chapter forcing into view?
+answer-shift: the answer moves from practicality toward emotional risk
+arc-stage: pressure-rise
+world-pressure: social routine keeps translating vulnerability into logistics during the escalation movement
+location-focus: a riverside print studio
+block-alternation: description -> dialogue -> action -> pause -> dialogue -> monologue
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.
 
 @chapter-002 refine
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make subtext carry as much weight as direct confession
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.

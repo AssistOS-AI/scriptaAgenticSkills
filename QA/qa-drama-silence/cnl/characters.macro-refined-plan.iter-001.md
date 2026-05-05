@@ -11,7 +11,7 @@ truth: truthful action demands visible cost
 conflict-mode: mixed
 arc: tragic
 contradictions: capable yet self-protective, caring yet controlling
-relationships: Vlad Georgescu [ambiguous], doctor Pavel Nistor [hierarchical]
+relationships: Iris Navarro [ambiguous], Rafael Neri [hierarchical]
 
 @character-counterpart-001 define
 complexity: round
@@ -26,7 +26,7 @@ truth: shared risk can create stronger agency than isolation
 conflict-mode: mixed
 arc: positive-change
 contradictions: loyal yet evasive, observant yet withholding
-relationships: Elena Marin [cooperative], doctor Pavel Nistor [conflictual]
+relationships: Elena Vale [cooperative], Rafael Neri [conflictual]
 
 @character-pressure-001 define
 complexity: round
@@ -41,4 +41,4 @@ truth: concealment breeds larger collapse
 conflict-mode: external
 arc: flat
 contradictions: calm yet coercive, rational yet self-serving
-relationships: Elena Marin [conflictual], Vlad Georgescu [hierarchical]
+relationships: Elena Vale [conflictual], Iris Navarro [hierarchical]

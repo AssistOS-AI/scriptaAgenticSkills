@@ -2,11 +2,11 @@
   "bookId": "qa-fantasy-ash",
   "baselineProfile": "fantasy",
   "replacements": {
-    "{{character:protagonist-001}}": "Iria of the Ash Vale",
+    "{{character:protagonist-001}}": "Teren Vaul",
     "{{location:primary-001}}": "the black cedar road",
     "{{organization:institution-001}}": "the Thorn Court",
     "{{object:plot-001}}": "a cracked star compass",
-    "{{character:pressure-001}}": "the Thorn Regent",
-    "{{character:counterpart-001}}": "Brother Caed"
+    "{{character:pressure-001}}": "Quiet Flame Abbey",
+    "{{character:counterpart-001}}": "Soriel Vane"
   }
 }

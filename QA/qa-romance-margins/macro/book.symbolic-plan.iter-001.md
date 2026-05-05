@@ -68,3 +68,30 @@ climax: protect professional distance or accept the vulnerability required for p
 resolution: the core conflict resolves with lasting cost and a redefined relation to {{organization:institution-001}}
 emotional-layer: curiosity -> tension -> surprise -> shock -> bittersweet-release
 stakes-ladder: private tension -> relational risk -> public consequence -> identity cost
+
+@arc-book-main map
+arc-axis: love-connection under reconciliation pressure
+opening-state: the partnership still treats emotional distance as professionalism
+escalation-pattern: practical collaboration keeps turning into emotional exposure
+midpoint-recognition: the work cannot survive without emotional honesty
+climactic-choice: protect professional distance or accept the vulnerability required for partnership
+ending-state: partnership survives through chosen vulnerability rather than control
+
+@arc-protagonist-main map
+entry-belief: competence is safer than emotional dependence
+core-wound: earlier abandonment taught the protagonist to turn need into logistics
+pressure-line: every useful act now asks whether care can remain impersonal
+turning-insight: autonomy becomes honest only when it can admit dependence
+exit-belief: shared risk is stronger than defensive isolation
+
+@arc-relationship-main map
+pair: {{character:protagonist-001}}, {{character:counterpart-001}}
+entry-dynamic: productive partnership guarded by emotional self-defense
+stress-pattern: workplace coordination keeps turning into emotional negotiation
+repair-condition: the pair can only stay together if usefulness gives way to honest dependence
+exit-dynamic: partnership made honest by vulnerability
+
+@motif-primary define
+motif: marginal notes and unfinished print runs
+symbolic-function: carry emotional history through work objects
+recurrence-rule: the motif should recur across opening, midpoint, and late consequence scenes with altered meaning

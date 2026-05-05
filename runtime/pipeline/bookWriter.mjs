@@ -10,11 +10,9 @@ import {
   getProfileFlavor,
   isBuiltInBookLanguage,
   localizeBookText,
-  localizeClosingMode,
   localizeEditionMode,
   localizeEditorialProfile,
   localizeProfileLabel,
-  localizeRoleToken,
   localizeScenarioTitle,
   localizeWorkForm
 } from './bookWriterLanguage.mjs';
@@ -282,41 +280,35 @@ function buildEdition(model, options, requestedLanguage) {
 function buildEditionChapter(model, chapter, languageCode) {
   const profileFlavor = getProfileFlavor(model.profileId, languageCode);
   const firstScene = chapter.scenes[0];
+  const lastScene = chapter.scenes.at(-1);
   const paragraphs = [];
-  const chapterQuestion = localizeBookText(chapter.chapterQuestion ?? '', languageCode);
-  const chapterLocation = localizeBookText(chapter.location['primary-setting'] ?? model.primaryLocation.name ?? '', languageCode);
   const chapterLocationSignal = localizeBookText(chapter.location['social-signal'] ?? model.primaryLocation['social-signal'] ?? '', languageCode);
   const chapterLocationSymbol = localizeBookText(chapter.location['symbolic-charge'] ?? model.primaryLocation['symbolic-charge'] ?? '', languageCode);
-  const rulePressure = localizeBookText(chapter.rulePressure['action-limitation'] ?? model.worldRule.rule ?? '', languageCode);
-  const protagonistShift = localizeBookText(chapter.protagonistArc['exit-belief'] ?? model.protagonistArc['exit-belief'] ?? '', languageCode);
-  const relationshipShift = localizeBookText(chapter.relationshipArc['exit-dynamic'] ?? model.relationshipArc['exit-dynamic'] ?? '', languageCode);
-  const pauseFocus = localizeBookText(chapter.pause.focus ?? '', languageCode);
-  const accelerationTrigger = localizeBookText(chapter.acceleration.trigger ?? '', languageCode);
+  const finalBelief = localizeBookText(model.protagonistArc['exit-belief'] ?? '', languageCode);
+  const finalRelationship = localizeBookText(model.relationshipArc['exit-dynamic'] ?? '', languageCode);
+  const uncertainty = sentenceCase(localizeBookText(chapter.suspense.uncertainty ?? '', languageCode));
 
   if (firstScene) {
     const location = localizeBookText(firstScene['time-space'], languageCode);
+    const placeSignal = sentenceCase(chapterLocationSignal || chapterLocationSymbol);
     if (languageCode === 'ro') {
       paragraphs.push(
-        `${firstScene.participants[0]} ajunge ${locationPhrase(location, languageCode)}, unde ${profileFlavor.atmosphere}. ${firstScene.participants[1]} citeste incaperea cu o grija tensionata, iar ${firstScene.participants[2]} apara in continuare versiunea de evenimente pe care sistemul o poate suporta. ${roleLead(chapter.role, languageCode)} ${chapterQuestion ? `Intrebarea capitolului este ${chapterQuestion.toLowerCase()}.` : ''} ${chapterLocation ? `Spatiul dominant ramane ${chapterLocation.toLowerCase()}, marcat de ${chapterLocationSignal.toLowerCase() || chapterLocationSymbol.toLowerCase()}.` : ''}`.replace(/\s+/g, ' ').trim()
+        `${firstScene.participants[0]} ajunge ${locationPhrase(location, languageCode)}, unde ${profileFlavor.atmosphere}. ${placeSignal ? `${placeSignal}.` : ''} ${firstScene.participants[1]} citeste prea atent incaperea, iar ${firstScene.participants[2]} tine in viata versiunea de evenimente pe care ceilalti ar prefera sa o creada.`.replace(/\s+/g, ' ').trim()
       );
     } else {
       paragraphs.push(
-        `${firstScene.participants[0]} reaches ${location}, where ${profileFlavor.atmosphere}. ${firstScene.participants[1]} reads the room with uneasy care, while ${firstScene.participants[2]} still protects the version of events the system can survive. ${roleLead(chapter.role, languageCode)} ${chapterQuestion ? `The chapter question is ${chapterQuestion.toLowerCase()}.` : ''} ${chapterLocation ? `Its dominant stage remains ${chapterLocation}, marked by ${chapterLocationSignal.toLowerCase() || chapterLocationSymbol.toLowerCase()}.` : ''}`.replace(/\s+/g, ' ').trim()
+        `${firstScene.participants[0]} reaches ${location}, where ${profileFlavor.atmosphere}. ${placeSignal ? `${placeSignal}.` : ''} ${firstScene.participants[1]} reads the room too carefully, while ${firstScene.participants[2]} keeps alive the version of events other people would rather believe.`.replace(/\s+/g, ' ').trim()
       );
     }
   }
 
   chapter.scenes.forEach((scene, index) => {
     const location = localizeBookText(scene['time-space'], languageCode);
-    const introduction = sentenceCase(localizeBookText(scene.introduction, languageCode));
-    const conflict = sentenceCase(localizeBookText(scene.conflict, languageCode));
+    const introduction = normalizeNarrativePhrase(scene.introduction, languageCode);
+    const conflict = normalizeNarrativePhrase(scene.conflict, languageCode);
     const trigger = sentenceCase(localizeBookText(scene.event.trigger ?? model.plotElement.activation ?? '', languageCode));
     const actionGoal = localizeBookText(scene.action.goal ?? model.characters.protagonist.desire, languageCode);
     const actionObstacle = localizeBookText(scene.action.obstacle ?? model.characters.pressure.desire, languageCode);
-    const conflictStakes = localizeBookText(scene.conflictPacket?.stakes ?? '', languageCode);
-    const uncertainty = localizeBookText(chapter.suspense.uncertainty ?? '', languageCode).toLowerCase();
-    const monologue = sentenceCase(localizeBookText(chapter.monologue.trigger ?? '', languageCode));
-    const stateChange = localizeBookText(scene['state-change'], languageCode);
     const dialogueParagraph = renderEditionDialogue(scene.dialogueTurns ?? [], languageCode);
 
     if (languageCode === 'ro') {
@@ -324,23 +316,10 @@ function buildEditionChapter(model, chapter, languageCode) {
         index === 0 ? `${sentenceCase(locationPhrase(location, languageCode))}, ${introduction.toLowerCase()}.` : `Mai tarziu, ${locationPhrase(location, languageCode)}, ${introduction.toLowerCase()}.`,
         `${scene.participants[0]} incearca sa ${actionGoal}, dar ${actionObstacle}.`,
         `${conflict}.`,
-        conflictStakes ? `Miza locala ramane ${conflictStakes.toLowerCase()}.` : '',
-        trigger ? `${trigger}.` : '',
-        rulePressure ? `Regula lumii actioneaza direct aici: ${rulePressure.toLowerCase()}.` : '',
-        uncertainty ? `Incertitudinea ramane vie fiindca nimeni nu poate citi inca rezultatul deplin.` : '',
-        `Rezultatul imediat este limpede: ${stateChange}.`
+        trigger ? `${trigger}.` : ''
       ].filter(Boolean).join(' '));
       if (dialogueParagraph) {
         paragraphs.push(dialogueParagraph);
-      }
-      if (index === 0 && pauseFocus) {
-        paragraphs.push(`Pauza narativa lasa consecinta sa se sedimenteze: ${pauseFocus.toLowerCase()}.`);
-      }
-      if (index === chapter.scenes.length - 1 && monologue) {
-        paragraphs.push(`${scene.participants[0]} simte cum costul recent o obliga sa-si reordoneze certitudinile. ${protagonistShift ? `Linia interioara se misca acum spre ${protagonistShift.toLowerCase()}.` : ''}`.trim());
-      }
-      if (index === chapter.scenes.length - 1 && accelerationTrigger) {
-        paragraphs.push(`Apoi ritmul se comprima brusc: ${accelerationTrigger.toLowerCase()}.`);
       }
       return;
     }
@@ -349,36 +328,23 @@ function buildEditionChapter(model, chapter, languageCode) {
       index === 0 ? `In ${location}, ${introduction.toLowerCase()}.` : `Later, in ${location}, ${introduction.toLowerCase()}.`,
       `${scene.participants[0]} tries to ${actionGoal}, but ${actionObstacle}.`,
       `${conflict}.`,
-      conflictStakes ? `The local stakes remain ${conflictStakes.toLowerCase()}.` : '',
-      trigger ? `${trigger}.` : '',
-      rulePressure ? `The world rule presses directly here: ${rulePressure.toLowerCase()}.` : '',
-      uncertainty ? `Uncertainty remains active because no one can yet read the full result.` : '',
-      `The immediate result is clear: ${stateChange}.`
+      trigger ? `${trigger}.` : ''
     ].filter(Boolean).join(' '));
 
     if (dialogueParagraph) {
       paragraphs.push(dialogueParagraph);
     }
-    if (index === 0 && pauseFocus) {
-      paragraphs.push(`The narrative pause matters here: ${pauseFocus.toLowerCase()}.`);
-    }
-    if (index === chapter.scenes.length - 1 && monologue) {
-      paragraphs.push(`${scene.participants[0]} feels the latest cost rearranging every earlier certainty. ${protagonistShift ? `The interior line now leans toward ${protagonistShift.toLowerCase()}.` : ''}`.trim());
-    }
-    if (index === chapter.scenes.length - 1 && accelerationTrigger) {
-      paragraphs.push(`Then the tempo compresses: ${accelerationTrigger.toLowerCase()}.`);
-    }
   });
 
-  if (languageCode === 'ro') {
-    paragraphs.push(
-      `La finalul capitolului, ${renderOutputState(chapter, languageCode)}. Miscarea emotionala merge acum spre ${localizeClosingMode(chapter.closingMode, languageCode)}, iar cartea continua sa testeze intrebarea centrala: ${localizeBookText(model.theme['thematic-question'], languageCode).toLowerCase()} ${profileFlavor.thematicBridge} ${chapter.answerShift ? `Raspunsul partial al capitolului este ${localizeBookText(chapter.answerShift, languageCode).toLowerCase()}.` : ''} ${relationshipShift ? `Relatia centrala se reaseaza ca ${relationshipShift.toLowerCase()}.` : ''}`.replace(/\s+/g, ' ').trim()
-    );
-  } else {
-    paragraphs.push(
-      `By the end of the chapter, ${renderOutputState(chapter, languageCode)}. The emotional movement now leans toward ${localizeClosingMode(chapter.closingMode, languageCode)}, while the book keeps testing its central question: ${localizeBookText(model.theme['thematic-question'], languageCode).toLowerCase()} ${profileFlavor.thematicBridge} ${chapter.answerShift ? `The chapter's partial answer is ${localizeBookText(chapter.answerShift, languageCode).toLowerCase()}.` : ''} ${relationshipShift ? `The central relationship settles into ${relationshipShift.toLowerCase()}.` : ''}`.replace(/\s+/g, ' ').trim()
-    );
-  }
+  paragraphs.push(buildChapterClosingParagraph({
+    chapter,
+    lastScene,
+    finalBelief,
+    finalRelationship,
+    uncertainty,
+    isFinalChapter: chapter.number === model.chapters.length,
+    languageCode
+  }));
 
   return {
     id: chapter.id,
@@ -415,18 +381,6 @@ function renderBookHtml(edition) {
         <h2>${escapeHtml(chapter.displayTitle)}</h2>
         ${chapter.paragraphs.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join('\n        ')}
       </article>`).join('\n');
-  const validationBlock = edition.validationSummary
-    ? `
-      <section class="appendix-block">
-        <h3>${escapeHtml(pack.ui.validationSnapshot)}</h3>
-        <dl class="metrics-grid">
-          ${Object.entries(edition.validationSummary).map(([name, value]) => `<div><dt>${escapeHtml(name)}</dt><dd>${escapeHtml(`${value}%`)}</dd></div>`).join('')}
-        </dl>
-      </section>`
-    : '';
-  const stageSources = Object.entries(edition.stageSources)
-    .map(([stageName, labels]) => `<li><strong>${escapeHtml(stageName)}</strong> — ${escapeHtml(labels.join(', '))}</li>`)
-    .join('');
   const metadata = {
     targetLanguage: edition.requestedLanguage,
     contentLanguage: edition.contentLanguage,
@@ -461,7 +415,7 @@ function renderBookHtml(edition) {
     .cover__copy { display: flex; flex-direction: column; justify-content: center; gap: 18px; padding: 48px; }
     .eyebrow { font-family: "Helvetica Neue", Arial, sans-serif; letter-spacing: 0.18em; text-transform: uppercase; font-size: 0.72rem; opacity: 0.86; }
     .cover h1, .title-page h1 { font-size: clamp(2.6rem, 6vw, 4.6rem); line-height: 0.95; margin: 0; }
-    .cover p, .title-page p, .imprint p, nav, .appendix, .notice { font-family: "Helvetica Neue", Arial, sans-serif; }
+    .cover p, .title-page p, .imprint p, nav, .notice { font-family: "Helvetica Neue", Arial, sans-serif; }
     .cover__tagline { font-size: 1.05rem; line-height: 1.55; max-width: 28ch; }
     .body { padding: 40px 44px 56px; }
     .title-page, .imprint, nav, .appendix-block { border-bottom: 1px solid var(--line); padding: 18px 0 24px; }
@@ -480,9 +434,6 @@ function renderBookHtml(edition) {
     .metrics-grid div { background: rgba(0, 0, 0, 0.035); border-radius: 14px; padding: 10px 12px; }
     .metrics-grid dt { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
     .metrics-grid dd { margin: 6px 0 0; font-size: 1.18rem; font-weight: 700; }
-    .appendix small { color: var(--muted); display: block; margin-top: 10px; line-height: 1.6; }
-    .source-list { margin: 10px 0 0; padding-left: 1.2rem; line-height: 1.7; }
-    .source-list li + li { margin-top: 6px; }
     @media (max-width: 820px) {
       .cover { grid-template-columns: 1fr; }
       .cover__copy, .body { padding: 28px 22px 36px; }
@@ -534,28 +485,38 @@ function renderBookHtml(edition) {
           <p class="eyebrow">${escapeHtml(pack.ui.contents)}</p>
           <ol>${toc}</ol>
         </nav>
-        <section class="appendix-block page-break">
-          <p class="eyebrow">${escapeHtml(pack.ui.story)}</p>
-          <p>${escapeHtml(edition.thematicStatement)}</p>
-          <p>${escapeHtml(edition.worldRule)}</p>
-        </section>
 ${chapters}
-        <section class="appendix page-break">
-          <div class="appendix-block">
-            <p class="eyebrow">${escapeHtml(pack.ui.appendix)}</p>
-            <p>${escapeHtml(pack.ui.colophon)}</p>
-            <p><strong>${escapeHtml(pack.ui.stageSources)}:</strong></p>
-            <ul class="source-list">${stageSources}</ul>
-          </div>
-          ${validationBlock}
-          <small>${escapeHtml(`${pack.ui.targetLanguage}: ${edition.requestedLanguage}; ${pack.ui.edition}: ${localizeEditionMode(edition.mode, edition.contentLanguage)}.`)}</small>
-        </section>
       </div>
     </div>
   </main>
   <script type="application/json" id="scripta-edition-metadata">${escapeHtml(JSON.stringify(metadata))}</script>
 </body>
 </html>`;
+}
+
+function buildChapterClosingParagraph({ lastScene, finalBelief, finalRelationship, uncertainty, isFinalChapter, languageCode }) {
+  const focalCharacter = lastScene?.participants?.[0] ?? 'the protagonist';
+  const renderedUncertainty = uncertainty ? `${uncertainty}.` : '';
+
+  if (languageCode === 'ro') {
+    if (isFinalChapter) {
+      return [
+        finalBelief ? `${focalCharacter} intelege acum ca ${finalBelief.toLowerCase()}.` : '',
+        finalRelationship ? `${sentenceCase(finalRelationship)}.` : ''
+      ].filter(Boolean).join(' ');
+    }
+
+    return `Nimic din ceea ce tocmai s-a deschis nu se mai inchide usor.${renderedUncertainty ? ` ${renderedUncertainty}` : ''}`;
+  }
+
+  if (isFinalChapter) {
+    return [
+      finalBelief ? `${focalCharacter} understands now that ${finalBelief.toLowerCase()}.` : '',
+      finalRelationship ? `${sentenceCase(finalRelationship)}.` : ''
+    ].filter(Boolean).join(' ');
+  }
+
+  return `Nothing that has opened here will close easily.${renderedUncertainty ? ` ${renderedUncertainty}` : ''}`;
 }
 
 function renderCoverSvg(edition) {
@@ -652,16 +613,33 @@ function renderEditionDialogue(turns, languageCode) {
   if (languageCode === 'ro') {
     return turns.map((turn) => {
       const line = sentenceCase(localizeBookText(turn['line-hint'] ?? '', languageCode));
-      const reaction = localizeBookText(turn['reaction-beat'] ?? '', languageCode).toLowerCase();
-      return `"${line}" spune ${turn.speaker}.${reaction ? ` ${sentenceCase(reaction)}.` : ''}`;
+      return `"${line}" spune ${turn.speaker}.`;
     }).join(' ');
   }
 
   return turns.map((turn) => {
     const line = sentenceCase(localizeBookText(turn['line-hint'] ?? '', languageCode));
-    const reaction = localizeBookText(turn['reaction-beat'] ?? '', languageCode).toLowerCase();
-    return `"${line}" ${turn.speaker} says.${reaction ? ` ${sentenceCase(reaction)}.` : ''}`;
+    return `"${line}" ${turn.speaker} says.`;
   }).join(' ');
+}
+
+function normalizeNarrativePhrase(value, languageCode) {
+  const replacements = languageCode === 'ro'
+    ? [
+        [/\s+in timp ce capitolul poarta inca presiunea de [a-zA-Zăâîșț-]+/gi, ''],
+        [/\s+sub presiunea de [a-zA-Zăâîșț-]+/gi, '']
+      ]
+    : [
+        [/\s+while the chapter still carries [a-z-]+ pressure/gi, ''],
+        [/\s+under [a-z-]+ pressure/gi, '']
+      ];
+  let text = sentenceCase(localizeBookText(value, languageCode));
+
+  for (const [pattern, replacement] of replacements) {
+    text = text.replace(pattern, replacement);
+  }
+
+  return text.replace(/\s+/g, ' ').trim();
 }
 
 function renderOutputState(chapter, languageCode) {

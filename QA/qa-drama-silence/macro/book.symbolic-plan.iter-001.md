@@ -68,3 +68,30 @@ climax: protect an old lie or expose the truth that may break the family apart
 resolution: the core conflict resolves with lasting cost and a redefined relation to {{organization:institution-001}}
 emotional-layer: curiosity -> tension -> surprise -> shock -> bittersweet-release
 stakes-ladder: private tension -> relational risk -> public consequence -> identity cost
+
+@arc-book-main map
+arc-axis: identity-self under transformation pressure
+opening-state: the family system still mistakes silence for care
+escalation-pattern: private truth keeps forcing itself into public consequence
+midpoint-recognition: repair is impossible without naming the wound correctly
+climactic-choice: protect an old lie or expose the truth that may break the family apart
+ending-state: truth reorders the family at a cost no one can entirely refuse
+
+@arc-protagonist-main map
+entry-belief: care means containing pain until others can survive it
+core-wound: old grief trained the protagonist to equate restraint with mercy
+pressure-line: every truthful move now threatens the very bond the protagonist wants to save
+turning-insight: truth delayed in the name of tenderness becomes a cruelty of its own
+exit-belief: repair begins after the truth, not instead of it
+
+@arc-relationship-main map
+pair: {{character:protagonist-001}}, {{character:counterpart-001}}
+entry-dynamic: careful cooperation strained by withheld history
+stress-pattern: tenderness keeps colliding with incompatible memories
+repair-condition: the pair can only repair the bond by telling the most damaging version of events
+exit-dynamic: scarred trust rebuilt on painful clarity
+
+@motif-primary define
+motif: recorded silence
+symbolic-function: turn absence into visible accusation
+recurrence-rule: the motif should recur across opening, midpoint, and late consequence scenes with altered meaning

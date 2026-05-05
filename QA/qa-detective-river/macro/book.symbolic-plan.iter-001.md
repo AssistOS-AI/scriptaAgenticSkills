@@ -68,3 +68,30 @@ climax: close the case cleanly or expose the system that employs her
 resolution: the core conflict resolves with lasting cost and a redefined relation to {{organization:institution-001}}
 emotional-layer: curiosity -> tension -> surprise -> shock -> bittersweet-release
 stakes-ladder: private tension -> relational risk -> public consequence -> identity cost
+
+@arc-book-main map
+arc-axis: power-corruption under resistance pressure
+opening-state: the city still treats procedural calm as proof of innocence
+escalation-pattern: clean evidence keeps colliding with contaminated institutions
+midpoint-recognition: the case is no longer an incident but a system
+climactic-choice: close the case cleanly or expose the system that employs her
+ending-state: justice becomes visible only after institutional damage
+
+@arc-protagonist-main map
+entry-belief: truth can be extracted cleanly if procedure is respected
+core-wound: institutional loyalty once looked like justice
+pressure-line: every lawful move now risks proving the law itself compromised
+turning-insight: evidence without public risk only strengthens corruption
+exit-belief: justice is never clean when the system profits from concealment
+
+@arc-relationship-main map
+pair: {{character:protagonist-001}}, {{character:counterpart-001}}
+entry-dynamic: professional alliance shadowed by unequal institutional risk
+stress-pattern: shared investigation keeps exposing unequal courage
+repair-condition: the pair can only remain allies if both accept public exposure
+exit-dynamic: alliance tested by public consequence
+
+@motif-primary define
+motif: water-marked evidence
+symbolic-function: link clue logic to moral contamination
+recurrence-rule: the motif should recur across opening, midpoint, and late consequence scenes with altered meaning

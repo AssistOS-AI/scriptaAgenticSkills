@@ -28,3 +28,33 @@ cost: every attempt to solve the central problem increases another kind of loss
 exception: exceptions require a visible trade-off and cannot erase consequences
 traceability: the manuscript must show repeated evidence that the rule shapes decisions
 violation-effect: validation must flag coherence failure if the rule stops mattering
+
+@world-rule-secondary define
+subsystem: secondary
+rule-type: social-norm
+rule: institutional language always arrives colder than the grief it tries to classify
+conflict-transform: forces characters into moral conflict over interpretation and dignity
+reveal-mode: partial-explicitness
+narrative-duty: the rule should surface through scene friction, not abstract exposition
+
+@world-reveal-strategy define
+explicit-zone: opening pressure and late midpoint
+implicit-zone: dialogue beats, location detail, and consequence scenes
+reader-inference-goal: the reader should infer the larger system from local constraints before the book names the whole mechanism
+rule-to-conflict: social norms regulate speech and create moral conflict around disclosure
+
+@location-primary define
+name: the old district clinic
+role: primary pressure stage
+sensory-anchor: cleaners that cannot remove the smell of grief
+social-signal: people speak quietly because the institution prefers manageable sorrow
+symbolic-charge: a site where absence looks administratively complete
+conflict-use: the setting should intensify disclosure by making privacy difficult
+
+@location-secondary define
+name: a rain-dark apartment block
+role: revelation or narrowing stage
+sensory-anchor: paperwork, damp coats, and fluorescent fatigue
+social-signal: everyone performs steadiness while watching for blame
+symbolic-charge: a space where memory and paperwork contradict each other
+conflict-use: the location should force grief into institutional language

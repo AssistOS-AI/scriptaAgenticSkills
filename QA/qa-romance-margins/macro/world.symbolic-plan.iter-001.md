@@ -28,3 +28,33 @@ cost: every attempt to solve the central problem increases another kind of loss
 exception: exceptions require a visible trade-off and cannot erase consequences
 traceability: the manuscript must show repeated evidence that the rule shapes decisions
 violation-effect: validation must flag coherence failure if the rule stops mattering
+
+@world-rule-secondary define
+subsystem: secondary
+rule-type: social-norm
+rule: shared work reveals emotional imbalance faster than confession does
+conflict-transform: turns care into a conflict between honesty and self-protection
+reveal-mode: partial-explicitness
+narrative-duty: the rule should surface through scene friction, not abstract exposition
+
+@world-reveal-strategy define
+explicit-zone: opening pressure and late midpoint
+implicit-zone: dialogue beats, location detail, and consequence scenes
+reader-inference-goal: the reader should infer the larger system from local constraints before the book names the whole mechanism
+rule-to-conflict: social expectation turns intimacy into a negotiation of autonomy
+
+@location-primary define
+name: the winter book market
+role: primary pressure stage
+sensory-anchor: ink, flour, winter fabric, and heating pipes
+social-signal: routine hides emotion because work must keep moving
+symbolic-charge: a work space carrying unfinished tenderness
+conflict-use: the setting should bind work and feeling together
+
+@location-secondary define
+name: a riverside print studio
+role: revelation or narrowing stage
+sensory-anchor: paper dust, herbs, and machine grease
+social-signal: every shared task doubles as a small test of trust
+symbolic-charge: a practical room that refuses emotional neutrality
+conflict-use: the location should turn routine into emotional leverage

@@ -11,7 +11,7 @@ truth: truthful action demands visible cost
 conflict-mode: mixed
 arc: positive-change
 contradictions: capable yet self-protective, caring yet controlling
-relationships: Nico Vale [ambiguous], publisher Vera Muntean [hierarchical]
+relationships: Nico Arden [ambiguous], Rosa Bell [hierarchical]
 
 @character-counterpart-001 define
 complexity: round
@@ -26,7 +26,7 @@ truth: shared risk can create stronger agency than isolation
 conflict-mode: mixed
 arc: positive-change
 contradictions: loyal yet evasive, observant yet withholding
-relationships: Ana Dragan [cooperative], publisher Vera Muntean [conflictual]
+relationships: Ana Vale [cooperative], Rosa Bell [conflictual]
 
 @character-pressure-001 define
 complexity: round
@@ -41,4 +41,4 @@ truth: concealment breeds larger collapse
 conflict-mode: external
 arc: flat
 contradictions: calm yet coercive, rational yet self-serving
-relationships: Ana Dragan [conflictual], Nico Vale [hierarchical]
+relationships: Ana Vale [conflictual], Nico Arden [hierarchical]

@@ -68,3 +68,30 @@ climax: restore unstable memories or preserve a peaceful lie
 resolution: the core conflict resolves with lasting cost and a redefined relation to {{organization:institution-001}}
 emotional-layer: curiosity -> tension -> surprise -> shock -> bittersweet-release
 stakes-ladder: private tension -> relational risk -> public consequence -> identity cost
+
+@arc-book-main map
+arc-axis: freedom-security under dilemma pressure
+opening-state: the station still equates managed memory with civic peace
+escalation-pattern: technical anomalies keep revealing political design
+midpoint-recognition: the malfunction is not accidental but administered
+climactic-choice: restore unstable memories or preserve a peaceful lie
+ending-state: survival remains possible, but innocence does not
+
+@arc-protagonist-main map
+entry-belief: systems can be repaired without reopening moral catastrophe
+core-wound: the protagonist once trusted managed systems over unstable testimony
+pressure-line: every repair now exposes the politics hidden in the machine
+turning-insight: stability without consent is a curated form of violence
+exit-belief: memory belongs to citizens, not to prediction systems
+
+@arc-relationship-main map
+pair: {{character:protagonist-001}}, {{character:counterpart-001}}
+entry-dynamic: technical trust without full moral agreement
+stress-pattern: joint repair work keeps exposing different thresholds for risk
+repair-condition: the pair can only remain aligned if consent matters more than prediction
+exit-dynamic: solidarity forged through contested memory
+
+@motif-primary define
+motif: ghosted memory traces
+symbolic-function: make system control materially visible
+recurrence-rule: the motif should recur across opening, midpoint, and late consequence scenes with altered meaning

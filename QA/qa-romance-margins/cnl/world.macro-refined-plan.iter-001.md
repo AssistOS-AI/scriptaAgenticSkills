@@ -3,7 +3,7 @@ category: information
 subtype: document
 function: revelation
 stakes: changes who understands the real structure of the conflict
-holders: the family bakery cooperative, publisher Vera Muntean
+holders: the family bakery cooperative, Rosa Bell
 activation: the protagonist decodes an annotated recipe book near the midpoint
 payoff-zone: midpoint and final confrontation
 
@@ -28,3 +28,63 @@ cost: every attempt to solve the central problem increases another kind of loss
 exception: exceptions require a visible trade-off and cannot erase consequences
 traceability: the manuscript must show repeated evidence that the rule shapes decisions
 violation-effect: validation must flag coherence failure if the rule stops mattering
+
+@world-rule-secondary define
+subsystem: secondary
+rule-type: social-norm
+rule: shared work reveals emotional imbalance faster than confession does
+conflict-transform: turns care into a conflict between honesty and self-protection
+reveal-mode: partial-explicitness
+narrative-duty: the rule should surface through scene friction, not abstract exposition
+
+@world-reveal-strategy define
+explicit-zone: opening pressure and late midpoint
+implicit-zone: dialogue beats, location detail, and consequence scenes
+reader-inference-goal: the reader should infer the larger system from local constraints before the book names the whole mechanism
+rule-to-conflict: social expectation turns intimacy into a negotiation of autonomy
+
+@location-primary define
+name: the winter book market
+role: primary pressure stage
+sensory-anchor: ink, flour, winter fabric, and heating pipes
+social-signal: routine hides emotion because work must keep moving
+symbolic-charge: a work space carrying unfinished tenderness
+conflict-use: the setting should bind work and feeling together
+
+@location-secondary define
+name: a riverside print studio
+role: revelation or narrowing stage
+sensory-anchor: paper dust, herbs, and machine grease
+social-signal: every shared task doubles as a small test of trust
+symbolic-charge: a practical room that refuses emotional neutrality
+conflict-use: the location should turn routine into emotional leverage
+
+@world-rule-primary refine
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: treat social expectations as real constraints on intimacy and choice
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@world-rule-secondary refine
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: treat social expectations as real constraints on intimacy and choice
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@world-reveal-strategy refine
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: treat social expectations as real constraints on intimacy and choice
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@location-primary refine
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the place intimate through work, routine, and shared objects
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@location-secondary refine
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the place intimate through work, routine, and shared objects
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.

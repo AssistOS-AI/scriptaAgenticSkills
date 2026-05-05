@@ -1,7 +1,7 @@
 # Validation report for qa-romance-margins
 
 ## Metrics
-- **OI**: 70%
+- **OI**: 68%
 - **NCS**: 100%
 - **BCI**: 96%
 - **VAD_score**: 100%
@@ -9,7 +9,7 @@
 - **PRC**: 100%
 - **SFSG**: 95%
 - **CCI**: 94%
-- **CAD_score**: 90%
+- **CAD_score**: 88%
 - **EAP**: 92%
 - **CAR**: 99%
 - **CS**: 93%

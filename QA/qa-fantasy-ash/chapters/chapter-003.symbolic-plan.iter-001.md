@@ -1,14 +1,20 @@
 @chapter-003 define
-chapter-role: culmination
-purpose: drive the book into its final irreversible choice
-input-state: chapter-002 has already altered the conflict
-output-state: the central pressure resolves with visible cost
-conflict: the protagonist must accept cost rather than defer it
-stakes: identity, trust, and the profile-specific public consequence
-opening-mode: contextual-setup
-development-mode: escalation
-closing-mode: reversal
+chapter-role: investigation
+purpose: uncover the hidden structure behind the visible conflict
+input-state: the previous chapter has already shifted the investigation pressure into a less survivable form
+output-state: chapter 3 exits with sharper investigation pressure, narrower choices, and a cost that cannot be folded back into routine
+conflict: knowledge and safety become impossible to keep together
+stakes: lineage, survival, oath-bound legitimacy, and magical cost
+opening-mode: mystery-entry
+development-mode: investigation
+closing-mode: open-question
 continuity-obligations: later chapters must preserve the consequence introduced in chapter-003
 thematic-focus: redemption under sacrifice pressure
-rhythm-note: breathless
+rhythm-note: escalating
+chapter-question: what hidden pressure is this chapter forcing into view?
+answer-shift: the answer moves from omen toward ancestral accountability
+arc-stage: evidence-gathering
+world-pressure: ritual law keeps making truth expensive to speak during the investigation movement
+location-focus: the black cedar road
+block-alternation: description -> action -> dialogue -> pause -> event -> monologue
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.

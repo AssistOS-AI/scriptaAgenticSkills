@@ -1,14 +1,14 @@
 {
   "chapterId": "chapter-002",
-  "entryState": "chapter-001 has already altered the conflict",
-  "exitState": "chapter 2 ends with increased pressure and narrower choices",
+  "entryState": "the previous chapter has already shifted the escalation pressure into a less survivable form",
+  "exitState": "chapter 2 exits with sharper escalation pressure, narrower choices, and a cost that cannot be folded back into routine",
   "unresolvedObligations": [
     "later chapters must preserve the consequence introduced in chapter-002"
   ],
   "introducedEntities": [
-    "Elena Marin",
-    "Vlad Georgescu",
-    "doctor Pavel Nistor"
+    "Elena Vale",
+    "Iris Navarro",
+    "Rafael Neri"
   ],
   "changedRelationships": [
     "identity-self under transformation pressure"
