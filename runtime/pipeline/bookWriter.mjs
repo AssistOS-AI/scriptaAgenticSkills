@@ -14,6 +14,7 @@ import {
   localizeEditionMode,
   localizeEditorialProfile,
   localizeProfileLabel,
+  localizeRoleToken,
   localizeScenarioTitle,
   localizeWorkForm
 } from './bookWriterLanguage.mjs';
@@ -664,6 +665,12 @@ function renderEditionDialogue(turns, languageCode) {
 }
 
 function renderOutputState(chapter, languageCode) {
+  const genericStageExit = chapter.outputState.match(/^chapter (\d+) exits with sharper ([a-z-]+) pressure, narrower choices, and a cost that cannot be folded back into routine$/i);
+  if (genericStageExit && languageCode === 'ro') {
+    const [, chapterNumber, role] = genericStageExit;
+    return `capitolul ${chapterNumber} iese cu o presiune de ${localizeRoleToken(role)} mai ascutita, alegeri mai inguste si un cost care nu mai poate fi impins inapoi in rutina`;
+  }
+
   if (chapter.outputState.includes('increased pressure and narrower choices')) {
     return languageCode === 'ro'
       ? 'presiunea a crescut, iar alegerile sigure s-au ingustat'

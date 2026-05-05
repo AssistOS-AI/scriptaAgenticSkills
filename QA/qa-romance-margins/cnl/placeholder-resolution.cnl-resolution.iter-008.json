@@ -1,0 +1,12 @@
+{
+  "bookId": "qa-romance-margins",
+  "baselineProfile": "romance-relational",
+  "replacements": {
+    "{{character:protagonist-001}}": "Ana Vale",
+    "{{location:primary-001}}": "a riverside print studio",
+    "{{organization:institution-001}}": "the family bakery cooperative",
+    "{{object:plot-001}}": "an annotated recipe book",
+    "{{character:pressure-001}}": "Rosa Bell",
+    "{{character:counterpart-001}}": "Nico Arden"
+  }
+}

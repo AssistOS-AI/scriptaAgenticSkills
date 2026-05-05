@@ -1,0 +1,12 @@
+{
+  "bookId": "qa-detective-river",
+  "baselineProfile": "detective-police",
+  "replacements": {
+    "{{character:protagonist-001}}": "Darius Vale",
+    "{{location:primary-001}}": "the civic tribunal annex",
+    "{{organization:institution-001}}": "city hall",
+    "{{object:plot-001}}": "a sealed witness transcript",
+    "{{character:pressure-001}}": "Matteo Voss",
+    "{{character:counterpart-001}}": "Mira Rowan"
+  }
+}
