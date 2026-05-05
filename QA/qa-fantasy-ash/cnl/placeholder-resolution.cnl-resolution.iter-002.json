@@ -1,0 +1,12 @@
+{
+  "bookId": "qa-fantasy-ash",
+  "baselineProfile": "fantasy",
+  "replacements": {
+    "{{character:protagonist-001}}": "Iria of the Ash Vale",
+    "{{location:primary-001}}": "the black cedar road",
+    "{{organization:institution-001}}": "the Thorn Court",
+    "{{object:plot-001}}": "a cracked star compass",
+    "{{character:pressure-001}}": "the Thorn Regent",
+    "{{character:counterpart-001}}": "Brother Caed"
+  }
+}

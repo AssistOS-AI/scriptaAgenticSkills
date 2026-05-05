@@ -1,0 +1,20 @@
+{
+  "title": "SCRIPTA Symbolic Plan Generation",
+  "family": "anthropic",
+  "summary": "Generates the first CNL iteration for macro, chapter, and micro plans from explicit CLI-like parameters and constrained randomness.",
+  "aliases": [
+    "scripta_symbolic_plan_generation",
+    "scripta-symbolic-plan-generation"
+  ],
+  "dependsOn": [],
+  "outputs": [
+    "<workspace>/macro/*.symbolic-plan.iter-*.md",
+    "<workspace>/chapters/*.symbolic-plan.iter-*.md",
+    "<workspace>/micro/*.symbolic-plan.iter-*.md"
+  ],
+  "entrypoints": [
+    "SKILL.md",
+    "skill.mjs"
+  ],
+  "selfContained": false
+}

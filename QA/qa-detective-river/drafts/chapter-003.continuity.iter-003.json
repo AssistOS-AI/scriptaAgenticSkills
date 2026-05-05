@@ -1,0 +1,17 @@
+{
+  "chapterId": "chapter-003",
+  "entryState": "chapter-002 has already altered the conflict",
+  "exitState": "the central pressure resolves with visible cost",
+  "unresolvedObligations": [
+    "later chapters must preserve the consequence introduced in chapter-003"
+  ],
+  "introducedEntities": [
+    "Inspector Mara Ionescu",
+    "journalist Luca Barbu",
+    "mayor Anca Berinde"
+  ],
+  "changedRelationships": [
+    "power-corruption under resistance pressure"
+  ],
+  "continuityWarnings": []
+}

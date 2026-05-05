@@ -1,0 +1,30 @@
+{
+  "bookId": "qa-drama-silence",
+  "baselineProfile": "drama",
+  "metrics": {
+    "OI": 70,
+    "NCS": 100,
+    "BCI": 96,
+    "VAD_score": 100,
+    "TOP_score": 100,
+    "PRC": 100,
+    "SFSG": 95,
+    "CCI": 94,
+    "CAD_score": 90,
+    "EAP": 92,
+    "CAR": 99,
+    "CS": 93,
+    "NQS": 88
+  },
+  "literaryIndicators": {
+    "narrativeCoherence": 93,
+    "thematicDepth": 88,
+    "characterComplexity": 84,
+    "originality": 85,
+    "stylisticQuality": 76,
+    "emotionalImpact": 90,
+    "interpretiveOpenness": 82,
+    "culturalValue": 78
+  },
+  "issues": []
+}

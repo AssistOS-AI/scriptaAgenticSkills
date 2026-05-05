@@ -1,0 +1,6 @@
+{
+  "bookId": "qa-romance-margins",
+  "baselineProfile": "romance-relational",
+  "chapterCount": 3,
+  "exportPath": "exports/manuscript.book.iter-001.md"
+}

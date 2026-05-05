@@ -1,0 +1,1955 @@
+{
+  "runs": [
+    {
+      "runIndex": 1,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "book",
+          "label": "symbolic-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/macro/book.symbolic-plan.iter-001.md",
+          "relativePath": "macro/book.symbolic-plan.iter-001.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "characters",
+          "label": "symbolic-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/macro/characters.symbolic-plan.iter-001.md",
+          "relativePath": "macro/characters.symbolic-plan.iter-001.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "world",
+          "label": "symbolic-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/macro/world.symbolic-plan.iter-001.md",
+          "relativePath": "macro/world.symbolic-plan.iter-001.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational",
+          "workForm": "short-story"
+        }
+      }
+    },
+    {
+      "runIndex": 2,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-001",
+          "label": "symbolic-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/chapters/chapter-001.symbolic-plan.iter-001.md",
+          "relativePath": "chapters/chapter-001.symbolic-plan.iter-001.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-002",
+          "label": "symbolic-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/chapters/chapter-002.symbolic-plan.iter-001.md",
+          "relativePath": "chapters/chapter-002.symbolic-plan.iter-001.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-003",
+          "label": "symbolic-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/chapters/chapter-003.symbolic-plan.iter-001.md",
+          "relativePath": "chapters/chapter-003.symbolic-plan.iter-001.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational",
+          "workForm": "short-story"
+        }
+      }
+    },
+    {
+      "runIndex": 3,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-001",
+          "label": "symbolic-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/micro/chapter-001.symbolic-plan.iter-001.md",
+          "relativePath": "micro/chapter-001.symbolic-plan.iter-001.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-002",
+          "label": "symbolic-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/micro/chapter-002.symbolic-plan.iter-001.md",
+          "relativePath": "micro/chapter-002.symbolic-plan.iter-001.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-003",
+          "label": "symbolic-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/micro/chapter-003.symbolic-plan.iter-001.md",
+          "relativePath": "micro/chapter-003.symbolic-plan.iter-001.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational",
+          "workForm": "short-story"
+        }
+      }
+    },
+    {
+      "runIndex": 4,
+      "stage": "cnl",
+      "consumed": [
+        "macro/book.symbolic-plan.iter-001.md",
+        "macro/characters.symbolic-plan.iter-001.md",
+        "macro/world.symbolic-plan.iter-001.md",
+        "chapters/chapter-001.symbolic-plan.iter-001.md",
+        "chapters/chapter-002.symbolic-plan.iter-001.md",
+        "chapters/chapter-003.symbolic-plan.iter-001.md",
+        "micro/chapter-001.symbolic-plan.iter-001.md",
+        "micro/chapter-002.symbolic-plan.iter-001.md",
+        "micro/chapter-003.symbolic-plan.iter-001.md"
+      ],
+      "produced": [
+        {
+          "stage": "cnl",
+          "baseName": "book",
+          "label": "macro-refined-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/book.macro-refined-plan.iter-001.md",
+          "relativePath": "cnl/book.macro-refined-plan.iter-001.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "characters",
+          "label": "macro-refined-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/characters.macro-refined-plan.iter-001.md",
+          "relativePath": "cnl/characters.macro-refined-plan.iter-001.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "world",
+          "label": "macro-refined-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/world.macro-refined-plan.iter-001.md",
+          "relativePath": "cnl/world.macro-refined-plan.iter-001.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-001",
+          "label": "chapter-refined-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-001.chapter-refined-plan.iter-001.md",
+          "relativePath": "cnl/chapter-001.chapter-refined-plan.iter-001.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-002",
+          "label": "chapter-refined-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-002.chapter-refined-plan.iter-001.md",
+          "relativePath": "cnl/chapter-002.chapter-refined-plan.iter-001.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-003",
+          "label": "chapter-refined-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-003.chapter-refined-plan.iter-001.md",
+          "relativePath": "cnl/chapter-003.chapter-refined-plan.iter-001.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-001",
+          "label": "micro-refined-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-001.micro-refined-plan.iter-001.md",
+          "relativePath": "cnl/chapter-001.micro-refined-plan.iter-001.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-002",
+          "label": "micro-refined-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-002.micro-refined-plan.iter-001.md",
+          "relativePath": "cnl/chapter-002.micro-refined-plan.iter-001.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-003",
+          "label": "micro-refined-plan",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-003.micro-refined-plan.iter-001.md",
+          "relativePath": "cnl/chapter-003.micro-refined-plan.iter-001.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "placeholder-resolution",
+          "label": "cnl-resolution",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/placeholder-resolution.cnl-resolution.iter-001.json",
+          "relativePath": "cnl/placeholder-resolution.cnl-resolution.iter-001.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational"
+        }
+      }
+    },
+    {
+      "runIndex": 5,
+      "stage": "drafts",
+      "consumed": [
+        "cnl/chapter-001.chapter-refined-plan.iter-001.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-001.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-001.md",
+        "cnl/chapter-001.micro-refined-plan.iter-001.md",
+        "cnl/chapter-002.micro-refined-plan.iter-001.md",
+        "cnl/chapter-003.micro-refined-plan.iter-001.md",
+        "cnl/book.macro-refined-plan.iter-001.md",
+        "cnl/characters.macro-refined-plan.iter-001.md",
+        "cnl/world.macro-refined-plan.iter-001.md"
+      ],
+      "produced": [
+        {
+          "stage": "drafts",
+          "baseName": "chapter-001",
+          "label": "draft",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-001.draft.iter-001.md",
+          "relativePath": "drafts/chapter-001.draft.iter-001.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-001",
+          "label": "continuity",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-001.continuity.iter-001.json",
+          "relativePath": "drafts/chapter-001.continuity.iter-001.json"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-002",
+          "label": "draft",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-002.draft.iter-001.md",
+          "relativePath": "drafts/chapter-002.draft.iter-001.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-002",
+          "label": "continuity",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-002.continuity.iter-001.json",
+          "relativePath": "drafts/chapter-002.continuity.iter-001.json"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-003",
+          "label": "draft",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-003.draft.iter-001.md",
+          "relativePath": "drafts/chapter-003.draft.iter-001.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-003",
+          "label": "continuity",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-003.continuity.iter-001.json",
+          "relativePath": "drafts/chapter-003.continuity.iter-001.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational"
+        }
+      }
+    },
+    {
+      "runIndex": 6,
+      "stage": "exports",
+      "consumed": [
+        "drafts/chapter-001.draft.iter-001.md",
+        "drafts/chapter-002.draft.iter-001.md",
+        "drafts/chapter-003.draft.iter-001.md"
+      ],
+      "produced": [
+        {
+          "stage": "exports",
+          "baseName": "manuscript",
+          "label": "book",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/manuscript.book.iter-001.md",
+          "relativePath": "exports/manuscript.book.iter-001.md"
+        },
+        {
+          "stage": "exports",
+          "baseName": "manuscript",
+          "label": "summary",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/manuscript.summary.iter-001.json",
+          "relativePath": "exports/manuscript.summary.iter-001.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational"
+        }
+      }
+    },
+    {
+      "runIndex": 7,
+      "stage": "validation",
+      "consumed": [
+        "drafts/chapter-001.draft.iter-001.md",
+        "drafts/chapter-002.draft.iter-001.md",
+        "drafts/chapter-003.draft.iter-001.md",
+        "drafts/chapter-001.continuity.iter-001.json",
+        "drafts/chapter-002.continuity.iter-001.json",
+        "drafts/chapter-003.continuity.iter-001.json",
+        "chapters/chapter-001.symbolic-plan.iter-001.md",
+        "chapters/chapter-002.symbolic-plan.iter-001.md",
+        "chapters/chapter-003.symbolic-plan.iter-001.md",
+        "cnl/chapter-001.chapter-refined-plan.iter-001.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-001.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-001.md"
+      ],
+      "produced": [
+        {
+          "stage": "validation",
+          "baseName": "summary",
+          "label": "validation",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/summary.validation.iter-001.json",
+          "relativePath": "validation/summary.validation.iter-001.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "issues",
+          "label": "validation",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/issues.validation.iter-001.json",
+          "relativePath": "validation/issues.validation.iter-001.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "summary",
+          "label": "report",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/reports/summary.report.iter-001.md",
+          "relativePath": "reports/summary.report.iter-001.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational"
+        }
+      }
+    },
+    {
+      "runIndex": 8,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "book",
+          "label": "symbolic-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/macro/book.symbolic-plan.iter-002.md",
+          "relativePath": "macro/book.symbolic-plan.iter-002.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "characters",
+          "label": "symbolic-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/macro/characters.symbolic-plan.iter-002.md",
+          "relativePath": "macro/characters.symbolic-plan.iter-002.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "world",
+          "label": "symbolic-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/macro/world.symbolic-plan.iter-002.md",
+          "relativePath": "macro/world.symbolic-plan.iter-002.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational",
+          "workForm": "short-story"
+        }
+      }
+    },
+    {
+      "runIndex": 9,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-001",
+          "label": "symbolic-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/chapters/chapter-001.symbolic-plan.iter-002.md",
+          "relativePath": "chapters/chapter-001.symbolic-plan.iter-002.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-002",
+          "label": "symbolic-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/chapters/chapter-002.symbolic-plan.iter-002.md",
+          "relativePath": "chapters/chapter-002.symbolic-plan.iter-002.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-003",
+          "label": "symbolic-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/chapters/chapter-003.symbolic-plan.iter-002.md",
+          "relativePath": "chapters/chapter-003.symbolic-plan.iter-002.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational",
+          "workForm": "short-story"
+        }
+      }
+    },
+    {
+      "runIndex": 10,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-001",
+          "label": "symbolic-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/micro/chapter-001.symbolic-plan.iter-002.md",
+          "relativePath": "micro/chapter-001.symbolic-plan.iter-002.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-002",
+          "label": "symbolic-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/micro/chapter-002.symbolic-plan.iter-002.md",
+          "relativePath": "micro/chapter-002.symbolic-plan.iter-002.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-003",
+          "label": "symbolic-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/micro/chapter-003.symbolic-plan.iter-002.md",
+          "relativePath": "micro/chapter-003.symbolic-plan.iter-002.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational",
+          "workForm": "short-story"
+        }
+      }
+    },
+    {
+      "runIndex": 11,
+      "stage": "cnl",
+      "consumed": [
+        "macro/book.symbolic-plan.iter-002.md",
+        "macro/characters.symbolic-plan.iter-002.md",
+        "macro/world.symbolic-plan.iter-002.md",
+        "chapters/chapter-001.symbolic-plan.iter-002.md",
+        "chapters/chapter-002.symbolic-plan.iter-002.md",
+        "chapters/chapter-003.symbolic-plan.iter-002.md",
+        "micro/chapter-001.symbolic-plan.iter-002.md",
+        "micro/chapter-002.symbolic-plan.iter-002.md",
+        "micro/chapter-003.symbolic-plan.iter-002.md"
+      ],
+      "produced": [
+        {
+          "stage": "cnl",
+          "baseName": "book",
+          "label": "macro-refined-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/book.macro-refined-plan.iter-002.md",
+          "relativePath": "cnl/book.macro-refined-plan.iter-002.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "characters",
+          "label": "macro-refined-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/characters.macro-refined-plan.iter-002.md",
+          "relativePath": "cnl/characters.macro-refined-plan.iter-002.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "world",
+          "label": "macro-refined-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/world.macro-refined-plan.iter-002.md",
+          "relativePath": "cnl/world.macro-refined-plan.iter-002.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-001",
+          "label": "chapter-refined-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-001.chapter-refined-plan.iter-002.md",
+          "relativePath": "cnl/chapter-001.chapter-refined-plan.iter-002.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-002",
+          "label": "chapter-refined-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-002.chapter-refined-plan.iter-002.md",
+          "relativePath": "cnl/chapter-002.chapter-refined-plan.iter-002.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-003",
+          "label": "chapter-refined-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-003.chapter-refined-plan.iter-002.md",
+          "relativePath": "cnl/chapter-003.chapter-refined-plan.iter-002.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-001",
+          "label": "micro-refined-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-001.micro-refined-plan.iter-002.md",
+          "relativePath": "cnl/chapter-001.micro-refined-plan.iter-002.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-002",
+          "label": "micro-refined-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-002.micro-refined-plan.iter-002.md",
+          "relativePath": "cnl/chapter-002.micro-refined-plan.iter-002.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-003",
+          "label": "micro-refined-plan",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-003.micro-refined-plan.iter-002.md",
+          "relativePath": "cnl/chapter-003.micro-refined-plan.iter-002.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "placeholder-resolution",
+          "label": "cnl-resolution",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/placeholder-resolution.cnl-resolution.iter-002.json",
+          "relativePath": "cnl/placeholder-resolution.cnl-resolution.iter-002.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational"
+        }
+      }
+    },
+    {
+      "runIndex": 12,
+      "stage": "drafts",
+      "consumed": [
+        "cnl/chapter-001.chapter-refined-plan.iter-002.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-002.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-002.md",
+        "cnl/chapter-001.micro-refined-plan.iter-002.md",
+        "cnl/chapter-002.micro-refined-plan.iter-002.md",
+        "cnl/chapter-003.micro-refined-plan.iter-002.md",
+        "cnl/book.macro-refined-plan.iter-002.md",
+        "cnl/characters.macro-refined-plan.iter-002.md",
+        "cnl/world.macro-refined-plan.iter-002.md"
+      ],
+      "produced": [
+        {
+          "stage": "drafts",
+          "baseName": "chapter-001",
+          "label": "draft",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-001.draft.iter-002.md",
+          "relativePath": "drafts/chapter-001.draft.iter-002.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-001",
+          "label": "continuity",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-001.continuity.iter-002.json",
+          "relativePath": "drafts/chapter-001.continuity.iter-002.json"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-002",
+          "label": "draft",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-002.draft.iter-002.md",
+          "relativePath": "drafts/chapter-002.draft.iter-002.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-002",
+          "label": "continuity",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-002.continuity.iter-002.json",
+          "relativePath": "drafts/chapter-002.continuity.iter-002.json"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-003",
+          "label": "draft",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-003.draft.iter-002.md",
+          "relativePath": "drafts/chapter-003.draft.iter-002.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-003",
+          "label": "continuity",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-003.continuity.iter-002.json",
+          "relativePath": "drafts/chapter-003.continuity.iter-002.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational"
+        }
+      }
+    },
+    {
+      "runIndex": 13,
+      "stage": "exports",
+      "consumed": [
+        "drafts/chapter-001.draft.iter-002.md",
+        "drafts/chapter-002.draft.iter-002.md",
+        "drafts/chapter-003.draft.iter-002.md",
+        "drafts/chapter-001.continuity.iter-002.json",
+        "drafts/chapter-002.continuity.iter-002.json",
+        "drafts/chapter-003.continuity.iter-002.json",
+        "cnl/chapter-001.chapter-refined-plan.iter-002.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-002.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-002.md",
+        "cnl/chapter-001.micro-refined-plan.iter-002.md",
+        "cnl/chapter-002.micro-refined-plan.iter-002.md",
+        "cnl/chapter-003.micro-refined-plan.iter-002.md",
+        "cnl/book.macro-refined-plan.iter-002.md",
+        "cnl/characters.macro-refined-plan.iter-002.md",
+        "cnl/world.macro-refined-plan.iter-002.md"
+      ],
+      "produced": [
+        {
+          "stage": "exports",
+          "baseName": "manuscript",
+          "label": "book",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/manuscript.book.iter-002.md",
+          "relativePath": "exports/manuscript.book.iter-002.md"
+        },
+        {
+          "stage": "exports",
+          "baseName": "edition-en",
+          "label": "reader",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/edition-en.reader.iter-001.html",
+          "relativePath": "exports/edition-en.reader.iter-001.html"
+        },
+        {
+          "stage": "exports",
+          "baseName": "edition-ro",
+          "label": "reader",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/edition-ro.reader.iter-001.html",
+          "relativePath": "exports/edition-ro.reader.iter-001.html"
+        },
+        {
+          "stage": "exports",
+          "baseName": "editions",
+          "label": "bundle",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/editions.bundle.iter-001.json",
+          "relativePath": "exports/editions.bundle.iter-001.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational"
+        }
+      }
+    },
+    {
+      "runIndex": 14,
+      "stage": "validation",
+      "consumed": [
+        "drafts/chapter-001.draft.iter-002.md",
+        "drafts/chapter-002.draft.iter-002.md",
+        "drafts/chapter-003.draft.iter-002.md",
+        "drafts/chapter-001.continuity.iter-002.json",
+        "drafts/chapter-002.continuity.iter-002.json",
+        "drafts/chapter-003.continuity.iter-002.json",
+        "chapters/chapter-001.symbolic-plan.iter-002.md",
+        "chapters/chapter-002.symbolic-plan.iter-002.md",
+        "chapters/chapter-003.symbolic-plan.iter-002.md",
+        "cnl/chapter-001.chapter-refined-plan.iter-002.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-002.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-002.md",
+        "cnl/book.macro-refined-plan.iter-002.md",
+        "cnl/characters.macro-refined-plan.iter-002.md",
+        "cnl/world.macro-refined-plan.iter-002.md",
+        "cnl/chapter-001.micro-refined-plan.iter-002.md",
+        "cnl/chapter-002.micro-refined-plan.iter-002.md",
+        "cnl/chapter-003.micro-refined-plan.iter-002.md",
+        "cnl/placeholder-resolution.cnl-resolution.iter-002.json",
+        "exports/edition-en.reader.iter-001.html",
+        "exports/edition-ro.reader.iter-001.html",
+        "exports/editions.bundle.iter-001.json"
+      ],
+      "produced": [
+        {
+          "stage": "validation",
+          "baseName": "summary",
+          "label": "validation",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/summary.validation.iter-002.json",
+          "relativePath": "validation/summary.validation.iter-002.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "issues",
+          "label": "validation",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/issues.validation.iter-002.json",
+          "relativePath": "validation/issues.validation.iter-002.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "stages",
+          "label": "validation",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/stages.validation.iter-001.json",
+          "relativePath": "validation/stages.validation.iter-001.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "tasks",
+          "label": "validation",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/tasks.validation.iter-001.json",
+          "relativePath": "validation/tasks.validation.iter-001.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "summary",
+          "label": "report",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/reports/summary.report.iter-002.md",
+          "relativePath": "reports/summary.report.iter-002.md"
+        },
+        {
+          "stage": "validation",
+          "baseName": "stages",
+          "label": "report",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/reports/stages.report.iter-001.md",
+          "relativePath": "reports/stages.report.iter-001.md"
+        },
+        {
+          "stage": "validation",
+          "baseName": "tasks",
+          "label": "report",
+          "iteration": 1,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/reports/tasks.report.iter-001.md",
+          "relativePath": "reports/tasks.report.iter-001.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational"
+        }
+      }
+    },
+    {
+      "runIndex": 15,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "book",
+          "label": "symbolic-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/macro/book.symbolic-plan.iter-003.md",
+          "relativePath": "macro/book.symbolic-plan.iter-003.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "characters",
+          "label": "symbolic-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/macro/characters.symbolic-plan.iter-003.md",
+          "relativePath": "macro/characters.symbolic-plan.iter-003.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "world",
+          "label": "symbolic-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/macro/world.symbolic-plan.iter-003.md",
+          "relativePath": "macro/world.symbolic-plan.iter-003.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational",
+          "workForm": "short-story"
+        }
+      }
+    },
+    {
+      "runIndex": 16,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-001",
+          "label": "symbolic-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/chapters/chapter-001.symbolic-plan.iter-003.md",
+          "relativePath": "chapters/chapter-001.symbolic-plan.iter-003.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-002",
+          "label": "symbolic-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/chapters/chapter-002.symbolic-plan.iter-003.md",
+          "relativePath": "chapters/chapter-002.symbolic-plan.iter-003.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-003",
+          "label": "symbolic-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/chapters/chapter-003.symbolic-plan.iter-003.md",
+          "relativePath": "chapters/chapter-003.symbolic-plan.iter-003.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational",
+          "workForm": "short-story"
+        }
+      }
+    },
+    {
+      "runIndex": 17,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-001",
+          "label": "symbolic-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/micro/chapter-001.symbolic-plan.iter-003.md",
+          "relativePath": "micro/chapter-001.symbolic-plan.iter-003.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-002",
+          "label": "symbolic-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/micro/chapter-002.symbolic-plan.iter-003.md",
+          "relativePath": "micro/chapter-002.symbolic-plan.iter-003.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-003",
+          "label": "symbolic-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/micro/chapter-003.symbolic-plan.iter-003.md",
+          "relativePath": "micro/chapter-003.symbolic-plan.iter-003.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational",
+          "workForm": "short-story"
+        }
+      }
+    },
+    {
+      "runIndex": 18,
+      "stage": "cnl",
+      "consumed": [
+        "macro/book.symbolic-plan.iter-003.md",
+        "macro/characters.symbolic-plan.iter-003.md",
+        "macro/world.symbolic-plan.iter-003.md",
+        "chapters/chapter-001.symbolic-plan.iter-003.md",
+        "chapters/chapter-002.symbolic-plan.iter-003.md",
+        "chapters/chapter-003.symbolic-plan.iter-003.md",
+        "micro/chapter-001.symbolic-plan.iter-003.md",
+        "micro/chapter-002.symbolic-plan.iter-003.md",
+        "micro/chapter-003.symbolic-plan.iter-003.md"
+      ],
+      "produced": [
+        {
+          "stage": "cnl",
+          "baseName": "book",
+          "label": "macro-refined-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/book.macro-refined-plan.iter-003.md",
+          "relativePath": "cnl/book.macro-refined-plan.iter-003.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "characters",
+          "label": "macro-refined-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/characters.macro-refined-plan.iter-003.md",
+          "relativePath": "cnl/characters.macro-refined-plan.iter-003.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "world",
+          "label": "macro-refined-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/world.macro-refined-plan.iter-003.md",
+          "relativePath": "cnl/world.macro-refined-plan.iter-003.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-001",
+          "label": "chapter-refined-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-001.chapter-refined-plan.iter-003.md",
+          "relativePath": "cnl/chapter-001.chapter-refined-plan.iter-003.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-002",
+          "label": "chapter-refined-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-002.chapter-refined-plan.iter-003.md",
+          "relativePath": "cnl/chapter-002.chapter-refined-plan.iter-003.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-003",
+          "label": "chapter-refined-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-003.chapter-refined-plan.iter-003.md",
+          "relativePath": "cnl/chapter-003.chapter-refined-plan.iter-003.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-001",
+          "label": "micro-refined-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-001.micro-refined-plan.iter-003.md",
+          "relativePath": "cnl/chapter-001.micro-refined-plan.iter-003.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-002",
+          "label": "micro-refined-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-002.micro-refined-plan.iter-003.md",
+          "relativePath": "cnl/chapter-002.micro-refined-plan.iter-003.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-003",
+          "label": "micro-refined-plan",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-003.micro-refined-plan.iter-003.md",
+          "relativePath": "cnl/chapter-003.micro-refined-plan.iter-003.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "placeholder-resolution",
+          "label": "cnl-resolution",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/placeholder-resolution.cnl-resolution.iter-003.json",
+          "relativePath": "cnl/placeholder-resolution.cnl-resolution.iter-003.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational"
+        }
+      }
+    },
+    {
+      "runIndex": 19,
+      "stage": "drafts",
+      "consumed": [
+        "cnl/chapter-001.chapter-refined-plan.iter-003.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-003.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-003.md",
+        "cnl/chapter-001.micro-refined-plan.iter-003.md",
+        "cnl/chapter-002.micro-refined-plan.iter-003.md",
+        "cnl/chapter-003.micro-refined-plan.iter-003.md",
+        "cnl/book.macro-refined-plan.iter-003.md",
+        "cnl/characters.macro-refined-plan.iter-003.md",
+        "cnl/world.macro-refined-plan.iter-003.md"
+      ],
+      "produced": [
+        {
+          "stage": "drafts",
+          "baseName": "chapter-001",
+          "label": "draft",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-001.draft.iter-003.md",
+          "relativePath": "drafts/chapter-001.draft.iter-003.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-001",
+          "label": "continuity",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-001.continuity.iter-003.json",
+          "relativePath": "drafts/chapter-001.continuity.iter-003.json"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-002",
+          "label": "draft",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-002.draft.iter-003.md",
+          "relativePath": "drafts/chapter-002.draft.iter-003.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-002",
+          "label": "continuity",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-002.continuity.iter-003.json",
+          "relativePath": "drafts/chapter-002.continuity.iter-003.json"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-003",
+          "label": "draft",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-003.draft.iter-003.md",
+          "relativePath": "drafts/chapter-003.draft.iter-003.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-003",
+          "label": "continuity",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-003.continuity.iter-003.json",
+          "relativePath": "drafts/chapter-003.continuity.iter-003.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational"
+        }
+      }
+    },
+    {
+      "runIndex": 20,
+      "stage": "exports",
+      "consumed": [
+        "drafts/chapter-001.draft.iter-003.md",
+        "drafts/chapter-002.draft.iter-003.md",
+        "drafts/chapter-003.draft.iter-003.md",
+        "drafts/chapter-001.continuity.iter-003.json",
+        "drafts/chapter-002.continuity.iter-003.json",
+        "drafts/chapter-003.continuity.iter-003.json",
+        "cnl/chapter-001.chapter-refined-plan.iter-003.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-003.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-003.md",
+        "cnl/chapter-001.micro-refined-plan.iter-003.md",
+        "cnl/chapter-002.micro-refined-plan.iter-003.md",
+        "cnl/chapter-003.micro-refined-plan.iter-003.md",
+        "cnl/book.macro-refined-plan.iter-003.md",
+        "cnl/characters.macro-refined-plan.iter-003.md",
+        "cnl/world.macro-refined-plan.iter-003.md"
+      ],
+      "produced": [
+        {
+          "stage": "exports",
+          "baseName": "manuscript",
+          "label": "book",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/manuscript.book.iter-003.md",
+          "relativePath": "exports/manuscript.book.iter-003.md"
+        },
+        {
+          "stage": "exports",
+          "baseName": "edition-en",
+          "label": "reader",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/edition-en.reader.iter-002.html",
+          "relativePath": "exports/edition-en.reader.iter-002.html"
+        },
+        {
+          "stage": "exports",
+          "baseName": "edition-ro",
+          "label": "reader",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/edition-ro.reader.iter-002.html",
+          "relativePath": "exports/edition-ro.reader.iter-002.html"
+        },
+        {
+          "stage": "exports",
+          "baseName": "editions",
+          "label": "bundle",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/editions.bundle.iter-002.json",
+          "relativePath": "exports/editions.bundle.iter-002.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational"
+        }
+      }
+    },
+    {
+      "runIndex": 21,
+      "stage": "validation",
+      "consumed": [
+        "drafts/chapter-001.draft.iter-003.md",
+        "drafts/chapter-002.draft.iter-003.md",
+        "drafts/chapter-003.draft.iter-003.md",
+        "drafts/chapter-001.continuity.iter-003.json",
+        "drafts/chapter-002.continuity.iter-003.json",
+        "drafts/chapter-003.continuity.iter-003.json",
+        "chapters/chapter-001.symbolic-plan.iter-003.md",
+        "chapters/chapter-002.symbolic-plan.iter-003.md",
+        "chapters/chapter-003.symbolic-plan.iter-003.md",
+        "cnl/chapter-001.chapter-refined-plan.iter-003.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-003.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-003.md",
+        "cnl/book.macro-refined-plan.iter-003.md",
+        "cnl/characters.macro-refined-plan.iter-003.md",
+        "cnl/world.macro-refined-plan.iter-003.md",
+        "cnl/chapter-001.micro-refined-plan.iter-003.md",
+        "cnl/chapter-002.micro-refined-plan.iter-003.md",
+        "cnl/chapter-003.micro-refined-plan.iter-003.md",
+        "cnl/placeholder-resolution.cnl-resolution.iter-003.json",
+        "exports/edition-en.reader.iter-002.html",
+        "exports/edition-ro.reader.iter-002.html",
+        "exports/editions.bundle.iter-002.json"
+      ],
+      "produced": [
+        {
+          "stage": "validation",
+          "baseName": "summary",
+          "label": "validation",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/summary.validation.iter-003.json",
+          "relativePath": "validation/summary.validation.iter-003.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "issues",
+          "label": "validation",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/issues.validation.iter-003.json",
+          "relativePath": "validation/issues.validation.iter-003.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "stages",
+          "label": "validation",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/stages.validation.iter-002.json",
+          "relativePath": "validation/stages.validation.iter-002.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "tasks",
+          "label": "validation",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/tasks.validation.iter-002.json",
+          "relativePath": "validation/tasks.validation.iter-002.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "summary",
+          "label": "report",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/reports/summary.report.iter-003.md",
+          "relativePath": "reports/summary.report.iter-003.md"
+        },
+        {
+          "stage": "validation",
+          "baseName": "stages",
+          "label": "report",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/reports/stages.report.iter-002.md",
+          "relativePath": "reports/stages.report.iter-002.md"
+        },
+        {
+          "stage": "validation",
+          "baseName": "tasks",
+          "label": "report",
+          "iteration": 2,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/reports/tasks.report.iter-002.md",
+          "relativePath": "reports/tasks.report.iter-002.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational"
+        }
+      }
+    },
+    {
+      "runIndex": 22,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "book",
+          "label": "symbolic-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/macro/book.symbolic-plan.iter-004.md",
+          "relativePath": "macro/book.symbolic-plan.iter-004.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "characters",
+          "label": "symbolic-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/macro/characters.symbolic-plan.iter-004.md",
+          "relativePath": "macro/characters.symbolic-plan.iter-004.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "world",
+          "label": "symbolic-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/macro/world.symbolic-plan.iter-004.md",
+          "relativePath": "macro/world.symbolic-plan.iter-004.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational",
+          "workForm": "short-story"
+        }
+      }
+    },
+    {
+      "runIndex": 23,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-001",
+          "label": "symbolic-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/chapters/chapter-001.symbolic-plan.iter-004.md",
+          "relativePath": "chapters/chapter-001.symbolic-plan.iter-004.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-002",
+          "label": "symbolic-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/chapters/chapter-002.symbolic-plan.iter-004.md",
+          "relativePath": "chapters/chapter-002.symbolic-plan.iter-004.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-003",
+          "label": "symbolic-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/chapters/chapter-003.symbolic-plan.iter-004.md",
+          "relativePath": "chapters/chapter-003.symbolic-plan.iter-004.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational",
+          "workForm": "short-story"
+        }
+      }
+    },
+    {
+      "runIndex": 24,
+      "stage": "symbolic-seed",
+      "consumed": [],
+      "produced": [
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-001",
+          "label": "symbolic-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/micro/chapter-001.symbolic-plan.iter-004.md",
+          "relativePath": "micro/chapter-001.symbolic-plan.iter-004.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-002",
+          "label": "symbolic-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/micro/chapter-002.symbolic-plan.iter-004.md",
+          "relativePath": "micro/chapter-002.symbolic-plan.iter-004.md"
+        },
+        {
+          "stage": "symbolic-seed",
+          "baseName": "chapter-003",
+          "label": "symbolic-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/micro/chapter-003.symbolic-plan.iter-004.md",
+          "relativePath": "micro/chapter-003.symbolic-plan.iter-004.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational",
+          "workForm": "short-story"
+        }
+      }
+    },
+    {
+      "runIndex": 25,
+      "stage": "cnl",
+      "consumed": [
+        "macro/book.symbolic-plan.iter-004.md",
+        "macro/characters.symbolic-plan.iter-004.md",
+        "macro/world.symbolic-plan.iter-004.md",
+        "chapters/chapter-001.symbolic-plan.iter-004.md",
+        "chapters/chapter-002.symbolic-plan.iter-004.md",
+        "chapters/chapter-003.symbolic-plan.iter-004.md",
+        "micro/chapter-001.symbolic-plan.iter-004.md",
+        "micro/chapter-002.symbolic-plan.iter-004.md",
+        "micro/chapter-003.symbolic-plan.iter-004.md"
+      ],
+      "produced": [
+        {
+          "stage": "cnl",
+          "baseName": "book",
+          "label": "macro-refined-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/book.macro-refined-plan.iter-004.md",
+          "relativePath": "cnl/book.macro-refined-plan.iter-004.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "characters",
+          "label": "macro-refined-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/characters.macro-refined-plan.iter-004.md",
+          "relativePath": "cnl/characters.macro-refined-plan.iter-004.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "world",
+          "label": "macro-refined-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/world.macro-refined-plan.iter-004.md",
+          "relativePath": "cnl/world.macro-refined-plan.iter-004.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-001",
+          "label": "chapter-refined-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-001.chapter-refined-plan.iter-004.md",
+          "relativePath": "cnl/chapter-001.chapter-refined-plan.iter-004.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-002",
+          "label": "chapter-refined-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-002.chapter-refined-plan.iter-004.md",
+          "relativePath": "cnl/chapter-002.chapter-refined-plan.iter-004.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-003",
+          "label": "chapter-refined-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-003.chapter-refined-plan.iter-004.md",
+          "relativePath": "cnl/chapter-003.chapter-refined-plan.iter-004.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-001",
+          "label": "micro-refined-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-001.micro-refined-plan.iter-004.md",
+          "relativePath": "cnl/chapter-001.micro-refined-plan.iter-004.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-002",
+          "label": "micro-refined-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-002.micro-refined-plan.iter-004.md",
+          "relativePath": "cnl/chapter-002.micro-refined-plan.iter-004.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "chapter-003",
+          "label": "micro-refined-plan",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-003.micro-refined-plan.iter-004.md",
+          "relativePath": "cnl/chapter-003.micro-refined-plan.iter-004.md"
+        },
+        {
+          "stage": "cnl",
+          "baseName": "placeholder-resolution",
+          "label": "cnl-resolution",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/placeholder-resolution.cnl-resolution.iter-004.json",
+          "relativePath": "cnl/placeholder-resolution.cnl-resolution.iter-004.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational"
+        }
+      }
+    },
+    {
+      "runIndex": 26,
+      "stage": "drafts",
+      "consumed": [
+        "cnl/chapter-001.chapter-refined-plan.iter-004.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-004.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-004.md",
+        "cnl/chapter-001.micro-refined-plan.iter-004.md",
+        "cnl/chapter-002.micro-refined-plan.iter-004.md",
+        "cnl/chapter-003.micro-refined-plan.iter-004.md",
+        "cnl/book.macro-refined-plan.iter-004.md",
+        "cnl/characters.macro-refined-plan.iter-004.md",
+        "cnl/world.macro-refined-plan.iter-004.md"
+      ],
+      "produced": [
+        {
+          "stage": "drafts",
+          "baseName": "chapter-001",
+          "label": "draft",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-001.draft.iter-004.md",
+          "relativePath": "drafts/chapter-001.draft.iter-004.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-001",
+          "label": "continuity",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-001.continuity.iter-004.json",
+          "relativePath": "drafts/chapter-001.continuity.iter-004.json"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-002",
+          "label": "draft",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-002.draft.iter-004.md",
+          "relativePath": "drafts/chapter-002.draft.iter-004.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-002",
+          "label": "continuity",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-002.continuity.iter-004.json",
+          "relativePath": "drafts/chapter-002.continuity.iter-004.json"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-003",
+          "label": "draft",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-003.draft.iter-004.md",
+          "relativePath": "drafts/chapter-003.draft.iter-004.md"
+        },
+        {
+          "stage": "drafts",
+          "baseName": "chapter-003",
+          "label": "continuity",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-003.continuity.iter-004.json",
+          "relativePath": "drafts/chapter-003.continuity.iter-004.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational"
+        }
+      }
+    },
+    {
+      "runIndex": 27,
+      "stage": "exports",
+      "consumed": [
+        "drafts/chapter-001.draft.iter-004.md",
+        "drafts/chapter-002.draft.iter-004.md",
+        "drafts/chapter-003.draft.iter-004.md",
+        "drafts/chapter-001.continuity.iter-004.json",
+        "drafts/chapter-002.continuity.iter-004.json",
+        "drafts/chapter-003.continuity.iter-004.json",
+        "cnl/chapter-001.chapter-refined-plan.iter-004.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-004.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-004.md",
+        "cnl/chapter-001.micro-refined-plan.iter-004.md",
+        "cnl/chapter-002.micro-refined-plan.iter-004.md",
+        "cnl/chapter-003.micro-refined-plan.iter-004.md",
+        "cnl/book.macro-refined-plan.iter-004.md",
+        "cnl/characters.macro-refined-plan.iter-004.md",
+        "cnl/world.macro-refined-plan.iter-004.md"
+      ],
+      "produced": [
+        {
+          "stage": "exports",
+          "baseName": "manuscript",
+          "label": "book",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/manuscript.book.iter-004.md",
+          "relativePath": "exports/manuscript.book.iter-004.md"
+        },
+        {
+          "stage": "exports",
+          "baseName": "edition-en",
+          "label": "reader",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/edition-en.reader.iter-003.html",
+          "relativePath": "exports/edition-en.reader.iter-003.html"
+        },
+        {
+          "stage": "exports",
+          "baseName": "edition-ro",
+          "label": "reader",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/edition-ro.reader.iter-003.html",
+          "relativePath": "exports/edition-ro.reader.iter-003.html"
+        },
+        {
+          "stage": "exports",
+          "baseName": "editions",
+          "label": "bundle",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/editions.bundle.iter-003.json",
+          "relativePath": "exports/editions.bundle.iter-003.json"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational"
+        }
+      }
+    },
+    {
+      "runIndex": 28,
+      "stage": "validation",
+      "consumed": [
+        "drafts/chapter-001.draft.iter-004.md",
+        "drafts/chapter-002.draft.iter-004.md",
+        "drafts/chapter-003.draft.iter-004.md",
+        "drafts/chapter-001.continuity.iter-004.json",
+        "drafts/chapter-002.continuity.iter-004.json",
+        "drafts/chapter-003.continuity.iter-004.json",
+        "chapters/chapter-001.symbolic-plan.iter-004.md",
+        "chapters/chapter-002.symbolic-plan.iter-004.md",
+        "chapters/chapter-003.symbolic-plan.iter-004.md",
+        "cnl/chapter-001.chapter-refined-plan.iter-004.md",
+        "cnl/chapter-002.chapter-refined-plan.iter-004.md",
+        "cnl/chapter-003.chapter-refined-plan.iter-004.md",
+        "cnl/book.macro-refined-plan.iter-004.md",
+        "cnl/characters.macro-refined-plan.iter-004.md",
+        "cnl/world.macro-refined-plan.iter-004.md",
+        "cnl/chapter-001.micro-refined-plan.iter-004.md",
+        "cnl/chapter-002.micro-refined-plan.iter-004.md",
+        "cnl/chapter-003.micro-refined-plan.iter-004.md",
+        "cnl/placeholder-resolution.cnl-resolution.iter-004.json",
+        "exports/edition-en.reader.iter-003.html",
+        "exports/edition-ro.reader.iter-003.html",
+        "exports/editions.bundle.iter-003.json"
+      ],
+      "produced": [
+        {
+          "stage": "validation",
+          "baseName": "summary",
+          "label": "validation",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/summary.validation.iter-004.json",
+          "relativePath": "validation/summary.validation.iter-004.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "issues",
+          "label": "validation",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/issues.validation.iter-004.json",
+          "relativePath": "validation/issues.validation.iter-004.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "stages",
+          "label": "validation",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/stages.validation.iter-003.json",
+          "relativePath": "validation/stages.validation.iter-003.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "tasks",
+          "label": "validation",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/tasks.validation.iter-003.json",
+          "relativePath": "validation/tasks.validation.iter-003.json"
+        },
+        {
+          "stage": "validation",
+          "baseName": "summary",
+          "label": "report",
+          "iteration": 4,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/reports/summary.report.iter-004.md",
+          "relativePath": "reports/summary.report.iter-004.md"
+        },
+        {
+          "stage": "validation",
+          "baseName": "stages",
+          "label": "report",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/reports/stages.report.iter-003.md",
+          "relativePath": "reports/stages.report.iter-003.md"
+        },
+        {
+          "stage": "validation",
+          "baseName": "tasks",
+          "label": "report",
+          "iteration": 3,
+          "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/reports/tasks.report.iter-003.md",
+          "relativePath": "reports/tasks.report.iter-003.md"
+        }
+      ],
+      "context": {
+        "book": {
+          "bookId": "qa-romance-margins",
+          "baselineProfile": "romance-relational"
+        }
+      }
+    }
+  ],
+  "latest": {
+    "symbolic-seed": [
+      {
+        "stage": "symbolic-seed",
+        "baseName": "chapter-001",
+        "label": "symbolic-plan",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/micro/chapter-001.symbolic-plan.iter-004.md",
+        "relativePath": "micro/chapter-001.symbolic-plan.iter-004.md"
+      },
+      {
+        "stage": "symbolic-seed",
+        "baseName": "chapter-002",
+        "label": "symbolic-plan",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/micro/chapter-002.symbolic-plan.iter-004.md",
+        "relativePath": "micro/chapter-002.symbolic-plan.iter-004.md"
+      },
+      {
+        "stage": "symbolic-seed",
+        "baseName": "chapter-003",
+        "label": "symbolic-plan",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/micro/chapter-003.symbolic-plan.iter-004.md",
+        "relativePath": "micro/chapter-003.symbolic-plan.iter-004.md"
+      }
+    ],
+    "cnl": [
+      {
+        "stage": "cnl",
+        "baseName": "book",
+        "label": "macro-refined-plan",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/book.macro-refined-plan.iter-004.md",
+        "relativePath": "cnl/book.macro-refined-plan.iter-004.md"
+      },
+      {
+        "stage": "cnl",
+        "baseName": "characters",
+        "label": "macro-refined-plan",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/characters.macro-refined-plan.iter-004.md",
+        "relativePath": "cnl/characters.macro-refined-plan.iter-004.md"
+      },
+      {
+        "stage": "cnl",
+        "baseName": "world",
+        "label": "macro-refined-plan",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/world.macro-refined-plan.iter-004.md",
+        "relativePath": "cnl/world.macro-refined-plan.iter-004.md"
+      },
+      {
+        "stage": "cnl",
+        "baseName": "chapter-001",
+        "label": "chapter-refined-plan",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-001.chapter-refined-plan.iter-004.md",
+        "relativePath": "cnl/chapter-001.chapter-refined-plan.iter-004.md"
+      },
+      {
+        "stage": "cnl",
+        "baseName": "chapter-002",
+        "label": "chapter-refined-plan",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-002.chapter-refined-plan.iter-004.md",
+        "relativePath": "cnl/chapter-002.chapter-refined-plan.iter-004.md"
+      },
+      {
+        "stage": "cnl",
+        "baseName": "chapter-003",
+        "label": "chapter-refined-plan",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-003.chapter-refined-plan.iter-004.md",
+        "relativePath": "cnl/chapter-003.chapter-refined-plan.iter-004.md"
+      },
+      {
+        "stage": "cnl",
+        "baseName": "chapter-001",
+        "label": "micro-refined-plan",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-001.micro-refined-plan.iter-004.md",
+        "relativePath": "cnl/chapter-001.micro-refined-plan.iter-004.md"
+      },
+      {
+        "stage": "cnl",
+        "baseName": "chapter-002",
+        "label": "micro-refined-plan",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-002.micro-refined-plan.iter-004.md",
+        "relativePath": "cnl/chapter-002.micro-refined-plan.iter-004.md"
+      },
+      {
+        "stage": "cnl",
+        "baseName": "chapter-003",
+        "label": "micro-refined-plan",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/chapter-003.micro-refined-plan.iter-004.md",
+        "relativePath": "cnl/chapter-003.micro-refined-plan.iter-004.md"
+      },
+      {
+        "stage": "cnl",
+        "baseName": "placeholder-resolution",
+        "label": "cnl-resolution",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/cnl/placeholder-resolution.cnl-resolution.iter-004.json",
+        "relativePath": "cnl/placeholder-resolution.cnl-resolution.iter-004.json"
+      }
+    ],
+    "drafts": [
+      {
+        "stage": "drafts",
+        "baseName": "chapter-001",
+        "label": "draft",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-001.draft.iter-004.md",
+        "relativePath": "drafts/chapter-001.draft.iter-004.md"
+      },
+      {
+        "stage": "drafts",
+        "baseName": "chapter-001",
+        "label": "continuity",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-001.continuity.iter-004.json",
+        "relativePath": "drafts/chapter-001.continuity.iter-004.json"
+      },
+      {
+        "stage": "drafts",
+        "baseName": "chapter-002",
+        "label": "draft",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-002.draft.iter-004.md",
+        "relativePath": "drafts/chapter-002.draft.iter-004.md"
+      },
+      {
+        "stage": "drafts",
+        "baseName": "chapter-002",
+        "label": "continuity",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-002.continuity.iter-004.json",
+        "relativePath": "drafts/chapter-002.continuity.iter-004.json"
+      },
+      {
+        "stage": "drafts",
+        "baseName": "chapter-003",
+        "label": "draft",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-003.draft.iter-004.md",
+        "relativePath": "drafts/chapter-003.draft.iter-004.md"
+      },
+      {
+        "stage": "drafts",
+        "baseName": "chapter-003",
+        "label": "continuity",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/drafts/chapter-003.continuity.iter-004.json",
+        "relativePath": "drafts/chapter-003.continuity.iter-004.json"
+      }
+    ],
+    "exports": [
+      {
+        "stage": "exports",
+        "baseName": "manuscript",
+        "label": "book",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/manuscript.book.iter-004.md",
+        "relativePath": "exports/manuscript.book.iter-004.md"
+      },
+      {
+        "stage": "exports",
+        "baseName": "edition-en",
+        "label": "reader",
+        "iteration": 3,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/edition-en.reader.iter-003.html",
+        "relativePath": "exports/edition-en.reader.iter-003.html"
+      },
+      {
+        "stage": "exports",
+        "baseName": "edition-ro",
+        "label": "reader",
+        "iteration": 3,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/edition-ro.reader.iter-003.html",
+        "relativePath": "exports/edition-ro.reader.iter-003.html"
+      },
+      {
+        "stage": "exports",
+        "baseName": "editions",
+        "label": "bundle",
+        "iteration": 3,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/exports/editions.bundle.iter-003.json",
+        "relativePath": "exports/editions.bundle.iter-003.json"
+      }
+    ],
+    "validation": [
+      {
+        "stage": "validation",
+        "baseName": "summary",
+        "label": "validation",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/summary.validation.iter-004.json",
+        "relativePath": "validation/summary.validation.iter-004.json"
+      },
+      {
+        "stage": "validation",
+        "baseName": "issues",
+        "label": "validation",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/issues.validation.iter-004.json",
+        "relativePath": "validation/issues.validation.iter-004.json"
+      },
+      {
+        "stage": "validation",
+        "baseName": "stages",
+        "label": "validation",
+        "iteration": 3,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/stages.validation.iter-003.json",
+        "relativePath": "validation/stages.validation.iter-003.json"
+      },
+      {
+        "stage": "validation",
+        "baseName": "tasks",
+        "label": "validation",
+        "iteration": 3,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/validation/tasks.validation.iter-003.json",
+        "relativePath": "validation/tasks.validation.iter-003.json"
+      },
+      {
+        "stage": "validation",
+        "baseName": "summary",
+        "label": "report",
+        "iteration": 4,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/reports/summary.report.iter-004.md",
+        "relativePath": "reports/summary.report.iter-004.md"
+      },
+      {
+        "stage": "validation",
+        "baseName": "stages",
+        "label": "report",
+        "iteration": 3,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/reports/stages.report.iter-003.md",
+        "relativePath": "reports/stages.report.iter-003.md"
+      },
+      {
+        "stage": "validation",
+        "baseName": "tasks",
+        "label": "report",
+        "iteration": 3,
+        "filePath": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins/reports/tasks.report.iter-003.md",
+        "relativePath": "reports/tasks.report.iter-003.md"
+      }
+    ]
+  },
+  "book": {
+    "bookId": "qa-romance-margins",
+    "baselineProfile": "romance-relational",
+    "workForm": "short-story"
+  }
+}

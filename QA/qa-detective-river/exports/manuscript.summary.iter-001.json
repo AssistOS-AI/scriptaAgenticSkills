@@ -1,0 +1,6 @@
+{
+  "bookId": "qa-detective-river",
+  "baselineProfile": "detective-police",
+  "chapterCount": 3,
+  "exportPath": "exports/manuscript.book.iter-001.md"
+}

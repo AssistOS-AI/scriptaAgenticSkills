@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCRIPTA Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+  </script>
+</head>
+<body>
+  <div data-include="partials/header.html"></div>
+  <main class="page">
+    <article class="page__panel">
+      <p class="breadcrumbs"><a href="index.html">Home</a></p>
+      <p class="kicker">Project Overview</p>
+      <h1>SCRIPTA Documentation</h1>
+      <p class="lead">
+        SCRIPTA is an implemented reference system for literary production. It transforms a book idea into a
+        structured macro architecture, detailed chapter plans, symbolic micro plans, generated chapters,
+        editorial outputs, and evidence-backed validation reports.
+      </p>
+
+      <div class="callout">
+        The public documentation surface is the SCRIPTA project itself: STG-guided planning, generation,
+        validation, and metrics. Internal helper skills used to author the repository are not part of the
+        SCRIPTA specification set.
+      </div>
+
+      <pre class="mermaid">flowchart LR
+        brief[Book brief] --> symbolic[Symbolic plan generation]
+        symbolic --> macro[MacroPlan]
+        macro --> chapters[ChapPlan]
+        chapters --> micro[MicroPlan]
+        micro --> cnl[CNLEnh]
+        cnl --> generation[ChapGen]
+        generation --> writer[BookWriter]
+        generation --> validation[Validation Suite]
+        validation --> metrics[Percent metrics]
+        validation --> reports[Localized reports]
+        writer --> exports[Single-file HTML readers]
+      </pre>
+
+      <h2>Project objective</h2>
+      <p>
+        The project addresses a recurrent problem in creative writing: the rupture between macro narrative
+        intention and micro narrative execution. SCRIPTA treats book production as a layered system in
+        which the central idea, theme, structure, characters, worldbuilding, scenes, rhythm, and validation
+        evidence remain connected from start to finish.
+      </p>
+
+      <p>
+        The planning files are not freeform notes. They are CNL documents built from command blocks such as
+        <code>@central-idea define</code>, <code>@chapter-004 define</code>, or
+        <code>@suspense-ledger build</code>, followed by fixed labeled lines and optional natural-language
+        hints.
+      </p>
+
+      <p>
+        The first iteration of those files must be generated symbolically through CLI-style tooling with
+        explicit parameters such as work size, genre profile, seed, and structural constraints. Later
+        skill-mediated LLM stages refine those seed files, resolve placeholders, and add natural-language
+        specificity without overwriting the original stage artifacts.
+      </p>
+
+      <p>
+        The current reference runtime is available through <code>bin/scripta.mjs</code>, covered by
+        deterministic unit tests, and demonstrated through five generated short QA books under
+        <code>QA/</code>.
+      </p>
+
+      <p>
+        BookWriter now emits dependency-free reader editions in English and Romanian as single HTML files
+        with embedded cover art, table of contents, print styling, and machine-readable provenance.
+        The QA root also exposes consolidated review artifacts such as <code>qa-review.json</code> and
+        <code>qa-tasks.md</code>, plus directly browsable final books under <code>QA/books/en/</code> and
+        <code>QA/books/ro/</code>.
+      </p>
+
+      <h2>Core subsystems</h2>
+      <p>
+        The system is organized around planning, controlled generation, and verification. The planning
+        stack turns theory into machine-readable contracts. The generation stack turns those contracts into
+        chapters. The validation stack measures both literary quality and computational integrity.
+      </p>
+
+      <div class="grid grid--two">
+        <section class="card">
+          <h3>Planning stack</h3>
+          <p>
+            <strong>MacroPlan</strong>, <strong>ChapPlan</strong>, and <strong>MicroPlan</strong> build the
+            conceptual, chapter-level, and symbolic block-level representations of the book on top of a
+            shared symbolic seed-generation layer.
+          </p>
+          <p><a href="planning-workflow.html">Read the planning workflow</a></p>
+        </section>
+        <section class="card">
+          <h3>Generation and review</h3>
+          <p>
+            <strong>CNLEnh</strong>, <strong>ChapGen</strong>, and <strong>BookWriter</strong> convert plans
+            into readable chapters and editorial outputs without losing traceability to the planning stack.
+          </p>
+          <p><a href="stg-program.html">Read the architecture page</a></p>
+        </section>
+      </div>
+
+      <h2>Validation philosophy</h2>
+      <p>
+        SCRIPTA validation is not limited to a numerical dashboard. Every automated check must yield a
+        normalized percentage score and a report with arguments, detected problems, and exact localization
+        by chapter and paragraph or symbolic block.
+      </p>
+
+      <p>
+        The project bridges literary evaluation and computational evaluation. Narrative coherence, thematic
+        depth, character complexity, originality, stylistic quality, emotional impact, interpretive
+        openness, and cultural value coexist with metrics such as OI, NCS, CAD, EAP, TOP, VAD, CAR,
+        CS, and NQS.
+      </p>
+
+      <p>
+        The DS set under <a href="specsLoader.html?spec=matrix.md">docs/specs</a> is the authoritative
+        contract surface for the project.
+      </p>
+    </article>
+  </main>
+  <div data-include="partials/footer.html"></div>
+  <script src="partials-loader.js"></script>
+</body>
+</html>

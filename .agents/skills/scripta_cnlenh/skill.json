@@ -1,0 +1,22 @@
+{
+  "title": "SCRIPTA CNLEnh",
+  "family": "anthropic",
+  "summary": "Resolves placeholders and emits refined CNL successor artifacts with natural-language hints.",
+  "aliases": [
+    "scripta_cnlenh",
+    "scripta-cnlenh"
+  ],
+  "dependsOn": [
+    "scripta_microplan"
+  ],
+  "outputs": [
+    "<workspace>/cnl/*.macro-refined-plan.iter-*.md",
+    "<workspace>/cnl/*.chapter-refined-plan.iter-*.md",
+    "<workspace>/cnl/*.micro-refined-plan.iter-*.md"
+  ],
+  "entrypoints": [
+    "SKILL.md",
+    "skill.mjs"
+  ],
+  "selfContained": false
+}

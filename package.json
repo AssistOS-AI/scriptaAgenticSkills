@@ -1,0 +1,13 @@
+{
+  "name": "scripta-agentic-skills",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "scripta": "./bin/scripta.mjs"
+  },
+  "scripts": {
+    "test": "node --test runtime/tests/**/*.test.mjs",
+    "qa": "node ./bin/scripta.mjs qa"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "SCRIPTA MacroPlan",
+  "family": "anthropic",
+  "summary": "Generates the macro narrative seed package for a SCRIPTA workspace.",
+  "aliases": [
+    "scripta_macroplan",
+    "scripta-macroplan"
+  ],
+  "dependsOn": [
+    "scripta_symbolic_plan_generation"
+  ],
+  "outputs": [
+    "<workspace>/macro/book.symbolic-plan.iter-*.md",
+    "<workspace>/macro/characters.symbolic-plan.iter-*.md",
+    "<workspace>/macro/world.symbolic-plan.iter-*.md"
+  ],
+  "entrypoints": [
+    "SKILL.md",
+    "skill.mjs"
+  ],
+  "selfContained": false
+}

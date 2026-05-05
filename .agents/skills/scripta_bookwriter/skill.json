@@ -1,0 +1,23 @@
+{
+  "title": "SCRIPTA BookWriter",
+  "family": "anthropic",
+  "summary": "Combines chapter drafts into export-ready manuscript artifacts and single-file HTML reader editions.",
+  "aliases": [
+    "scripta_bookwriter",
+    "scripta-bookwriter"
+  ],
+  "dependsOn": [
+    "scripta_chapgen"
+  ],
+  "outputs": [
+    "<workspace>/exports/manuscript.book.iter-*.md",
+    "<workspace>/exports/edition-en.reader.iter-*.html",
+    "<workspace>/exports/edition-ro.reader.iter-*.html",
+    "<workspace>/exports/editions.bundle.iter-*.json"
+  ],
+  "entrypoints": [
+    "SKILL.md",
+    "skill.mjs"
+  ],
+  "selfContained": false
+}

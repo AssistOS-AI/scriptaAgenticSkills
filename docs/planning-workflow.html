@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCRIPTA Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+  </script>
+</head>
+<body>
+  <div data-include="partials/header.html"></div>
+  <main class="page">
+    <article class="page__panel">
+      <p class="breadcrumbs"><a href="index.html">Home</a> / Planning</p>
+      <p class="kicker">Planning Workflow</p>
+      <h1>SCRIPTA Documentation</h1>
+      <p class="lead">
+        Planning is the core of the system. SCRIPTA treats a book as a progressively refined structure that
+        moves from macro intent to chapter progression and finally to symbolic micro blocks.
+      </p>
+
+      <div class="callout">
+        All plan files use a shared CNL line format: <code>@identifier verb</code> followed by fixed labeled
+        lines and optional natural-language hints. Scripts parse the headers and labels; LLMs read the full
+        block as text.
+      </div>
+
+      <pre class="mermaid">flowchart TD
+        brief[User brief] --> symbolic[Symbolic plan generation]
+        symbolic --> macro[MacroPlan]
+        macro --> chapter[ChapPlan]
+        chapter --> micro[MicroPlan]
+        micro --> cnl[CNLEnh]
+        cnl --> draft[ChapGen]
+      </pre>
+
+      <h2>Symbolic seed generation</h2>
+      <p>
+        Every planning skill must begin from symbolic seed generation. Skills are expected to call CLI-style
+        tooling that writes the first iteration of macro, chapter, or micro plan files from explicit
+        parameters such as work size, genre profile, structural constraints, and random seed.
+      </p>
+
+      <pre><code>scripta-plan seed --stage macro \
+  --book-id judge-memory \
+  --work-form novel \
+  --baseline-profile detective-police \
+  --chapter-count 18 \
+  --scene-density medium \
+  --narrative-model three-act \
+  --seed 1042 \
+  --placeholder-style typed
+</code></pre>
+
+      <p>
+        The seed files may contain typed placeholders such as <code>{{character:protagonist-001}}</code> or
+        <code>{{location:courtroom-main}}</code>, but they must already contain valid command identifiers,
+        enumerated classifier values, and structural constraints. Later stages refine these files instead of
+        replacing them.
+      </p>
+
+      <h2>MacroPlan</h2>
+      <p>
+        MacroPlan defines the book concept before chapter writing begins. It must produce the central idea,
+        theme, wisdom, narrative structure, narrative model, blueprint, plot elements, characters, and
+        worldbuilding.
+      </p>
+
+      <pre><code>@central-idea define
+hook-pattern: costed-power
+tension-source: mixed
+naming-state: placeholder
+hook: a judge can rewrite verdicts but loses a personal memory every time
+protagonist: {{character:protagonist-001}}
+desire: save innocent defendants
+opposition: the system and the cost of self-erasure
+stakes: justice, identity, trust
+story-question: how much truth is worth if every act of justice erases the self?
+The idea should feel like psychological drama first and speculative mechanism second.
+
+@theme define
+topic: identity-self
+moral-shape: dilemma
+thematic-question: is truth still right when it destroys the person who carries it?
+thematic-statement: concealment protects comfort for a time but corrodes both justice and identity
+</code></pre>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Macro component</th>
+              <th>Question answered</th>
+              <th>Expected outcome</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Central idea</td><td>What story promise drives the book?</td><td>Hook, dilemma, story question, audience fit.</td></tr>
+            <tr><td>Theme</td><td>What human tension gives the story meaning?</td><td>Topic, thematic question, thematic statement.</td></tr>
+            <tr><td>Wisdom</td><td>What reflective depth should the book generate?</td><td>Cognitive, emotional, moral, reflexive, experiential aims.</td></tr>
+            <tr><td>Structure and model</td><td>How does this specific story progress, and which reusable model does it instantiate?</td><td>Concrete structure plus abstract narrative model.</td></tr>
+            <tr><td>Blueprint</td><td>Where do key turning points and emotional peaks occur?</td><td>Premise, stages, plot points, midpoint, climax, resolution.</td></tr>
+            <tr><td>Characters</td><td>Who changes, why, and under what pressure?</td><td>Roles, desire, conflict, lie, truth, arc, contradictions.</td></tr>
+            <tr><td>Worldbuilding</td><td>What systemic rules constrain action?</td><td>World subsystems, rules, costs, exceptions, conflict generators.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>ChapPlan</h2>
+      <p>
+        ChapPlan maps the macro skeleton into a chapter sequence. Each chapter must have a narrative
+        function, a local conflict, an input state, an output state, and a clear contribution to the
+        overall transformation of the book.
+      </p>
+
+      <h2>MicroPlan</h2>
+      <p>
+        MicroPlan converts chapter intent into symbolic block arrangements. It must keep the output abstract
+        enough for deterministic processing while still encoding ordering, tension progression, and local
+        function.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Block family</th>
+              <th>Members</th>
+              <th>Function</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Structural</td><td>Scene, sequence, chapter</td><td>Organize the narrative skeleton at micro scale.</td></tr>
+            <tr><td>Content</td><td>Action, conflict, event</td><td>Advance causality and stakes.</td></tr>
+            <tr><td>Expressive</td><td>Description, dialogue, narration, interior monologue</td><td>Control how events are rendered.</td></tr>
+            <tr><td>Rhythm</td><td>Suspense, cliffhanger, narrative pause, acceleration</td><td>Control pacing and local reader pressure.</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <pre><code>@chapter-004 define
+chapter-role: revelation
+purpose: move the protagonist into public risk
+input-state: reversals are still private
+output-state: the anomaly is visible to the institution
+conflict: save one innocent person before the system closes ranks
+stakes: institutional legitimacy, private identity, family trust
+opening-mode: action-entry
+development-mode: escalation
+closing-mode: cliffhanger
+continuity-obligations: the daughter must witness the first undeniable memory gap
+thematic-focus: truth versus protective concealment
+rhythm-note: escalating
+
+@scene-courtroom-reversal define
+chapter: chapter-004
+time-space: appellate chamber during emergency review
+introduction: procedural calm under strain
+development: objections rise as evidence destabilizes
+conflict: justice versus institutional self-protection
+resolution: the verdict changes but memory fractures
+exit: the press gathers outside
+participants: {{character:protagonist-001}}, chief-prosecutor, defense-counsel, court observers
+state-change: the anomaly becomes publicly visible and private control is lost
+
+@suspense-ledger build
+scope: chapter-004
+suspense-type: cognitive
+uncertainty: whether the reversal was unique or part of a hidden pattern
+delay-technique: mixed
+A missing document trail and interrupted testimony should carry the delay.
+</code></pre>
+
+      <h2>CNLEnh</h2>
+      <p>
+        CNLEnh does not write final chapters. It enriches symbolic plans with controlled textual hints that
+        tell the drafting stage what effect, tone, and local emphasis to aim for. It is also the normal
+        stage where typed placeholders become concrete names, places, and institutions.
+      </p>
+
+      <pre><code>@scene-courtroom-reversal refine
+ref: {{character:protagonist-001}} -> Judge Matei Ionescu
+should: keep the dialogue clipped and procedural at first
+should: let the first memory gap arrive as a bodily disruption before it is interpreted intellectually
+Avoid making the scene sound like legal exposition; the fear should leak through gesture and interruption.
+</code></pre>
+    </article>
+  </main>
+  <div data-include="partials/footer.html"></div>
+  <script src="partials-loader.js"></script>
+</body>
+</html>

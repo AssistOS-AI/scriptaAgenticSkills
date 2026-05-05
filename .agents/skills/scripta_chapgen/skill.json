@@ -1,0 +1,21 @@
+{
+  "title": "SCRIPTA ChapGen",
+  "family": "anthropic",
+  "summary": "Generates short chapter drafts and continuity packets from refined plans.",
+  "aliases": [
+    "scripta_chapgen",
+    "scripta-chapgen"
+  ],
+  "dependsOn": [
+    "scripta_cnlenh"
+  ],
+  "outputs": [
+    "<workspace>/drafts/chapter-*.draft.iter-*.md",
+    "<workspace>/drafts/chapter-*.continuity.iter-*.json"
+  ],
+  "entrypoints": [
+    "SKILL.md",
+    "skill.mjs"
+  ],
+  "selfContained": false
+}

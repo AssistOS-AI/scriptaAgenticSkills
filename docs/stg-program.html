@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCRIPTA Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+  </script>
+</head>
+<body>
+  <div data-include="partials/header.html"></div>
+  <main class="page">
+    <article class="page__panel">
+      <p class="breadcrumbs"><a href="index.html">Home</a> / Architecture</p>
+      <p class="kicker">System Architecture</p>
+      <h1>SCRIPTA Documentation</h1>
+      <p class="lead">
+        STG, short for <strong>Scripta Theoretical Guidelines</strong>, is the theoretical backbone of the
+        project. It turns narrative theory into a staged production system that preserves coherence between
+        concept, structure, chapter progression, prose generation, and evaluation.
+      </p>
+
+      <div class="callout">
+        STG is not treated as inspiration alone. It is the contract source for the SCRIPTA planning
+        ontology, generation stages, validation procedures, and metrics.
+      </div>
+
+      <pre class="mermaid">flowchart LR
+        vision[User vision] --> symbolic[Symbolic plan generation]
+        symbolic --> macro[MacroPlan]
+        macro --> chapters[ChapPlan]
+        chapters --> micro[MicroPlan]
+        micro --> cnl[CNLEnh]
+        cnl --> drafts[ChapGen]
+        drafts --> metrics[Metrics Framework]
+        drafts --> writer[BookWriter]
+        drafts --> validation[Validation suite]
+        validation --> reports[Reports and evidence]
+        metrics --> reports
+        writer --> exports[Single-file HTML editions]
+      </pre>
+
+      <h2>Book workspace architecture</h2>
+      <p>
+        Each book must live in its own workspace. That workspace keeps planning artifacts, generated
+        chapters, validation evidence, and exports together, which allows the system to compute metrics and
+        explain them against exact locations in the manuscript.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Stage folder</th>
+              <th>Primary owner</th>
+              <th>Expected contents</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>macro/</code></td>
+              <td>MacroPlan</td>
+              <td>Append-only macro seed artifacts: central idea, theme, wisdom, structure, narrative model, blueprint, characters, and worldbuilding.</td>
+            </tr>
+            <tr>
+              <td><code>chapters/</code></td>
+              <td>ChapPlan</td>
+              <td>Append-only chapter seed artifacts with purpose, transitions, continuity vectors, and role in the whole-book arc.</td>
+            </tr>
+            <tr>
+              <td><code>micro/</code></td>
+              <td>MicroPlan</td>
+              <td>Append-only symbolic block sequences, scene shapes, tension markers, and order constraints.</td>
+            </tr>
+            <tr>
+              <td><code>cnl/</code></td>
+              <td>CNLEnh</td>
+              <td>Enhanced controlled-language successor artifacts with placeholder resolution and intended local effects.</td>
+            </tr>
+            <tr>
+              <td><code>drafts/</code></td>
+              <td>ChapGen</td>
+              <td>Generated chapter drafts, continuity packets, and chapter-level revision traces.</td>
+            </tr>
+            <tr>
+              <td><code>validation/</code></td>
+              <td>Validation suite</td>
+              <td>Per-book summaries, issue inventories, stage audits, revision tasks, and raw validation data.</td>
+            </tr>
+            <tr>
+              <td><code>reports/</code></td>
+              <td>Metrics framework and validators</td>
+              <td>Human-readable validation reports, stage review reports, and revision task reports.</td>
+            </tr>
+            <tr>
+              <td><code>exports/</code></td>
+              <td>BookWriter</td>
+              <td>Single-file EN/RO reader editions, embedded cover art, manuscript sources, and export bundle manifests.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Two-layer narrative model</h2>
+      <p>
+        The project is built on the STG distinction between macro and micro narrative construction. Macro
+        planning handles central idea, theme, wisdom, structure, blueprint, characters, and worldbuilding.
+        Micro planning handles scenes, sequences, chapters, action, conflict, dialogue, description,
+        interior monologue, suspense, cliffhangers, pauses, and acceleration.
+      </p>
+
+      <div class="grid grid--two">
+        <section class="card">
+          <h3>Macro layer</h3>
+          <p>Defines the skeleton of the book, its causal logic, thematic tension, character arcs, and world rules.</p>
+        </section>
+        <section class="card">
+          <h3>Micro layer</h3>
+          <p>Controls the concrete ordering of blocks, rhythm, immediacy, scene design, and local reader impact.</p>
+        </section>
+      </div>
+
+      <h2>Execution strategy</h2>
+      <p>
+        SCRIPTA is intentionally hybrid. Scripts handle symbolic seed generation, deterministic planning,
+        deterministic checks, metric normalization, and report assembly whenever the task can be made
+        reproducible. LLMs are used only indirectly through skills that refine those prior-stage artifacts,
+        draft chapters from them, and keep the stage lineage visible.
+      </p>
+
+      <p>
+        This division is not cosmetic. It is what allows the project to keep both generative flexibility
+        and accountable validation while preserving append-only stage history.
+      </p>
+
+      <p>
+        The current runtime implements this architecture through the root CLI at <code>bin/scripta.mjs</code>,
+        deterministic stage modules under <code>runtime/</code>, and generated QA workspaces for the five
+        canonical baseline profiles.
+      </p>
+
+      <h2>CNL as the shared planning interface</h2>
+      <p>
+        The planning stack shares one textual contract: plan files are CNL documents composed of command
+        blocks whose headers start with <code>@identifier verb</code>. This lets scripts scan plans quickly
+        while still leaving room for richer NL hints that later LLM stages can exploit.
+      </p>
+    </article>
+  </main>
+  <div data-include="partials/footer.html"></div>
+  <script src="partials-loader.js"></script>
+</body>
+</html>

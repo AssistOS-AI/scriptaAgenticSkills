@@ -1,0 +1,45 @@
+{
+  "bookId": "qa-drama-silence",
+  "baselineProfile": "drama",
+  "sourceLanguage": "en",
+  "targetLanguages": [
+    "en",
+    "ro"
+  ],
+  "editorialProfile": "literary-smooth",
+  "chapterCount": 3,
+  "editions": [
+    {
+      "targetLanguage": "en",
+      "contentLanguage": "en",
+      "mode": "built-in-renderer",
+      "translationInstruction": "",
+      "exportPath": "exports/edition-en.reader.iter-007.html"
+    },
+    {
+      "targetLanguage": "ro",
+      "contentLanguage": "ro",
+      "mode": "built-in-renderer",
+      "translationInstruction": "",
+      "exportPath": "exports/edition-ro.reader.iter-007.html"
+    }
+  ],
+  "validationSnapshot": null,
+  "sourceArtifacts": [
+    "drafts/chapter-001.draft.iter-003.md",
+    "drafts/chapter-002.draft.iter-003.md",
+    "drafts/chapter-003.draft.iter-003.md",
+    "drafts/chapter-001.continuity.iter-003.json",
+    "drafts/chapter-002.continuity.iter-003.json",
+    "drafts/chapter-003.continuity.iter-003.json",
+    "cnl/chapter-001.chapter-refined-plan.iter-003.md",
+    "cnl/chapter-002.chapter-refined-plan.iter-003.md",
+    "cnl/chapter-003.chapter-refined-plan.iter-003.md",
+    "cnl/chapter-001.micro-refined-plan.iter-003.md",
+    "cnl/chapter-002.micro-refined-plan.iter-003.md",
+    "cnl/chapter-003.micro-refined-plan.iter-003.md",
+    "cnl/book.macro-refined-plan.iter-003.md",
+    "cnl/characters.macro-refined-plan.iter-003.md",
+    "cnl/world.macro-refined-plan.iter-003.md"
+  ]
+}

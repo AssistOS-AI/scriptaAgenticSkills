@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ro" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orbita celor nereveniti</title>
+  <meta name="description" content="o arhitecta de sisteme descopera ca pacea statiei depinde de stergerea atent curatoriata a memoriei">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #101827;
+      --paper: #faf7f2;
+      --ink: #181818;
+      --muted: #6b625a;
+      --accent: #8b5cf6;
+      --accent-soft: #d9ccff;
+      --cover-ink: #f5f7ff;
+      --line: rgba(0, 0, 0, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Georgia, "Times New Roman", serif; background: linear-gradient(180deg, #ebe6dd 0%, #f7f3ee 100%); color: var(--ink); }
+    .reader { width: min(100%, 980px); margin: 0 auto; padding: 32px 18px 64px; }
+    .sheet { background: var(--paper); box-shadow: 0 18px 54px rgba(17, 18, 22, 0.12); border-radius: 24px; overflow: hidden; }
+    .cover { background: var(--bg); color: var(--cover-ink); min-height: 100svh; display: grid; grid-template-columns: 1.1fr 0.9fr; }
+    .cover__copy { display: flex; flex-direction: column; justify-content: center; gap: 18px; padding: 48px; }
+    .eyebrow { font-family: "Helvetica Neue", Arial, sans-serif; letter-spacing: 0.18em; text-transform: uppercase; font-size: 0.72rem; opacity: 0.86; }
+    .cover h1, .title-page h1 { font-size: clamp(2.6rem, 6vw, 4.6rem); line-height: 0.95; margin: 0; }
+    .cover p, .title-page p, .imprint p, nav, .appendix, .notice { font-family: "Helvetica Neue", Arial, sans-serif; }
+    .cover__tagline { font-size: 1.05rem; line-height: 1.55; max-width: 28ch; }
+    .body { padding: 40px 44px 56px; }
+    .title-page, .imprint, nav, .appendix-block { border-bottom: 1px solid var(--line); padding: 18px 0 24px; }
+    .imprint-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px 24px; }
+    .imprint-grid dt { font-weight: 700; margin-bottom: 4px; color: var(--muted); }
+    .imprint-grid dd { margin: 0; }
+    nav ol { margin: 10px 0 0; padding-left: 1.25rem; }
+    nav li + li { margin-top: 8px; }
+    nav a { color: inherit; text-decoration: none; border-bottom: 1px solid transparent; }
+    nav a:hover { border-color: var(--accent); }
+    .chapter { max-width: 760px; margin: 0 auto; padding: 34px 0 14px; }
+    .chapter h2 { font-size: 1.9rem; margin-bottom: 1.3rem; }
+    .chapter p { font-size: 1.08rem; line-height: 1.9; margin: 0 0 1.05rem; text-wrap: pretty; }
+    .notice { background: #fff4dd; border: 1px solid #e9c27a; border-radius: 14px; padding: 12px 14px; line-height: 1.55; }
+    .metrics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; margin: 0; }
+    .metrics-grid div { background: rgba(0, 0, 0, 0.035); border-radius: 14px; padding: 10px 12px; }
+    .metrics-grid dt { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+    .metrics-grid dd { margin: 6px 0 0; font-size: 1.18rem; font-weight: 700; }
+    .appendix small { color: var(--muted); display: block; margin-top: 10px; line-height: 1.6; }
+    @media (max-width: 820px) {
+      .cover { grid-template-columns: 1fr; }
+      .cover__copy, .body { padding: 28px 22px 36px; }
+    }
+    @media print {
+      body { background: #fff; }
+      .reader { width: 100%; margin: 0; padding: 0; }
+      .sheet { box-shadow: none; border-radius: 0; }
+      .page-break { break-before: page; }
+      .cover { min-height: auto; break-after: page; }
+      a { color: inherit; text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="reader">
+    <div class="sheet">
+      <section class="cover">
+        <div><svg viewBox="0 0 800 1080" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Orbita celor nereveniti">
+  <defs>
+    <linearGradient id="cover-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101827" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1080" fill="url(#cover-gradient)" />
+  <circle cx="640" cy="180" r="126" fill="#d9ccff" opacity="0.18" />
+  <circle cx="160" cy="920" r="150" fill="#d9ccff" opacity="0.12" />
+  <circle cx="400" cy="520" r="180" fill="none" stroke="#d9ccff" stroke-width="16" opacity="0.75" /><ellipse cx="400" cy="520" rx="250" ry="92" fill="none" stroke="#d9ccff" stroke-width="14" opacity="0.52" /><circle cx="610" cy="470" r="18" fill="#d9ccff" opacity="0.9" />
+</svg></div>
+        <div class="cover__copy">
+          <div class="eyebrow">Science-fiction</div>
+          <h1>Orbita celor nereveniti</h1>
+          <p class="cover__tagline">O orbita pasnica poate fi cea mai precisa inchisoare.</p>
+          <p>Editie SCRIPTA single-file pentru lectura si tipar</p>
+        </div>
+      </section>
+      <div class="body">
+        <section class="title-page">
+          <p class="eyebrow">Pagina de titlu</p>
+          <h1>Orbita celor nereveniti</h1>
+          <p>ce fel de societate supravietuieste cand memoria insasi devine un instrument de securitate?</p>
+          <p>o arhitecta de sisteme descopera ca pacea statiei depinde de stergerea atent curatoriata a memoriei</p>
+        </section>
+        <section class="imprint page-break">
+          <p class="eyebrow">Note de editie</p>
+          
+          <dl class="imprint-grid">
+            <div><dt>Profil</dt><dd>Science-fiction</dd></div>
+            <div><dt>Forma operei</dt><dd>Povestire</dd></div>
+            <div><dt>ID carte</dt><dd>qa-scifi-orbit</dd></div>
+            <div><dt>Editie</dt><dd>Renderer bilingv integrat</dd></div>
+            <div><dt>Limba tinta</dt><dd>ro</dd></div>
+            <div><dt>Profil editorial</dt><dd>Netezire literara</dd></div>
+            <div><dt>Instructiune de traducere</dt><dd>implicit</dd></div>
+            <div><dt>Generat cu</dt><dd>SCRIPTA BookWriter</dd></div>
+          </dl>
+        </section>
+        <nav class="page-break">
+          <p class="eyebrow">Cuprins</p>
+          <ol><li><a href="#chapter-001">Capitolul 01 — Prima fisura</a></li><li><a href="#chapter-002">Capitolul 02 — Ce iese la suprafata</a></li><li><a href="#chapter-003">Capitolul 03 — Alegerea ireversibila</a></li></ol>
+        </nav>
+        <section class="appendix-block page-break">
+          <p class="eyebrow">Poveste</p>
+          <p>siguranta cumparata prin uitare inginerizata produce comunitati obediente, dar diminuate</p>
+          <p>orice restaurare a memoriei consuma latime de banda computationala finita si destabilizeaza sistemele civice de predictie</p>
+        </section>
+
+      <article id="chapter-001" class="chapter page-break">
+        <h2>Capitolul 01 — Prima fisura</h2>
+        <p>Dr. Lia Sen ajunge in Statia Orbitala Horizon, unde aerul reglat pulseaza cu sisteme de memorie care promit ordine la un pret uman. engineer Pavel Quirin citeste incaperea cu o grija tensionata, iar the Horizon governance core apara in continuare versiunea de evenimente pe care sistemul o poate suporta. Miscarea aceasta deschide prima fisura vizibila in promisiunea cartii.</p>
+        <p>In Statia Orbitala Horizon, orientarea se face sub o tensiune deja vizibila. Dr. Lia Sen incearca sa forteze iesirea la lumina a unui adevar mai limpede, dar partea opusa inca poate reinterpreta dovada sau relatia. Interpretarile si dorintele concurente se ciocnesc in miezul actiunii locale. Schimbul dintre Dr. Lia Sen, engineer Pavel Quirin ramane la suprafata, desi dedesubt preseaza un adevar emotional mai dur. O cheie de continuitate avariata produce o implicatie noua sau relatia aluneca intr-o contradictie deschisa. Incertitudinea ramane vie fiindca nimeni nu poate citi inca rezultatul deplin. Rezultatul imediat este limpede: conflictul local isi schimba directia fara sa se rezolve.</p>
+        <p>Mai tarziu, in inelul arhivei criogenice, presiunea anterioara revine intr-o forma schimbata. Dr. Lia Sen incearca sa forteze iesirea la lumina a unui adevar mai limpede, dar partea opusa inca poate reinterpreta dovada sau relatia. Interpretarile si dorintele concurente se ciocnesc in miezul actiunii locale. Schimbul dintre Dr. Lia Sen, engineer Pavel Quirin ramane la suprafata, desi dedesubt preseaza un adevar emotional mai dur. O cheie de continuitate avariata produce o implicatie noua sau relatia aluneca intr-o contradictie deschisa. Dr. Lia Sen simte cum costul recent o obliga sa-si reordoneze certitudinile. Incertitudinea ramane vie fiindca nimeni nu poate citi inca rezultatul deplin. Rezultatul imediat este limpede: conflictul la nivel de capitol devine mai greu de ascuns.</p>
+        <p>La finalul capitolului, presiunea a crescut, iar alegerile sigure s-au ingustat. Miscarea emotionala merge acum spre o margine de prapastie lasata deschisa, iar cartea continua sa testeze intrebarea centrala: mai are siguranta sens cand depinde de uitare controlata? Orice sistem stabil cere cuiva sa uite la comanda.</p>
+      </article>
+
+      <article id="chapter-002" class="chapter page-break">
+        <h2>Capitolul 02 — Ce iese la suprafata</h2>
+        <p>Dr. Lia Sen ajunge in Statia Orbitala Horizon, unde aerul reglat pulseaza cu sisteme de memorie care promit ordine la un pret uman. engineer Pavel Quirin citeste incaperea cu o grija tensionata, iar the Horizon governance core apara in continuare versiunea de evenimente pe care sistemul o poate suporta. Miscarea aceasta aduce structura ascunsa intr-o vizibilitate dureroasa.</p>
+        <p>In Statia Orbitala Horizon, orientarea se face sub o tensiune deja vizibila. Dr. Lia Sen incearca sa forteze iesirea la lumina a unui adevar mai limpede, dar partea opusa inca poate reinterpreta dovada sau relatia. Interpretarile si dorintele concurente se ciocnesc in miezul actiunii locale. Schimbul dintre Dr. Lia Sen, engineer Pavel Quirin ramane la suprafata, desi dedesubt preseaza un adevar emotional mai dur. O cheie de continuitate avariata produce o implicatie noua sau relatia aluneca intr-o contradictie deschisa. Incertitudinea ramane vie fiindca nimeni nu poate citi inca rezultatul deplin. Rezultatul imediat este limpede: conflictul local isi schimba directia fara sa se rezolve.</p>
+        <p>Mai tarziu, in inelul arhivei criogenice, presiunea anterioara revine intr-o forma schimbata. Dr. Lia Sen incearca sa forteze iesirea la lumina a unui adevar mai limpede, dar partea opusa inca poate reinterpreta dovada sau relatia. Interpretarile si dorintele concurente se ciocnesc in miezul actiunii locale. Schimbul dintre Dr. Lia Sen, engineer Pavel Quirin ramane la suprafata, desi dedesubt preseaza un adevar emotional mai dur. O cheie de continuitate avariata produce o implicatie noua sau relatia aluneca intr-o contradictie deschisa. Dr. Lia Sen simte cum costul recent o obliga sa-si reordoneze certitudinile. Incertitudinea ramane vie fiindca nimeni nu poate citi inca rezultatul deplin. Rezultatul imediat este limpede: conflictul la nivel de capitol devine mai greu de ascuns.</p>
+        <p>La finalul capitolului, presiunea a crescut, iar alegerile sigure s-au ingustat. Miscarea emotionala merge acum spre o intrebare ramasa deschisa, iar cartea continua sa testeze intrebarea centrala: mai are siguranta sens cand depinde de uitare controlata? Orice sistem stabil cere cuiva sa uite la comanda.</p>
+      </article>
+
+      <article id="chapter-003" class="chapter page-break">
+        <h2>Capitolul 03 — Alegerea ireversibila</h2>
+        <p>Dr. Lia Sen ajunge in Statia Orbitala Horizon, unde aerul reglat pulseaza cu sisteme de memorie care promit ordine la un pret uman. engineer Pavel Quirin citeste incaperea cu o grija tensionata, iar the Horizon governance core apara in continuare versiunea de evenimente pe care sistemul o poate suporta. Miscarea aceasta nu mai lasa nicio cale curata in jurul costului ireversibil.</p>
+        <p>In Statia Orbitala Horizon, orientarea se face sub o tensiune deja vizibila. Dr. Lia Sen incearca sa forteze iesirea la lumina a unui adevar mai limpede, dar partea opusa inca poate reinterpreta dovada sau relatia. Interpretarile si dorintele concurente se ciocnesc in miezul actiunii locale. Schimbul dintre Dr. Lia Sen, engineer Pavel Quirin ramane la suprafata, desi dedesubt preseaza un adevar emotional mai dur. O cheie de continuitate avariata produce o implicatie noua sau relatia aluneca intr-o contradictie deschisa. Incertitudinea ramane vie fiindca nimeni nu poate citi inca rezultatul deplin. Rezultatul imediat este limpede: conflictul local isi schimba directia fara sa se rezolve.</p>
+        <p>Mai tarziu, in inelul arhivei criogenice, presiunea anterioara revine intr-o forma schimbata. Dr. Lia Sen incearca sa forteze iesirea la lumina a unui adevar mai limpede, dar partea opusa inca poate reinterpreta dovada sau relatia. Interpretarile si dorintele concurente se ciocnesc in miezul actiunii locale. Schimbul dintre Dr. Lia Sen, engineer Pavel Quirin ramane la suprafata, desi dedesubt preseaza un adevar emotional mai dur. O cheie de continuitate avariata produce o implicatie noua sau relatia aluneca intr-o contradictie deschisa. Dr. Lia Sen simte cum costul recent o obliga sa-si reordoneze certitudinile. Incertitudinea ramane vie fiindca nimeni nu poate citi inca rezultatul deplin. Rezultatul imediat este limpede: conflictul la nivel de capitol devine mai greu de ascuns.</p>
+        <p>La finalul capitolului, presiunea centrala se rezolva, dar numai printr-un cost vizibil. Miscarea emotionala merge acum spre o rasturnare dura, iar cartea continua sa testeze intrebarea centrala: mai are siguranta sens cand depinde de uitare controlata? Orice sistem stabil cere cuiva sa uite la comanda.</p>
+      </article>
+        <section class="appendix page-break">
+          <div class="appendix-block">
+            <p class="eyebrow">Anexa de productie</p>
+            <p>Aceasta editie pastreaza intact traseul de provenienta append-only din SCRIPTA.</p>
+            <p><strong>Surse pe etape:</strong> {&quot;macro&quot;:[&quot;macro-refined-plan&quot;],&quot;chapters&quot;:[&quot;chapter-refined-plan&quot;],&quot;micro&quot;:[&quot;micro-refined-plan&quot;],&quot;drafts&quot;:[&quot;draft&quot;,&quot;continuity&quot;]}</p>
+          </div>
+          
+          <small>Limba tinta: ro; Editie: Renderer bilingv integrat.</small>
+        </section>
+      </div>
+    </div>
+  </main>
+  <script type="application/json" id="scripta-edition-metadata">{&quot;targetLanguage&quot;:&quot;ro&quot;,&quot;contentLanguage&quot;:&quot;ro&quot;,&quot;mode&quot;:&quot;built-in-renderer&quot;,&quot;translationInstruction&quot;:&quot;&quot;}</script>
+</body>
+</html>

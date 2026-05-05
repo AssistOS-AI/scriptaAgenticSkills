@@ -1,0 +1,20 @@
+{
+  "title": "SCRIPTA Metrics Framework",
+  "family": "anthropic",
+  "summary": "Reads the validation outputs for a workspace and exposes the normalized public metric set.",
+  "aliases": [
+    "scripta_metrics_framework",
+    "scripta-metrics-framework"
+  ],
+  "dependsOn": [
+    "scripta_validation_suite"
+  ],
+  "outputs": [
+    "<workspace>/validation/summary.validation.iter-*.json"
+  ],
+  "entrypoints": [
+    "SKILL.md",
+    "skill.mjs"
+  ],
+  "selfContained": false
+}

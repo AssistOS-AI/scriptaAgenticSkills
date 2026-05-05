@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCRIPTA Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+  </script>
+</head>
+<body>
+  <div data-include="partials/header.html"></div>
+  <main class="page">
+    <article class="page__panel">
+      <p class="breadcrumbs"><a href="index.html">Home</a> / Validation</p>
+      <p class="kicker">Validation and Metrics</p>
+      <h1>SCRIPTA Documentation</h1>
+      <p class="lead">
+        SCRIPTA combines literary criticism and computational verification. The system must score outputs on
+        a normalized 0 to 100 scale and also explain each score through localized reports.
+      </p>
+
+      <p>
+        The reference runtime currently emits these reports and summaries for the five QA example books
+        generated under <code>QA/</code>, one for each canonical baseline profile.
+      </p>
+
+      <p>
+        Validation now audits not only plans and drafts, but also the final HTML reader editions. Each run
+        emits stage-level pass/warn/fail results together with a revision task list that can drive the next
+        implementation pass.
+      </p>
+
+      <h2>Validation outputs</h2>
+      <p>
+        Every automated check must emit three surfaces: a normalized percentage, an evidence summary, and a
+        list of issues localized to chapters and paragraphs or symbolic blocks.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Check</th>
+              <th>Purpose</th>
+              <th>Expected report content</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>OI / NCS</td><td>Originality and cliché control</td><td>Novel motifs, repeated patterns, detected stereotypes, suspicious formulas.</td></tr>
+            <tr><td>BCI / VAD / CAR</td><td>Bias, ethical alignment, and compliance</td><td>Risk locations, violated rules, privacy or legal concerns, mitigations.</td></tr>
+            <tr><td>TOP</td><td>Similarity and contamination</td><td>Overlap sources, affected spans, normalized penalty.</td></tr>
+            <tr><td>SFSG / STG-CSG / CCI</td><td>Specification following and continuity</td><td>Broken constraints, missed structural duties, continuity ruptures.</td></tr>
+             <tr><td>CAD / EAP</td><td>Character and emotional consistency</td><td>Trait drift, unexplained reversals, weak or incoherent arc transitions.</td></tr>
+             <tr><td>Export audit</td><td>Final HTML edition completeness</td><td>Language coverage, cover presence, TOC, print CSS, embedded metadata, dependency scan.</td></tr>
+           </tbody>
+         </table>
+       </div>
+
+      <h2>Literary and computational layers</h2>
+      <p>
+        The framework keeps two complementary perspectives together. Literary indicators describe the text
+        as an aesthetic and interpretive object. Computational indicators describe the text as the output of
+        a controlled generation pipeline.
+      </p>
+
+      <div class="grid grid--two">
+        <section class="card">
+          <h3>Literary indicators</h3>
+          <p>Narrative coherence, thematic depth, character complexity, originality, stylistic quality, emotional impact, interpretive openness, and cultural value.</p>
+        </section>
+        <section class="card">
+          <h3>Computational indicators</h3>
+          <p>OI, NCS, BCI, VAD, TOP, STG-CSG, SFSG, CCI, CAD, EAP, plus the composed metrics CAR, CS, and NQS.</p>
+        </section>
+      </div>
+
+      <h2>Composed metrics</h2>
+      <p>
+        The project uses aggregated indicators to summarize the health of a manuscript without hiding the
+        underlying evidence.
+      </p>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Metric</th>
+              <th>Role</th>
+              <th>Meaning</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>CAR</td><td>Compliance Adherence Rate</td><td>Summarizes ethical, legal, and bias-related robustness.</td></tr>
+            <tr><td>CS</td><td>Coherence Score</td><td>Summarizes structural following, continuity, character stability, and emotional arc quality.</td></tr>
+            <tr><td>NQS</td><td>Narrative Quality Score</td><td>Summarizes structural coherence together with literary quality dimensions.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+  </main>
+  <div data-include="partials/footer.html"></div>
+  <script src="partials-loader.js"></script>
+</body>
+</html>

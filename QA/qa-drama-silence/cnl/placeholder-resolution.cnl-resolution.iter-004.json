@@ -1,0 +1,12 @@
+{
+  "bookId": "qa-drama-silence",
+  "baselineProfile": "drama",
+  "replacements": {
+    "{{character:protagonist-001}}": "Elena Marin",
+    "{{location:primary-001}}": "a rain-dark apartment block",
+    "{{organization:institution-001}}": "the grief support council",
+    "{{object:plot-001}}": "a sealed cassette recorder",
+    "{{character:pressure-001}}": "doctor Pavel Nistor",
+    "{{character:counterpart-001}}": "Vlad Georgescu"
+  }
+}

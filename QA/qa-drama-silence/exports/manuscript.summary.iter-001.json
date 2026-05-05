@@ -1,0 +1,6 @@
+{
+  "bookId": "qa-drama-silence",
+  "baselineProfile": "drama",
+  "chapterCount": 3,
+  "exportPath": "exports/manuscript.book.iter-001.md"
+}

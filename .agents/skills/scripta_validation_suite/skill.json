@@ -1,0 +1,21 @@
+{
+  "title": "SCRIPTA Validation Suite",
+  "family": "anthropic",
+  "summary": "Runs deterministic validation, evidence localization, and score aggregation for a SCRIPTA workspace.",
+  "aliases": [
+    "scripta_validation_suite",
+    "scripta-validation-suite"
+  ],
+  "dependsOn": [
+    "scripta_chapgen"
+  ],
+  "outputs": [
+    "<workspace>/validation/*.validation.iter-*.json",
+    "<workspace>/reports/*.report.iter-*.md"
+  ],
+  "entrypoints": [
+    "SKILL.md",
+    "skill.mjs"
+  ],
+  "selfContained": false
+}
