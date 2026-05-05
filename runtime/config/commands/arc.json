@@ -1,0 +1,61 @@
+{
+  "arc": {
+    "profileTexts": {
+      "drama": {
+        "protagonistEntryBeliefs": "if I keep the family narrative stable, no one will have to face what really happened",
+        "protagonistWounds": "the grief that was never allowed to be named",
+        "protagonistPressureLines": "every attempt to stabilize the story makes the truth harder to bear",
+        "protagonistTurningInsights": "the family narrative was never protection, it was postponement",
+        "protagonistExitBeliefs": "truthful naming, even late, is the only form of repair that matters",
+        "relationshipEntryDynamics": "cooperative on the surface, divided by unspoken versions of the same event",
+        "relationshipStressPatterns": "each person protects their version of the story while needing the other's version to be true",
+        "relationshipRepairConditions": "both must accept that their version is incomplete",
+        "relationshipExitDynamics": "honest about the damage, but no longer protected by shared denial"
+      },
+      "detective-police": {
+        "protagonistEntryBeliefs": "if I follow procedure correctly, the truth will survive the institution",
+        "protagonistWounds": "a previous case where procedure protected the wrong people",
+        "protagonistPressureLines": "every procedural step reveals that procedure itself is the obstacle",
+        "protagonistTurningInsights": "the system is not broken, it is working exactly as designed",
+        "protagonistExitBeliefs": "truth sometimes requires breaking the procedure meant to protect it",
+        "relationshipEntryDynamics": "professional alliance with unspoken mutual suspicion",
+        "relationshipStressPatterns": "each person needs the other's evidence but cannot fully trust the other's motives",
+        "relationshipRepairConditions": "both must accept that institutional loyalty and truth cannot always coexist",
+        "relationshipExitDynamics": "bound by shared accusation rather than shared procedure"
+      },
+      "science-fiction": {
+        "protagonistEntryBeliefs": "if I repair the system correctly, civic memory and stability can coexist",
+        "protagonistWounds": "the knowledge that the system's maintenance is actually curation",
+        "protagonistPressureLines": "every repair makes the governing model more visible as control",
+        "protagonistTurningInsights": "the anomaly is not a malfunction, it is the system's true purpose exposed",
+        "protagonistExitBeliefs": "consent requires the right to remember, even when remembering destabilizes order",
+        "relationshipEntryDynamics": "technical collaboration with unspoken disagreement about the system's legitimacy",
+        "relationshipStressPatterns": "each person needs the other's access but cannot agree on what access should reveal",
+        "relationshipRepairConditions": "both must accept that technical neutrality is a political choice",
+        "relationshipExitDynamics": "aligned on the side of civic memory rather than system stability"
+      },
+      "fantasy": {
+        "protagonistEntryBeliefs": "if I honor the inherited rituals, the valley will remain protected",
+        "protagonistWounds": "the knowledge that the rituals protect the bloodline, not the valley",
+        "protagonistPressureLines": "every ritual act reinforces the lie the valley is dying from",
+        "protagonistTurningInsights": "the curse is not the problem, the silence about the founding crime is",
+        "protagonistExitBeliefs": "truthful naming, even at the cost of inheritance, is the only form of belonging that matters",
+        "relationshipEntryDynamics": "mentor-student bond built on partial truth about the founding vow",
+        "relationshipStressPatterns": "the mentor knows more than they can say, the student senses the gap",
+        "relationshipRepairConditions": "the mentor must stop protecting the student from the truth",
+        "relationshipExitDynamics": "bound by shared truthful naming rather than shared ritual silence"
+      },
+      "romance-relational": {
+        "protagonistEntryBeliefs": "if I keep the collaboration professional, I can protect both the work and myself",
+        "protagonistWounds": "a previous partnership that collapsed when honesty replaced competence",
+        "protagonistPressureLines": "every useful gesture makes it harder to maintain professional distance",
+        "protagonistTurningInsights": "the work was never separate from the feeling, and pretending it was damaged both",
+        "protagonistExitBeliefs": "honest interdependence is stronger than guarded competence",
+        "relationshipEntryDynamics": "functional collaboration with unspoken emotional history",
+        "relationshipStressPatterns": "each person uses the work to avoid naming what the work reveals",
+        "relationshipRepairConditions": "both must accept that the work and the feeling cannot be separated",
+        "relationshipExitDynamics": "honest about the risk, but no longer protected by professional distance"
+      }
+    }
+  }
+}

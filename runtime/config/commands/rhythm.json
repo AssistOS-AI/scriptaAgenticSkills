@@ -1,0 +1,186 @@
+{
+  "rhythm": {
+    "suspenseTypes": ["emotional", "cognitive", "situational", "dramatic"],
+    "delayTechniques": ["delayed-information", "foreshadowing", "interruption", "time-slowing", "danger", "mixed"],
+    "cliffhangerTypes": ["danger", "interrupted-revelation", "critical-decision", "unresolved-confrontation"],
+    "pauseFunctions": ["descriptive", "explanatory", "psychological", "atmospheric", "rhythmic"],
+    "accelerationModes": ["transition-skip", "montage", "summary-burst", "pursuit-compression"],
+    "profileTexts": {
+      "drama": {
+        "suspenseUncertainties": {
+          "setup": "what truth is the family protecting, and from whom?",
+          "revelation": "who will break first, and what will the breaking cost?",
+          "default": "what version of the story will survive this conversation?"
+        },
+        "pauseFunctions": {
+          "setup": "let the weight of unspoken grief settle before the next confrontation",
+          "revelation": "give the reader space to feel the moral shift before the next accusation",
+          "default": "decelerate just enough to let consequence become legible"
+        },
+        "pauseFocuses": {
+          "setup": "the domestic objects that carry memory without words",
+          "revelation": "the silence between people who share too much history",
+          "default": "the emotional residue of the last exchange"
+        },
+        "accelerationModes": {
+          "culmination": "emotional-burst",
+          "default": "summary-burst"
+        },
+        "accelerationTriggers": {
+          "culmination": "the moment when delayed honesty can no longer be delayed",
+          "default": "when accumulated tension demands release without emotional escape"
+        },
+        "cliffhangerMoments": {
+          "setup": "someone almost names the wound, but stops",
+          "revelation": "a family member reveals they knew the truth all along",
+          "default": "the conversation reaches a point where retreat is no longer possible"
+        },
+        "cliffhangerContinuations": {
+          "setup": "the next scene must deal with what was almost said",
+          "revelation": "the family dynamic has shifted, and no one can pretend otherwise",
+          "default": "the pressure now has a name, and names cannot be unnamed"
+        }
+      },
+      "detective-police": {
+        "suspenseUncertainties": {
+          "setup": "which fact is the institution most afraid to let survive?",
+          "investigation": "who in the chain of command is protecting whom?",
+          "default": "what does the evidence say when no one is editing it?"
+        },
+        "pauseFunctions": {
+          "setup": "let the procedural weight of the case settle before the next lead",
+          "investigation": "give the reader space to connect clues before the next revelation",
+          "default": "decelerate just enough to let consequence become legible"
+        },
+        "pauseFocuses": {
+          "setup": "the physical evidence that refuses to match the official story",
+          "investigation": "the gap between what the file says and what the witness knows",
+          "default": "the institutional machinery that processes truth into procedure"
+        },
+        "accelerationModes": {
+          "culmination": "pursuit-compression",
+          "default": "summary-burst"
+        },
+        "accelerationTriggers": {
+          "culmination": "the moment when the evidence chain points to an accusation that cannot be withdrawn",
+          "default": "when the investigation reaches a threshold that procedure cannot contain"
+        },
+        "cliffhangerMoments": {
+          "setup": "a protected name surfaces in an unprotected document",
+          "investigation": "a witness agrees to talk, but only off the record",
+          "default": "the evidence points to someone the system is designed to protect"
+        },
+        "cliffhangerContinuations": {
+          "setup": "the next scene must decide whether to follow the protected lead",
+          "investigation": "the investigation has crossed from procedure into accusation",
+          "default": "the case can no longer be contained within its original boundaries"
+        }
+      },
+      "science-fiction": {
+        "suspenseUncertainties": {
+          "setup": "what has the system chosen to forget, and why?",
+          "investigation": "who authorized the memory wound, and what else is curated?",
+          "default": "what does the anomaly reveal about the system's true purpose?"
+        },
+        "pauseFunctions": {
+          "setup": "let the engineered environment reveal its own coercive logic",
+          "investigation": "give the reader space to feel the gap between maintenance and control",
+          "default": "decelerate just enough to let consequence become legible"
+        },
+        "pauseFocuses": {
+          "setup": "the interface surfaces that hide political choices behind technical language",
+          "investigation": " the memory traces that the system tried to smooth over",
+          "default": "the human cost of engineered stability"
+        },
+        "accelerationModes": {
+          "culmination": "summary-burst",
+          "default": "transition-skip"
+        },
+        "accelerationTriggers": {
+          "culmination": "the moment when the protagonist must choose between system order and civic memory",
+          "default": "when the system response reveals more control than maintenance"
+        },
+        "cliffhangerMoments": {
+          "setup": "a memory trace reveals a gap that cannot be technical",
+          "investigation": "the protagonist finds evidence that the anomaly is intentional",
+          "default": "the system adapts to the investigation in a way that reveals its priorities"
+        },
+        "cliffhangerContinuations": {
+          "setup": "the next scene must decide whether to treat the gap as malfunction or intention",
+          "investigation": "the investigation has moved from technical to political",
+          "default": "the system's response proves that memory is not maintenance but governance"
+        }
+      },
+      "fantasy": {
+        "suspenseUncertainties": {
+          "setup": "what founding lie keeps the valley obedient to the curse?",
+          "investigation": "what truth must be spoken, and what will it cost to speak it?",
+          "default": "what does the land remember that the bloodline has edited?"
+        },
+        "pauseFunctions": {
+          "setup": "let the ritual atmosphere carry the weight of inherited harm",
+          "investigation": "give the reader space to feel the magical cost before the next oath",
+          "default": "decelerate just enough to let consequence become legible"
+        },
+        "pauseFocuses": {
+          "setup": "the ancestral objects that carry the curse's visible symptoms",
+          "investigation": "the gap between the official vow and the land's memory",
+          "default": "the magical residue of untruthful speech"
+        },
+        "accelerationModes": {
+          "culmination": "summary-burst",
+          "default": "montage"
+        },
+        "accelerationTriggers": {
+          "culmination": "the moment when the protagonist must speak the binding truth",
+          "default": "when the magical pressure demands a choice that cannot be deferred"
+        },
+        "cliffhangerMoments": {
+          "setup": "the valley answers with omen before the protagonist finishes the question",
+          "investigation": "the protagonist reads the founding vow and recognizes the lie",
+          "default": "the bloodline's protection begins to burn away as truth approaches"
+        },
+        "cliffhangerContinuations": {
+          "setup": "the next scene must deal with the valley's response",
+          "investigation": "the protagonist now knows the truth, but speaking it will cost everything",
+          "default": "the curse shifts from hidden burden to active pressure"
+        }
+      },
+      "romance-relational": {
+        "suspenseUncertainties": {
+          "setup": "can collaboration remain emotionally neutral, or is it already something else?",
+          "reversal": "what happens when professional distance becomes impossible to maintain?",
+          "default": "what does this gesture mean, and is it safe to name it?"
+        },
+        "pauseFunctions": {
+          "setup": "let the emotional weight of a practical exchange settle before the next interaction",
+          "reversal": "give the reader space to feel the shift from professional to personal",
+          "default": "decelerate just enough to let consequence become legible"
+        },
+        "pauseFocuses": {
+          "setup": "the shared workspace where routine becomes intimate",
+          "reversal": "the moment after a gesture that cannot be framed as merely practical",
+          "default": "the emotional residue of an exchange that meant more than either character admitted"
+        },
+        "accelerationModes": {
+          "culmination": "emotional-burst",
+          "default": "summary-burst"
+        },
+        "accelerationTriggers": {
+          "culmination": "the moment when guarded distance becomes harder to maintain than vulnerability",
+          "default": "when accumulated emotional pressure demands acknowledgment"
+        },
+        "cliffhangerMoments": {
+          "setup": "a practical gesture becomes unmistakably intimate, and neither character retreats",
+          "reversal": "one character almost names the feeling, but stops at the threshold",
+          "default": "the collaboration reaches a point where professional language no longer fits"
+        },
+        "cliffhangerContinuations": {
+          "setup": "the next scene must deal with what the gesture revealed",
+          "reversal": "the balance has shifted, and both characters know it",
+          "default": "the partnership can no longer be framed as purely professional"
+        }
+      }
+    }
+  }
+}

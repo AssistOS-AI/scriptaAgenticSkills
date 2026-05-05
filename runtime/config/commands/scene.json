@@ -1,0 +1,154 @@
+{
+  "scene": {
+    "showingModes": ["direct-showing", "compressed-showing", "dialogic", "introspective", "mixed"],
+    "focalizations": ["external", "internal-single", "internal-shifting", "zero"],
+    "exitModes": ["cliffhanger", "handoff", "transition", "pause", "reversal-cut"],
+    "profileTexts": {
+      "drama": {
+        "introductions": [
+          "old grief leaks into ordinary routine",
+          "the room carries yesterday's unspoken accusation",
+          "private tenderness starts looking like evidence"
+        ],
+        "developments": [
+          "small gestures and withheld answers narrow the emotional field",
+          "institutional language keeps bruising the private conversation",
+          "every response makes repair more costly"
+        ],
+        "conflicts": [
+          "love and honesty demand incompatible timings",
+          "dignity and disclosure start opposing each other",
+          "everyone wants repair, but not the same version of truth"
+        ],
+        "resolutions": {
+          "final": "the scene ends after someone chooses painful honesty over emotional convenience",
+          "default": "the scene closes with partial knowledge, altered leverage, and rising risk"
+        },
+        "exits": {
+          "final": "the chapter hands off to a sharper consequence that cannot be re-contained",
+          "default": "the next scene begins before the pressure can settle"
+        },
+        "stateChanges": {
+          "final": "the chapter-level wound becomes public and emotionally irreversible",
+          "default": "the local conflict changes direction, but the central pressure remains active"
+        }
+      },
+      "detective-police": {
+        "introductions": [
+          "a procedural detail refuses to stay procedural",
+          "fresh evidence makes the official timeline wobble",
+          "the safe reading of the case begins to collapse"
+        ],
+        "developments": [
+          "cross-checks, procedural friction, and tactical speech narrow the available readings",
+          "evidence moves faster than permission",
+          "the official chain of custody starts to look like a weapon"
+        ],
+        "conflicts": [
+          "evidence and authority now point in opposite directions",
+          "procedure protects the wrong people more efficiently than it protects truth",
+          "the clue chain becomes dangerous precisely because it is coherent"
+        ],
+        "resolutions": {
+          "final": "the scene ends after evidence and accusation finally occupy the same frame",
+          "default": "the scene closes with partial knowledge, altered leverage, and rising risk"
+        },
+        "exits": {
+          "final": "the chapter hands off to a sharper consequence that cannot be re-contained",
+          "default": "the next scene begins before the evidence can be neutralized"
+        },
+        "stateChanges": {
+          "final": "the chapter-level accusation becomes harder to dismiss as speculation",
+          "default": "the local conflict changes direction, but the central pressure remains active"
+        }
+      },
+      "science-fiction": {
+        "introductions": [
+          "a system alert exposes human fragility inside the station",
+          "one corrupted memory trace disturbs the engineered calm",
+          "the controlled environment reveals its own fear of freedom"
+        ],
+        "developments": [
+          "diagnostics, restricted access, and human hesitation converge on the same breach",
+          "technical procedure and intimate memory become inseparable",
+          "control protocols react before trust can stabilize"
+        ],
+        "conflicts": [
+          "freedom and safety now require conflicting system states",
+          "memory repair threatens the peace built on forgetting",
+          "human consent collides with predictive control"
+        ],
+        "resolutions": {
+          "final": "the scene ends after a technical choice becomes an openly moral one",
+          "default": "the scene closes with partial knowledge, altered leverage, and rising risk"
+        },
+        "exits": {
+          "final": "the chapter hands off to a sharper consequence that cannot be re-contained",
+          "default": "the next scene begins before the pressure can settle"
+        },
+        "stateChanges": {
+          "final": "the chapter-level choice becomes legible as a conflict over freedom and safety",
+          "default": "the local conflict changes direction, but the central pressure remains active"
+        }
+      },
+      "fantasy": {
+        "introductions": [
+          "the place answers with omen before speech",
+          "ancestral magic stirs around an avoided name",
+          "the valley treats silence as a new wound"
+        ],
+        "developments": [
+          "ritual detail and bodily risk make the hidden law newly concrete",
+          "old testimony and present danger begin to sound like the same warning",
+          "magic cost becomes social cost in plain view"
+        ],
+        "conflicts": [
+          "inheritance and redemption pull the same bloodline apart",
+          "truthful speech burns through the protections it needs",
+          "wonder now arrives with an enforceable cost"
+        ],
+        "resolutions": {
+          "final": "the scene ends after truth demands sacrifice instead of symbolism",
+          "default": "the scene closes with partial knowledge, altered leverage, and rising risk"
+        },
+        "exits": {
+          "final": "the chapter hands off to a sharper consequence that cannot be re-contained",
+          "default": "the next scene begins before the pressure can settle"
+        },
+        "stateChanges": {
+          "final": "the chapter-level curse can no longer hide behind inherited ritual",
+          "default": "the local conflict changes direction, but the central pressure remains active"
+        }
+      },
+      "romance-relational": {
+        "introductions": [
+          "shared work becomes harder to treat as neutral routine",
+          "a practical exchange opens an emotional fault line",
+          "care and defensiveness start moving in the same gesture"
+        ],
+        "developments": [
+          "practical cooperation and emotional caution keep rewriting the meaning of each exchange",
+          "routine labor turns into an index of mutual risk",
+          "every useful gesture threatens to become confession"
+        ],
+        "conflicts": [
+          "intimacy and self-protection keep taking turns as the wiser choice",
+          "professional clarity cannot contain emotional consequence",
+          "desire exposes what routine tried to keep manageable"
+        ],
+        "resolutions": {
+          "final": "the scene ends after vulnerability becomes harder to withdraw",
+          "default": "the scene closes with partial knowledge, altered leverage, and rising risk"
+        },
+        "exits": {
+          "final": "the chapter hands off to a sharper consequence that cannot be re-contained",
+          "default": "the next scene begins before the pressure can settle"
+        },
+        "stateChanges": {
+          "final": "the chapter-level bond becomes harder to frame as merely practical",
+          "default": "the local conflict changes direction, but the central pressure remains active"
+        }
+      }
+    }
+  }
+}

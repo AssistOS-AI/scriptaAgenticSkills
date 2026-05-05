@@ -1,0 +1,195 @@
+{
+  "worldbuilding": {
+    "domains": ["physics", "society", "economy", "technology", "magic", "metaphysics", "time", "geography", "biology"],
+    "visibilityModes": ["explicit", "implicit", "structural"],
+    "ruleTypes": ["physical-limitation", "social-norm", "resource-scarcity", "technological-restriction", "metaphysical-cost", "temporal-law"],
+    "magicDeterminacies": ["hard", "semi-hard", "soft"],
+    "profileTexts": {
+      "drama": {
+        "secondaryRuleTypes": "social-norm",
+        "secondaryRules": "grief must be expressed in socially acceptable forms or it becomes a public problem",
+        "secondaryRuleConflicts": "private pain that does not fit institutional language gets pathologized instead of heard",
+        "ruleToConflicts": "the gap between how people actually grieve and how institutions expect them to grieve",
+        "ruleVisibleSymptoms": {
+          "setup": "the family uses institutional language to avoid naming the wound directly",
+          "revelation": "someone's grief expression is treated as disruption rather than legitimate pain",
+          "default": "the social norm surfaces as friction between private truth and public expectation"
+        },
+        "ruleActionLimitations": {
+          "setup": "the protagonist cannot name the wound without being accused of destabilizing the family",
+          "revelation": "every honest expression of grief gets reframed as complaint or attack",
+          "default": "the social norm limits how directly the protagonist can address the central pressure"
+        },
+        "ruleConflictOutputs": {
+          "setup": "the family's emotional survival depends on maintaining a version of events that protects someone",
+          "revelation": "the institution's procedural response makes the private wound feel publicly illegitimate",
+          "default": "the social norm creates friction between what is felt and what can be safely expressed"
+        },
+        "locationSensoryAnchors": [
+          "fluorescent light that makes every conversation feel clinical",
+          "rain against windows that turns the room into a contained pressure chamber"
+        ],
+        "locationSocialSignals": [
+          "a space designed for procedure, not for grief",
+          "a domestic space that has become a negotiation table"
+        ],
+        "locationSymbolicCharges": [
+          "the place where private pain meets public language",
+          "the room where the family version of events is enforced"
+        ],
+        "locationConflictUses": [
+          "the institution's architecture makes emotional honesty feel like trespassing",
+          "the domestic space becomes a battlefield over who gets to name the truth"
+        ]
+      },
+      "detective-police": {
+        "secondaryRuleTypes": "social-norm",
+        "secondaryRules": "the chain of command must be respected even when it obstructs the investigation",
+        "secondaryRuleConflicts": "following procedure protects the institution; breaking it protects the truth",
+        "ruleToConflicts": "the gap between what the evidence shows and what the institution allows to be seen",
+        "ruleVisibleSymptoms": {
+          "setup": "a file is classified not for security but for institutional comfort",
+          "investigation": "a witness is redirected to a different department that will not ask the right questions",
+          "default": "the procedural norm surfaces as a delay, a redirection, or a missing signature"
+        },
+        "ruleActionLimitations": {
+          "setup": "the protagonist cannot access the protected file without triggering an internal review",
+          "investigation": "every question about the protected name requires authorization from the person being questioned",
+          "default": "the procedural norm limits how directly the protagonist can follow the evidence"
+        },
+        "ruleConflictOutputs": {
+          "setup": "the institution absorbs the investigation by redirecting it into safe channels",
+          "investigation": "the evidence chain reveals that procedure was designed to protect, not to discover",
+          "default": "the procedural norm creates friction between what the protagonist knows and what they can prove"
+        },
+        "locationSensoryAnchors": [
+          "the smell of old paper and institutional coffee in the evidence archive",
+          "the echo of footsteps in a corridor designed for authority, not truth"
+        ],
+        "locationSocialSignals": [
+          "a space where access is controlled by rank, not by need",
+          "a room where the architecture reminds you who holds the files"
+        ],
+        "locationSymbolicCharges": [
+          "the place where evidence goes to be managed rather than examined",
+          "the corridor where the protagonist realizes the system is the obstacle"
+        ],
+        "locationConflictUses": [
+          "the archive's access rules make the protagonist's investigation itself a procedural violation",
+          " the tribunal annex becomes the stage where accusation meets institutional defense"
+        ]
+      },
+      "science-fiction": {
+        "secondaryRuleTypes": "technological-restriction",
+        "secondaryRules": "all memory restoration requires authorization from the continuity board",
+        "secondaryRuleConflicts": "the technical requirement for authorization becomes a political tool for controlling narrative",
+        "ruleToConflicts": "the gap between what the system claims to do and what it actually controls",
+        "ruleVisibleSymptoms": {
+          "setup": "a memory trace is flagged not for corruption but for unauthorized emotional content",
+          "investigation": "the system's diagnostic response reveals that the anomaly is intentional",
+          "default": "the technological restriction surfaces as a system alert that masks political intention"
+        },
+        "ruleActionLimitations": {
+          "setup": "the protagonist cannot restore the corrupted trace without triggering a governance review",
+          "investigation": "every attempt to access the restricted memory requires clearance from the body being investigated",
+          "default": "the technological restriction limits how directly the protagonist can access civic memory"
+        },
+        "ruleConflictOutputs": {
+          "setup": "the system treats the protagonist's curiosity as a security risk rather than a civic right",
+          "investigation": "the diagnostic tools reveal that the system's maintenance is actually curation",
+          "default": "the technological restriction creates friction between what the protagonist needs to know and what the system allows"
+        },
+        "locationSensoryAnchors": [
+          "the hum of the memory lattice that sounds like a held breath",
+          "the cool light of interface surfaces that hide political choices behind technical language"
+        ],
+        "locationSocialSignals": [
+          "a space designed for efficiency that reveals its coercive logic under scrutiny",
+          "a room where the architecture assumes compliance rather than consent"
+        ],
+        "locationSymbolicCharges": [
+          "the place where civic memory is stored but not accessible",
+          "the interface where the protagonist realizes maintenance is governance"
+        ],
+        "locationConflictUses": [
+          "the cryo archive's access protocols make the protagonist's investigation itself a system violation",
+          "the signal garden becomes the place where unauthorized memory traces can be heard"
+        ]
+      },
+      "fantasy": {
+        "secondaryRuleTypes": "metaphysical-cost",
+        "secondaryRules": "every oath spoken against the founding vow burns away one layer of family privilege",
+        "secondaryRuleConflicts": "truthful speech saves the valley but strips the bloodline of its inherited protection",
+        "ruleToConflicts": "the gap between what the rituals claim to protect and what they actually conceal",
+        "ruleVisibleSymptoms": {
+          "setup": "the valley's soil darkens where the founding lie is strongest",
+          "investigation": "the protagonist's truthful naming causes visible magical disturbance in the ritual space",
+          "default": "the metaphysical cost surfaces as magical resistance to truthful speech"
+        },
+        "ruleActionLimitations": {
+          "setup": "the protagonist cannot speak the binding truth without losing inherited shelter",
+          "investigation": "every attempt to read the founding vow correctly triggers magical resistance from the bloodline",
+          "default": "the metaphysical cost limits how directly the protagonist can approach the founding crime"
+        },
+        "ruleConflictOutputs": {
+          "setup": "the valley's suffering increases as the bloodline's protection depends on continued silence",
+          "investigation": "the magical system reveals that it answers to truth, not to rank",
+          "default": "the metaphysical cost creates friction between what the protagonist must do and what the bloodline will lose"
+        },
+        "locationSensoryAnchors": [
+          "the ash that falls from the sky where the founding vow was broken",
+          "the cold stone of the ritual chamber that remembers every untruthful oath"
+        ],
+        "locationSocialSignals": [
+          "a space where rank is visible in who may speak and who must listen",
+          "a place where the architecture enforces the bloodline's version of history"
+        ],
+        "locationSymbolicCharges": [
+          "the place where the valley's curse is most visible and most denied",
+          "the chamber where the founding vow is recited but never examined"
+        ],
+        "locationConflictUses": [
+          "the ritual space makes the protagonist's truthful speech physically dangerous",
+          "the ash vale becomes the place where the land's memory confronts the bloodline's edited version"
+        ]
+      },
+      "romance-relational": {
+        "secondaryRuleTypes": "social-norm",
+        "secondaryRules": "creative partnerships must remain professional to survive",
+        "secondaryRuleConflicts": "the rule that protects the work also protects emotional distance",
+        "ruleToConflicts": "the gap between what the collaboration reveals and what professional language allows to be named",
+        "ruleVisibleSymptoms": {
+          "setup": "a practical gesture carries emotional weight that neither character can acknowledge",
+          "reversal": "the collaboration reveals emotional imbalance faster than private confession would",
+          "default": "the social norm surfaces as professional language that cannot contain the feeling"
+        },
+        "ruleActionLimitations": {
+          "setup": "the protagonist cannot name the feeling without risking the working arrangement",
+          "reversal": "every honest expression of vulnerability threatens the professional boundary",
+          "default": "the social norm limits how directly the protagonist can address the emotional shift"
+        },
+        "ruleConflictOutputs": {
+          "setup": "the collaboration reveals what private confession hides, but professional language cannot name it",
+          "reversal": "the shared work becomes a test of whether honesty can remain useful",
+          "default": "the social norm creates friction between what the collaboration reveals and what professional language permits"
+        },
+        "locationSensoryAnchors": [
+          "the smell of ink and paper in the print studio where routine becomes intimate",
+          "the warmth of the rooftop garden where practical work carries emotional weight"
+        ],
+        "locationSocialSignals": [
+          "a space designed for collaboration that reveals emotional truth faster than private conversation",
+          "a room where the shared work makes professional distance increasingly difficult"
+        ],
+        "locationSymbolicCharges": [
+          "the place where practical collaboration becomes emotional revelation",
+          "the studio where the work and the feeling can no longer be separated"
+        ],
+        "locationConflictUses": [
+          " the print studio's shared space makes professional distance feel like emotional dishonesty",
+          "the rooftop garden becomes the place where routine gestures become unmistakably intimate"
+        ]
+      }
+    }
+  }
+}

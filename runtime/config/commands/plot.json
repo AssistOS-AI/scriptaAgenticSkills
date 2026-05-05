@@ -1,0 +1,95 @@
+{
+  "plot": {
+    "categories": ["physical-object", "information", "relationship", "event", "abstract-concept"],
+    "subtypes": ["artifact", "key", "document", "weapon", "secret", "prophecy", "evidence", "memory", "promise", "debt", "betrayal", "inheritance", "accident", "crime", "deadline", "discovery", "curse", "blessing", "revenge", "destiny", "fate"],
+    "functions": ["conflict-generation", "motivation", "obstacle", "revelation", "redirection"],
+    "deviceTypes": ["macguffin", "chekhov-gun", "red-herring", "foreshadowing", "flashback", "flash-forward", "delayed-reveal"],
+    "profileTexts": {
+      "drama": {
+        "coreObjects": {
+          "category": "information",
+          "subtype": "document",
+          "function": "revelation",
+          "stakes": "changes who understands the real structure of the family wound",
+          "activation": "the protagonist decodes the missing file near the midpoint",
+          "payoffZone": "midpoint and final confrontation"
+        },
+        "pressureShifts": {
+          "deviceType": "foreshadowing",
+          "purpose": "prepare the later reveal that the visible conflict is not the only system in play",
+          "setupZone": "opening and first chapter",
+          "payoffZone": "midpoint",
+          "fairnessRule": "every later reveal must have at least one early concrete hint"
+        }
+      },
+      "detective-police": {
+        "coreObjects": {
+          "category": "information",
+          "subtype": "evidence",
+          "function": "revelation",
+          "stakes": "changes who understands the real structure of the institutional cover-up",
+          "activation": "the protagonist decodes the falsified report near the midpoint",
+          "payoffZone": "midpoint and final confrontation"
+        },
+        "pressureShifts": {
+          "deviceType": "foreshadowing",
+          "purpose": "prepare the later reveal that the visible conflict is not the only system in play",
+          "setupZone": "opening and first chapter",
+          "payoffZone": "midpoint",
+          "fairnessRule": "every later reveal must have at least one early concrete hint"
+        }
+      },
+      "science-fiction": {
+        "coreObjects": {
+          "category": "information",
+          "subtype": "memory",
+          "function": "revelation",
+          "stakes": "changes who understands the real structure of the station's governance",
+          "activation": "the protagonist decodes the corrupted trace near the midpoint",
+          "payoffZone": "midpoint and final confrontation"
+        },
+        "pressureShifts": {
+          "deviceType": "foreshadowing",
+          "purpose": "prepare the later reveal that the visible conflict is not the only system in play",
+          "setupZone": "opening and first chapter",
+          "payoffZone": "midpoint",
+          "fairnessRule": "every later reveal must have at least one early concrete hint"
+        }
+      },
+      "fantasy": {
+        "coreObjects": {
+          "category": "physical-object",
+          "subtype": "artifact",
+          "function": "revelation",
+          "stakes": "changes who understands the real structure of the founding vow",
+          "activation": "the protagonist decodes the vow-bound relic near the midpoint",
+          "payoffZone": "midpoint and final confrontation"
+        },
+        "pressureShifts": {
+          "deviceType": "foreshadowing",
+          "purpose": "prepare the later reveal that the visible conflict is not the only system in play",
+          "setupZone": "opening and first chapter",
+          "payoffZone": "midpoint",
+          "fairnessRule": "every later reveal must have at least one early concrete hint"
+        }
+      },
+      "romance-relational": {
+        "coreObjects": {
+          "category": "physical-object",
+          "subtype": "document",
+          "function": "revelation",
+          "stakes": "changes who understands the real structure of the partnership's emotional history",
+          "activation": "the protagonist decodes the annotated object near the midpoint",
+          "payoffZone": "midpoint and final confrontation"
+        },
+        "pressureShifts": {
+          "deviceType": "foreshadowing",
+          "purpose": "prepare the later reveal that the visible conflict is not the only system in play",
+          "setupZone": "opening and first chapter",
+          "payoffZone": "midpoint",
+          "fairnessRule": "every later reveal must have at least one early concrete hint"
+        }
+      }
+    }
+  }
+}

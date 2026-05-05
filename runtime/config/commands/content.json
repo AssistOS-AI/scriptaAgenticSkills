@@ -1,0 +1,159 @@
+{
+  "content": {
+    "actionModes": ["attempt", "pursuit", "evasion", "negotiation", "revelation-act", "sacrifice"],
+    "conflictTypes": ["internal", "external-character", "external-society", "external-nature", "external-supernatural", "external-technology", "mixed"],
+    "eventTypes": ["discovery", "accident", "crime", "deadline", "revelation", "betrayal", "reversal", "loss", "arrival", "decision"],
+    "profileTexts": {
+      "drama": {
+        "actionGoals": [
+          "ask for the withheld truth without shattering fragile trust",
+          "test whether care can survive direct naming",
+          "interrupt the family script that keeps grief orderly"
+        ],
+        "actionObstacles": "every answer threatens to reopen grief in front of the wrong audience",
+        "actionResults": {
+          "final": "the attempt succeeds emotionally, but at the price of a fractured arrangement",
+          "default": "the attempt shifts leverage without resolving the central tension"
+        },
+        "conflictStakeLines": "identity, dignity, family trust, and public consequence",
+        "conflictEscalations": {
+          "setup": "private grief and public reputation pull the same event toward incompatible meanings",
+          "revelation": "speaking the truth now threatens both dignity and belonging",
+          "default": "every attempt to act reveals a larger cost"
+        },
+        "eventTriggers": {
+          "final": "a withheld confession surfaces in the wrong room at the wrong time",
+          "default": "a small gesture exposes what routine tried to keep contained"
+        },
+        "eventImpacts": {
+          "final": "the emotional reading of the family shifts permanently",
+          "default": "the local balance tilts without resolving the larger pressure"
+        },
+        "eventFollowThroughs": {
+          "final": "no one can return to the version of the story that existed before",
+          "default": "the consequences ripple into the next interaction without announcement"
+        }
+      },
+      "detective-police": {
+        "actionGoals": [
+          "lock the evidence to a timeline that cannot be denied",
+          "pressure the witness chain into coherence",
+          "force the official story to absorb one unmanageable fact"
+        ],
+        "actionObstacles": "the official record still protects the version that serves power",
+        "actionResults": {
+          "final": "the attempt secures proof, but only by intensifying danger",
+          "default": "the attempt shifts leverage without resolving the central tension"
+        },
+        "conflictStakeLines": "justice, legitimacy, public trust, and personal safety",
+        "conflictEscalations": {
+          "setup": "the system resists any reading that links procedure to corruption",
+          "investigation": "the safer interpretation of the evidence keeps serving the wrong people",
+          "default": "every attempt to act reveals a larger cost"
+        },
+        "eventTriggers": {
+          "final": "a protected file surfaces through an unprotected channel",
+          "default": "a procedural detail refuses to stay contained within its assigned case"
+        },
+        "eventImpacts": {
+          "final": "the case can no longer be closed without public damage",
+          "default": "the investigation gains one more thread it cannot safely ignore"
+        },
+        "eventFollowThroughs": {
+          "final": "the accusation moves from private file to public consequence",
+          "default": "the next procedural step carries more risk than the last"
+        }
+      },
+      "science-fiction": {
+        "actionGoals": [
+          "restore the corrupted memory trace before governance seals it",
+          "keep human consent visible inside the system response",
+          "translate anomaly into public knowledge before prediction closes over it"
+        ],
+        "actionObstacles": "the station treats uncertainty as a security breach instead of a civic fact",
+        "actionResults": {
+          "final": "the attempt restores agency, but destabilizes the managed order",
+          "default": "the attempt shifts leverage without resolving the central tension"
+        },
+        "conflictStakeLines": "freedom, safety, civic memory, and collective consent",
+        "conflictEscalations": {
+          "setup": "security logic treats emotional memory as a civic threat",
+          "revelation": "the station can preserve order only by intensifying moral illegibility",
+          "default": "every attempt to act reveals a larger cost"
+        },
+        "eventTriggers": {
+          "final": "a memory trace reveals the political intention behind the technical anomaly",
+          "default": "a system response exposes the gap between maintenance and control"
+        },
+        "eventImpacts": {
+          "final": "the station's governing model loses its moral cover",
+          "default": "the system adapts, but the adaptation reveals more than it conceals"
+        },
+        "eventFollowThroughs": {
+          "final": "citizens begin to question what else has been curated",
+          "default": "the next technical decision carries civic weight it did not have before"
+        }
+      },
+      "fantasy": {
+        "actionGoals": [
+          "name the binding oath before the valley exacts a harsher price",
+          "recover the true line of inheritance without submitting to it",
+          "turn ritual knowledge into actionable release"
+        ],
+        "actionObstacles": "truth burns through status, shelter, and magical protection at the same time",
+        "actionResults": {
+          "final": "the attempt uncovers truth, but strips away inherited safety",
+          "default": "the attempt shifts leverage without resolving the central tension"
+        },
+        "conflictStakeLines": "lineage, survival, oath-bound legitimacy, and magical cost",
+        "conflictEscalations": {
+          "setup": "ancestral legitimacy depends on keeping the founding lie intact",
+          "culmination": "every truthful act saves the valley while stripping inherited protection away",
+          "default": "every attempt to act reveals a larger cost"
+        },
+        "eventTriggers": {
+          "final": "the valley answers a truthful oath with visible magical consequence",
+          "default": "a ritual detail reveals more than the bloodline intended"
+        },
+        "eventImpacts": {
+          "final": "the inherited curse shifts from hidden burden to public fact",
+          "default": "the magical balance tilts without resolving the larger pressure"
+        },
+        "eventFollowThroughs": {
+          "final": "the land remembers what the bloodline tried to edit",
+          "default": "the next ritual act carries more weight than the last"
+        }
+      },
+      "romance-relational": {
+        "actionGoals": [
+          "test whether honesty can coexist with collaboration",
+          "protect the shared work without retreating from feeling",
+          "say enough truth to keep tenderness from collapsing back into routine"
+        ],
+        "actionObstacles": "habit keeps translating vulnerability back into strategy",
+        "actionResults": {
+          "final": "the attempt creates intimacy, but removes the last easy retreat",
+          "default": "the attempt shifts leverage without resolving the central tension"
+        },
+        "conflictStakeLines": "autonomy, tenderness, creative future, and mutual trust",
+        "conflictEscalations": {
+          "setup": "practical cooperation keeps colliding with old defensiveness and renewed desire",
+          "reversal": "what keeps the partnership functional also keeps intimacy at risk",
+          "default": "every attempt to act reveals a larger cost"
+        },
+        "eventTriggers": {
+          "final": "a practical gesture becomes unmistakably intimate",
+          "default": "a routine exchange opens an emotional fault line"
+        },
+        "eventImpacts": {
+          "final": "the partnership can no longer be framed as merely professional",
+          "default": "the local balance tilts without resolving the larger pressure"
+        },
+        "eventFollowThroughs": {
+          "final": "both characters must decide whether usefulness can survive honesty",
+          "default": "the next collaboration carries more emotional risk than the last"
+        }
+      }
+    }
+  }
+}
