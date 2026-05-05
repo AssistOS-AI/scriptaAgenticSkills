@@ -1,0 +1,101 @@
+# tasks.backlog
+
+Prioritized improvement backlog for the SCRIPTA project. Each entry references the affected area, the problem, and the proposed action.
+
+## P0 — Critical
+
+### TASK-001: Implement DS014-DS028 CNL command specifications
+- **Area:** docs/specs/
+- **Problem:** 15 DS files (DS014 through DS028) are marked `[[status:planned]]`. The CNL plan format is defined abstractly in DS013 but lacks concrete command specifications for central-idea, theme, wisdom, narrative-structure, narrative-model, blueprint, plot, character, worldbuilding, chapter, scene, sequence, content blocks, expression blocks, and rhythm blocks.
+- **Action:** Write complete DS specifications for each command family with: allowed verbs, required labeled fields, classifier value domains, placeholder rules, and validation constraints. Update matrix.md and mark status to `implemented`.
+- **Acceptance:** All DS014-DS028 have status `implemented`, matrix.md reflects this, and symbolicPlanGeneration.mjs uses the defined domains.
+
+### TASK-002: Make validation book-specific instead of template-driven
+- **Area:** runtime/pipeline/validationSuite.mjs, runtime/pipeline/metricsFramework.mjs
+- **Problem:** All 5 QA books produce identical metrics (OI=68, CAD=88, EAP=92, etc.) and identical revision tasks. Validation is not analyzing actual book content.
+- **Action:** Implement content-aware checks: actual n-gram overlap analysis, real placeholder residue scanning per book, chapter-state comparison that reads actual plan/draft files, and export audit that inspects real HTML structure.
+- **Acceptance:** Each QA book produces distinct metric values and book-specific revision tasks.
+
+### TASK-003: Enrich SKILL.md files with actionable workflows
+- **Area:** .agents/skills/scripta_*/SKILL.md
+- **Problem:** All SCRIPTA skill files are 8-15 lines — too brief to guide an agent through the full workflow. They lack: DS references, step-by-step instructions, error handling, workspace path conventions, and artifact naming rules.
+- **Action:** Expand each SKILL.md to include: referenced DS file, prerequisites, step-by-step workflow, input/output contract, error conditions, and workspace path patterns.
+- **Acceptance:** Each scripta_* skill has a SKILL.md of at least 40 lines with explicit workflow guidance.
+
+## P1 — High
+
+### TASK-004: Implement real CNLEnh placeholder resolution
+- **Area:** runtime/pipeline/cnlEnh.mjs, .agents/skills/scripta_cnlenh/
+- **Problem:** CNLEnh currently copies symbolic plans without resolving `{{character:...}}`, `{{location:...}}`, etc. placeholders into concrete names. The QA workspaces show "placeholder resolution artifact exists" passes but plans still contain template-level content.
+- **Action:** Implement a deterministic placeholder resolver that uses profile lexicons and seed-based name generation to replace typed placeholders with concrete values. Write resolved plans as successor artifacts in `cnl/`.
+- **Acceptance:** Refined plans in `cnl/` contain zero `{{...}}` tokens. Validation PRC check passes with evidence.
+
+### TASK-005: Add architecture documentation
+- **Area:** docs/
+- **Problem:** No visual architecture diagram or system overview exists. New contributors must read all DS files to understand the pipeline.
+- **Action:** Create `docs/architecture.html` with: stage diagram, artifact flow, skill-to-runtime mapping, and workspace structure visualization. Add a link in AGENTS.md and docs/index.html.
+- **Acceptance:** Architecture page exists, renders standalone, and is linked from index.html.
+
+### TASK-006: Add per-stage CLI documentation
+- **Area:** AGENTS.md, bin/scripta.mjs, docs/
+- **Problem:** AGENTS.md mentions `npm test` and `npm run qa` but does not document how to run individual stages or what options each stage accepts.
+- **Action:** Add a "CLI Reference" section to AGENTS.md with: stage commands, required/optional flags, example invocations, and expected outputs. Cross-reference with DS files.
+- **Acceptance:** AGENTS.md contains a complete CLI reference section.
+
+### TASK-007: Diversify symbolic generation output per profile
+- **Area:** runtime/pipeline/symbolicPlanGeneration.mjs, runtime/config/domains.mjs
+- **Problem:** Chapter role sequences, scene content, and block alternation patterns are too similar across profiles. The `buildChapterRoleSequence` function uses the same 3-role pattern for all profiles with only label changes.
+- **Action:** Expand profile-specific generation: distinct chapter counts per work-form, profile-specific scene densities, genre-appropriate block alternation patterns, and richer lexicon domains.
+- **Acceptance:** Each of the 5 profiles produces structurally different plan files with profile-appropriate vocabulary.
+
+## P2 — Medium
+
+### TASK-008: Add CONTRIBUTING.md with DS authoring guide
+- **Area:** root CONTRIBUTING.md
+- **Problem:** No guidance exists for how to add new DS files without breaking numbering, how to update matrix.md, or how to keep HTML docs in sync.
+- **Action:** Create CONTRIBUTING.md with: DS numbering rules, frontmatter schema, matrix regeneration command, HTML doc update workflow, and coding-style quick reference.
+- **Acceptance:** CONTRIBUTING.md exists and covers the full authoring workflow.
+
+### TASK-009: Add version/changelog tracking to DS files
+- **Area:** docs/specs/*.md
+- **Problem:** DS files have no version history. When a DS is updated, there is no record of what changed or when.
+- **Action:** Add an optional `history` array to DS frontmatter with entries containing: date, change-type (added/updated/fixed), and summary. Or add a `## Changelog` section at the end of each DS.
+- **Acceptance:** At least DS000-DS012 have initial history entries. New DS template includes history section.
+
+### TASK-010: Implement LLM adapter interface
+- **Area:** runtime/core/, runtime/pipeline/
+- **Problem:** DS002 specifies 4 execution layers including "LLM refinement" and "Draft generation", but the runtime has no LLM adapter interface. All stages are deterministic stubs.
+- **Action:** Create `runtime/core/llmAdapter.mjs` with: abstract interface for model calls, prompt construction from CNL plans, response parsing into successor artifacts, and evidence window capture. Implement a mock adapter that preserves current deterministic behavior.
+- **Acceptance:** LLM adapter interface exists, mock adapter passes all existing tests, and ChapGen/CNLEnh stages can optionally use it.
+
+### TASK-011: Improve Originality Index (OI) scoring
+- **Area:** runtime/pipeline/metricsFramework.mjs
+- **Problem:** OI score is 68 for all books — the same value. The scoring is not analyzing actual text novelty.
+- **Action:** Implement n-gram frequency analysis against profile baselines, detect repeated phrasing patterns across chapters, and measure semantic cluster diversity. Score should vary per book based on actual content.
+- **Acceptance:** OI scores differ across QA books and correlate with actual lexical diversity.
+
+### TASK-012: Add Character Attribute Drift (CAD) detection
+- **Area:** runtime/pipeline/validationSuite.mjs
+- **Problem:** CAD score is 88 for all books — template value, not computed from actual character state tracking.
+- **Action:** Implement character state extraction from macro plans, track character attributes across chapter drafts, detect unexplained trait changes, and produce localized issue reports.
+- **Acceptance:** CAD scores vary per book and issues cite specific chapter/paragraph locations.
+
+## P3 — Low
+
+### TASK-013: Add fileSizesCheck.sh to AGENTS.md Key Paths context
+- **Area:** AGENTS.md
+- **Problem:** `fileSizesCheck.sh` is listed in Key Paths but not explained. Its purpose and when to run it are unclear.
+- **Action:** Add a one-line description of what fileSizesCheck.sh does and when it should be run.
+- **Acceptance:** AGENTS.md Key Paths section includes context for fileSizesCheck.sh.
+
+### TASK-014: Add DS gap detection to matrix generator
+- **Area:** skills/gamp_specs/scripts/generate_specs_matrix.mjs
+- **Problem:** The matrix generator does not detect or warn about gaps in DS numbering. AGENTS.md requires "gap-free" numbering but nothing enforces it.
+- **Action:** Add a numbering continuity check to the matrix generator that warns if DS IDs are not sequential from DS000 to the highest DS.
+- **Acceptance:** Running the matrix generator on a repo with a DS numbering gap produces a warning.
+
+### TASK-015: Add support for additional work forms in QA
+- **Area:** runtime/pipeline/qaBooks.mjs, runtime/pipeline/options.mjs
+- **Problem:** QA campaign only generates 3-chapter books. The work-form parameter supports short-story, novelette, novella, novel, and series-volume but QA only exercises one pattern.
+- **Action:** Add at least one QA book with a different work form (e.g., 5-chapter novella or 10-chapter novel) to test the full work-form range.
+- **Acceptance:** QA campaign generates at least 2 different work forms with appropriate chapter counts.
