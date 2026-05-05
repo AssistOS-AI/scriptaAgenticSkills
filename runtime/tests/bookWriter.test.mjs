@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { createTempWorkspace } from './testUtils.mjs';
-import { listLatestStageArtifacts } from '../core/workspace.mjs';
+import { listLatestStageArtifacts, readStructuredMarkdown } from '../core/workspace.mjs';
 import { runBookPipeline } from '../pipeline/runBookPipeline.mjs';
 
 test('BookWriter emits single-file English and Romanian reader editions', async () => {
@@ -21,7 +21,7 @@ test('BookWriter emits single-file English and Romanian reader editions', async 
     const exportArtifacts = await listLatestStageArtifacts(workspace.directoryPath, 'exports');
     const englishHtml = await readFile(exportArtifacts.find((artifact) => artifact.baseName === 'edition-en' && artifact.label === 'reader').filePath, 'utf8');
     const romanianHtml = await readFile(exportArtifacts.find((artifact) => artifact.baseName === 'edition-ro' && artifact.label === 'reader').filePath, 'utf8');
-    const bundle = JSON.parse(await readFile(exportArtifacts.find((artifact) => artifact.baseName === 'editions' && artifact.label === 'bundle').filePath, 'utf8'));
+    const bundle = await readStructuredMarkdown(exportArtifacts.find((artifact) => artifact.baseName === 'editions' && artifact.label === 'bundle').filePath, {});
 
     assert.match(englishHtml, /<svg/);
     assert.match(englishHtml, /Contents/);

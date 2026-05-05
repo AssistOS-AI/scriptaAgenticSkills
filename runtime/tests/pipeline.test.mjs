@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { createTempWorkspace } from './testUtils.mjs';
-import { listLatestStageArtifacts } from '../core/workspace.mjs';
+import { listLatestStageArtifacts, readStructuredMarkdown } from '../core/workspace.mjs';
 import { runBookPipeline } from '../pipeline/runBookPipeline.mjs';
 
 test('full pipeline generates drafts, exports, and validation without placeholder residue', async () => {
@@ -21,7 +21,7 @@ test('full pipeline generates drafts, exports, and validation without placeholde
     const reportPath = (await listLatestStageArtifacts(result.options.workspaceRoot, 'reports', 'report')).find((artifact) => artifact.baseName === 'summary')?.filePath;
     const manuscriptPath = (await listLatestStageArtifacts(result.options.workspaceRoot, 'exports')).find((artifact) => artifact.baseName === 'manuscript' && artifact.label === 'book')?.filePath;
     const tasksReportPath = (await listLatestStageArtifacts(result.options.workspaceRoot, 'reports', 'report')).find((artifact) => artifact.baseName === 'tasks')?.filePath;
-    const summary = JSON.parse(await readFile(summaryPath, 'utf8'));
+    const summary = await readStructuredMarkdown(summaryPath, {});
     const report = await readFile(reportPath, 'utf8');
     const manuscript = await readFile(manuscriptPath, 'utf8');
     const tasksReport = await readFile(tasksReportPath, 'utf8');
