@@ -1,5 +1,5 @@
 import { blockToObject, getFieldValue, replaceReferences, buildReferenceReplacements, normalizeReferenceValue } from '../core/cnl.mjs';
-import { ensureWorkspace, allocateArtifactPath, listLatestStageArtifacts, registerStageRun, writeStructuredMarkdown, writeText } from '../core/workspace.mjs';
+import { ensureWorkspace, allocateArtifactPath, listLatestStageArtifacts, registerStageRun, writeText } from '../core/workspace.mjs';
 import { normalizePipelineOptions } from './options.mjs';
 import { readLatestBlocksByBase } from './loaders.mjs';
 
@@ -52,9 +52,7 @@ export async function runChapGen(input = {}) {
       referenceReplacements
     });
     const draftArtifact = await writeDraftArtifact(options, chapterId, 'draft', draftText);
-    const continuityPacket = buildContinuityPacket(chapterId, chapterObject, microEntry.blocks, referenceReplacements);
-    const continuityArtifact = await writeContinuityArtifact(options, chapterId, 'continuity', continuityPacket);
-    produced.push(draftArtifact, continuityArtifact);
+    produced.push(draftArtifact);
   }
 
   await registerStageRun({
@@ -299,19 +297,6 @@ function buildMacroEcho(refinedMacroEntries) {
   return fragments.filter(Boolean).join('. ');
 }
 
-function buildContinuityPacket(chapterId, chapterObject, microBlocks, referenceReplacements) {
-  const resolveText = (value) => replaceReferences(String(value ?? ''), referenceReplacements);
-  return {
-    chapterId,
-    entryState: resolveText(chapterObject['input-state']),
-    exitState: resolveText(chapterObject['output-state']),
-    unresolvedObligations: [resolveText(chapterObject['continuity-obligations'])],
-    introducedEntities: extractParticipants(microBlocks, resolveText),
-    changedRelationships: [resolveText(chapterObject['thematic-focus'])],
-    continuityWarnings: []
-  };
-}
-
 function extractParticipants(blocks, resolveText = (value) => value) {
   const scene = blocks.find((block) => block.identifier.startsWith('scene-') && block.verb === 'define');
   if (!scene) {
@@ -352,45 +337,6 @@ async function writeDraftArtifact(options, baseName, label, content) {
   });
 
   await writeText(artifactPath.filePath, content);
-  return {
-    baseName,
-    label,
-    iteration: artifactPath.iteration,
-    filePath: artifactPath.filePath,
-    relativePath: artifactPath.relativePath
-  };
-}
-
-async function writeContinuityArtifact(options, baseName, label, value) {
-  const artifactPath = await allocateArtifactPath({
-    workspaceRoot: options.workspaceRoot,
-    stage: 'drafts',
-    baseName,
-    label
-  });
-
-  await writeStructuredMarkdown(artifactPath.filePath, {
-    title: `${baseName} ${label}`,
-    lead: 'Continuity packet for downstream validation and export assembly.',
-    sections: [
-      {
-        heading: 'State flow',
-        lines: [
-          `- entryState: ${value.entryState}`,
-          `- exitState: ${value.exitState}`
-        ]
-      },
-      {
-        heading: 'Continuity obligations',
-        lines: (value.unresolvedObligations ?? []).map((entry) => `- ${entry}`)
-      },
-      {
-        heading: 'Introduced entities',
-        lines: (value.introducedEntities ?? []).map((entry) => `- ${entry}`)
-      }
-    ],
-    data: value
-  });
   return {
     baseName,
     label,

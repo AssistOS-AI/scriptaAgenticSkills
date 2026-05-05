@@ -1,8 +1,8 @@
 import { createBlock, collectPlaceholdersFromBlocks, replacePlaceholdersInBlock, serializeBlocks } from '../core/cnl.mjs';
 import { createSeededRandom } from '../core/random.mjs';
 import { COMMAND_CONFIGS } from '../config/domains.mjs';
-import { STAGE_FOLDERS, allocateArtifactPath, ensureWorkspace, registerStageRun, writeStructuredMarkdown, writeText } from '../core/workspace.mjs';
-import { generatePlaceholderLocation, generatePlaceholderName, generatePlaceholderOrganization } from '../config/presets.mjs';
+import { DEFAULT_ENTITY_MAP, genericPlaceholderValue, resolveCharacterRole, resolveLocationRole, resolveObjectRole, resolveOrganizationRole } from '../config/symbolicPlaceholders.mjs';
+import { STAGE_FOLDERS, allocateArtifactPath, ensureWorkspace, listLatestStageArtifacts, readStructuredMarkdown, registerStageRun, writeStructuredMarkdown, writeText } from '../core/workspace.mjs';
 import { normalizePipelineOptions } from './options.mjs';
 import { readLatestBlocksByBase } from './loaders.mjs';
 
@@ -19,7 +19,8 @@ export async function runCnlEnh(input = {}) {
     throw new Error(`No symbolic seed artifacts were found in ${options.workspaceRoot}. Run "scripta seed" first.`);
   }
 
-  const replacements = buildPlaceholderMap(options, sourceEntries);
+  const entityMap = await readEntityMap(options.workspaceRoot);
+  const replacements = buildPlaceholderMap(options, sourceEntries, entityMap);
   const produced = [];
   const consumed = [];
 
@@ -50,6 +51,7 @@ export async function runCnlEnh(input = {}) {
   const resolutionArtifact = await writeResolutionArtifact(options, 'placeholder-resolution', 'cnl-resolution', {
     bookId: options.bookId,
     baselineProfile: options.baselineProfile,
+    entityMap,
     replacements
   });
   produced.push(resolutionArtifact);
@@ -74,9 +76,9 @@ export async function runCnlEnh(input = {}) {
   };
 }
 
-function buildPlaceholderMap(options, sourceEntries) {
+function buildPlaceholderMap(options, sourceEntries, entityMap) {
   const random = createSeededRandom(`${options.seed}:cnl-resolution`);
-  const visionContext = buildVisionContext(options);
+  const visionContext = buildVisionContext(options, entityMap);
   const placeholders = new Map();
 
   for (const entry of sourceEntries) {
@@ -94,7 +96,7 @@ function buildPlaceholderMap(options, sourceEntries) {
   return replacements;
 }
 
-function buildVisionContext(options) {
+function buildVisionContext(options, entityMap) {
   const vision = options.vision ?? {};
   return {
     storySummary: firstMeaningful(options.storySummary, vision.storySummary, options.brief),
@@ -107,7 +109,8 @@ function buildVisionContext(options) {
     characters: vision.characters ?? {},
     locations: vision.locations ?? {},
     scenes: vision.scenes ?? {},
-    constraints: vision.constraints ?? {}
+    constraints: vision.constraints ?? {},
+    entityMap: entityMap ?? structuredClone(DEFAULT_ENTITY_MAP)
   };
 }
 
@@ -117,33 +120,33 @@ function resolvePlaceholderValue(placeholder, options, random, visionContext) {
     if (character?.name) {
       return character.name;
     }
-    return generatePlaceholderName(placeholder.stableId, options.seed);
+    return genericPlaceholderValue('character', placeholder.stableId);
   }
 
   if (placeholder.entityType === 'location') {
     const location = getLocationSeed(visionContext, placeholder.stableId);
-    return generatePlaceholderLocation(placeholder.stableId, options.seed, firstMeaningful(location?.name, null));
+    return firstMeaningful(location?.name, genericPlaceholderValue('location', placeholder.stableId));
   }
 
   if (placeholder.entityType === 'organization') {
     if (visionContext.constraints.institutionName) {
       return visionContext.constraints.institutionName;
     }
-    return generatePlaceholderOrganization(placeholder.stableId, options.seed);
+    return genericPlaceholderValue('organization', placeholder.stableId);
   }
 
   if (placeholder.entityType === 'object') {
     if (visionContext.constraints.plotObject) {
       return visionContext.constraints.plotObject;
     }
-    return generatePlaceholderLocation(placeholder.stableId, options.seed, null).replace(/^the\s+/i, '');
+    return genericPlaceholderValue('object', placeholder.stableId);
   }
 
   if (placeholder.entityType === 'artifact') {
     if (visionContext.constraints.plotObject) {
       return visionContext.constraints.plotObject;
     }
-    return generatePlaceholderLocation(placeholder.stableId, options.seed, null).replace(/^the\s+/i, '');
+    return genericPlaceholderValue('artifact', placeholder.stableId);
   }
 
   if (placeholder.entityType === 'concept') {
@@ -326,19 +329,12 @@ function generateContentPlaceholder(placeholder, options, random, visionContext)
 }
 
 function getCharacterSeed(visionContext, stableId) {
-  const role = resolveCharacterRole(stableId);
+  const role = resolveCharacterRole(visionContext.entityMap, stableId);
   return visionContext.characters?.[role] ?? null;
 }
 
-function resolveCharacterRole(stableId) {
-  if (String(stableId).includes('protagonist')) return 'protagonist';
-  if (String(stableId).includes('counterpart')) return 'counterpart';
-  if (String(stableId).includes('pressure')) return 'pressure';
-  return 'protagonist';
-}
-
 function getLocationSeed(visionContext, stableId) {
-  if (String(stableId).includes('secondary')) {
+  if (resolveLocationRole(visionContext.entityMap, stableId) === 'secondary') {
     return visionContext.locations?.secondary ?? null;
   }
   return visionContext.locations?.primary ?? null;
@@ -685,4 +681,14 @@ async function writeResolutionArtifact(options, baseName, label, value) {
     filePath: artifactPath.filePath,
     relativePath: artifactPath.relativePath
   };
+}
+
+async function readEntityMap(workspaceRoot) {
+  const artifacts = await listLatestStageArtifacts(workspaceRoot, 'macro', 'symbolic-map');
+  if (artifacts.length === 0) {
+    return structuredClone(DEFAULT_ENTITY_MAP);
+  }
+
+  const latest = await readStructuredMarkdown(artifacts[0].filePath, null);
+  return latest?.entityMap ?? latest?.data?.entityMap ?? latest?.entityMap ?? structuredClone(DEFAULT_ENTITY_MAP);
 }

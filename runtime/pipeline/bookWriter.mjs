@@ -1,5 +1,5 @@
 import { blockToObject, replaceReferences, buildReferenceReplacements, normalizeReferenceValue } from '../core/cnl.mjs';
-import { ensureWorkspace, listLatestStageArtifacts, readStructuredMarkdown, readText, registerStageRun } from '../core/workspace.mjs';
+import { ensureWorkspace, listLatestStageArtifacts, readText, registerStageRun } from '../core/workspace.mjs';
 import { readLatestBlocksByBase } from './loaders.mjs';
 import { normalizePipelineOptions } from './options.mjs';
 import { renderBookHtml, renderPlainManuscript } from './editionRenderer.mjs';
@@ -21,7 +21,6 @@ export async function runBookWriter(input = {}) {
   await ensureWorkspace(options.workspaceRoot);
 
   const draftArtifacts = await listLatestStageArtifacts(options.workspaceRoot, 'drafts', 'draft');
-  const continuityArtifacts = await listLatestStageArtifacts(options.workspaceRoot, 'drafts', 'continuity');
   const chapterArtifacts = await readLatestBlocksByBase(options.workspaceRoot, 'cnl', 'chapter-refined-plan');
   const microArtifacts = await readLatestBlocksByBase(options.workspaceRoot, 'cnl', 'micro-refined-plan');
   const macroArtifacts = await readLatestBlocksByBase(options.workspaceRoot, 'cnl', 'macro-refined-plan');
@@ -36,15 +35,12 @@ export async function runBookWriter(input = {}) {
   }
 
   const draftTexts = await Promise.all(draftArtifacts.map((artifact) => readText(artifact.filePath)));
-  const continuityPackets = await Promise.all(continuityArtifacts.map((artifact) => readStructuredMarkdown(artifact.filePath, {})));
   const validationSummary = validationArtifacts.length > 0 ? await readStructuredMarkdown(validationArtifacts[0].filePath, null) : null;
 
   const manuscriptModel = buildManuscriptModel({
     options,
     draftArtifacts,
     draftTexts,
-    continuityArtifacts,
-    continuityPackets,
     chapterArtifacts,
     microArtifacts,
     macroArtifacts,
@@ -54,7 +50,6 @@ export async function runBookWriter(input = {}) {
   const produced = [];
   const consumed = [
     ...draftArtifacts.map((artifact) => artifact.relativePath),
-    ...continuityArtifacts.map((artifact) => artifact.relativePath),
     ...chapterArtifacts.map((entry) => entry.artifact.relativePath),
     ...microArtifacts.map((entry) => entry.artifact.relativePath),
     ...macroArtifacts.map((entry) => entry.artifact.relativePath)
@@ -152,15 +147,12 @@ function buildManuscriptModel({
   options,
   draftArtifacts,
   draftTexts,
-  continuityArtifacts,
-  continuityPackets,
   chapterArtifacts,
   microArtifacts,
   macroArtifacts,
   validationSummary
 }) {
   const draftMap = new Map(draftArtifacts.map((artifact, index) => [artifact.baseName, draftTexts[index]]));
-  const continuityMap = new Map(continuityArtifacts.map((artifact, index) => [artifact.baseName, continuityPackets[index]]));
   const macroBlocks = macroArtifacts.flatMap((entry) => entry.blocks);
   const allBlocks = [
     ...macroBlocks,
@@ -255,7 +247,6 @@ function buildManuscriptModel({
       alternation: resolveObjectTexts(blockToObject(alternationBlock ?? emptyBlock()), resolveText),
       scenes,
       draftText: draftMap.get(chapterEntry.artifact.baseName) ?? '',
-      continuity: continuityMap.get(chapterEntry.artifact.baseName) ?? {}
     };
   }).sort((left, right) => left.id.localeCompare(right.id));
 
@@ -321,7 +312,7 @@ function buildSourceEdition(model, options) {
       macro: ['macro-refined-plan'],
       chapters: ['chapter-refined-plan'],
       micro: ['micro-refined-plan'],
-      drafts: ['draft', 'continuity']
+      drafts: ['draft']
     }
   };
 }
