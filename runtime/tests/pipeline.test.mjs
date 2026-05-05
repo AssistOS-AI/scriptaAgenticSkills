@@ -32,6 +32,7 @@ test('full pipeline generates drafts, exports, and validation without placeholde
     assert.match(report, /Validation report/);
     assert.match(tasksReport, /Revision tasks/);
     assert.doesNotMatch(manuscript, /\{\{/);
+    assert.doesNotMatch(manuscript, /\$[A-Za-z][A-Za-z0-9_-]*/);
     assert.match(manuscript, /"/);
     assert.doesNotMatch(manuscript, /By the end of the chapter/);
     assert.doesNotMatch(manuscript, /The chapter question is/);
