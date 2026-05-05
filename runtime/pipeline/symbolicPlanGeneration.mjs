@@ -51,6 +51,11 @@ export async function generateMacroSeed(options) {
   const locationPlaceholder = placeholder('location', 'primary-001');
   const organizationPlaceholder = placeholder('organization', 'institution-001');
   const objectPlaceholder = placeholder('object', 'plot-001');
+  const protagonistRef = reference('character-protagonist-001');
+  const counterpartRef = reference('character-counterpart-001');
+  const pressureRef = reference('character-pressure-001');
+  const primaryLocationRef = reference('location-primary');
+  const secondaryLocationRef = reference('location-secondary');
 
   const charConfig = COMMAND_CONFIGS.character;
   const arcConfig = COMMAND_CONFIGS.arc;
@@ -74,7 +79,7 @@ export async function generateMacroSeed(options) {
       { name: 'tension-source', value: options.tensionSource },
       { name: 'naming-state', value: 'placeholder' },
       { name: 'hook', value: `{{hook:${options.hookPattern}}}` },
-      { name: 'protagonist', value: protagonistPlaceholder },
+      { name: 'protagonist', value: protagonistRef },
       { name: 'desire', value: '{{desire:protagonist}}' },
       { name: 'opposition', value: '{{opposition:primary}}' },
       { name: 'stakes', value: `{{stakes:${c.content.stakePattern}}}` },
@@ -94,7 +99,7 @@ export async function generateMacroSeed(options) {
       { name: 'pole-a', value: '{{pole-a:primary}}' },
       { name: 'pole-b', value: '{{pole-b:primary}}' },
       { name: 'moral-pressure', value: '{{dilemma:central}}' },
-      { name: 'transformation-vector', value: `move ${protagonistPlaceholder} from {{entry-belief:protagonist}} toward {{exit-belief:protagonist}}` },
+      { name: 'transformation-vector', value: `move ${protagonistRef} from {{entry-belief:protagonist}} toward {{exit-belief:protagonist}}` },
       { name: 'dramatization', value: 'major choices and consequences must carry the theme instead of direct exposition' }
     ]),
     createBlock('wisdom', 'define', [
@@ -112,14 +117,14 @@ export async function generateMacroSeed(options) {
       { name: 'information-order', value: random.pick(c.structure.informationOrders.filter((value) => value !== 'chronological' || options.macroForm === 'linear')) },
       { name: 'causal-density', value: random.pick(c.structure.causalDensities) },
       { name: 'macro-form', value: options.macroForm },
-      { name: 'beginning', value: `establish ${protagonistPlaceholder} inside ${locationPlaceholder} and the pressure around ${organizationPlaceholder}` },
+      { name: 'beginning', value: `establish ${protagonistRef} inside ${primaryLocationRef} and the pressure around ${organizationPlaceholder}` },
       { name: 'inciting-incident', value: '{{inciting-incident:primary}}' },
       { name: 'middle', value: `escalation, pressure, and relational strain expose the cost of {{desire:protagonist}}` },
-      { name: 'plot-point-1', value: `${protagonistPlaceholder} commits to action instead of withdrawal` },
+      { name: 'plot-point-1', value: `${protagonistRef} commits to action instead of withdrawal` },
       { name: 'midpoint', value: `${objectPlaceholder} reveals a hidden layer of the conflict` },
-      { name: 'plot-point-2', value: `${pressurePlaceholder} turns pressure into direct threat` },
+      { name: 'plot-point-2', value: `${pressureRef} turns pressure into direct threat` },
       { name: 'climax', value: '{{dilemma:central}}' },
-      { name: 'resolution', value: `a new equilibrium forms after ${protagonistPlaceholder} accepts irreversible cost` },
+      { name: 'resolution', value: `a new equilibrium forms after ${protagonistRef} accepts irreversible cost` },
       { name: 'causal-rule', value: random.pick(structureConfig.causalRules) }
     ]),
     createBlock('narrative-model', 'select', [
@@ -127,14 +132,14 @@ export async function generateMacroSeed(options) {
       { name: 'model-name', value: options.narrativeModel },
       { name: 'core-pattern', value: random.pick(c.narrativeModel.corePatterns) },
       { name: 'fit-reason', value: `the ${options.profile.label.toLowerCase()} profile needs direct escalation with meaningful internal cost` },
-      { name: 'transformation-logic', value: `${protagonistPlaceholder} changes while the surrounding system reveals its hidden logic` },
+      { name: 'transformation-logic', value: `${protagonistRef} changes while the surrounding system reveals its hidden logic` },
       { name: 'genre-compatibility', value: options.profile.label },
       { name: 'adaptation-note', value: 'the chosen model is bent toward short-form clarity and evidence-rich validation' }
     ]),
     createBlock('blueprint', 'map', [
       { name: 'premise', value: '{{premise:primary}}' },
-      { name: 'exposition', value: `introduce ${protagonistPlaceholder}, ${locationPlaceholder}, and the first unstable sign around ${objectPlaceholder}` },
-      { name: 'rising-action', value: `pressure from ${pressurePlaceholder} and ${organizationPlaceholder} complicates every attempt to act` },
+      { name: 'exposition', value: `introduce ${protagonistRef}, ${primaryLocationRef}, and the first unstable sign around ${objectPlaceholder}` },
+      { name: 'rising-action', value: `pressure from ${pressureRef} and ${organizationPlaceholder} complicates every attempt to act` },
       { name: 'midpoint-shift', value: `${objectPlaceholder} changes what the protagonist understands about the conflict` },
       { name: 'climax', value: '{{dilemma:central}}' },
       { name: 'resolution', value: `the core conflict resolves with lasting cost and a redefined relation to ${organizationPlaceholder}` },
@@ -157,7 +162,7 @@ export async function generateMacroSeed(options) {
       { name: 'exit-belief', value: `{{exit-belief:protagonist}} ${protagonistTruth}` }
     ]),
     createBlock('arc-relationship-main', 'map', [
-      { name: 'pair', value: `${protagonistPlaceholder}, ${counterpartPlaceholder}` },
+      { name: 'pair', value: `${protagonistRef}, ${counterpartRef}` },
       { name: 'entry-dynamic', value: pickProfileConfiguredValue(random, arcConfig, 'relationshipOpeningPatterns', options.baselineProfile, 'preferredRelationshipPattern') },
       { name: 'stress-pattern', value: random.pick(arcConfig.relationshipStressPatterns) },
       { name: 'repair-condition', value: random.pick(arcConfig.relationshipRepairPatterns) },
@@ -172,6 +177,7 @@ export async function generateMacroSeed(options) {
 
   const characterBlocks = [
     createBlock('character-protagonist-001', 'define', [
+      { name: 'name', value: protagonistPlaceholder },
       { name: 'complexity', value: 'round' },
       { name: 'development-type', value: 'dynamic' },
       { name: 'archetype', value: 'hero' },
@@ -184,9 +190,10 @@ export async function generateMacroSeed(options) {
       { name: 'conflict-mode', value: random.pick(c.character.conflictModes) },
       { name: 'arc', value: protagonistArc },
       { name: 'contradictions', value: '{{contradictions:protagonist}}' },
-      { name: 'relationships', value: `${counterpartPlaceholder} [${random.pick(c.character.relationshipTypes)}], ${pressurePlaceholder} [hierarchical]` }
+      { name: 'relationships', value: `${counterpartRef} [${random.pick(c.character.relationshipTypes)}], ${pressureRef} [hierarchical]` }
     ]),
     createBlock('character-counterpart-001', 'define', [
+      { name: 'name', value: counterpartPlaceholder },
       { name: 'complexity', value: 'round' },
       { name: 'development-type', value: 'dynamic' },
       { name: 'archetype', value: counterpartRole === 'ally' ? 'ally' : 'witness' },
@@ -199,9 +206,10 @@ export async function generateMacroSeed(options) {
       { name: 'conflict-mode', value: 'mixed' },
       { name: 'arc', value: 'positive-change' },
       { name: 'contradictions', value: 'loyal yet evasive, observant yet withholding' },
-      { name: 'relationships', value: `${protagonistPlaceholder} [cooperative], ${pressurePlaceholder} [conflictual]` }
+      { name: 'relationships', value: `${protagonistRef} [cooperative], ${pressureRef} [conflictual]` }
     ]),
     createBlock('character-pressure-001', 'define', [
+      { name: 'name', value: pressurePlaceholder },
       { name: 'complexity', value: 'round' },
       { name: 'development-type', value: 'static' },
       { name: 'archetype', value: 'shadow' },
@@ -214,7 +222,7 @@ export async function generateMacroSeed(options) {
       { name: 'conflict-mode', value: 'external' },
       { name: 'arc', value: 'flat' },
       { name: 'contradictions', value: 'calm yet coercive, rational yet self-serving' },
-      { name: 'relationships', value: `${protagonistPlaceholder} [conflictual], ${counterpartPlaceholder} [hierarchical]` }
+      { name: 'relationships', value: `${protagonistRef} [conflictual], ${counterpartRef} [hierarchical]` }
     ])
   ];
 
@@ -223,11 +231,12 @@ export async function generateMacroSeed(options) {
 
   const worldBlocks = [
     createBlock('plot-element-core-object', 'define', [
+      { name: 'name', value: objectPlaceholder },
       { name: 'category', value: pickProfileConfiguredValue(random, COMMAND_CONFIGS.plot, 'categories', options.baselineProfile, 'allowedCategories') },
       { name: 'subtype', value: pickProfileConfiguredValue(random, COMMAND_CONFIGS.plot, 'subtypes', options.baselineProfile, 'allowedSubtypes') },
       { name: 'function', value: 'revelation' },
       { name: 'stakes', value: '{{stakes:plot-element}}' },
-      { name: 'holders', value: `${organizationPlaceholder}, ${pressurePlaceholder}` },
+      { name: 'holders', value: `${organizationPlaceholder}, ${pressureRef}` },
       { name: 'activation', value: `the protagonist decodes ${objectPlaceholder} near the midpoint` },
       { name: 'payoff-zone', value: 'midpoint and final confrontation' }
     ]),
@@ -309,9 +318,9 @@ export async function generateChapterSeeds(options) {
     const blocks = [
       createBlock(chapterId, 'define', [
         { name: 'chapter-role', value: role },
-        { name: 'purpose', value: `{{purpose:${role}}}` },
-        { name: 'input-state', value: `{{input-state:${role}-${chapterIndex}}}` },
-        { name: 'output-state', value: `{{output-state:${role}-${chapterIndex}}}` },
+      { name: 'purpose', value: `{{purpose:${role}}}` },
+      { name: 'input-state', value: `{{input-state:${role}-${chapterIndex}}}` },
+      { name: 'output-state', value: `{{output-state:${role}-${chapterIndex}}}` },
         { name: 'conflict', value: `{{conflict:${role}}}` },
         { name: 'stakes', value: `{{stakes:${c.content.stakePattern}}}` },
         { name: 'opening-mode', value: chapterIndex === 0 ? 'contextual-setup' : random.pick(chapterConfig.openingModes) },
@@ -320,13 +329,13 @@ export async function generateChapterSeeds(options) {
         { name: 'continuity-obligations', value: `later chapters must preserve the consequence introduced in ${chapterId}` },
         { name: 'thematic-focus', value: `${options.themeTopic} under ${options.themeShape} pressure` },
         { name: 'rhythm-note', value: chapterRhythmNote(role, chapterIndex, options.chapterCount) },
-        { name: 'chapter-question', value: `{{chapter-question:${role}}}` },
-        { name: 'answer-shift', value: `{{answer-shift:${options.baselineProfile}}}` },
-        { name: 'arc-stage', value: chapterArcStage(role) },
-        { name: 'world-pressure', value: `{{world-pressure:${role}}}` },
-        { name: 'location-focus', value: '{{location:primary-001}}' },
-        { name: 'block-alternation', value: c.chapter.blockAlternation }
-      ], [
+      { name: 'chapter-question', value: `{{chapter-question:${role}}}` },
+      { name: 'answer-shift', value: `{{answer-shift:${options.baselineProfile}}}` },
+      { name: 'arc-stage', value: chapterArcStage(role) },
+      { name: 'world-pressure', value: `{{world-pressure:${role}}}` },
+      { name: 'location-focus', value: primaryLocationRef },
+      { name: 'block-alternation', value: c.chapter.blockAlternation }
+    ], [
         `This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.`
       ])
     ];
@@ -356,13 +365,14 @@ export async function generateMicroSeeds(options) {
   for (let chapterIndex = 0; chapterIndex < options.chapterCount; chapterIndex += 1) {
     const chapterNumber = String(chapterIndex + 1).padStart(3, '0');
     const chapterId = `chapter-${chapterNumber}`;
+    const chapterRef = reference(chapterId);
     const chapterRole = chapterRoles[chapterIndex] ?? 'bridge';
     const blocks = [];
 
     blocks.push(createBlock(`sequence-${chapterNumber}-core`, 'define', [
       { name: 'sequence-type', value: options.sequenceType },
       { name: 'link-logic', value: random.pick(c.sequence.linkLogics) },
-      { name: 'chapter', value: chapterId },
+      { name: 'chapter', value: chapterRef },
       { name: 'objective', value: `{{sequence-objective:${chapterRole}}}` },
       { name: 'scene-chain', value: Array.from({ length: sceneCount }, (_, index) => `scene-${chapterNumber}-${String(index + 1).padStart(2, '0')}`).join(', ') },
       { name: 'continuity-thread', value: 'each scene must inherit and intensify the previous scene\'s unresolved pressure' },
@@ -371,9 +381,9 @@ export async function generateMicroSeeds(options) {
     ]));
 
     blocks.push(createBlock(`location-${chapterNumber}-anchor`, 'define', [
-      { name: 'chapter', value: chapterId },
-      { name: 'primary-setting', value: '{{location:primary-001}}' },
-      { name: 'secondary-setting', value: '{{location:secondary-001}}' },
+      { name: 'chapter', value: chapterRef },
+      { name: 'primary-setting', value: primaryLocationRef },
+      { name: 'secondary-setting', value: secondaryLocationRef },
       { name: 'sensory-anchor', value: '{{sensory-anchor:location-primary}}' },
       { name: 'social-signal', value: '{{social-signal:location-primary}}' },
       { name: 'symbolic-charge', value: '{{symbolic-charge:location-primary}}' },
@@ -381,8 +391,8 @@ export async function generateMicroSeeds(options) {
     ]));
 
     blocks.push(createBlock(`rule-pressure-${chapterNumber}-core`, 'apply', [
-      { name: 'chapter', value: chapterId },
-      { name: 'rule-reference', value: 'world-rule-primary' },
+      { name: 'chapter', value: chapterRef },
+      { name: 'rule-reference', value: reference('world-rule-primary') },
       { name: 'visible-symptom', value: `{{visible-symptom:${chapterRole}}}` },
       { name: 'action-limitation', value: `{{action-limitation:${chapterRole}}}` },
       { name: 'conflict-output', value: `{{conflict-output-rule:${chapterRole}}}` },
@@ -390,7 +400,7 @@ export async function generateMicroSeeds(options) {
     ]));
 
     blocks.push(createBlock(`arc-${chapterNumber}-protagonist`, 'map', [
-      { name: 'chapter', value: chapterId },
+      { name: 'chapter', value: chapterRef },
       { name: 'entry-belief', value: `{{entry-belief:protagonist}} at the start of the ${chapterRole} chapter` },
       { name: 'challenge', value: `{{challenge:protagonist-${chapterRole}}}` },
       { name: 'insight-pressure', value: `{{insight-pressure:protagonist-${chapterRole}}}` },
@@ -398,56 +408,57 @@ export async function generateMicroSeeds(options) {
     ]));
 
     blocks.push(createBlock(`arc-${chapterNumber}-relationship`, 'map', [
-      { name: 'chapter', value: chapterId },
-      { name: 'pair', value: '{{character:protagonist-001}}, {{character:counterpart-001}}' },
+      { name: 'chapter', value: chapterRef },
+      { name: 'pair', value: `${protagonistRef}, ${counterpartRef}` },
       { name: 'entry-dynamic', value: pickProfileConfiguredValue(random, COMMAND_CONFIGS.arc, 'relationshipOpeningPatterns', options.baselineProfile, 'preferredRelationshipPattern') },
       { name: 'stress-line', value: `{{relationship-stress:${chapterRole}}}` },
       { name: 'exit-dynamic', value: random.pick(COMMAND_CONFIGS.arc.relationshipExitPatterns) }
     ]));
 
     blocks.push(createBlock(`alternation-${chapterNumber}-core`, 'arrange', [
-      { name: 'chapter', value: chapterId },
+      { name: 'chapter', value: chapterRef },
       { name: 'block-order', value: c.chapter.blockAlternation },
       { name: 'reader-effect', value: `{{reader-effect:${chapterRole}}}` },
       { name: 'anti-flatness-rule', value: 'do not chain action summaries without dialogue, atmosphere, or reflection support' }
     ]));
 
-    for (let sceneIndex = 0; sceneIndex < sceneCount; sceneIndex += 1) {
-      const sceneId = `scene-${chapterNumber}-${String(sceneIndex + 1).padStart(2, '0')}`;
-      const isFinalScene = sceneIndex === sceneCount - 1;
-      blocks.push(createBlock(sceneId, 'define', [
-        { name: 'chapter', value: chapterId },
+      for (let sceneIndex = 0; sceneIndex < sceneCount; sceneIndex += 1) {
+        const sceneId = `scene-${chapterNumber}-${String(sceneIndex + 1).padStart(2, '0')}`;
+        const sceneRef = reference(sceneId);
+        const isFinalScene = sceneIndex === sceneCount - 1;
+        blocks.push(createBlock(sceneId, 'define', [
+        { name: 'chapter', value: chapterRef },
         { name: 'showing-mode', value: sceneIndex === 0 ? pickProfileConfiguredValue(random, sceneConfig, 'showingModes', options.baselineProfile, 'preferredShowingMode') : random.pick(sceneConfig.showingModes) },
         { name: 'focalization', value: options.focalizationMode },
-        { name: 'time-space', value: '{{location:primary-001}}' },
+        { name: 'time-space', value: primaryLocationRef },
         { name: 'introduction', value: `{{scene-introduction:${chapterRole}-${sceneIndex}}}` },
         { name: 'development', value: `{{scene-development:${chapterRole}-${sceneIndex}}}` },
         { name: 'conflict', value: `{{scene-conflict:${chapterRole}}}` },
         { name: 'resolution', value: `{{scene-resolution:${chapterRole}-${isFinalScene ? 'final' : 'mid'}}}` },
         { name: 'exit', value: isFinalScene ? `the chapter hands off to a sharper ${chapterRole} consequence` : 'the next scene begins before the pressure can settle' },
-        { name: 'participants', value: '{{character:protagonist-001}}, {{character:counterpart-001}}, {{character:pressure-001}}' },
+        { name: 'participants', value: `${protagonistRef}, ${counterpartRef}, ${pressureRef}` },
         { name: 'state-change', value: `{{scene-state-change:${chapterRole}-${isFinalScene ? 'final' : 'mid'}}}` }
       ]));
 
       blocks.push(createBlock(`action-${chapterNumber}-${sceneIndex + 1}`, 'place', [
         { name: 'action-mode', value: pickProfileConfiguredValue(random, contentConfig, 'actionModes', options.baselineProfile, 'allowedActionModes') },
-        { name: 'scene', value: sceneId },
-        { name: 'actor', value: '{{character:protagonist-001}}' },
+        { name: 'scene', value: sceneRef },
+        { name: 'actor', value: protagonistRef },
         { name: 'goal', value: `{{action-goal:${chapterRole}-${sceneIndex}}}` },
         { name: 'obstacle', value: `{{action-obstacle:${chapterRole}}}` },
         { name: 'result', value: isFinalScene ? `{{action-result:${chapterRole}-final}}` : 'the attempt reveals only part of the hidden structure and deepens the next demand' }
       ]));
 
       blocks.push(createBlock(`conflict-${chapterNumber}-${sceneIndex + 1}`, 'place', [
-        { name: 'scope', value: sceneId },
+        { name: 'scope', value: sceneRef },
         { name: 'type', value: pickProfileConfiguredValue(random, contentConfig, 'conflictTypes', options.baselineProfile, 'allowedConflictTypes') },
-        { name: 'forces', value: '{{character:protagonist-001}} versus {{character:pressure-001}}' },
+        { name: 'forces', value: `${protagonistRef} versus ${pressureRef}` },
         { name: 'stakes', value: `{{conflict-stakes:${c.content.stakePattern}}}` },
         { name: 'escalation', value: `{{conflict-escalation:${chapterRole}}}` }
       ]));
 
       blocks.push(createBlock(`event-${chapterNumber}-${sceneIndex + 1}`, 'trigger', [
-        { name: 'scope', value: sceneId },
+        { name: 'scope', value: sceneRef },
         { name: 'event-type', value: isFinalScene
           ? pickWeightedValue(random, ['revelation'], configuredPreferencePool(contentConfig, 'eventTypes', options.baselineProfile, 'allowedEventTypes'))
           : pickProfileConfiguredValue(random, contentConfig, 'eventTypes', options.baselineProfile, 'allowedEventTypes') },
@@ -459,8 +470,8 @@ export async function generateMicroSeeds(options) {
       const dialogueTurns = dialogueTurnBlueprints(options.baselineProfile, chapterRole, sceneIndex, random);
       dialogueTurns.forEach((turn, turnIndex) => {
         blocks.push(createBlock(`dialogue-turn-${chapterNumber}-${String(sceneIndex + 1).padStart(2, '0')}-${String(turnIndex + 1).padStart(2, '0')}`, 'line', [
-          { name: 'scene', value: sceneId },
-          { name: 'speaker', value: turn.speaker === 'protagonist' ? '{{character:protagonist-001}}' : '{{character:counterpart-001}}' },
+          { name: 'scene', value: sceneRef },
+          { name: 'speaker', value: turn.speaker === 'protagonist' ? protagonistRef : counterpartRef },
           { name: 'intent', value: turn.intent },
           { name: 'subtext', value: `{{dialogue-subtext:${turn.intent}}}` },
           { name: 'line-hint', value: `{{dialogue-line-hint:${chapterRole}-${sceneIndex}-${turnIndex}}}` },
@@ -470,7 +481,7 @@ export async function generateMicroSeeds(options) {
     }
 
     blocks.push(createBlock(`description-${chapterNumber}-atmosphere`, 'apply', [
-      { name: 'scope', value: chapterId },
+      { name: 'scope', value: chapterRef },
       { name: 'description-type', value: expressionPrefs.descriptionType },
       { name: 'focus', value: `{{description-focus:${options.baselineProfile}}}` },
       { name: 'function', value: expressionPrefs.descriptionFunction },
@@ -478,23 +489,23 @@ export async function generateMicroSeeds(options) {
     ]));
 
     blocks.push(createBlock(`dialogue-${chapterNumber}-core`, 'apply', [
-      { name: 'scene', value: `scene-${chapterNumber}-01` },
-      { name: 'speakers', value: '{{character:protagonist-001}}, {{character:counterpart-001}}' },
+      { name: 'scene', value: reference(`scene-${chapterNumber}-01`) },
+      { name: 'speakers', value: `${protagonistRef}, ${counterpartRef}` },
       { name: 'exchange-type', value: expressionPrefs.exchangeType },
       { name: 'purpose', value: expressionPrefs.dialoguePurpose },
       { name: 'subtext', value: `{{dialogue-core-subtext:${options.baselineProfile}}}` }
     ]));
 
     blocks.push(createBlock(`narration-${chapterNumber}-bridge`, 'apply', [
-      { name: 'scope', value: chapterId },
+      { name: 'scope', value: chapterRef },
       { name: 'narrator-mode', value: options.narratorMode },
       { name: 'function', value: 'organizational' },
       { name: 'time-handling', value: 'mixed' }
     ]));
 
     blocks.push(createBlock(`interior-monologue-${chapterNumber}-core`, 'apply', [
-      { name: 'scene', value: `scene-${chapterNumber}-${String(sceneCount).padStart(2, '0')}` },
-      { name: 'character', value: '{{character:protagonist-001}}' },
+      { name: 'scene', value: reference(`scene-${chapterNumber}-${String(sceneCount).padStart(2, '0')}`) },
+      { name: 'character', value: protagonistRef },
       { name: 'function', value: expressionPrefs.monologueFunction },
       { name: 'trigger', value: `{{monologue-trigger:${chapterRole}}}` },
       { name: 'texture', value: chapterIndex === options.chapterCount - 1
@@ -503,7 +514,7 @@ export async function generateMicroSeeds(options) {
     ]));
 
     blocks.push(createBlock(`suspense-${chapterNumber}-core`, 'build', [
-      { name: 'scope', value: chapterId },
+      { name: 'scope', value: chapterRef },
       { name: 'suspense-type', value: rhythmPrefs.suspenseType },
       { name: 'uncertainty', value: `{{suspense-uncertainty:${chapterRole}}}` },
       { name: 'delay-technique', value: rhythmPrefs.delayTechnique },
@@ -511,7 +522,7 @@ export async function generateMicroSeeds(options) {
     ], ['Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.']));
 
     blocks.push(createBlock(`pause-${chapterNumber}-core`, 'hold', [
-      { name: 'scope', value: chapterId },
+      { name: 'scope', value: chapterRef },
       { name: 'pause-function', value: resolvePauseFunction(options.baselineProfile, chapterRole) },
       { name: 'focus', value: `{{pause-focus:${chapterRole}}}` },
       { name: 'placement', value: chapterIndex === 0 ? 'after-first-scene' : 'before-final-scene' },
@@ -519,16 +530,16 @@ export async function generateMicroSeeds(options) {
     ]));
 
     blocks.push(createBlock(`acceleration-${chapterNumber}-core`, 'burst', [
-      { name: 'scope', value: chapterId },
+      { name: 'scope', value: chapterRef },
       { name: 'acceleration-mode', value: resolveAccelerationMode(options.baselineProfile, chapterRole) },
       { name: 'trigger', value: `{{acceleration-trigger:${chapterRole}}}` },
       { name: 'reader-effect', value: 'compress time and force the next consequence to land without emotional escape' },
-      { name: 'target-zone', value: `scene-${chapterNumber}-${String(sceneCount).padStart(2, '0')}` }
+      { name: 'target-zone', value: reference(`scene-${chapterNumber}-${String(sceneCount).padStart(2, '0')}`) }
     ]));
 
     if (chapterIndex < options.chapterCount - 1) {
       blocks.push(createBlock(`cliffhanger-${chapterNumber}-exit`, 'cut', [
-        { name: 'scope', value: chapterId },
+        { name: 'scope', value: chapterRef },
         { name: 'cliffhanger-type', value: pickWeightedValue(
           random,
           [chapterIndex === options.chapterCount - 2 ? 'critical-decision' : 'interrupted-revelation'],
@@ -618,6 +629,10 @@ function dialogueTurnBlueprints(profileId, role, sceneIndex, random) {
 
 function placeholder(entityType, stableId) {
   return `{{${entityType}:${stableId}}}`;
+}
+
+function reference(identifier) {
+  return `$${identifier}`;
 }
 
 function pickProfileConfiguredValue(random, config, baseKey, profileId, preferenceKey) {
