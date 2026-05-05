@@ -309,6 +309,7 @@ export async function generateChapterSeeds(options) {
   const chapterConfig = COMMAND_CONFIGS.chapter;
   const chapterRoles = buildChapterRoleSequence(options.chapterCount, options.baselineProfile, chapterConfig);
   const artifacts = [];
+  const primaryLocationRef = reference('location-primary');
 
   for (let chapterIndex = 0; chapterIndex < options.chapterCount; chapterIndex += 1) {
     const chapterNumber = String(chapterIndex + 1).padStart(3, '0');
@@ -358,6 +359,11 @@ export async function generateMicroSeeds(options) {
   const rhythmConfig = COMMAND_CONFIGS.rhythm;
   const sceneConfig = COMMAND_CONFIGS.scene;
   const worldConfig = COMMAND_CONFIGS.worldbuilding;
+  const protagonistRef = reference('character-protagonist-001');
+  const counterpartRef = reference('character-counterpart-001');
+  const pressureRef = reference('character-pressure-001');
+  const primaryLocationRef = reference('location-primary');
+  const secondaryLocationRef = reference('location-secondary');
 
   const expressionPrefs = c.expression;
   const rhythmPrefs = c.rhythm;

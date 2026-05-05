@@ -29,7 +29,7 @@ const QA_BOOK_SEEDS = [
         },
         counterpart: {
           name: 'Vera Quinn',
-          role: 'municipal archivist and Mara\'s former closest friend',
+          role: 'municipal archivist and Mira\'s former closest friend',
           publicGoal: 'preserve the last unaltered records before the archive is resealed',
           hiddenNeed: 'stop treating witnesshood as a morally neutral profession',
           fear: 'being forced to testify alone against the men who control the town hall',
@@ -73,7 +73,7 @@ const QA_BOOK_SEEDS = [
             actionObstacle: 'family members keep interrupting every attempt to name what the voice implies',
             eventTrigger: 'the recording ends with Mira\'s brother naming Corin before the tape cuts off',
             eventImpact: 'the memorial becomes evidence instead of closure',
-            payoff: 'Mara can no longer pretend the death belongs only to the past'
+            payoff: 'Mira can no longer pretend the death belongs only to the past'
           }
         ],
         escalation: [
@@ -88,7 +88,7 @@ const QA_BOOK_SEEDS = [
             actionObstacle: 'the archive software now mirrors paper files only after political approval',
             eventTrigger: 'one photographed page carries Mira\'s mother\'s signature beneath a false evacuation report',
             eventImpact: 'the investigation now threatens the family as much as the institution',
-            payoff: 'Mara loses the comfort of treating her mother as untouched by the fraud'
+            payoff: 'Mira loses the comfort of treating her mother as untouched by the fraud'
           }
         ],
         revelation: [
@@ -129,7 +129,7 @@ const QA_BOOK_SEEDS = [
         worldRule: 'Every flood-district compensation claim must pass through the mediation office before it reaches the court archive.',
         worldCost: 'Any family that challenges an approved claim loses access to emergency stipends and public legal aid.',
         secondaryRule: 'Memorial plaques can be amended only when two living witnesses testify together in public.',
-        actionLimitation: 'Mara cannot accuse the town hall without exposing her mother and Iona to the same hearing.',
+        actionLimitation: 'Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing.',
         conflictOutput: 'bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity',
         visibleSymptom: 'files return with fresh signatures but older dates, as if grief itself were rewritten overnight',
         stakes: 'her brother\'s last testimony, her mother\'s survival, and the town\'s false innocence'
@@ -222,7 +222,7 @@ const QA_BOOK_SEEDS = [
             resolution: 'They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.',
             stateChange: 'administrative negligence hardens into coordinated concealment',
             actionGoal: 'connect the missing footage to a human decision rather than a technical accident',
-            actionObstacle: 'every request for the raw server logs pings Pavel before it reaches records',
+            actionObstacle: 'every request for the raw server logs pings Soren before it reaches records',
             eventTrigger: 'a duplicate maintenance form appears with two different timestamps',
             eventImpact: 'chain-of-custody becomes the crime scene',
             payoff: 'Nadia now knows the cover-up has a clock and a route'
@@ -237,7 +237,7 @@ const QA_BOOK_SEEDS = [
             resolution: 'She copies the drive, then files the bolt officially so the precinct cannot deny it existed.',
             stateChange: 'the investigation turns from hidden search into institutional showdown',
             actionGoal: 'separate proof of murder from the police pathway designed to bury it',
-            actionObstacle: 'the only lawful reporting channel leads back to Pavel\'s office',
+            actionObstacle: 'the only lawful reporting channel leads back to Soren\'s office',
             eventTrigger: 'the recovered drive contains muted footage of the victim arriving with the deputy mayor alive',
             eventImpact: 'murder, not drowning, becomes the central fact',
             payoff: 'Nadia can now accuse the precinct itself of obstruction'
@@ -266,7 +266,7 @@ const QA_BOOK_SEEDS = [
         worldRule: 'Any river death inside the redevelopment corridor is reviewed first by the precinct and only later by the civil prosecutor.',
         worldCost: 'Procedural errors let the redevelopment board void testimony and delay charges indefinitely.',
         secondaryRule: 'Maintenance overrides can be audited only if their physical hardware is recovered from the lock site.',
-        actionLimitation: 'Daria cannot move the evidence outside the precinct without committing the very breach Pavel is waiting to punish.',
+        actionLimitation: 'Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.',
         conflictOutput: 'every lawful request alerts the people most interested in erasing the answer',
         visibleSymptom: 'logs are complete on paper but physically impossible when matched against the river timing',
         stakes: 'the victim\'s true cause of death, the integrity of the precinct, and the city contract tied to the riverfront'
