@@ -3,13 +3,11 @@ import { createBlock, serializeBlocks } from '../core/cnl.mjs';
 import { createSeededRandom } from '../core/random.mjs';
 import { titleCase } from '../core/text.mjs';
 import { allocateArtifactPath, ensureWorkspace, registerStageRun, writeText } from '../core/workspace.mjs';
-import { ensureBookVisionDocument } from './bookVision.mjs';
 import { normalizePipelineOptions } from './options.mjs';
 
 export async function generateSymbolicSeed(input = {}) {
   const options = normalizePipelineOptions(input);
   await ensureWorkspace(options.workspaceRoot);
-  await ensureBookVisionDocument(options);
   const stage = input.stage ?? 'all';
   const generatedArtifacts = [];
 

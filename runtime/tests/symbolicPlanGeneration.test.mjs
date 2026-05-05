@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { createTempWorkspace } from './testUtils.mjs';
-import { BOOK_VISION_NAME, STAGE_FOLDERS } from '../core/workspace.mjs';
+import { STAGE_FOLDERS, fileExists } from '../core/workspace.mjs';
 import { generateSymbolicSeed } from '../pipeline/symbolicPlanGeneration.mjs';
 
 test('symbolic generation creates append-only macro, chapter, and micro artifacts', async () => {
@@ -35,10 +35,9 @@ test('symbolic generation creates append-only macro, chapter, and micro artifact
     const firstBookContent = await readFile(firstBookArtifact.filePath, 'utf8');
     const secondBookContent = await readFile(secondBookArtifact.filePath, 'utf8');
     const worldContent = await readFile(firstWorldArtifact.filePath, 'utf8');
-    const visionContent = await readFile(`${workspace.directoryPath}/${BOOK_VISION_NAME}`, 'utf8');
 
     assert.equal(firstBookContent, secondBookContent);
-    assert.match(visionContent, /# Book vision/);
+    assert.equal(await fileExists(`${workspace.directoryPath}/book-vision.md`), false);
     assert.match(firstBookContent, /\{\{character:protagonist-001\}\}/);
     assert.match(firstBookContent, /hook-pattern:/);
     assert.match(firstBookContent, /@arc-book-main map/);

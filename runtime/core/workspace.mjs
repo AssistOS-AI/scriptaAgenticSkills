@@ -14,7 +14,6 @@ export const STAGE_FOLDERS = {
 
 const MANIFEST_NAME = 'pipeline-manifest.md';
 const STRUCTURED_DATA_MARKER = 'scripta-data';
-export const BOOK_VISION_NAME = 'book-vision.md';
 
 export function resolveWorkspaceRoot(workspaceRoot, bookId) {
   return resolve(workspaceRoot ?? join(process.cwd(), 'QA', bookId ?? 'book-workspace'));
@@ -26,16 +25,6 @@ export async function ensureWorkspace(workspaceRoot) {
   for (const folderName of Object.values(STAGE_FOLDERS)) {
     await mkdir(resolve(workspaceRoot, folderName), { recursive: true });
   }
-}
-
-export async function ensureBookVision(workspaceRoot, content) {
-  const filePath = resolve(workspaceRoot, BOOK_VISION_NAME);
-
-  if (!(await fileExists(filePath))) {
-    await writeText(filePath, content.trimEnd() + '\n');
-  }
-
-  return filePath;
 }
 
 export async function readJson(filePath, fallback = null) {
