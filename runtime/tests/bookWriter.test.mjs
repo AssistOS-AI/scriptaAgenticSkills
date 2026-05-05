@@ -34,6 +34,7 @@ test('BookWriter emits single-file English and Romanian reader editions', async 
     assert.doesNotMatch(englishHtml, /The scene closes|The scene ends/);
     assert.doesNotMatch(englishHtml, /\[object Object\]/);
     assert.doesNotMatch(englishHtml, /Stage sources/);
+    assert.doesNotMatch(englishHtml, /\$[A-Za-z][A-Za-z0-9_-]*/);
     assert.match(romanianHtml, /Cuprins/);
     assert.match(romanianHtml, /Pagina de titlu/);
     assert.match(romanianHtml, /spune/);
@@ -44,6 +45,7 @@ test('BookWriter emits single-file English and Romanian reader editions', async 
     assert.doesNotMatch(romanianHtml, /Scena se inchide|Scena se incheie/);
     assert.doesNotMatch(romanianHtml, /\[object Object\]/);
     assert.doesNotMatch(romanianHtml, /\{\{/);
+    assert.doesNotMatch(romanianHtml, /\$[A-Za-z][A-Za-z0-9_-]*/);
     assert.deepEqual(bundle.targetLanguages, ['en', 'ro']);
   } finally {
     await workspace.cleanup();
