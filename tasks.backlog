@@ -44,10 +44,10 @@ Prioritized improvement backlog for the SCRIPTA project. Each entry references t
 - **Acceptance:** AGENTS.md contains a complete CLI reference section.
 
 ### TASK-007: Stabilize profile-guided symbolic generation
-- **Area:** runtime/pipeline/symbolicPlanGeneration.mjs, runtime/config/commands/*.json, runtime/config/profile-options.json
-- **Problem:** Hardcoded prose was removed and profile choices now bias selection instead of acting as absolute bans, but QA runs still show some cross-profile drift in macro arc/state packets (for example romance books occasionally inheriting arc openings that feel fantasy-coded).
-- **Status:** Partially done — symbolic generation is more config-driven and more flexible, but some macro packets still overdraw from generic enum pools and ignore authored vision context when a stronger profile signal is available.
-- **Remaining Action:** Move remaining arc-state and relationship-state selection into profile guidance and/or authored vision fields, then bias macro packets toward the active profile without returning to arbitrary hard exclusions.
+- **Area:** runtime/pipeline/symbolicPlanGeneration.mjs, runtime/config/profiles/*.json, runtime/config/commands/*.json
+- **Problem:** Profile-specific guidance now lives in `runtime/config/profiles/`, but some macro packets still overdraw from generic enum pools and can drift toward another profile's language when the authored vision is sparse.
+- **Status:** Partially done — profile data is centralized and command enums are profile-neutral, but the weighting model still needs finer recommendation strength instead of a flat duplicate-preference pool.
+- **Remaining Action:** Add stronger recommendation weights, profile-specific tie-breakers, and optional authored-vision overrides for arc-state, relationship-state, and opening-state selection without returning to arbitrary hard bans.
 - **Acceptance:** Each QA profile produces macro packets whose arc, relationship, and opening-state language consistently read as belonging to that profile unless the authored vision explicitly overrides the expectation.
 
 ## P2 — Medium
@@ -82,11 +82,11 @@ Prioritized improvement backlog for the SCRIPTA project. Each entry references t
 - **Action:** Implement character state extraction from macro plans, track character attributes across chapter drafts, detect unexplained trait changes, and produce localized issue reports.
 - **Acceptance:** CAD scores vary per book and issues cite specific chapter/paragraph locations.
 
-### TASK-016: Promote authored book vision to a first-class input
-- **Area:** runtime/pipeline/options.mjs, runtime/pipeline/cnlEnh.mjs, docs/
-- **Problem:** QA now uses agent-authored `book-vision.md` files and structured `vision` seeds, but the runtime still lacks a documented, general ingestion path for authored book-vision content outside the baked-in QA config.
-- **Action:** Define and document how agent-authored book visions are supplied to the runtime (CLI flag, JSON sidecar, or parsed `book-vision.md` contract), validate the structure, and wire it into symbolic and refinement stages.
-- **Acceptance:** A non-QA workspace can provide an authored book vision and see the same concrete characters, locations, scenes, and constraints propagated into planning and drafting.
+### TASK-016: Generalize authored book vision beyond QA
+- **Area:** runtime/pipeline/bookVisionParser.mjs, runtime/pipeline/options.mjs, docs/
+- **Problem:** QA now runs directly from authored `book-vision.md` files, but non-QA workspaces still lack a first-class CLI path for loading the same markdown vision contract.
+- **Action:** Expose a `--book-vision` style CLI input, validate the parsed markdown schema for normal runs, and make authored vision ingestion available outside the canonical QA folders.
+- **Acceptance:** A non-QA workspace can provide an authored `book-vision.md` and see the same concrete characters, locations, scenes, and constraints propagated into planning and drafting.
 
 ### TASK-017: Replace report-like ChapGen scaffolding with scene-aware drafting
 - **Area:** runtime/pipeline/chapGen.mjs, runtime/config/
@@ -111,6 +111,12 @@ Prioritized improvement backlog for the SCRIPTA project. Each entry references t
 - **Problem:** Export validation checks structure and basic localization markers, but it still lacks a dedicated detector for mixed-language residue inside translated editions.
 - **Action:** Add language-leak heuristics and translated-edition checks that scan for leftover English scaffolding, untranslated UI phrases, and repeated fallback fragments in translated HTML outputs.
 - **Acceptance:** Validation reports translation leakage explicitly, and QA fails when translated reader editions mix English scaffolding into the target-language narrative.
+
+### TASK-021: Realize symbolic ids into concrete names outside curated QA visions
+- **Area:** runtime/config/symbolicPlaceholders.mjs, runtime/pipeline/cnlEnh.mjs, runtime/core/
+- **Problem:** The runtime now uses generic symbolic ids such as `PERSON_001` and `LOCATION_001`, which is correct for seed generation, but non-QA runs without rich authored visions can still reach CNLEnh with unresolved generic ids instead of concrete internationally portable names.
+- **Action:** Add a dedicated naming realization step or LLM-backed resolver that consumes the symbolic entity map and emits concrete names, institution labels, and object labels when the authored vision does not provide them.
+- **Acceptance:** Non-QA runs without curated vision packets still replace generic symbolic ids with concrete internationally portable names before draft generation.
 
 ## P3 — Low
 

@@ -53,15 +53,17 @@
   --scene-density medium \
   --narrative-model three-act \
   --seed 1042 \
-  --placeholder-style typed
+  --placeholder-style symbolic-id
 </code></pre>
 
       <p>
-        The seed files may contain typed placeholders such as <code>{{character:protagonist-001}}</code> or
-        <code>{{location:courtroom-main}}</code>, and they may use references such as
+        The seed files may contain typed placeholders such as <code>{{character:PERSON_001}}</code> or
+        <code>{{location:LOCATION_001}}</code>, and they may use references such as
         <code>$character-protagonist-001</code> or <code>$location-primary</code> when a block points back to
-        something already defined. They must already contain valid command identifiers, enumerated classifier
-        values, and structural constraints. Later stages refine these files instead of replacing them.
+        something already defined. The macro stage also emits a symbolic entity map so later stages know
+        which generic id corresponds to protagonist, counterpart, pressure figure, or primary location.
+        Seed files must already contain valid command identifiers, enumerated classifier values, and
+        structural constraints. Later stages refine these files instead of replacing them.
       </p>
 
       <h2>MacroPlan</h2>
@@ -153,7 +155,7 @@ stakes: institutional legitimacy, private identity, family trust
 opening-mode: action-entry
 development-mode: escalation
 closing-mode: cliffhanger
-continuity-obligations: the daughter must witness the first undeniable memory gap
+handoff-pressure: the next chapter must begin from the first undeniable memory gap
 thematic-focus: truth versus protective concealment
 rhythm-note: escalating
 
