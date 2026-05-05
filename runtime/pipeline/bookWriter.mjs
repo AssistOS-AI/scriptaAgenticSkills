@@ -596,6 +596,10 @@ function splitCsv(value) {
     .filter(Boolean);
 }
 
+function resolveObjectTexts(object, resolveText) {
+  return Object.fromEntries(Object.entries(object).map(([key, value]) => [key, resolveText(value)]));
+}
+
 function locationPhrase(location, languageCode) {
   if (languageCode !== 'ro') {
     return `in ${location}`;
