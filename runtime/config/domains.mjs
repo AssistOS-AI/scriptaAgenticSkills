@@ -29,9 +29,7 @@ export function getCommandConfig(commandName) {
 export function getCommandConstraint(commandName, profileId, constraintKey) {
   const config = COMMAND_CONFIGS[commandName];
   if (!config) return null;
-  const constraints = config.profileConstraints?.[profileId];
-  if (!constraints) return null;
-  return constraints[constraintKey] ?? null;
+  return config[constraintKey] ?? null;
 }
 
 export function isAllowedByProfile(commandName, profileId, constraintKey, value) {

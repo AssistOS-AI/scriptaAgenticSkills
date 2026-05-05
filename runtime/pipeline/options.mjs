@@ -1,4 +1,5 @@
-import { materializeProfile, normalizeSceneDensity, normalizeWorkForm, selectNarrativeModel } from '../config/presets.mjs';
+import { materializeProfile, selectNarrativeModel } from '../config/profiles/index.mjs';
+import { normalizeSceneDensity, normalizeWorkForm } from '../config/workForms.mjs';
 import { resolveWorkspaceRoot } from '../core/workspace.mjs';
 import { slugify, titleCase } from '../core/text.mjs';
 
@@ -44,7 +45,7 @@ export function normalizePipelineOptions(input = {}) {
     genreMode: input.genreMode ?? profile.genreMode,
     variationLevel: input.variationLevel ?? 'balanced',
     randomPolicy: input.randomPolicy ?? 'constrained',
-    placeholderStyle: input.placeholderStyle ?? 'typed',
+    placeholderStyle: input.placeholderStyle ?? 'symbolic-id',
     resolutionPolicy: input.resolutionPolicy ?? 'resolve-before-draft',
     sourceLanguage: normalizeLanguageCode(input.sourceLanguage ?? 'en'),
     targetLanguages: normalizeTargetLanguages(input.targetLanguages ?? input.targetLanguage ?? input.languages),
