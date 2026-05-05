@@ -3,7 +3,7 @@ id: DS009
 title: ChapGen Skill
 status: implemented
 owner: repository
-summary: Defines the chapter-generation subsystem and its continuity-preserving draft contract.
+summary: Defines the chapter-generation subsystem and its state-preserving draft contract.
 ---
 
 # DS009 ChapGen Skill
@@ -29,21 +29,21 @@ Each generated chapter must preserve:
 | Continuity fidelity | Character state, world rules, unresolved threads, and knowledge states must remain consistent |
 | Traceability | Generated units must stay linkable to chapter and block identifiers |
 
-ChapGen must emit a continuity packet for every chapter. At minimum, that packet must summarize entry state, exit state, unresolved obligations, introduced entities, changed relationships, and continuity warnings.
+ChapGen must keep continuity information inside the authoritative refined chapter plans and the draft itself. It must not create a parallel continuity sidecar file whose data can drift away from the actual chapter contract.
 
 The subsystem must not silently repair serious upstream contradictions by inventing hidden changes in the story world, character arc, or chapter order. If the plan stack is incoherent, ChapGen must surface the problem as a draft warning or a generation failure condition.
 
 ChapGen must also preserve stage immutability. It may produce revised drafts in later draft iterations, but it must not rewrite earlier plan-stage artifacts as a side effect of drafting.
 
-The current reference runtime implements this stage through deterministic chapter templating so the pipeline remains executable and testable without a remote model backend. Future true model-driven drafting must still preserve continuity packets, placeholder rejection, and draft traceability.
+The current reference runtime implements this stage through deterministic chapter templating so the pipeline remains executable and testable without a remote model backend. Future true model-driven drafting must still preserve chapter-state fidelity, placeholder rejection, and draft traceability.
 
 The draft must remain revision-friendly. Localized paragraphs or sections should remain traceable enough that validation and editorial stages can refer to them directly in reports and change logs.
 
 ## Decisions & Questions
 
-### Question #1: Why is continuity packet emission mandatory?
+### Question #1: Why must continuity stay inside the main chapter contract instead of a sidecar?
 
-Response: The user explicitly requested continuity control and later continuity-related indicators. A continuity packet makes that requirement operational instead of leaving continuity as a vague aspiration.
+Response: The user explicitly rejected extra continuity sidecars and asked for a simpler file model with one current CNL file per chapter. Continuity still matters, but it has to stay visible in the authoritative chapter plan and draft lineage instead of living in a parallel packet that can drift.
 
 ### Question #2: Why is silent repair prohibited?
 
@@ -51,4 +51,4 @@ Response: Silent repair hides planning defects and makes validation misleading. 
 
 ## Conclusion
 
-ChapGen must generate chapters as traceable, continuity-aware manifestations of the planning stack. Draft quality must never come at the cost of hidden structural drift.
+ChapGen must generate chapters as traceable, continuity-aware manifestations of the planning stack. Draft quality must never come at the cost of hidden structural drift or redundant sidecar artifacts.

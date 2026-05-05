@@ -14,22 +14,24 @@ This file defines the canonical QA campaign used to exercise the reference runti
 
 ## Core Content
 
-The QA campaign must always contain five short works, one for each canonical baseline profile:
+The QA campaign must always contain five authored QA workspaces, one for each canonical baseline profile:
 
 | Book ID | Profile | Work form |
 | --- | --- | --- |
-| `qa-drama-silence` | `drama` | `short-story` |
-| `qa-detective-river` | `detective-police` | `short-story` |
-| `qa-scifi-orbit` | `science-fiction` | `short-story` |
-| `qa-fantasy-ash` | `fantasy` | `short-story` |
-| `qa-romance-margins` | `romance-relational` | `short-story` |
+| `qa-drama-silence` | `drama` | `novelette` |
+| `qa-detective-river` | `detective-police` | `novelette` |
+| `qa-scifi-orbit` | `science-fiction` | `novelette` |
+| `qa-fantasy-ash` | `fantasy` | `novelette` |
+| `qa-romance-margins` | `romance-relational` | `novelette` |
+
+Each QA book workspace must be sourced from its own local `book-vision.md`. The `qa` command may discover those workspaces automatically, but it must not depend on a separate hardcoded runtime list of QA books.
 
 Each book in the campaign must be able to run through the full stage chain:
 
 1. Symbolic seed generation for macro, chapter, and micro plans.
 2. `MacroPlan`, `ChapPlan`, and `MicroPlan`.
 3. `CNLEnh` placeholder resolution and successor refinement.
-4. `ChapGen` draft and continuity generation.
+4. `ChapGen` draft generation from the refined chapter contract.
 5. `BookWriter` source manuscript, source edition, and translation-source bundle generation.
 6. `Translation Skill` Romanian reader edition generation from the source bundle.
 7. `Validation Suite` metrics, export audit, stage audit, and revision task generation.
@@ -56,8 +58,8 @@ The `qa` command must generate all five books end to end and then emit consolida
 | `books/metrics/<book-id>.html` | Public per-book HTML dashboard for the latest validation run |
 | `books/index.html` | Landing page for the published QA library |
 | `books/metrics/index.html` | Landing page for the published QA metrics library |
-| `qa-summary.json` | Per-book metrics, stage audit, export audit, and revision tasks |
-| `qa-review.json` | Consolidated review snapshot across the campaign |
+| `qa-summary.md` | Per-book metrics, stage audit, export audit, and revision tasks |
+| `qa-review.md` | Consolidated review snapshot across the campaign |
 | `qa-tasks.md` | Human-readable task list for the next remediation pass |
 
 Every per-book workspace produced by the campaign must include the source English HTML reader edition in `exports/`, the translated Romanian HTML reader edition in `translations/`, and validation summaries and task reports under `validation/` and `reports/`. After each QA regeneration, the public `QA/books/` library and `QA/books/metrics/` library must be refreshed from the latest workspace iterations.

@@ -62,10 +62,10 @@ The first iteration must be symbolic, not empty. It must already contain:
 2. enumerated classifier values;
 3. stage-appropriate causal and structural links;
 4. `$<identifier>` references for previously defined entities, scenes, chapters, or rule blocks;
-5. typed placeholders for unresolved names or labels;
+5. typed placeholders for unresolved names or labels, using generic symbolic ids such as `PERSON_001`, `LOCATION_001`, `ORG_001`, and `OBJECT_001`;
 6. enough textual scaffolding that CNLEnh can refine it without inventing a new plan ontology.
 
-When the symbolic generator introduces a character, location, or comparable entity block, later blocks should refer back to that block through `$<identifier>` rather than duplicating its role in free prose. `{{...}}` placeholders remain appropriate only where a surface detail such as a proper name, institution label, or object label is intentionally unresolved.
+When the symbolic generator introduces a character, location, or comparable entity block, later blocks should refer back to that block through `$<identifier>` rather than duplicating its role in free prose. `{{...}}` placeholders remain appropriate only where a surface detail such as a proper name, institution label, or object label is intentionally unresolved. The same run must also emit a structured symbolic-entity map so later stages know which generic id corresponds to protagonist, counterpart, pressure figure, primary location, secondary location, institution, or plot object.
 
 The generator must create new artifacts rather than mutate previous ones. A repeated seed run must produce a new iteration artifact under the same stage family so that validators can compare runs and detect whether refinement or correction actually occurred.
 
@@ -83,7 +83,7 @@ Response: The user wants random generation that remains constrained by the plan 
 
 ### Question #3: Why are placeholders part of the symbolic generator instead of being forbidden immediately?
 
-Response: The user wants concrete names and nuances to be added in a later LLM-mediated phase. Typed placeholders let the symbolic pass remain precise about structure while postponing surface realization to the appropriate stage.
+Response: The user wants concrete names and nuances to be added in a later LLM-mediated phase without inventing fake local defaults too early. Generic typed placeholders plus a separate entity map let the symbolic pass remain precise about structure while postponing surface realization to the appropriate stage.
 
 ## Conclusion
 

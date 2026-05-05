@@ -27,14 +27,14 @@ The suite must cover the following automated checks:
 | Placeholder residue check (PRC) | Detect unresolved symbolic placeholders after the permitted stages | placeholder token scans and provenance checks |
 | STG-Constrained Short Story Generation (STG-CSG) | Verify that constrained generation still follows STG principles | brief-to-output structural correspondence |
 | Specification Following Story Generation (SFSG) | Measure adherence to explicit planning constraints | chapter-plan compliance and unmet obligations |
-| Continuity Control Indicator (CCI) | Measure continuity preservation across chapters | state vectors, unresolved thread tracking, contradiction detection |
+| Continuity Control Indicator (CCI) | Measure continuity preservation across chapters | refined chapter state fields, carry-forward pressure, contradiction detection |
 | Character Attribute Drift (CAD) | Measure unexplained changes in character traits | trait vectors, relation changes, arc consistency |
 | Emotional Arc Profile (EAP) | Measure coherence of emotional progression | chapter-level emotional movement and intended arc shape |
 | Export structure audit | Verify final HTML reader completeness and portability | cover presence, TOC, chapter anchors, print CSS, metadata payload, dependency scan |
 
 Validation must maximize symbolic processing. Deterministic overlap checks, chapter-state comparisons, block-order checks, plan-versus-draft comparisons, and score normalization must be done by code wherever possible. LLM judgement is permitted only when the evidence window is explicit and retained in the report.
 
-Validation must parse the CNL planning language directly. Missing command families, malformed `@identifier verb` headers, absent mandatory labeled fields, broken cross-references, and plan-versus-draft mismatches must be eligible inputs for SFSG, CCI, and related checks.
+Validation must parse the CNL planning language directly. Missing command families, malformed `@identifier verb` headers, absent mandatory labeled fields, broken cross-references, and plan-versus-draft mismatches must be eligible inputs for SFSG, CCI, and related checks. When continuity is evaluated, the validator must read the authoritative refined chapter plans and drafts rather than relying on a redundant continuity sidecar.
 
 Validation must enforce stage discipline. At minimum, it must be able to detect overwritten upstream artifacts, missing successor provenance, and unresolved placeholders that survive into stages where they are forbidden.
 

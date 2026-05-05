@@ -18,17 +18,17 @@ The workspace must be organized by stage so that plans, generated text, validati
 
 | Folder | Required purpose | Typical artifacts |
 | --- | --- | --- |
-| `phase1-macro/` | Store the macro package | `macro-refined-plan.*`, character/world packages |
+| `phase1-macro/` | Store the macro package | `*.symbolic-plan.*`, `entities.symbolic-map.*`, character/world packages |
 | `phase2-chapters/` | Store chapter plans | `chapter-001.symbolic-plan.*` through `chapter-NNN.symbolic-plan.*` |
 | `phase3-micro/` | Store symbolic micro plans | `chapter-001.symbolic-plan.*`, block maps, scene graphs |
 | `phase4-cnl/` | Store enhanced controlled-language plans | `chapter-001.chapter-refined-plan.*`, global refinement packs |
-| `phase5-drafts/` | Store generated chapter text | `chapter-001.draft.*`, continuity packets |
+| `phase5-drafts/` | Store generated chapter text | `chapter-001.draft.*`, chapter-level draft iterations |
 | `phase6-validation/` | Store validation profiles, raw runs, and evidence | summaries, issues, stage audits, overlap reports |
 | `phase7-reports/` | Store human-readable and machine-readable summaries | report Markdown bundles and task reports |
 | `phase8-exports/` | Store source editorial outputs | source manuscript, source reader edition, source bundle |
 | `phase9-translations/` | Store translated publication outputs | translated HTML editions, translation traces, final edition bundles |
 
-Every artifact must carry a book identifier. Chapter-bound artifacts must also carry a chapter identifier, and paragraph-level or block-level outputs must preserve a stable local identifier when possible.
+Every artifact must carry a book identifier. Chapter-bound artifacts must also carry a chapter identifier, and paragraph-level or block-level outputs must preserve a stable local identifier when possible. The authored workspace root must also keep a human-authored `book-vision.md` file that acts as the narrative source packet for that book.
 
 All plan files in `phase1-macro/`, `phase2-chapters/`, `phase3-micro/`, and `phase4-cnl/` must be Markdown-compatible CNL files whose command blocks begin with `@identifier verb`. Scripts must be able to discover plan intent by scanning those header lines and the fixed labeled lines that follow them, while LLMs must still be able to read the same files as natural text.
 
@@ -38,7 +38,8 @@ The workspace must preserve the distinction between symbolic seed artifacts and 
 
 | State | Example artifact pattern | Meaning |
 | --- | --- | --- |
-| Symbolic seed | `phase1-macro/*.symbolic-plan.*` | Code-generated first iteration with controlled values and placeholders |
+| Symbolic seed | `phase1-macro/*.symbolic-plan.*` | Code-generated first iteration with controlled values and generic symbolic placeholders such as `PERSON_001` |
+| Symbolic entity map | `phase1-macro/entities.symbolic-map.*` | Structured mapping from generic symbolic ids to story roles such as protagonist, counterpart, or primary location |
 | Refined plan | `phase4-cnl/*.chapter-refined-plan.*` | Later-stage plan with NL nuance and resolved concrete names |
 | Draft | `phase5-drafts/chapter-004.draft.md` | Generated prose based on validated plans |
 | Failure artifact | `phase6-validation/chapter-004.placeholder-fail.json` | Explicit record that a stage failed a gate |
@@ -83,7 +84,7 @@ Response: The user explicitly wants stages to create new files rather than updat
 
 ### Question #4: Why does the workspace contract mention the QA public mirror even though the authoritative artifacts still live inside each book workspace?
 
-Response: The user explicitly wants to open the final books and metrics directly under `QA/books/`. That public mirror is not a replacement for the per-book workspace. It is a publication surface derived from the latest append-only workspace artifacts.
+Response: The user explicitly wants to open the final books and metrics directly under `QA/books/`. That public mirror is not a replacement for the per-book workspace. It is a publication surface derived from the latest append-only workspace artifacts while `book-vision.md` remains the authored source inside each QA book folder.
 
 ## Conclusion
 
