@@ -697,3 +697,38 @@ async function writeStageFile(options, stage, baseName, label, content) {
     relativePath: artifactPath.relativePath
   };
 }
+
+async function writeStageDataFile(options, stage, baseName, label, value) {
+  const artifactPath = await allocateArtifactPath({
+    workspaceRoot: options.workspaceRoot,
+    stage,
+    baseName,
+    label
+  });
+
+  await writeStructuredMarkdown(artifactPath.filePath, {
+    title: `${titleCase(baseName)} ${label}`,
+    lead: 'Structured symbolic metadata emitted alongside the seed artifacts.',
+    sections: [
+      {
+        heading: 'Entity mapping',
+        lines: Object.entries(value?.entityMap ?? {}).flatMap(([group, entries]) =>
+          Object.entries(entries ?? {}).map(([role, identifier]) => `- ${group}.${role}: ${identifier}`)
+        )
+      }
+    ],
+    data: value
+  });
+
+  return {
+    baseName,
+    label,
+    iteration: artifactPath.iteration,
+    filePath: artifactPath.filePath,
+    relativePath: artifactPath.relativePath
+  };
+}
+
+function profilePreference(profile, commandName, key, fallback) {
+  return profile?.commandPreferences?.[commandName]?.[key] ?? fallback;
+}
