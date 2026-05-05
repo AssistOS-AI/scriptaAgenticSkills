@@ -1,18 +1,24 @@
-import { normalizeSceneDensity, normalizeWorkForm, getProfile, selectNarrativeModel } from '../config/presets.mjs';
+import { materializeProfile, normalizeSceneDensity, normalizeWorkForm, selectNarrativeModel } from '../config/presets.mjs';
 import { resolveWorkspaceRoot } from '../core/workspace.mjs';
-import { slugify } from '../core/text.mjs';
+import { slugify, titleCase } from '../core/text.mjs';
 
 export function normalizePipelineOptions(input = {}) {
   const baselineProfile = input.baselineProfile ?? input.profile ?? 'drama';
-  const profile = getProfile(baselineProfile);
   const workFormInfo = normalizeWorkForm(input.workForm);
   const chapterCount = Number(input.chapterCount ?? workFormInfo.chapterCount);
   const targetWords = Number(input.targetWords ?? workFormInfo.targetWords);
-  const seed = String(input.seed ?? `${baselineProfile}:${input.bookId ?? profile.id}:${chapterCount}`);
-  const bookId = slugify(input.bookId ?? `${baselineProfile}-${profile.scenario.title}`);
+  const rawTitle = String(input.title ?? titleCase(input.bookId ?? baselineProfile));
+  const bookId = slugify(input.bookId ?? rawTitle);
+  const seed = String(input.seed ?? `${baselineProfile}:${bookId}:${chapterCount}`);
+  const profile = materializeProfile(baselineProfile, {
+    seed,
+    brief: input.brief,
+    title: rawTitle
+  });
 
   return {
     bookId,
+    title: rawTitle,
     brief: input.brief ?? profile.scenario.blueprintPremise,
     baselineProfile,
     profile,
@@ -36,6 +42,10 @@ export function normalizePipelineOptions(input = {}) {
     targetLanguages: normalizeTargetLanguages(input.targetLanguages ?? input.targetLanguage ?? input.languages),
     editorialProfile: input.editorialProfile ?? 'literary-smooth',
     translationInstructions: normalizeTranslationInstructions(input.translationInstructions),
+    initialCharacters: normalizeList(input.initialCharacters),
+    initialScenes: normalizeList(input.initialScenes),
+    initialLocations: normalizeList(input.initialLocations),
+    initialConstraints: normalizeList(input.initialConstraints),
     seed
   };
 }
@@ -92,4 +102,19 @@ function normalizeTranslationInstructions(value) {
       return [normalizeLanguageCode(entry.slice(0, separatorIndex) || '*'), entry.slice(separatorIndex + 1).trim()];
     }).filter(([, instruction]) => instruction)
   );
+}
+
+function normalizeList(value) {
+  if (!value) {
+    return [];
+  }
+
+  if (Array.isArray(value)) {
+    return value.map((entry) => String(entry).trim()).filter(Boolean);
+  }
+
+  return String(value)
+    .split(/\n|,/)
+    .map((entry) => entry.trim())
+    .filter(Boolean);
 }
