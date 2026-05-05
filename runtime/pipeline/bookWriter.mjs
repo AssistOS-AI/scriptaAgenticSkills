@@ -351,23 +351,23 @@ function buildEditionChapter(model, chapter, languageCode) {
     const resolution = normalizeNarrativePhrase(scene.resolution, languageCode);
 
     if (languageCode === 'ro') {
-      pushUniqueParagraph(paragraphs, [
+      pushUniqueParagraph(paragraphs, buildNarrativeParagraph([
         index === 0 ? `${introduction}.` : `Mai tarziu, ${introduction.toLowerCase()}.`,
         development ? `${development}.` : '',
         `${conflict}.`,
         trigger && impact ? `Cand ${lowerFirst(trigger)}, ${lowerFirst(stripTerminalPeriod(impact))}.` : '',
         resolution ? `${resolution}.` : ''
-      ].filter(Boolean).join(' '));
+      ]));
       return;
     }
 
-    pushUniqueParagraph(paragraphs, [
+    pushUniqueParagraph(paragraphs, buildNarrativeParagraph([
       index === 0 ? `${introduction}.` : `Later, ${introduction.toLowerCase()}.`,
       development ? `${development}.` : '',
       `${conflict}.`,
       trigger && impact ? `When ${lowerFirst(trigger)}, ${lowerFirst(stripTerminalPeriod(impact))}.` : '',
       resolution ? `${resolution}.` : ''
-    ].filter(Boolean).join(' '));
+    ]));
   });
 
   pushUniqueParagraph(paragraphs, buildChapterClosingParagraph({
@@ -496,6 +496,37 @@ function pushUniqueParagraph(paragraphs, paragraph) {
   }
 
   paragraphs.push(normalized);
+}
+
+function buildNarrativeParagraph(sentences) {
+  const unique = [];
+  const seen = new Set();
+
+  for (const sentence of sentences ?? []) {
+    const normalized = normalizeSentence(sentence);
+    if (!normalized) {
+      continue;
+    }
+
+    const key = normalized.toLowerCase();
+    if (seen.has(key)) {
+      continue;
+    }
+
+    seen.add(key);
+    unique.push(normalized);
+  }
+
+  return unique.join(' ');
+}
+
+function normalizeSentence(sentence) {
+  const text = String(sentence ?? '').replace(/\s+/g, ' ').trim();
+  if (!text) {
+    return '';
+  }
+
+  return `${text.replace(/[.?!]+$/g, '')}.`;
 }
 
 function renderEditionDialogue(turns, languageCode) {
