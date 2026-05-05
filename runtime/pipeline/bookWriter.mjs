@@ -1,4 +1,4 @@
-import { blockToObject } from '../core/cnl.mjs';
+import { blockToObject, replaceReferences, buildReferenceReplacements, normalizeReferenceValue } from '../core/cnl.mjs';
 import { escapeHtml } from '../core/text.mjs';
 import { allocateArtifactPath, ensureWorkspace, listLatestStageArtifacts, readStructuredMarkdown, readText, registerStageRun, writeStructuredMarkdown, writeText } from '../core/workspace.mjs';
 import { readLatestBlocksByBase } from './loaders.mjs';
@@ -125,24 +125,31 @@ function buildManuscriptModel({
   const draftMap = new Map(draftArtifacts.map((artifact, index) => [artifact.baseName, draftTexts[index]]));
   const continuityMap = new Map(continuityArtifacts.map((artifact, index) => [artifact.baseName, continuityPackets[index]]));
   const macroBlocks = macroArtifacts.flatMap((entry) => entry.blocks);
-  const centralIdea = blockToObject(findRequiredBlock(macroBlocks, 'central-idea', 'define'));
-  const theme = blockToObject(findRequiredBlock(macroBlocks, 'theme', 'define'));
-  const wisdom = blockToObject(findRequiredBlock(macroBlocks, 'wisdom', 'define'));
-  const blueprint = blockToObject(findRequiredBlock(macroBlocks, 'blueprint', 'map'));
-  const bookArc = blockToObject(findRequiredBlock(macroBlocks, 'arc-book-main', 'map'));
-  const protagonistArc = blockToObject(findRequiredBlock(macroBlocks, 'arc-protagonist-main', 'map'));
-  const relationshipArc = blockToObject(findRequiredBlock(macroBlocks, 'arc-relationship-main', 'map'));
-  const motif = blockToObject(findRequiredBlock(macroBlocks, 'motif-primary', 'define'));
-  const worldRule = blockToObject(findRequiredBlock(macroBlocks, 'world-rule-primary', 'define'));
-  const secondaryWorldRule = blockToObject(findRequiredBlock(macroBlocks, 'world-rule-secondary', 'define'));
-  const worldReveal = blockToObject(findRequiredBlock(macroBlocks, 'world-reveal-strategy', 'define'));
-  const primaryLocation = blockToObject(findRequiredBlock(macroBlocks, 'location-primary', 'define'));
-  const secondaryLocation = blockToObject(findRequiredBlock(macroBlocks, 'location-secondary', 'define'));
-  const plotElement = blockToObject(findRequiredBlock(macroBlocks, 'plot-element-core-object', 'define'));
+  const allBlocks = [
+    ...macroBlocks,
+    ...chapterArtifacts.flatMap((entry) => entry.blocks),
+    ...microArtifacts.flatMap((entry) => entry.blocks)
+  ];
+  const referenceReplacements = buildReferenceReplacements(allBlocks);
+  const resolveText = (value) => replaceReferences(String(value ?? ''), referenceReplacements);
+  const centralIdea = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'central-idea', 'define')), resolveText);
+  const theme = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'theme', 'define')), resolveText);
+  const wisdom = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'wisdom', 'define')), resolveText);
+  const blueprint = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'blueprint', 'map')), resolveText);
+  const bookArc = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'arc-book-main', 'map')), resolveText);
+  const protagonistArc = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'arc-protagonist-main', 'map')), resolveText);
+  const relationshipArc = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'arc-relationship-main', 'map')), resolveText);
+  const motif = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'motif-primary', 'define')), resolveText);
+  const worldRule = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'world-rule-primary', 'define')), resolveText);
+  const secondaryWorldRule = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'world-rule-secondary', 'define')), resolveText);
+  const worldReveal = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'world-reveal-strategy', 'define')), resolveText);
+  const primaryLocation = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'location-primary', 'define')), resolveText);
+  const secondaryLocation = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'location-secondary', 'define')), resolveText);
+  const plotElement = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'plot-element-core-object', 'define')), resolveText);
   const characters = {
-    protagonist: blockToObject(findRequiredBlock(macroBlocks, 'character-protagonist-001', 'define')),
-    counterpart: blockToObject(findRequiredBlock(macroBlocks, 'character-counterpart-001', 'define')),
-    pressure: blockToObject(findRequiredBlock(macroBlocks, 'character-pressure-001', 'define'))
+    protagonist: resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'character-protagonist-001', 'define')), resolveText),
+    counterpart: resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'character-counterpart-001', 'define')), resolveText),
+    pressure: resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'character-pressure-001', 'define')), resolveText)
   };
 
   const chapters = chapterArtifacts.map((chapterEntry) => {
@@ -152,12 +159,12 @@ function buildManuscriptModel({
     }
 
     const chapterBlock = findRequiredBlock(chapterEntry.blocks, chapterEntry.artifact.baseName, 'define');
-    const chapter = blockToObject(chapterBlock);
+    const chapter = resolveObjectTexts(blockToObject(chapterBlock), resolveText);
     const sequenceBlock = microEntry.blocks.find((block) => block.identifier.startsWith('sequence-') && block.verb === 'define');
     const dialogueBlock = microEntry.blocks.find((block) => block.identifier.startsWith('dialogue-') && block.verb === 'apply');
     const dialogueTurns = microEntry.blocks
       .filter((block) => block.identifier.startsWith('dialogue-turn-') && block.verb === 'line')
-      .map((block) => blockToObject(block));
+      .map((block) => resolveObjectTexts(blockToObject(block), resolveText));
     const monologueBlock = microEntry.blocks.find((block) => block.identifier.startsWith('interior-monologue-') && block.verb === 'apply');
     const suspenseBlock = microEntry.blocks.find((block) => block.identifier.startsWith('suspense-') && block.verb === 'build');
     const locationBlock = microEntry.blocks.find((block) => block.identifier.startsWith('location-') && block.verb === 'define');
@@ -170,17 +177,17 @@ function buildManuscriptModel({
     const scenes = microEntry.blocks
       .filter((block) => block.identifier.startsWith('scene-') && block.verb === 'define')
       .map((sceneBlock) => {
-        const scene = blockToObject(sceneBlock);
-        const actionBlock = microEntry.blocks.find((block) => block.identifier.startsWith('action-') && field(block, 'scene') === sceneBlock.identifier);
-        const eventBlock = microEntry.blocks.find((block) => block.identifier.startsWith('event-') && field(block, 'scope') === sceneBlock.identifier);
-        const conflictBlock = microEntry.blocks.find((block) => block.identifier.startsWith('conflict-') && field(block, 'scope') === sceneBlock.identifier);
-        const sceneDialogueTurns = dialogueTurns.filter((turn) => turn.scene === sceneBlock.identifier);
+        const scene = resolveObjectTexts(blockToObject(sceneBlock), resolveText);
+        const actionBlock = microEntry.blocks.find((block) => block.identifier.startsWith('action-') && normalizeReferenceValue(field(block, 'scene')) === sceneBlock.identifier);
+        const eventBlock = microEntry.blocks.find((block) => block.identifier.startsWith('event-') && normalizeReferenceValue(field(block, 'scope')) === sceneBlock.identifier);
+        const conflictBlock = microEntry.blocks.find((block) => block.identifier.startsWith('conflict-') && normalizeReferenceValue(field(block, 'scope')) === sceneBlock.identifier);
+        const sceneDialogueTurns = dialogueTurns.filter((turn) => normalizeReferenceValue(turn.scene) === sceneBlock.identifier);
         return {
           ...scene,
           participants: splitCsv(scene.participants),
-          action: blockToObject(actionBlock ?? emptyBlock()),
-          event: blockToObject(eventBlock ?? emptyBlock()),
-          conflictPacket: blockToObject(conflictBlock ?? emptyBlock()),
+          action: resolveObjectTexts(blockToObject(actionBlock ?? emptyBlock()), resolveText),
+          event: resolveObjectTexts(blockToObject(eventBlock ?? emptyBlock()), resolveText),
+          conflictPacket: resolveObjectTexts(blockToObject(conflictBlock ?? emptyBlock()), resolveText),
           dialogueTurns: sceneDialogueTurns
         };
       });
@@ -196,17 +203,17 @@ function buildManuscriptModel({
       answerShift: chapter['answer-shift'],
       worldPressure: chapter['world-pressure'],
       blockAlternation: chapter['block-alternation'],
-      sequence: blockToObject(sequenceBlock ?? emptyBlock()),
-      dialogue: blockToObject(dialogueBlock ?? emptyBlock()),
-      monologue: blockToObject(monologueBlock ?? emptyBlock()),
-      suspense: blockToObject(suspenseBlock ?? emptyBlock()),
-      location: blockToObject(locationBlock ?? emptyBlock()),
-      rulePressure: blockToObject(rulePressureBlock ?? emptyBlock()),
-      protagonistArc: blockToObject(protagonistArcBlock ?? emptyBlock()),
-      relationshipArc: blockToObject(relationshipArcBlock ?? emptyBlock()),
-      pause: blockToObject(pauseBlock ?? emptyBlock()),
-      acceleration: blockToObject(accelerationBlock ?? emptyBlock()),
-      alternation: blockToObject(alternationBlock ?? emptyBlock()),
+      sequence: resolveObjectTexts(blockToObject(sequenceBlock ?? emptyBlock()), resolveText),
+      dialogue: resolveObjectTexts(blockToObject(dialogueBlock ?? emptyBlock()), resolveText),
+      monologue: resolveObjectTexts(blockToObject(monologueBlock ?? emptyBlock()), resolveText),
+      suspense: resolveObjectTexts(blockToObject(suspenseBlock ?? emptyBlock()), resolveText),
+      location: resolveObjectTexts(blockToObject(locationBlock ?? emptyBlock()), resolveText),
+      rulePressure: resolveObjectTexts(blockToObject(rulePressureBlock ?? emptyBlock()), resolveText),
+      protagonistArc: resolveObjectTexts(blockToObject(protagonistArcBlock ?? emptyBlock()), resolveText),
+      relationshipArc: resolveObjectTexts(blockToObject(relationshipArcBlock ?? emptyBlock()), resolveText),
+      pause: resolveObjectTexts(blockToObject(pauseBlock ?? emptyBlock()), resolveText),
+      acceleration: resolveObjectTexts(blockToObject(accelerationBlock ?? emptyBlock()), resolveText),
+      alternation: resolveObjectTexts(blockToObject(alternationBlock ?? emptyBlock()), resolveText),
       scenes,
       draftText: draftMap.get(chapterEntry.artifact.baseName) ?? '',
       continuity: continuityMap.get(chapterEntry.artifact.baseName) ?? {}
