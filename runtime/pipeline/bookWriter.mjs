@@ -162,9 +162,9 @@ function buildManuscriptModel({
     const chapter = resolveObjectTexts(blockToObject(chapterBlock), resolveText);
     const sequenceBlock = microEntry.blocks.find((block) => block.identifier.startsWith('sequence-') && block.verb === 'define');
     const dialogueBlock = microEntry.blocks.find((block) => block.identifier.startsWith('dialogue-') && block.verb === 'apply');
-    const dialogueTurns = microEntry.blocks
+    const rawDialogueTurns = microEntry.blocks
       .filter((block) => block.identifier.startsWith('dialogue-turn-') && block.verb === 'line')
-      .map((block) => resolveObjectTexts(blockToObject(block), resolveText));
+      .map((block) => blockToObject(block));
     const monologueBlock = microEntry.blocks.find((block) => block.identifier.startsWith('interior-monologue-') && block.verb === 'apply');
     const suspenseBlock = microEntry.blocks.find((block) => block.identifier.startsWith('suspense-') && block.verb === 'build');
     const locationBlock = microEntry.blocks.find((block) => block.identifier.startsWith('location-') && block.verb === 'define');
@@ -181,7 +181,9 @@ function buildManuscriptModel({
         const actionBlock = microEntry.blocks.find((block) => block.identifier.startsWith('action-') && normalizeReferenceValue(field(block, 'scene')) === sceneBlock.identifier);
         const eventBlock = microEntry.blocks.find((block) => block.identifier.startsWith('event-') && normalizeReferenceValue(field(block, 'scope')) === sceneBlock.identifier);
         const conflictBlock = microEntry.blocks.find((block) => block.identifier.startsWith('conflict-') && normalizeReferenceValue(field(block, 'scope')) === sceneBlock.identifier);
-        const sceneDialogueTurns = dialogueTurns.filter((turn) => normalizeReferenceValue(turn.scene) === sceneBlock.identifier);
+        const sceneDialogueTurns = rawDialogueTurns
+          .filter((turn) => normalizeReferenceValue(turn.scene) === sceneBlock.identifier)
+          .map((turn) => resolveObjectTexts(turn, resolveText));
         return {
           ...scene,
           participants: splitCsv(scene.participants),
