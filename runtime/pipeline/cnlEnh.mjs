@@ -1,6 +1,6 @@
 import { createBlock, collectPlaceholdersFromBlocks, replacePlaceholdersInBlock, serializeBlocks } from '../core/cnl.mjs';
 import { createSeededRandom } from '../core/random.mjs';
-import { allocateArtifactPath, ensureWorkspace, registerStageRun, writeJson, writeText } from '../core/workspace.mjs';
+import { STAGE_FOLDERS, allocateArtifactPath, ensureWorkspace, registerStageRun, writeStructuredMarkdown, writeText } from '../core/workspace.mjs';
 import { normalizePipelineOptions } from './options.mjs';
 import { readLatestBlocksByBase } from './loaders.mjs';
 
@@ -45,7 +45,7 @@ export async function runCnlEnh(input = {}) {
     produced.push(artifact);
   }
 
-  const resolutionArtifact = await writeJsonArtifact(options, 'placeholder-resolution', 'cnl-resolution', {
+  const resolutionArtifact = await writeResolutionArtifact(options, 'placeholder-resolution', 'cnl-resolution', {
     bookId: options.bookId,
     baselineProfile: options.baselineProfile,
     replacements
@@ -267,11 +267,11 @@ function shouldRefineBlock(identifier) {
 }
 
 function mapRefinedLabel(relativePath) {
-  if (relativePath.startsWith('macro/')) {
+  if (relativePath.startsWith(`${STAGE_FOLDERS.macro}/`)) {
     return 'macro-refined-plan';
   }
 
-  if (relativePath.startsWith('chapters/')) {
+  if (relativePath.startsWith(`${STAGE_FOLDERS.chapters}/`)) {
     return 'chapter-refined-plan';
   }
 
@@ -296,16 +296,25 @@ async function writeCnlArtifact(options, baseName, label, content) {
   };
 }
 
-async function writeJsonArtifact(options, baseName, label, value) {
+async function writeResolutionArtifact(options, baseName, label, value) {
   const artifactPath = await allocateArtifactPath({
     workspaceRoot: options.workspaceRoot,
     stage: 'cnl',
     baseName,
-    label,
-    extension: '.json'
+    label
   });
 
-  await writeJson(artifactPath.filePath, value);
+  await writeStructuredMarkdown(artifactPath.filePath, {
+    title: `${baseName} ${label}`,
+    lead: 'Placeholder substitutions and resolution provenance stored as structured Markdown.',
+    sections: [
+      {
+        heading: 'Resolved placeholders',
+        lines: Object.entries(value?.replacements ?? {}).map(([key, resolved]) => `- ${key}: ${String(resolved)}`)
+      }
+    ],
+    data: value
+  });
   return {
     baseName,
     label,

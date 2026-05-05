@@ -1,6 +1,6 @@
 import { copyFile, mkdir } from 'node:fs/promises';
 import { basename, dirname, resolve } from 'node:path';
-import { listLatestStageArtifacts, readJson, readText, writeJson, writeText } from '../core/workspace.mjs';
+import { listLatestStageArtifacts, readStructuredMarkdown, readText, writeStructuredMarkdown, writeText } from '../core/workspace.mjs';
 
 export async function publishWorkspaceLibrary({
   workspaceRoot,
@@ -56,11 +56,21 @@ export async function publishWorkspaceLibrary({
     validationSummary
   });
 
-  const manifestPath = `${qaRoot}/books/books-manifest.json`;
-  const manifest = await readJson(manifestPath, { books: [] });
+  const manifestPath = `${qaRoot}/books/books-catalog.md`;
+  const manifest = await readStructuredMarkdown(manifestPath, { books: [] });
   const mergedBooks = mergePublishedBooks(manifest.books ?? [], publishedEditions);
 
-  await writeJson(manifestPath, { books: mergedBooks });
+  await writeStructuredMarkdown(manifestPath, {
+    title: 'QA books catalog',
+    lead: 'Published QA reader editions mirrored from the latest book workspaces.',
+    sections: [
+      {
+        heading: 'Books',
+        lines: mergedBooks.map((book) => `- ${book.bookId} [${book.languageCode}] -> ${book.publishedPath}`)
+      }
+    ],
+    data: { books: mergedBooks }
+  });
   await writeLibraryIndexes(qaRoot, mergedBooks);
 
   return {

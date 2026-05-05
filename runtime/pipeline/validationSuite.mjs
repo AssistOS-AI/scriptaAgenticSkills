@@ -1,4 +1,4 @@
-import { allocateArtifactPath, ensureWorkspace, listLatestStageArtifacts, readJson, readText, registerStageRun, writeJson, writeText } from '../core/workspace.mjs';
+import { allocateArtifactPath, ensureWorkspace, listLatestStageArtifacts, readStructuredMarkdown, readText, registerStageRun, writeStructuredMarkdown, writeText } from '../core/workspace.mjs';
 import { collectPlaceholdersFromText } from '../core/cnl.mjs';
 import { countWords, splitParagraphs, uniqueTokenRatio } from '../core/text.mjs';
 import { normalizePipelineOptions } from './options.mjs';
@@ -44,7 +44,7 @@ export async function runValidationSuite(input = {}) {
   })));
   const continuityPackets = await Promise.all(continuityArtifacts.map(async (artifact) => ({
     artifact,
-    content: await readJson(artifact.filePath, {})
+    content: await readStructuredMarkdown(artifact.filePath, {})
   })));
   const chapterPlans = await Promise.all(chapterPlanArtifacts.map(async (artifact) => ({
     artifact,
@@ -66,7 +66,7 @@ export async function runValidationSuite(input = {}) {
     artifact,
     content: await readText(artifact.filePath)
   })));
-  const exportBundle = exportBundleArtifacts.length > 0 ? await readJson(exportBundleArtifacts[0].filePath, null) : null;
+  const exportBundle = exportBundleArtifacts.length > 0 ? await readStructuredMarkdown(exportBundleArtifacts[0].filePath, null) : null;
   const refinedMacroText = refinedMacro.map((entry) => entry.content).join('\n');
 
   const issues = [];
@@ -178,10 +178,10 @@ export async function runValidationSuite(input = {}) {
     revisionTasks
   };
 
-  const summaryArtifact = await writeValidationJson(options, 'summary', 'validation', summary);
-  const issuesArtifact = await writeValidationJson(options, 'issues', 'validation', issues);
-  const stagesArtifact = await writeValidationJson(options, 'stages', 'validation', stageAudit);
-  const tasksArtifact = await writeValidationJson(options, 'tasks', 'validation', revisionTasks);
+  const summaryArtifact = await writeValidationData(options, 'summary', 'validation', summary, 'Validation summary');
+  const issuesArtifact = await writeValidationData(options, 'issues', 'validation', issues, 'Validation issues');
+  const stagesArtifact = await writeValidationData(options, 'stages', 'validation', stageAudit, 'Stage audit');
+  const tasksArtifact = await writeValidationData(options, 'tasks', 'validation', revisionTasks, 'Revision tasks');
   const reportArtifact = await writeReportText(options, 'summary', 'report', renderReport(summary));
   const stageReportArtifact = await writeReportText(options, 'stages', 'report', renderStageReport(stageAudit));
   const taskReportArtifact = await writeReportText(options, 'tasks', 'report', renderTaskReport(revisionTasks));
@@ -600,16 +600,25 @@ function renderTaskReport(tasks) {
   ].join('\n');
 }
 
-async function writeValidationJson(options, baseName, label, value) {
+async function writeValidationData(options, baseName, label, value, title) {
   const artifactPath = await allocateArtifactPath({
     workspaceRoot: options.workspaceRoot,
     stage: 'validation',
     baseName,
-    label,
-    extension: '.json'
+    label
   });
 
-  await writeJson(artifactPath.filePath, value);
+  await writeStructuredMarkdown(artifactPath.filePath, {
+    title,
+    lead: 'Structured validation output stored in Markdown form.',
+    sections: [
+      {
+        heading: 'Preview',
+        lines: renderValidationPreview(value)
+      }
+    ],
+    data: value
+  });
   return {
     baseName,
     label,
@@ -617,6 +626,18 @@ async function writeValidationJson(options, baseName, label, value) {
     filePath: artifactPath.filePath,
     relativePath: artifactPath.relativePath
   };
+}
+
+function renderValidationPreview(value) {
+  if (Array.isArray(value)) {
+    return value.slice(0, 10).map((entry) => `- ${typeof entry === 'object' ? JSON.stringify(entry) : String(entry)}`);
+  }
+
+  if (value && typeof value === 'object') {
+    return Object.entries(value).slice(0, 12).map(([key, entry]) => `- ${key}: ${typeof entry === 'object' ? JSON.stringify(entry) : String(entry)}`);
+  }
+
+  return [`- ${String(value)}`];
 }
 
 async function writeReportText(options, baseName, label, content) {

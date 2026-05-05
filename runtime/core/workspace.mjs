@@ -2,17 +2,19 @@ import { mkdir, readdir, readFile, stat, writeFile } from 'node:fs/promises';
 import { dirname, join, resolve } from 'node:path';
 
 export const STAGE_FOLDERS = {
-  macro: 'macro',
-  chapters: 'chapters',
-  micro: 'micro',
-  cnl: 'cnl',
-  drafts: 'drafts',
-  validation: 'validation',
-  reports: 'reports',
-  exports: 'exports'
+  macro: 'phase2-macro',
+  chapters: 'phase3-chapters',
+  micro: 'phase4-micro',
+  cnl: 'phase5-cnl',
+  drafts: 'phase6-drafts',
+  validation: 'phase7-validation',
+  reports: 'phase8-reports',
+  exports: 'phase9-exports'
 };
 
-const MANIFEST_NAME = 'pipeline-manifest.json';
+const MANIFEST_NAME = 'pipeline-manifest.md';
+const STRUCTURED_DATA_MARKER = 'scripta-data';
+export const BOOK_VISION_NAME = 'book-vision.md';
 
 export function resolveWorkspaceRoot(workspaceRoot, bookId) {
   return resolve(workspaceRoot ?? join(process.cwd(), 'QA', bookId ?? 'book-workspace'));
@@ -24,6 +26,16 @@ export async function ensureWorkspace(workspaceRoot) {
   for (const folderName of Object.values(STAGE_FOLDERS)) {
     await mkdir(resolve(workspaceRoot, folderName), { recursive: true });
   }
+}
+
+export async function ensureBookVision(workspaceRoot, content) {
+  const filePath = resolve(workspaceRoot, BOOK_VISION_NAME);
+
+  if (!(await fileExists(filePath))) {
+    await writeText(filePath, content.trimEnd() + '\n');
+  }
+
+  return filePath;
 }
 
 export async function readJson(filePath, fallback = null) {
@@ -38,6 +50,43 @@ export async function readJson(filePath, fallback = null) {
 export async function writeJson(filePath, value) {
   await mkdir(dirname(filePath), { recursive: true });
   await writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
+}
+
+export async function readStructuredMarkdown(filePath, fallback = null) {
+  try {
+    const content = await readFile(filePath, 'utf8');
+    const match = content.match(new RegExp(`<!--\\s*${STRUCTURED_DATA_MARKER}\\s*\\n([\\s\\S]*?)\\n-->`));
+
+    if (!match) {
+      return fallback;
+    }
+
+    return JSON.parse(match[1]);
+  } catch {
+    return fallback;
+  }
+}
+
+export async function writeStructuredMarkdown(filePath, { title, lead = '', sections = [], data = null }) {
+  const chunks = [`# ${title}`];
+
+  if (lead) {
+    chunks.push('', lead);
+  }
+
+  for (const section of sections) {
+    chunks.push('', `## ${section.heading}`);
+
+    for (const line of section.lines ?? []) {
+      chunks.push(line);
+    }
+  }
+
+  if (data !== null) {
+    chunks.push('', `<!-- ${STRUCTURED_DATA_MARKER}`, JSON.stringify(data, null, 2), '-->');
+  }
+
+  await writeText(filePath, chunks.join('\n').trimEnd() + '\n');
 }
 
 export async function writeText(filePath, content) {
@@ -110,7 +159,7 @@ export async function allocateArtifactPath({ workspaceRoot, stage, baseName, lab
 }
 
 export async function loadManifest(workspaceRoot) {
-  return readJson(resolve(workspaceRoot, MANIFEST_NAME), {
+  return readStructuredMarkdown(resolve(workspaceRoot, MANIFEST_NAME), {
     runs: [],
     latest: {},
     book: {}
@@ -118,7 +167,29 @@ export async function loadManifest(workspaceRoot) {
 }
 
 export async function saveManifest(workspaceRoot, manifest) {
-  await writeJson(resolve(workspaceRoot, MANIFEST_NAME), manifest);
+  const latestSummary = Object.entries(manifest.latest ?? {})
+    .map(([stage, artifacts]) => `- ${stage}: ${(artifacts ?? []).map((artifact) => artifact.relativePath).join(', ') || 'none'}`);
+  const runSummary = (manifest.runs ?? []).slice(-12).map((run) => `- #${run.runIndex} ${run.stage}: ${(run.produced ?? []).map((artifact) => artifact.relativePath).join(', ') || 'no outputs'}`);
+
+  await writeStructuredMarkdown(resolve(workspaceRoot, MANIFEST_NAME), {
+    title: 'Pipeline manifest',
+    lead: 'Append-only record of stage runs and latest phase artifacts for this book workspace.',
+    sections: [
+      {
+        heading: 'Book context',
+        lines: Object.entries(manifest.book ?? {}).map(([key, value]) => `- ${key}: ${String(value)}`)
+      },
+      {
+        heading: 'Latest artifacts by stage',
+        lines: latestSummary.length > 0 ? latestSummary : ['- none']
+      },
+      {
+        heading: 'Recent runs',
+        lines: runSummary.length > 0 ? runSummary : ['- none']
+      }
+    ],
+    data: manifest
+  });
 }
 
 export async function registerStageRun({ workspaceRoot, stage, consumed = [], produced = [], context = {} }) {

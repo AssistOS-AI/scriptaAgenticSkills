@@ -1,5 +1,5 @@
 import { blockToObject, getFieldValue } from '../core/cnl.mjs';
-import { ensureWorkspace, allocateArtifactPath, registerStageRun, writeJson, writeText } from '../core/workspace.mjs';
+import { ensureWorkspace, allocateArtifactPath, listLatestStageArtifacts, registerStageRun, writeStructuredMarkdown, writeText } from '../core/workspace.mjs';
 import { normalizePipelineOptions } from './options.mjs';
 import { readLatestBlocksByBase } from './loaders.mjs';
 
@@ -9,7 +9,7 @@ export async function runChapGen(input = {}) {
   const refinedChapters = await readLatestBlocksByBase(options.workspaceRoot, 'cnl', 'chapter-refined-plan');
   const refinedMicro = await readLatestBlocksByBase(options.workspaceRoot, 'cnl', 'micro-refined-plan');
   const refinedMacro = await readLatestBlocksByBase(options.workspaceRoot, 'cnl', 'macro-refined-plan');
-  const resolutionEntry = (await readLatestBlocksByBase(options.workspaceRoot, 'cnl', 'cnl-resolution')).length;
+  const resolutionEntry = (await listLatestStageArtifacts(options.workspaceRoot, 'cnl', 'cnl-resolution')).length;
 
   if (refinedChapters.length === 0 || refinedMicro.length === 0 || refinedMacro.length === 0) {
     throw new Error(`CNLEnh successor artifacts are required before drafting. Run "scripta cnlenh" first.`);
@@ -47,7 +47,7 @@ export async function runChapGen(input = {}) {
     });
     const draftArtifact = await writeDraftArtifact(options, chapterId, 'draft', draftText);
     const continuityPacket = buildContinuityPacket(chapterId, chapterObject, microEntry.blocks);
-    const continuityArtifact = await writeDraftJsonArtifact(options, chapterId, 'continuity', continuityPacket);
+    const continuityArtifact = await writeContinuityArtifact(options, chapterId, 'continuity', continuityPacket);
     produced.push(draftArtifact, continuityArtifact);
   }
 
@@ -326,16 +326,36 @@ async function writeDraftArtifact(options, baseName, label, content) {
   };
 }
 
-async function writeDraftJsonArtifact(options, baseName, label, value) {
+async function writeContinuityArtifact(options, baseName, label, value) {
   const artifactPath = await allocateArtifactPath({
     workspaceRoot: options.workspaceRoot,
     stage: 'drafts',
     baseName,
-    label,
-    extension: '.json'
+    label
   });
 
-  await writeJson(artifactPath.filePath, value);
+  await writeStructuredMarkdown(artifactPath.filePath, {
+    title: `${baseName} ${label}`,
+    lead: 'Continuity packet for downstream validation and export assembly.',
+    sections: [
+      {
+        heading: 'State flow',
+        lines: [
+          `- entryState: ${value.entryState}`,
+          `- exitState: ${value.exitState}`
+        ]
+      },
+      {
+        heading: 'Continuity obligations',
+        lines: (value.unresolvedObligations ?? []).map((entry) => `- ${entry}`)
+      },
+      {
+        heading: 'Introduced entities',
+        lines: (value.introducedEntities ?? []).map((entry) => `- ${entry}`)
+      }
+    ],
+    data: value
+  });
   return {
     baseName,
     label,

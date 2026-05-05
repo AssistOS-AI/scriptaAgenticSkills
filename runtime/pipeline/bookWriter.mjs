@@ -1,6 +1,6 @@
 import { blockToObject } from '../core/cnl.mjs';
 import { escapeHtml } from '../core/text.mjs';
-import { allocateArtifactPath, ensureWorkspace, listLatestStageArtifacts, readJson, readText, registerStageRun, writeJson, writeText } from '../core/workspace.mjs';
+import { allocateArtifactPath, ensureWorkspace, listLatestStageArtifacts, readStructuredMarkdown, readText, registerStageRun, writeStructuredMarkdown, writeText } from '../core/workspace.mjs';
 import { readLatestBlocksByBase } from './loaders.mjs';
 import { normalizePipelineOptions } from './options.mjs';
 import {
@@ -37,8 +37,8 @@ export async function runBookWriter(input = {}) {
   }
 
   const draftTexts = await Promise.all(draftArtifacts.map((artifact) => readText(artifact.filePath)));
-  const continuityPackets = await Promise.all(continuityArtifacts.map((artifact) => readJson(artifact.filePath, {})));
-  const validationSummary = validationArtifacts.length > 0 ? await readJson(validationArtifacts[0].filePath, null) : null;
+  const continuityPackets = await Promise.all(continuityArtifacts.map((artifact) => readStructuredMarkdown(artifact.filePath, {})));
+  const validationSummary = validationArtifacts.length > 0 ? await readStructuredMarkdown(validationArtifacts[0].filePath, null) : null;
 
   const manuscriptModel = buildManuscriptModel({
     options,
@@ -79,7 +79,7 @@ export async function runBookWriter(input = {}) {
     });
   }
 
-  const summaryArtifact = await writeExportJsonArtifact(options, 'editions', 'bundle', {
+  const summaryArtifact = await writeExportDataArtifact(options, 'editions', 'bundle', {
     bookId: options.bookId,
     baselineProfile: options.baselineProfile,
     sourceLanguage: options.sourceLanguage,
@@ -703,16 +703,25 @@ async function writeExportArtifact(options, baseName, label, content, extension 
   };
 }
 
-async function writeExportJsonArtifact(options, baseName, label, value) {
+async function writeExportDataArtifact(options, baseName, label, value) {
   const artifactPath = await allocateArtifactPath({
     workspaceRoot: options.workspaceRoot,
     stage: 'exports',
     baseName,
-    label,
-    extension: '.json'
+    label
   });
 
-  await writeJson(artifactPath.filePath, value);
+  await writeStructuredMarkdown(artifactPath.filePath, {
+    title: `${baseName} ${label}`,
+    lead: 'Structured export metadata stored in Markdown form.',
+    sections: [
+      {
+        heading: 'Languages',
+        lines: (value.targetLanguages ?? []).map((entry) => `- ${entry}`)
+      }
+    ],
+    data: value
+  });
   return {
     baseName,
     label,

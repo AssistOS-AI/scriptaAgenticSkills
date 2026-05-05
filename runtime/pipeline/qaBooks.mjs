@@ -1,6 +1,6 @@
 import { mkdir } from 'node:fs/promises';
 import { QA_BOOKS } from '../config/qaBooks.mjs';
-import { writeJson, writeText } from '../core/workspace.mjs';
+import { writeStructuredMarkdown, writeText } from '../core/workspace.mjs';
 import { runBookPipeline } from './runBookPipeline.mjs';
 
 export async function runQaGeneration(baseRoot = null) {
@@ -40,18 +40,42 @@ export async function runQaGeneration(baseRoot = null) {
   }
 
   await mkdir(summaryRoot, { recursive: true });
-  await writeJson(`${summaryRoot}/qa-summary.json`, { books: summaries });
-  await writeJson(`${summaryRoot}/qa-review.json`, {
-    books: summaries.map((entry) => ({
-      bookId: entry.bookId,
-      profile: entry.profile,
-      exportAudit: entry.exportAudit,
-      stageAudit: entry.stageAudit,
-      topTasks: entry.revisionTasks.slice(0, 3),
-      publishedEditions: entry.publishedEditions,
-      metricsPage: entry.metricsPage
-    })),
-    tasks: consolidatedTasks
+  await writeStructuredMarkdown(`${summaryRoot}/qa-summary.md`, {
+    title: 'QA summary',
+    lead: 'One-line summary for each canonical QA book run.',
+    sections: [
+      {
+        heading: 'Books',
+        lines: summaries.map((entry) => `- ${entry.bookId} (${entry.profile}) — NQS ${entry.metrics.NQS}% · CS ${entry.metrics.CS}% · CAR ${entry.metrics.CAR}%`)
+      }
+    ],
+    data: { books: summaries }
+  });
+  await writeStructuredMarkdown(`${summaryRoot}/qa-review.md`, {
+    title: 'QA review',
+    lead: 'Consolidated QA review across all canonical books.',
+    sections: [
+      {
+        heading: 'Books',
+        lines: summaries.map((entry) => `- ${entry.bookId}: export ${entry.exportAudit.score}% · stages ${entry.stageAudit.map((stage) => `${stage.name} ${stage.score}%`).join(', ')}`)
+      },
+      {
+        heading: 'Top tasks',
+        lines: consolidatedTasks.map((task) => `- ${task.bookId}: ${task.title} (${task.priority})`)
+      }
+    ],
+    data: {
+      books: summaries.map((entry) => ({
+        bookId: entry.bookId,
+        profile: entry.profile,
+        exportAudit: entry.exportAudit,
+        stageAudit: entry.stageAudit,
+        topTasks: entry.revisionTasks.slice(0, 3),
+        publishedEditions: entry.publishedEditions,
+        metricsPage: entry.metricsPage
+      })),
+      tasks: consolidatedTasks
+    }
   });
   await writeText(`${summaryRoot}/qa-tasks.md`, renderQaTaskReport(consolidatedTasks));
 
