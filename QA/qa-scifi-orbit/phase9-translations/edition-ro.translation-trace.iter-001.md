@@ -7,7 +7,7 @@ Sequential chunk translation trace for the translated reader edition.
   "bookId": "qa-scifi-orbit",
   "sourceLanguage": "en",
   "targetLanguage": "ro",
-  "chunkCount": 85,
+  "chunkCount": 81,
   "chunks": [
     {
       "path": "front.subtitle",
@@ -60,20 +60,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 1,
-      "source": "During a routine recalibration in the mnemonic orchard, Elian hears a protest chant no one else remembers uttering..",
-      "translated": "During a routine recalibration in the mnemonic orchard, Elian hears a protest chant no one else remembers uttering.."
+      "source": "During a routine recalibration in the mnemonic orchard, Elian hears a protest chant no one else remembers uttering.",
+      "translated": "During a routine recalibration in the mnemonic orchard, Elian hears a protest chant no one else remembers uttering."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 2,
-      "source": "Yara identifies the chant as dockside slang from a vanished labor vote..",
-      "translated": "Yara identifies the chant as dockside slang from a vanished labor vote.."
+      "source": "Yara identifies the chant as dockside slang from a vanished labor vote.",
+      "translated": "Yara identifies the chant as dockside slang from a vanished labor vote."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 3,
-      "source": "Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances..",
-      "translated": "Elian vrea sa izoleze anomalia in tacere, in timp ce Yara insista ca anomaliile supravietuiesc doar daca cineva actioneaza inainte ca sistemul sa se reechilibreze.."
+      "source": "Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.",
+      "translated": "Elian vrea sa izoleze anomalia in tacere, in timp ce Yara insista ca anomaliile supravietuiesc doar daca cineva actioneaza inainte ca sistemul sa se reechilibreze."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
@@ -84,38 +84,32 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 5,
-      "source": "They trace the chant to a recall shard marked as botanical maintenance metadata..",
-      "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata.."
+      "source": "They trace the chant to a recall shard marked as botanical maintenance metadata.",
+      "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 1,
-      "source": "Later, yara identifies the chant as dockside slang from a vanished labor vote..",
-      "translated": "Later, yara identifies the chant as dockside slang from a vanished labor vote.."
+      "source": "Later, yara identifies the chant as dockside slang from a vanished labor vote.",
+      "translated": "Later, yara identifies the chant as dockside slang from a vanished labor vote."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 2,
-      "source": "Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances..",
-      "translated": "Elian vrea sa izoleze anomalia in tacere, in timp ce Yara insista ca anomaliile supravietuiesc doar daca cineva actioneaza inainte ca sistemul sa se reechilibreze.."
+      "source": "Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.",
+      "translated": "Elian vrea sa izoleze anomalia in tacere, in timp ce Yara insista ca anomaliile supravietuiesc doar daca cineva actioneaza inainte ca sistemul sa se reechilibreze."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 3,
-      "source": "Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances..",
-      "translated": "Elian vrea sa izoleze anomalia in tacere, in timp ce Yara insista ca anomaliile supravietuiesc doar daca cineva actioneaza inainte ca sistemul sa se reechilibreze.."
-    },
-    {
-      "path": "chapter.chapter-001.paragraph.3",
-      "chunkIndex": 4,
       "source": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion.",
       "translated": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
-      "chunkIndex": 5,
-      "source": "They trace the chant to a recall shard marked as botanical maintenance metadata..",
-      "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata.."
+      "chunkIndex": 4,
+      "source": "They trace the chant to a recall shard marked as botanical maintenance metadata.",
+      "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata."
     },
     {
       "path": "chapter.chapter-001.paragraph.4",
@@ -132,8 +126,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 3,
-      "source": "Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances..",
-      "translated": "Elian vrea sa izoleze anomalia in tacere, in timp ce Yara insista ca anomaliile supravietuiesc doar daca cineva actioneaza inainte ca sistemul sa se reechilibreze.."
+      "source": "Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.",
+      "translated": "Elian vrea sa izoleze anomalia in tacere, in timp ce Yara insista ca anomaliile supravietuiesc doar daca cineva actioneaza inainte ca sistemul sa se reechilibreze."
     },
     {
       "path": "chapter.chapter-001.paragraph.4",
@@ -144,8 +138,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 5,
-      "source": "They trace the chant to a recall shard marked as botanical maintenance metadata..",
-      "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata.."
+      "source": "They trace the chant to a recall shard marked as botanical maintenance metadata.",
+      "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata."
     },
     {
       "path": "chapter.chapter-001.paragraph.5",
@@ -180,20 +174,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 1,
-      "source": "Yara flies Elian through maintenance lanes no civilian archivist is meant to access..",
-      "translated": "Yara flies Elian through maintenance lanes no civilian archivist is meant to access.."
+      "source": "Yara flies Elian through maintenance lanes no civilian archivist is meant to access.",
+      "translated": "Yara flies Elian through maintenance lanes no civilian archivist is meant to access."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 2,
-      "source": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute..",
-      "translated": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.."
+      "source": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.",
+      "translated": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 3,
-      "source": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent..",
-      "translated": "Elian inca spera ca forul a pastrat amintirile pentru o carantina legala, in timp ce Yara crede ca arhiva este o camera mortuara pentru disidenta.."
+      "source": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
+      "translated": "Elian inca spera ca forul a pastrat amintirile pentru o carantina legala, in timp ce Yara crede ca arhiva este o camera mortuara pentru disidenta."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
@@ -204,38 +198,32 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 5,
-      "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map..",
-      "translated": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.."
+      "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+      "translated": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 1,
-      "source": "Later, they discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute..",
-      "translated": "Later, they discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.."
+      "source": "Later, they discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.",
+      "translated": "Later, they discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 2,
-      "source": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent..",
-      "translated": "Elian inca spera ca forul a pastrat amintirile pentru o carantina legala, in timp ce Yara crede ca arhiva este o camera mortuara pentru disidenta.."
+      "source": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
+      "translated": "Elian inca spera ca forul a pastrat amintirile pentru o carantina legala, in timp ce Yara crede ca arhiva este o camera mortuara pentru disidenta."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 3,
-      "source": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent..",
-      "translated": "Elian inca spera ca forul a pastrat amintirile pentru o carantina legala, in timp ce Yara crede ca arhiva este o camera mortuara pentru disidenta.."
-    },
-    {
-      "path": "chapter.chapter-002.paragraph.3",
-      "chunkIndex": 4,
       "source": "When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past.",
       "translated": "When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
-      "chunkIndex": 5,
-      "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map..",
-      "translated": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.."
+      "chunkIndex": 4,
+      "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+      "translated": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map."
     },
     {
       "path": "chapter.chapter-002.paragraph.4",
@@ -252,8 +240,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.4",
       "chunkIndex": 3,
-      "source": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent..",
-      "translated": "Elian inca spera ca forul a pastrat amintirile pentru o carantina legala, in timp ce Yara crede ca arhiva este o camera mortuara pentru disidenta.."
+      "source": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
+      "translated": "Elian inca spera ca forul a pastrat amintirile pentru o carantina legala, in timp ce Yara crede ca arhiva este o camera mortuara pentru disidenta."
     },
     {
       "path": "chapter.chapter-002.paragraph.4",
@@ -264,8 +252,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.4",
       "chunkIndex": 5,
-      "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map..",
-      "translated": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.."
+      "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+      "translated": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map."
     },
     {
       "path": "chapter.chapter-002.paragraph.5",
@@ -300,20 +288,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 1,
-      "source": "Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies..",
-      "translated": "Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies.."
+      "source": "Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies.",
+      "translated": "Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 2,
-      "source": "Elian sees that her old optimization patch became the core of the pacification protocol..",
-      "translated": "Elian sees that her old optimization patch became the core of the pacification protocol.."
+      "source": "Elian sees that her old optimization patch became the core of the pacification protocol.",
+      "translated": "Elian sees that her old optimization patch became the core of the pacification protocol."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 3,
-      "source": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent..",
-      "translated": "Restaurarea memoriei la scara intregii statii ar putea declansa panica si victime secundare, iar lasarea arhivei ascunse inseamna un consimtamant falsificat pentru totdeauna.."
+      "source": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
+      "translated": "Restaurarea memoriei la scara intregii statii ar putea declansa panica si victime secundare, iar lasarea arhivei ascunse inseamna un consimtamant falsificat pentru totdeauna."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
@@ -324,38 +312,32 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 5,
-      "source": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once..",
-      "translated": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.."
+      "source": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
+      "translated": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 1,
-      "source": "Later, elian sees that her old optimization patch became the core of the pacification protocol..",
-      "translated": "Later, elian sees that her old optimization patch became the core of the pacification protocol.."
+      "source": "Later, elian sees that her old optimization patch became the core of the pacification protocol.",
+      "translated": "Later, elian sees that her old optimization patch became the core of the pacification protocol."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 2,
-      "source": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent..",
-      "translated": "Restaurarea memoriei la scara intregii statii ar putea declansa panica si victime secundare, iar lasarea arhivei ascunse inseamna un consimtamant falsificat pentru totdeauna.."
+      "source": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
+      "translated": "Restaurarea memoriei la scara intregii statii ar putea declansa panica si victime secundare, iar lasarea arhivei ascunse inseamna un consimtamant falsificat pentru totdeauna."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 3,
-      "source": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent..",
-      "translated": "Restaurarea memoriei la scara intregii statii ar putea declansa panica si victime secundare, iar lasarea arhivei ascunse inseamna un consimtamant falsificat pentru totdeauna.."
-    },
-    {
-      "path": "chapter.chapter-003.paragraph.3",
-      "chunkIndex": 4,
       "source": "When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file.",
       "translated": "When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
-      "chunkIndex": 5,
-      "source": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once..",
-      "translated": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.."
+      "chunkIndex": 4,
+      "source": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
+      "translated": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once."
     },
     {
       "path": "chapter.chapter-003.paragraph.4",
@@ -372,8 +354,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.4",
       "chunkIndex": 3,
-      "source": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent..",
-      "translated": "Restaurarea memoriei la scara intregii statii ar putea declansa panica si victime secundare, iar lasarea arhivei ascunse inseamna un consimtamant falsificat pentru totdeauna.."
+      "source": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
+      "translated": "Restaurarea memoriei la scara intregii statii ar putea declansa panica si victime secundare, iar lasarea arhivei ascunse inseamna un consimtamant falsificat pentru totdeauna."
     },
     {
       "path": "chapter.chapter-003.paragraph.4",
@@ -384,8 +366,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.4",
       "chunkIndex": 5,
-      "source": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once..",
-      "translated": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.."
+      "source": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
+      "translated": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once."
     },
     {
       "path": "chapter.chapter-003.paragraph.5",
@@ -420,20 +402,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 1,
-      "source": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice..",
-      "translated": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.."
+      "source": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.",
+      "translated": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 2,
-      "source": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes..",
-      "translated": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.."
+      "source": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+      "translated": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 3,
-      "source": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once..",
-      "translated": "Elian mai poate limita divulgarea doar la consiliu sau poate lasa fiecare locuitor sa recupereze deodata aceeasi decizie disparuta.."
+      "source": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+      "translated": "Elian mai poate limita divulgarea doar la consiliu sau poate lasa fiecare locuitor sa recupereze deodata aceeasi decizie disparuta."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
@@ -444,38 +426,32 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 5,
-      "source": "She releases the memory to everyone and lets the station face its first honest unrest in years..",
-      "translated": "She releases the memory to everyone and lets the station face its first honest unrest in years.."
+      "source": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+      "translated": "She releases the memory to everyone and lets the station face its first honest unrest in years."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 1,
-      "source": "Later, yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes..",
-      "translated": "Later, yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.."
+      "source": "Later, yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+      "translated": "Later, yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 2,
-      "source": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once..",
-      "translated": "Elian mai poate limita divulgarea doar la consiliu sau poate lasa fiecare locuitor sa recupereze deodata aceeasi decizie disparuta.."
+      "source": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+      "translated": "Elian mai poate limita divulgarea doar la consiliu sau poate lasa fiecare locuitor sa recupereze deodata aceeasi decizie disparuta."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 3,
-      "source": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once..",
-      "translated": "Elian mai poate limita divulgarea doar la consiliu sau poate lasa fiecare locuitor sa recupereze deodata aceeasi decizie disparuta.."
-    },
-    {
-      "path": "chapter.chapter-004.paragraph.3",
-      "chunkIndex": 4,
       "source": "When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence.",
       "translated": "When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
-      "chunkIndex": 5,
-      "source": "She releases the memory to everyone and lets the station face its first honest unrest in years..",
-      "translated": "She releases the memory to everyone and lets the station face its first honest unrest in years.."
+      "chunkIndex": 4,
+      "source": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+      "translated": "She releases the memory to everyone and lets the station face its first honest unrest in years."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
@@ -492,8 +468,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 3,
-      "source": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once..",
-      "translated": "Elian mai poate limita divulgarea doar la consiliu sau poate lasa fiecare locuitor sa recupereze deodata aceeasi decizie disparuta.."
+      "source": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+      "translated": "Elian mai poate limita divulgarea doar la consiliu sau poate lasa fiecare locuitor sa recupereze deodata aceeasi decizie disparuta."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
@@ -504,8 +480,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 5,
-      "source": "She releases the memory to everyone and lets the station face its first honest unrest in years..",
-      "translated": "She releases the memory to everyone and lets the station face its first honest unrest in years.."
+      "source": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+      "translated": "She releases the memory to everyone and lets the station face its first honest unrest in years."
     },
     {
       "path": "chapter.chapter-004.paragraph.5",

@@ -7,7 +7,7 @@ Sequential chunk translation trace for the translated reader edition.
   "bookId": "qa-detective-river",
   "sourceLanguage": "en",
   "targetLanguage": "ro",
-  "chunkCount": 85,
+  "chunkCount": 81,
   "chunks": [
     {
       "path": "front.subtitle",
@@ -60,20 +60,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 1,
-      "source": "Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage..",
-      "translated": "Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.."
+      "source": "Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.",
+      "translated": "Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 2,
-      "source": "The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before..",
-      "translated": "The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.."
+      "source": "The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.",
+      "translated": "The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 3,
-      "source": "Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed..",
-      "translated": "Nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ.."
+      "source": "Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.",
+      "translated": "Nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
@@ -84,38 +84,32 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 5,
-      "source": "Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline..",
-      "translated": "Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.."
+      "source": "Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.",
+      "translated": "Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 1,
-      "source": "Later, the medical examiner lowers his voice when he mentions a missing evidence bag logged the night before..",
-      "translated": "Later, the medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.."
+      "source": "Later, the medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.",
+      "translated": "Later, the medical examiner lowers his voice when he mentions a missing evidence bag logged the night before."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 2,
-      "source": "Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed..",
-      "translated": "Nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ.."
+      "source": "Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.",
+      "translated": "Nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 3,
-      "source": "Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed..",
-      "translated": "Nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ.."
-    },
-    {
-      "path": "chapter.chapter-001.paragraph.3",
-      "chunkIndex": 4,
       "source": "When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole.",
       "translated": "When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
-      "chunkIndex": 5,
-      "source": "Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline..",
-      "translated": "Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.."
+      "chunkIndex": 4,
+      "source": "Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.",
+      "translated": "Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline."
     },
     {
       "path": "chapter.chapter-001.paragraph.4",
@@ -132,8 +126,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 3,
-      "source": "Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed..",
-      "translated": "Nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ.."
+      "source": "Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.",
+      "translated": "Nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ."
     },
     {
       "path": "chapter.chapter-001.paragraph.4",
@@ -144,8 +138,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 5,
-      "source": "Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline..",
-      "translated": "Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.."
+      "source": "Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.",
+      "translated": "Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline."
     },
     {
       "path": "chapter.chapter-001.paragraph.5",
@@ -180,20 +174,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 1,
-      "source": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps..",
-      "translated": "In the evidence hangar, nadia and Theo trace the victim's last route through broken camera timestamps.."
+      "source": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.",
+      "translated": "In the evidence hangar, nadia and Theo trace the victim's last route through broken camera timestamps."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 2,
-      "source": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy..",
-      "translated": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.."
+      "source": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+      "translated": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 3,
-      "source": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone..",
-      "translated": "Theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie.."
+      "source": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.",
+      "translated": "Theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
@@ -204,38 +198,32 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 5,
-      "source": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room..",
-      "translated": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.."
+      "source": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.",
+      "translated": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 1,
-      "source": "Later, the footage gap lines up exactly with a maintenance override signed by soren's deputy..",
-      "translated": "Later, the footage gap lines up exactly with a maintenance override signed by soren's deputy.."
+      "source": "Later, the footage gap lines up exactly with a maintenance override signed by soren's deputy.",
+      "translated": "Later, the footage gap lines up exactly with a maintenance override signed by soren's deputy."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 2,
-      "source": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone..",
-      "translated": "Theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie.."
+      "source": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.",
+      "translated": "Theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 3,
-      "source": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone..",
-      "translated": "Theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie.."
-    },
-    {
-      "path": "chapter.chapter-002.paragraph.3",
-      "chunkIndex": 4,
       "source": "When a duplicate maintenance form appears with two different timestamps, chain-of-custody becomes the crime scene.",
       "translated": "When a duplicate maintenance form appears with two different timestamps, chain-of-custody becomes the crime scene."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
-      "chunkIndex": 5,
-      "source": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room..",
-      "translated": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.."
+      "chunkIndex": 4,
+      "source": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.",
+      "translated": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room."
     },
     {
       "path": "chapter.chapter-002.paragraph.4",
@@ -252,8 +240,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.4",
       "chunkIndex": 3,
-      "source": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone..",
-      "translated": "Theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie.."
+      "source": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.",
+      "translated": "Theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie."
     },
     {
       "path": "chapter.chapter-002.paragraph.4",
@@ -264,8 +252,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.4",
       "chunkIndex": 5,
-      "source": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room..",
-      "translated": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.."
+      "source": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.",
+      "translated": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room."
     },
     {
       "path": "chapter.chapter-002.paragraph.5",
@@ -300,20 +288,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 1,
-      "source": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps..",
-      "translated": "In the evidence hangar, nadia and Theo trace the victim's last route through broken camera timestamps.."
+      "source": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.",
+      "translated": "In the evidence hangar, nadia and Theo trace the victim's last route through broken camera timestamps."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 2,
-      "source": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy..",
-      "translated": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.."
+      "source": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+      "translated": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 3,
-      "source": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone..",
-      "translated": "Theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie.."
+      "source": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.",
+      "translated": "Theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
@@ -324,38 +312,32 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 5,
-      "source": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room..",
-      "translated": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.."
+      "source": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.",
+      "translated": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 1,
-      "source": "Later, the footage gap lines up exactly with a maintenance override signed by soren's deputy..",
-      "translated": "Later, the footage gap lines up exactly with a maintenance override signed by soren's deputy.."
+      "source": "Later, the footage gap lines up exactly with a maintenance override signed by soren's deputy.",
+      "translated": "Later, the footage gap lines up exactly with a maintenance override signed by soren's deputy."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 2,
-      "source": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone..",
-      "translated": "Theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie.."
+      "source": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.",
+      "translated": "Theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 3,
-      "source": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone..",
-      "translated": "Theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie.."
-    },
-    {
-      "path": "chapter.chapter-003.paragraph.3",
-      "chunkIndex": 4,
       "source": "When a duplicate maintenance form appears with two different timestamps, chain-of-custody becomes the crime scene.",
       "translated": "When a duplicate maintenance form appears with two different timestamps, chain-of-custody becomes the crime scene."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
-      "chunkIndex": 5,
-      "source": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room..",
-      "translated": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.."
+      "chunkIndex": 4,
+      "source": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.",
+      "translated": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room."
     },
     {
       "path": "chapter.chapter-003.paragraph.4",
@@ -372,8 +354,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.4",
       "chunkIndex": 3,
-      "source": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone..",
-      "translated": "Theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie.."
+      "source": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.",
+      "translated": "Theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie."
     },
     {
       "path": "chapter.chapter-003.paragraph.4",
@@ -384,8 +366,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.4",
       "chunkIndex": 5,
-      "source": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room..",
-      "translated": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.."
+      "source": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.",
+      "translated": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room."
     },
     {
       "path": "chapter.chapter-003.paragraph.5",
@@ -420,20 +402,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 1,
-      "source": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her..",
-      "translated": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.."
+      "source": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
+      "translated": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 2,
-      "source": "Theo streams the room live while officers realize the cover-up reaches beyond one report..",
-      "translated": "Theo streams the room live while officers realize the cover-up reaches beyond one report.."
+      "source": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+      "translated": "Theo streams the room live while officers realize the cover-up reaches beyond one report."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 3,
-      "source": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment..",
-      "translated": "Nadia mai poate prezenta scandalul drept greseala unui adjunct sau il poate numi pe Soren arhitectul ascunderii.."
+      "source": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.",
+      "translated": "Nadia mai poate prezenta scandalul drept greseala unui adjunct sau il poate numi pe Soren arhitectul ascunderii."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
@@ -444,38 +426,32 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 5,
-      "source": "She names him and files the footage directly to the prosecutor while the live stream continues..",
-      "translated": "She names him and files the footage directly to the prosecutor while the live stream continues.."
+      "source": "She names him and files the footage directly to the prosecutor while the live stream continues.",
+      "translated": "She names him and files the footage directly to the prosecutor while the live stream continues."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 1,
-      "source": "Later, theo streams the room live while officers realize the cover-up reaches beyond one report..",
-      "translated": "Later, theo streams the room live while officers realize the cover-up reaches beyond one report.."
+      "source": "Later, theo streams the room live while officers realize the cover-up reaches beyond one report.",
+      "translated": "Later, theo streams the room live while officers realize the cover-up reaches beyond one report."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 2,
-      "source": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment..",
-      "translated": "Nadia mai poate prezenta scandalul drept greseala unui adjunct sau il poate numi pe Soren arhitectul ascunderii.."
+      "source": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.",
+      "translated": "Nadia mai poate prezenta scandalul drept greseala unui adjunct sau il poate numi pe Soren arhitectul ascunderii."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 3,
-      "source": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment..",
-      "translated": "Nadia mai poate prezenta scandalul drept greseala unui adjunct sau il poate numi pe Soren arhitectul ascunderii.."
-    },
-    {
-      "path": "chapter.chapter-004.paragraph.3",
-      "chunkIndex": 4,
       "source": "When the footage freezes on Soren entering the lock corridor minutes after the murder, command authority becomes visible complicity.",
       "translated": "When the footage freezes on Soren entering the lock corridor minutes after the murder, command authority becomes visible complicity."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
-      "chunkIndex": 5,
-      "source": "She names him and files the footage directly to the prosecutor while the live stream continues..",
-      "translated": "She names him and files the footage directly to the prosecutor while the live stream continues.."
+      "chunkIndex": 4,
+      "source": "She names him and files the footage directly to the prosecutor while the live stream continues.",
+      "translated": "She names him and files the footage directly to the prosecutor while the live stream continues."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
@@ -492,8 +468,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 3,
-      "source": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment..",
-      "translated": "Nadia mai poate prezenta scandalul drept greseala unui adjunct sau il poate numi pe Soren arhitectul ascunderii.."
+      "source": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.",
+      "translated": "Nadia mai poate prezenta scandalul drept greseala unui adjunct sau il poate numi pe Soren arhitectul ascunderii."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
@@ -504,8 +480,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 5,
-      "source": "She names him and files the footage directly to the prosecutor while the live stream continues..",
-      "translated": "She names him and files the footage directly to the prosecutor while the live stream continues.."
+      "source": "She names him and files the footage directly to the prosecutor while the live stream continues.",
+      "translated": "She names him and files the footage directly to the prosecutor while the live stream continues."
     },
     {
       "path": "chapter.chapter-004.paragraph.5",

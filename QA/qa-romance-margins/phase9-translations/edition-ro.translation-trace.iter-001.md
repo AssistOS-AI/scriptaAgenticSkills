@@ -7,7 +7,7 @@ Sequential chunk translation trace for the translated reader edition.
   "bookId": "qa-romance-margins",
   "sourceLanguage": "en",
   "targetLanguage": "ro",
-  "chunkCount": 85,
+  "chunkCount": 81,
   "chunks": [
     {
       "path": "front.subtitle",
@@ -60,20 +60,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 1,
-      "source": "On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes..",
-      "translated": "On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes.."
+      "source": "On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes.",
+      "translated": "On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 2,
-      "source": "Cassia announces the launch deadline and makes their joint contract unavoidable..",
-      "translated": "Cassia announces the launch deadline and makes their joint contract unavoidable.."
+      "source": "Cassia announces the launch deadline and makes their joint contract unavoidable.",
+      "translated": "Cassia announces the launch deadline and makes their joint contract unavoidable."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 3,
-      "source": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived..",
-      "translated": "Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit.."
+      "source": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.",
+      "translated": "Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
@@ -84,38 +84,32 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 5,
-      "source": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved..",
-      "translated": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.."
+      "source": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.",
+      "translated": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 1,
-      "source": "Later, cassia announces the launch deadline and makes their joint contract unavoidable..",
-      "translated": "Later, cassia announces the launch deadline and makes their joint contract unavoidable.."
+      "source": "Later, cassia announces the launch deadline and makes their joint contract unavoidable.",
+      "translated": "Later, cassia announces the launch deadline and makes their joint contract unavoidable."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 2,
-      "source": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived..",
-      "translated": "Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit.."
+      "source": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.",
+      "translated": "Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 3,
-      "source": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived..",
-      "translated": "Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit.."
-    },
-    {
-      "path": "chapter.chapter-001.paragraph.3",
-      "chunkIndex": 4,
       "source": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.",
       "translated": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
-      "chunkIndex": 5,
-      "source": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved..",
-      "translated": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.."
+      "chunkIndex": 4,
+      "source": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.",
+      "translated": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved."
     },
     {
       "path": "chapter.chapter-001.paragraph.4",
@@ -132,8 +126,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 3,
-      "source": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived..",
-      "translated": "Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit.."
+      "source": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.",
+      "translated": "Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit."
     },
     {
       "path": "chapter.chapter-001.paragraph.4",
@@ -144,8 +138,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 5,
-      "source": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved..",
-      "translated": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.."
+      "source": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.",
+      "translated": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved."
     },
     {
       "path": "chapter.chapter-001.paragraph.5",
@@ -180,20 +174,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 1,
-      "source": "A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift..",
-      "translated": "A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.."
+      "source": "A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.",
+      "translated": "A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 2,
-      "source": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for..",
-      "translated": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.."
+      "source": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.",
+      "translated": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 3,
-      "source": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission..",
-      "translated": "Leora vrea ca scuzele sa fie rostite limpede, nu ascunse in vorbaria de productie, in timp ce Talia se teme ca onestitatea directa le va costa comanda.."
+      "source": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.",
+      "translated": "Leora vrea ca scuzele sa fie rostite limpede, nu ascunse in vorbaria de productie, in timp ce Talia se teme ca onestitatea directa le va costa comanda."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
@@ -204,38 +198,32 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 5,
-      "source": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep..",
-      "translated": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.."
+      "source": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.",
+      "translated": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 1,
-      "source": "Later, talia admits she left after receiving an offer that promised security she never trusted herself to ask leora for..",
-      "translated": "Later, talia admits she left after receiving an offer that promised security she never trusted herself to ask leora for.."
+      "source": "Later, talia admits she left after receiving an offer that promised security she never trusted herself to ask leora for.",
+      "translated": "Later, talia admits she left after receiving an offer that promised security she never trusted herself to ask leora for."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 2,
-      "source": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission..",
-      "translated": "Leora vrea ca scuzele sa fie rostite limpede, nu ascunse in vorbaria de productie, in timp ce Talia se teme ca onestitatea directa le va costa comanda.."
+      "source": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.",
+      "translated": "Leora vrea ca scuzele sa fie rostite limpede, nu ascunse in vorbaria de productie, in timp ce Talia se teme ca onestitatea directa le va costa comanda."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 3,
-      "source": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission..",
-      "translated": "Leora vrea ca scuzele sa fie rostite limpede, nu ascunse in vorbaria de productie, in timp ce Talia se teme ca onestitatea directa le va costa comanda.."
-    },
-    {
-      "path": "chapter.chapter-002.paragraph.3",
-      "chunkIndex": 4,
       "source": "When the misprint mirrors the exact margin shift from the night Talia left, the studio forces the past into the present workload.",
       "translated": "When the misprint mirrors the exact margin shift from the night Talia left, the studio forces the past into the present workload."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
-      "chunkIndex": 5,
-      "source": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep..",
-      "translated": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.."
+      "chunkIndex": 4,
+      "source": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.",
+      "translated": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep."
     },
     {
       "path": "chapter.chapter-002.paragraph.4",
@@ -252,8 +240,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.4",
       "chunkIndex": 3,
-      "source": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission..",
-      "translated": "Leora vrea ca scuzele sa fie rostite limpede, nu ascunse in vorbaria de productie, in timp ce Talia se teme ca onestitatea directa le va costa comanda.."
+      "source": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.",
+      "translated": "Leora vrea ca scuzele sa fie rostite limpede, nu ascunse in vorbaria de productie, in timp ce Talia se teme ca onestitatea directa le va costa comanda."
     },
     {
       "path": "chapter.chapter-002.paragraph.4",
@@ -264,8 +252,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.4",
       "chunkIndex": 5,
-      "source": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep..",
-      "translated": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.."
+      "source": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.",
+      "translated": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep."
     },
     {
       "path": "chapter.chapter-002.paragraph.5",
@@ -300,20 +288,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 1,
-      "source": "At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together..",
-      "translated": "At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.."
+      "source": "At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.",
+      "translated": "At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 2,
-      "source": "The public misreading makes both women realize how much of their intimacy remains visible even after the rupture..",
-      "translated": "The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.."
+      "source": "The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.",
+      "translated": "The public misreading makes both women realize how much of their intimacy remains visible even after the rupture."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 3,
-      "source": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence..",
-      "translated": "Leora poate pastra parteneriatul intr-o ambiguitate sigura sau poate admite ca aceasta comanda nu poate supravietui unui nou sezon de tacere.."
+      "source": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.",
+      "translated": "Leora poate pastra parteneriatul intr-o ambiguitate sigura sau poate admite ca aceasta comanda nu poate supravietui unui nou sezon de tacere."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
@@ -324,38 +312,32 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 5,
-      "source": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics..",
-      "translated": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.."
+      "source": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.",
+      "translated": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 1,
-      "source": "Later, the public misreading makes both women realize how much of their intimacy remains visible even after the rupture..",
-      "translated": "Later, the public misreading makes both women realize how much of their intimacy remains visible even after the rupture.."
+      "source": "Later, the public misreading makes both women realize how much of their intimacy remains visible even after the rupture.",
+      "translated": "Later, the public misreading makes both women realize how much of their intimacy remains visible even after the rupture."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 2,
-      "source": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence..",
-      "translated": "Leora poate pastra parteneriatul intr-o ambiguitate sigura sau poate admite ca aceasta comanda nu poate supravietui unui nou sezon de tacere.."
+      "source": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.",
+      "translated": "Leora poate pastra parteneriatul intr-o ambiguitate sigura sau poate admite ca aceasta comanda nu poate supravietui unui nou sezon de tacere."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 3,
-      "source": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence..",
-      "translated": "Leora poate pastra parteneriatul intr-o ambiguitate sigura sau poate admite ca aceasta comanda nu poate supravietui unui nou sezon de tacere.."
-    },
-    {
-      "path": "chapter.chapter-003.paragraph.3",
-      "chunkIndex": 4,
       "source": "When the curator chooses the doubled-margin proof as the book's defining design feature, their most damaged page becomes the commission's emotional signature.",
       "translated": "When the curator chooses the doubled-margin proof as the book's defining design feature, their most damaged page becomes the commission's emotional signature."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
-      "chunkIndex": 5,
-      "source": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics..",
-      "translated": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.."
+      "chunkIndex": 4,
+      "source": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.",
+      "translated": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics."
     },
     {
       "path": "chapter.chapter-003.paragraph.4",
@@ -372,8 +354,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.4",
       "chunkIndex": 3,
-      "source": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence..",
-      "translated": "Leora poate pastra parteneriatul intr-o ambiguitate sigura sau poate admite ca aceasta comanda nu poate supravietui unui nou sezon de tacere.."
+      "source": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.",
+      "translated": "Leora poate pastra parteneriatul intr-o ambiguitate sigura sau poate admite ca aceasta comanda nu poate supravietui unui nou sezon de tacere."
     },
     {
       "path": "chapter.chapter-003.paragraph.4",
@@ -384,8 +366,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.4",
       "chunkIndex": 5,
-      "source": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics..",
-      "translated": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.."
+      "source": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.",
+      "translated": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics."
     },
     {
       "path": "chapter.chapter-003.paragraph.5",
@@ -420,20 +402,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 1,
-      "source": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition..",
-      "translated": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.."
+      "source": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.",
+      "translated": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 2,
-      "source": "Talia sees the page only after the first public copy is opened in front of the crowd..",
-      "translated": "Talia sees the page only after the first public copy is opened in front of the crowd.."
+      "source": "Talia sees the page only after the first public copy is opened in front of the crowd.",
+      "translated": "Talia sees the page only after the first public copy is opened in front of the crowd."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 3,
-      "source": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability..",
-      "translated": "Leora mai poate prezenta gestul drept branding sau il poate lasa sa stea ca un act public de vulnerabilitate asumata.."
+      "source": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.",
+      "translated": "Leora mai poate prezenta gestul drept branding sau il poate lasa sa stea ca un act public de vulnerabilitate asumata."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
@@ -444,38 +426,32 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 5,
-      "source": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view..",
-      "translated": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view.."
+      "source": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view.",
+      "translated": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 1,
-      "source": "Later, talia sees the page only after the first public copy is opened in front of the crowd..",
-      "translated": "Later, talia sees the page only after the first public copy is opened in front of the crowd.."
+      "source": "Later, talia sees the page only after the first public copy is opened in front of the crowd.",
+      "translated": "Later, talia sees the page only after the first public copy is opened in front of the crowd."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 2,
-      "source": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability..",
-      "translated": "Leora mai poate prezenta gestul drept branding sau il poate lasa sa stea ca un act public de vulnerabilitate asumata.."
+      "source": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.",
+      "translated": "Leora mai poate prezenta gestul drept branding sau il poate lasa sa stea ca un act public de vulnerabilitate asumata."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 3,
-      "source": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability..",
-      "translated": "Leora mai poate prezenta gestul drept branding sau il poate lasa sa stea ca un act public de vulnerabilitate asumata.."
-    },
-    {
-      "path": "chapter.chapter-004.paragraph.3",
-      "chunkIndex": 4,
       "source": "When the dedication names the year Talia left and the future Leora still wants, the launch becomes confession as much as success.",
       "translated": "When the dedication names the year Talia left and the future Leora still wants, the launch becomes confession as much as success."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
-      "chunkIndex": 5,
-      "source": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view..",
-      "translated": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view.."
+      "chunkIndex": 4,
+      "source": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view.",
+      "translated": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
@@ -492,8 +468,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 3,
-      "source": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability..",
-      "translated": "Leora mai poate prezenta gestul drept branding sau il poate lasa sa stea ca un act public de vulnerabilitate asumata.."
+      "source": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.",
+      "translated": "Leora mai poate prezenta gestul drept branding sau il poate lasa sa stea ca un act public de vulnerabilitate asumata."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
@@ -504,8 +480,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 5,
-      "source": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view..",
-      "translated": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view.."
+      "source": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view.",
+      "translated": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view."
     },
     {
       "path": "chapter.chapter-004.paragraph.5",

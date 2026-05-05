@@ -7,7 +7,7 @@ Sequential chunk translation trace for the translated reader edition.
   "bookId": "qa-drama-silence",
   "sourceLanguage": "en",
   "targetLanguage": "ro",
-  "chunkCount": 85,
+  "chunkCount": 81,
   "chunks": [
     {
       "path": "front.subtitle",
@@ -60,20 +60,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 1,
-      "source": "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book..",
-      "translated": "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book.."
+      "source": "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book.",
+      "translated": "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 2,
-      "source": "The message points toward one erased witness statement and a ledger that should not exist anymore..",
-      "translated": "The message points toward one erased witness statement and a ledger that should not exist anymore.."
+      "source": "The message points toward one erased witness statement and a ledger that should not exist anymore.",
+      "translated": "The message points toward one erased witness statement and a ledger that should not exist anymore."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 3,
-      "source": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall..",
-      "translated": "Mira are nevoie imediat de ajutorul Verei, dar Vera refuza sa se miste fara dovezi care sa reziste in fata primariei.."
+      "source": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall.",
+      "translated": "Mira are nevoie imediat de ajutorul Verei, dar Vera refuza sa se miste fara dovezi care sa reziste in fata primariei."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
@@ -84,38 +84,32 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 5,
-      "source": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys..",
-      "translated": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys.."
+      "source": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys.",
+      "translated": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 1,
-      "source": "Later, the message points toward one erased witness statement and a ledger that should not exist anymore..",
-      "translated": "Later, the message points toward one erased witness statement and a ledger that should not exist anymore.."
+      "source": "Later, the message points toward one erased witness statement and a ledger that should not exist anymore.",
+      "translated": "Later, the message points toward one erased witness statement and a ledger that should not exist anymore."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 2,
-      "source": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall..",
-      "translated": "Mira are nevoie imediat de ajutorul Verei, dar Vera refuza sa se miste fara dovezi care sa reziste in fata primariei.."
+      "source": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall.",
+      "translated": "Mira are nevoie imediat de ajutorul Verei, dar Vera refuza sa se miste fara dovezi care sa reziste in fata primariei."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 3,
-      "source": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall..",
-      "translated": "Mira are nevoie imediat de ajutorul Verei, dar Vera refuza sa se miste fara dovezi care sa reziste in fata primariei.."
-    },
-    {
-      "path": "chapter.chapter-001.paragraph.3",
-      "chunkIndex": 4,
       "source": "When the recording ends with Mira's brother naming Corin before the tape cuts off, the memorial becomes evidence instead of closure.",
       "translated": "When the recording ends with Mira's brother naming Corin before the tape cuts off, the memorial becomes evidence instead of closure."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
-      "chunkIndex": 5,
-      "source": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys..",
-      "translated": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys.."
+      "chunkIndex": 4,
+      "source": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys.",
+      "translated": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys."
     },
     {
       "path": "chapter.chapter-001.paragraph.4",
@@ -132,8 +126,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 3,
-      "source": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall..",
-      "translated": "Mira are nevoie imediat de ajutorul Verei, dar Vera refuza sa se miste fara dovezi care sa reziste in fata primariei.."
+      "source": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall.",
+      "translated": "Mira are nevoie imediat de ajutorul Verei, dar Vera refuza sa se miste fara dovezi care sa reziste in fata primariei."
     },
     {
       "path": "chapter.chapter-001.paragraph.4",
@@ -144,8 +138,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 5,
-      "source": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys..",
-      "translated": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys.."
+      "source": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys.",
+      "translated": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys."
     },
     {
       "path": "chapter.chapter-001.paragraph.5",
@@ -180,20 +174,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 1,
-      "source": "Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living..",
-      "translated": "Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.."
+      "source": "Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.",
+      "translated": "Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 2,
-      "source": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion..",
-      "translated": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.."
+      "source": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.",
+      "translated": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 3,
-      "source": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again..",
-      "translated": "Vera vrea sa copieze registrul in tacere, in timp ce Mira vrea sa-l confrunte pe Corin inainte ca el sa poata recoda din nou fisierele.."
+      "source": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
+      "translated": "Vera vrea sa copieze registrul in tacere, in timp ce Mira vrea sa-l confrunte pe Corin inainte ca el sa poata recoda din nou fisierele."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
@@ -204,38 +198,32 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 5,
-      "source": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass..",
-      "translated": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.."
+      "source": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.",
+      "translated": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 1,
-      "source": "Later, corin arrives with coffee, condolences, and a rewritten story about emergency discretion..",
-      "translated": "Later, corin arrives with coffee, condolences, and a rewritten story about emergency discretion.."
+      "source": "Later, corin arrives with coffee, condolences, and a rewritten story about emergency discretion.",
+      "translated": "Later, corin arrives with coffee, condolences, and a rewritten story about emergency discretion."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 2,
-      "source": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again..",
-      "translated": "Vera vrea sa copieze registrul in tacere, in timp ce Mira vrea sa-l confrunte pe Corin inainte ca el sa poata recoda din nou fisierele.."
+      "source": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
+      "translated": "Vera vrea sa copieze registrul in tacere, in timp ce Mira vrea sa-l confrunte pe Corin inainte ca el sa poata recoda din nou fisierele."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 3,
-      "source": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again..",
-      "translated": "Vera vrea sa copieze registrul in tacere, in timp ce Mira vrea sa-l confrunte pe Corin inainte ca el sa poata recoda din nou fisierele.."
-    },
-    {
-      "path": "chapter.chapter-002.paragraph.3",
-      "chunkIndex": 4,
       "source": "When one photographed page carries Mira's mother's signature beneath a false evacuation report, the investigation now threatens the family as much as the institution.",
       "translated": "When one photographed page carries Mira's mother's signature beneath a false evacuation report, the investigation now threatens the family as much as the institution."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
-      "chunkIndex": 5,
-      "source": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass..",
-      "translated": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.."
+      "chunkIndex": 4,
+      "source": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.",
+      "translated": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass."
     },
     {
       "path": "chapter.chapter-002.paragraph.4",
@@ -252,8 +240,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.4",
       "chunkIndex": 3,
-      "source": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again..",
-      "translated": "Vera vrea sa copieze registrul in tacere, in timp ce Mira vrea sa-l confrunte pe Corin inainte ca el sa poata recoda din nou fisierele.."
+      "source": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
+      "translated": "Vera vrea sa copieze registrul in tacere, in timp ce Mira vrea sa-l confrunte pe Corin inainte ca el sa poata recoda din nou fisierele."
     },
     {
       "path": "chapter.chapter-002.paragraph.4",
@@ -264,8 +252,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.4",
       "chunkIndex": 5,
-      "source": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass..",
-      "translated": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.."
+      "source": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.",
+      "translated": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass."
     },
     {
       "path": "chapter.chapter-002.paragraph.5",
@@ -300,20 +288,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 1,
-      "source": "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration..",
-      "translated": "In the church crypt, vera reveals that Mira's brother planned to testify during the annual flood commemoration.."
+      "source": "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration.",
+      "translated": "In the church crypt, vera reveals that Mira's brother planned to testify during the annual flood commemoration."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 2,
-      "source": "The plaques show corrected dates that match the forged ledger rather than the actual deaths..",
-      "translated": "The plaques show corrected dates that match the forged ledger rather than the actual deaths.."
+      "source": "The plaques show corrected dates that match the forged ledger rather than the actual deaths.",
+      "translated": "The plaques show corrected dates that match the forged ledger rather than the actual deaths."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 3,
-      "source": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely..",
-      "translated": "Mira intelege ca expunerea publica ii va sterge pensia de care depinde mama ei, in timp ce tacerea il va sterge complet pe fratele ei.."
+      "source": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
+      "translated": "Mira intelege ca expunerea publica ii va sterge pensia de care depinde mama ei, in timp ce tacerea il va sterge complet pe fratele ei."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
@@ -324,38 +312,32 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 5,
-      "source": "She asks Vera to stand beside her publicly, even if it means both families lose protection..",
-      "translated": "She asks Vera to stand beside her publicly, even if it means both families lose protection.."
+      "source": "She asks Vera to stand beside her publicly, even if it means both families lose protection.",
+      "translated": "She asks Vera to stand beside her publicly, even if it means both families lose protection."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 1,
-      "source": "Later, the plaques show corrected dates that match the forged ledger rather than the actual deaths..",
-      "translated": "Later, the plaques show corrected dates that match the forged ledger rather than the actual deaths.."
+      "source": "Later, the plaques show corrected dates that match the forged ledger rather than the actual deaths.",
+      "translated": "Later, the plaques show corrected dates that match the forged ledger rather than the actual deaths."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 2,
-      "source": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely..",
-      "translated": "Mira intelege ca expunerea publica ii va sterge pensia de care depinde mama ei, in timp ce tacerea il va sterge complet pe fratele ei.."
+      "source": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
+      "translated": "Mira intelege ca expunerea publica ii va sterge pensia de care depinde mama ei, in timp ce tacerea il va sterge complet pe fratele ei."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 3,
-      "source": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely..",
-      "translated": "Mira intelege ca expunerea publica ii va sterge pensia de care depinde mama ei, in timp ce tacerea il va sterge complet pe fratele ei.."
-    },
-    {
-      "path": "chapter.chapter-003.paragraph.3",
-      "chunkIndex": 4,
       "source": "When the memorial plaque for Mira's brother lists a death date that predates the night he called her, forgery turns from suspicion into undeniable chronology.",
       "translated": "When the memorial plaque for Mira's brother lists a death date that predates the night he called her, forgery turns from suspicion into undeniable chronology."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
-      "chunkIndex": 5,
-      "source": "She asks Vera to stand beside her publicly, even if it means both families lose protection..",
-      "translated": "She asks Vera to stand beside her publicly, even if it means both families lose protection.."
+      "chunkIndex": 4,
+      "source": "She asks Vera to stand beside her publicly, even if it means both families lose protection.",
+      "translated": "She asks Vera to stand beside her publicly, even if it means both families lose protection."
     },
     {
       "path": "chapter.chapter-003.paragraph.4",
@@ -372,8 +354,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.4",
       "chunkIndex": 3,
-      "source": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely..",
-      "translated": "Mira intelege ca expunerea publica ii va sterge pensia de care depinde mama ei, in timp ce tacerea il va sterge complet pe fratele ei.."
+      "source": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
+      "translated": "Mira intelege ca expunerea publica ii va sterge pensia de care depinde mama ei, in timp ce tacerea il va sterge complet pe fratele ei."
     },
     {
       "path": "chapter.chapter-003.paragraph.4",
@@ -384,8 +366,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.4",
       "chunkIndex": 5,
-      "source": "She asks Vera to stand beside her publicly, even if it means both families lose protection..",
-      "translated": "She asks Vera to stand beside her publicly, even if it means both families lose protection.."
+      "source": "She asks Vera to stand beside her publicly, even if it means both families lose protection.",
+      "translated": "She asks Vera to stand beside her publicly, even if it means both families lose protection."
     },
     {
       "path": "chapter.chapter-003.paragraph.5",
@@ -420,20 +402,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 1,
-      "source": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages..",
-      "translated": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.."
+      "source": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.",
+      "translated": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 2,
-      "source": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory..",
-      "translated": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.."
+      "source": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+      "translated": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 3,
-      "source": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town..",
-      "translated": "Mira trebuie sa hotarasca daca se opreste inainte ca mama ei sa fie implicata sau daca isi duce marturia pana la capat in vazul intregului oras.."
+      "source": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+      "translated": "Mira trebuie sa hotarasca daca se opreste inainte ca mama ei sa fie implicata sau daca isi duce marturia pana la capat in vazul intregului oras."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
@@ -444,38 +426,32 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 5,
-      "source": "She finishes reading and lets the silence after the final name condemn the room..",
-      "translated": "She finishes reading and lets the silence after the final name condemn the room.."
+      "source": "She finishes reading and lets the silence after the final name condemn the room.",
+      "translated": "She finishes reading and lets the silence after the final name condemn the room."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 1,
-      "source": "Later, corin orders the microphone cut, but vera starts naming the missing witnesses from memory..",
-      "translated": "Later, corin orders the microphone cut, but vera starts naming the missing witnesses from memory.."
+      "source": "Later, corin orders the microphone cut, but vera starts naming the missing witnesses from memory.",
+      "translated": "Later, corin orders the microphone cut, but vera starts naming the missing witnesses from memory."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 2,
-      "source": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town..",
-      "translated": "Mira trebuie sa hotarasca daca se opreste inainte ca mama ei sa fie implicata sau daca isi duce marturia pana la capat in vazul intregului oras.."
+      "source": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+      "translated": "Mira trebuie sa hotarasca daca se opreste inainte ca mama ei sa fie implicata sau daca isi duce marturia pana la capat in vazul intregului oras."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 3,
-      "source": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town..",
-      "translated": "Mira trebuie sa hotarasca daca se opreste inainte ca mama ei sa fie implicata sau daca isi duce marturia pana la capat in vazul intregului oras.."
-    },
-    {
-      "path": "chapter.chapter-004.paragraph.3",
-      "chunkIndex": 4,
       "source": "When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town.",
       "translated": "When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
-      "chunkIndex": 5,
-      "source": "She finishes reading and lets the silence after the final name condemn the room..",
-      "translated": "She finishes reading and lets the silence after the final name condemn the room.."
+      "chunkIndex": 4,
+      "source": "She finishes reading and lets the silence after the final name condemn the room.",
+      "translated": "She finishes reading and lets the silence after the final name condemn the room."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
@@ -492,8 +468,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 3,
-      "source": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town..",
-      "translated": "Mira trebuie sa hotarasca daca se opreste inainte ca mama ei sa fie implicata sau daca isi duce marturia pana la capat in vazul intregului oras.."
+      "source": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+      "translated": "Mira trebuie sa hotarasca daca se opreste inainte ca mama ei sa fie implicata sau daca isi duce marturia pana la capat in vazul intregului oras."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
@@ -504,8 +480,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 5,
-      "source": "She finishes reading and lets the silence after the final name condemn the room..",
-      "translated": "She finishes reading and lets the silence after the final name condemn the room.."
+      "source": "She finishes reading and lets the silence after the final name condemn the room.",
+      "translated": "She finishes reading and lets the silence after the final name condemn the room."
     },
     {
       "path": "chapter.chapter-004.paragraph.5",
