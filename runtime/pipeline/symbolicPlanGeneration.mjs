@@ -1,4 +1,4 @@
-import { DOMAIN_VALUES, COMMAND_CONFIGS, isAllowedByProfile } from '../config/domains.mjs';
+import { COMMAND_CONFIGS } from '../config/domains.mjs';
 import { createBlock, serializeBlocks } from '../core/cnl.mjs';
 import { createSeededRandom } from '../core/random.mjs';
 import { titleCase } from '../core/text.mjs';
@@ -62,12 +62,11 @@ export async function generateMacroSeed(options) {
 
   const protagonistArc = c.character.protagonistArc;
   const counterpartRole = c.character.counterpartRole;
-  const protagonistLie = random.pick(charConfig.liePatterns);
-  const protagonistTruth = random.pick(charConfig.truthPatterns);
-  const protagonistWound = random.pick(charConfig.woundPatterns);
-  const protagonistPressure = random.pick(charConfig.pressurePatterns);
+  const protagonistLie = pickProfileConfiguredValue(random, charConfig, 'liePatterns', options.baselineProfile, 'allowedLiePatterns');
+  const protagonistTruth = pickProfileConfiguredValue(random, charConfig, 'truthPatterns', options.baselineProfile, 'allowedTruthPatterns');
+  const protagonistWound = pickProfileConfiguredValue(random, charConfig, 'woundPatterns', options.baselineProfile, 'allowedWoundPatterns');
+  const protagonistPressure = pickProfileConfiguredValue(random, charConfig, 'pressurePatterns', options.baselineProfile, 'allowedPressurePatterns');
   const emotionalTrack = random.pick(blueprintConfig.profileConstraints[options.baselineProfile]?.allowedEmotionalTracks ?? [['curiosity', 'tension', 'surprise', 'shock', 'bittersweet-release']]);
-  const arcAxis = c.arc.arcAxis;
 
   const bookBlocks = [
     createBlock('central-idea', 'define', [
@@ -140,7 +139,7 @@ export async function generateMacroSeed(options) {
       { name: 'climax', value: '{{dilemma:central}}' },
       { name: 'resolution', value: `the core conflict resolves with lasting cost and a redefined relation to ${organizationPlaceholder}` },
       { name: 'emotional-layer', value: emotionalTrack.join(' -> ') },
-      { name: 'stakes-ladder', value: random.pick(blueprintConfig.stakesLadderPatterns.filter((p) => blueprintConfig.profileConstraints[options.baselineProfile]?.allowedStakesLadders?.includes(p)) || blueprintConfig.stakesLadderPatterns) }
+      { name: 'stakes-ladder', value: pickProfileConfiguredValue(random, blueprintConfig, 'stakesLadderPatterns', options.baselineProfile, 'allowedStakesLadders') }
     ]),
     createBlock('arc-book-main', 'map', [
       { name: 'arc-axis', value: `${options.themeTopic} under ${options.themeShape} pressure` },
@@ -159,14 +158,14 @@ export async function generateMacroSeed(options) {
     ]),
     createBlock('arc-relationship-main', 'map', [
       { name: 'pair', value: `${protagonistPlaceholder}, ${counterpartPlaceholder}` },
-      { name: 'entry-dynamic', value: random.pick(arcConfig.relationshipOpeningPatterns) },
+      { name: 'entry-dynamic', value: pickProfileConfiguredValue(random, arcConfig, 'relationshipOpeningPatterns', options.baselineProfile, 'preferredRelationshipPattern') },
       { name: 'stress-pattern', value: random.pick(arcConfig.relationshipStressPatterns) },
       { name: 'repair-condition', value: random.pick(arcConfig.relationshipRepairPatterns) },
       { name: 'exit-dynamic', value: random.pick(arcConfig.relationshipExitPatterns) }
     ]),
     createBlock('motif-primary', 'define', [
       { name: 'motif', value: `{{motif-object:${options.baselineProfile}}}` },
-      { name: 'symbolic-function', value: random.pick(arcConfig.motifFunctions.filter((f) => arcConfig.profileConstraints[options.baselineProfile]?.allowedMotifFunctions?.includes(f)) || arcConfig.motifFunctions) },
+      { name: 'symbolic-function', value: pickProfileConfiguredValue(random, arcConfig, 'motifFunctions', options.baselineProfile, 'allowedMotifFunctions') },
       { name: 'recurrence-rule', value: 'the motif should recur across opening, midpoint, and late consequence scenes with altered meaning' }
     ])
   ];
@@ -224,8 +223,8 @@ export async function generateMacroSeed(options) {
 
   const worldBlocks = [
     createBlock('plot-element-core-object', 'define', [
-      { name: 'category', value: random.pick(COMMAND_CONFIGS.plot.categories.filter((cat) => COMMAND_CONFIGS.plot.profileConstraints[options.baselineProfile]?.allowedCategories?.includes(cat))) },
-      { name: 'subtype', value: random.pick(COMMAND_CONFIGS.plot.subtypes.filter((sub) => COMMAND_CONFIGS.plot.profileConstraints[options.baselineProfile]?.allowedSubtypes?.includes(sub))) },
+      { name: 'category', value: pickProfileConfiguredValue(random, COMMAND_CONFIGS.plot, 'categories', options.baselineProfile, 'allowedCategories') },
+      { name: 'subtype', value: pickProfileConfiguredValue(random, COMMAND_CONFIGS.plot, 'subtypes', options.baselineProfile, 'allowedSubtypes') },
       { name: 'function', value: 'revelation' },
       { name: 'stakes', value: '{{stakes:plot-element}}' },
       { name: 'holders', value: `${organizationPlaceholder}, ${pressurePlaceholder}` },
@@ -233,7 +232,7 @@ export async function generateMacroSeed(options) {
       { name: 'payoff-zone', value: 'midpoint and final confrontation' }
     ]),
     createBlock('plot-device-pressure-shift', 'define', [
-      { name: 'device-type', value: 'foreshadowing' },
+      { name: 'device-type', value: pickProfileConfiguredValue(random, COMMAND_CONFIGS.plot, 'deviceTypes', options.baselineProfile, 'allowedDeviceTypes') },
       { name: 'purpose', value: '{{purpose:plot-device}}' },
       { name: 'setup-zone', value: 'opening and first chapter' },
       { name: 'payoff-zone', value: 'midpoint' },
@@ -260,13 +259,14 @@ export async function generateMacroSeed(options) {
       { name: 'rule-type', value: secondaryRuleType },
       { name: 'rule', value: '{{rule:world-secondary}}' },
       { name: 'conflict-transform', value: '{{conflict-transform:world-secondary}}' },
-      { name: 'reveal-mode', value: 'partial-explicitness' },
+      { name: 'reveal-mode', value: random.pick(worldConfig.visibilityModes) },
       { name: 'narrative-duty', value: 'the rule should surface through scene friction, not abstract exposition' }
     ]),
     createBlock('world-reveal-strategy', 'define', [
       { name: 'explicit-zone', value: 'opening pressure and late midpoint' },
       { name: 'implicit-zone', value: 'dialogue beats, location detail, and consequence scenes' },
       { name: 'reader-inference-goal', value: 'the reader should infer the larger system from local constraints before the book names the whole mechanism' },
+      { name: 'reveal-strategy', value: random.pick(worldConfig.revealStrategies) },
       { name: 'rule-to-conflict', value: '{{rule-to-conflict:world}}' }
     ]),
     createBlock('location-primary', 'define', [
@@ -347,6 +347,8 @@ export async function generateMicroSeeds(options) {
   const expressionConfig = COMMAND_CONFIGS.expression;
   const contentConfig = COMMAND_CONFIGS.content;
   const rhythmConfig = COMMAND_CONFIGS.rhythm;
+  const sceneConfig = COMMAND_CONFIGS.scene;
+  const worldConfig = COMMAND_CONFIGS.worldbuilding;
 
   const expressionPrefs = c.expression;
   const rhythmPrefs = c.rhythm;
@@ -359,7 +361,7 @@ export async function generateMicroSeeds(options) {
 
     blocks.push(createBlock(`sequence-${chapterNumber}-core`, 'define', [
       { name: 'sequence-type', value: options.sequenceType },
-      { name: 'link-logic', value: 'causal' },
+      { name: 'link-logic', value: random.pick(c.sequence.linkLogics) },
       { name: 'chapter', value: chapterId },
       { name: 'objective', value: `{{sequence-objective:${chapterRole}}}` },
       { name: 'scene-chain', value: Array.from({ length: sceneCount }, (_, index) => `scene-${chapterNumber}-${String(index + 1).padStart(2, '0')}`).join(', ') },
@@ -384,7 +386,7 @@ export async function generateMicroSeeds(options) {
       { name: 'visible-symptom', value: `{{visible-symptom:${chapterRole}}}` },
       { name: 'action-limitation', value: `{{action-limitation:${chapterRole}}}` },
       { name: 'conflict-output', value: `{{conflict-output-rule:${chapterRole}}}` },
-      { name: 'reveal-pattern', value: 'show consequence first, explain the systemic cause later' }
+      { name: 'reveal-pattern', value: random.pick(worldConfig.revealStrategies) }
     ]));
 
     blocks.push(createBlock(`arc-${chapterNumber}-protagonist`, 'map', [
@@ -398,7 +400,7 @@ export async function generateMicroSeeds(options) {
     blocks.push(createBlock(`arc-${chapterNumber}-relationship`, 'map', [
       { name: 'chapter', value: chapterId },
       { name: 'pair', value: '{{character:protagonist-001}}, {{character:counterpart-001}}' },
-      { name: 'entry-dynamic', value: random.pick(COMMAND_CONFIGS.arc.relationshipOpeningPatterns) },
+      { name: 'entry-dynamic', value: pickProfileConfiguredValue(random, COMMAND_CONFIGS.arc, 'relationshipOpeningPatterns', options.baselineProfile, 'preferredRelationshipPattern') },
       { name: 'stress-line', value: `{{relationship-stress:${chapterRole}}}` },
       { name: 'exit-dynamic', value: random.pick(COMMAND_CONFIGS.arc.relationshipExitPatterns) }
     ]));
@@ -415,7 +417,7 @@ export async function generateMicroSeeds(options) {
       const isFinalScene = sceneIndex === sceneCount - 1;
       blocks.push(createBlock(sceneId, 'define', [
         { name: 'chapter', value: chapterId },
-        { name: 'showing-mode', value: sceneIndex === 0 ? expressionPrefs.descriptionType : 'mixed' },
+        { name: 'showing-mode', value: sceneIndex === 0 ? pickProfileConfiguredValue(random, sceneConfig, 'showingModes', options.baselineProfile, 'preferredShowingMode') : random.pick(sceneConfig.showingModes) },
         { name: 'focalization', value: options.focalizationMode },
         { name: 'time-space', value: '{{location:primary-001}}' },
         { name: 'introduction', value: `{{scene-introduction:${chapterRole}-${sceneIndex}}}` },
@@ -428,7 +430,7 @@ export async function generateMicroSeeds(options) {
       ]));
 
       blocks.push(createBlock(`action-${chapterNumber}-${sceneIndex + 1}`, 'place', [
-        { name: 'action-mode', value: random.pick(contentConfig.profileConstraints[options.baselineProfile]?.allowedActionModes ?? contentConfig.actionModes) },
+        { name: 'action-mode', value: pickProfileConfiguredValue(random, contentConfig, 'actionModes', options.baselineProfile, 'allowedActionModes') },
         { name: 'scene', value: sceneId },
         { name: 'actor', value: '{{character:protagonist-001}}' },
         { name: 'goal', value: `{{action-goal:${chapterRole}-${sceneIndex}}}` },
@@ -438,7 +440,7 @@ export async function generateMicroSeeds(options) {
 
       blocks.push(createBlock(`conflict-${chapterNumber}-${sceneIndex + 1}`, 'place', [
         { name: 'scope', value: sceneId },
-        { name: 'type', value: chapterIndex === 0 ? 'mixed' : random.pick(contentConfig.profileConstraints[options.baselineProfile]?.allowedConflictTypes ?? contentConfig.conflictTypes) },
+        { name: 'type', value: pickProfileConfiguredValue(random, contentConfig, 'conflictTypes', options.baselineProfile, 'allowedConflictTypes') },
         { name: 'forces', value: '{{character:protagonist-001}} versus {{character:pressure-001}}' },
         { name: 'stakes', value: `{{conflict-stakes:${c.content.stakePattern}}}` },
         { name: 'escalation', value: `{{conflict-escalation:${chapterRole}}}` }
@@ -446,7 +448,9 @@ export async function generateMicroSeeds(options) {
 
       blocks.push(createBlock(`event-${chapterNumber}-${sceneIndex + 1}`, 'trigger', [
         { name: 'scope', value: sceneId },
-        { name: 'event-type', value: isFinalScene ? 'revelation' : random.pick(contentConfig.profileConstraints[options.baselineProfile]?.allowedEventTypes ?? contentConfig.eventTypes) },
+        { name: 'event-type', value: isFinalScene
+          ? pickWeightedValue(random, ['revelation'], configuredPreferencePool(contentConfig, 'eventTypes', options.baselineProfile, 'allowedEventTypes'))
+          : pickProfileConfiguredValue(random, contentConfig, 'eventTypes', options.baselineProfile, 'allowedEventTypes') },
         { name: 'trigger', value: `{{event-trigger:${chapterRole}-${isFinalScene ? 'final' : 'mid'}}}` },
         { name: 'impact', value: `{{event-impact:${chapterRole}}}` },
         { name: 'follow-through', value: `{{event-follow-through:${chapterRole}-${isFinalScene ? 'final' : 'mid'}}}` }
@@ -470,7 +474,7 @@ export async function generateMicroSeeds(options) {
       { name: 'description-type', value: expressionPrefs.descriptionType },
       { name: 'focus', value: `{{description-focus:${options.baselineProfile}}}` },
       { name: 'function', value: expressionPrefs.descriptionFunction },
-      { name: 'rhythm-effect', value: 'frame' }
+      { name: 'rhythm-effect', value: random.pick(expressionConfig.rhythmEffects) }
     ]));
 
     blocks.push(createBlock(`dialogue-${chapterNumber}-core`, 'apply', [
@@ -493,7 +497,9 @@ export async function generateMicroSeeds(options) {
       { name: 'character', value: '{{character:protagonist-001}}' },
       { name: 'function', value: expressionPrefs.monologueFunction },
       { name: 'trigger', value: `{{monologue-trigger:${chapterRole}}}` },
-      { name: 'texture', value: chapterIndex === options.chapterCount - 1 ? 'fragmented' : expressionPrefs.monologueTexture }
+      { name: 'texture', value: chapterIndex === options.chapterCount - 1
+        ? pickWeightedValue(random, ['fragmented'], expressionConfig.monologueTextures)
+        : expressionPrefs.monologueTexture }
     ]));
 
     blocks.push(createBlock(`suspense-${chapterNumber}-core`, 'build', [
@@ -523,7 +529,11 @@ export async function generateMicroSeeds(options) {
     if (chapterIndex < options.chapterCount - 1) {
       blocks.push(createBlock(`cliffhanger-${chapterNumber}-exit`, 'cut', [
         { name: 'scope', value: chapterId },
-        { name: 'cliffhanger-type', value: chapterIndex === options.chapterCount - 2 ? 'critical-decision' : 'interrupted-revelation' },
+        { name: 'cliffhanger-type', value: pickWeightedValue(
+          random,
+          [chapterIndex === options.chapterCount - 2 ? 'critical-decision' : 'interrupted-revelation'],
+          rhythmConfig.cliffhangerTypes
+        ) },
         { name: 'cut-moment', value: `{{cliffhanger-moment:${chapterRole}}}` },
         { name: 'continuation-pressure', value: `{{cliffhanger-continuation:${chapterRole}}}` }
       ]));
@@ -538,10 +548,14 @@ export async function generateMicroSeeds(options) {
 
 function buildChapterRoleSequence(chapterCount, profileId, chapterConfig) {
   const profileConstraint = chapterConfig.profileConstraints[profileId];
-  const roleSequence3 = profileConstraint?.roleSequence3 ?? ['setup', 'revelation', 'culmination'];
+  const roleSequence3 = profileConstraint?.allowedRoles3 ?? ['setup', 'revelation', 'culmination'];
 
   if (chapterCount <= 3) {
     return roleSequence3;
+  }
+
+  if (chapterCount === 4) {
+    return ['setup', 'escalation', roleSequence3[1] ?? 'revelation', roleSequence3[2] ?? 'culmination'];
   }
 
   const defaultPattern = ['setup', 'escalation', 'investigation', 'revelation', 'culmination'];
@@ -585,15 +599,14 @@ function resolvePauseFunction(profileId, role) {
 }
 
 function resolveAccelerationMode(profileId, role) {
-  const config = COMMAND_CONFIGS.expression;
-  const profilePrefs = COMMAND_CONFIGS.expression.profileConstraints[profileId];
+  const config = COMMAND_CONFIGS.rhythm;
+  const profilePrefs = COMMAND_CONFIGS.rhythm.profileConstraints[profileId];
   if (role === 'culmination') return 'pursuit-compression';
-  return profilePrefs?.accelerationMode ?? 'summary-burst';
+  return profilePrefs?.preferredAccelerationMode ?? 'summary-burst';
 }
 
 function dialogueTurnBlueprints(profileId, role, sceneIndex, random) {
   const intentTypes = COMMAND_CONFIGS.expression.dialogueIntentTypes;
-  const profilePrefs = COMMAND_CONFIGS.expression.profileConstraints[profileId];
   const intent1 = random.pick(intentTypes);
   const intent2 = random.pick(intentTypes);
 
@@ -605,6 +618,41 @@ function dialogueTurnBlueprints(profileId, role, sceneIndex, random) {
 
 function placeholder(entityType, stableId) {
   return `{{${entityType}:${stableId}}}`;
+}
+
+function pickProfileConfiguredValue(random, config, baseKey, profileId, preferenceKey) {
+  return random.pick(configuredPreferencePool(config, baseKey, profileId, preferenceKey));
+}
+
+function configuredPreferencePool(config, baseKey, profileId, preferenceKey) {
+  const baseValues = Array.isArray(config?.[baseKey]) ? config[baseKey] : [];
+  if (baseValues.length === 0) {
+    throw new Error(`Missing config values for ${baseKey}.`);
+  }
+
+  const preferred = config.profileConstraints?.[profileId]?.[preferenceKey];
+  return buildWeightedPool(preferred, baseValues);
+}
+
+function buildWeightedPool(preferred, baseValues) {
+  if (Array.isArray(preferred) && preferred.length > 0) {
+    const normalizedPreferred = preferred.filter((value) => baseValues.includes(value));
+    if (normalizedPreferred.length > 0) {
+      const extras = baseValues.filter((value) => !normalizedPreferred.includes(value));
+      return [...normalizedPreferred, ...normalizedPreferred, ...extras];
+    }
+  }
+
+  if (typeof preferred === 'string' && baseValues.includes(preferred)) {
+    const extras = baseValues.filter((value) => value !== preferred);
+    return [preferred, preferred, ...extras];
+  }
+
+  return [...baseValues];
+}
+
+function pickWeightedValue(random, preferred, baseValues) {
+  return random.pick(buildWeightedPool(preferred, baseValues));
 }
 
 async function writeStageFile(options, stage, baseName, label, content) {
