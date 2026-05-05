@@ -1,0 +1,14 @@
+{
+  "characters": {
+    "givenNames": ["Arin", "Mira", "Darian", "Liora", "Soren", "Talia", "Niko", "Selene", "Ilan", "Vera", "Tomas", "Soriel", "Nadia", "Elian", "Maelis", "Cassia", "Riven", "Asha", "Corin", "Leora"],
+    "familyNames": ["Vale", "Rowan", "Mercer", "Voss", "Kestrel", "Navarro", "Quinn", "Solari", "Maren", "Aster", "Vane", "Orin", "Kepler", "Dane", "Torr", "Ivers", "Bell", "Sable", "Thorne", "Arden"]
+  },
+  "organizations": {
+    "prefixes": ["Civic", "Central", "Quiet", "North", "Independent", "Continuity", "Winter", "River", "Cinder", "Signal"],
+    "nouns": ["Office", "Tribunal", "Archive", "Council", "Choir", "Guild", "Board", "Court", "Abbey", "Registry"]
+  },
+  "locations": {
+    "prefixes": ["Ash", "River", "North", "Black", "Winter", "Signal", "Harbor", "Cinder", "Glass", "Civic"],
+    "nouns": ["Vale", "Promenade", "Annex", "Observatory", "Studio", "Garden", "Corridor", "Archive", "Road", "Station"]
+  }
+}
