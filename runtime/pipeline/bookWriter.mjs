@@ -1,5 +1,5 @@
 import { blockToObject, replaceReferences, buildReferenceReplacements, normalizeReferenceValue } from '../core/cnl.mjs';
-import { ensureWorkspace, listLatestStageArtifacts, readText, registerStageRun } from '../core/workspace.mjs';
+import { ensureWorkspace, listLatestStageArtifacts, readStructuredMarkdown, readText, registerStageRun } from '../core/workspace.mjs';
 import { readLatestBlocksByBase } from './loaders.mjs';
 import { normalizePipelineOptions } from './options.mjs';
 import { renderBookHtml, renderPlainManuscript } from './editionRenderer.mjs';
