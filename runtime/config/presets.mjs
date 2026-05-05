@@ -1,7 +1,7 @@
 import { createRequire } from 'node:module';
 import { createSeededRandom } from '../core/random.mjs';
 import { titleCase } from '../core/text.mjs';
-import { DOMAIN_VALUES, COMMAND_CONFIGS, isAllowedByProfile } from './domains.mjs';
+import { DOMAIN_VALUES, COMMAND_CONFIGS } from './domains.mjs';
 
 const require = createRequire(import.meta.url);
 
@@ -29,7 +29,7 @@ export function getProfile(profileId) {
 export function materializeProfile(profileId, { seed, brief, title }) {
   const profile = getProfile(profileId);
   const random = createSeededRandom(`${seed}:profile`);
-  const constraints = profile.constraints;
+  const constraints = buildSoftProfileConstraints(profile.constraints);
 
   return {
     id: profileId,
@@ -112,4 +112,71 @@ function pickNullable(random, value) {
     return choice === undefined ? null : choice;
   }
   return value;
+}
+
+function buildSoftProfileConstraints(rawConstraints) {
+  return {
+    ...structuredClone(rawConstraints),
+    centralIdea: {
+      ...rawConstraints.centralIdea,
+      hookPatterns: buildSoftPreferencePool(rawConstraints.centralIdea.hookPatterns, COMMAND_CONFIGS['central-idea'].hookPatterns),
+      tensionSources: buildSoftPreferencePool(rawConstraints.centralIdea.tensionSources, COMMAND_CONFIGS['central-idea'].tensionSources)
+    },
+    theme: {
+      ...rawConstraints.theme,
+      topics: buildSoftPreferencePool(rawConstraints.theme.topics, COMMAND_CONFIGS.theme.topics),
+      moralShapes: buildSoftPreferencePool(rawConstraints.theme.moralShapes, COMMAND_CONFIGS.theme.moralShapes)
+    },
+    wisdom: {
+      ...rawConstraints.wisdom,
+      perspectiveModes: buildSoftPreferencePool(rawConstraints.wisdom.perspectiveModes, COMMAND_CONFIGS.wisdom.perspectiveModes),
+      opennessModes: buildSoftPreferencePool(rawConstraints.wisdom.opennessModes, COMMAND_CONFIGS.wisdom.opennessModes)
+    },
+    structure: {
+      ...rawConstraints.structure,
+      macroForms: buildSoftPreferencePool(rawConstraints.structure.macroForms, COMMAND_CONFIGS.structure.macroForms),
+      informationOrders: buildSoftPreferencePool(rawConstraints.structure.informationOrders, COMMAND_CONFIGS.structure.informationOrders),
+      causalDensities: buildSoftPreferencePool(rawConstraints.structure.causalDensities, COMMAND_CONFIGS.structure.causalDensities)
+    },
+    narrativeModel: {
+      ...rawConstraints.narrativeModel,
+      modelNames: buildSoftPreferencePool(rawConstraints.narrativeModel.modelNames, COMMAND_CONFIGS['narrative-model'].modelNames),
+      adaptationStrengths: buildSoftPreferencePool(rawConstraints.narrativeModel.adaptationStrengths, COMMAND_CONFIGS['narrative-model'].adaptationStrengths),
+      corePatterns: buildSoftPreferencePool(rawConstraints.narrativeModel.corePatterns, COMMAND_CONFIGS['narrative-model'].corePatterns)
+    },
+    character: {
+      ...rawConstraints.character,
+      conflictModes: buildSoftPreferencePool(rawConstraints.character.conflictModes, COMMAND_CONFIGS.character.conflictModes),
+      relationshipTypes: buildSoftPreferencePool(rawConstraints.character.relationshipTypes, COMMAND_CONFIGS.character.relationshipTypes)
+    },
+    worldbuilding: {
+      ...rawConstraints.worldbuilding,
+      domains: buildSoftPreferencePool(rawConstraints.worldbuilding.domains, COMMAND_CONFIGS.worldbuilding.domains),
+      primaryRuleTypes: buildSoftPreferencePool(rawConstraints.worldbuilding.primaryRuleTypes, COMMAND_CONFIGS.worldbuilding.ruleTypes),
+      secondaryRuleTypes: buildSoftPreferencePool(rawConstraints.worldbuilding.secondaryRuleTypes, COMMAND_CONFIGS.worldbuilding.secondaryRuleTypes)
+    },
+    sequence: {
+      ...rawConstraints.sequence,
+      types: buildSoftPreferencePool(rawConstraints.sequence.types, COMMAND_CONFIGS.sequence.types),
+      linkLogics: buildSoftPreferencePool(rawConstraints.sequence.linkLogics, COMMAND_CONFIGS.sequence.linkLogics)
+    },
+    content: {
+      ...rawConstraints.content,
+      actionModes: buildSoftPreferencePool(rawConstraints.content.actionModes, COMMAND_CONFIGS.content.actionModes),
+      conflictTypes: buildSoftPreferencePool(rawConstraints.content.conflictTypes, COMMAND_CONFIGS.content.conflictTypes)
+    }
+  };
+}
+
+function buildSoftPreferencePool(preferred, domainValues) {
+  if (!Array.isArray(domainValues) || domainValues.length === 0) {
+    return Array.isArray(preferred) ? [...preferred] : [];
+  }
+
+  if (!Array.isArray(preferred) || preferred.length === 0) {
+    return [...domainValues];
+  }
+
+  const extras = domainValues.filter((value) => !preferred.includes(value));
+  return [...preferred, ...preferred, ...extras];
 }

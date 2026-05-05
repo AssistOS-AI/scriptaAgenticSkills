@@ -2,14 +2,14 @@ import { mkdir, readdir, readFile, stat, writeFile } from 'node:fs/promises';
 import { dirname, join, resolve } from 'node:path';
 
 export const STAGE_FOLDERS = {
-  macro: 'phase2-macro',
-  chapters: 'phase3-chapters',
-  micro: 'phase4-micro',
-  cnl: 'phase5-cnl',
-  drafts: 'phase6-drafts',
-  validation: 'phase7-validation',
-  reports: 'phase8-reports',
-  exports: 'phase9-exports'
+  macro: 'phase1-macro',
+  chapters: 'phase2-chapters',
+  micro: 'phase3-micro',
+  cnl: 'phase4-cnl',
+  drafts: 'phase5-drafts',
+  validation: 'phase6-validation',
+  reports: 'phase7-reports',
+  exports: 'phase8-exports'
 };
 
 const MANIFEST_NAME = 'pipeline-manifest.md';

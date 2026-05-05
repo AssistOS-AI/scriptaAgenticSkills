@@ -17,8 +17,6 @@ export async function runBookPipeline(input = {}) {
   await runCnlEnh(options);
   await runChapGen(options);
   await runBookWriter(options);
-  await runValidationSuite(options);
-  await runBookWriter(options);
   const validationResult = await runValidationSuite(options);
   const publishedArtifacts = await publishWorkspaceLibrary({
     workspaceRoot: options.workspaceRoot,
