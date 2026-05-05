@@ -1,5 +1,3 @@
-import { QA_RO_EXACT_TEXT } from '../config/qaBookTranslations.mjs';
-
 const LANGUAGE_PACKS = {
   en: {
     code: 'en',
@@ -224,7 +222,6 @@ const PROFILE_FLAVOR = {
 
 const EXACT_TEXT_TRANSLATIONS = {
   ro: {
-    ...QA_RO_EXACT_TEXT,
     'a rain-dark apartment block': 'un bloc de apartamente intunecat de ploaie',
     'the old district hospital': 'vechiul spital de cartier',
     'the municipal archive': 'arhiva municipala',
