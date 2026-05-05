@@ -1,3 +1,5 @@
+import { QA_RO_EXACT_TEXT } from '../config/qaBookTranslations.mjs';
+
 const LANGUAGE_PACKS = {
   en: {
     code: 'en',
@@ -222,6 +224,7 @@ const PROFILE_FLAVOR = {
 
 const EXACT_TEXT_TRANSLATIONS = {
   ro: {
+    ...QA_RO_EXACT_TEXT,
     'a rain-dark apartment block': 'un bloc de apartamente intunecat de ploaie',
     'the old district hospital': 'vechiul spital de cartier',
     'the municipal archive': 'arhiva municipala',
@@ -617,7 +620,7 @@ export function localizeBookText(text, languageCode) {
   const exactEntries = Object.entries(exactMap).sort((left, right) => right[0].length - left[0].length);
 
   for (const [source, target] of exactEntries) {
-    localized = localized.split(source).join(target);
+    localized = localized.replace(new RegExp(escapeRegex(source), 'gi'), target);
   }
 
   for (const [pattern, replacement] of REGEX_TRANSLATIONS[code] ?? []) {
@@ -625,6 +628,10 @@ export function localizeBookText(text, languageCode) {
   }
 
   return localized;
+}
+
+function escapeRegex(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 export function localizeRoleToken(role) {
