@@ -4,8 +4,8 @@ complexity: round
 development-type: dynamic
 archetype: hero
 role: protagonist
-desire: what the protagonist of this drama story wants most
-need: what the protagonist truly needs but cannot yet accept
+desire: recover her brother's last testimony and reopen the closed flood compensation files
+need: admit that keeping the family intact turned her into a careful accomplice
 fear: learning that her mother knowingly accepted money tied to the lie
 lie: competence-replaces-vulnerability
 truth: visible-cost-is-preferable-to-stable-falsehood
@@ -20,8 +20,8 @@ complexity: round
 development-type: dynamic
 archetype: witness
 role: witness
-desire: what the protagonist of this drama story wants most
-need: what the protagonist truly needs but cannot yet accept
+desire: recover her brother's last testimony and reopen the closed flood compensation files
+need: admit that keeping the family intact turned her into a careful accomplice
 fear: learning that her mother knowingly accepted money tied to the lie
 lie: distance keeps the self intact
 truth: shared risk can create stronger agency than isolation
@@ -31,13 +31,13 @@ contradictions: loyal yet evasive, observant yet withholding
 relationships: $character-protagonist-001 [cooperative], $character-pressure-001 [conflictual]
 
 @character-pressure-001 define
-name: PERSON_003
+name: Corin Voss
 complexity: round
 development-type: static
 archetype: shadow
 role: antagonist
-desire: what the protagonist of this drama story wants most
-need: what the protagonist truly needs but cannot yet accept
+desire: recover her brother's last testimony and reopen the closed flood compensation files
+need: admit that keeping the family intact turned her into a careful accomplice
 fear: learning that her mother knowingly accepted money tied to the lie
 lie: stability justifies concealment
 truth: concealment breeds larger collapse

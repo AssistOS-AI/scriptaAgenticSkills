@@ -2,7 +2,7 @@
 sequence-type: courtship
 link-logic: causal
 chapter: $chapter-003
-objective: the future of the studio becomes inseparable from whether they can speak honestly
+objective: decide whether the launch should preserve the partnership or simply conclude it gracefully
 scene-chain: scene-003-01, scene-003-02, scene-003-03
 carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
 conflict-line: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
@@ -13,24 +13,24 @@ chapter: $chapter-003
 primary-setting: $location-primary
 secondary-setting: $location-secondary
 sensory-anchor: ink oil, paper dust, hot metal type, winter air trapped in skylight glass
-social-signal: how this location signals social dynamics
-symbolic-charge: the symbolic weight this location carries
-conflict-use: how this location intensifies conflict
+social-signal: work replaces confession here because every surface carries the memory of collaboration
+symbolic-charge: a place where touch leaves visible marks and every correction shows
+conflict-use: routine tasks keep exposing the intimacy both women call professional
 
 @rule-pressure-003-core apply
 chapter: $chapter-003
 rule-reference: $world-rule-primary
-visible-symptom: how the world rule becomes visible to characters
-action-limitation: how the world rule limits what characters can do
-conflict-output: what kind of conflict the world rule produces
+visible-symptom: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work
+action-limitation: Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure.
+conflict-output: shared labor turns every practical choice into a referendum on trust, apology, and future risk
 reveal-pattern: show-exception-to-reveal-rule
 
 @arc-003-protagonist map
 chapter: $chapter-003
-entry-belief: the belief the protagonist holds at entry at the start of the reversal chapter
+entry-belief: competence is safer than emotional dependence at the start of the reversal chapter
 challenge: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
-insight-pressure: the future of the studio becomes inseparable from whether they can speak honestly
-exit-belief: the belief the protagonist holds after change after the reversal chapter
+insight-pressure: their most damaged page becomes the commission's emotional signature
+exit-belief: shared risk creates a truer form of security than controlled distance after the reversal chapter
 
 @arc-003-relationship map
 chapter: $chapter-003
@@ -56,28 +56,28 @@ conflict: Leora can keep the partnership safely undefined, or admit that the com
 resolution: She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: the future of the studio becomes inseparable from whether they can speak honestly
+state-change: what they feel becomes harder to frame as accidental residue
 
 @action-003-1 place
 action-mode: evasion
 scene: $scene-003-01
 actor: $character-protagonist-001
-goal: the future of the studio becomes inseparable from whether they can speak honestly
-obstacle: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
+goal: decide whether the launch should preserve the partnership or simply conclude it gracefully
+obstacle: public success keeps rewarding them for the same evasions that nearly ruined them
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-003-1 place
 scope: $scene-003-01
 type: external-character
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: what is at stake in this conflict
+stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
 escalation: The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
 
 @event-003-1 trigger
 scope: $scene-003-01
 event-type: deadline
-trigger: Warehouse mock-up and public eyes
-impact: the future of the studio becomes inseparable from whether they can speak honestly
+trigger: the curator chooses the doubled-margin proof as the book's defining design feature
+impact: their most damaged page becomes the commission's emotional signature
 follow-through: the future of the studio becomes inseparable from whether they can speak honestly
 
 @dialogue-turn-003-01-01 line
@@ -85,7 +85,7 @@ scene: $scene-003-01
 speaker: $character-counterpart-001
 intent: tease-probe
 subtext: uses wit to test whether the wound can be named safely
-line-hint: Warehouse mock-up and public eyes
+line-hint: the curator chooses the doubled-margin proof as the book's defining design feature
 reaction-beat: The joke opens a bruise neither speaker can ignore now.
 
 @dialogue-turn-003-01-02 line
@@ -93,7 +93,7 @@ scene: $scene-003-01
 speaker: $character-protagonist-001
 intent: reframe
 subtext: changes the moral meaning of what was just said
-line-hint: Warehouse mock-up and public eyes
+line-hint: the curator chooses the doubled-margin proof as the book's defining design feature
 reaction-beat: The new framing makes the old position harder to keep.
 
 @scene-003-02 define
@@ -107,28 +107,28 @@ conflict: Leora can keep the partnership safely undefined, or admit that the com
 resolution: She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: the future of the studio becomes inseparable from whether they can speak honestly
+state-change: what they feel becomes harder to frame as accidental residue
 
 @action-003-2 place
 action-mode: sacrifice
 scene: $scene-003-02
 actor: $character-protagonist-001
 goal: the future of the studio becomes inseparable from whether they can speak honestly
-obstacle: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
+obstacle: public success keeps rewarding them for the same evasions that nearly ruined them
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-003-2 place
 scope: $scene-003-02
 type: external-technology
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: what is at stake in this conflict
+stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
 escalation: The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
 
 @event-003-2 trigger
 scope: $scene-003-02
 event-type: deadline
-trigger: Warehouse mock-up and public eyes
-impact: the future of the studio becomes inseparable from whether they can speak honestly
+trigger: the curator chooses the doubled-margin proof as the book's defining design feature
+impact: their most damaged page becomes the commission's emotional signature
 follow-through: the future of the studio becomes inseparable from whether they can speak honestly
 
 @dialogue-turn-003-02-01 line
@@ -152,34 +152,34 @@ chapter: $chapter-003
 showing-mode: introspective
 focalization: internal-single
 time-space: $location-primary
-introduction: At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.
-development: The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
+introduction: the curator chooses the doubled-margin proof as the book's defining design feature
+development: their most damaged page becomes the commission's emotional signature
 conflict: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
 resolution: She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.
 exit: the chapter hands off to a sharper reversal consequence
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: the future of the studio becomes inseparable from whether they can speak honestly
+state-change: what they feel becomes harder to frame as accidental residue
 
 @action-003-3 place
 action-mode: attempt
 scene: $scene-003-03
 actor: $character-protagonist-001
 goal: Warehouse mock-up and public eyes
-obstacle: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
-result: the future of the studio becomes inseparable from whether they can speak honestly
+obstacle: public success keeps rewarding them for the same evasions that nearly ruined them
+result: what they feel becomes harder to frame as accidental residue
 
 @conflict-003-3 place
 scope: $scene-003-03
 type: external-character
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: what is at stake in this conflict
+stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
 escalation: The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
 
 @event-003-3 trigger
 scope: $scene-003-03
 event-type: loss
-trigger: Warehouse mock-up and public eyes
-impact: the future of the studio becomes inseparable from whether they can speak honestly
+trigger: the curator chooses the doubled-margin proof as the book's defining design feature
+impact: their most damaged page becomes the commission's emotional signature
 follow-through: the future of the studio becomes inseparable from whether they can speak honestly
 
 @dialogue-turn-003-03-01 line
@@ -201,7 +201,7 @@ reaction-beat: The challenge strips politeness away from the scene.
 @description-003-atmosphere apply
 scope: $chapter-003
 description-type: mixed
-focus: what the description focuses on
+focus: a place where touch leaves visible marks and every correction shows
 function: narrative
 rhythm-effect: slow
 
@@ -222,7 +222,7 @@ time-handling: mixed
 scene: $scene-003-03
 character: $character-protagonist-001
 function: psychological-insight
-trigger: the future of the studio becomes inseparable from whether they can speak honestly
+trigger: their most damaged page becomes the commission's emotional signature
 texture: reflective
 
 @suspense-003-core build
@@ -236,47 +236,47 @@ Delayed access, withheld explanation, and emotional pressure should work togethe
 @pause-003-core hold
 scope: $chapter-003
 pause-function: psychological
-focus: the future of the studio becomes inseparable from whether they can speak honestly
+focus: what they feel becomes harder to frame as accidental residue
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-003-core burst
 scope: $chapter-003
 acceleration-mode: transition-skip
-trigger: Warehouse mock-up and public eyes
+trigger: the curator chooses the doubled-margin proof as the book's defining design feature
 reader-effect: compress time and force the next consequence to land without emotional escape
 target-zone: $scene-003-03
 
 @cliffhanger-003-exit cut
 scope: $chapter-003
 cliffhanger-type: unresolved-confrontation
-cut-moment: Warehouse mock-up and public eyes
+cut-moment: the curator chooses the doubled-margin proof as the book's defining design feature
 continuation-pressure: the future of the studio becomes inseparable from whether they can speak honestly
 
 @location-003-anchor refine
 ref: sensory-anchor:location-primary -> ink oil, paper dust, hot metal type, winter air trapped in skylight glass
-ref: social-signal:location-primary -> how this location signals social dynamics
-ref: symbolic-charge:location-primary -> the symbolic weight this location carries
-ref: conflict-use:location-primary -> how this location intensifies conflict
+ref: social-signal:location-primary -> work replaces confession here because every surface carries the memory of collaboration
+ref: symbolic-charge:location-primary -> a place where touch leaves visible marks and every correction shows
+ref: conflict-use:location-primary -> routine tasks keep exposing the intimacy both women call professional
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the place intimate through work, routine, and shared objects
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @rule-pressure-003-core refine
-ref: visible-symptom:reversal -> how the world rule becomes visible to characters
-ref: action-limitation:reversal -> how the world rule limits what characters can do
-ref: conflict-output-rule:reversal -> what kind of conflict the world rule produces
+ref: visible-symptom:reversal -> the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work
+ref: action-limitation:reversal -> Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure.
+ref: conflict-output-rule:reversal -> shared labor turns every practical choice into a referendum on trust, apology, and future risk
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: treat social expectations as real constraints on intimacy and choice
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @arc-003-protagonist refine
-ref: entry-belief:protagonist -> the belief the protagonist holds at entry
-ref: exit-belief:protagonist -> the belief the protagonist holds after change
+ref: entry-belief:protagonist -> competence is safer than emotional dependence
+ref: exit-belief:protagonist -> shared risk creates a truer form of security than controlled distance
 ref: challenge:protagonist-reversal -> Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
-ref: insight-pressure:protagonist-reversal -> the future of the studio becomes inseparable from whether they can speak honestly
+ref: insight-pressure:protagonist-reversal -> their most damaged page becomes the commission's emotional signature
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the arc move through defensiveness, dependence, and honest reciprocity
@@ -301,7 +301,7 @@ ref: scene-introduction:reversal-0 -> At the warehouse mock-up, a museum curator
 ref: scene-development:reversal-0 -> The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
 ref: scene-conflict:reversal -> Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
 ref: scene-resolution:reversal-mid -> She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.
-ref: scene-state-change:reversal-mid -> the future of the studio becomes inseparable from whether they can speak honestly
+ref: scene-state-change:reversal-mid -> what they feel becomes harder to frame as accidental residue
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let attraction and defensiveness coexist inside the same exchange
@@ -310,7 +310,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-003-01-01 refine
 ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
 ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:reversal-0-0 -> Warehouse mock-up and public eyes
+ref: dialogue-line-hint:reversal-0-0 -> the curator chooses the doubled-margin proof as the book's defining design feature
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let practical language and emotional risk coexist in the same line
@@ -318,7 +318,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 
 @dialogue-turn-003-01-02 refine
 ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
-ref: dialogue-line-hint:reversal-0-1 -> Warehouse mock-up and public eyes
+ref: dialogue-line-hint:reversal-0-1 -> the curator chooses the doubled-margin proof as the book's defining design feature
 ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
@@ -328,7 +328,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @scene-003-02 refine
 ref: scene-conflict:reversal -> Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
 ref: scene-resolution:reversal-mid -> She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.
-ref: scene-state-change:reversal-mid -> the future of the studio becomes inseparable from whether they can speak honestly
+ref: scene-state-change:reversal-mid -> what they feel becomes harder to frame as accidental residue
 ref: scene-introduction:reversal-1 -> The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
 ref: scene-development:reversal-1 -> Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
@@ -356,10 +356,10 @@ The refined artifact preserves identifier continuity so deterministic validation
 
 @scene-003-03 refine
 ref: scene-conflict:reversal -> Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
-ref: scene-introduction:reversal-2 -> At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.
-ref: scene-development:reversal-2 -> The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
+ref: scene-introduction:reversal-2 -> the curator chooses the doubled-margin proof as the book's defining design feature
+ref: scene-development:reversal-2 -> their most damaged page becomes the commission's emotional signature
 ref: scene-resolution:reversal-final -> She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.
-ref: scene-state-change:reversal-final -> the future of the studio becomes inseparable from whether they can speak honestly
+ref: scene-state-change:reversal-final -> what they feel becomes harder to frame as accidental residue
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let attraction and defensiveness coexist inside the same exchange
@@ -398,14 +398,14 @@ should: make subtext carry as much weight as direct confession
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @pause-003-core refine
-ref: pause-focus:reversal -> the future of the studio becomes inseparable from whether they can speak honestly
+ref: pause-focus:reversal -> what they feel becomes harder to frame as accidental residue
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pauses and bursts to make vulnerability feel earned rather than abrupt
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @acceleration-003-core refine
-ref: acceleration-trigger:reversal -> Warehouse mock-up and public eyes
+ref: acceleration-trigger:reversal -> the curator chooses the doubled-margin proof as the book's defining design feature
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pauses and bursts to make vulnerability feel earned rather than abrupt

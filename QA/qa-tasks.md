@@ -89,7 +89,7 @@
 - Priority: medium
 - Stage: micro
 - Action: Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.
-- Evidence: OI=68
+- Evidence: OI=69
 
 ## qa-scifi-orbit — Reinforce character continuity
 - Profile: science-fiction

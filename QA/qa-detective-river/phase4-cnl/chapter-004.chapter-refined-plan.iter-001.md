@@ -1,10 +1,10 @@
 @chapter-004 define
 chapter-role: culmination
-purpose: the narrative purpose of this culmination chapter
-input-state: the state entering this culmination-3 chapter
-output-state: the state leaving this culmination-3 chapter
-conflict: Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.
-stakes: what is at risk if the protagonist fails
+purpose: Culmination movement anchored by briefing room breach
+input-state: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+output-state: the case survives because the institution loses control of its own narrative
+conflict: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 opening-mode: action-entry
 development-mode: confrontation
 closing-mode: reversal
@@ -12,22 +12,22 @@ handoff-pressure: the next chapter must open from the sharper consequence expose
 thematic-focus: identity-self under resistance pressure
 rhythm-note: breathless
 chapter-question: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
-answer-shift: how the answer shifts across this chapter
+answer-shift: the cover-up is not separate from the institution; it is how the institution currently functions
 arc-stage: irreversible-choice
-world-pressure: how world rules create pressure in this unit
+world-pressure: every lawful request alerts the people most interested in erasing the answer
 location-focus: $location-primary
 block-alternation: action-dialogue-description-conflict-revelation-suspense-cliffhanger
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.
 
 @chapter-004 refine
-ref: stakes:justice-legitimacy-trust-safety -> what is at risk if the protagonist fails
-ref: answer-shift:detective-police -> how the answer shifts across this chapter
-ref: purpose:culmination -> the narrative purpose of this culmination chapter
-ref: input-state:culmination-3 -> the state entering this culmination-3 chapter
-ref: output-state:culmination-3 -> the state leaving this culmination-3 chapter
-ref: conflict:culmination -> Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.
+ref: stakes:justice-legitimacy-trust-safety -> the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
+ref: answer-shift:detective-police -> the cover-up is not separate from the institution; it is how the institution currently functions
+ref: purpose:culmination -> Culmination movement anchored by briefing room breach
+ref: input-state:culmination-3 -> During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+ref: output-state:culmination-3 -> the case survives because the institution loses control of its own narrative
+ref: conflict:culmination -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 ref: chapter-question:culmination -> Can Nadia prove murder before procedure itself is used to wash the evidence clean?
-ref: world-pressure:culmination -> how world rules create pressure in this unit
+ref: world-pressure:culmination -> every lawful request alerts the people most interested in erasing the answer
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: prefer clean procedural detail over melodramatic explanation

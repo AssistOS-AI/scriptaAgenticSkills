@@ -7,7 +7,7 @@ Sequential chunk translation trace for the translated reader edition.
   "bookId": "qa-detective-river",
   "sourceLanguage": "en",
   "targetLanguage": "ro",
-  "chunkCount": 100,
+  "chunkCount": 101,
   "chunks": [
     {
       "path": "front.subtitle",
@@ -36,8 +36,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "front.world-rule",
       "chunkIndex": 1,
-      "source": "the world rule that governs this domain",
-      "translated": "the world rule that governs this domain"
+      "source": "Any river death inside the redevelopment corridor is reviewed first by the precinct and only later by the civil prosecutor.",
+      "translated": "Any river death inside the redevelopment corridor is reviewed first by the precinct and only later by the civil prosecutor."
     },
     {
       "path": "chapter.chapter-001.paragraph.1",
@@ -48,14 +48,14 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.1",
       "chunkIndex": 2,
-      "source": "How this location signals social dynamics.",
-      "translated": "cum semnaleaza acest loc dinamica sociala."
+      "source": "Everyone speaks in clipped inventory terms because the room only respects what can be tagged.",
+      "translated": "Toti vorbesc in termeni scurti de inventar fiindca incaperea respecta doar ceea ce poate fi etichetat."
     },
     {
       "path": "chapter.chapter-001.paragraph.1",
       "chunkIndex": 3,
-      "source": "Theo Mercer reads the room too carefully, while PERSON_003 keeps alive the version of events other people would rather believe.",
-      "translated": "Theo Mercer citeste prea atent incaperea, iar PERSON_003 mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
+      "source": "Theo Mercer reads the room too carefully, while Soren Arden keeps alive the version of events other people would rather believe.",
+      "translated": "Theo Mercer citeste prea atent incaperea, iar Soren Arden mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
@@ -66,8 +66,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 2,
-      "source": "Nadia Voss tries to Nadia has enough doubt to justify disobedience, but Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed..",
-      "translated": "Nadia Voss incearca sa nadia has enough doubt to justify disobedience, dar nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ.."
+      "source": "Nadia Voss tries to preserve the physical inconsistency before it is corrected in the paperwork, but the precinct has already reassigned the scene file to property damage review.",
+      "translated": "Nadia Voss incearca sa preserve the physical inconsistency before it is corrected in the paperwork, dar the precinct has already reassigned the scene file to property damage review."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
@@ -78,20 +78,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 4,
-      "source": "Autopsy against the report.",
-      "translated": "Autopsy against the report."
+      "source": "The body shows wrist abrasions inconsistent with drifting debris.",
+      "translated": "Corpul poarta urme la incheieturi care nu se potrivesc cu resturi purtate de apa."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 1,
-      "source": "\"Autopsy against the report\" Theo Mercer says.",
-      "translated": "\"Autopsy against the report\" spune Theo Mercer."
+      "source": "\"The body shows wrist abrasions inconsistent with drifting debris\" Theo Mercer says.",
+      "translated": "\"The body shows wrist abrasions inconsistent with drifting debris\" spune Theo Mercer."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 2,
-      "source": "\"Autopsy against the report\" Nadia Voss says.",
-      "translated": "\"Autopsy against the report\" spune Nadia Voss."
+      "source": "\"The body shows wrist abrasions inconsistent with drifting debris\" Nadia Voss says.",
+      "translated": "\"The body shows wrist abrasions inconsistent with drifting debris\" spune Nadia Voss."
     },
     {
       "path": "chapter.chapter-001.paragraph.4",
@@ -102,8 +102,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 2,
-      "source": "Nadia Voss tries to Nadia has enough doubt to justify disobedience, but Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed..",
-      "translated": "Nadia Voss incearca sa nadia has enough doubt to justify disobedience, dar nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ.."
+      "source": "Nadia Voss tries to Nadia has enough doubt to justify disobedience, but the precinct has already reassigned the scene file to property damage review.",
+      "translated": "Nadia Voss incearca sa nadia has enough doubt to justify disobedience, dar the precinct has already reassigned the scene file to property damage review."
     },
     {
       "path": "chapter.chapter-001.paragraph.4",
@@ -114,8 +114,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 4,
-      "source": "Autopsy against the report.",
-      "translated": "Autopsy against the report."
+      "source": "The body shows wrist abrasions inconsistent with drifting debris.",
+      "translated": "Corpul poarta urme la incheieturi care nu se potrivesc cu resturi purtate de apa."
     },
     {
       "path": "chapter.chapter-001.paragraph.5",
@@ -132,14 +132,14 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.6",
       "chunkIndex": 1,
-      "source": "Later, in the river evidence hangar beside Lock Six, nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage..",
-      "translated": "Mai tarziu, in hangarul de probe de pe rau de langa Ecluza Sase, nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.."
+      "source": "Later, in the river evidence hangar beside Lock Six, the body shows wrist abrasions inconsistent with drifting debris.",
+      "translated": "Mai tarziu, in hangarul de probe de pe rau de langa Ecluza Sase, corpul poarta urme la incheieturi care nu se potrivesc cu resturi purtate de apa."
     },
     {
       "path": "chapter.chapter-001.paragraph.6",
       "chunkIndex": 2,
-      "source": "Nadia Voss tries to Autopsy against the report, but Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed..",
-      "translated": "Nadia Voss incearca sa autopsy against the report, dar nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ.."
+      "source": "Nadia Voss tries to Autopsy against the report, but the precinct has already reassigned the scene file to property damage review.",
+      "translated": "Nadia Voss incearca sa autopsy against the report, dar the precinct has already reassigned the scene file to property damage review."
     },
     {
       "path": "chapter.chapter-001.paragraph.6",
@@ -150,8 +150,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.6",
       "chunkIndex": 4,
-      "source": "Autopsy against the report.",
-      "translated": "Autopsy against the report."
+      "source": "The body shows wrist abrasions inconsistent with drifting debris.",
+      "translated": "Corpul poarta urme la incheieturi care nu se potrivesc cu resturi purtate de apa."
     },
     {
       "path": "chapter.chapter-001.paragraph.7",
@@ -192,14 +192,14 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.1",
       "chunkIndex": 2,
-      "source": "How this location signals social dynamics.",
-      "translated": "cum semnaleaza acest loc dinamica sociala."
+      "source": "Everyone speaks in clipped inventory terms because the room only respects what can be tagged.",
+      "translated": "Toti vorbesc in termeni scurti de inventar fiindca incaperea respecta doar ceea ce poate fi etichetat."
     },
     {
       "path": "chapter.chapter-002.paragraph.1",
       "chunkIndex": 3,
-      "source": "Theo Mercer reads the room too carefully, while PERSON_003 keeps alive the version of events other people would rather believe.",
-      "translated": "Theo Mercer citeste prea atent incaperea, iar PERSON_003 mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
+      "source": "Theo Mercer reads the room too carefully, while Soren Arden keeps alive the version of events other people would rather believe.",
+      "translated": "Theo Mercer citeste prea atent incaperea, iar Soren Arden mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
@@ -210,8 +210,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 2,
-      "source": "Nadia Voss tries to Nadia now knows the cover-up has a clock and a route, but Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone..",
-      "translated": "Nadia Voss incearca sa nadia now knows the cover-up has a clock and a route, dar theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie.."
+      "source": "Nadia Voss tries to connect the missing footage to a human decision rather than a technical accident, but every request for the raw server logs pings Soren before it reaches records.",
+      "translated": "Nadia Voss incearca sa connect the missing footage to a human decision rather than a technical accident, dar every request for the raw server logs pings Soren before it reaches records."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
@@ -222,20 +222,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 4,
-      "source": "Camera gap at Lock Six.",
-      "translated": "Golul din filmare de la Ecluza Sase."
+      "source": "A duplicate maintenance form appears with two different timestamps.",
+      "translated": "Apare un formular de mentenanta duplicat, cu doua marcaje de timp diferite."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 1,
-      "source": "\"Camera gap at Lock Six\" Theo Mercer says.",
-      "translated": "\"Golul din filmare de la Ecluza Sase\" spune Theo Mercer."
+      "source": "\"A duplicate maintenance form appears with two different timestamps\" Theo Mercer says.",
+      "translated": "\"A duplicate maintenance form appears with two different timestamps\" spune Theo Mercer."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 2,
-      "source": "\"Camera gap at Lock Six\" Nadia Voss says.",
-      "translated": "\"Golul din filmare de la Ecluza Sase\" spune Nadia Voss."
+      "source": "\"A duplicate maintenance form appears with two different timestamps\" Nadia Voss says.",
+      "translated": "\"A duplicate maintenance form appears with two different timestamps\" spune Nadia Voss."
     },
     {
       "path": "chapter.chapter-002.paragraph.4",
@@ -246,8 +246,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.4",
       "chunkIndex": 2,
-      "source": "Nadia Voss tries to Nadia now knows the cover-up has a clock and a route, but Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone..",
-      "translated": "Nadia Voss incearca sa nadia now knows the cover-up has a clock and a route, dar theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie.."
+      "source": "Nadia Voss tries to Nadia now knows the cover-up has a clock and a route, but every request for the raw server logs pings Soren before it reaches records.",
+      "translated": "Nadia Voss incearca sa nadia now knows the cover-up has a clock and a route, dar every request for the raw server logs pings Soren before it reaches records."
     },
     {
       "path": "chapter.chapter-002.paragraph.4",
@@ -258,8 +258,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.4",
       "chunkIndex": 4,
-      "source": "Camera gap at Lock Six.",
-      "translated": "Golul din filmare de la Ecluza Sase."
+      "source": "A duplicate maintenance form appears with two different timestamps.",
+      "translated": "Apare un formular de mentenanta duplicat, cu doua marcaje de timp diferite."
     },
     {
       "path": "chapter.chapter-002.paragraph.5",
@@ -276,14 +276,14 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.6",
       "chunkIndex": 1,
-      "source": "Later, in the river evidence hangar beside Lock Six, in the evidence hangar, nadia and theo trace the victim's last route through broken camera timestamps..",
-      "translated": "Mai tarziu, in hangarul de probe de pe rau de langa Ecluza Sase, in the evidence hangar, nadia and theo trace the victim's last route through broken camera timestamps.."
+      "source": "Later, in the river evidence hangar beside Lock Six, a duplicate maintenance form appears with two different timestamps.",
+      "translated": "Mai tarziu, in hangarul de probe de pe rau de langa Ecluza Sase, apare un formular de mentenanta duplicat, cu doua marcaje de timp diferite."
     },
     {
       "path": "chapter.chapter-002.paragraph.6",
       "chunkIndex": 2,
-      "source": "Nadia Voss tries to Camera gap at Lock Six, but Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone..",
-      "translated": "Nadia Voss incearca sa golul din filmare de la Ecluza Sase, dar theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie.."
+      "source": "Nadia Voss tries to Camera gap at Lock Six, but every request for the raw server logs pings Soren before it reaches records.",
+      "translated": "Nadia Voss incearca sa golul din filmare de la Ecluza Sase, dar every request for the raw server logs pings Soren before it reaches records."
     },
     {
       "path": "chapter.chapter-002.paragraph.6",
@@ -294,8 +294,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.6",
       "chunkIndex": 4,
-      "source": "Camera gap at Lock Six.",
-      "translated": "Golul din filmare de la Ecluza Sase."
+      "source": "A duplicate maintenance form appears with two different timestamps.",
+      "translated": "Apare un formular de mentenanta duplicat, cu doua marcaje de timp diferite."
     },
     {
       "path": "chapter.chapter-002.paragraph.7",
@@ -336,14 +336,14 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.1",
       "chunkIndex": 2,
-      "source": "How this location signals social dynamics.",
-      "translated": "cum semnaleaza acest loc dinamica sociala."
+      "source": "Everyone speaks in clipped inventory terms because the room only respects what can be tagged.",
+      "translated": "Toti vorbesc in termeni scurti de inventar fiindca incaperea respecta doar ceea ce poate fi etichetat."
     },
     {
       "path": "chapter.chapter-003.paragraph.1",
       "chunkIndex": 3,
-      "source": "Theo Mercer reads the room too carefully, while PERSON_003 keeps alive the version of events other people would rather believe.",
-      "translated": "Theo Mercer citeste prea atent incaperea, iar PERSON_003 mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
+      "source": "Theo Mercer reads the room too carefully, while Soren Arden keeps alive the version of events other people would rather believe.",
+      "translated": "Theo Mercer citeste prea atent incaperea, iar Soren Arden mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
@@ -354,8 +354,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 2,
-      "source": "Nadia Voss tries to Nadia now knows the cover-up has a clock and a route, but Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone..",
-      "translated": "Nadia Voss incearca sa nadia now knows the cover-up has a clock and a route, dar theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie.."
+      "source": "Nadia Voss tries to connect the missing footage to a human decision rather than a technical accident, but every request for the raw server logs pings Soren before it reaches records.",
+      "translated": "Nadia Voss incearca sa connect the missing footage to a human decision rather than a technical accident, dar every request for the raw server logs pings Soren before it reaches records."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
@@ -366,20 +366,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 4,
-      "source": "Camera gap at Lock Six.",
-      "translated": "Golul din filmare de la Ecluza Sase."
+      "source": "A duplicate maintenance form appears with two different timestamps.",
+      "translated": "Apare un formular de mentenanta duplicat, cu doua marcaje de timp diferite."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 1,
-      "source": "\"Camera gap at Lock Six\" Theo Mercer says.",
-      "translated": "\"Golul din filmare de la Ecluza Sase\" spune Theo Mercer."
+      "source": "\"A duplicate maintenance form appears with two different timestamps\" Theo Mercer says.",
+      "translated": "\"A duplicate maintenance form appears with two different timestamps\" spune Theo Mercer."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 2,
-      "source": "\"Camera gap at Lock Six\" Nadia Voss says.",
-      "translated": "\"Golul din filmare de la Ecluza Sase\" spune Nadia Voss."
+      "source": "\"A duplicate maintenance form appears with two different timestamps\" Nadia Voss says.",
+      "translated": "\"A duplicate maintenance form appears with two different timestamps\" spune Nadia Voss."
     },
     {
       "path": "chapter.chapter-003.paragraph.4",
@@ -390,8 +390,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.4",
       "chunkIndex": 2,
-      "source": "Nadia Voss tries to Nadia now knows the cover-up has a clock and a route, but Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone..",
-      "translated": "Nadia Voss incearca sa nadia now knows the cover-up has a clock and a route, dar theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie.."
+      "source": "Nadia Voss tries to Nadia now knows the cover-up has a clock and a route, but every request for the raw server logs pings Soren before it reaches records.",
+      "translated": "Nadia Voss incearca sa nadia now knows the cover-up has a clock and a route, dar every request for the raw server logs pings Soren before it reaches records."
     },
     {
       "path": "chapter.chapter-003.paragraph.4",
@@ -402,8 +402,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.4",
       "chunkIndex": 4,
-      "source": "Camera gap at Lock Six.",
-      "translated": "Golul din filmare de la Ecluza Sase."
+      "source": "A duplicate maintenance form appears with two different timestamps.",
+      "translated": "Apare un formular de mentenanta duplicat, cu doua marcaje de timp diferite."
     },
     {
       "path": "chapter.chapter-003.paragraph.5",
@@ -420,14 +420,14 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.6",
       "chunkIndex": 1,
-      "source": "Later, in the river evidence hangar beside Lock Six, in the evidence hangar, nadia and theo trace the victim's last route through broken camera timestamps..",
-      "translated": "Mai tarziu, in hangarul de probe de pe rau de langa Ecluza Sase, in the evidence hangar, nadia and theo trace the victim's last route through broken camera timestamps.."
+      "source": "Later, in the river evidence hangar beside Lock Six, a duplicate maintenance form appears with two different timestamps.",
+      "translated": "Mai tarziu, in hangarul de probe de pe rau de langa Ecluza Sase, apare un formular de mentenanta duplicat, cu doua marcaje de timp diferite."
     },
     {
       "path": "chapter.chapter-003.paragraph.6",
       "chunkIndex": 2,
-      "source": "Nadia Voss tries to Camera gap at Lock Six, but Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone..",
-      "translated": "Nadia Voss incearca sa golul din filmare de la Ecluza Sase, dar theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie.."
+      "source": "Nadia Voss tries to Camera gap at Lock Six, but every request for the raw server logs pings Soren before it reaches records.",
+      "translated": "Nadia Voss incearca sa golul din filmare de la Ecluza Sase, dar every request for the raw server logs pings Soren before it reaches records."
     },
     {
       "path": "chapter.chapter-003.paragraph.6",
@@ -438,8 +438,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.6",
       "chunkIndex": 4,
-      "source": "Camera gap at Lock Six.",
-      "translated": "Golul din filmare de la Ecluza Sase."
+      "source": "A duplicate maintenance form appears with two different timestamps.",
+      "translated": "Apare un formular de mentenanta duplicat, cu doua marcaje de timp diferite."
     },
     {
       "path": "chapter.chapter-003.paragraph.7",
@@ -480,128 +480,134 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.1",
       "chunkIndex": 2,
-      "source": "How this location signals social dynamics.",
-      "translated": "cum semnaleaza acest loc dinamica sociala."
+      "source": "Everyone speaks in clipped inventory terms because the room only respects what can be tagged.",
+      "translated": "Toti vorbesc in termeni scurti de inventar fiindca incaperea respecta doar ceea ce poate fi etichetat."
     },
     {
       "path": "chapter.chapter-004.paragraph.1",
       "chunkIndex": 3,
-      "source": "Theo Mercer reads the room too carefully, while PERSON_003 keeps alive the version of events other people would rather believe.",
-      "translated": "Theo Mercer citeste prea atent incaperea, iar PERSON_003 mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
+      "source": "Theo Mercer reads the room too carefully, while Soren Arden keeps alive the version of events other people would rather believe.",
+      "translated": "Theo Mercer citeste prea atent incaperea, iar Soren Arden mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 1,
-      "source": "In the river evidence hangar beside Lock Six, how this scene opens.",
-      "translated": "In hangarul de probe de pe rau de langa Ecluza Sase, cum se deschide aceasta scena."
+      "source": "In the river evidence hangar beside Lock Six, during the precinct briefing, nadia projects the recovered footage before soren can suspend her..",
+      "translated": "In hangarul de probe de pe rau de langa Ecluza Sase, during the precinct briefing, nadia projects the recovered footage before soren can suspend her.."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 2,
-      "source": "Nadia Voss tries to what the protagonist tries to accomplish, but what prevents easy success.",
-      "translated": "Nadia Voss incearca sa ce incearca protagonistul sa obtina, dar ce impiedica succesul facil."
+      "source": "Nadia Voss tries to move the evidence faster than the suspension order, but the briefing room was built to keep testimony internal and deniable.",
+      "translated": "Nadia Voss incearca sa move the evidence faster than the suspension order, dar the briefing room was built to keep testimony internal and deniable."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 3,
-      "source": "Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing..",
-      "translated": "Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.."
+      "source": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment..",
+      "translated": "Nadia mai poate prezenta scandalul drept greseala unui adjunct sau il poate numi pe Soren arhitectul ascunderii.."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 4,
-      "source": "What triggers this event.",
-      "translated": "ce declanseaza acest eveniment."
+      "source": "The footage freezes on Soren entering the lock corridor minutes after the murder.",
+      "translated": "Inregistrarea se blocheaza exact cand Soren intra pe coridorul ecluzei la cateva minute dupa crima."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 1,
-      "source": "\"A hint for the dialogue line\" Theo Mercer says.",
-      "translated": "\"Un indiciu pentru replica de dialog\" spune Theo Mercer."
+      "source": "\"The footage freezes on Soren entering the lock corridor minutes after the murder\" Theo Mercer says.",
+      "translated": "\"The footage freezes on Soren entering the lock corridor minutes after the murder\" spune Theo Mercer."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 2,
-      "source": "\"A hint for the dialogue line\" Nadia Voss says.",
-      "translated": "\"Un indiciu pentru replica de dialog\" spune Nadia Voss."
+      "source": "\"The footage freezes on Soren entering the lock corridor minutes after the murder\" Nadia Voss says.",
+      "translated": "\"The footage freezes on Soren entering the lock corridor minutes after the murder\" spune Nadia Voss."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 1,
-      "source": "Later, in the river evidence hangar beside Lock Six, how this scene opens.",
-      "translated": "Mai tarziu, in hangarul de probe de pe rau de langa Ecluza Sase, cum se deschide aceasta scena."
+      "source": "Later, in the river evidence hangar beside Lock Six, theo streams the room live while officers realize the cover-up reaches beyond one report..",
+      "translated": "Mai tarziu, in hangarul de probe de pe rau de langa Ecluza Sase, theo streams the room live while officers realize the cover-up reaches beyond one report.."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 2,
-      "source": "Nadia Voss tries to what the protagonist tries to accomplish, but what prevents easy success.",
-      "translated": "Nadia Voss incearca sa ce incearca protagonistul sa obtina, dar ce impiedica succesul facil."
+      "source": "Nadia Voss tries to the victim finally receives a case worthy of the facts, but the briefing room was built to keep testimony internal and deniable.",
+      "translated": "Nadia Voss incearca sa the victim finally receives a case worthy of the facts, dar the briefing room was built to keep testimony internal and deniable."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 3,
-      "source": "Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing..",
-      "translated": "Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.."
+      "source": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment..",
+      "translated": "Nadia mai poate prezenta scandalul drept greseala unui adjunct sau il poate numi pe Soren arhitectul ascunderii.."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 4,
-      "source": "What triggers this event.",
-      "translated": "ce declanseaza acest eveniment."
+      "source": "The footage freezes on Soren entering the lock corridor minutes after the murder.",
+      "translated": "Inregistrarea se blocheaza exact cand Soren intra pe coridorul ecluzei la cateva minute dupa crima."
     },
     {
       "path": "chapter.chapter-004.paragraph.5",
       "chunkIndex": 1,
-      "source": "\"A hint for the dialogue line\" Theo Mercer says.",
-      "translated": "\"Un indiciu pentru replica de dialog\" spune Theo Mercer."
+      "source": "\"Briefing room breach\" Theo Mercer says.",
+      "translated": "\"Briefing room breach\" spune Theo Mercer."
     },
     {
       "path": "chapter.chapter-004.paragraph.5",
       "chunkIndex": 2,
-      "source": "\"A hint for the dialogue line\" Nadia Voss says.",
-      "translated": "\"Un indiciu pentru replica de dialog\" spune Nadia Voss."
+      "source": "\"Briefing room breach\" Nadia Voss says.",
+      "translated": "\"Briefing room breach\" spune Nadia Voss."
     },
     {
       "path": "chapter.chapter-004.paragraph.6",
       "chunkIndex": 1,
-      "source": "Later, in the river evidence hangar beside Lock Six, how this scene opens.",
-      "translated": "Mai tarziu, in hangarul de probe de pe rau de langa Ecluza Sase, cum se deschide aceasta scena."
+      "source": "Later, in the river evidence hangar beside Lock Six, the footage freezes on soren entering the lock corridor minutes after the murder.",
+      "translated": "Mai tarziu, in hangarul de probe de pe rau de langa Ecluza Sase, inregistrarea se blocheaza exact cand Soren intra pe coridorul ecluzei la cateva minute dupa crima."
     },
     {
       "path": "chapter.chapter-004.paragraph.6",
       "chunkIndex": 2,
-      "source": "Nadia Voss tries to what the protagonist tries to accomplish, but what prevents easy success.",
-      "translated": "Nadia Voss incearca sa ce incearca protagonistul sa obtina, dar ce impiedica succesul facil."
+      "source": "Nadia Voss tries to Briefing room breach, but the briefing room was built to keep testimony internal and deniable.",
+      "translated": "Nadia Voss incearca sa briefing room breach, dar the briefing room was built to keep testimony internal and deniable."
     },
     {
       "path": "chapter.chapter-004.paragraph.6",
       "chunkIndex": 3,
-      "source": "Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing..",
-      "translated": "Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.."
+      "source": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment..",
+      "translated": "Nadia mai poate prezenta scandalul drept greseala unui adjunct sau il poate numi pe Soren arhitectul ascunderii.."
     },
     {
       "path": "chapter.chapter-004.paragraph.6",
       "chunkIndex": 4,
-      "source": "What triggers this event.",
-      "translated": "ce declanseaza acest eveniment."
+      "source": "The footage freezes on Soren entering the lock corridor minutes after the murder.",
+      "translated": "Inregistrarea se blocheaza exact cand Soren intra pe coridorul ecluzei la cateva minute dupa crima."
     },
     {
       "path": "chapter.chapter-004.paragraph.7",
       "chunkIndex": 1,
-      "source": "\"A hint for the dialogue line\" Theo Mercer says.",
-      "translated": "\"Un indiciu pentru replica de dialog\" spune Theo Mercer."
+      "source": "\"Theo streams the room live while officers realize the cover-up reaches beyond one report.\" Theo Mercer says.",
+      "translated": "\"Theo streams the room live while officers realize the cover-up reaches beyond one report\" spune Theo Mercer."
     },
     {
       "path": "chapter.chapter-004.paragraph.7",
       "chunkIndex": 2,
-      "source": "\"A hint for the dialogue line\" Nadia Voss says.",
-      "translated": "\"Un indiciu pentru replica de dialog\" spune Nadia Voss."
+      "source": "\"Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+      "translated": "\"Theo streams the room live while officers realize the cover-up reaches beyond one report."
+    },
+    {
+      "path": "chapter.chapter-004.paragraph.7",
+      "chunkIndex": 3,
+      "source": "\" Nadia Voss says.",
+      "translated": "\" Nadia Voss says."
     },
     {
       "path": "chapter.chapter-004.paragraph.8",
       "chunkIndex": 1,
-      "source": "Nadia Voss understands now that the belief the protagonist holds after change concealment-breeds-larger-collapse.",
-      "translated": "Nadia Voss intelege acum ca the belief the protagonist holds after change concealment-breeds-larger-collapse."
+      "source": "Nadia Voss understands now that evidence survives only when someone refuses the procedure designed to neutralize it concealment-breeds-larger-collapse.",
+      "translated": "Nadia Voss intelege acum ca evidence survives only when someone refuses the procedure designed to neutralize it concealment-breeds-larger-collapse."
     },
     {
       "path": "chapter.chapter-004.paragraph.8",

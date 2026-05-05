@@ -2,10 +2,10 @@
 sequence-type: investigation
 link-logic: causal
 chapter: $chapter-004
-objective: the narrative objective of this sequence
+objective: move the evidence faster than the suspension order
 scene-chain: scene-004-01, scene-004-02, scene-004-03
 carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
-conflict-line: Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.
+conflict-line: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 payoff: the sequence delivers its final irreversible choice
 
 @location-004-anchor define
@@ -13,30 +13,30 @@ chapter: $chapter-004
 primary-setting: $location-primary
 secondary-setting: $location-secondary
 sensory-anchor: diesel sheen, wet rope, fluorescent glare on metal trays
-social-signal: how this location signals social dynamics
-symbolic-charge: the symbolic weight this location carries
-conflict-use: how this location intensifies conflict
+social-signal: everyone speaks in clipped inventory terms because the room only respects what can be tagged
+symbolic-charge: a warehouse where facts are stored just long enough to be reassigned
+conflict-use: physical traces keep resisting the official story each time they are catalogued
 
 @rule-pressure-004-core apply
 chapter: $chapter-004
 rule-reference: $world-rule-primary
-visible-symptom: how the world rule becomes visible to characters
-action-limitation: how the world rule limits what characters can do
-conflict-output: what kind of conflict the world rule produces
+visible-symptom: logs are complete on paper but physically impossible when matched against the river timing
+action-limitation: Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
+conflict-output: every lawful request alerts the people most interested in erasing the answer
 reveal-pattern: show-consequence-first-explain-cause-later
 
 @arc-004-protagonist map
 chapter: $chapter-004
-entry-belief: the belief the protagonist holds at entry at the start of the culmination chapter
-challenge: Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.
-insight-pressure: the pressure that forces insight
-exit-belief: the belief the protagonist holds after change after the culmination chapter
+entry-belief: if she follows procedure closely enough, the truth will eventually surface at the start of the culmination chapter
+challenge: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+insight-pressure: command authority becomes visible complicity
+exit-belief: evidence survives only when someone refuses the procedure designed to neutralize it after the culmination chapter
 
 @arc-004-relationship map
 chapter: $chapter-004
 pair: $character-protagonist-001, $character-counterpart-001
 entry-dynamic: professional-alliance-with-unequal-risk
-stress-line: Nadia Voss keeps forcing Nadia Voss to choose between control and honesty
+stress-line: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 exit-dynamic: altered-but-legible-bond
 
 @alternation-004-core arrange
@@ -50,42 +50,42 @@ chapter: $chapter-004
 showing-mode: direct-showing
 focalization: internal-single
 time-space: $location-primary
-introduction: how this scene opens
-development: how this scene develops
-conflict: Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.
-resolution: how this scene resolves
+introduction: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+development: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+conflict: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+resolution: She names him and files the footage directly to the prosecutor while the live stream continues.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: how this scene changes the story state
+state-change: the case survives because the institution loses control of its own narrative
 
 @action-004-1 place
 action-mode: pursuit
 scene: $scene-004-01
 actor: $character-protagonist-001
-goal: what the protagonist tries to accomplish
-obstacle: what prevents easy success
+goal: move the evidence faster than the suspension order
+obstacle: the briefing room was built to keep testimony internal and deniable
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-004-1 place
 scope: $scene-004-01
 type: external-character
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: what is at stake in this conflict
-escalation: how this conflict intensifies
+stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
+escalation: Theo streams the room live while officers realize the cover-up reaches beyond one report.
 
 @event-004-1 trigger
 scope: $scene-004-01
 event-type: discovery
-trigger: what triggers this event
-impact: the impact of this event
-follow-through: what follows from this event
+trigger: the footage freezes on Soren entering the lock corridor minutes after the murder
+impact: command authority becomes visible complicity
+follow-through: the victim finally receives a case worthy of the facts
 
 @dialogue-turn-004-01-01 line
 scene: $scene-004-01
 speaker: $character-counterpart-001
 intent: tease-probe
 subtext: uses wit to test whether the wound can be named safely
-line-hint: a hint for the dialogue line
+line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
 reaction-beat: The joke opens a bruise neither speaker can ignore now.
 
 @dialogue-turn-004-01-02 line
@@ -93,7 +93,7 @@ scene: $scene-004-01
 speaker: $character-protagonist-001
 intent: tease-probe
 subtext: uses wit to test whether the wound can be named safely
-line-hint: a hint for the dialogue line
+line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
 reaction-beat: The joke opens a bruise neither speaker can ignore now.
 
 @scene-004-02 define
@@ -101,42 +101,42 @@ chapter: $chapter-004
 showing-mode: introspective
 focalization: internal-single
 time-space: $location-primary
-introduction: how this scene opens
-development: how this scene develops
-conflict: Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.
-resolution: how this scene resolves
+introduction: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+development: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+conflict: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+resolution: She names him and files the footage directly to the prosecutor while the live stream continues.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: how this scene changes the story state
+state-change: the case survives because the institution loses control of its own narrative
 
 @action-004-2 place
 action-mode: negotiation
 scene: $scene-004-02
 actor: $character-protagonist-001
-goal: what the protagonist tries to accomplish
-obstacle: what prevents easy success
+goal: the victim finally receives a case worthy of the facts
+obstacle: the briefing room was built to keep testimony internal and deniable
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-004-2 place
 scope: $scene-004-02
 type: internal
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: what is at stake in this conflict
-escalation: how this conflict intensifies
+stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
+escalation: Theo streams the room live while officers realize the cover-up reaches beyond one report.
 
 @event-004-2 trigger
 scope: $scene-004-02
 event-type: discovery
-trigger: what triggers this event
-impact: the impact of this event
-follow-through: what follows from this event
+trigger: the footage freezes on Soren entering the lock corridor minutes after the murder
+impact: command authority becomes visible complicity
+follow-through: the victim finally receives a case worthy of the facts
 
 @dialogue-turn-004-02-01 line
 scene: $scene-004-02
 speaker: $character-counterpart-001
 intent: tease-probe
 subtext: uses wit to test whether the wound can be named safely
-line-hint: a hint for the dialogue line
+line-hint: Briefing room breach
 reaction-beat: The joke opens a bruise neither speaker can ignore now.
 
 @dialogue-turn-004-02-02 line
@@ -144,7 +144,7 @@ scene: $scene-004-02
 speaker: $character-protagonist-001
 intent: answer-honestly
 subtext: gives away more vulnerability than strategy intended
-line-hint: a hint for the dialogue line
+line-hint: Briefing room breach
 reaction-beat: The honesty changes the balance of power in the room.
 
 @scene-004-03 define
@@ -152,42 +152,42 @@ chapter: $chapter-004
 showing-mode: mixed
 focalization: internal-single
 time-space: $location-primary
-introduction: how this scene opens
-development: how this scene develops
-conflict: Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.
-resolution: how this scene resolves
+introduction: the footage freezes on Soren entering the lock corridor minutes after the murder
+development: command authority becomes visible complicity
+conflict: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+resolution: She names him and files the footage directly to the prosecutor while the live stream continues.
 exit: the chapter hands off to a sharper culmination consequence
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: how this scene changes the story state
+state-change: the case survives because the institution loses control of its own narrative
 
 @action-004-3 place
 action-mode: negotiation
 scene: $scene-004-03
 actor: $character-protagonist-001
-goal: what the protagonist tries to accomplish
-obstacle: what prevents easy success
-result: the result of the attempted action
+goal: Briefing room breach
+obstacle: the briefing room was built to keep testimony internal and deniable
+result: the case survives because the institution loses control of its own narrative
 
 @conflict-004-3 place
 scope: $scene-004-03
 type: mixed
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: what is at stake in this conflict
-escalation: how this conflict intensifies
+stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
+escalation: Theo streams the room live while officers realize the cover-up reaches beyond one report.
 
 @event-004-3 trigger
 scope: $scene-004-03
 event-type: reversal
-trigger: what triggers this event
-impact: the impact of this event
-follow-through: what follows from this event
+trigger: the footage freezes on Soren entering the lock corridor minutes after the murder
+impact: command authority becomes visible complicity
+follow-through: the victim finally receives a case worthy of the facts
 
 @dialogue-turn-004-03-01 line
 scene: $scene-004-03
 speaker: $character-counterpart-001
 intent: name-risk
 subtext: speaks the consequence both speakers hoped could stay implied
-line-hint: a hint for the dialogue line
+line-hint: Theo streams the room live while officers realize the cover-up reaches beyond one report.
 reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @dialogue-turn-004-03-02 line
@@ -195,13 +195,13 @@ scene: $scene-004-03
 speaker: $character-protagonist-001
 intent: deflect
 subtext: turns confession sideways to protect status and control
-line-hint: a hint for the dialogue line
+line-hint: Theo streams the room live while officers realize the cover-up reaches beyond one report.
 reaction-beat: The evasion makes the silence more visible than the answer would have.
 
 @description-004-atmosphere apply
 scope: $chapter-004
 description-type: setting
-focus: what the description focuses on
+focus: a warehouse where facts are stored just long enough to be reassigned
 function: narrative
 rhythm-effect: frame
 
@@ -222,7 +222,7 @@ time-handling: mixed
 scene: $scene-004-03
 character: $character-protagonist-001
 function: characterization
-trigger: discovering that her own precinct archived the decisive evidence
+trigger: command authority becomes visible complicity
 texture: reflective
 
 @suspense-004-core build
@@ -236,48 +236,48 @@ Delayed access, withheld explanation, and emotional pressure should work togethe
 @pause-004-core hold
 scope: $chapter-004
 pause-function: explanatory
-focus: what this pause allows the reader to absorb
+focus: the case survives because the institution loses control of its own narrative
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-004-core burst
 scope: $chapter-004
 acceleration-mode: pursuit-compression
-trigger: what triggers the acceleration
+trigger: the footage freezes on Soren entering the lock corridor minutes after the murder
 reader-effect: compress time and force the next consequence to land without emotional escape
 target-zone: $scene-004-03
 
 @location-004-anchor refine
 ref: sensory-anchor:location-primary -> diesel sheen, wet rope, fluorescent glare on metal trays
-ref: social-signal:location-primary -> how this location signals social dynamics
-ref: symbolic-charge:location-primary -> the symbolic weight this location carries
-ref: conflict-use:location-primary -> how this location intensifies conflict
+ref: social-signal:location-primary -> everyone speaks in clipped inventory terms because the room only respects what can be tagged
+ref: symbolic-charge:location-primary -> a warehouse where facts are stored just long enough to be reassigned
+ref: conflict-use:location-primary -> physical traces keep resisting the official story each time they are catalogued
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the place feel procedural, political, and materially specific
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @rule-pressure-004-core refine
-ref: visible-symptom:culmination -> how the world rule becomes visible to characters
-ref: action-limitation:culmination -> how the world rule limits what characters can do
-ref: conflict-output-rule:culmination -> what kind of conflict the world rule produces
+ref: visible-symptom:culmination -> logs are complete on paper but physically impossible when matched against the river timing
+ref: action-limitation:culmination -> Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
+ref: conflict-output-rule:culmination -> every lawful request alerts the people most interested in erasing the answer
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make rules generate clue pressure and institutional obstruction
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @arc-004-protagonist refine
-ref: entry-belief:protagonist -> the belief the protagonist holds at entry
-ref: exit-belief:protagonist -> the belief the protagonist holds after change
-ref: challenge:protagonist-culmination -> Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.
-ref: insight-pressure:protagonist-culmination -> the pressure that forces insight
+ref: entry-belief:protagonist -> if she follows procedure closely enough, the truth will eventually surface
+ref: exit-belief:protagonist -> evidence survives only when someone refuses the procedure designed to neutralize it
+ref: challenge:protagonist-culmination -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+ref: insight-pressure:protagonist-culmination -> command authority becomes visible complicity
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the arc track moral courage as much as clue discovery
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @arc-004-relationship refine
-ref: relationship-stress:culmination -> Nadia Voss keeps forcing Nadia Voss to choose between control and honesty
+ref: relationship-stress:culmination -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the arc track moral courage as much as clue discovery
@@ -291,11 +291,11 @@ should: use pacing to alternate clue logic, danger, and institutional tension
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-004-01 refine
-ref: scene-introduction:culmination-0 -> how this scene opens
-ref: scene-development:culmination-0 -> how this scene develops
-ref: scene-conflict:culmination -> Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.
-ref: scene-resolution:culmination-mid -> how this scene resolves
-ref: scene-state-change:culmination-mid -> how this scene changes the story state
+ref: scene-introduction:culmination-0 -> During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+ref: scene-development:culmination-0 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
+ref: scene-conflict:culmination -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+ref: scene-resolution:culmination-mid -> She names him and files the footage directly to the prosecutor while the live stream continues.
+ref: scene-state-change:culmination-mid -> the case survives because the institution loses control of its own narrative
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -304,7 +304,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-004-01-01 refine
 ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
 ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:culmination-0-0 -> a hint for the dialogue line
+ref: dialogue-line-hint:culmination-0-0 -> the footage freezes on Soren entering the lock corridor minutes after the murder
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -313,18 +313,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-004-01-02 refine
 ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
 ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:culmination-0-1 -> a hint for the dialogue line
+ref: dialogue-line-hint:culmination-0-1 -> the footage freezes on Soren entering the lock corridor minutes after the murder
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-004-02 refine
-ref: scene-conflict:culmination -> Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.
-ref: scene-resolution:culmination-mid -> how this scene resolves
-ref: scene-state-change:culmination-mid -> how this scene changes the story state
-ref: scene-introduction:culmination-1 -> how this scene opens
-ref: scene-development:culmination-1 -> how this scene develops
+ref: scene-conflict:culmination -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+ref: scene-resolution:culmination-mid -> She names him and files the footage directly to the prosecutor while the live stream continues.
+ref: scene-state-change:culmination-mid -> the case survives because the institution loses control of its own narrative
+ref: scene-introduction:culmination-1 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
+ref: scene-development:culmination-1 -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -333,7 +333,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-004-02-01 refine
 ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
 ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:culmination-1-0 -> a hint for the dialogue line
+ref: dialogue-line-hint:culmination-1-0 -> Briefing room breach
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -342,18 +342,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-004-02-02 refine
 ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
 ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:culmination-1-1 -> a hint for the dialogue line
+ref: dialogue-line-hint:culmination-1-1 -> Briefing room breach
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-004-03 refine
-ref: scene-conflict:culmination -> Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.
-ref: scene-introduction:culmination-2 -> how this scene opens
-ref: scene-development:culmination-2 -> how this scene develops
-ref: scene-resolution:culmination-final -> how this scene resolves
-ref: scene-state-change:culmination-final -> how this scene changes the story state
+ref: scene-conflict:culmination -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+ref: scene-introduction:culmination-2 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: scene-development:culmination-2 -> command authority becomes visible complicity
+ref: scene-resolution:culmination-final -> She names him and files the footage directly to the prosecutor while the live stream continues.
+ref: scene-state-change:culmination-final -> the case survives because the institution loses control of its own narrative
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -362,7 +362,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-004-03-01 refine
 ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
 ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
-ref: dialogue-line-hint:culmination-2-0 -> a hint for the dialogue line
+ref: dialogue-line-hint:culmination-2-0 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -371,7 +371,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-004-03-02 refine
 ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
 ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:culmination-2-1 -> a hint for the dialogue line
+ref: dialogue-line-hint:culmination-2-1 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -392,14 +392,14 @@ should: prefer clean procedural detail over melodramatic explanation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @pause-004-core refine
-ref: pause-focus:culmination -> what this pause allows the reader to absorb
+ref: pause-focus:culmination -> the case survives because the institution loses control of its own narrative
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pacing to alternate clue logic, danger, and institutional tension
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @acceleration-004-core refine
-ref: acceleration-trigger:culmination -> what triggers the acceleration
+ref: acceleration-trigger:culmination -> the footage freezes on Soren entering the lock corridor minutes after the murder
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pacing to alternate clue logic, danger, and institutional tension

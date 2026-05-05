@@ -4,8 +4,8 @@ complexity: round
 development-type: dynamic
 archetype: hero
 role: protagonist
-desire: what the protagonist of this science fiction story wants most
-need: what the protagonist truly needs but cannot yet accept
+desire: trace the corrupted recall patterns and restore the missing vote archive
+need: accept that elegant systems can become moral anesthesia
 fear: learning that she designed part of the erasure protocol herself
 lie: control-prevents-loss
 truth: visible-cost-is-preferable-to-stable-falsehood
@@ -20,8 +20,8 @@ complexity: round
 development-type: dynamic
 archetype: witness
 role: witness
-desire: what the protagonist of this science fiction story wants most
-need: what the protagonist truly needs but cannot yet accept
+desire: trace the corrupted recall patterns and restore the missing vote archive
+need: accept that elegant systems can become moral anesthesia
 fear: learning that she designed part of the erasure protocol herself
 lie: distance keeps the self intact
 truth: shared risk can create stronger agency than isolation
@@ -31,13 +31,13 @@ contradictions: loyal yet evasive, observant yet withholding
 relationships: $character-protagonist-001 [cooperative], $character-pressure-001 [conflictual]
 
 @character-pressure-001 define
-name: PERSON_003
+name: Director Cael Oris
 complexity: round
 development-type: static
 archetype: shadow
 role: antagonist
-desire: what the protagonist of this science fiction story wants most
-need: what the protagonist truly needs but cannot yet accept
+desire: trace the corrupted recall patterns and restore the missing vote archive
+need: accept that elegant systems can become moral anesthesia
 fear: learning that she designed part of the erasure protocol herself
 lie: stability justifies concealment
 truth: concealment breeds larger collapse

@@ -2,7 +2,7 @@
 sequence-type: escape
 link-logic: mixed
 chapter: $chapter-002
-objective: technical distance gives way to personal implication
+objective: locate the archive ring without triggering a council lockdown
 scene-chain: scene-002-01, scene-002-02, scene-002-03
 carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
 conflict-line: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
@@ -13,24 +13,24 @@ chapter: $chapter-002
 primary-setting: $location-primary
 secondary-setting: $location-secondary
 sensory-anchor: ionized citrus, coolant mist, glass leaves pulsing with archived light
-social-signal: how this location signals social dynamics
-symbolic-charge: the symbolic weight this location carries
-conflict-use: how this location intensifies conflict
+social-signal: citizens come here to rehearse approved memories in carefully moderated quiet
+symbolic-charge: an engineered garden where recollection has become a civic utility
+conflict-use: intimacy keeps colliding with the fact that every remembered detail may be edited
 
 @rule-pressure-002-core apply
 chapter: $chapter-002
 rule-reference: $world-rule-primary
-visible-symptom: how the world rule becomes visible to characters
-action-limitation: how the world rule limits what characters can do
-conflict-output: what kind of conflict the world rule produces
+visible-symptom: citizens remember the emotional aftermath of conflict but not the decisions that created it
+action-limitation: Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.
+conflict-output: technical maintenance becomes indistinguishable from political censorship
 reveal-pattern: embed-rule-in-dialogue
 
 @arc-002-protagonist map
 chapter: $chapter-002
-entry-belief: the belief the protagonist holds at entry at the start of the escalation chapter
+entry-belief: stable systems prevent larger human harm at the start of the escalation chapter
 challenge: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
-insight-pressure: technical distance gives way to personal implication
-exit-belief: the belief the protagonist holds after change after the escalation chapter
+insight-pressure: the conspiracy reaches into Elian's professional past
+exit-belief: a system that edits consent cannot claim legitimacy even if it remains efficient after the escalation chapter
 
 @arc-002-relationship map
 chapter: $chapter-002
@@ -56,28 +56,28 @@ conflict: Elian still hopes the council preserved the memories for lawful quaran
 resolution: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: technical distance gives way to personal implication
+state-change: the station reveals a physical pathway for forgetting
 
 @action-002-1 place
 action-mode: negotiation
 scene: $scene-002-01
 actor: $character-protagonist-001
-goal: technical distance gives way to personal implication
-obstacle: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+goal: locate the archive ring without triggering a council lockdown
+obstacle: the shuttle navigation grid reassigns routes whenever forbidden sectors are approached
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-002-1 place
 scope: $scene-002-01
 type: internal
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: what is at stake in this conflict
+stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
 escalation: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
 
 @event-002-1 trigger
 scope: $scene-002-01
 event-type: arrival
-trigger: Cargo route for the vanished vote
-impact: technical distance gives way to personal implication
+trigger: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+impact: the conspiracy reaches into Elian's professional past
 follow-through: technical distance gives way to personal implication
 
 @dialogue-turn-002-01-01 line
@@ -85,7 +85,7 @@ scene: $scene-002-01
 speaker: $character-counterpart-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: Cargo route for the vanished vote
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
 reaction-beat: The challenge strips politeness away from the scene.
 
 @dialogue-turn-002-01-02 line
@@ -93,7 +93,7 @@ scene: $scene-002-01
 speaker: $character-protagonist-001
 intent: deflect
 subtext: turns confession sideways to protect status and control
-line-hint: Cargo route for the vanished vote
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
 reaction-beat: The evasion makes the silence more visible than the answer would have.
 
 @scene-002-02 define
@@ -107,28 +107,28 @@ conflict: Elian still hopes the council preserved the memories for lawful quaran
 resolution: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: technical distance gives way to personal implication
+state-change: the station reveals a physical pathway for forgetting
 
 @action-002-2 place
 action-mode: attempt
 scene: $scene-002-02
 actor: $character-protagonist-001
 goal: technical distance gives way to personal implication
-obstacle: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+obstacle: the shuttle navigation grid reassigns routes whenever forbidden sectors are approached
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-002-2 place
 scope: $scene-002-02
 type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: what is at stake in this conflict
+stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
 escalation: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
 
 @event-002-2 trigger
 scope: $scene-002-02
 event-type: discovery
-trigger: Cargo route for the vanished vote
-impact: technical distance gives way to personal implication
+trigger: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+impact: the conspiracy reaches into Elian's professional past
 follow-through: technical distance gives way to personal implication
 
 @dialogue-turn-002-02-01 line
@@ -152,34 +152,34 @@ chapter: $chapter-002
 showing-mode: dialogic
 focalization: internal-single
 time-space: $location-primary
-introduction: Yara flies Elian through maintenance lanes no civilian archivist is meant to access.
-development: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+introduction: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+development: the conspiracy reaches into Elian's professional past
 conflict: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
 resolution: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
 exit: the chapter hands off to a sharper escalation consequence
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: technical distance gives way to personal implication
+state-change: the station reveals a physical pathway for forgetting
 
 @action-002-3 place
 action-mode: sacrifice
 scene: $scene-002-03
 actor: $character-protagonist-001
 goal: Cargo route for the vanished vote
-obstacle: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
-result: technical distance gives way to personal implication
+obstacle: the shuttle navigation grid reassigns routes whenever forbidden sectors are approached
+result: the station reveals a physical pathway for forgetting
 
 @conflict-002-3 place
 scope: $scene-002-03
 type: mixed
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: what is at stake in this conflict
+stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
 escalation: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
 
 @event-002-3 trigger
 scope: $scene-002-03
 event-type: decision
-trigger: Cargo route for the vanished vote
-impact: technical distance gives way to personal implication
+trigger: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+impact: the conspiracy reaches into Elian's professional past
 follow-through: technical distance gives way to personal implication
 
 @dialogue-turn-002-03-01 line
@@ -201,7 +201,7 @@ reaction-beat: The honesty changes the balance of power in the room.
 @description-002-atmosphere apply
 scope: $chapter-002
 description-type: atmosphere
-focus: what the description focuses on
+focus: an engineered garden where recollection has become a civic utility
 function: atmospheric
 rhythm-effect: frame
 
@@ -222,7 +222,7 @@ time-handling: mixed
 scene: $scene-002-03
 character: $character-protagonist-001
 function: psychological-insight
-trigger: technical distance gives way to personal implication
+trigger: the conspiracy reaches into Elian's professional past
 texture: reflective
 
 @suspense-002-core build
@@ -236,47 +236,47 @@ Delayed access, withheld explanation, and emotional pressure should work togethe
 @pause-002-core hold
 scope: $chapter-002
 pause-function: atmospheric
-focus: technical distance gives way to personal implication
+focus: the station reveals a physical pathway for forgetting
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-002-core burst
 scope: $chapter-002
 acceleration-mode: montage
-trigger: Cargo route for the vanished vote
+trigger: one phantom crate is tagged with Elian's own authorization signature from two years earlier
 reader-effect: compress time and force the next consequence to land without emotional escape
 target-zone: $scene-002-03
 
 @cliffhanger-002-exit cut
 scope: $chapter-002
 cliffhanger-type: interrupted-revelation
-cut-moment: Cargo route for the vanished vote
+cut-moment: one phantom crate is tagged with Elian's own authorization signature from two years earlier
 continuation-pressure: technical distance gives way to personal implication
 
 @location-002-anchor refine
 ref: sensory-anchor:location-primary -> ionized citrus, coolant mist, glass leaves pulsing with archived light
-ref: social-signal:location-primary -> how this location signals social dynamics
-ref: symbolic-charge:location-primary -> the symbolic weight this location carries
-ref: conflict-use:location-primary -> how this location intensifies conflict
+ref: social-signal:location-primary -> citizens come here to rehearse approved memories in carefully moderated quiet
+ref: symbolic-charge:location-primary -> an engineered garden where recollection has become a civic utility
+ref: conflict-use:location-primary -> intimacy keeps colliding with the fact that every remembered detail may be edited
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the setting engineered, tactile, and ethically revealing
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @rule-pressure-002-core refine
-ref: visible-symptom:escalation -> how the world rule becomes visible to characters
-ref: action-limitation:escalation -> how the world rule limits what characters can do
-ref: conflict-output-rule:escalation -> what kind of conflict the world rule produces
+ref: visible-symptom:escalation -> citizens remember the emotional aftermath of conflict but not the decisions that created it
+ref: action-limitation:escalation -> Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.
+ref: conflict-output-rule:escalation -> technical maintenance becomes indistinguishable from political censorship
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let system rules create action limits, not just background lore
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @arc-002-protagonist refine
-ref: entry-belief:protagonist -> the belief the protagonist holds at entry
-ref: exit-belief:protagonist -> the belief the protagonist holds after change
+ref: entry-belief:protagonist -> stable systems prevent larger human harm
+ref: exit-belief:protagonist -> a system that edits consent cannot claim legitimacy even if it remains efficient
 ref: challenge:protagonist-escalation -> Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
-ref: insight-pressure:protagonist-escalation -> technical distance gives way to personal implication
+ref: insight-pressure:protagonist-escalation -> the conspiracy reaches into Elian's professional past
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the arc bind system insight to ethical choice
@@ -301,7 +301,7 @@ ref: scene-introduction:escalation-0 -> Yara flies Elian through maintenance lan
 ref: scene-development:escalation-0 -> They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
 ref: scene-conflict:escalation -> Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
 ref: scene-resolution:escalation-mid -> A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
-ref: scene-state-change:escalation-mid -> technical distance gives way to personal implication
+ref: scene-state-change:escalation-mid -> the station reveals a physical pathway for forgetting
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance technical detail with human disorientation
@@ -309,7 +309,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 
 @dialogue-turn-002-01-01 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
-ref: dialogue-line-hint:escalation-0-0 -> Cargo route for the vanished vote
+ref: dialogue-line-hint:escalation-0-0 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
@@ -319,7 +319,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-002-01-02 refine
 ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
 ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:escalation-0-1 -> Cargo route for the vanished vote
+ref: dialogue-line-hint:escalation-0-1 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let technical vocabulary carry ethical pressure instead of decorative jargon
@@ -328,7 +328,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @scene-002-02 refine
 ref: scene-conflict:escalation -> Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
 ref: scene-resolution:escalation-mid -> A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
-ref: scene-state-change:escalation-mid -> technical distance gives way to personal implication
+ref: scene-state-change:escalation-mid -> the station reveals a physical pathway for forgetting
 ref: scene-introduction:escalation-1 -> They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
 ref: scene-development:escalation-1 -> Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
@@ -356,10 +356,10 @@ The refined artifact preserves identifier continuity so deterministic validation
 
 @scene-002-03 refine
 ref: scene-conflict:escalation -> Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
-ref: scene-introduction:escalation-2 -> Yara flies Elian through maintenance lanes no civilian archivist is meant to access.
-ref: scene-development:escalation-2 -> They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+ref: scene-introduction:escalation-2 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
+ref: scene-development:escalation-2 -> the conspiracy reaches into Elian's professional past
 ref: scene-resolution:escalation-final -> A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
-ref: scene-state-change:escalation-final -> technical distance gives way to personal implication
+ref: scene-state-change:escalation-final -> the station reveals a physical pathway for forgetting
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance technical detail with human disorientation
@@ -398,14 +398,14 @@ should: use concrete system language without losing emotional readability
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @pause-002-core refine
-ref: pause-focus:escalation -> technical distance gives way to personal implication
+ref: pause-focus:escalation -> the station reveals a physical pathway for forgetting
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance orientation, system pressure, and kinetic consequence
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @acceleration-002-core refine
-ref: acceleration-trigger:escalation -> Cargo route for the vanished vote
+ref: acceleration-trigger:escalation -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance orientation, system pressure, and kinetic consequence

@@ -7,7 +7,7 @@ Sequential chunk translation trace for the translated reader edition.
   "bookId": "qa-drama-silence",
   "sourceLanguage": "en",
   "targetLanguage": "ro",
-  "chunkCount": 100,
+  "chunkCount": 101,
   "chunks": [
     {
       "path": "front.subtitle",
@@ -36,8 +36,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "front.world-rule",
       "chunkIndex": 1,
-      "source": "the world rule that governs this domain",
-      "translated": "the world rule that governs this domain"
+      "source": "Every flood-district compensation claim must pass through the mediation office before it reaches the court archive.",
+      "translated": "Every flood-district compensation claim must pass through the mediation office before it reaches the court archive."
     },
     {
       "path": "chapter.chapter-001.paragraph.1",
@@ -48,14 +48,14 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.1",
       "chunkIndex": 2,
-      "source": "How this location signals social dynamics.",
-      "translated": "cum semnaleaza acest loc dinamica sociala."
+      "source": "Every conversation sounds temporary because the office trained people to trade truth for calm.",
+      "translated": "Fiecare conversatie suna provizoriu fiindca biroul i-a invatat pe oameni sa schimbe adevarul pe calm."
     },
     {
       "path": "chapter.chapter-001.paragraph.1",
       "chunkIndex": 3,
-      "source": "Vera Quinn reads the room too carefully, while PERSON_003 keeps alive the version of events other people would rather believe.",
-      "translated": "Vera Quinn citeste prea atent incaperea, iar PERSON_003 mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
+      "source": "Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
+      "translated": "Vera Quinn citeste prea atent incaperea, iar Corin Voss mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
@@ -66,8 +66,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 2,
-      "source": "Mira Solari tries to Mira can no longer pretend the death belongs only to the past, but Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall..",
-      "translated": "Mira Solari incearca sa mira can no longer pretend the death belongs only to the past, dar mira are nevoie imediat de ajutorul Verei, dar Vera refuza sa se miste fara dovezi care sa reziste in fata primariei.."
+      "source": "Mira Solari tries to secure the recording and identify the file number mentioned in it, but family members keep interrupting every attempt to name what the voice implies.",
+      "translated": "Mira Solari incearca sa secure the recording and identify the file number mentioned in it, dar family members keep interrupting every attempt to name what the voice implies."
     },
     {
       "path": "chapter.chapter-001.paragraph.2",
@@ -78,20 +78,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 4,
-      "source": "Memorial supper recording.",
-      "translated": "Inregistrarea de la masa de pomenire."
+      "source": "The recording ends with Mira's brother naming Corin before the tape cuts off.",
+      "translated": "Inregistrarea se incheie cu fratele Mirei rostindu-i numele lui Corin chiar inainte ca banda sa se taie."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 1,
-      "source": "\"Memorial supper recording\" Vera Quinn says.",
-      "translated": "\"Inregistrarea de la masa de pomenire\" spune Vera Quinn."
+      "source": "\"The recording ends with Mira's brother naming Corin before the tape cuts off\" Vera Quinn says.",
+      "translated": "\"The recording ends with Mira's brother naming Corin before the tape cuts off\" spune Vera Quinn."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 2,
-      "source": "\"Memorial supper recording\" Mira Solari says.",
-      "translated": "\"Inregistrarea de la masa de pomenire\" spune Mira Solari."
+      "source": "\"The recording ends with Mira's brother naming Corin before the tape cuts off\" Mira Solari says.",
+      "translated": "\"The recording ends with Mira's brother naming Corin before the tape cuts off\" spune Mira Solari."
     },
     {
       "path": "chapter.chapter-001.paragraph.4",
@@ -102,8 +102,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 2,
-      "source": "Mira Solari tries to Mira can no longer pretend the death belongs only to the past, but Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall..",
-      "translated": "Mira Solari incearca sa mira can no longer pretend the death belongs only to the past, dar mira are nevoie imediat de ajutorul Verei, dar Vera refuza sa se miste fara dovezi care sa reziste in fata primariei.."
+      "source": "Mira Solari tries to Mira can no longer pretend the death belongs only to the past, but family members keep interrupting every attempt to name what the voice implies.",
+      "translated": "Mira Solari incearca sa mira can no longer pretend the death belongs only to the past, dar family members keep interrupting every attempt to name what the voice implies."
     },
     {
       "path": "chapter.chapter-001.paragraph.4",
@@ -114,8 +114,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 4,
-      "source": "Memorial supper recording.",
-      "translated": "Inregistrarea de la masa de pomenire."
+      "source": "The recording ends with Mira's brother naming Corin before the tape cuts off.",
+      "translated": "Inregistrarea se incheie cu fratele Mirei rostindu-i numele lui Corin chiar inainte ca banda sa se taie."
     },
     {
       "path": "chapter.chapter-001.paragraph.5",
@@ -132,14 +132,14 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.6",
       "chunkIndex": 1,
-      "source": "Later, in the shuttered mediation office above the old customs hall, at her brother's memorial supper, mira hears a hidden recording tucked inside a borrowed prayer book..",
-      "translated": "Mai tarziu, in biroul de mediere inchis deasupra vechii hale vamale, at her brother's memorial supper, mira hears a hidden recording tucked inside a borrowed prayer book.."
+      "source": "Later, in the shuttered mediation office above the old customs hall, the recording ends with mira's brother naming corin before the tape cuts off.",
+      "translated": "Mai tarziu, in biroul de mediere inchis deasupra vechii hale vamale, inregistrarea se incheie cu fratele Mirei rostindu-i numele lui Corin chiar inainte ca banda sa se taie."
     },
     {
       "path": "chapter.chapter-001.paragraph.6",
       "chunkIndex": 2,
-      "source": "Mira Solari tries to Memorial supper recording, but Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall..",
-      "translated": "Mira Solari incearca sa inregistrarea de la masa de pomenire, dar mira are nevoie imediat de ajutorul Verei, dar Vera refuza sa se miste fara dovezi care sa reziste in fata primariei.."
+      "source": "Mira Solari tries to Memorial supper recording, but family members keep interrupting every attempt to name what the voice implies.",
+      "translated": "Mira Solari incearca sa inregistrarea de la masa de pomenire, dar family members keep interrupting every attempt to name what the voice implies."
     },
     {
       "path": "chapter.chapter-001.paragraph.6",
@@ -150,8 +150,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-001.paragraph.6",
       "chunkIndex": 4,
-      "source": "Memorial supper recording.",
-      "translated": "Inregistrarea de la masa de pomenire."
+      "source": "The recording ends with Mira's brother naming Corin before the tape cuts off.",
+      "translated": "Inregistrarea se incheie cu fratele Mirei rostindu-i numele lui Corin chiar inainte ca banda sa se taie."
     },
     {
       "path": "chapter.chapter-001.paragraph.7",
@@ -192,14 +192,14 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.1",
       "chunkIndex": 2,
-      "source": "How this location signals social dynamics.",
-      "translated": "cum semnaleaza acest loc dinamica sociala."
+      "source": "Every conversation sounds temporary because the office trained people to trade truth for calm.",
+      "translated": "Fiecare conversatie suna provizoriu fiindca biroul i-a invatat pe oameni sa schimbe adevarul pe calm."
     },
     {
       "path": "chapter.chapter-002.paragraph.1",
       "chunkIndex": 3,
-      "source": "Vera Quinn reads the room too carefully, while PERSON_003 keeps alive the version of events other people would rather believe.",
-      "translated": "Vera Quinn citeste prea atent incaperea, iar PERSON_003 mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
+      "source": "Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
+      "translated": "Vera Quinn citeste prea atent incaperea, iar Corin Voss mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
@@ -210,8 +210,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 2,
-      "source": "Mira Solari tries to Mira loses the comfort of treating her mother as untouched by the fraud, but Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again..",
-      "translated": "Mira Solari incearca sa mira loses the comfort of treating her mother as untouched by the fraud, dar vera vrea sa copieze registrul in tacere, in timp ce Mira vrea sa-l confrunte pe Corin inainte ca el sa poata recoda din nou fisierele.."
+      "source": "Mira Solari tries to extract enough records to prove the compensation pattern is deliberate, but the archive software now mirrors paper files only after political approval.",
+      "translated": "Mira Solari incearca sa extract enough records to prove the compensation pattern is deliberate, dar the archive software now mirrors paper files only after political approval."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
@@ -222,20 +222,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 4,
-      "source": "Archive window without signatures.",
-      "translated": "Fereastra de arhiva fara semnaturi."
+      "source": "One photographed page carries Mira's mother's signature beneath a false evacuation report.",
+      "translated": "O pagina fotografiata poarta semnatura mamei Mirei sub un raport fals de evacuare."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 1,
-      "source": "\"Archive window without signatures\" Vera Quinn says.",
-      "translated": "\"Fereastra de arhiva fara semnaturi\" spune Vera Quinn."
+      "source": "\"One photographed page carries Mira's mother's signature beneath a false evacuation report\" Vera Quinn says.",
+      "translated": "\"One photographed page carries Mira's mother's signature beneath a false evacuation report\" spune Vera Quinn."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 2,
-      "source": "\"Archive window without signatures\" Mira Solari says.",
-      "translated": "\"Fereastra de arhiva fara semnaturi\" spune Mira Solari."
+      "source": "\"One photographed page carries Mira's mother's signature beneath a false evacuation report\" Mira Solari says.",
+      "translated": "\"One photographed page carries Mira's mother's signature beneath a false evacuation report\" spune Mira Solari."
     },
     {
       "path": "chapter.chapter-002.paragraph.4",
@@ -246,8 +246,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.4",
       "chunkIndex": 2,
-      "source": "Mira Solari tries to Mira loses the comfort of treating her mother as untouched by the fraud, but Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again..",
-      "translated": "Mira Solari incearca sa mira loses the comfort of treating her mother as untouched by the fraud, dar vera vrea sa copieze registrul in tacere, in timp ce Mira vrea sa-l confrunte pe Corin inainte ca el sa poata recoda din nou fisierele.."
+      "source": "Mira Solari tries to Mira loses the comfort of treating her mother as untouched by the fraud, but the archive software now mirrors paper files only after political approval.",
+      "translated": "Mira Solari incearca sa mira loses the comfort of treating her mother as untouched by the fraud, dar the archive software now mirrors paper files only after political approval."
     },
     {
       "path": "chapter.chapter-002.paragraph.4",
@@ -258,8 +258,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.4",
       "chunkIndex": 4,
-      "source": "Archive window without signatures.",
-      "translated": "Fereastra de arhiva fara semnaturi."
+      "source": "One photographed page carries Mira's mother's signature beneath a false evacuation report.",
+      "translated": "O pagina fotografiata poarta semnatura mamei Mirei sub un raport fals de evacuare."
     },
     {
       "path": "chapter.chapter-002.paragraph.5",
@@ -276,14 +276,14 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.6",
       "chunkIndex": 1,
-      "source": "Later, in the shuttered mediation office above the old customs hall, inside the mediation office, mira and vera find claims approved for the dead and rejected for the living..",
-      "translated": "Mai tarziu, in biroul de mediere inchis deasupra vechii hale vamale, inside the mediation office, mira and vera find claims approved for the dead and rejected for the living.."
+      "source": "Later, in the shuttered mediation office above the old customs hall, one photographed page carries mira's mother's signature beneath a false evacuation report.",
+      "translated": "Mai tarziu, in biroul de mediere inchis deasupra vechii hale vamale, o pagina fotografiata poarta semnatura mamei Mirei sub un raport fals de evacuare."
     },
     {
       "path": "chapter.chapter-002.paragraph.6",
       "chunkIndex": 2,
-      "source": "Mira Solari tries to Archive window without signatures, but Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again..",
-      "translated": "Mira Solari incearca sa fereastra de arhiva fara semnaturi, dar vera vrea sa copieze registrul in tacere, in timp ce Mira vrea sa-l confrunte pe Corin inainte ca el sa poata recoda din nou fisierele.."
+      "source": "Mira Solari tries to Archive window without signatures, but the archive software now mirrors paper files only after political approval.",
+      "translated": "Mira Solari incearca sa fereastra de arhiva fara semnaturi, dar the archive software now mirrors paper files only after political approval."
     },
     {
       "path": "chapter.chapter-002.paragraph.6",
@@ -294,8 +294,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-002.paragraph.6",
       "chunkIndex": 4,
-      "source": "Archive window without signatures.",
-      "translated": "Fereastra de arhiva fara semnaturi."
+      "source": "One photographed page carries Mira's mother's signature beneath a false evacuation report.",
+      "translated": "O pagina fotografiata poarta semnatura mamei Mirei sub un raport fals de evacuare."
     },
     {
       "path": "chapter.chapter-002.paragraph.7",
@@ -336,14 +336,14 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.1",
       "chunkIndex": 2,
-      "source": "How this location signals social dynamics.",
-      "translated": "cum semnaleaza acest loc dinamica sociala."
+      "source": "Every conversation sounds temporary because the office trained people to trade truth for calm.",
+      "translated": "Fiecare conversatie suna provizoriu fiindca biroul i-a invatat pe oameni sa schimbe adevarul pe calm."
     },
     {
       "path": "chapter.chapter-003.paragraph.1",
       "chunkIndex": 3,
-      "source": "Vera Quinn reads the room too carefully, while PERSON_003 keeps alive the version of events other people would rather believe.",
-      "translated": "Vera Quinn citeste prea atent incaperea, iar PERSON_003 mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
+      "source": "Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
+      "translated": "Vera Quinn citeste prea atent incaperea, iar Corin Voss mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
@@ -354,8 +354,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 2,
-      "source": "Mira Solari tries to the case becomes inseparable from the commemoration ceremony, but Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely..",
-      "translated": "Mira Solari incearca sa the case becomes inseparable from the commemoration ceremony, dar mira intelege ca expunerea publica ii va sterge pensia de care depinde mama ei, in timp ce tacerea il va sterge complet pe fratele ei.."
+      "source": "Mira Solari tries to find a form of testimony that cannot be dismissed as private grief, but every valid witness is tied to the town through debt, salary, or kinship.",
+      "translated": "Mira Solari incearca sa find a form of testimony that cannot be dismissed as private grief, dar every valid witness is tied to the town through debt, salary, or kinship."
     },
     {
       "path": "chapter.chapter-003.paragraph.2",
@@ -366,20 +366,20 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.2",
       "chunkIndex": 4,
-      "source": "Names beneath the memorial varnish.",
-      "translated": "Nume sub lacul memorial."
+      "source": "The memorial plaque for Mira's brother lists a death date that predates the night he called her.",
+      "translated": "Placa memoriala a fratelui Mirei poarta o data a mortii care precede noaptea in care a sunat-o."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 1,
-      "source": "\"Names beneath the memorial varnish\" Vera Quinn says.",
-      "translated": "\"Nume sub lacul memorial\" spune Vera Quinn."
+      "source": "\"The memorial plaque for Mira's brother lists a death date that predates the night he called her\" Vera Quinn says.",
+      "translated": "\"The memorial plaque for Mira's brother lists a death date that predates the night he called her\" spune Vera Quinn."
     },
     {
       "path": "chapter.chapter-003.paragraph.3",
       "chunkIndex": 2,
-      "source": "\"Names beneath the memorial varnish\" Mira Solari says.",
-      "translated": "\"Nume sub lacul memorial\" spune Mira Solari."
+      "source": "\"The memorial plaque for Mira's brother lists a death date that predates the night he called her\" Mira Solari says.",
+      "translated": "\"The memorial plaque for Mira's brother lists a death date that predates the night he called her\" spune Mira Solari."
     },
     {
       "path": "chapter.chapter-003.paragraph.4",
@@ -390,8 +390,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.4",
       "chunkIndex": 2,
-      "source": "Mira Solari tries to the case becomes inseparable from the commemoration ceremony, but Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely..",
-      "translated": "Mira Solari incearca sa the case becomes inseparable from the commemoration ceremony, dar mira intelege ca expunerea publica ii va sterge pensia de care depinde mama ei, in timp ce tacerea il va sterge complet pe fratele ei.."
+      "source": "Mira Solari tries to the case becomes inseparable from the commemoration ceremony, but every valid witness is tied to the town through debt, salary, or kinship.",
+      "translated": "Mira Solari incearca sa the case becomes inseparable from the commemoration ceremony, dar every valid witness is tied to the town through debt, salary, or kinship."
     },
     {
       "path": "chapter.chapter-003.paragraph.4",
@@ -402,8 +402,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.4",
       "chunkIndex": 4,
-      "source": "Names beneath the memorial varnish.",
-      "translated": "Nume sub lacul memorial."
+      "source": "The memorial plaque for Mira's brother lists a death date that predates the night he called her.",
+      "translated": "Placa memoriala a fratelui Mirei poarta o data a mortii care precede noaptea in care a sunat-o."
     },
     {
       "path": "chapter.chapter-003.paragraph.5",
@@ -420,14 +420,14 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.6",
       "chunkIndex": 1,
-      "source": "Later, in the shuttered mediation office above the old customs hall, in the church crypt, vera reveals that mira's brother planned to testify during the annual flood commemoration..",
-      "translated": "Mai tarziu, in biroul de mediere inchis deasupra vechii hale vamale, in the church crypt, vera reveals that mira's brother planned to testify during the annual flood commemoration.."
+      "source": "Later, in the shuttered mediation office above the old customs hall, the memorial plaque for mira's brother lists a death date that predates the night he called her.",
+      "translated": "Mai tarziu, in biroul de mediere inchis deasupra vechii hale vamale, placa memoriala a fratelui Mirei poarta o data a mortii care precede noaptea in care a sunat-o."
     },
     {
       "path": "chapter.chapter-003.paragraph.6",
       "chunkIndex": 2,
-      "source": "Mira Solari tries to Names beneath the memorial varnish, but Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely..",
-      "translated": "Mira Solari incearca sa nume sub lacul memorial, dar mira intelege ca expunerea publica ii va sterge pensia de care depinde mama ei, in timp ce tacerea il va sterge complet pe fratele ei.."
+      "source": "Mira Solari tries to Names beneath the memorial varnish, but every valid witness is tied to the town through debt, salary, or kinship.",
+      "translated": "Mira Solari incearca sa nume sub lacul memorial, dar every valid witness is tied to the town through debt, salary, or kinship."
     },
     {
       "path": "chapter.chapter-003.paragraph.6",
@@ -438,8 +438,8 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-003.paragraph.6",
       "chunkIndex": 4,
-      "source": "Names beneath the memorial varnish.",
-      "translated": "Nume sub lacul memorial."
+      "source": "The memorial plaque for Mira's brother lists a death date that predates the night he called her.",
+      "translated": "Placa memoriala a fratelui Mirei poarta o data a mortii care precede noaptea in care a sunat-o."
     },
     {
       "path": "chapter.chapter-003.paragraph.7",
@@ -480,128 +480,134 @@ Sequential chunk translation trace for the translated reader edition.
     {
       "path": "chapter.chapter-004.paragraph.1",
       "chunkIndex": 2,
-      "source": "How this location signals social dynamics.",
-      "translated": "cum semnaleaza acest loc dinamica sociala."
+      "source": "Every conversation sounds temporary because the office trained people to trade truth for calm.",
+      "translated": "Fiecare conversatie suna provizoriu fiindca biroul i-a invatat pe oameni sa schimbe adevarul pe calm."
     },
     {
       "path": "chapter.chapter-004.paragraph.1",
       "chunkIndex": 3,
-      "source": "Vera Quinn reads the room too carefully, while PERSON_003 keeps alive the version of events other people would rather believe.",
-      "translated": "Vera Quinn citeste prea atent incaperea, iar PERSON_003 mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
+      "source": "Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
+      "translated": "Vera Quinn citeste prea atent incaperea, iar Corin Voss mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 1,
-      "source": "In the shuttered mediation office above the old customs hall, how this scene opens.",
-      "translated": "In biroul de mediere inchis deasupra vechii hale vamale, cum se deschide aceasta scena."
+      "source": "In the shuttered mediation office above the old customs hall, during the public flood ceremony, mira interrupts the scripted prayer and reads from the photographed ledger pages..",
+      "translated": "In biroul de mediere inchis deasupra vechii hale vamale, during the public flood ceremony, mira interrupts the scripted prayer and reads from the photographed ledger pages.."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 2,
-      "source": "Mira Solari tries to what the protagonist tries to accomplish, but what prevents easy success.",
-      "translated": "Mira Solari incearca sa ce incearca protagonistul sa obtina, dar ce impiedica succesul facil."
+      "source": "Mira Solari tries to force the lie into a setting where it cannot be quietly revised afterward, but the ceremony is choreographed to make dissent look like sacrilege.",
+      "translated": "Mira Solari incearca sa force the lie into a setting where it cannot be quietly revised afterward, dar the ceremony is choreographed to make dissent look like sacrilege."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 3,
-      "source": "Protect her mother from public ruin or read the forged flood ledger aloud before the town can bury her brother a second time..",
-      "translated": "Protect her mother from public ruin or read the forged flood ledger aloud before the town can bury her brother a second time.."
+      "source": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town..",
+      "translated": "Mira trebuie sa hotarasca daca se opreste inainte ca mama ei sa fie implicata sau daca isi duce marturia pana la capat in vazul intregului oras.."
     },
     {
       "path": "chapter.chapter-004.paragraph.2",
       "chunkIndex": 4,
-      "source": "What triggers this event.",
-      "translated": "ce declanseaza acest eveniment."
+      "source": "Mira reaches the line proving that relief money was routed through Corin's family company.",
+      "translated": "Mira ajunge la randul care dovedeste ca banii pentru ajutoare au fost directionati prin compania familiei lui Corin."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 1,
-      "source": "\"A hint for the dialogue line\" Vera Quinn says.",
-      "translated": "\"Un indiciu pentru replica de dialog\" spune Vera Quinn."
+      "source": "\"Mira reaches the line proving that relief money was routed through Corin's family company\" Vera Quinn says.",
+      "translated": "\"Mira reaches the line proving that relief money was routed through Corin's family company\" spune Vera Quinn."
     },
     {
       "path": "chapter.chapter-004.paragraph.3",
       "chunkIndex": 2,
-      "source": "\"A hint for the dialogue line\" Mira Solari says.",
-      "translated": "\"Un indiciu pentru replica de dialog\" spune Mira Solari."
+      "source": "\"Mira reaches the line proving that relief money was routed through Corin's family company\" Mira Solari says.",
+      "translated": "\"Mira reaches the line proving that relief money was routed through Corin's family company\" spune Mira Solari."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 1,
-      "source": "Later, in the shuttered mediation office above the old customs hall, how this scene opens.",
-      "translated": "Mai tarziu, in biroul de mediere inchis deasupra vechii hale vamale, cum se deschide aceasta scena."
+      "source": "Later, in the shuttered mediation office above the old customs hall, corin orders the microphone cut, but vera starts naming the missing witnesses from memory..",
+      "translated": "Mai tarziu, in biroul de mediere inchis deasupra vechii hale vamale, corin orders the microphone cut, but vera starts naming the missing witnesses from memory.."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 2,
-      "source": "Mira Solari tries to what the protagonist tries to accomplish, but what prevents easy success.",
-      "translated": "Mira Solari incearca sa ce incearca protagonistul sa obtina, dar ce impiedica succesul facil."
+      "source": "Mira Solari tries to the truth survives, but so does the cost of having spoken it, but the ceremony is choreographed to make dissent look like sacrilege.",
+      "translated": "Mira Solari incearca sa the truth survives, dar so does the cost of having spoken it, but the ceremony is choreographed to make dissent look like sacrilege."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 3,
-      "source": "Protect her mother from public ruin or read the forged flood ledger aloud before the town can bury her brother a second time..",
-      "translated": "Protect her mother from public ruin or read the forged flood ledger aloud before the town can bury her brother a second time.."
+      "source": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town..",
+      "translated": "Mira trebuie sa hotarasca daca se opreste inainte ca mama ei sa fie implicata sau daca isi duce marturia pana la capat in vazul intregului oras.."
     },
     {
       "path": "chapter.chapter-004.paragraph.4",
       "chunkIndex": 4,
-      "source": "What triggers this event.",
-      "translated": "ce declanseaza acest eveniment."
+      "source": "Mira reaches the line proving that relief money was routed through Corin's family company.",
+      "translated": "Mira ajunge la randul care dovedeste ca banii pentru ajutoare au fost directionati prin compania familiei lui Corin."
     },
     {
       "path": "chapter.chapter-004.paragraph.5",
       "chunkIndex": 1,
-      "source": "\"A hint for the dialogue line\" Vera Quinn says.",
-      "translated": "\"Un indiciu pentru replica de dialog\" spune Vera Quinn."
+      "source": "\"Commemoration ledger reading\" Vera Quinn says.",
+      "translated": "\"Citirea registrului la comemorare\" spune Vera Quinn."
     },
     {
       "path": "chapter.chapter-004.paragraph.5",
       "chunkIndex": 2,
-      "source": "\"A hint for the dialogue line\" Mira Solari says.",
-      "translated": "\"Un indiciu pentru replica de dialog\" spune Mira Solari."
+      "source": "\"Commemoration ledger reading\" Mira Solari says.",
+      "translated": "\"Citirea registrului la comemorare\" spune Mira Solari."
     },
     {
       "path": "chapter.chapter-004.paragraph.6",
       "chunkIndex": 1,
-      "source": "Later, in the shuttered mediation office above the old customs hall, how this scene opens.",
-      "translated": "Mai tarziu, in biroul de mediere inchis deasupra vechii hale vamale, cum se deschide aceasta scena."
+      "source": "Later, in the shuttered mediation office above the old customs hall, mira reaches the line proving that relief money was routed through corin's family company.",
+      "translated": "Mai tarziu, in biroul de mediere inchis deasupra vechii hale vamale, mira ajunge la randul care dovedeste ca banii pentru ajutoare au fost directionati prin compania familiei lui Corin."
     },
     {
       "path": "chapter.chapter-004.paragraph.6",
       "chunkIndex": 2,
-      "source": "Mira Solari tries to what the protagonist tries to accomplish, but what prevents easy success.",
-      "translated": "Mira Solari incearca sa ce incearca protagonistul sa obtina, dar ce impiedica succesul facil."
+      "source": "Mira Solari tries to Commemoration ledger reading, but the ceremony is choreographed to make dissent look like sacrilege.",
+      "translated": "Mira Solari incearca sa citirea registrului la comemorare, dar the ceremony is choreographed to make dissent look like sacrilege."
     },
     {
       "path": "chapter.chapter-004.paragraph.6",
       "chunkIndex": 3,
-      "source": "Protect her mother from public ruin or read the forged flood ledger aloud before the town can bury her brother a second time..",
-      "translated": "Protect her mother from public ruin or read the forged flood ledger aloud before the town can bury her brother a second time.."
+      "source": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town..",
+      "translated": "Mira trebuie sa hotarasca daca se opreste inainte ca mama ei sa fie implicata sau daca isi duce marturia pana la capat in vazul intregului oras.."
     },
     {
       "path": "chapter.chapter-004.paragraph.6",
       "chunkIndex": 4,
-      "source": "What triggers this event.",
-      "translated": "ce declanseaza acest eveniment."
+      "source": "Mira reaches the line proving that relief money was routed through Corin's family company.",
+      "translated": "Mira ajunge la randul care dovedeste ca banii pentru ajutoare au fost directionati prin compania familiei lui Corin."
     },
     {
       "path": "chapter.chapter-004.paragraph.7",
       "chunkIndex": 1,
-      "source": "\"A hint for the dialogue line\" Vera Quinn says.",
-      "translated": "\"Un indiciu pentru replica de dialog\" spune Vera Quinn."
+      "source": "\"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.\" Vera Quinn says.",
+      "translated": "\"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory\" spune Vera Quinn."
     },
     {
       "path": "chapter.chapter-004.paragraph.7",
       "chunkIndex": 2,
-      "source": "\"A hint for the dialogue line\" Mira Solari says.",
-      "translated": "\"Un indiciu pentru replica de dialog\" spune Mira Solari."
+      "source": "\"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+      "translated": "\"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
+    },
+    {
+      "path": "chapter.chapter-004.paragraph.7",
+      "chunkIndex": 3,
+      "source": "\" Mira Solari says.",
+      "translated": "\" Mira Solari says."
     },
     {
       "path": "chapter.chapter-004.paragraph.8",
       "chunkIndex": 1,
-      "source": "Mira Solari understands now that the belief the protagonist holds after change visible-cost-is-preferable-to-stable-falsehood.",
-      "translated": "Mira Solari intelege acum ca the belief the protagonist holds after change visible-cost-is-preferable-to-stable-falsehood."
+      "source": "Mira Solari understands now that care without truth only prolongs the violence of the original wound visible-cost-is-preferable-to-stable-falsehood.",
+      "translated": "Mira Solari intelege acum ca care without truth only prolongs the violence of the original wound visible-cost-is-preferable-to-stable-falsehood."
     },
     {
       "path": "chapter.chapter-004.paragraph.8",

@@ -2,10 +2,10 @@
 sequence-type: escape
 link-logic: mixed
 chapter: $chapter-004
-objective: the narrative objective of this sequence
+objective: restore shared memory faster than the council can trigger another wipe
 scene-chain: scene-004-01, scene-004-02, scene-004-03
 carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
-conflict-line: Preserve a stable station that survives by selective erasure, or return memory to the people who may tear it apart once they remember what was done to them.
+conflict-line: Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
 payoff: the sequence delivers its final irreversible choice
 
 @location-004-anchor define
@@ -13,30 +13,30 @@ chapter: $chapter-004
 primary-setting: $location-primary
 secondary-setting: $location-secondary
 sensory-anchor: ionized citrus, coolant mist, glass leaves pulsing with archived light
-social-signal: how this location signals social dynamics
-symbolic-charge: the symbolic weight this location carries
-conflict-use: how this location intensifies conflict
+social-signal: citizens come here to rehearse approved memories in carefully moderated quiet
+symbolic-charge: an engineered garden where recollection has become a civic utility
+conflict-use: intimacy keeps colliding with the fact that every remembered detail may be edited
 
 @rule-pressure-004-core apply
 chapter: $chapter-004
 rule-reference: $world-rule-primary
-visible-symptom: how the world rule becomes visible to characters
-action-limitation: how the world rule limits what characters can do
-conflict-output: what kind of conflict the world rule produces
+visible-symptom: citizens remember the emotional aftermath of conflict but not the decisions that created it
+action-limitation: Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.
+conflict-output: technical maintenance becomes indistinguishable from political censorship
 reveal-pattern: show-exception-to-reveal-rule
 
 @arc-004-protagonist map
 chapter: $chapter-004
-entry-belief: the belief the protagonist holds at entry at the start of the culmination chapter
-challenge: Preserve a stable station that survives by selective erasure, or return memory to the people who may tear it apart once they remember what was done to them.
-insight-pressure: the pressure that forces insight
-exit-belief: the belief the protagonist holds after change after the culmination chapter
+entry-belief: stable systems prevent larger human harm at the start of the culmination chapter
+challenge: Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
+insight-pressure: public memory becomes impossible to confiscate again in silence
+exit-belief: a system that edits consent cannot claim legitimacy even if it remains efficient after the culmination chapter
 
 @arc-004-relationship map
 chapter: $chapter-004
 pair: $character-protagonist-001, $character-counterpart-001
 entry-dynamic: professional-alliance-with-unequal-risk
-stress-line: Elian Quill keeps forcing Elian Quill to choose between control and honesty
+stress-line: Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
 exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
 
 @alternation-004-core arrange
@@ -50,42 +50,42 @@ chapter: $chapter-004
 showing-mode: dialogic
 focalization: internal-single
 time-space: $location-primary
-introduction: how this scene opens
-development: how this scene develops
-conflict: Preserve a stable station that survives by selective erasure, or return memory to the people who may tear it apart once they remember what was done to them.
-resolution: how this scene resolves
+introduction: As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.
+development: Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.
+conflict: Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
+resolution: She releases the memory to everyone and lets the station face its first honest unrest in years.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: how this scene changes the story state
+state-change: peace fractures, but consent re-enters the political life of the station
 
 @action-004-1 place
 action-mode: sacrifice
 scene: $scene-004-01
 actor: $character-protagonist-001
-goal: what the protagonist tries to accomplish
-obstacle: what prevents easy success
+goal: restore shared memory faster than the council can trigger another wipe
+obstacle: the pacification cycle treats truth itself as a destabilizing contaminant
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-004-1 place
 scope: $scene-004-01
 type: external-supernatural
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: what is at stake in this conflict
-escalation: how this conflict intensifies
+stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
+escalation: Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.
 
 @event-004-1 trigger
 scope: $scene-004-01
 event-type: loss
-trigger: what triggers this event
-impact: the impact of this event
-follow-through: what follows from this event
+trigger: citizens across the station begin repeating the erased vote count aloud
+impact: public memory becomes impossible to confiscate again in silence
+follow-through: the station survives only by surrendering its false innocence
 
 @dialogue-turn-004-01-01 line
 scene: $scene-004-01
 speaker: $character-counterpart-001
 intent: answer-honestly
 subtext: gives away more vulnerability than strategy intended
-line-hint: a hint for the dialogue line
+line-hint: citizens across the station begin repeating the erased vote count aloud
 reaction-beat: The honesty changes the balance of power in the room.
 
 @dialogue-turn-004-01-02 line
@@ -93,7 +93,7 @@ scene: $scene-004-01
 speaker: $character-protagonist-001
 intent: answer-honestly
 subtext: gives away more vulnerability than strategy intended
-line-hint: a hint for the dialogue line
+line-hint: citizens across the station begin repeating the erased vote count aloud
 reaction-beat: The honesty changes the balance of power in the room.
 
 @scene-004-02 define
@@ -101,42 +101,42 @@ chapter: $chapter-004
 showing-mode: introspective
 focalization: internal-single
 time-space: $location-primary
-introduction: how this scene opens
-development: how this scene develops
-conflict: Preserve a stable station that survives by selective erasure, or return memory to the people who may tear it apart once they remember what was done to them.
-resolution: how this scene resolves
+introduction: Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.
+development: Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
+conflict: Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
+resolution: She releases the memory to everyone and lets the station face its first honest unrest in years.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: how this scene changes the story state
+state-change: peace fractures, but consent re-enters the political life of the station
 
 @action-004-2 place
 action-mode: sacrifice
 scene: $scene-004-02
 actor: $character-protagonist-001
-goal: what the protagonist tries to accomplish
-obstacle: what prevents easy success
+goal: the station survives only by surrendering its false innocence
+obstacle: the pacification cycle treats truth itself as a destabilizing contaminant
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-004-2 place
 scope: $scene-004-02
 type: external-supernatural
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: what is at stake in this conflict
-escalation: how this conflict intensifies
+stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
+escalation: Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.
 
 @event-004-2 trigger
 scope: $scene-004-02
 event-type: arrival
-trigger: what triggers this event
-impact: the impact of this event
-follow-through: what follows from this event
+trigger: citizens across the station begin repeating the erased vote count aloud
+impact: public memory becomes impossible to confiscate again in silence
+follow-through: the station survives only by surrendering its false innocence
 
 @dialogue-turn-004-02-01 line
 scene: $scene-004-02
 speaker: $character-counterpart-001
 intent: answer-honestly
 subtext: gives away more vulnerability than strategy intended
-line-hint: a hint for the dialogue line
+line-hint: Broadcast of the unreturned
 reaction-beat: The honesty changes the balance of power in the room.
 
 @dialogue-turn-004-02-02 line
@@ -144,7 +144,7 @@ scene: $scene-004-02
 speaker: $character-protagonist-001
 intent: name-risk
 subtext: speaks the consequence both speakers hoped could stay implied
-line-hint: a hint for the dialogue line
+line-hint: Broadcast of the unreturned
 reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @scene-004-03 define
@@ -152,42 +152,42 @@ chapter: $chapter-004
 showing-mode: direct-showing
 focalization: internal-single
 time-space: $location-primary
-introduction: how this scene opens
-development: how this scene develops
-conflict: Preserve a stable station that survives by selective erasure, or return memory to the people who may tear it apart once they remember what was done to them.
-resolution: how this scene resolves
+introduction: citizens across the station begin repeating the erased vote count aloud
+development: public memory becomes impossible to confiscate again in silence
+conflict: Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
+resolution: She releases the memory to everyone and lets the station face its first honest unrest in years.
 exit: the chapter hands off to a sharper culmination consequence
 participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: how this scene changes the story state
+state-change: peace fractures, but consent re-enters the political life of the station
 
 @action-004-3 place
 action-mode: revelation-act
 scene: $scene-004-03
 actor: $character-protagonist-001
-goal: what the protagonist tries to accomplish
-obstacle: what prevents easy success
-result: the result of the attempted action
+goal: Broadcast of the unreturned
+obstacle: the pacification cycle treats truth itself as a destabilizing contaminant
+result: peace fractures, but consent re-enters the political life of the station
 
 @conflict-004-3 place
 scope: $scene-004-03
 type: mixed
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: what is at stake in this conflict
-escalation: how this conflict intensifies
+stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
+escalation: Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.
 
 @event-004-3 trigger
 scope: $scene-004-03
 event-type: betrayal
-trigger: what triggers this event
-impact: the impact of this event
-follow-through: what follows from this event
+trigger: citizens across the station begin repeating the erased vote count aloud
+impact: public memory becomes impossible to confiscate again in silence
+follow-through: the station survives only by surrendering its false innocence
 
 @dialogue-turn-004-03-01 line
 scene: $scene-004-03
 speaker: $character-counterpart-001
 intent: probe
 subtext: tests whether the other speaker can bear the unsoftened truth
-line-hint: a hint for the dialogue line
+line-hint: Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.
 reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-004-03-02 line
@@ -195,13 +195,13 @@ scene: $scene-004-03
 speaker: $character-protagonist-001
 intent: probe
 subtext: tests whether the other speaker can bear the unsoftened truth
-line-hint: a hint for the dialogue line
+line-hint: Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.
 reaction-beat: The question lands harder than either speaker planned.
 
 @description-004-atmosphere apply
 scope: $chapter-004
 description-type: atmosphere
-focus: what the description focuses on
+focus: an engineered garden where recollection has become a civic utility
 function: atmospheric
 rhythm-effect: slow
 
@@ -222,7 +222,7 @@ time-handling: mixed
 scene: $scene-004-03
 character: $character-protagonist-001
 function: psychological-insight
-trigger: learning that she designed part of the erasure protocol herself
+trigger: public memory becomes impossible to confiscate again in silence
 texture: recursive
 
 @suspense-004-core build
@@ -236,48 +236,48 @@ Delayed access, withheld explanation, and emotional pressure should work togethe
 @pause-004-core hold
 scope: $chapter-004
 pause-function: atmospheric
-focus: what this pause allows the reader to absorb
+focus: peace fractures, but consent re-enters the political life of the station
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-004-core burst
 scope: $chapter-004
 acceleration-mode: pursuit-compression
-trigger: what triggers the acceleration
+trigger: citizens across the station begin repeating the erased vote count aloud
 reader-effect: compress time and force the next consequence to land without emotional escape
 target-zone: $scene-004-03
 
 @location-004-anchor refine
 ref: sensory-anchor:location-primary -> ionized citrus, coolant mist, glass leaves pulsing with archived light
-ref: social-signal:location-primary -> how this location signals social dynamics
-ref: symbolic-charge:location-primary -> the symbolic weight this location carries
-ref: conflict-use:location-primary -> how this location intensifies conflict
+ref: social-signal:location-primary -> citizens come here to rehearse approved memories in carefully moderated quiet
+ref: symbolic-charge:location-primary -> an engineered garden where recollection has become a civic utility
+ref: conflict-use:location-primary -> intimacy keeps colliding with the fact that every remembered detail may be edited
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the setting engineered, tactile, and ethically revealing
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @rule-pressure-004-core refine
-ref: visible-symptom:culmination -> how the world rule becomes visible to characters
-ref: action-limitation:culmination -> how the world rule limits what characters can do
-ref: conflict-output-rule:culmination -> what kind of conflict the world rule produces
+ref: visible-symptom:culmination -> citizens remember the emotional aftermath of conflict but not the decisions that created it
+ref: action-limitation:culmination -> Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.
+ref: conflict-output-rule:culmination -> technical maintenance becomes indistinguishable from political censorship
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let system rules create action limits, not just background lore
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @arc-004-protagonist refine
-ref: entry-belief:protagonist -> the belief the protagonist holds at entry
-ref: exit-belief:protagonist -> the belief the protagonist holds after change
-ref: challenge:protagonist-culmination -> Preserve a stable station that survives by selective erasure, or return memory to the people who may tear it apart once they remember what was done to them.
-ref: insight-pressure:protagonist-culmination -> the pressure that forces insight
+ref: entry-belief:protagonist -> stable systems prevent larger human harm
+ref: exit-belief:protagonist -> a system that edits consent cannot claim legitimacy even if it remains efficient
+ref: challenge:protagonist-culmination -> Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
+ref: insight-pressure:protagonist-culmination -> public memory becomes impossible to confiscate again in silence
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the arc bind system insight to ethical choice
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @arc-004-relationship refine
-ref: relationship-stress:culmination -> Elian Quill keeps forcing Elian Quill to choose between control and honesty
+ref: relationship-stress:culmination -> Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the arc bind system insight to ethical choice
@@ -291,11 +291,11 @@ should: balance orientation, system pressure, and kinetic consequence
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-004-01 refine
-ref: scene-introduction:culmination-0 -> how this scene opens
-ref: scene-development:culmination-0 -> how this scene develops
-ref: scene-conflict:culmination -> Preserve a stable station that survives by selective erasure, or return memory to the people who may tear it apart once they remember what was done to them.
-ref: scene-resolution:culmination-mid -> how this scene resolves
-ref: scene-state-change:culmination-mid -> how this scene changes the story state
+ref: scene-introduction:culmination-0 -> As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.
+ref: scene-development:culmination-0 -> Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.
+ref: scene-conflict:culmination -> Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
+ref: scene-resolution:culmination-mid -> She releases the memory to everyone and lets the station face its first honest unrest in years.
+ref: scene-state-change:culmination-mid -> peace fractures, but consent re-enters the political life of the station
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance technical detail with human disorientation
@@ -304,7 +304,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-004-01-01 refine
 ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
 ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:culmination-0-0 -> a hint for the dialogue line
+ref: dialogue-line-hint:culmination-0-0 -> citizens across the station begin repeating the erased vote count aloud
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let technical vocabulary carry ethical pressure instead of decorative jargon
@@ -313,18 +313,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-004-01-02 refine
 ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
 ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:culmination-0-1 -> a hint for the dialogue line
+ref: dialogue-line-hint:culmination-0-1 -> citizens across the station begin repeating the erased vote count aloud
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let technical vocabulary carry ethical pressure instead of decorative jargon
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-004-02 refine
-ref: scene-conflict:culmination -> Preserve a stable station that survives by selective erasure, or return memory to the people who may tear it apart once they remember what was done to them.
-ref: scene-resolution:culmination-mid -> how this scene resolves
-ref: scene-state-change:culmination-mid -> how this scene changes the story state
-ref: scene-introduction:culmination-1 -> how this scene opens
-ref: scene-development:culmination-1 -> how this scene develops
+ref: scene-conflict:culmination -> Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
+ref: scene-resolution:culmination-mid -> She releases the memory to everyone and lets the station face its first honest unrest in years.
+ref: scene-state-change:culmination-mid -> peace fractures, but consent re-enters the political life of the station
+ref: scene-introduction:culmination-1 -> Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.
+ref: scene-development:culmination-1 -> Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance technical detail with human disorientation
@@ -333,7 +333,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-004-02-01 refine
 ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
 ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:culmination-1-0 -> a hint for the dialogue line
+ref: dialogue-line-hint:culmination-1-0 -> Broadcast of the unreturned
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let technical vocabulary carry ethical pressure instead of decorative jargon
@@ -342,18 +342,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-004-02-02 refine
 ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
 ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
-ref: dialogue-line-hint:culmination-1-1 -> a hint for the dialogue line
+ref: dialogue-line-hint:culmination-1-1 -> Broadcast of the unreturned
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let technical vocabulary carry ethical pressure instead of decorative jargon
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-004-03 refine
-ref: scene-conflict:culmination -> Preserve a stable station that survives by selective erasure, or return memory to the people who may tear it apart once they remember what was done to them.
-ref: scene-introduction:culmination-2 -> how this scene opens
-ref: scene-development:culmination-2 -> how this scene develops
-ref: scene-resolution:culmination-final -> how this scene resolves
-ref: scene-state-change:culmination-final -> how this scene changes the story state
+ref: scene-conflict:culmination -> Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
+ref: scene-introduction:culmination-2 -> citizens across the station begin repeating the erased vote count aloud
+ref: scene-development:culmination-2 -> public memory becomes impossible to confiscate again in silence
+ref: scene-resolution:culmination-final -> She releases the memory to everyone and lets the station face its first honest unrest in years.
+ref: scene-state-change:culmination-final -> peace fractures, but consent re-enters the political life of the station
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance technical detail with human disorientation
@@ -362,7 +362,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-004-03-01 refine
 ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
 ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
-ref: dialogue-line-hint:culmination-2-0 -> a hint for the dialogue line
+ref: dialogue-line-hint:culmination-2-0 -> Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let technical vocabulary carry ethical pressure instead of decorative jargon
@@ -371,7 +371,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-004-03-02 refine
 ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
 ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
-ref: dialogue-line-hint:culmination-2-1 -> a hint for the dialogue line
+ref: dialogue-line-hint:culmination-2-1 -> Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let technical vocabulary carry ethical pressure instead of decorative jargon
@@ -392,14 +392,14 @@ should: use concrete system language without losing emotional readability
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @pause-004-core refine
-ref: pause-focus:culmination -> what this pause allows the reader to absorb
+ref: pause-focus:culmination -> peace fractures, but consent re-enters the political life of the station
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance orientation, system pressure, and kinetic consequence
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @acceleration-004-core refine
-ref: acceleration-trigger:culmination -> what triggers the acceleration
+ref: acceleration-trigger:culmination -> citizens across the station begin repeating the erased vote count aloud
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance orientation, system pressure, and kinetic consequence

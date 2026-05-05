@@ -4,8 +4,8 @@ complexity: round
 development-type: dynamic
 archetype: hero
 role: protagonist
-desire: what the protagonist of this detective / police story wants most
-need: what the protagonist truly needs but cannot yet accept
+desire: prove that the drowning victim was killed before he entered the river lock
+need: accept that lawful procedure can become the crime's most reliable accomplice
 fear: discovering that her own precinct archived the decisive evidence
 lie: control-prevents-loss
 truth: concealment-breeds-larger-collapse
@@ -20,8 +20,8 @@ complexity: round
 development-type: dynamic
 archetype: witness
 role: witness
-desire: what the protagonist of this detective / police story wants most
-need: what the protagonist truly needs but cannot yet accept
+desire: prove that the drowning victim was killed before he entered the river lock
+need: accept that lawful procedure can become the crime's most reliable accomplice
 fear: discovering that her own precinct archived the decisive evidence
 lie: distance keeps the self intact
 truth: shared risk can create stronger agency than isolation
@@ -31,13 +31,13 @@ contradictions: loyal yet evasive, observant yet withholding
 relationships: $character-protagonist-001 [cooperative], $character-pressure-001 [conflictual]
 
 @character-pressure-001 define
-name: PERSON_003
+name: Soren Arden
 complexity: round
 development-type: static
 archetype: shadow
 role: antagonist
-desire: what the protagonist of this detective / police story wants most
-need: what the protagonist truly needs but cannot yet accept
+desire: prove that the drowning victim was killed before he entered the river lock
+need: accept that lawful procedure can become the crime's most reliable accomplice
 fear: discovering that her own precinct archived the decisive evidence
 lie: stability justifies concealment
 truth: concealment breeds larger collapse

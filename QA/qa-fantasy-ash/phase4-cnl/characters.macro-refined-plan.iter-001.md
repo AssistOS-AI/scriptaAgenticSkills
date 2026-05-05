@@ -4,8 +4,8 @@ complexity: round
 development-type: dynamic
 archetype: hero
 role: protagonist
-desire: what the protagonist of this fantasy story wants most
-need: what the protagonist truly needs but cannot yet accept
+desire: learn the true wording of the family vow and sever it before the valley chooses another heir
+need: accept that returning home requires losing the shelter her lineage once guaranteed
 fear: becoming the next keeper of a system she already fled once in shame
 lie: inheritance-can-be-redeemed
 truth: shared-risk-creates-stronger-agency
@@ -20,8 +20,8 @@ complexity: round
 development-type: dynamic
 archetype: witness
 role: witness
-desire: what the protagonist of this fantasy story wants most
-need: what the protagonist truly needs but cannot yet accept
+desire: learn the true wording of the family vow and sever it before the valley chooses another heir
+need: accept that returning home requires losing the shelter her lineage once guaranteed
 fear: becoming the next keeper of a system she already fled once in shame
 lie: distance keeps the self intact
 truth: shared risk can create stronger agency than isolation
@@ -31,13 +31,13 @@ contradictions: loyal yet evasive, observant yet withholding
 relationships: $character-protagonist-001 [cooperative], $character-pressure-001 [conflictual]
 
 @character-pressure-001 define
-name: PERSON_003
+name: Regent Maeron Vale
 complexity: round
 development-type: static
 archetype: shadow
 role: antagonist
-desire: what the protagonist of this fantasy story wants most
-need: what the protagonist truly needs but cannot yet accept
+desire: learn the true wording of the family vow and sever it before the valley chooses another heir
+need: accept that returning home requires losing the shelter her lineage once guaranteed
 fear: becoming the next keeper of a system she already fled once in shame
 lie: stability justifies concealment
 truth: concealment breeds larger collapse
