@@ -6,7 +6,7 @@ test('CNL serialization and parsing preserve block structure', () => {
   const blocks = [
     createBlock('central-idea', 'define', [
       { name: 'hook-pattern', value: 'costed-power' },
-      { name: 'protagonist', value: '{{character:protagonist-001}}' }
+      { name: 'protagonist', value: '{{character:PERSON_001}}' }
     ], ['Free text hint.'])
   ];
 
@@ -21,11 +21,11 @@ test('CNL serialization and parsing preserve block structure', () => {
 
 test('placeholder replacement rewrites semantic values and keeps structure', () => {
   const block = createBlock('scene-001-01', 'define', [
-    { name: 'participants', value: '{{character:protagonist-001}}, {{character:counterpart-001}}' }
+    { name: 'participants', value: '{{character:PERSON_001}}, {{character:PERSON_002}}' }
   ]);
   const replaced = replacePlaceholdersInBlock(block, {
-    '{{character:protagonist-001}}': 'Mira',
-    '{{character:counterpart-001}}': 'Theo'
+    '{{character:PERSON_001}}': 'Mira',
+    '{{character:PERSON_002}}': 'Theo'
   });
 
   assert.equal(collectPlaceholdersFromBlocks([replaced]).length, 0);
