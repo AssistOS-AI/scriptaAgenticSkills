@@ -219,7 +219,7 @@ function buildManuscriptModel({
     profileLabel: options.profile.label,
     workForm: options.workForm,
     editorialProfile: options.editorialProfile,
-    title: options.profile.scenario.title,
+    title: options.title,
     centralIdea,
     theme,
     wisdom,
