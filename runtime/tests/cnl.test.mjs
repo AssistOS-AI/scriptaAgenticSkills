@@ -24,12 +24,12 @@ test('placeholder replacement rewrites semantic values and keeps structure', () 
     { name: 'participants', value: '{{character:protagonist-001}}, {{character:counterpart-001}}' }
   ]);
   const replaced = replacePlaceholdersInBlock(block, {
-    '{{character:protagonist-001}}': 'Ana',
-    '{{character:counterpart-001}}': 'Matei'
+    '{{character:protagonist-001}}': 'Mira',
+    '{{character:counterpart-001}}': 'Theo'
   });
 
   assert.equal(collectPlaceholdersFromBlocks([replaced]).length, 0);
-  assert.equal(replaced.fields[0].value, 'Ana, Matei');
+  assert.equal(replaced.fields[0].value, 'Mira, Theo');
 });
 
 test('CNL references preserve block links and can be resolved separately', () => {

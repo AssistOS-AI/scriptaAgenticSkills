@@ -1,7 +1,7 @@
 @sequence-002-core define
-sequence-type: investigation
+sequence-type: escape
 link-logic: thematic
-chapter: chapter-002
+chapter: $chapter-002
 objective: {{sequence-objective:escalation}}
 scene-chain: scene-002-01, scene-002-02, scene-002-03
 continuity-thread: each scene must inherit and intensify the previous scene's unresolved pressure
@@ -9,224 +9,224 @@ conflict-line: {{sequence-conflict:escalation}}
 payoff: {{sequence-payoff:escalation}}
 
 @location-002-anchor define
-chapter: chapter-002
-primary-setting: {{location:primary-001}}
-secondary-setting: {{location:secondary-001}}
+chapter: $chapter-002
+primary-setting: $location-primary
+secondary-setting: $location-secondary
 sensory-anchor: {{sensory-anchor:location-primary}}
 social-signal: {{social-signal:location-primary}}
 symbolic-charge: {{symbolic-charge:location-primary}}
 conflict-use: {{conflict-use:location-primary}}
 
 @rule-pressure-002-core apply
-chapter: chapter-002
-rule-reference: world-rule-primary
+chapter: $chapter-002
+rule-reference: $world-rule-primary
 visible-symptom: {{visible-symptom:escalation}}
 action-limitation: {{action-limitation:escalation}}
 conflict-output: {{conflict-output-rule:escalation}}
 reveal-pattern: embed-rule-in-dialogue
 
 @arc-002-protagonist map
-chapter: chapter-002
+chapter: $chapter-002
 entry-belief: {{entry-belief:protagonist}} at the start of the escalation chapter
 challenge: {{challenge:protagonist-escalation}}
 insight-pressure: {{insight-pressure:protagonist-escalation}}
 exit-belief: {{exit-belief:protagonist}} after the escalation chapter
 
 @arc-002-relationship map
-chapter: chapter-002
-pair: {{character:protagonist-001}}, {{character:counterpart-001}}
+chapter: $chapter-002
+pair: $character-protagonist-001, $character-counterpart-001
 entry-dynamic: productive-partnership-guarded-by-emotional-self-defense
 stress-line: {{relationship-stress:escalation}}
 exit-dynamic: solidarity-forged-through-contested-truth
 
 @alternation-002-core arrange
-chapter: chapter-002
+chapter: $chapter-002
 block-order: description-dialogue-action-interior-monologue-suspense-revelation-acceleration
 reader-effect: {{reader-effect:escalation}}
 anti-flatness-rule: do not chain action summaries without dialogue, atmosphere, or reflection support
 
 @scene-002-01 define
-chapter: chapter-002
+chapter: $chapter-002
 showing-mode: mixed
 focalization: zero
-time-space: {{location:primary-001}}
+time-space: $location-primary
 introduction: {{scene-introduction:escalation-0}}
 development: {{scene-development:escalation-0}}
 conflict: {{scene-conflict:escalation}}
 resolution: {{scene-resolution:escalation-mid}}
 exit: the next scene begins before the pressure can settle
-participants: {{character:protagonist-001}}, {{character:counterpart-001}}, {{character:pressure-001}}
+participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
 state-change: {{scene-state-change:escalation-mid}}
 
 @action-002-1 place
 action-mode: negotiation
-scene: scene-002-01
-actor: {{character:protagonist-001}}
+scene: $scene-002-01
+actor: $character-protagonist-001
 goal: {{action-goal:escalation-0}}
 obstacle: {{action-obstacle:escalation}}
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-002-1 place
-scope: scene-002-01
+scope: $scene-002-01
 type: internal
-forces: {{character:protagonist-001}} versus {{character:pressure-001}}
+forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:freedom-consent-memory-agency}}
 escalation: {{conflict-escalation:escalation}}
 
 @event-002-1 trigger
-scope: scene-002-01
+scope: $scene-002-01
 event-type: arrival
 trigger: {{event-trigger:escalation-mid}}
 impact: {{event-impact:escalation}}
 follow-through: {{event-follow-through:escalation-mid}}
 
 @dialogue-turn-002-01-01 line
-scene: scene-002-01
-speaker: {{character:counterpart-001}}
+scene: $scene-002-01
+speaker: $character-counterpart-001
 intent: challenge
 subtext: {{dialogue-subtext:challenge}}
 line-hint: {{dialogue-line-hint:escalation-0-0}}
 reaction-beat: {{dialogue-reaction:challenge}}
 
 @dialogue-turn-002-01-02 line
-scene: scene-002-01
-speaker: {{character:protagonist-001}}
+scene: $scene-002-01
+speaker: $character-protagonist-001
 intent: deflect
 subtext: {{dialogue-subtext:deflect}}
 line-hint: {{dialogue-line-hint:escalation-0-1}}
 reaction-beat: {{dialogue-reaction:deflect}}
 
 @scene-002-02 define
-chapter: chapter-002
+chapter: $chapter-002
 showing-mode: introspective
 focalization: zero
-time-space: {{location:primary-001}}
+time-space: $location-primary
 introduction: {{scene-introduction:escalation-1}}
 development: {{scene-development:escalation-1}}
 conflict: {{scene-conflict:escalation}}
 resolution: {{scene-resolution:escalation-mid}}
 exit: the next scene begins before the pressure can settle
-participants: {{character:protagonist-001}}, {{character:counterpart-001}}, {{character:pressure-001}}
+participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
 state-change: {{scene-state-change:escalation-mid}}
 
 @action-002-2 place
 action-mode: attempt
-scene: scene-002-02
-actor: {{character:protagonist-001}}
+scene: $scene-002-02
+actor: $character-protagonist-001
 goal: {{action-goal:escalation-1}}
 obstacle: {{action-obstacle:escalation}}
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-002-2 place
-scope: scene-002-02
+scope: $scene-002-02
 type: external-society
-forces: {{character:protagonist-001}} versus {{character:pressure-001}}
+forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:freedom-consent-memory-agency}}
 escalation: {{conflict-escalation:escalation}}
 
 @event-002-2 trigger
-scope: scene-002-02
+scope: $scene-002-02
 event-type: discovery
 trigger: {{event-trigger:escalation-mid}}
 impact: {{event-impact:escalation}}
 follow-through: {{event-follow-through:escalation-mid}}
 
 @dialogue-turn-002-02-01 line
-scene: scene-002-02
-speaker: {{character:counterpart-001}}
+scene: $scene-002-02
+speaker: $character-counterpart-001
 intent: deflect
 subtext: {{dialogue-subtext:deflect}}
 line-hint: {{dialogue-line-hint:escalation-1-0}}
 reaction-beat: {{dialogue-reaction:deflect}}
 
 @dialogue-turn-002-02-02 line
-scene: scene-002-02
-speaker: {{character:protagonist-001}}
+scene: $scene-002-02
+speaker: $character-protagonist-001
 intent: challenge
 subtext: {{dialogue-subtext:challenge}}
 line-hint: {{dialogue-line-hint:escalation-1-1}}
 reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-002-03 define
-chapter: chapter-002
+chapter: $chapter-002
 showing-mode: dialogic
 focalization: zero
-time-space: {{location:primary-001}}
+time-space: $location-primary
 introduction: {{scene-introduction:escalation-2}}
 development: {{scene-development:escalation-2}}
 conflict: {{scene-conflict:escalation}}
 resolution: {{scene-resolution:escalation-final}}
 exit: the chapter hands off to a sharper escalation consequence
-participants: {{character:protagonist-001}}, {{character:counterpart-001}}, {{character:pressure-001}}
+participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
 state-change: {{scene-state-change:escalation-final}}
 
 @action-002-3 place
 action-mode: sacrifice
-scene: scene-002-03
-actor: {{character:protagonist-001}}
+scene: $scene-002-03
+actor: $character-protagonist-001
 goal: {{action-goal:escalation-2}}
 obstacle: {{action-obstacle:escalation}}
 result: {{action-result:escalation-final}}
 
 @conflict-002-3 place
-scope: scene-002-03
+scope: $scene-002-03
 type: mixed
-forces: {{character:protagonist-001}} versus {{character:pressure-001}}
+forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:freedom-consent-memory-agency}}
 escalation: {{conflict-escalation:escalation}}
 
 @event-002-3 trigger
-scope: scene-002-03
+scope: $scene-002-03
 event-type: decision
 trigger: {{event-trigger:escalation-final}}
 impact: {{event-impact:escalation}}
 follow-through: {{event-follow-through:escalation-final}}
 
 @dialogue-turn-002-03-01 line
-scene: scene-002-03
-speaker: {{character:counterpart-001}}
+scene: $scene-002-03
+speaker: $character-counterpart-001
 intent: answer-honestly
 subtext: {{dialogue-subtext:answer-honestly}}
 line-hint: {{dialogue-line-hint:escalation-2-0}}
 reaction-beat: {{dialogue-reaction:answer-honestly}}
 
 @dialogue-turn-002-03-02 line
-scene: scene-002-03
-speaker: {{character:protagonist-001}}
+scene: $scene-002-03
+speaker: $character-protagonist-001
 intent: answer-honestly
 subtext: {{dialogue-subtext:answer-honestly}}
 line-hint: {{dialogue-line-hint:escalation-2-1}}
 reaction-beat: {{dialogue-reaction:answer-honestly}}
 
 @description-002-atmosphere apply
-scope: chapter-002
+scope: $chapter-002
 description-type: atmosphere
 focus: {{description-focus:science-fiction}}
 function: atmospheric
 rhythm-effect: frame
 
 @dialogue-002-core apply
-scene: scene-002-01
-speakers: {{character:protagonist-001}}, {{character:counterpart-001}}
+scene: $scene-002-01
+speakers: $character-protagonist-001, $character-counterpart-001
 exchange-type: conflictual
 purpose: tension
 subtext: {{dialogue-core-subtext:science-fiction}}
 
 @narration-002-bridge apply
-scope: chapter-002
+scope: $chapter-002
 narrator-mode: subjective
 function: organizational
 time-handling: mixed
 
 @interior-monologue-002-core apply
-scene: scene-002-03
-character: {{character:protagonist-001}}
+scene: $scene-002-03
+character: $character-protagonist-001
 function: psychological-insight
 trigger: {{monologue-trigger:escalation}}
 texture: reflective
 
 @suspense-002-core build
-scope: chapter-002
+scope: $chapter-002
 suspense-type: cognitive
 uncertainty: {{suspense-uncertainty:escalation}}
 delay-technique: foreshadowing
@@ -234,21 +234,21 @@ payoff-zone: event-002-3
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
 
 @pause-002-core hold
-scope: chapter-002
+scope: $chapter-002
 pause-function: atmospheric
 focus: {{pause-focus:escalation}}
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-002-core burst
-scope: chapter-002
+scope: $chapter-002
 acceleration-mode: montage
 trigger: {{acceleration-trigger:escalation}}
 reader-effect: compress time and force the next consequence to land without emotional escape
-target-zone: scene-002-03
+target-zone: $scene-002-03
 
 @cliffhanger-002-exit cut
-scope: chapter-002
+scope: $chapter-002
 cliffhanger-type: interrupted-revelation
 cut-moment: {{cliffhanger-moment:escalation}}
 continuation-pressure: {{cliffhanger-continuation:escalation}}

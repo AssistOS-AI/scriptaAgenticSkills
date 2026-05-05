@@ -28,7 +28,7 @@ Continuity packet for downstream validation and export assembly.
     "Cassia Mercer"
   ],
   "changedRelationships": [
-    "freedom-security under reconciliation pressure"
+    "love-connection under transformation pressure"
   ],
   "continuityWarnings": []
 }

@@ -1,9 +1,10 @@
 @plot-element-core-object define
+name: the missing lock-camera drive
 category: relationship
 subtype: secret
 function: revelation
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
-holders: County Precinct South, Pavel Orban
+holders: County Precinct South, $character-pressure-001
 activation: the protagonist decodes the missing lock-camera drive near the midpoint
 payoff-zone: midpoint and final confrontation
 
@@ -15,7 +16,7 @@ payoff-zone: midpoint
 fairness-rule: every later reveal must have at least one early concrete hint
 
 @world-subsystem-primary define
-domain: technology
+domain: society
 function: defines the system that constrains action and shapes conflict
 conflict-output: every lawful request alerts the people most interested in erasing the answer
 visibility: explicit

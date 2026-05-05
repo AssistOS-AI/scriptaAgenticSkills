@@ -9,12 +9,12 @@ opening-mode: aftermath-entry
 development-mode: revelation-ladder
 closing-mode: reversal
 continuity-obligations: later chapters must preserve the consequence introduced in chapter-004
-thematic-focus: identity-self under resistance pressure
+thematic-focus: freedom-security under dilemma pressure
 rhythm-note: breathless
 chapter-question: {{chapter-question:culmination}}
 answer-shift: {{answer-shift:science-fiction}}
 arc-stage: irreversible-choice
 world-pressure: {{world-pressure:culmination}}
-location-focus: {{location:primary-001}}
+location-focus: $location-primary
 block-alternation: description-dialogue-action-interior-monologue-suspense-revelation-acceleration
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.

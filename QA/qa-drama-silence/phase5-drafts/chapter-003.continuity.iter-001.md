@@ -3,32 +3,32 @@
 Continuity packet for downstream validation and export assembly.
 
 ## State flow
-- entryState: In the church crypt, Iona reveals that Mara's brother planned to testify during the annual flood commemoration.
-- exitState: the truth stops being archival and becomes a shared moral choice
+- entryState: the memorial plaque for Mira's brother lists a death date that predates the night he called her
+- exitState: She asks Vera to stand beside her publicly, even if it means both families lose protection.
 
 ## Continuity obligations
 - later chapters must preserve the consequence introduced in chapter-003
 
 ## Introduced entities
-- Mara Iliev
-- Iona Radu
-- Lucian Petrescu
+- Mira Solari
+- Vera Quinn
+- Corin Voss
 
 <!-- scripta-data
 {
   "chapterId": "chapter-003",
-  "entryState": "In the church crypt, Iona reveals that Mara's brother planned to testify during the annual flood commemoration.",
-  "exitState": "the truth stops being archival and becomes a shared moral choice",
+  "entryState": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
+  "exitState": "She asks Vera to stand beside her publicly, even if it means both families lose protection.",
   "unresolvedObligations": [
     "later chapters must preserve the consequence introduced in chapter-003"
   ],
   "introducedEntities": [
-    "Mara Iliev",
-    "Iona Radu",
-    "Lucian Petrescu"
+    "Mira Solari",
+    "Vera Quinn",
+    "Corin Voss"
   ],
   "changedRelationships": [
-    "mortality-death under resistance pressure"
+    "identity-self under reconciliation pressure"
   ],
   "continuityWarnings": []
 }

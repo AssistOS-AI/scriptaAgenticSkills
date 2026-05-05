@@ -1,4 +1,5 @@
 @character-protagonist-001 define
+name: Neris Vale
 complexity: round
 development-type: dynamic
 archetype: hero
@@ -11,9 +12,10 @@ truth: shared-risk-creates-stronger-agency
 conflict-mode: external
 arc: redemption
 contradictions: contradictions for this fantasy story
-relationships: Brother Caelan Vey [conflictual], Regent Maeron Vale [hierarchical]
+relationships: $character-counterpart-001 [conflictual], $character-pressure-001 [hierarchical]
 
 @character-counterpart-001 define
+name: Brother Caelan Vey
 complexity: round
 development-type: dynamic
 archetype: witness
@@ -26,9 +28,10 @@ truth: shared risk can create stronger agency than isolation
 conflict-mode: mixed
 arc: positive-change
 contradictions: loyal yet evasive, observant yet withholding
-relationships: Neris Vale [cooperative], Regent Maeron Vale [conflictual]
+relationships: $character-protagonist-001 [cooperative], $character-pressure-001 [conflictual]
 
 @character-pressure-001 define
+name: Regent Maeron Vale
 complexity: round
 development-type: static
 archetype: shadow
@@ -41,4 +44,4 @@ truth: concealment breeds larger collapse
 conflict-mode: external
 arc: flat
 contradictions: calm yet coercive, rational yet self-serving
-relationships: Neris Vale [conflictual], Brother Caelan Vey [hierarchical]
+relationships: $character-protagonist-001 [conflictual], $character-counterpart-001 [hierarchical]

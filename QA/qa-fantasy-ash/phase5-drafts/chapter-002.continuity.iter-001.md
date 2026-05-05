@@ -3,8 +3,8 @@
 Continuity packet for downstream validation and export assembly.
 
 ## State flow
-- entryState: In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.
-- exitState: the oath becomes both a crime and a necessary shield
+- entryState: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+- exitState: Neris can no longer separate public duty from private violation
 
 ## Continuity obligations
 - later chapters must preserve the consequence introduced in chapter-002
@@ -17,8 +17,8 @@ Continuity packet for downstream validation and export assembly.
 <!-- scripta-data
 {
   "chapterId": "chapter-002",
-  "entryState": "In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.",
-  "exitState": "the oath becomes both a crime and a necessary shield",
+  "entryState": "The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.",
+  "exitState": "Neris can no longer separate public duty from private violation",
   "unresolvedObligations": [
     "later chapters must preserve the consequence introduced in chapter-002"
   ],
@@ -28,7 +28,7 @@ Continuity packet for downstream validation and export assembly.
     "Regent Maeron Vale"
   ],
   "changedRelationships": [
-    "good-evil under corruption pressure"
+    "identity-self under reconciliation pressure"
   ],
   "continuityWarnings": []
 }

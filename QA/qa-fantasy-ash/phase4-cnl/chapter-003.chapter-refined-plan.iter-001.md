@@ -1,31 +1,30 @@
 @chapter-003 define
 chapter-role: revelation
 purpose: Revelation movement anchored by ward breach at the mountain gate
-input-state: A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
-output-state: renunciation becomes the only form of leadership left to her
+input-state: the winter spirit retreats only when Neris names one of the forgotten dead aloud
+output-state: She decides to break the binding ceremony and speak the hidden names during the next warding chant.
 conflict: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
 stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
 opening-mode: mystery-entry
 development-mode: revelation-ladder
 closing-mode: open-question
 continuity-obligations: later chapters must preserve the consequence introduced in chapter-003
-thematic-focus: good-evil under corruption pressure
+thematic-focus: identity-self under reconciliation pressure
 rhythm-note: wave-like
 chapter-question: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
 answer-shift: the valley was never protected from cost; it was merely trained to pay it quietly
 arc-stage: meaning-shift
 world-pressure: every promise of protection arrives already entangled with control, debt, and ancestral shame
-location-focus: the ash terrace above Drovna village
+location-focus: $location-primary
 block-alternation: description-action-dialogue-suspense-interior-monologue-revelation-pause
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.
 
 @chapter-003 refine
 ref: stakes:lineage-survival-legitimacy-cost -> the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
-ref: location:primary-001 -> the ash terrace above Drovna village
 ref: answer-shift:fantasy -> the valley was never protected from cost; it was merely trained to pay it quietly
 ref: purpose:revelation -> Revelation movement anchored by ward breach at the mountain gate
-ref: input-state:revelation-2 -> A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
-ref: output-state:revelation-2 -> renunciation becomes the only form of leadership left to her
+ref: input-state:revelation-2 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: output-state:revelation-2 -> She decides to break the binding ceremony and speak the hidden names during the next warding chant.
 ref: conflict:revelation -> If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
 ref: chapter-question:revelation -> Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
 ref: world-pressure:revelation -> every promise of protection arrives already entangled with control, debt, and ancestral shame

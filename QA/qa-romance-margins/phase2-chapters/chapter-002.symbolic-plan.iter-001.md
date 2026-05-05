@@ -9,12 +9,12 @@ opening-mode: aftermath-entry
 development-mode: escalation
 closing-mode: cliffhanger
 continuity-obligations: later chapters must preserve the consequence introduced in chapter-002
-thematic-focus: freedom-security under reconciliation pressure
+thematic-focus: love-connection under transformation pressure
 rhythm-note: escalating
 chapter-question: {{chapter-question:escalation}}
 answer-shift: {{answer-shift:romance-relational}}
 arc-stage: pressure-rise
 world-pressure: {{world-pressure:escalation}}
-location-focus: {{location:primary-001}}
+location-focus: $location-primary
 block-alternation: dialogue-description-interior-monologue-action-pause-dialogue-cliffhanger
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.

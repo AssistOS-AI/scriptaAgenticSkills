@@ -1,9 +1,10 @@
 @plot-element-core-object define
+name: the flood compensation ledger
 category: relationship
 subtype: inheritance
 function: revelation
 stakes: her brother's last testimony, her mother's survival, and the town's false innocence
-holders: the Cernav Mediation Office, Lucian Petrescu
+holders: the Greywater Mediation Office, $character-pressure-001
 activation: the protagonist decodes the flood compensation ledger near the midpoint
 payoff-zone: midpoint and final confrontation
 
@@ -15,7 +16,7 @@ payoff-zone: midpoint
 fairness-rule: every later reveal must have at least one early concrete hint
 
 @world-subsystem-primary define
-domain: time
+domain: society
 function: defines the system that constrains action and shapes conflict
 conflict-output: bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity
 visibility: explicit
@@ -53,7 +54,7 @@ symbolic-charge: a civic room designed to soften language until responsibility d
 conflict-use: private negotiations keep collapsing into accusations that belong in public
 
 @location-secondary define
-name: the flood memorial crypt beneath Saint Varin church
+name: the flood memorial crypt beneath Saint Rowan chapel
 role: revelation or narrowing stage
 sensory-anchor: cold limestone, candle smoke, varnish over damp names
 social-signal: mourning is choreographed here so that blame never reaches the living officials
@@ -94,7 +95,7 @@ should: make the setting socially legible and emotionally pressurized instead of
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @location-secondary refine
-ref: location:secondary-001 -> the flood memorial crypt beneath Saint Varin church
+ref: location:secondary-001 -> the flood memorial crypt beneath Saint Rowan chapel
 ref: sensory-anchor:location-secondary -> cold limestone, candle smoke, varnish over damp names
 ref: social-signal:location-secondary -> mourning is choreographed here so that blame never reaches the living officials
 ref: symbolic-charge:location-secondary -> the dead are remembered through inscriptions edited by the same people who failed them

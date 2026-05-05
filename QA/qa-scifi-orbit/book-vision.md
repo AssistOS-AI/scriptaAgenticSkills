@@ -1,38 +1,36 @@
-# Book vision
+# Orbit of the Unreturned
 
 ## Core idea
-
-- Title: Orbit of the Unreturned
-- Book ID: qa-scifi-orbit
-- Baseline profile: science-fiction
-- Work form: novelette
-- Brief: A memory architect learns that her orbital station stays peaceful by deleting politically inconvenient memories.
+A peaceful orbital society is exposed as a machine for deleting consent from memory.
 
 ## Short story
+Memory architect Elian Quill discovers that Nacre Station keeps social harmony by erasing witness memory whenever dissent threatens the council. With shuttle pilot Yara Sen, she traces a chain of harmless-looking anomalies to a sealed archive where political decisions have been amputated from collective recall. Director Cael Oris insists the protocol saved the station. Elian must decide whether returning memory is worth the unrest it will unleash.
 
-Elian Quill, a memory architect on Nacre Station, catches a protest chant inside a harmless recall anomaly and discovers that the station council maintains social peace by erasing politically dangerous memories. Together with shuttle pilot Yara Sen she finds the hidden archive where erased votes, strikes, and witness testimony are stored. Elian must choose between a stable station built on forgetting and a risky station forced to remember itself honestly.
+## Story question
+Can Elian restore the station's memory without destroying the fragile peace built on forgetting?
 
-## Author-specified characters
+## Dilemma
+Preserve a stable station that survives by selective erasure, or return memory to the people who may tear it apart once they remember what was done to them.
 
-- Elian Quill - memory architect; wants to restore the missing vote archive; needs to accept that elegant systems can become moral anesthesia; fears discovering she helped design the erasure protocol.
-- Yara Sen - maintenance shuttle pilot; wants to recover the phantom cargo route to the archive; needs to stop surviving the station as if survival were belonging; fears being erased next.
-- Director Cael Oris - station council chair and pressure figure; wants the next memory smoothing cycle completed before unrest spreads; fears a station-wide return of memory.
+## Main characters
+- **Elian Quill** - memory architect; outward goal: trace the corrupted recall patterns and restore the missing vote archive; hidden need: accept that elegant systems can become moral anesthesia.
+- **Yara Sen** - maintenance shuttle pilot; outward goal: recover the phantom cargo crate routed through the sealed archive ring; hidden need: stop living as if surviving the station is the same as belonging to it.
+- **Director Cael Oris** - station council chair; outward goal: complete the next memory smoothing cycle; hidden need: believe that managed forgetting saved more lives than it stole.
 
-## Author-specified scenes
+## Main locations
+- **The mnemonic orchard ring** - ionized citrus, coolant mist, glass leaves pulsing with archived light; recollection here is a civic utility.
+- **The sealed archive airlock beneath Council Spoke Three** - static-dry metal, cryogenic dust, dormant server fans; truth feels like contraband in this room.
 
-- Anomaly inside the orchard - a peaceful memory garden starts replaying an erased protest chant.
-- Cargo route for the vanished vote - maintenance lanes reveal phantom crates routed toward a sealed archive.
-- The room of amputated recall - Elian discovers her old optimization patch became the core of the pacification protocol.
-- Broadcast of the unreturned - the erased vote is restored to the whole station during a fresh smoothing cycle.
+## Key scenes
+1. **Anomaly inside the orchard** - Elian hears a protest chant the system has supposedly erased.
+2. **Cargo route for the vanished vote** - Yara flies her through forbidden maintenance lanes toward the hidden archive.
+3. **The room of amputated recall** - Elian sees that her own old patch became the core of the pacification protocol.
+4. **Broadcast of the unreturned** - she releases the erased vote to the entire station at once.
 
-## Author-specified locations
-
-- The mnemonic orchard ring - ionized citrus, coolant mist, glass leaves pulsing with archived light; a civic garden where recollection behaves like infrastructure.
-- The sealed archive airlock beneath Council Spoke Three - static-dry metal, cryogenic dust, dormant server fans; the station's missing conscience locked behind sterile procedure.
-
-## Author constraints
-
-- The station peace index authorizes memory smoothing whenever dissent crosses a quantified risk threshold.
-- Every smoothing cycle deletes witness continuity and makes future consent less meaningful.
-- Hidden archives can be opened only through paired authorization from architecture and flight systems.
-- Stakes: the station's legitimacy, Elian's complicity, and the residents' right to remember.
+## Constraints
+- Institution: **Nacre Station Council**
+- Plot object: **the erased council vote archive**
+- Motif: **orchard leaves flickering with absent voices**
+- World rule: the peace index authorizes memory smoothing whenever dissent crosses a quantified risk threshold.
+- Cost: every smoothing cycle deletes witness continuity and makes future consent less meaningful.
+- Hard pressure: Elian must use the same civic infrastructure that performs the erasure in order to expose it.

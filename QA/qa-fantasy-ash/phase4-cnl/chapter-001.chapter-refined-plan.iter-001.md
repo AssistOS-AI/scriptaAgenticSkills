@@ -9,19 +9,18 @@ opening-mode: contextual-setup
 development-mode: escalation
 closing-mode: cliffhanger
 continuity-obligations: later chapters must preserve the consequence introduced in chapter-001
-thematic-focus: good-evil under corruption pressure
+thematic-focus: identity-self under reconciliation pressure
 rhythm-note: balanced
 chapter-question: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
 answer-shift: the valley was never protected from cost; it was merely trained to pay it quietly
 arc-stage: entry-instability
 world-pressure: every promise of protection arrives already entangled with control, debt, and ancestral shame
-location-focus: the ash terrace above Drovna village
+location-focus: $location-primary
 block-alternation: description-action-dialogue-suspense-interior-monologue-revelation-pause
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.
 
 @chapter-001 refine
 ref: stakes:lineage-survival-legitimacy-cost -> the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
-ref: location:primary-001 -> the ash terrace above Drovna village
 ref: purpose:setup -> Setup movement anchored by ash speaks the forbidden name
 ref: input-state:setup-0 -> Neris returns to the terrace as the oath-fires begin whispering the names of children no one admits were taken.
 ref: output-state:setup-0 -> homecoming turns into a race against ritual succession

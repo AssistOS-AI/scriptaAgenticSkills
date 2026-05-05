@@ -1,9 +1,10 @@
 @plot-element-core-object define
+name: the original vow chronicle
 category: relationship
 subtype: prophecy
 function: revelation
 stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
-holders: House Vale, Regent Maeron Vale
+holders: House Vale, $character-pressure-001
 activation: the protagonist decodes the original vow chronicle near the midpoint
 payoff-zone: midpoint and final confrontation
 
@@ -15,7 +16,7 @@ payoff-zone: midpoint
 fairness-rule: every later reveal must have at least one early concrete hint
 
 @world-subsystem-primary define
-domain: biology
+domain: magic
 magic-determinacy: semi-hard
 function: defines the system that constrains action and shapes conflict
 conflict-output: every promise of protection arrives already entangled with control, debt, and ancestral shame

@@ -20,6 +20,7 @@ The `define` block must contain:
 
 | Field | Meaning |
 | --- | --- |
+| `name:` | Placeholder-form or resolved proper name for the character |
 | `role:` | Protagonist, antagonist, ally, foil, witness, mentor, or another declared role |
 | `desire:` | What the character wants outwardly |
 | `need:` | What the character must learn or become inwardly |
@@ -58,12 +59,13 @@ Constraint rules:
 1. `development-type: static` is incompatible with `arc: positive-change`, `negative-change`, `corruption`, or `redemption`.
 2. `complexity: flat` should not claim deep contradictions without an explicit exception note.
 3. `role: protagonist` normally requires `development-type: dynamic` or `arc: flat`; purely inert protagonists are not valid default seeds.
-4. A resolved character block that still contains placeholder tokens or role-bearing pseudo-names must fail downstream validation.
+4. A resolved character block that still contains placeholder tokens, raw `$<identifier>` references in the `name:` field, or role-bearing pseudo-names must fail downstream validation.
 
 Example:
 
 ```text
-@character-mara-voss define
+@character-mira-solari define
+name: Mira Solari
 complexity: round
 development-type: dynamic
 archetype: hero
@@ -76,7 +78,7 @@ truth: justice requires visible cost and moral exposure
 conflict-mode: mixed
 arc: tragic
 contradictions: disciplined yet obsessive, compassionate yet controlling
-relationships: Luca Mercer [cooperative], Anika Berin [conflictual], witness network [hierarchical]
+relationships: Theo Mercer [cooperative], Selene Arden [conflictual], witness network [hierarchical]
 ```
 
 ## Decisions & Questions

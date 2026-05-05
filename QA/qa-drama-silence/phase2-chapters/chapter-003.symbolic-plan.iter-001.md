@@ -9,12 +9,12 @@ opening-mode: contextual-setup
 development-mode: revelation-ladder
 closing-mode: open-question
 continuity-obligations: later chapters must preserve the consequence introduced in chapter-003
-thematic-focus: mortality-death under resistance pressure
+thematic-focus: identity-self under reconciliation pressure
 rhythm-note: wave-like
 chapter-question: {{chapter-question:revelation}}
 answer-shift: {{answer-shift:drama}}
 arc-stage: meaning-shift
 world-pressure: {{world-pressure:revelation}}
-location-focus: {{location:primary-001}}
+location-focus: $location-primary
 block-alternation: description-action-dialogue-pause-event-monologue
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.

@@ -3,32 +3,32 @@
 Continuity packet for downstream validation and export assembly.
 
 ## State flow
-- entryState: In the evidence hangar, Daria and Teo trace the victim's last route through broken camera timestamps.
-- exitState: administrative negligence hardens into coordinated concealment
+- entryState: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- exitState: Nadia now knows the cover-up has a clock and a route
 
 ## Continuity obligations
 - later chapters must preserve the consequence introduced in chapter-002
 
 ## Introduced entities
-- Daria Muntean
-- Teo Sava
-- Pavel Orban
+- Nadia Voss
+- Theo Mercer
+- Soren Arden
 
 <!-- scripta-data
 {
   "chapterId": "chapter-002",
-  "entryState": "In the evidence hangar, Daria and Teo trace the victim's last route through broken camera timestamps.",
-  "exitState": "administrative negligence hardens into coordinated concealment",
+  "entryState": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+  "exitState": "Nadia now knows the cover-up has a clock and a route",
   "unresolvedObligations": [
     "later chapters must preserve the consequence introduced in chapter-002"
   ],
   "introducedEntities": [
-    "Daria Muntean",
-    "Teo Sava",
-    "Pavel Orban"
+    "Nadia Voss",
+    "Theo Mercer",
+    "Soren Arden"
   ],
   "changedRelationships": [
-    "redemption under dilemma pressure"
+    "identity-self under resistance pressure"
   ],
   "continuityWarnings": []
 }

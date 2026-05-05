@@ -22,7 +22,7 @@ Every command block must begin with a header line in the form:
 
 The `<identifier>` must be lowercase kebab-case and must follow the command-family prefix rules defined in the command-specific DS files. The `<verb>` must be one of the verbs allowed for that command family.
 
-A command block continues until the next line that starts with `@` or until end of file. The body of a command block may contain three kinds of lines:
+A command block continues until the next line that starts with `@` or until end of file. The header line must stay on its own line. All machine-readable fields, guidance lines, and free natural-language hints must therefore appear on separate following lines rather than being packed onto the header. The body of a command block may contain three kinds of lines:
 
 | Line kind | Syntax | Contract |
 | --- | --- | --- |
@@ -54,7 +54,15 @@ The canonical placeholder syntax is:
 
 Allowed `entity-type` values include `character`, `location`, `organization`, `object`, `artifact`, and `concept`. Placeholder tokens are permitted only in semantic value positions and only in stages that explicitly allow unresolved surface details.
 
-The CNL contract is stage-aware. Symbolic seed files may contain placeholders. Refinement files may replace them with concrete names and richer natural-language cues. Downstream drafting and export artifacts must treat unresolved placeholders as failures unless a DS explicitly marks the artifact as diagnostic.
+The canonical cross-block reference syntax is:
+
+```text
+$<identifier>
+```
+
+`$<identifier>` points at an identifier that was already introduced by an earlier `define` block. Reference tokens are valid in both structural and semantic value positions when a block needs to point back to a previously defined character, location, chapter, scene, rule, or other traceable planning unit. They are not a replacement for `{{...}}`: `$<identifier>` preserves lineage to an already-defined block, while `{{<entity-type>:<stable-id>}}` marks a surface detail that is still unresolved.
+
+The CNL contract is stage-aware. Symbolic seed files may contain placeholders and `$<identifier>` references. Refinement files may replace placeholders with concrete names and richer natural-language cues while preserving cross-block references. Downstream drafting and export artifacts must treat unresolved placeholders as failures and must not leak raw `$<identifier>` references into reader-facing prose unless a DS explicitly marks the artifact as diagnostic.
 
 The plan contract must remain append-only across stages. Later stages may reuse identifiers through `refine` or `check` blocks, but they must do so in successor artifacts rather than by erasing the original seed file that made the identifier traceable.
 
@@ -72,6 +80,10 @@ Response: The later refinement stage is supposed to add richer detail with an LL
 
 Response: Placeholder residue must be detectable by validation and easy to rewrite by refinement stages. A single typed placeholder format makes that possible across all command families.
 
+### Question #4: Why does the format now distinguish `$<identifier>` references from `{{...}}` placeholders?
+
+Response: The user wanted plans to stay line-oriented and traceable while also allowing blocks to refer directly to previously defined characters, locations, and situations. A dedicated reference syntax keeps lineage explicit without pretending those references are unresolved surface details.
+
 ## Conclusion
 
-The CNL plan format is the common interface of the SCRIPTA planning stack. Future plan files must preserve its `@identifier verb` discipline, fixed labeled lines, and free-text hint capability.
+The CNL plan format is the common interface of the SCRIPTA planning stack. Future plan files must preserve its `@identifier verb` discipline, one-line headers with body lines underneath, fixed labeled lines, `$<identifier>` references, typed placeholders, and free-text hint capability.

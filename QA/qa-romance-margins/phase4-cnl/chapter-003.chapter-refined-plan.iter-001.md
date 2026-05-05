@@ -1,31 +1,30 @@
 @chapter-003 define
 chapter-role: reversal
 purpose: Revelation movement anchored by warehouse mock-up and public eyes
-input-state: At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.
-output-state: what they feel becomes harder to frame as accidental residue
+input-state: the curator chooses the doubled-margin proof as the book's defining design feature
+output-state: She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.
 conflict: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
 stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
 opening-mode: contextual-setup
 development-mode: psychological-pressure
 closing-mode: open-question
 continuity-obligations: later chapters must preserve the consequence introduced in chapter-003
-thematic-focus: freedom-security under reconciliation pressure
+thematic-focus: love-connection under transformation pressure
 rhythm-note: escalating
 chapter-question: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
 answer-shift: the studio survives only if the people inside it stop pretending usefulness is neutral
 arc-stage: power-flip
 world-pressure: shared labor turns every practical choice into a referendum on trust, apology, and future risk
-location-focus: the inherited letterpress studio on Brindle Lane
+location-focus: $location-primary
 block-alternation: dialogue-description-interior-monologue-action-pause-dialogue-cliffhanger
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.
 
 @chapter-003 refine
 ref: stakes:autonomy-tenderness-trust-future -> the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
-ref: location:primary-001 -> the inherited letterpress studio on Brindle Lane
 ref: answer-shift:romance-relational -> the studio survives only if the people inside it stop pretending usefulness is neutral
 ref: purpose:reversal -> Revelation movement anchored by warehouse mock-up and public eyes
-ref: input-state:reversal-2 -> At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.
-ref: output-state:reversal-2 -> what they feel becomes harder to frame as accidental residue
+ref: input-state:reversal-2 -> the curator chooses the doubled-margin proof as the book's defining design feature
+ref: output-state:reversal-2 -> She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.
 ref: conflict:reversal -> Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
 ref: chapter-question:reversal -> Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
 ref: world-pressure:reversal -> shared labor turns every practical choice into a referendum on trust, apology, and future risk

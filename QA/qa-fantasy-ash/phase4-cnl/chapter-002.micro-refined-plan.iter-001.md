@@ -1,7 +1,7 @@
 @sequence-002-core define
-sequence-type: recovery
+sequence-type: confrontation-chain
 link-logic: causal
-chapter: chapter-002
+chapter: $chapter-002
 objective: find a path to truth that does not abandon the valley overnight
 scene-chain: scene-002-01, scene-002-02, scene-002-03
 continuity-thread: each scene must inherit and intensify the previous scene's unresolved pressure
@@ -9,224 +9,224 @@ conflict-line: Neris wants to expose Maeron immediately, yet doing so before the
 payoff: Neris can no longer separate public duty from private violation
 
 @location-002-anchor define
-chapter: chapter-002
-primary-setting: the ash terrace above Drovna village
-secondary-setting: the vow furnace catacombs
+chapter: $chapter-002
+primary-setting: $location-primary
+secondary-setting: $location-secondary
 sensory-anchor: cedar smoke, warm soot under snowlight, bells muffled by volcanic dust
 social-signal: every greeting sounds half like welcome and half like ritual surveillance
 symbolic-charge: a homeland that records lineage in the same ash that settles on the living
 conflict-use: belonging feels real here only when obedience remains visible
 
 @rule-pressure-002-core apply
-chapter: chapter-002
-rule-reference: world-rule-primary
+chapter: $chapter-002
+rule-reference: $world-rule-primary
 visible-symptom: ash drifts indoors and whispers names the ruling house refuses to acknowledge
 action-limitation: Neris cannot break the oath in secret because the valley must witness and accept the cost together.
 conflict-output: every promise of protection arrives already entangled with control, debt, and ancestral shame
 reveal-pattern: embed-rule-in-dialogue
 
 @arc-002-protagonist map
-chapter: chapter-002
+chapter: $chapter-002
 entry-belief: the family oath can be repaired without being destroyed at the start of the escalation chapter
 challenge: Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
 insight-pressure: inheritance becomes personal wound rather than abstract lineage guilt
 exit-belief: some inheritances become just only when they are surrendered after the escalation chapter
 
 @arc-002-relationship map
-chapter: chapter-002
-pair: Neris Vale, Brother Caelan Vey
+chapter: $chapter-002
+pair: $character-protagonist-001, $character-counterpart-001
 entry-dynamic: oath-bound-cooperation-shadowed-by-allegiance
 stress-line: Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
 exit-dynamic: altered-but-legible-bond
 
 @alternation-002-core arrange
-chapter: chapter-002
+chapter: $chapter-002
 block-order: description-action-dialogue-suspense-interior-monologue-revelation-pause
 reader-effect: Is inherited protection still noble once it depends on ritualized theft from the people it claims to save?
 anti-flatness-rule: do not chain action summaries without dialogue, atmosphere, or reflection support
 
 @scene-002-01 define
-chapter: chapter-002
+chapter: $chapter-002
 showing-mode: mixed
 focalization: internal-shifting
-time-space: the ash terrace above Drovna village
+time-space: $location-primary
 introduction: In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.
 development: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
 conflict: Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
 resolution: She steals the regent's binding seal instead, buying time but alerting him to the betrayal.
 exit: the next scene begins before the pressure can settle
-participants: Neris Vale, Brother Caelan Vey, Regent Maeron Vale
+participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
 state-change: the oath becomes both a crime and a necessary shield
 
 @action-002-1 place
 action-mode: attempt
-scene: scene-002-01
-actor: Neris Vale
+scene: $scene-002-01
+actor: $character-protagonist-001
 goal: find a path to truth that does not abandon the valley overnight
 obstacle: the only people who know the full rite are the ones invested in preserving it
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-002-1 place
-scope: scene-002-01
+scope: $scene-002-01
 type: external-supernatural
-forces: Neris Vale versus Regent Maeron Vale
+forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
 escalation: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
 
 @event-002-1 trigger
-scope: scene-002-01
+scope: $scene-002-01
 event-type: betrayal
 trigger: the records show Neris's mother volunteered the sister's memory to preserve the wards
 impact: inheritance becomes personal wound rather than abstract lineage guilt
 follow-through: Neris can no longer separate public duty from private violation
 
 @dialogue-turn-002-01-01 line
-scene: scene-002-01
-speaker: Brother Caelan Vey
+scene: $scene-002-01
+speaker: $character-counterpart-001
 intent: warn
-subtext: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-line-hint: a hint for the dialogue line
-reaction-beat: how the other character reacts
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: the records show Neris's mother volunteered the sister's memory to preserve the wards
+reaction-beat: The warning narrows what can still be done safely.
 
 @dialogue-turn-002-01-02 line
-scene: scene-002-01
-speaker: Neris Vale
+scene: $scene-002-01
+speaker: $character-protagonist-001
 intent: name-risk
-subtext: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-line-hint: a hint for the dialogue line
-reaction-beat: how the other character reacts
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: the records show Neris's mother volunteered the sister's memory to preserve the wards
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @scene-002-02 define
-chapter: chapter-002
+chapter: $chapter-002
 showing-mode: introspective
 focalization: internal-shifting
-time-space: the ash terrace above Drovna village
-introduction: In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.
-development: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+time-space: $location-primary
+introduction: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+development: Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
 conflict: Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
 resolution: She steals the regent's binding seal instead, buying time but alerting him to the betrayal.
 exit: the next scene begins before the pressure can settle
-participants: Neris Vale, Brother Caelan Vey, Regent Maeron Vale
+participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
 state-change: the oath becomes both a crime and a necessary shield
 
 @action-002-2 place
 action-mode: evasion
-scene: scene-002-02
-actor: Neris Vale
-goal: find a path to truth that does not abandon the valley overnight
+scene: $scene-002-02
+actor: $character-protagonist-001
+goal: Neris can no longer separate public duty from private violation
 obstacle: the only people who know the full rite are the ones invested in preserving it
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-002-2 place
-scope: scene-002-02
+scope: $scene-002-02
 type: external-character
-forces: Neris Vale versus Regent Maeron Vale
+forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
 escalation: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
 
 @event-002-2 trigger
-scope: scene-002-02
+scope: $scene-002-02
 event-type: betrayal
 trigger: the records show Neris's mother volunteered the sister's memory to preserve the wards
 impact: inheritance becomes personal wound rather than abstract lineage guilt
 follow-through: Neris can no longer separate public duty from private violation
 
 @dialogue-turn-002-02-01 line
-scene: scene-002-02
-speaker: Brother Caelan Vey
+scene: $scene-002-02
+speaker: $character-counterpart-001
 intent: answer-honestly
-subtext: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-line-hint: a hint for the dialogue line
-reaction-beat: how the other character reacts
+subtext: gives away more vulnerability than strategy intended
+line-hint: Chronicle beneath the chains
+reaction-beat: The honesty changes the balance of power in the room.
 
 @dialogue-turn-002-02-02 line
-scene: scene-002-02
-speaker: Neris Vale
+scene: $scene-002-02
+speaker: $character-protagonist-001
 intent: warn
-subtext: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-line-hint: a hint for the dialogue line
-reaction-beat: how the other character reacts
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: Chronicle beneath the chains
+reaction-beat: The warning narrows what can still be done safely.
 
 @scene-002-03 define
-chapter: chapter-002
+chapter: $chapter-002
 showing-mode: mixed
 focalization: internal-shifting
-time-space: the ash terrace above Drovna village
-introduction: In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.
-development: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+time-space: $location-primary
+introduction: the records show Neris's mother volunteered the sister's memory to preserve the wards
+development: inheritance becomes personal wound rather than abstract lineage guilt
 conflict: Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
 resolution: She steals the regent's binding seal instead, buying time but alerting him to the betrayal.
 exit: the chapter hands off to a sharper escalation consequence
-participants: Neris Vale, Brother Caelan Vey, Regent Maeron Vale
+participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
 state-change: the oath becomes both a crime and a necessary shield
 
 @action-002-3 place
 action-mode: negotiation
-scene: scene-002-03
-actor: Neris Vale
-goal: find a path to truth that does not abandon the valley overnight
+scene: $scene-002-03
+actor: $character-protagonist-001
+goal: Chronicle beneath the chains
 obstacle: the only people who know the full rite are the ones invested in preserving it
 result: the oath becomes both a crime and a necessary shield
 
 @conflict-002-3 place
-scope: scene-002-03
+scope: $scene-002-03
 type: mixed
-forces: Neris Vale versus Regent Maeron Vale
+forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
 escalation: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
 
 @event-002-3 trigger
-scope: scene-002-03
+scope: $scene-002-03
 event-type: decision
 trigger: the records show Neris's mother volunteered the sister's memory to preserve the wards
 impact: inheritance becomes personal wound rather than abstract lineage guilt
 follow-through: Neris can no longer separate public duty from private violation
 
 @dialogue-turn-002-03-01 line
-scene: scene-002-03
-speaker: Brother Caelan Vey
+scene: $scene-002-03
+speaker: $character-counterpart-001
 intent: name-risk
-subtext: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-line-hint: a hint for the dialogue line
-reaction-beat: how the other character reacts
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @dialogue-turn-002-03-02 line
-scene: scene-002-03
-speaker: Neris Vale
+scene: $scene-002-03
+speaker: $character-protagonist-001
 intent: tease-probe
-subtext: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-line-hint: a hint for the dialogue line
-reaction-beat: how the other character reacts
+subtext: uses wit to test whether the wound can be named safely
+line-hint: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+reaction-beat: The joke opens a bruise neither speaker can ignore now.
 
 @description-002-atmosphere apply
-scope: chapter-002
+scope: $chapter-002
 description-type: symbolic
 focus: a homeland that records lineage in the same ash that settles on the living
 function: symbolic
 rhythm-effect: slow
 
 @dialogue-002-core apply
-scene: scene-002-01
-speakers: Neris Vale, Brother Caelan Vey
+scene: $scene-002-01
+speakers: $character-protagonist-001, $character-counterpart-001
 exchange-type: conflictual
 purpose: tension
 subtext: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
 
 @narration-002-bridge apply
-scope: chapter-002
+scope: $chapter-002
 narrator-mode: objective
 function: organizational
 time-handling: mixed
 
 @interior-monologue-002-core apply
-scene: scene-002-03
-character: Neris Vale
+scene: $scene-002-03
+character: $character-protagonist-001
 function: psychological-insight
 trigger: inheritance becomes personal wound rather than abstract lineage guilt
 texture: reflective
 
 @suspense-002-core build
-scope: chapter-002
+scope: $chapter-002
 suspense-type: situational
 uncertainty: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
 delay-technique: foreshadowing
@@ -234,32 +234,30 @@ payoff-zone: event-002-3
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
 
 @pause-002-core hold
-scope: chapter-002
+scope: $chapter-002
 pause-function: atmospheric
 focus: the oath becomes both a crime and a necessary shield
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-002-core burst
-scope: chapter-002
+scope: $chapter-002
 acceleration-mode: summary-burst
 trigger: the records show Neris's mother volunteered the sister's memory to preserve the wards
 reader-effect: compress time and force the next consequence to land without emotional escape
-target-zone: scene-002-03
+target-zone: $scene-002-03
 
 @cliffhanger-002-exit cut
-scope: chapter-002
+scope: $chapter-002
 cliffhanger-type: interrupted-revelation
 cut-moment: the records show Neris's mother volunteered the sister's memory to preserve the wards
 continuation-pressure: Neris can no longer separate public duty from private violation
 
 @location-002-anchor refine
-ref: location:primary-001 -> the ash terrace above Drovna village
 ref: sensory-anchor:location-primary -> cedar smoke, warm soot under snowlight, bells muffled by volcanic dust
 ref: social-signal:location-primary -> every greeting sounds half like welcome and half like ritual surveillance
 ref: symbolic-charge:location-primary -> a homeland that records lineage in the same ash that settles on the living
 ref: conflict-use:location-primary -> belonging feels real here only when obedience remains visible
-ref: location:secondary-001 -> the vow furnace catacombs
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the place sensorial, mythic, and constrained by cost
@@ -285,8 +283,6 @@ should: make the arc bind inheritance to sacrifice and renunciation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @arc-002-relationship refine
-ref: character:protagonist-001 -> Neris Vale
-ref: character:counterpart-001 -> Brother Caelan Vey
 ref: relationship-stress:escalation -> Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
@@ -301,10 +297,6 @@ should: alternate wonder, cost, and decisive movement deliberately
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-002-01 refine
-ref: character:protagonist-001 -> Neris Vale
-ref: location:primary-001 -> the ash terrace above Drovna village
-ref: character:pressure-001 -> Regent Maeron Vale
-ref: character:counterpart-001 -> Brother Caelan Vey
 ref: scene-introduction:escalation-0 -> In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.
 ref: scene-development:escalation-0 -> The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
 ref: scene-conflict:escalation -> Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
@@ -316,68 +308,56 @@ should: keep the magical cost visible in action and atmosphere
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-002-01-01 refine
-ref: character:counterpart-001 -> Brother Caelan Vey
-ref: dialogue-subtext:warn -> Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-ref: dialogue-reaction:warn -> how the other character reacts
-ref: dialogue-line-hint:escalation-0-0 -> a hint for the dialogue line
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:escalation-0-0 -> the records show Neris's mother volunteered the sister's memory to preserve the wards
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-002-01-02 refine
-ref: character:protagonist-001 -> Neris Vale
-ref: dialogue-subtext:name-risk -> Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-ref: dialogue-line-hint:escalation-0-1 -> a hint for the dialogue line
-ref: dialogue-reaction:name-risk -> how the other character reacts
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-line-hint:escalation-0-1 -> the records show Neris's mother volunteered the sister's memory to preserve the wards
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-002-02 refine
-ref: character:protagonist-001 -> Neris Vale
-ref: location:primary-001 -> the ash terrace above Drovna village
-ref: character:pressure-001 -> Regent Maeron Vale
-ref: character:counterpart-001 -> Brother Caelan Vey
 ref: scene-conflict:escalation -> Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
 ref: scene-resolution:escalation-mid -> She steals the regent's binding seal instead, buying time but alerting him to the betrayal.
 ref: scene-state-change:escalation-mid -> the oath becomes both a crime and a necessary shield
-ref: scene-introduction:escalation-1 -> In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.
-ref: scene-development:escalation-1 -> The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+ref: scene-introduction:escalation-1 -> The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+ref: scene-development:escalation-1 -> Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the magical cost visible in action and atmosphere
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-002-02-01 refine
-ref: character:counterpart-001 -> Brother Caelan Vey
-ref: dialogue-subtext:answer-honestly -> Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-ref: dialogue-line-hint:escalation-1-0 -> a hint for the dialogue line
-ref: dialogue-reaction:answer-honestly -> how the other character reacts
+ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
+ref: dialogue-line-hint:escalation-1-0 -> Chronicle beneath the chains
+ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-002-02-02 refine
-ref: character:protagonist-001 -> Neris Vale
-ref: dialogue-subtext:warn -> Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-ref: dialogue-reaction:warn -> how the other character reacts
-ref: dialogue-line-hint:escalation-1-1 -> a hint for the dialogue line
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:escalation-1-1 -> Chronicle beneath the chains
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-002-03 refine
-ref: character:protagonist-001 -> Neris Vale
-ref: location:primary-001 -> the ash terrace above Drovna village
-ref: character:pressure-001 -> Regent Maeron Vale
-ref: character:counterpart-001 -> Brother Caelan Vey
 ref: scene-conflict:escalation -> Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
-ref: scene-introduction:escalation-2 -> In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.
-ref: scene-development:escalation-2 -> The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+ref: scene-introduction:escalation-2 -> the records show Neris's mother volunteered the sister's memory to preserve the wards
+ref: scene-development:escalation-2 -> inheritance becomes personal wound rather than abstract lineage guilt
 ref: scene-resolution:escalation-final -> She steals the regent's binding seal instead, buying time but alerting him to the betrayal.
 ref: scene-state-change:escalation-final -> the oath becomes both a crime and a necessary shield
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
@@ -386,28 +366,24 @@ should: keep the magical cost visible in action and atmosphere
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-002-03-01 refine
-ref: character:counterpart-001 -> Brother Caelan Vey
-ref: dialogue-subtext:name-risk -> Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-ref: dialogue-reaction:name-risk -> how the other character reacts
-ref: dialogue-line-hint:escalation-2-0 -> a hint for the dialogue line
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:escalation-2-0 -> The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-002-03-02 refine
-ref: character:protagonist-001 -> Neris Vale
-ref: dialogue-subtext:tease-probe -> Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-ref: dialogue-line-hint:escalation-2-1 -> a hint for the dialogue line
-ref: dialogue-reaction:tease-probe -> how the other character reacts
+ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
+ref: dialogue-line-hint:escalation-2-1 -> The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-002-core refine
-ref: character:protagonist-001 -> Neris Vale
-ref: character:counterpart-001 -> Brother Caelan Vey
 ref: dialogue-core-subtext:fantasy -> Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly

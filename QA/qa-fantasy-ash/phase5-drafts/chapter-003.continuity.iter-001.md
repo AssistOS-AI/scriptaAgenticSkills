@@ -3,8 +3,8 @@
 Continuity packet for downstream validation and export assembly.
 
 ## State flow
-- entryState: A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
-- exitState: renunciation becomes the only form of leadership left to her
+- entryState: the winter spirit retreats only when Neris names one of the forgotten dead aloud
+- exitState: She decides to break the binding ceremony and speak the hidden names during the next warding chant.
 
 ## Continuity obligations
 - later chapters must preserve the consequence introduced in chapter-003
@@ -17,8 +17,8 @@ Continuity packet for downstream validation and export assembly.
 <!-- scripta-data
 {
   "chapterId": "chapter-003",
-  "entryState": "A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.",
-  "exitState": "renunciation becomes the only form of leadership left to her",
+  "entryState": "the winter spirit retreats only when Neris names one of the forgotten dead aloud",
+  "exitState": "She decides to break the binding ceremony and speak the hidden names during the next warding chant.",
   "unresolvedObligations": [
     "later chapters must preserve the consequence introduced in chapter-003"
   ],
@@ -28,7 +28,7 @@ Continuity packet for downstream validation and export assembly.
     "Regent Maeron Vale"
   ],
   "changedRelationships": [
-    "good-evil under corruption pressure"
+    "identity-self under reconciliation pressure"
   ],
   "continuityWarnings": []
 }

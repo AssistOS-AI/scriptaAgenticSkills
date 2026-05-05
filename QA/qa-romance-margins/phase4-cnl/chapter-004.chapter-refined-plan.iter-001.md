@@ -9,19 +9,18 @@ opening-mode: dialogue-entry
 development-mode: escalation
 closing-mode: reversal
 continuity-obligations: later chapters must preserve the consequence introduced in chapter-004
-thematic-focus: freedom-security under reconciliation pressure
+thematic-focus: love-connection under transformation pressure
 rhythm-note: breathless
 chapter-question: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
 answer-shift: the studio survives only if the people inside it stop pretending usefulness is neutral
 arc-stage: irreversible-choice
 world-pressure: shared labor turns every practical choice into a referendum on trust, apology, and future risk
-location-focus: the inherited letterpress studio on Brindle Lane
+location-focus: $location-primary
 block-alternation: dialogue-description-interior-monologue-action-pause-dialogue-cliffhanger
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.
 
 @chapter-004 refine
 ref: stakes:autonomy-tenderness-trust-future -> the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
-ref: location:primary-001 -> the inherited letterpress studio on Brindle Lane
 ref: answer-shift:romance-relational -> the studio survives only if the people inside it stop pretending usefulness is neutral
 ref: purpose:culmination -> Culmination movement anchored by launch with the unfinished dedication
 ref: input-state:culmination-3 -> On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.

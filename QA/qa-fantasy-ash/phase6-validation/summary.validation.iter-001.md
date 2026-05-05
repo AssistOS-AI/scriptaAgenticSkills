@@ -6,7 +6,7 @@ Structured validation output stored in Markdown form.
 - bookId: qa-fantasy-ash
 - baselineProfile: fantasy
 - metrics: {"OI":68,"NCS":100,"BCI":96,"VAD_score":100,"TOP_score":100,"PRC":100,"SFSG":95,"CCI":94,"CAD_score":88,"EAP":92,"CAR":99,"CS":93,"NQS":88}
-- literaryIndicators: {"narrativeCoherence":93,"thematicDepth":88,"characterComplexity":82,"originality":84,"stylisticQuality":74,"emotionalImpact":90,"interpretiveOpenness":82,"culturalValue":62}
+- literaryIndicators: {"narrativeCoherence":93,"thematicDepth":88,"characterComplexity":82,"originality":84,"stylisticQuality":74,"emotionalImpact":90,"interpretiveOpenness":82,"culturalValue":78}
 - issues: []
 - exportAudit: {"score":100,"expectedLanguages":["en","ro"],"foundLanguages":["en","ro"],"missingLanguages":[],"editions":[{"languageCode":"en","score":100,"failedChecks":[]},{"languageCode":"ro","score":100,"failedChecks":[]}],"bundlePresent":true}
 - stageAudit: [{"name":"macro","score":100,"status":"pass","checks":[{"name":"macro successor files exist","pass":true},{"name":"macro blocks expose central idea, theme, and world rules","pass":true},{"name":"macro blocks expose arc, motif, and location packets","pass":true}]},{"name":"chapters","score":100,"status":"pass","checks":[{"name":"chapter symbolic plans match requested chapter count","pass":true},{"name":"chapter refined plans match requested chapter count","pass":true},{"name":"chapter plans expose question and alternation fields","pass":true}]},{"name":"micro","score":100,"status":"pass","checks":[{"name":"micro refined plans match requested chapter count","pass":true},{"name":"micro plans contain scene definitions","pass":true},{"name":"micro plans contain dialogue-turn lines","pass":true},{"name":"micro plans contain location, rule-pressure, and arc packets","pass":true},{"name":"micro plans contain pause and acceleration controls","pass":true}]},{"name":"cnl","score":100,"status":"pass","checks":[{"name":"placeholder resolution artifact exists","pass":true},{"name":"refined plans do not retain placeholders","pass":true}]},{"name":"drafts","score":100,"status":"pass","checks":[{"name":"draft count matches requested chapter count","pass":true},{"name":"continuity packets match chapter count","pass":true},{"name":"drafts are not trivially short","pass":true}]},{"name":"exports","score":100,"status":"pass","checks":[{"name":"all requested language editions exist","pass":true},{"name":"all editions passed structural checks","pass":true}]}]
@@ -39,7 +39,7 @@ Structured validation output stored in Markdown form.
     "stylisticQuality": 74,
     "emotionalImpact": 90,
     "interpretiveOpenness": 82,
-    "culturalValue": 62
+    "culturalValue": 78
   },
   "issues": [],
   "exportAudit": {

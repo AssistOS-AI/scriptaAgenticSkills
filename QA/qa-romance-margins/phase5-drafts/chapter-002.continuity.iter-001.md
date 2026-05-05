@@ -3,8 +3,8 @@
 Continuity packet for downstream validation and export assembly.
 
 ## State flow
-- entryState: A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.
-- exitState: the work begins storing their conflict instead of hiding it
+- entryState: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+- exitState: repair becomes emotionally riskier than failure
 
 ## Continuity obligations
 - later chapters must preserve the consequence introduced in chapter-002
@@ -17,8 +17,8 @@ Continuity packet for downstream validation and export assembly.
 <!-- scripta-data
 {
   "chapterId": "chapter-002",
-  "entryState": "A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.",
-  "exitState": "the work begins storing their conflict instead of hiding it",
+  "entryState": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.",
+  "exitState": "repair becomes emotionally riskier than failure",
   "unresolvedObligations": [
     "later chapters must preserve the consequence introduced in chapter-002"
   ],
@@ -28,7 +28,7 @@ Continuity packet for downstream validation and export assembly.
     "Cassia Mercer"
   ],
   "changedRelationships": [
-    "freedom-security under reconciliation pressure"
+    "love-connection under transformation pressure"
   ],
   "continuityWarnings": []
 }

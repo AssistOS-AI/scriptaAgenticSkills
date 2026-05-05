@@ -1,9 +1,10 @@
 @plot-element-core-object define
+name: the doubled-margin proof set
 category: relationship
 subtype: discovery
 function: revelation
 stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
-holders: the Mercer Estate, Cassia Mercer
+holders: the Mercer Estate, $character-pressure-001
 activation: the protagonist decodes the doubled-margin proof set near the midpoint
 payoff-zone: midpoint and final confrontation
 
@@ -15,7 +16,7 @@ payoff-zone: midpoint
 fairness-rule: every later reveal must have at least one early concrete hint
 
 @world-subsystem-primary define
-domain: physics
+domain: society
 function: defines the system that constrains action and shapes conflict
 conflict-output: shared labor turns every practical choice into a referendum on trust, apology, and future risk
 visibility: explicit

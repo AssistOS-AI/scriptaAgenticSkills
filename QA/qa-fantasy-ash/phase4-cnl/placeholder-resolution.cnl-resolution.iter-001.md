@@ -4,7 +4,6 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 
 ## Resolved placeholders
 - {{hook:forbidden-combination}}: Exiled heir Neris Vale returns to the ash valley of Drovna when the family oath-fires begin speaking the names of the dead aloud. Guided by oath-keeper Brother Caelan, she learns that her dynasty's power comes from a vow furnace that burns witness memories into political obedience, and breaking it will strip the valley of the same protection that kept the winter spirits out.
-- {{character:protagonist-001}}: Neris Vale
 - {{desire:protagonist}}: learn the true wording of the family vow and sever it before the valley chooses another heir
 - {{opposition:primary}}: Regent Maeron Vale, Neris's uncle and temporary ruler of the valley, backed by House Vale
 - {{stakes:lineage-survival-legitimacy-cost}}: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
@@ -22,21 +21,21 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{wisdom:moral}}: Redemption begins when inherited power is treated as a debt to be relinquished rather than a right to be managed.
 - {{wisdom:reflexive}}: the reflexive dimension of insight this story offers
 - {{wisdom:experiential}}: the experiential dimension of insight this story offers
-- {{location:primary-001}}: the ash terrace above Drovna village
 - {{organization:institution-001}}: House Vale
 - {{inciting-incident:primary}}: the ash names Neris's younger sister, long said to have died of fever
 - {{object:plot-001}}: the original vow chronicle
-- {{character:pressure-001}}: Regent Maeron Vale
 - {{premise:primary}}: Exiled heir Neris Vale returns to the ash valley of Drovna when the family oath-fires begin speaking the names of the dead aloud. Guided by oath-keeper Brother Caelan, she learns that her dynasty's power comes from a vow furnace that burns witness memories into political obedience, and breaking it will strip the valley of the same protection that kept the winter spirits out.
 - {{turning-insight:protagonist}}: the valley was never protected from cost; it was merely trained to pay it quietly
-- {{character:counterpart-001}}: Brother Caelan Vey
 - {{motif-object:fantasy}}: ash carrying unspoken names
+- {{character:protagonist-001}}: Neris Vale
 - {{need:protagonist}}: accept that returning home requires losing the shelter her lineage once guaranteed
 - {{fear:protagonist}}: becoming the next keeper of a system she already fled once in shame
 - {{contradictions:protagonist}}: contradictions for this fantasy story
+- {{character:counterpart-001}}: Brother Caelan Vey
 - {{desire:counterpart}}: guide Neris to the furnace catacombs before the regent seals them for another generation
 - {{need:counterpart}}: stop mistaking custodianship for moral innocence
 - {{fear:counterpart}}: watching Neris repeat the same compromise he once blessed
+- {{character:pressure-001}}: Regent Maeron Vale
 - {{desire:pressure}}: bind a successor to the furnace before winter spirits test the mountain wards
 - {{need:pressure}}: believe that domination still counts as protection if the valley survives
 - {{fear:pressure}}: a public naming of the children consumed by the vow fires
@@ -47,6 +46,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{rule:world-secondary}}: A ward can be reforged through named communal consent, but only if the hidden dead are spoken publicly first.
 - {{conflict-transform:world-secondary}}: A ward can be reforged through named communal consent, but only if the hidden dead are spoken publicly first.
 - {{rule-to-conflict:world}}: The valley wards hold only while an heir keeps the furnace vow active through lineage-bound ritual obedience. so every promise of protection arrives already entangled with control, debt, and ancestral shame
+- {{location:primary-001}}: the ash terrace above Drovna village
 - {{sensory-anchor:location-primary}}: cedar smoke, warm soot under snowlight, bells muffled by volcanic dust
 - {{social-signal:location-primary}}: every greeting sounds half like welcome and half like ritual surveillance
 - {{symbolic-charge:location-primary}}: a homeland that records lineage in the same ash that settles on the living
@@ -64,14 +64,14 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{answer-shift:fantasy}}: the valley was never protected from cost; it was merely trained to pay it quietly
 - {{world-pressure:setup}}: every promise of protection arrives already entangled with control, debt, and ancestral shame
 - {{purpose:escalation}}: Escalation movement anchored by chronicle beneath the chains
-- {{input-state:escalation-1}}: In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.
-- {{output-state:escalation-1}}: the oath becomes both a crime and a necessary shield
+- {{input-state:escalation-1}}: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+- {{output-state:escalation-1}}: Neris can no longer separate public duty from private violation
 - {{conflict:escalation}}: Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
 - {{chapter-question:escalation}}: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
 - {{world-pressure:escalation}}: every promise of protection arrives already entangled with control, debt, and ancestral shame
 - {{purpose:revelation}}: Revelation movement anchored by ward breach at the mountain gate
-- {{input-state:revelation-2}}: A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
-- {{output-state:revelation-2}}: renunciation becomes the only form of leadership left to her
+- {{input-state:revelation-2}}: the winter spirit retreats only when Neris names one of the forgotten dead aloud
+- {{output-state:revelation-2}}: She decides to break the binding ceremony and speak the hidden names during the next warding chant.
 - {{conflict:revelation}}: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
 - {{chapter-question:revelation}}: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
 - {{world-pressure:revelation}}: every promise of protection arrives already entangled with control, debt, and ancestral shame
@@ -103,31 +103,31 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{event-trigger:setup-mid}}: the ash names Neris's younger sister, long said to have died of fever
 - {{event-impact:setup}}: family legend breaks open into accusation
 - {{event-follow-through:setup-mid}}: Neris must face the possibility that exile protected her from knowing the truth
-- {{dialogue-subtext:deflect}}: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-- {{dialogue-line-hint:setup-0-0}}: a hint for the dialogue line
-- {{dialogue-reaction:deflect}}: how the other character reacts
-- {{dialogue-subtext:warn}}: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-- {{dialogue-line-hint:setup-0-1}}: a hint for the dialogue line
-- {{dialogue-reaction:warn}}: how the other character reacts
-- {{scene-introduction:setup-1}}: Neris returns to the terrace as the oath-fires begin whispering the names of children no one admits were taken.
-- {{scene-development:setup-1}}: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
-- {{action-goal:setup-1}}: verify that the speaking ash is tied to the original family vow
-- {{dialogue-subtext:commit}}: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-- {{dialogue-line-hint:setup-1-0}}: a hint for the dialogue line
-- {{dialogue-reaction:commit}}: how the other character reacts
-- {{dialogue-subtext:probe}}: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-- {{dialogue-line-hint:setup-1-1}}: a hint for the dialogue line
-- {{dialogue-reaction:probe}}: how the other character reacts
-- {{scene-introduction:setup-2}}: Neris returns to the terrace as the oath-fires begin whispering the names of children no one admits were taken.
-- {{scene-development:setup-2}}: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+- {{dialogue-subtext:deflect}}: turns confession sideways to protect status and control
+- {{dialogue-line-hint:setup-0-0}}: the ash names Neris's younger sister, long said to have died of fever
+- {{dialogue-reaction:deflect}}: The evasion makes the silence more visible than the answer would have.
+- {{dialogue-subtext:warn}}: tries to protect the bond by narrowing the next available move
+- {{dialogue-line-hint:setup-0-1}}: the ash names Neris's younger sister, long said to have died of fever
+- {{dialogue-reaction:warn}}: The warning narrows what can still be done safely.
+- {{scene-introduction:setup-1}}: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+- {{scene-development:setup-1}}: Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.
+- {{action-goal:setup-1}}: Neris must face the possibility that exile protected her from knowing the truth
+- {{dialogue-subtext:commit}}: makes risk sound practical enough to become a promise
+- {{dialogue-line-hint:setup-1-0}}: Ash speaks the forbidden name
+- {{dialogue-reaction:commit}}: The promise raises the stakes for the next exchange.
+- {{dialogue-subtext:probe}}: tests whether the other speaker can bear the unsoftened truth
+- {{dialogue-line-hint:setup-1-1}}: Ash speaks the forbidden name
+- {{dialogue-reaction:probe}}: The question lands harder than either speaker planned.
+- {{scene-introduction:setup-2}}: the ash names Neris's younger sister, long said to have died of fever
+- {{scene-development:setup-2}}: family legend breaks open into accusation
 - {{scene-resolution:setup-final}}: They descend toward the catacombs before Maeron can bind her publicly at dusk.
 - {{scene-state-change:setup-final}}: homecoming turns into a race against ritual succession
-- {{action-goal:setup-2}}: verify that the speaking ash is tied to the original family vow
+- {{action-goal:setup-2}}: Ash speaks the forbidden name
 - {{action-result:setup-final}}: homecoming turns into a race against ritual succession
 - {{event-trigger:setup-final}}: the ash names Neris's younger sister, long said to have died of fever
 - {{event-follow-through:setup-final}}: Neris must face the possibility that exile protected her from knowing the truth
-- {{dialogue-line-hint:setup-2-0}}: a hint for the dialogue line
-- {{dialogue-line-hint:setup-2-1}}: a hint for the dialogue line
+- {{dialogue-line-hint:setup-2-0}}: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+- {{dialogue-line-hint:setup-2-1}}: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
 - {{description-focus:fantasy}}: a homeland that records lineage in the same ash that settles on the living
 - {{dialogue-core-subtext:fantasy}}: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
 - {{monologue-trigger:setup}}: family legend breaks open into accusation
@@ -157,29 +157,29 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{event-trigger:escalation-mid}}: the records show Neris's mother volunteered the sister's memory to preserve the wards
 - {{event-impact:escalation}}: inheritance becomes personal wound rather than abstract lineage guilt
 - {{event-follow-through:escalation-mid}}: Neris can no longer separate public duty from private violation
-- {{dialogue-line-hint:escalation-0-0}}: a hint for the dialogue line
-- {{dialogue-subtext:name-risk}}: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-- {{dialogue-line-hint:escalation-0-1}}: a hint for the dialogue line
-- {{dialogue-reaction:name-risk}}: how the other character reacts
-- {{scene-introduction:escalation-1}}: In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.
-- {{scene-development:escalation-1}}: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
-- {{action-goal:escalation-1}}: find a path to truth that does not abandon the valley overnight
-- {{dialogue-subtext:answer-honestly}}: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-- {{dialogue-line-hint:escalation-1-0}}: a hint for the dialogue line
-- {{dialogue-reaction:answer-honestly}}: how the other character reacts
-- {{dialogue-line-hint:escalation-1-1}}: a hint for the dialogue line
-- {{scene-introduction:escalation-2}}: In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.
-- {{scene-development:escalation-2}}: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+- {{dialogue-line-hint:escalation-0-0}}: the records show Neris's mother volunteered the sister's memory to preserve the wards
+- {{dialogue-subtext:name-risk}}: speaks the consequence both speakers hoped could stay implied
+- {{dialogue-line-hint:escalation-0-1}}: the records show Neris's mother volunteered the sister's memory to preserve the wards
+- {{dialogue-reaction:name-risk}}: Naming the risk turns pressure into irreversible commitment.
+- {{scene-introduction:escalation-1}}: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+- {{scene-development:escalation-1}}: Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
+- {{action-goal:escalation-1}}: Neris can no longer separate public duty from private violation
+- {{dialogue-subtext:answer-honestly}}: gives away more vulnerability than strategy intended
+- {{dialogue-line-hint:escalation-1-0}}: Chronicle beneath the chains
+- {{dialogue-reaction:answer-honestly}}: The honesty changes the balance of power in the room.
+- {{dialogue-line-hint:escalation-1-1}}: Chronicle beneath the chains
+- {{scene-introduction:escalation-2}}: the records show Neris's mother volunteered the sister's memory to preserve the wards
+- {{scene-development:escalation-2}}: inheritance becomes personal wound rather than abstract lineage guilt
 - {{scene-resolution:escalation-final}}: She steals the regent's binding seal instead, buying time but alerting him to the betrayal.
 - {{scene-state-change:escalation-final}}: the oath becomes both a crime and a necessary shield
-- {{action-goal:escalation-2}}: find a path to truth that does not abandon the valley overnight
+- {{action-goal:escalation-2}}: Chronicle beneath the chains
 - {{action-result:escalation-final}}: the oath becomes both a crime and a necessary shield
 - {{event-trigger:escalation-final}}: the records show Neris's mother volunteered the sister's memory to preserve the wards
 - {{event-follow-through:escalation-final}}: Neris can no longer separate public duty from private violation
-- {{dialogue-line-hint:escalation-2-0}}: a hint for the dialogue line
-- {{dialogue-subtext:tease-probe}}: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-- {{dialogue-line-hint:escalation-2-1}}: a hint for the dialogue line
-- {{dialogue-reaction:tease-probe}}: how the other character reacts
+- {{dialogue-line-hint:escalation-2-0}}: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+- {{dialogue-subtext:tease-probe}}: uses wit to test whether the wound can be named safely
+- {{dialogue-line-hint:escalation-2-1}}: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+- {{dialogue-reaction:tease-probe}}: The joke opens a bruise neither speaker can ignore now.
 - {{monologue-trigger:escalation}}: inheritance becomes personal wound rather than abstract lineage guilt
 - {{suspense-uncertainty:escalation}}: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
 - {{pause-focus:escalation}}: the oath becomes both a crime and a necessary shield
@@ -207,27 +207,27 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{event-trigger:revelation-mid}}: the winter spirit retreats only when Neris names one of the forgotten dead aloud
 - {{event-impact:revelation}}: truth reveals itself as the missing element in the valley's defense
 - {{event-follow-through:revelation-mid}}: Neris finally knows what must be sacrificed and what must be preserved
-- {{dialogue-line-hint:revelation-0-0}}: a hint for the dialogue line
-- {{dialogue-subtext:reframe}}: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-- {{dialogue-line-hint:revelation-0-1}}: a hint for the dialogue line
-- {{dialogue-reaction:reframe}}: how the other character reacts
-- {{scene-introduction:revelation-1}}: A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
-- {{scene-development:revelation-1}}: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
-- {{action-goal:revelation-1}}: replace coerced obedience with a protection the valley chooses knowingly
-- {{dialogue-line-hint:revelation-1-0}}: a hint for the dialogue line
-- {{dialogue-line-hint:revelation-1-1}}: a hint for the dialogue line
-- {{scene-introduction:revelation-2}}: A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
-- {{scene-development:revelation-2}}: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+- {{dialogue-line-hint:revelation-0-0}}: the winter spirit retreats only when Neris names one of the forgotten dead aloud
+- {{dialogue-subtext:reframe}}: changes the moral meaning of what was just said
+- {{dialogue-line-hint:revelation-0-1}}: the winter spirit retreats only when Neris names one of the forgotten dead aloud
+- {{dialogue-reaction:reframe}}: The new framing makes the old position harder to keep.
+- {{scene-introduction:revelation-1}}: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+- {{scene-development:revelation-1}}: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
+- {{action-goal:revelation-1}}: Neris finally knows what must be sacrificed and what must be preserved
+- {{dialogue-line-hint:revelation-1-0}}: Ward breach at the mountain gate
+- {{dialogue-line-hint:revelation-1-1}}: Ward breach at the mountain gate
+- {{scene-introduction:revelation-2}}: the winter spirit retreats only when Neris names one of the forgotten dead aloud
+- {{scene-development:revelation-2}}: truth reveals itself as the missing element in the valley's defense
 - {{scene-resolution:revelation-final}}: She decides to break the binding ceremony and speak the hidden names during the next warding chant.
 - {{scene-state-change:revelation-final}}: renunciation becomes the only form of leadership left to her
-- {{action-goal:revelation-2}}: replace coerced obedience with a protection the valley chooses knowingly
+- {{action-goal:revelation-2}}: Ward breach at the mountain gate
 - {{action-result:revelation-final}}: renunciation becomes the only form of leadership left to her
 - {{event-trigger:revelation-final}}: the winter spirit retreats only when Neris names one of the forgotten dead aloud
 - {{event-follow-through:revelation-final}}: Neris finally knows what must be sacrificed and what must be preserved
-- {{dialogue-subtext:challenge}}: Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet
-- {{dialogue-line-hint:revelation-2-0}}: a hint for the dialogue line
-- {{dialogue-reaction:challenge}}: how the other character reacts
-- {{dialogue-line-hint:revelation-2-1}}: a hint for the dialogue line
+- {{dialogue-subtext:challenge}}: refuses the easier story and forces the pressure into view
+- {{dialogue-line-hint:revelation-2-0}}: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+- {{dialogue-reaction:challenge}}: The challenge strips politeness away from the scene.
+- {{dialogue-line-hint:revelation-2-1}}: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
 - {{monologue-trigger:revelation}}: truth reveals itself as the missing element in the valley's defense
 - {{suspense-uncertainty:revelation}}: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
 - {{pause-focus:revelation}}: renunciation becomes the only form of leadership left to her
@@ -254,23 +254,23 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{event-trigger:culmination-mid}}: the furnace spills the trapped names in a voice all of Drovna can hear
 - {{event-impact:culmination}}: the valley witnesses the true cost of its protection at once
 - {{event-follow-through:culmination-mid}}: Neris earns belonging only by giving up the right to rule as her family did
-- {{dialogue-line-hint:culmination-0-0}}: a hint for the dialogue line
-- {{dialogue-line-hint:culmination-0-1}}: a hint for the dialogue line
-- {{scene-introduction:culmination-1}}: During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.
-- {{scene-development:culmination-1}}: She names the dead, breaks the seal, and forces the furnace to release the stored memories as ash-light across the terrace.
-- {{action-goal:culmination-1}}: destroy the coercive heart of the oath without abandoning the valley to the winter breach
-- {{dialogue-line-hint:culmination-1-0}}: a hint for the dialogue line
-- {{dialogue-line-hint:culmination-1-1}}: a hint for the dialogue line
-- {{scene-introduction:culmination-2}}: During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.
-- {{scene-development:culmination-2}}: She names the dead, breaks the seal, and forces the furnace to release the stored memories as ash-light across the terrace.
+- {{dialogue-line-hint:culmination-0-0}}: the furnace spills the trapped names in a voice all of Drovna can hear
+- {{dialogue-line-hint:culmination-0-1}}: the furnace spills the trapped names in a voice all of Drovna can hear
+- {{scene-introduction:culmination-1}}: She names the dead, breaks the seal, and forces the furnace to release the stored memories as ash-light across the terrace.
+- {{scene-development:culmination-1}}: The valley must choose whether to stand in fear with Maeron or bear the truth and rebuild the wards differently.
+- {{action-goal:culmination-1}}: Neris earns belonging only by giving up the right to rule as her family did
+- {{dialogue-line-hint:culmination-1-0}}: The furnace broken in public
+- {{dialogue-line-hint:culmination-1-1}}: The furnace broken in public
+- {{scene-introduction:culmination-2}}: the furnace spills the trapped names in a voice all of Drovna can hear
+- {{scene-development:culmination-2}}: the valley witnesses the true cost of its protection at once
 - {{scene-resolution:culmination-final}}: Maeron falls with the collapsing rite, and the valley joins Neris in a new chant built on remembered names rather than erased ones.
 - {{scene-state-change:culmination-final}}: power changes from inherited command to shared burden
-- {{action-goal:culmination-2}}: destroy the coercive heart of the oath without abandoning the valley to the winter breach
+- {{action-goal:culmination-2}}: The furnace broken in public
 - {{action-result:culmination-final}}: power changes from inherited command to shared burden
 - {{event-trigger:culmination-final}}: the furnace spills the trapped names in a voice all of Drovna can hear
 - {{event-follow-through:culmination-final}}: Neris earns belonging only by giving up the right to rule as her family did
-- {{dialogue-line-hint:culmination-2-0}}: a hint for the dialogue line
-- {{dialogue-line-hint:culmination-2-1}}: a hint for the dialogue line
+- {{dialogue-line-hint:culmination-2-0}}: She names the dead, breaks the seal, and forces the furnace to release the stored memories as ash-light across the terrace.
+- {{dialogue-line-hint:culmination-2-1}}: She names the dead, breaks the seal, and forces the furnace to release the stored memories as ash-light across the terrace.
 - {{monologue-trigger:culmination}}: the valley witnesses the true cost of its protection at once
 - {{suspense-uncertainty:culmination}}: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
 - {{pause-focus:culmination}}: power changes from inherited command to shared burden
@@ -282,7 +282,6 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
   "baselineProfile": "fantasy",
   "replacements": {
     "{{hook:forbidden-combination}}": "Exiled heir Neris Vale returns to the ash valley of Drovna when the family oath-fires begin speaking the names of the dead aloud. Guided by oath-keeper Brother Caelan, she learns that her dynasty's power comes from a vow furnace that burns witness memories into political obedience, and breaking it will strip the valley of the same protection that kept the winter spirits out.",
-    "{{character:protagonist-001}}": "Neris Vale",
     "{{desire:protagonist}}": "learn the true wording of the family vow and sever it before the valley chooses another heir",
     "{{opposition:primary}}": "Regent Maeron Vale, Neris's uncle and temporary ruler of the valley, backed by House Vale",
     "{{stakes:lineage-survival-legitimacy-cost}}": "the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination",
@@ -300,21 +299,21 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{wisdom:moral}}": "Redemption begins when inherited power is treated as a debt to be relinquished rather than a right to be managed.",
     "{{wisdom:reflexive}}": "the reflexive dimension of insight this story offers",
     "{{wisdom:experiential}}": "the experiential dimension of insight this story offers",
-    "{{location:primary-001}}": "the ash terrace above Drovna village",
     "{{organization:institution-001}}": "House Vale",
     "{{inciting-incident:primary}}": "the ash names Neris's younger sister, long said to have died of fever",
     "{{object:plot-001}}": "the original vow chronicle",
-    "{{character:pressure-001}}": "Regent Maeron Vale",
     "{{premise:primary}}": "Exiled heir Neris Vale returns to the ash valley of Drovna when the family oath-fires begin speaking the names of the dead aloud. Guided by oath-keeper Brother Caelan, she learns that her dynasty's power comes from a vow furnace that burns witness memories into political obedience, and breaking it will strip the valley of the same protection that kept the winter spirits out.",
     "{{turning-insight:protagonist}}": "the valley was never protected from cost; it was merely trained to pay it quietly",
-    "{{character:counterpart-001}}": "Brother Caelan Vey",
     "{{motif-object:fantasy}}": "ash carrying unspoken names",
+    "{{character:protagonist-001}}": "Neris Vale",
     "{{need:protagonist}}": "accept that returning home requires losing the shelter her lineage once guaranteed",
     "{{fear:protagonist}}": "becoming the next keeper of a system she already fled once in shame",
     "{{contradictions:protagonist}}": "contradictions for this fantasy story",
+    "{{character:counterpart-001}}": "Brother Caelan Vey",
     "{{desire:counterpart}}": "guide Neris to the furnace catacombs before the regent seals them for another generation",
     "{{need:counterpart}}": "stop mistaking custodianship for moral innocence",
     "{{fear:counterpart}}": "watching Neris repeat the same compromise he once blessed",
+    "{{character:pressure-001}}": "Regent Maeron Vale",
     "{{desire:pressure}}": "bind a successor to the furnace before winter spirits test the mountain wards",
     "{{need:pressure}}": "believe that domination still counts as protection if the valley survives",
     "{{fear:pressure}}": "a public naming of the children consumed by the vow fires",
@@ -325,6 +324,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{rule:world-secondary}}": "A ward can be reforged through named communal consent, but only if the hidden dead are spoken publicly first.",
     "{{conflict-transform:world-secondary}}": "A ward can be reforged through named communal consent, but only if the hidden dead are spoken publicly first.",
     "{{rule-to-conflict:world}}": "The valley wards hold only while an heir keeps the furnace vow active through lineage-bound ritual obedience. so every promise of protection arrives already entangled with control, debt, and ancestral shame",
+    "{{location:primary-001}}": "the ash terrace above Drovna village",
     "{{sensory-anchor:location-primary}}": "cedar smoke, warm soot under snowlight, bells muffled by volcanic dust",
     "{{social-signal:location-primary}}": "every greeting sounds half like welcome and half like ritual surveillance",
     "{{symbolic-charge:location-primary}}": "a homeland that records lineage in the same ash that settles on the living",
@@ -342,14 +342,14 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{answer-shift:fantasy}}": "the valley was never protected from cost; it was merely trained to pay it quietly",
     "{{world-pressure:setup}}": "every promise of protection arrives already entangled with control, debt, and ancestral shame",
     "{{purpose:escalation}}": "Escalation movement anchored by chronicle beneath the chains",
-    "{{input-state:escalation-1}}": "In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.",
-    "{{output-state:escalation-1}}": "the oath becomes both a crime and a necessary shield",
+    "{{input-state:escalation-1}}": "The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.",
+    "{{output-state:escalation-1}}": "Neris can no longer separate public duty from private violation",
     "{{conflict:escalation}}": "Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.",
     "{{chapter-question:escalation}}": "Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?",
     "{{world-pressure:escalation}}": "every promise of protection arrives already entangled with control, debt, and ancestral shame",
     "{{purpose:revelation}}": "Revelation movement anchored by ward breach at the mountain gate",
-    "{{input-state:revelation-2}}": "A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.",
-    "{{output-state:revelation-2}}": "renunciation becomes the only form of leadership left to her",
+    "{{input-state:revelation-2}}": "the winter spirit retreats only when Neris names one of the forgotten dead aloud",
+    "{{output-state:revelation-2}}": "She decides to break the binding ceremony and speak the hidden names during the next warding chant.",
     "{{conflict:revelation}}": "If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.",
     "{{chapter-question:revelation}}": "Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?",
     "{{world-pressure:revelation}}": "every promise of protection arrives already entangled with control, debt, and ancestral shame",
@@ -381,31 +381,31 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{event-trigger:setup-mid}}": "the ash names Neris's younger sister, long said to have died of fever",
     "{{event-impact:setup}}": "family legend breaks open into accusation",
     "{{event-follow-through:setup-mid}}": "Neris must face the possibility that exile protected her from knowing the truth",
-    "{{dialogue-subtext:deflect}}": "Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet",
-    "{{dialogue-line-hint:setup-0-0}}": "a hint for the dialogue line",
-    "{{dialogue-reaction:deflect}}": "how the other character reacts",
-    "{{dialogue-subtext:warn}}": "Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet",
-    "{{dialogue-line-hint:setup-0-1}}": "a hint for the dialogue line",
-    "{{dialogue-reaction:warn}}": "how the other character reacts",
-    "{{scene-introduction:setup-1}}": "Neris returns to the terrace as the oath-fires begin whispering the names of children no one admits were taken.",
-    "{{scene-development:setup-1}}": "Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.",
-    "{{action-goal:setup-1}}": "verify that the speaking ash is tied to the original family vow",
-    "{{dialogue-subtext:commit}}": "Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet",
-    "{{dialogue-line-hint:setup-1-0}}": "a hint for the dialogue line",
-    "{{dialogue-reaction:commit}}": "how the other character reacts",
-    "{{dialogue-subtext:probe}}": "Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet",
-    "{{dialogue-line-hint:setup-1-1}}": "a hint for the dialogue line",
-    "{{dialogue-reaction:probe}}": "how the other character reacts",
-    "{{scene-introduction:setup-2}}": "Neris returns to the terrace as the oath-fires begin whispering the names of children no one admits were taken.",
-    "{{scene-development:setup-2}}": "Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.",
+    "{{dialogue-subtext:deflect}}": "turns confession sideways to protect status and control",
+    "{{dialogue-line-hint:setup-0-0}}": "the ash names Neris's younger sister, long said to have died of fever",
+    "{{dialogue-reaction:deflect}}": "The evasion makes the silence more visible than the answer would have.",
+    "{{dialogue-subtext:warn}}": "tries to protect the bond by narrowing the next available move",
+    "{{dialogue-line-hint:setup-0-1}}": "the ash names Neris's younger sister, long said to have died of fever",
+    "{{dialogue-reaction:warn}}": "The warning narrows what can still be done safely.",
+    "{{scene-introduction:setup-1}}": "Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.",
+    "{{scene-development:setup-1}}": "Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.",
+    "{{action-goal:setup-1}}": "Neris must face the possibility that exile protected her from knowing the truth",
+    "{{dialogue-subtext:commit}}": "makes risk sound practical enough to become a promise",
+    "{{dialogue-line-hint:setup-1-0}}": "Ash speaks the forbidden name",
+    "{{dialogue-reaction:commit}}": "The promise raises the stakes for the next exchange.",
+    "{{dialogue-subtext:probe}}": "tests whether the other speaker can bear the unsoftened truth",
+    "{{dialogue-line-hint:setup-1-1}}": "Ash speaks the forbidden name",
+    "{{dialogue-reaction:probe}}": "The question lands harder than either speaker planned.",
+    "{{scene-introduction:setup-2}}": "the ash names Neris's younger sister, long said to have died of fever",
+    "{{scene-development:setup-2}}": "family legend breaks open into accusation",
     "{{scene-resolution:setup-final}}": "They descend toward the catacombs before Maeron can bind her publicly at dusk.",
     "{{scene-state-change:setup-final}}": "homecoming turns into a race against ritual succession",
-    "{{action-goal:setup-2}}": "verify that the speaking ash is tied to the original family vow",
+    "{{action-goal:setup-2}}": "Ash speaks the forbidden name",
     "{{action-result:setup-final}}": "homecoming turns into a race against ritual succession",
     "{{event-trigger:setup-final}}": "the ash names Neris's younger sister, long said to have died of fever",
     "{{event-follow-through:setup-final}}": "Neris must face the possibility that exile protected her from knowing the truth",
-    "{{dialogue-line-hint:setup-2-0}}": "a hint for the dialogue line",
-    "{{dialogue-line-hint:setup-2-1}}": "a hint for the dialogue line",
+    "{{dialogue-line-hint:setup-2-0}}": "Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.",
+    "{{dialogue-line-hint:setup-2-1}}": "Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.",
     "{{description-focus:fantasy}}": "a homeland that records lineage in the same ash that settles on the living",
     "{{dialogue-core-subtext:fantasy}}": "Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet",
     "{{monologue-trigger:setup}}": "family legend breaks open into accusation",
@@ -435,29 +435,29 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{event-trigger:escalation-mid}}": "the records show Neris's mother volunteered the sister's memory to preserve the wards",
     "{{event-impact:escalation}}": "inheritance becomes personal wound rather than abstract lineage guilt",
     "{{event-follow-through:escalation-mid}}": "Neris can no longer separate public duty from private violation",
-    "{{dialogue-line-hint:escalation-0-0}}": "a hint for the dialogue line",
-    "{{dialogue-subtext:name-risk}}": "Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet",
-    "{{dialogue-line-hint:escalation-0-1}}": "a hint for the dialogue line",
-    "{{dialogue-reaction:name-risk}}": "how the other character reacts",
-    "{{scene-introduction:escalation-1}}": "In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.",
-    "{{scene-development:escalation-1}}": "The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.",
-    "{{action-goal:escalation-1}}": "find a path to truth that does not abandon the valley overnight",
-    "{{dialogue-subtext:answer-honestly}}": "Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet",
-    "{{dialogue-line-hint:escalation-1-0}}": "a hint for the dialogue line",
-    "{{dialogue-reaction:answer-honestly}}": "how the other character reacts",
-    "{{dialogue-line-hint:escalation-1-1}}": "a hint for the dialogue line",
-    "{{scene-introduction:escalation-2}}": "In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.",
-    "{{scene-development:escalation-2}}": "The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.",
+    "{{dialogue-line-hint:escalation-0-0}}": "the records show Neris's mother volunteered the sister's memory to preserve the wards",
+    "{{dialogue-subtext:name-risk}}": "speaks the consequence both speakers hoped could stay implied",
+    "{{dialogue-line-hint:escalation-0-1}}": "the records show Neris's mother volunteered the sister's memory to preserve the wards",
+    "{{dialogue-reaction:name-risk}}": "Naming the risk turns pressure into irreversible commitment.",
+    "{{scene-introduction:escalation-1}}": "The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.",
+    "{{scene-development:escalation-1}}": "Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.",
+    "{{action-goal:escalation-1}}": "Neris can no longer separate public duty from private violation",
+    "{{dialogue-subtext:answer-honestly}}": "gives away more vulnerability than strategy intended",
+    "{{dialogue-line-hint:escalation-1-0}}": "Chronicle beneath the chains",
+    "{{dialogue-reaction:answer-honestly}}": "The honesty changes the balance of power in the room.",
+    "{{dialogue-line-hint:escalation-1-1}}": "Chronicle beneath the chains",
+    "{{scene-introduction:escalation-2}}": "the records show Neris's mother volunteered the sister's memory to preserve the wards",
+    "{{scene-development:escalation-2}}": "inheritance becomes personal wound rather than abstract lineage guilt",
     "{{scene-resolution:escalation-final}}": "She steals the regent's binding seal instead, buying time but alerting him to the betrayal.",
     "{{scene-state-change:escalation-final}}": "the oath becomes both a crime and a necessary shield",
-    "{{action-goal:escalation-2}}": "find a path to truth that does not abandon the valley overnight",
+    "{{action-goal:escalation-2}}": "Chronicle beneath the chains",
     "{{action-result:escalation-final}}": "the oath becomes both a crime and a necessary shield",
     "{{event-trigger:escalation-final}}": "the records show Neris's mother volunteered the sister's memory to preserve the wards",
     "{{event-follow-through:escalation-final}}": "Neris can no longer separate public duty from private violation",
-    "{{dialogue-line-hint:escalation-2-0}}": "a hint for the dialogue line",
-    "{{dialogue-subtext:tease-probe}}": "Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet",
-    "{{dialogue-line-hint:escalation-2-1}}": "a hint for the dialogue line",
-    "{{dialogue-reaction:tease-probe}}": "how the other character reacts",
+    "{{dialogue-line-hint:escalation-2-0}}": "The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.",
+    "{{dialogue-subtext:tease-probe}}": "uses wit to test whether the wound can be named safely",
+    "{{dialogue-line-hint:escalation-2-1}}": "The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.",
+    "{{dialogue-reaction:tease-probe}}": "The joke opens a bruise neither speaker can ignore now.",
     "{{monologue-trigger:escalation}}": "inheritance becomes personal wound rather than abstract lineage guilt",
     "{{suspense-uncertainty:escalation}}": "Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?",
     "{{pause-focus:escalation}}": "the oath becomes both a crime and a necessary shield",
@@ -485,27 +485,27 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{event-trigger:revelation-mid}}": "the winter spirit retreats only when Neris names one of the forgotten dead aloud",
     "{{event-impact:revelation}}": "truth reveals itself as the missing element in the valley's defense",
     "{{event-follow-through:revelation-mid}}": "Neris finally knows what must be sacrificed and what must be preserved",
-    "{{dialogue-line-hint:revelation-0-0}}": "a hint for the dialogue line",
-    "{{dialogue-subtext:reframe}}": "Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet",
-    "{{dialogue-line-hint:revelation-0-1}}": "a hint for the dialogue line",
-    "{{dialogue-reaction:reframe}}": "how the other character reacts",
-    "{{scene-introduction:revelation-1}}": "A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.",
-    "{{scene-development:revelation-1}}": "Neris realizes the ward responds more strongly to named truth than to repeated liturgy.",
-    "{{action-goal:revelation-1}}": "replace coerced obedience with a protection the valley chooses knowingly",
-    "{{dialogue-line-hint:revelation-1-0}}": "a hint for the dialogue line",
-    "{{dialogue-line-hint:revelation-1-1}}": "a hint for the dialogue line",
-    "{{scene-introduction:revelation-2}}": "A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.",
-    "{{scene-development:revelation-2}}": "Neris realizes the ward responds more strongly to named truth than to repeated liturgy.",
+    "{{dialogue-line-hint:revelation-0-0}}": "the winter spirit retreats only when Neris names one of the forgotten dead aloud",
+    "{{dialogue-subtext:reframe}}": "changes the moral meaning of what was just said",
+    "{{dialogue-line-hint:revelation-0-1}}": "the winter spirit retreats only when Neris names one of the forgotten dead aloud",
+    "{{dialogue-reaction:reframe}}": "The new framing makes the old position harder to keep.",
+    "{{scene-introduction:revelation-1}}": "Neris realizes the ward responds more strongly to named truth than to repeated liturgy.",
+    "{{scene-development:revelation-1}}": "If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.",
+    "{{action-goal:revelation-1}}": "Neris finally knows what must be sacrificed and what must be preserved",
+    "{{dialogue-line-hint:revelation-1-0}}": "Ward breach at the mountain gate",
+    "{{dialogue-line-hint:revelation-1-1}}": "Ward breach at the mountain gate",
+    "{{scene-introduction:revelation-2}}": "the winter spirit retreats only when Neris names one of the forgotten dead aloud",
+    "{{scene-development:revelation-2}}": "truth reveals itself as the missing element in the valley's defense",
     "{{scene-resolution:revelation-final}}": "She decides to break the binding ceremony and speak the hidden names during the next warding chant.",
     "{{scene-state-change:revelation-final}}": "renunciation becomes the only form of leadership left to her",
-    "{{action-goal:revelation-2}}": "replace coerced obedience with a protection the valley chooses knowingly",
+    "{{action-goal:revelation-2}}": "Ward breach at the mountain gate",
     "{{action-result:revelation-final}}": "renunciation becomes the only form of leadership left to her",
     "{{event-trigger:revelation-final}}": "the winter spirit retreats only when Neris names one of the forgotten dead aloud",
     "{{event-follow-through:revelation-final}}": "Neris finally knows what must be sacrificed and what must be preserved",
-    "{{dialogue-subtext:challenge}}": "Neris Vale and Brother Caelan Vey keep circling the truth they cannot safely name yet",
-    "{{dialogue-line-hint:revelation-2-0}}": "a hint for the dialogue line",
-    "{{dialogue-reaction:challenge}}": "how the other character reacts",
-    "{{dialogue-line-hint:revelation-2-1}}": "a hint for the dialogue line",
+    "{{dialogue-subtext:challenge}}": "refuses the easier story and forces the pressure into view",
+    "{{dialogue-line-hint:revelation-2-0}}": "Neris realizes the ward responds more strongly to named truth than to repeated liturgy.",
+    "{{dialogue-reaction:challenge}}": "The challenge strips politeness away from the scene.",
+    "{{dialogue-line-hint:revelation-2-1}}": "Neris realizes the ward responds more strongly to named truth than to repeated liturgy.",
     "{{monologue-trigger:revelation}}": "truth reveals itself as the missing element in the valley's defense",
     "{{suspense-uncertainty:revelation}}": "Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?",
     "{{pause-focus:revelation}}": "renunciation becomes the only form of leadership left to her",
@@ -532,23 +532,23 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{event-trigger:culmination-mid}}": "the furnace spills the trapped names in a voice all of Drovna can hear",
     "{{event-impact:culmination}}": "the valley witnesses the true cost of its protection at once",
     "{{event-follow-through:culmination-mid}}": "Neris earns belonging only by giving up the right to rule as her family did",
-    "{{dialogue-line-hint:culmination-0-0}}": "a hint for the dialogue line",
-    "{{dialogue-line-hint:culmination-0-1}}": "a hint for the dialogue line",
-    "{{scene-introduction:culmination-1}}": "During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.",
-    "{{scene-development:culmination-1}}": "She names the dead, breaks the seal, and forces the furnace to release the stored memories as ash-light across the terrace.",
-    "{{action-goal:culmination-1}}": "destroy the coercive heart of the oath without abandoning the valley to the winter breach",
-    "{{dialogue-line-hint:culmination-1-0}}": "a hint for the dialogue line",
-    "{{dialogue-line-hint:culmination-1-1}}": "a hint for the dialogue line",
-    "{{scene-introduction:culmination-2}}": "During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.",
-    "{{scene-development:culmination-2}}": "She names the dead, breaks the seal, and forces the furnace to release the stored memories as ash-light across the terrace.",
+    "{{dialogue-line-hint:culmination-0-0}}": "the furnace spills the trapped names in a voice all of Drovna can hear",
+    "{{dialogue-line-hint:culmination-0-1}}": "the furnace spills the trapped names in a voice all of Drovna can hear",
+    "{{scene-introduction:culmination-1}}": "She names the dead, breaks the seal, and forces the furnace to release the stored memories as ash-light across the terrace.",
+    "{{scene-development:culmination-1}}": "The valley must choose whether to stand in fear with Maeron or bear the truth and rebuild the wards differently.",
+    "{{action-goal:culmination-1}}": "Neris earns belonging only by giving up the right to rule as her family did",
+    "{{dialogue-line-hint:culmination-1-0}}": "The furnace broken in public",
+    "{{dialogue-line-hint:culmination-1-1}}": "The furnace broken in public",
+    "{{scene-introduction:culmination-2}}": "the furnace spills the trapped names in a voice all of Drovna can hear",
+    "{{scene-development:culmination-2}}": "the valley witnesses the true cost of its protection at once",
     "{{scene-resolution:culmination-final}}": "Maeron falls with the collapsing rite, and the valley joins Neris in a new chant built on remembered names rather than erased ones.",
     "{{scene-state-change:culmination-final}}": "power changes from inherited command to shared burden",
-    "{{action-goal:culmination-2}}": "destroy the coercive heart of the oath without abandoning the valley to the winter breach",
+    "{{action-goal:culmination-2}}": "The furnace broken in public",
     "{{action-result:culmination-final}}": "power changes from inherited command to shared burden",
     "{{event-trigger:culmination-final}}": "the furnace spills the trapped names in a voice all of Drovna can hear",
     "{{event-follow-through:culmination-final}}": "Neris earns belonging only by giving up the right to rule as her family did",
-    "{{dialogue-line-hint:culmination-2-0}}": "a hint for the dialogue line",
-    "{{dialogue-line-hint:culmination-2-1}}": "a hint for the dialogue line",
+    "{{dialogue-line-hint:culmination-2-0}}": "She names the dead, breaks the seal, and forces the furnace to release the stored memories as ash-light across the terrace.",
+    "{{dialogue-line-hint:culmination-2-1}}": "She names the dead, breaks the seal, and forces the furnace to release the stored memories as ash-light across the terrace.",
     "{{monologue-trigger:culmination}}": "the valley witnesses the true cost of its protection at once",
     "{{suspense-uncertainty:culmination}}": "Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?",
     "{{pause-focus:culmination}}": "power changes from inherited command to shared burden",

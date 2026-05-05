@@ -1,38 +1,36 @@
-# Book vision
+# Love in the Margins
 
 ## Core idea
-
-- Title: Margins of the Heart
-- Book ID: qa-romance-margins
-- Baseline profile: romance-relational
-- Work form: novelette
-- Brief: An editor inherits a print studio and must rebuild it with the designer who once left both the work and her behind.
+Shared work becomes the only place where two people can no longer hide from the love and damage they already left on the page.
 
 ## Short story
+Leora Kestrel inherits a letterpress studio that can survive only if she finishes a major museum commission with Talia Voss, the designer who once left her in silence. Estate manager Cassia Mercer keeps the deadline and inheritance terms painfully tight. As the two women rebuild the book together, every practical decision drags the old rupture back into view. Leora must decide whether the studio should preserve a useful partnership or become the place where honesty finally costs something in public.
 
-Leora Kestrel inherits a failing letterpress studio and can save it only by partnering again with Talia Voss, the designer who abandoned both the studio and their relationship three years earlier. Estate manager Cassia Mercer gives them one winter season to deliver a museum art-book commission, forcing every practical choice to reopen the apology, tenderness, and unfinished trust already stored in the room. The final launch works only when Leora turns the finished edition into a public act of chosen vulnerability rather than another polished avoidance.
+## Story question
+Can Leora and Talia turn shared craft into an honest future, or will work only disguise another failure to speak plainly?
 
-## Author-specified characters
+## Dilemma
+Protect the studio by staying professionally useful to each other, or risk the commission by letting love and blame become explicit.
 
-- Leora Kestrel - editor-restorer; wants to deliver the museum commission and keep the studio alive; needs to admit that precision became her disguise for abandonment fear; fears Talia will leave again once the work is finished.
-- Talia Voss - designer and counterpart; wants to prove she can finish what she once abandoned; needs to replace apology-by-labor with spoken accountability; fears that repair will only prolong Leora's resentment.
-- Cassia Mercer - estate manager and pressure figure; wants the commission kept alive long enough to preserve the estate value; fears a public collapse that lowers the studio's sale price.
+## Main characters
+- **Leora Kestrel** - letterpress artist and studio heir; outward goal: deliver the museum commission on schedule; hidden need: stop using competence as a shield against vulnerability.
+- **Talia Voss** - book designer who left the partnership once before; outward goal: finish the commission well enough to prove she is no longer the person who fled; hidden need: replace apology-by-labor with spoken accountability.
+- **Cassia Mercer** - estate manager; outward goal: keep the commission alive long enough to preserve the studio's market value; hidden need: treat emotional complications as more than scheduling problems.
 
-## Author-specified scenes
+## Main locations
+- **The inherited letterpress studio on Brindle Lane** - ink oil, paper dust, hot metal type; every correction stays visible.
+- **The riverside paper warehouse leased for the launch** - pallet wood, damp cardboard, cold rope; a public future that demands a truthful version of the past.
 
-- Inventory with old annotations - shared proof pages reveal that the room still remembers their intimacy.
-- The misprinted folio night - an overnight press failure forces apology and collaboration into the same exhausted shift.
-- Warehouse mock-up and public eyes - success in public makes private avoidance impossible to ignore.
-- Launch with the unfinished dedication - the final edition turns the once-abandoned dedication into an honest declaration.
+## Key scenes
+1. **Inventory with old annotations** - Leora and Talia uncover a proof set marked by both their hands.
+2. **The misprinted folio night** - an overnight press run fails and forces exhausted honesty into the same room.
+3. **Warehouse mock-up and public eyes** - outside observers see the intimacy they keep calling professional.
+4. **Launch with the unfinished dedication** - Leora returns the dedication page to the finished edition in public.
 
-## Author-specified locations
-
-- The inherited letterpress studio on Brindle Lane - ink oil, paper dust, hot metal type, winter air in the skylight; every correction stays visible.
-- The riverside paper warehouse leased for the launch - cold rope, pallet wood, damp cardboard; a future-facing space that demands an honest version of the past.
-
-## Author constraints
-
-- The inheritance keeps the studio open only if the museum commission is delivered on schedule and signed by both women.
-- Any delay lets Cassia liquidate the equipment and end the studio as a living workplace.
-- The final edition may include one unscheduled page only if both lead signatories approve it before launch.
-- Stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again.
+## Constraints
+- Institution: **the Mercer Estate**
+- Plot object: **the doubled-margin proof set**
+- Motif: **handwritten notes in the book margins**
+- World rule: the inheritance keeps the studio open only if the commission ships on time and bears both signatures.
+- Cost: any delay lets Cassia liquidate the equipment and end the studio as a living workplace.
+- Hard pressure: Leora and Talia cannot save the studio without working in the same room under the same deadline.

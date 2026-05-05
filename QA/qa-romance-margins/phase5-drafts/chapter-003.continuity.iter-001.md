@@ -3,8 +3,8 @@
 Continuity packet for downstream validation and export assembly.
 
 ## State flow
-- entryState: At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.
-- exitState: what they feel becomes harder to frame as accidental residue
+- entryState: the curator chooses the doubled-margin proof as the book's defining design feature
+- exitState: She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.
 
 ## Continuity obligations
 - later chapters must preserve the consequence introduced in chapter-003
@@ -17,8 +17,8 @@ Continuity packet for downstream validation and export assembly.
 <!-- scripta-data
 {
   "chapterId": "chapter-003",
-  "entryState": "At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.",
-  "exitState": "what they feel becomes harder to frame as accidental residue",
+  "entryState": "the curator chooses the doubled-margin proof as the book's defining design feature",
+  "exitState": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.",
   "unresolvedObligations": [
     "later chapters must preserve the consequence introduced in chapter-003"
   ],
@@ -28,7 +28,7 @@ Continuity packet for downstream validation and export assembly.
     "Cassia Mercer"
   ],
   "changedRelationships": [
-    "freedom-security under reconciliation pressure"
+    "love-connection under transformation pressure"
   ],
   "continuityWarnings": []
 }

@@ -1,38 +1,36 @@
-# Book vision
+# When the Silence Returns
 
 ## Core idea
-
-- Title: When the Silence Returns
-- Book ID: qa-drama-silence
-- Baseline profile: drama
-- Work form: novelette
-- Brief: A grieving mediator returns home after her brother dies and discovers the family grief was organized around an institutional lie.
+Grief becomes political when Mira Solari discovers that the institution meant to calm the town has been feeding on silence for years.
 
 ## Short story
+Mediator Mira Solari returns to Greywater after her brother dies in what officials call an accident. With archivist Vera Quinn, she uncovers a compensation fraud hidden inside the Greywater Mediation Office. The proof will expose deputy mayor Corin Voss and the machinery around him, but it will also implicate Mira's mother and destroy the pension that kept the family alive. Mira must decide whether mercy without truth is still mercy.
 
-Mara Iliev returns to the flood-struck town of Cernav for her brother's memorial and finds a hidden recording that points toward a forged compensation ledger. To expose the lie she must work with archivist Iona Radu against deputy mayor Lucian Petrescu, even though the truth would strip Mara's mother of the pension that kept the family alive. The story moves from private mourning to public accusation, ending with Mara reading the ledger aloud during the town commemoration and forcing the town to hear the names it edited out.
+## Story question
+Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?
 
-## Author-specified characters
+## Dilemma
+Protect her mother from public ruin, or read the forged flood ledger aloud before the town buries her brother a second time.
 
-- Mara Iliev - returning mediator; wants to recover her brother's last testimony; needs to admit that family loyalty made her complicit in silence; fears exposing her mother along with the town hall.
-- Iona Radu - municipal archivist and former closest friend; wants to preserve the last unaltered records; needs to stop treating witnesshood as neutral; fears testifying alone against the town.
-- Lucian Petrescu - deputy mayor and pressure figure; wants the flood ledger sealed until the ceremony passes; fears a public witness pairing that makes the fraud undeniable.
+## Main characters
+- **Mira Solari** - returning mediator; outward goal: reopen the flood compensation files; hidden need: admit that keeping the family intact turned her into a careful accomplice.
+- **Vera Quinn** - municipal archivist and Mira's former closest friend; outward goal: preserve the last unaltered records; hidden need: stop treating witnesshood as morally neutral.
+- **Corin Voss** - deputy mayor; outward goal: keep the ledger sealed through the commemoration ceremony; hidden need: convince himself that order mattered more than the lives it cost.
 
-## Author-specified scenes
+## Main locations
+- **The shuttered mediation office above the old customs hall** - wet wool, radiator hiss, mildew in paper bindings; a civic room built to soften language until responsibility disappears.
+- **The flood memorial crypt beneath Saint Rowan chapel** - candle smoke, cold limestone, edited names; mourning is staged here so blame never reaches the living officials.
 
-- Memorial supper recording - Mara hears her brother name Lucian in a hidden tape.
-- Archive window without signatures - Mara and Iona photograph the forged compensation files before Lucian can reclaim them.
-- Names beneath the memorial varnish - the church plaques reveal dates that contradict the official story.
-- Commemoration ledger reading - Mara breaks the ceremony script and reads the proof aloud to the town.
+## Key scenes
+1. **Memorial supper recording** - Mira finds a hidden recording in a borrowed prayer book; her brother names Corin before the tape cuts off.
+2. **Archive window without signatures** - Mira and Vera photograph pages showing claims approved for the dead and rejected for the living.
+3. **Names beneath the memorial varnish** - the crypt reveals dates that prove the plaques were rewritten to fit the forged ledger.
+4. **Commemoration ledger reading** - Mira interrupts the public flood ceremony and reads the ledger before the whole town.
 
-## Author-specified locations
-
-- The shuttered mediation office above the old customs hall - wet wool, radiator hiss, mildew in paper bindings; a civic room designed to soften language until responsibility disappears.
-- The flood memorial crypt beneath Saint Varin church - limestone cold, candle smoke, varnished names; mourning is curated here so blame never reaches the living officials.
-
-## Author constraints
-
-- Every flood-district compensation claim must pass through the mediation office before it reaches the court archive.
-- Families who challenge an approved claim lose access to emergency stipends and public legal aid.
-- Memorial plaques can be amended only when two living witnesses testify together in public.
-- Stakes: Mara's brother's testimony, her mother's survival, and the town's false innocence.
+## Constraints
+- Institution: **the Greywater Mediation Office**
+- Plot object: **the flood compensation ledger**
+- Motif: **rain-stained witness signatures**
+- World rule: every flood-district compensation claim must pass through the mediation office before it reaches the court archive.
+- Cost: any family that challenges an approved claim loses access to emergency stipends and public legal aid.
+- Hard pressure: Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing.

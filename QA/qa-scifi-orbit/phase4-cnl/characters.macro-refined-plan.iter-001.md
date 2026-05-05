@@ -1,4 +1,5 @@
 @character-protagonist-001 define
+name: Elian Quill
 complexity: round
 development-type: dynamic
 archetype: hero
@@ -11,9 +12,10 @@ truth: visible-cost-is-preferable-to-stable-falsehood
 conflict-mode: mixed
 arc: tragic
 contradictions: contradictions for this science fiction story
-relationships: Yara Sen [mentor-student], Director Cael Oris [hierarchical]
+relationships: $character-counterpart-001 [mentor-student], $character-pressure-001 [hierarchical]
 
 @character-counterpart-001 define
+name: Yara Sen
 complexity: round
 development-type: dynamic
 archetype: witness
@@ -26,9 +28,10 @@ truth: shared risk can create stronger agency than isolation
 conflict-mode: mixed
 arc: positive-change
 contradictions: loyal yet evasive, observant yet withholding
-relationships: Elian Quill [cooperative], Director Cael Oris [conflictual]
+relationships: $character-protagonist-001 [cooperative], $character-pressure-001 [conflictual]
 
 @character-pressure-001 define
+name: Director Cael Oris
 complexity: round
 development-type: static
 archetype: shadow
@@ -41,4 +44,4 @@ truth: concealment breeds larger collapse
 conflict-mode: external
 arc: flat
 contradictions: calm yet coercive, rational yet self-serving
-relationships: Elian Quill [conflictual], Yara Sen [hierarchical]
+relationships: $character-protagonist-001 [conflictual], $character-counterpart-001 [hierarchical]

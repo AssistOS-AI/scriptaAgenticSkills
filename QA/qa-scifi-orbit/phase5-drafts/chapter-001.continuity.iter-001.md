@@ -28,7 +28,7 @@ Continuity packet for downstream validation and export assembly.
     "Director Cael Oris"
   ],
   "changedRelationships": [
-    "identity-self under resistance pressure"
+    "freedom-security under dilemma pressure"
   ],
   "continuityWarnings": []
 }

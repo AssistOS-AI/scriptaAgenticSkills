@@ -23,9 +23,10 @@
       </p>
 
       <div class="callout">
-        All plan files use a shared CNL line format: <code>@identifier verb</code> followed by fixed labeled
-        lines and optional natural-language hints. Scripts parse the headers and labels; LLMs read the full
-        block as text.
+        All plan files use a shared CNL line format: <code>@identifier verb</code> on its own line, followed
+        by fixed labeled lines and optional natural-language hints on separate lines until the next
+        <code>@identifier</code> header. Scripts parse the headers and labels; LLMs read the full block as
+        text.
       </div>
 
       <pre class="mermaid">flowchart TD
@@ -57,9 +58,10 @@
 
       <p>
         The seed files may contain typed placeholders such as <code>{{character:protagonist-001}}</code> or
-        <code>{{location:courtroom-main}}</code>, but they must already contain valid command identifiers,
-        enumerated classifier values, and structural constraints. Later stages refine these files instead of
-        replacing them.
+        <code>{{location:courtroom-main}}</code>, and they may use references such as
+        <code>$character-protagonist-001</code> or <code>$location-primary</code> when a block points back to
+        something already defined. They must already contain valid command identifiers, enumerated classifier
+        values, and structural constraints. Later stages refine these files instead of replacing them.
       </p>
 
       <h2>MacroPlan</h2>
@@ -74,7 +76,7 @@ hook-pattern: costed-power
 tension-source: mixed
 naming-state: placeholder
 hook: a judge can rewrite verdicts but loses a personal memory every time
-protagonist: {{character:protagonist-001}}
+protagonist: $character-protagonist-001
 desire: save innocent defendants
 opposition: the system and the cost of self-erasure
 stakes: justice, identity, trust
@@ -156,18 +158,18 @@ thematic-focus: truth versus protective concealment
 rhythm-note: escalating
 
 @scene-courtroom-reversal define
-chapter: chapter-004
+chapter: $chapter-004
 time-space: appellate chamber during emergency review
 introduction: procedural calm under strain
 development: objections rise as evidence destabilizes
 conflict: justice versus institutional self-protection
 resolution: the verdict changes but memory fractures
 exit: the press gathers outside
-participants: {{character:protagonist-001}}, chief-prosecutor, defense-counsel, court observers
+participants: $character-protagonist-001, chief-prosecutor, defense-counsel, court observers
 state-change: the anomaly becomes publicly visible and private control is lost
 
 @suspense-ledger build
-scope: chapter-004
+scope: $chapter-004
 suspense-type: cognitive
 uncertainty: whether the reversal was unique or part of a hidden pattern
 delay-technique: mixed
@@ -178,14 +180,15 @@ A missing document trail and interrupted testimony should carry the delay.
       <p>
         CNLEnh does not write final chapters. It enriches symbolic plans with controlled textual hints that
         tell the drafting stage what effect, tone, and local emphasis to aim for. It is also the normal
-        stage where typed placeholders become concrete names, places, and institutions.
+        stage where typed placeholders become concrete names, places, and institutions while
+        <code>$identifier</code> references remain available as planning links.
       </p>
 
       <pre><code>@scene-courtroom-reversal refine
-ref: {{character:protagonist-001}} -> Judge Matei Ionescu
+ref: $character-protagonist-001 -> Judge Mira Solari
 should: keep the dialogue clipped and procedural at first
 should: let the first memory gap arrive as a bodily disruption before it is interpreted intellectually
-Avoid making the scene sound like legal exposition; the fear should leak through gesture and interruption.
+avoid: making the scene sound like legal exposition; the fear should leak through gesture and interruption.
 </code></pre>
     </article>
   </main>

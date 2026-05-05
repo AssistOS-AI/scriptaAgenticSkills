@@ -54,15 +54,16 @@
       <p>
         The planning files are not freeform notes. They are CNL documents built from command blocks such as
         <code>@central-idea define</code>, <code>@chapter-004 define</code>, or
-        <code>@suspense-ledger build</code>, followed by fixed labeled lines and optional natural-language
-        hints.
+        <code>@suspense-ledger build</code>, with the header kept on its own line and the block body continued
+        underneath through fixed labeled lines, <code>$identifier</code> references, and optional
+        natural-language hints.
       </p>
 
       <p>
         The first iteration of those files must be generated symbolically through CLI-style tooling with
         explicit parameters such as work size, genre profile, seed, and structural constraints. Later
-        skill-mediated LLM stages refine those seed files, resolve placeholders, and add natural-language
-        specificity without overwriting the original stage artifacts.
+        skill-mediated LLM stages refine those seed files, resolve placeholders into internationally portable
+        names, and add natural-language specificity without overwriting the original stage artifacts.
       </p>
 
       <p>

@@ -3,8 +3,8 @@
 Continuity packet for downstream validation and export assembly.
 
 ## State flow
-- entryState: Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies.
-- exitState: the ethical problem becomes a timed release rather than a discovery alone
+- entryState: the recovered vote proves the station once rejected the pacification protocol outright
+- exitState: Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.
 
 ## Continuity obligations
 - later chapters must preserve the consequence introduced in chapter-003
@@ -17,8 +17,8 @@ Continuity packet for downstream validation and export assembly.
 <!-- scripta-data
 {
   "chapterId": "chapter-003",
-  "entryState": "Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies.",
-  "exitState": "the ethical problem becomes a timed release rather than a discovery alone",
+  "entryState": "the recovered vote proves the station once rejected the pacification protocol outright",
+  "exitState": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
   "unresolvedObligations": [
     "later chapters must preserve the consequence introduced in chapter-003"
   ],
@@ -28,7 +28,7 @@ Continuity packet for downstream validation and export assembly.
     "Director Cael Oris"
   ],
   "changedRelationships": [
-    "identity-self under resistance pressure"
+    "freedom-security under dilemma pressure"
   ],
   "continuityWarnings": []
 }

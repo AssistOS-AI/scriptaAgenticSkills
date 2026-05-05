@@ -61,8 +61,11 @@ The first iteration must be symbolic, not empty. It must already contain:
 1. stable identifiers;
 2. enumerated classifier values;
 3. stage-appropriate causal and structural links;
-4. typed placeholders for unresolved names or labels;
-5. enough textual scaffolding that CNLEnh can refine it without inventing a new plan ontology.
+4. `$<identifier>` references for previously defined entities, scenes, chapters, or rule blocks;
+5. typed placeholders for unresolved names or labels;
+6. enough textual scaffolding that CNLEnh can refine it without inventing a new plan ontology.
+
+When the symbolic generator introduces a character, location, or comparable entity block, later blocks should refer back to that block through `$<identifier>` rather than duplicating its role in free prose. `{{...}}` placeholders remain appropriate only where a surface detail such as a proper name, institution label, or object label is intentionally unresolved.
 
 The generator must create new artifacts rather than mutate previous ones. A repeated seed run must produce a new iteration artifact under the same stage family so that validators can compare runs and detect whether refinement or correction actually occurred.
 

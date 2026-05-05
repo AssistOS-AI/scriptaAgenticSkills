@@ -3,8 +3,8 @@
 Continuity packet for downstream validation and export assembly.
 
 ## State flow
-- entryState: Yara flies Elian through maintenance lanes no civilian archivist is meant to access.
-- exitState: the station reveals a physical pathway for forgetting
+- entryState: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+- exitState: technical distance gives way to personal implication
 
 ## Continuity obligations
 - later chapters must preserve the consequence introduced in chapter-002
@@ -17,8 +17,8 @@ Continuity packet for downstream validation and export assembly.
 <!-- scripta-data
 {
   "chapterId": "chapter-002",
-  "entryState": "Yara flies Elian through maintenance lanes no civilian archivist is meant to access.",
-  "exitState": "the station reveals a physical pathway for forgetting",
+  "entryState": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.",
+  "exitState": "technical distance gives way to personal implication",
   "unresolvedObligations": [
     "later chapters must preserve the consequence introduced in chapter-002"
   ],
@@ -28,7 +28,7 @@ Continuity packet for downstream validation and export assembly.
     "Director Cael Oris"
   ],
   "changedRelationships": [
-    "identity-self under resistance pressure"
+    "freedom-security under dilemma pressure"
   ],
   "continuityWarnings": []
 }

@@ -13,7 +13,7 @@
 - **EAP**: 92%
 - **CAR**: 99%
 - **CS**: 93%
-- **NQS**: 87%
+- **NQS**: 88%
 
 ## Issues
 - No major deterministic issues were detected.

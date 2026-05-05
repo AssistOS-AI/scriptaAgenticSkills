@@ -1,9 +1,10 @@
 @plot-element-core-object define
+name: {{object:plot-001}}
 category: physical-object
 subtype: deadline
 function: revelation
 stakes: {{stakes:plot-element}}
-holders: {{organization:institution-001}}, {{character:pressure-001}}
+holders: {{organization:institution-001}}, $character-pressure-001
 activation: the protagonist decodes {{object:plot-001}} near the midpoint
 payoff-zone: midpoint and final confrontation
 

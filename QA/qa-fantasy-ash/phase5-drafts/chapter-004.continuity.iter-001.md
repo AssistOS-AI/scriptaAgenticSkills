@@ -28,7 +28,7 @@ Continuity packet for downstream validation and export assembly.
     "Regent Maeron Vale"
   ],
   "changedRelationships": [
-    "good-evil under corruption pressure"
+    "identity-self under reconciliation pressure"
   ],
   "continuityWarnings": []
 }

@@ -1,9 +1,10 @@
 @plot-element-core-object define
+name: the erased council vote archive
 category: physical-object
 subtype: deadline
 function: revelation
 stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
-holders: Nacre Station Council, Director Cael Oris
+holders: Nacre Station Council, $character-pressure-001
 activation: the protagonist decodes the erased council vote archive near the midpoint
 payoff-zone: midpoint and final confrontation
 

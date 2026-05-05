@@ -9,19 +9,18 @@ opening-mode: aftermath-entry
 development-mode: confrontation
 closing-mode: reversal
 continuity-obligations: later chapters must preserve the consequence introduced in chapter-004
-thematic-focus: good-evil under corruption pressure
+thematic-focus: identity-self under reconciliation pressure
 rhythm-note: breathless
 chapter-question: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
 answer-shift: the valley was never protected from cost; it was merely trained to pay it quietly
 arc-stage: irreversible-choice
 world-pressure: every promise of protection arrives already entangled with control, debt, and ancestral shame
-location-focus: the ash terrace above Drovna village
+location-focus: $location-primary
 block-alternation: description-action-dialogue-suspense-interior-monologue-revelation-pause
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.
 
 @chapter-004 refine
 ref: stakes:lineage-survival-legitimacy-cost -> the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
-ref: location:primary-001 -> the ash terrace above Drovna village
 ref: answer-shift:fantasy -> the valley was never protected from cost; it was merely trained to pay it quietly
 ref: purpose:culmination -> Culmination movement anchored by the furnace broken in public
 ref: input-state:culmination-3 -> During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.

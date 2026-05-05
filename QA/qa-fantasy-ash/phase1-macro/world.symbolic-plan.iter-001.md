@@ -1,9 +1,10 @@
 @plot-element-core-object define
+name: {{object:plot-001}}
 category: relationship
 subtype: prophecy
 function: revelation
 stakes: {{stakes:plot-element}}
-holders: {{organization:institution-001}}, {{character:pressure-001}}
+holders: {{organization:institution-001}}, $character-pressure-001
 activation: the protagonist decodes {{object:plot-001}} near the midpoint
 payoff-zone: midpoint and final confrontation
 
@@ -15,7 +16,7 @@ payoff-zone: midpoint
 fairness-rule: every later reveal must have at least one early concrete hint
 
 @world-subsystem-primary define
-domain: biology
+domain: magic
 magic-determinacy: semi-hard
 function: defines the system that constrains action and shapes conflict
 conflict-output: {{conflict-output:world-system}}

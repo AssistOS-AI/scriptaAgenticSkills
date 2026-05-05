@@ -18,7 +18,7 @@ ChapGen must be skill-mediated, LLM-ready, and chapter-scoped. It must consume M
 
 The subsystem must read the CNL command stream as authoritative planning input. Missing required command blocks, missing required labeled fields, or unresolved contradictions between `define`, `refine`, and `check` blocks must be surfaced as generation issues.
 
-ChapGen must reject plan sets that still contain unresolved placeholders in generation-critical surfaces. If names, locations, institutions, or other required concrete references remain in placeholder form after the refinement gate, chapter drafting must fail loudly rather than normalizing the defect into prose.
+ChapGen must reject plan sets that still contain unresolved placeholders in generation-critical surfaces. If names, locations, institutions, or other required concrete references remain in placeholder form after the refinement gate, chapter drafting must fail loudly rather than normalizing the defect into prose. ChapGen must also resolve raw `$<identifier>` references contextually before prose leaves the drafting stage; those references are valid planning links, not reader-facing wording.
 
 Each generated chapter must preserve:
 
