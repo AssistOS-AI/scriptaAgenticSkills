@@ -75,6 +75,7 @@ export async function runCnlEnh(input = {}) {
 
 function buildPlaceholderMap(options, sourceEntries) {
   const random = createSeededRandom(`${options.seed}:cnl-resolution`);
+  const visionContext = buildVisionContext(options);
   const placeholders = new Map();
 
   for (const entry of sourceEntries) {
@@ -86,30 +87,61 @@ function buildPlaceholderMap(options, sourceEntries) {
   const replacements = {};
 
   for (const placeholder of placeholders.values()) {
-    replacements[placeholder.token] = resolvePlaceholderValue(placeholder, options, random);
+    replacements[placeholder.token] = resolvePlaceholderValue(placeholder, options, random, visionContext);
   }
 
   return replacements;
 }
 
-function resolvePlaceholderValue(placeholder, options, random) {
+function buildVisionContext(options) {
+  const vision = options.vision ?? {};
+  return {
+    storySummary: firstMeaningful(options.storySummary, vision.storySummary, options.brief),
+    storyQuestion: firstMeaningful(vision.storyQuestion),
+    dilemma: firstMeaningful(vision.dilemma),
+    themeQuestion: firstMeaningful(vision.themeQuestion),
+    themeStatement: firstMeaningful(vision.themeStatement),
+    poleA: firstMeaningful(vision.poleA),
+    poleB: firstMeaningful(vision.poleB),
+    characters: vision.characters ?? {},
+    locations: vision.locations ?? {},
+    scenes: vision.scenes ?? {},
+    constraints: vision.constraints ?? {}
+  };
+}
+
+function resolvePlaceholderValue(placeholder, options, random, visionContext) {
   if (placeholder.entityType === 'character') {
+    const character = getCharacterSeed(visionContext, placeholder.stableId);
+    if (character?.name) {
+      return character.name;
+    }
     return generatePlaceholderName(placeholder.stableId, options.seed);
   }
 
   if (placeholder.entityType === 'location') {
-    return generatePlaceholderLocation(placeholder.stableId, options.seed, null);
+    const location = getLocationSeed(visionContext, placeholder.stableId);
+    return generatePlaceholderLocation(placeholder.stableId, options.seed, firstMeaningful(location?.name, null));
   }
 
   if (placeholder.entityType === 'organization') {
+    if (visionContext.constraints.institutionName) {
+      return visionContext.constraints.institutionName;
+    }
     return generatePlaceholderOrganization(placeholder.stableId, options.seed);
   }
 
   if (placeholder.entityType === 'object') {
+    if (visionContext.constraints.plotObject) {
+      return visionContext.constraints.plotObject;
+    }
     return generatePlaceholderLocation(placeholder.stableId, options.seed, null).replace(/^the\s+/i, '');
   }
 
   if (placeholder.entityType === 'artifact') {
+    if (visionContext.constraints.plotObject) {
+      return visionContext.constraints.plotObject;
+    }
     return generatePlaceholderLocation(placeholder.stableId, options.seed, null).replace(/^the\s+/i, '');
   }
 
@@ -117,15 +149,239 @@ function resolvePlaceholderValue(placeholder, options, random) {
     return options.themeTopic.replace(/-/g, ' ');
   }
 
-  return generateContentPlaceholder(placeholder, options, random);
+  return generateContentPlaceholder(placeholder, options, random, visionContext);
 }
 
-function generateContentPlaceholder(placeholder, options, random) {
+function generateContentPlaceholder(placeholder, options, random, visionContext) {
   const spec = placeholder.stableId;
   const profileLabel = options.profile?.label ?? options.baselineProfile ?? 'fiction';
   const lowerLabel = profileLabel.toLowerCase();
   const id = placeholder.entityType;
+  const protagonist = getCharacterSeed(visionContext, 'protagonist');
+  const counterpart = getCharacterSeed(visionContext, 'counterpart');
+  const pressure = getCharacterSeed(visionContext, 'pressure');
+  const location = getLocationSeed(visionContext, spec);
+  const chapterRole = parseChapterRole(spec);
+  const scene = getSceneSeed(visionContext, spec);
+  const constraints = visionContext.constraints;
+  const fallback = fallbackContentPlaceholder(id, spec, lowerLabel);
 
+  switch (id) {
+    case 'hook':
+    case 'premise':
+      return firstMeaningful(visionContext.storySummary, fallback);
+    case 'desire':
+      return firstMeaningful(getCharacterSeed(visionContext, spec)?.publicGoal, fallback);
+    case 'need':
+      return firstMeaningful(getCharacterSeed(visionContext, spec)?.hiddenNeed, fallback);
+    case 'fear':
+      return firstMeaningful(getCharacterSeed(visionContext, spec)?.fear, fallback);
+    case 'opposition':
+      return firstMeaningful(
+        pressure?.name ? `${pressure.name}, ${pressure.role}, backed by ${firstMeaningful(constraints.institutionName, 'the governing institution')}` : '',
+        constraints.actionLimitation,
+        fallback
+      );
+    case 'stakes':
+    case 'conflict-stakes':
+      return firstMeaningful(constraints.stakes, fallback);
+    case 'dilemma':
+      return firstMeaningful(visionContext.dilemma, fallback);
+    case 'story-question':
+    case 'chapter-question':
+      return firstMeaningful(visionContext.storyQuestion, fallback);
+    case 'thematic-question':
+      return firstMeaningful(visionContext.themeQuestion, fallback);
+    case 'thematic-statement':
+      return firstMeaningful(visionContext.themeStatement, fallback);
+    case 'pole-a':
+      return firstMeaningful(visionContext.poleA, fallback);
+    case 'pole-b':
+      return firstMeaningful(visionContext.poleB, fallback);
+    case 'pitch':
+      return firstMeaningful(
+        protagonist?.name && protagonist?.publicGoal
+          ? `${protagonist.name} must ${protagonist.publicGoal} while ${firstMeaningful(visionContext.dilemma, constraints.actionLimitation, 'the cost of truth keeps rising')}`
+          : '',
+        visionContext.storySummary,
+        fallback
+      );
+    case 'inciting-incident':
+      return firstMeaningful(getSceneSeed(visionContext, 'setup-0')?.eventTrigger, getSceneSeed(visionContext, 'setup-0')?.title, visionContext.storySummary, fallback);
+    case 'purpose':
+      return firstMeaningful(scene?.title ? `${capitalizeWords(chapterRole)} movement anchored by ${scene.title.toLowerCase()}` : '', fallback);
+    case 'input-state':
+      return firstMeaningful(scene?.introduction, protagonist?.entryBelief, fallback);
+    case 'output-state':
+      return firstMeaningful(scene?.stateChange, protagonist?.exitBelief, fallback);
+    case 'conflict':
+      return firstMeaningful(scene?.conflict, visionContext.dilemma, constraints.conflictOutput, fallback);
+    case 'answer-shift':
+      return firstMeaningful(scene?.payoff, protagonist?.turningInsight, fallback);
+    case 'world-pressure':
+    case 'conflict-output':
+    case 'conflict-output-rule':
+      return firstMeaningful(constraints.conflictOutput, constraints.actionLimitation, fallback);
+    case 'wisdom':
+      return firstMeaningful(
+        spec === 'moral' ? visionContext.themeStatement : '',
+        spec === 'emotional' ? protagonist?.hiddenNeed : '',
+        spec === 'cognitive' ? visionContext.storyQuestion : '',
+        fallback
+      );
+    case 'sensory-anchor':
+      return firstMeaningful(location?.sensory, fallback);
+    case 'social-signal':
+      return firstMeaningful(location?.socialSignal, fallback);
+    case 'symbolic-charge':
+      return firstMeaningful(location?.symbolicCharge, fallback);
+    case 'conflict-use':
+      return firstMeaningful(location?.conflictUse, fallback);
+    case 'sequence-objective':
+      return firstMeaningful(scene?.actionGoal, protagonist?.publicGoal, fallback);
+    case 'sequence-conflict':
+      return firstMeaningful(scene?.conflict, visionContext.dilemma, fallback);
+    case 'sequence-payoff':
+      return firstMeaningful(scene?.payoff, scene?.stateChange, fallback);
+    case 'scene-introduction':
+      return firstMeaningful(scene?.introduction, scene?.title, fallback);
+    case 'scene-development':
+      return firstMeaningful(scene?.development, scene?.payoff, fallback);
+    case 'scene-conflict':
+      return firstMeaningful(scene?.conflict, visionContext.dilemma, fallback);
+    case 'scene-resolution':
+      return firstMeaningful(scene?.resolution, scene?.payoff, fallback);
+    case 'scene-state-change':
+      return firstMeaningful(scene?.stateChange, scene?.payoff, fallback);
+    case 'action-goal':
+      return firstMeaningful(scene?.actionGoal, protagonist?.publicGoal, fallback);
+    case 'action-obstacle':
+      return firstMeaningful(scene?.actionObstacle, constraints.actionLimitation, fallback);
+    case 'action-result':
+      return firstMeaningful(scene?.stateChange, scene?.payoff, scene?.resolution, fallback);
+    case 'conflict-escalation':
+      return firstMeaningful(scene?.development, constraints.conflictOutput, fallback);
+    case 'event-trigger':
+      return firstMeaningful(scene?.eventTrigger, scene?.title, fallback);
+    case 'event-impact':
+      return firstMeaningful(scene?.eventImpact, scene?.stateChange, fallback);
+    case 'event-follow-through':
+      return firstMeaningful(scene?.payoff, scene?.resolution, fallback);
+    case 'dialogue-subtext':
+    case 'dialogue-core-subtext':
+      return firstMeaningful(scene?.conflict, `${protagonist?.name ?? 'the protagonist'} and ${counterpart?.name ?? 'the counterpart'} keep circling the truth they cannot safely name yet`, fallback);
+    case 'dialogue-line-hint':
+      return firstMeaningful(scene?.title, scene?.eventTrigger, fallback);
+    case 'dialogue-reaction':
+      return firstMeaningful(scene?.eventImpact, scene?.stateChange, fallback);
+    case 'description-focus':
+      return firstMeaningful(location?.symbolicCharge, location?.conflictUse, fallback);
+    case 'monologue-trigger':
+      return firstMeaningful(scene?.eventImpact, protagonist?.hiddenNeed, protagonist?.fear, fallback);
+    case 'suspense-uncertainty':
+      return firstMeaningful(visionContext.storyQuestion, constraints.visibleSymptom, fallback);
+    case 'cliffhanger-moment':
+      return firstMeaningful(scene?.eventTrigger, scene?.conflict, fallback);
+    case 'cliffhanger-continuation':
+      return firstMeaningful(scene?.payoff, visionContext.storyQuestion, fallback);
+    case 'pause-focus':
+      return firstMeaningful(scene?.stateChange, protagonist?.hiddenNeed, fallback);
+    case 'acceleration-trigger':
+      return firstMeaningful(scene?.eventTrigger, constraints.visibleSymptom, fallback);
+    case 'reader-effect':
+      return firstMeaningful(visionContext.themeQuestion, scene?.payoff, fallback);
+    case 'rule':
+      return firstMeaningful(spec.includes('secondary') ? constraints.secondaryRule : constraints.worldRule, fallback);
+    case 'rule-to-conflict':
+      return firstMeaningful(
+        constraints.worldRule && constraints.conflictOutput ? `${constraints.worldRule} so ${constraints.conflictOutput}` : '',
+        fallback
+      );
+    case 'conflict-transform':
+      return firstMeaningful(constraints.secondaryRule, fallback);
+    case 'visible-symptom':
+      return firstMeaningful(constraints.visibleSymptom, fallback);
+    case 'action-limitation':
+      return firstMeaningful(constraints.actionLimitation, fallback);
+    case 'entry-belief':
+      return firstMeaningful(protagonist?.entryBelief, fallback);
+    case 'exit-belief':
+      return firstMeaningful(protagonist?.exitBelief, fallback);
+    case 'turning-insight':
+      return firstMeaningful(protagonist?.turningInsight, fallback);
+    case 'challenge':
+      return firstMeaningful(scene?.conflict, visionContext.dilemma, fallback);
+    case 'insight-pressure':
+      return firstMeaningful(scene?.eventImpact, constraints.conflictOutput, fallback);
+    case 'motif-object':
+      return firstMeaningful(constraints.motif, fallback);
+    case 'relationship-stress':
+      return firstMeaningful(scene?.conflict, `${counterpart?.name ?? 'the counterpart'} keeps forcing ${protagonist?.name ?? 'the protagonist'} to choose between control and honesty`, fallback);
+    default:
+      return fallback;
+  }
+}
+
+function getCharacterSeed(visionContext, stableId) {
+  const role = resolveCharacterRole(stableId);
+  return visionContext.characters?.[role] ?? null;
+}
+
+function resolveCharacterRole(stableId) {
+  if (String(stableId).includes('protagonist')) return 'protagonist';
+  if (String(stableId).includes('counterpart')) return 'counterpart';
+  if (String(stableId).includes('pressure')) return 'pressure';
+  return 'protagonist';
+}
+
+function getLocationSeed(visionContext, stableId) {
+  if (String(stableId).includes('secondary')) {
+    return visionContext.locations?.secondary ?? null;
+  }
+  return visionContext.locations?.primary ?? null;
+}
+
+function getSceneSeed(visionContext, spec) {
+  const role = parseChapterRole(spec);
+  const index = parseSceneIndex(spec);
+  const scenes = visionContext.scenes?.[role] ?? visionContext.scenes?.[fallbackChapterRole(role)] ?? [];
+  if (!Array.isArray(scenes) || scenes.length === 0) {
+    return null;
+  }
+
+  if (String(spec).endsWith('-final')) {
+    return scenes[scenes.length - 1];
+  }
+
+  return scenes[Math.min(index, scenes.length - 1)] ?? scenes[0];
+}
+
+function parseChapterRole(spec) {
+  const text = String(spec ?? '');
+  const rolePart = text
+    .replace(/^protagonist-/, '')
+    .replace(/^counterpart-/, '')
+    .replace(/^pressure-/, '')
+    .replace(/-(final|mid|\d+)$/, '');
+  return fallbackChapterRole(rolePart || 'setup');
+}
+
+function parseSceneIndex(spec) {
+  const match = String(spec ?? '').match(/-(\d+)$/);
+  return match ? Number(match[1]) : 0;
+}
+
+function fallbackChapterRole(role) {
+  const aliases = {
+    investigation: 'escalation',
+    reversal: 'revelation',
+    aftermath: 'culmination',
+    bridge: 'escalation'
+  };
+  return aliases[role] ?? role;
+}
+
+function fallbackContentPlaceholder(id, spec, lowerLabel) {
   const contentMap = {
     'hook': `the central hook of this ${lowerLabel} story`,
     'desire': `what the protagonist of this ${lowerLabel} story wants most`,
@@ -195,11 +451,27 @@ function generateContentPlaceholder(placeholder, options, random) {
     'challenge': `what challenges the protagonist's belief`,
     'insight-pressure': `the pressure that forces insight`,
     'motif-object': `a recurring motif in this story`,
-    'stakes': `what is at stake`,
-    'relationship-stress': `what strains the central relationship`,
+    'relationship-stress': `what strains the central relationship`
   };
 
   return contentMap[id] ?? `${id} for this ${lowerLabel} story`;
+}
+
+function firstMeaningful(...values) {
+  for (const value of values) {
+    if (typeof value === 'string' && value.trim()) {
+      return value.trim();
+    }
+  }
+  return '';
+}
+
+function capitalizeWords(value) {
+  return String(value ?? '')
+    .split('-')
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(' ');
 }
 
 function buildRefineBlock({ sourceBlock, resolvedBlock, options, replacements }) {
