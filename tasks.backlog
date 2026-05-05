@@ -94,6 +94,24 @@ Prioritized improvement backlog for the SCRIPTA project. Each entry references t
 - **Action:** Move remaining draft realization logic into configurable scene-aware templates and/or the LLM adapter path so openings, scene transitions, and dialogue lines become less meta and more narratively embodied.
 - **Acceptance:** QA chapter drafts no longer read like stage reports, repeated scene scaffolds are materially reduced, and the final HTML editions feel closer to narrative prose than to pipeline commentary.
 
+### TASK-018: Externalize translation glossaries and chunk templates into config
+- **Area:** runtime/pipeline/translationSkill.mjs, runtime/pipeline/bookWriterLanguage.mjs, runtime/config/
+- **Problem:** The new translation stage is structurally correct, but Romanian fluency still depends on runtime-local sentence templates and exact-string glossaries. That makes extension to new languages or new narrative patterns harder than it should be.
+- **Action:** Move translation glossaries, sentence-pattern transforms, and per-language chunk rules into dedicated config files or adapter packs so translators can evolve without editing the runtime core.
+- **Acceptance:** The translation stage loads language-specific chunking and translation rules from config, and adding a new language does not require changing the renderer or stage orchestration.
+
+### TASK-019: Expand authored vision and config pools for scene specificity
+- **Area:** runtime/config/, runtime/pipeline/symbolicPlanGeneration.mjs, runtime/pipeline/cnlEnh.mjs
+- **Problem:** Rich QA visions now exist, but generic runs still fall back to thin placeholder-like cues such as generic scene openings, vague action goals, and underspecified location signals.
+- **Action:** Add deeper config pools for scene triggers, dialogue intents, emotional reversals, location signals, institutional textures, and relationship pressures, then let symbolic generation and CNLEnh sample from those pools with profile-aware biasing.
+- **Acceptance:** Non-QA runs produce chapter plans and drafts with fewer generic cue phrases and more situation-specific concrete detail before any LLM adapter is introduced.
+
+### TASK-020: Add translation leak detection to validation
+- **Area:** runtime/pipeline/validationSuite.mjs, runtime/tests/
+- **Problem:** Export validation checks structure and basic localization markers, but it still lacks a dedicated detector for mixed-language residue inside translated editions.
+- **Action:** Add language-leak heuristics and translated-edition checks that scan for leftover English scaffolding, untranslated UI phrases, and repeated fallback fragments in translated HTML outputs.
+- **Acceptance:** Validation reports translation leakage explicitly, and QA fails when translated reader editions mix English scaffolding into the target-language narrative.
+
 ## P3 — Low
 
 ### TASK-013: Add fileSizesCheck.sh to AGENTS.md Key Paths context

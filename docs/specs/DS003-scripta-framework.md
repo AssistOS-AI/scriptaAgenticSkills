@@ -25,7 +25,8 @@ The public subsystem sequence must be:
 | MicroPlan | Convert chapters into symbolic block plans | Script-first | Symbolic micro plans |
 | CNLEnh | Add constrained natural-language hints and resolve placeholders | Skill-mediated LLM refinement | Enhanced CNL plans |
 | ChapGen | Draft chapters from plans | Skill-mediated LLM drafting | Chapter drafts |
-| BookWriter | Perform editorial and translation finishing | Skill-mediated LLM drafting | Export-ready manuscripts |
+| BookWriter | Perform editorial finishing and source-edition assembly | Skill-mediated LLM drafting | Source manuscripts and source reader editions |
+| Translation Skill | Convert the source edition into target-language readers | Hybrid, script-first | Translated reader editions and translation traces |
 | Validation Suite | Evaluate narrative and compliance quality | Hybrid, script-first | Reports and raw evidence |
 | Metrics Framework | Normalize and aggregate scores | Script-first | Percent indicators |
 

@@ -38,7 +38,7 @@ Validation must parse the CNL planning language directly. Missing command famili
 
 Validation must enforce stage discipline. At minimum, it must be able to detect overwritten upstream artifacts, missing successor provenance, and unresolved placeholders that survive into stages where they are forbidden.
 
-Validation must also audit the publication surface. When final reader editions exist, the suite must verify requested language coverage, embedded-cover presence, table of contents structure, chapter anchoring, print styling, dependency-free packaging, and visible localization leaks in final HTML editions.
+Validation must also audit the publication surface. When final reader editions exist, the suite must verify requested language coverage across both source and translation stages, embedded-cover presence, table of contents structure, chapter anchoring, print styling, dependency-free packaging, and visible localization leaks in final HTML editions.
 
 When the validated workspace belongs to the canonical QA campaign, the suite must also refresh the published QA metrics surface so the latest normalized indicators, stage audit, localized issues, and revision tasks are visible under `QA/books/metrics/`.
 

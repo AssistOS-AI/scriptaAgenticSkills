@@ -21,7 +21,7 @@ The DS specifications under `docs/specs/` are the source of truth. When SCRIPTA 
 The repository contains two skill groups under `.agents/skills/`:
 
 1. Helper authoring skills such as `gamp_specs`, `review_specs`, `article_build`, `cskill_build`, `dgskill_build`, `oskill_build`, `achilles_specs`, and `antropic_skill_build`.
-2. Implemented SCRIPTA runtime skills such as `scripta_symbolic_plan_generation`, `scripta_macroplan`, `scripta_chapplan`, `scripta_microplan`, `scripta_cnlenh`, `scripta_chapgen`, `scripta_bookwriter`, `scripta_validation_suite`, and `scripta_metrics_framework`.
+2. Implemented SCRIPTA runtime skills such as `scripta_symbolic_plan_generation`, `scripta_macroplan`, `scripta_chapplan`, `scripta_microplan`, `scripta_cnlenh`, `scripta_chapgen`, `scripta_bookwriter`, `scripta_translation`, `scripta_validation_suite`, and `scripta_metrics_framework`.
 
 The public SCRIPTA specification set starts at `DS003` and must remain centered on the SCRIPTA suite itself: framework, book workspace, MacroPlan, ChapPlan, MicroPlan, CNLEnh, ChapGen, BookWriter, validation, and metrics. Do not create DS files for the helper authoring skills unless the user explicitly asks for them.
 

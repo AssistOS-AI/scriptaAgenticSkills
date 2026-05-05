@@ -37,10 +37,11 @@
         cnl --> drafts[ChapGen]
         drafts --> metrics[Metrics Framework]
         drafts --> writer[BookWriter]
+        writer --> translator[Translation Skill]
         drafts --> validation[Validation suite]
         validation --> reports[Reports and evidence]
         metrics --> reports
-        writer --> exports[Single-file HTML editions]
+        translator --> exports[Single-file HTML editions]
       </pre>
 
       <h2>Book workspace architecture</h2>
@@ -61,44 +62,49 @@
           </thead>
           <tbody>
             <tr>
-              <td><code>macro/</code></td>
+              <td><code>phase1-macro/</code></td>
               <td>MacroPlan</td>
               <td>Append-only macro seed artifacts: central idea, theme, wisdom, structure, narrative model, blueprint, characters, and worldbuilding.</td>
             </tr>
             <tr>
-              <td><code>chapters/</code></td>
+              <td><code>phase2-chapters/</code></td>
               <td>ChapPlan</td>
               <td>Append-only chapter seed artifacts with purpose, transitions, continuity vectors, and role in the whole-book arc.</td>
             </tr>
             <tr>
-              <td><code>micro/</code></td>
+              <td><code>phase3-micro/</code></td>
               <td>MicroPlan</td>
               <td>Append-only symbolic block sequences, scene shapes, tension markers, and order constraints.</td>
             </tr>
             <tr>
-              <td><code>cnl/</code></td>
+              <td><code>phase4-cnl/</code></td>
               <td>CNLEnh</td>
               <td>Enhanced controlled-language successor artifacts with placeholder resolution and intended local effects.</td>
             </tr>
             <tr>
-              <td><code>drafts/</code></td>
+              <td><code>phase5-drafts/</code></td>
               <td>ChapGen</td>
               <td>Generated chapter drafts, continuity packets, and chapter-level revision traces.</td>
             </tr>
             <tr>
-              <td><code>validation/</code></td>
+              <td><code>phase6-validation/</code></td>
               <td>Validation suite</td>
               <td>Per-book summaries, issue inventories, stage audits, revision tasks, and raw validation data.</td>
             </tr>
             <tr>
-              <td><code>reports/</code></td>
+              <td><code>phase7-reports/</code></td>
               <td>Metrics framework and validators</td>
               <td>Human-readable validation reports, stage review reports, and revision task reports.</td>
             </tr>
             <tr>
-              <td><code>exports/</code></td>
+              <td><code>phase8-exports/</code></td>
               <td>BookWriter</td>
-              <td>Single-file EN/RO reader editions, embedded cover art, manuscript sources, and export bundle manifests.</td>
+              <td>Single-file source reader editions, embedded cover art, manuscript sources, and source bundle manifests.</td>
+            </tr>
+            <tr>
+              <td><code>phase9-translations/</code></td>
+              <td>Translation Skill</td>
+              <td>Translated HTML reader editions, chunk traces, and final publication bundle manifests.</td>
             </tr>
           </tbody>
         </table>

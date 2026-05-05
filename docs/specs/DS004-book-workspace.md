@@ -18,18 +18,19 @@ The workspace must be organized by stage so that plans, generated text, validati
 
 | Folder | Required purpose | Typical artifacts |
 | --- | --- | --- |
-| `macro/` | Store the macro package | `macro.plan.md`, `characters.plan.md`, `world.plan.md` |
-| `chapters/` | Store chapter plans | `chapter-001.plan.md` through `chapter-NNN.plan.md` |
-| `micro/` | Store symbolic micro plans | `chapter-001.micro.plan.md`, block maps, scene graphs |
-| `cnl/` | Store enhanced controlled-language plans | `chapter-001.cnl.plan.md`, global refinement packs |
-| `drafts/` | Store generated chapter text | `chapter-001-draft.*`, continuity packets |
-| `validation/` | Store validation profiles, raw runs, and evidence | baseline specs, raw check outputs, overlap reports |
-| `reports/` | Store human-readable and machine-readable summaries | per-check Markdown and JSON, aggregate dashboards |
-| `exports/` | Store editorial and translation outputs | language bundles, publication variants |
+| `phase1-macro/` | Store the macro package | `macro-refined-plan.*`, character/world packages |
+| `phase2-chapters/` | Store chapter plans | `chapter-001.symbolic-plan.*` through `chapter-NNN.symbolic-plan.*` |
+| `phase3-micro/` | Store symbolic micro plans | `chapter-001.symbolic-plan.*`, block maps, scene graphs |
+| `phase4-cnl/` | Store enhanced controlled-language plans | `chapter-001.chapter-refined-plan.*`, global refinement packs |
+| `phase5-drafts/` | Store generated chapter text | `chapter-001.draft.*`, continuity packets |
+| `phase6-validation/` | Store validation profiles, raw runs, and evidence | summaries, issues, stage audits, overlap reports |
+| `phase7-reports/` | Store human-readable and machine-readable summaries | report Markdown bundles and task reports |
+| `phase8-exports/` | Store source editorial outputs | source manuscript, source reader edition, source bundle |
+| `phase9-translations/` | Store translated publication outputs | translated HTML editions, translation traces, final edition bundles |
 
 Every artifact must carry a book identifier. Chapter-bound artifacts must also carry a chapter identifier, and paragraph-level or block-level outputs must preserve a stable local identifier when possible.
 
-All plan files in `macro/`, `chapters/`, `micro/`, and `cnl/` must be Markdown-compatible CNL files whose command blocks begin with `@identifier verb`. Scripts must be able to discover plan intent by scanning those header lines and the fixed labeled lines that follow them, while LLMs must still be able to read the same files as natural text.
+All plan files in `phase1-macro/`, `phase2-chapters/`, `phase3-micro/`, and `phase4-cnl/` must be Markdown-compatible CNL files whose command blocks begin with `@identifier verb`. Scripts must be able to discover plan intent by scanning those header lines and the fixed labeled lines that follow them, while LLMs must still be able to read the same files as natural text.
 
 Stage outputs must be append-only. A later stage may not rewrite or delete an earlier stage file as its normal success path. If a stage is rerun, it must produce a new iteration artifact, for example by adding a run identifier, timestamp-free sequence number, or explicit iteration suffix that remains stable inside the workspace.
 
@@ -37,10 +38,10 @@ The workspace must preserve the distinction between symbolic seed artifacts and 
 
 | State | Example artifact pattern | Meaning |
 | --- | --- | --- |
-| Symbolic seed | `macro/book.symbolic.plan.md` | Code-generated first iteration with controlled values and placeholders |
-| Refined plan | `cnl/book.refined.plan.md` | Later-stage plan with NL nuance and resolved concrete names |
-| Draft | `drafts/chapter-004.draft.md` | Generated prose based on validated plans |
-| Failure artifact | `validation/chapter-004.placeholder-fail.json` | Explicit record that a stage failed a gate |
+| Symbolic seed | `phase1-macro/*.symbolic-plan.*` | Code-generated first iteration with controlled values and placeholders |
+| Refined plan | `phase4-cnl/*.chapter-refined-plan.*` | Later-stage plan with NL nuance and resolved concrete names |
+| Draft | `phase5-drafts/chapter-004.draft.md` | Generated prose based on validated plans |
+| Failure artifact | `phase6-validation/chapter-004.placeholder-fail.json` | Explicit record that a stage failed a gate |
 
 The workspace must keep provenance visible enough that validators can compare upstream and downstream files. At minimum, every non-seed stage must be able to declare which prior artifact versions it consumed.
 

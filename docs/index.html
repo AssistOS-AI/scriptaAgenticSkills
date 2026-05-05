@@ -37,10 +37,11 @@
         micro --> cnl[CNLEnh]
         cnl --> generation[ChapGen]
         generation --> writer[BookWriter]
+        writer --> translator[Translation Skill]
         generation --> validation[Validation Suite]
+        translator --> exports[Single-file HTML readers]
         validation --> metrics[Percent metrics]
         validation --> reports[Localized reports]
-        writer --> exports[Single-file HTML readers]
       </pre>
 
       <h2>Project objective</h2>
@@ -73,8 +74,8 @@
       </p>
 
       <p>
-        BookWriter now emits dependency-free reader editions in English and Romanian as single HTML files
-        with embedded cover art, table of contents, print styling, and machine-readable provenance.
+        BookWriter now emits the canonical source edition and a structured translation-source bundle, while
+        the independent Translation Skill produces Romanian reader editions through the same HTML template.
         The QA root also exposes consolidated review artifacts such as <code>qa-review.json</code> and
         <code>qa-tasks.md</code>, plus directly browsable final books under <code>QA/books/en/</code> and
         <code>QA/books/ro/</code>. The same publication surface now includes per-book HTML dashboards under
@@ -101,8 +102,9 @@
         <section class="card">
           <h3>Generation and review</h3>
           <p>
-            <strong>CNLEnh</strong>, <strong>ChapGen</strong>, and <strong>BookWriter</strong> convert plans
-            into readable chapters and editorial outputs without losing traceability to the planning stack.
+            <strong>CNLEnh</strong>, <strong>ChapGen</strong>, <strong>BookWriter</strong>, and
+            <strong>Translation Skill</strong> convert plans into readable chapters and publication artifacts
+            without losing traceability to the planning stack.
           </p>
           <p><a href="stg-program.html">Read the architecture page</a></p>
         </section>

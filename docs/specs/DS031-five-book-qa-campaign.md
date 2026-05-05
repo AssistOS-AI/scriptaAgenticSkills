@@ -30,8 +30,9 @@ Each book in the campaign must be able to run through the full stage chain:
 2. `MacroPlan`, `ChapPlan`, and `MicroPlan`.
 3. `CNLEnh` placeholder resolution and successor refinement.
 4. `ChapGen` draft and continuity generation.
-5. `BookWriter` final English and Romanian HTML reader editions.
-6. `Validation Suite` metrics, export audit, stage audit, and revision task generation.
+5. `BookWriter` source manuscript, source edition, and translation-source bundle generation.
+6. `Translation Skill` Romanian reader edition generation from the source bundle.
+7. `Validation Suite` metrics, export audit, stage audit, and revision task generation.
 
 The stage-by-stage CLI path must remain available even when the convenience `qa` command exists. At minimum, the campaign documentation must support the following generation shape per book:
 
@@ -43,6 +44,7 @@ scripta microplan
 scripta cnlenh
 scripta chapgen
 scripta bookwriter --target-languages en,ro
+scripta translate --target-languages en,ro
 scripta validate
 ```
 
@@ -58,7 +60,7 @@ The `qa` command must generate all five books end to end and then emit consolida
 | `qa-review.json` | Consolidated review snapshot across the campaign |
 | `qa-tasks.md` | Human-readable task list for the next remediation pass |
 
-Every per-book workspace produced by the campaign must include final English and Romanian HTML reader editions in `exports/`, plus validation summaries and task reports under `validation/` and `reports/`. After each QA regeneration, the public `QA/books/` library and `QA/books/metrics/` library must be refreshed from the latest workspace iterations.
+Every per-book workspace produced by the campaign must include the source English HTML reader edition in `exports/`, the translated Romanian HTML reader edition in `translations/`, and validation summaries and task reports under `validation/` and `reports/`. After each QA regeneration, the public `QA/books/` library and `QA/books/metrics/` library must be refreshed from the latest workspace iterations.
 
 ## Decisions & Questions
 
@@ -80,4 +82,4 @@ Response: The user explicitly asked for browsable HTML metric pages under `QA/bo
 
 ## Conclusion
 
-The canonical five-book QA campaign is the regression harness for the SCRIPTA runtime: it proves the stage pipeline, the bilingual export surface, and the revision loop in one repeatable package.
+The canonical five-book QA campaign is the regression harness for the SCRIPTA runtime: it proves the stage pipeline, the source-plus-translation publication surface, and the revision loop in one repeatable package.

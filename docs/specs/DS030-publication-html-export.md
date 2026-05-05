@@ -3,14 +3,14 @@ id: DS030
 title: Publication HTML Export
 status: implemented
 owner: repository
-summary: Defines the dependency-free single-file HTML edition contract emitted by BookWriter.
+summary: Defines the dependency-free single-file HTML edition contract shared by the source BookWriter stage and the downstream Translation Skill.
 ---
 
 # DS030 Publication HTML Export
 
 ## Introduction
 
-This file defines the contract for SCRIPTA's final reader editions. These are the portable book artifacts intended for human reading, printing, archival review, and downstream validation.
+This file defines the contract for SCRIPTA's final reader editions. These are the portable book artifacts intended for human reading, printing, archival review, and downstream validation, regardless of whether they were emitted as source editions or translated editions.
 
 ## Core Content
 
@@ -33,7 +33,7 @@ The edition must expose machine-readable metadata in a non-executable payload em
 
 The export must include print styling. A consumer must be able to print the file directly while preserving cover separation, chapter breaks, and readable typography without loading any external asset.
 
-English and Romanian are the built-in fluent rendering targets in the current reference runtime. For other target languages, the contract requires BookWriter to preserve the requested language and translation instruction in the export metadata even when the visible narrative remains in a supported source language.
+English is the canonical source edition in the current reference runtime, and Romanian is the built-in translated edition. For other target languages, the contract requires the translation stage to preserve the requested language and translation instruction in the export metadata even when the visible narrative remains in a supported source language.
 
 ## Decisions & Questions
 
