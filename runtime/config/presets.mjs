@@ -29,21 +29,22 @@ export function getProfile(profileId) {
 export function materializeProfile(profileId, { seed, brief, title }) {
   const profile = getProfile(profileId);
   const random = createSeededRandom(`${seed}:profile`);
-  const constraints = buildSoftProfileConstraints(profile.constraints);
+  const rawConstraints = profile.constraints;
+  const constraints = buildSoftProfileConstraints(rawConstraints);
 
   return {
     id: profileId,
     label: profile.label,
     genreMode: profile.genreMode,
-    hookPattern: random.pick(constraints.centralIdea.hookPatterns),
-    tensionSource: random.pick(constraints.centralIdea.tensionSources),
-    themeTopic: random.pick(constraints.theme.topics),
-    themeShape: random.pick(constraints.theme.moralShapes),
-    narrativeModel: random.pick(constraints.narrativeModel.modelNames),
-    macroForm: random.pick(constraints.structure.macroForms),
-    worldDomain: random.pick(constraints.worldbuilding.domains),
-    magicDeterminacy: pickNullable(random, constraints.worldbuilding.magicDeterminacy),
-    sequenceType: random.pick(constraints.sequence.types),
+    hookPattern: random.pick(rawConstraints.centralIdea.hookPatterns),
+    tensionSource: random.pick(rawConstraints.centralIdea.tensionSources),
+    themeTopic: random.pick(rawConstraints.theme.topics),
+    themeShape: random.pick(rawConstraints.theme.moralShapes),
+    narrativeModel: random.pick(rawConstraints.narrativeModel.modelNames),
+    macroForm: random.pick(rawConstraints.structure.macroForms),
+    worldDomain: random.pick(rawConstraints.worldbuilding.domains),
+    magicDeterminacy: pickNullable(random, rawConstraints.worldbuilding.magicDeterminacy),
+    sequenceType: random.pick(rawConstraints.sequence.types),
     focalizationMode: random.pick(COMMAND_CONFIGS.scene.focalizations),
     narratorMode: random.pick(COMMAND_CONFIGS.expression.narratorModes),
     constraints,

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Margins of the Heart</title>
+  <meta name="description" content="Editor Leora Kestrel inherits a failing letterpress studio and can save it only by working with designer Talia Voss, the woman who left both the business and their relationship unfinished three years earlier. Estate manager Cassia Mercer gives them one season to deliver a landmark art-book commission, forcing every practical decision to reopen the tenderness and betrayal buried in the studio itself.">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #2a1622;
+      --paper: #faf7f2;
+      --ink: #181818;
+      --muted: #6b625a;
+      --accent: #d96ba1;
+      --accent-soft: #f5d7e6;
+      --cover-ink: #fff5fb;
+      --line: rgba(0, 0, 0, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Georgia, "Times New Roman", serif; background: linear-gradient(180deg, #ebe6dd 0%, #f7f3ee 100%); color: var(--ink); }
+    .reader { width: min(100%, 980px); margin: 0 auto; padding: 32px 18px 64px; }
+    .sheet { background: var(--paper); box-shadow: 0 18px 54px rgba(17, 18, 22, 0.12); border-radius: 24px; overflow: hidden; }
+    .cover { background: var(--bg); color: var(--cover-ink); min-height: 100svh; display: grid; grid-template-columns: 1.1fr 0.9fr; }
+    .cover__copy { display: flex; flex-direction: column; justify-content: center; gap: 18px; padding: 48px; }
+    .eyebrow { font-family: "Helvetica Neue", Arial, sans-serif; letter-spacing: 0.18em; text-transform: uppercase; font-size: 0.72rem; opacity: 0.86; }
+    .cover h1, .title-page h1 { font-size: clamp(2.6rem, 6vw, 4.6rem); line-height: 0.95; margin: 0; }
+    .cover p, .title-page p, .imprint p, nav, .notice { font-family: "Helvetica Neue", Arial, sans-serif; }
+    .cover__tagline { font-size: 1.05rem; line-height: 1.55; max-width: 28ch; }
+    .body { padding: 40px 44px 56px; }
+    .title-page, .imprint, nav, .appendix-block { border-bottom: 1px solid var(--line); padding: 18px 0 24px; }
+    .imprint-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px 24px; }
+    .imprint-grid dt { font-weight: 700; margin-bottom: 4px; color: var(--muted); }
+    .imprint-grid dd { margin: 0; }
+    nav ol { margin: 10px 0 0; padding-left: 1.25rem; }
+    nav li + li { margin-top: 8px; }
+    nav a { color: inherit; text-decoration: none; border-bottom: 1px solid transparent; }
+    nav a:hover { border-color: var(--accent); }
+    .chapter { max-width: 760px; margin: 0 auto; padding: 34px 0 14px; }
+    .chapter h2 { font-size: 1.9rem; margin-bottom: 1.3rem; }
+    .chapter p { font-size: 1.08rem; line-height: 1.9; margin: 0 0 1.05rem; text-wrap: pretty; }
+    .notice { background: #fff4dd; border: 1px solid #e9c27a; border-radius: 14px; padding: 12px 14px; line-height: 1.55; }
+    .metrics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; margin: 0; }
+    .metrics-grid div { background: rgba(0, 0, 0, 0.035); border-radius: 14px; padding: 10px 12px; }
+    .metrics-grid dt { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+    .metrics-grid dd { margin: 6px 0 0; font-size: 1.18rem; font-weight: 700; }
+    @media (max-width: 820px) {
+      .cover { grid-template-columns: 1fr; }
+      .cover__copy, .body { padding: 28px 22px 36px; }
+    }
+    @media print {
+      body { background: #fff; }
+      .reader { width: 100%; margin: 0; padding: 0; }
+      .sheet { box-shadow: none; border-radius: 0; }
+      .page-break { break-before: page; }
+      .cover { min-height: auto; break-after: page; }
+      a { color: inherit; text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="reader">
+    <div class="sheet">
+      <section class="cover">
+        <div><svg viewBox="0 0 800 1080" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Margins of the Heart">
+  <defs>
+    <linearGradient id="cover-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a1622" />
+      <stop offset="100%" stop-color="#d96ba1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1080" fill="url(#cover-gradient)" />
+  <circle cx="640" cy="180" r="126" fill="#f5d7e6" opacity="0.18" />
+  <circle cx="160" cy="920" r="150" fill="#f5d7e6" opacity="0.12" />
+  <path d="M300 340 C240 250 120 250 120 390 C120 550 300 670 400 770 C500 670 680 550 680 390 C680 250 560 250 500 340 C470 386 430 420 400 460 C370 420 330 386 300 340 Z" fill="none" stroke="#f5d7e6" stroke-width="16" opacity="0.72" />
+</svg></div>
+        <div class="cover__copy">
+          <div class="eyebrow">Romance / Relational</div>
+          <h1>Margins of the Heart</h1>
+          <p class="cover__tagline">Work becomes intimate long before trust admits it.</p>
+          <p>A single-file SCRIPTA reader edition</p>
+        </div>
+      </section>
+      <div class="body">
+        <section class="title-page">
+          <p class="eyebrow">Title page</p>
+          <h1>Margins of the Heart</h1>
+          <p>Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?</p>
+          <p>Editor Leora Kestrel inherits a failing letterpress studio and can save it only by working with designer Talia Voss, the woman who left both the business and their relationship unfinished three years earlier. Estate manager Cassia Mercer gives them one season to deliver a landmark art-book commission, forcing every practical decision to reopen the tenderness and betrayal buried in the studio itself.</p>
+        </section>
+        <section class="imprint page-break">
+          <p class="eyebrow">Edition notes</p>
+          
+          <dl class="imprint-grid">
+            <div><dt>Profile</dt><dd>Romance / Relational</dd></div>
+            <div><dt>Work form</dt><dd>Novelette</dd></div>
+            <div><dt>Book ID</dt><dd>qa-romance-margins</dd></div>
+            <div><dt>Edition</dt><dd>Built-in bilingual renderer</dd></div>
+            <div><dt>Target language</dt><dd>en</dd></div>
+            <div><dt>Editorial profile</dt><dd>Literary smoothing</dd></div>
+            <div><dt>Translation instruction</dt><dd>default</dd></div>
+            <div><dt>Generated with</dt><dd>SCRIPTA BookWriter</dd></div>
+          </dl>
+        </section>
+        <nav class="page-break">
+          <p class="eyebrow">Contents</p>
+          <ol><li><a href="#chapter-001">Chapter 01 — First Fracture</a></li><li><a href="#chapter-002">Chapter 02 — Pressure Line</a></li><li><a href="#chapter-003">Chapter 03 — The Cost of Turning</a></li><li><a href="#chapter-004">Chapter 04 — Irreversible Choice</a></li></ol>
+        </nav>
+
+      <article id="chapter-001" class="chapter page-break">
+        <h2>Chapter 01 — First Fracture</h2>
+        <p>Leora Kestrel reaches the inherited letterpress studio on Brindle Lane, where craft, routine, and old tenderness keep rubbing against unspoken hurt. Work replaces confession here because every surface carries the memory of collaboration. Talia Voss reads the room too carefully, while Cassia Mercer keeps alive the version of events other people would rather believe.</p>
+        <p>In the inherited letterpress studio on Brindle Lane, on the first day back in the studio, leora and talia sort inherited forms and discover a proof set covered in both their handwritten notes.. Leora Kestrel tries to stabilize the commission schedule before old hurt destabilizes the work, but every useful object in the room still belongs to their unfinished history. Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.. The annotated proof reveals a page Talia once designed around Leora&#39;s private dedication line.</p>
+        <p>&quot;A hint for the dialogue line&quot; Talia Voss says. &quot;A hint for the dialogue line&quot; Leora Kestrel says.</p>
+        <p>Later, in the inherited letterpress studio on Brindle Lane, on the first day back in the studio, leora and talia sort inherited forms and discover a proof set covered in both their handwritten notes.. Leora Kestrel tries to stabilize the commission schedule before old hurt destabilizes the work, but every useful object in the room still belongs to their unfinished history. Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.. The annotated proof reveals a page Talia once designed around Leora&#39;s private dedication line.</p>
+        <p>&quot;A hint for the dialogue line&quot; Talia Voss says. &quot;A hint for the dialogue line&quot; Leora Kestrel says.</p>
+        <p>Later, in the inherited letterpress studio on Brindle Lane, on the first day back in the studio, leora and talia sort inherited forms and discover a proof set covered in both their handwritten notes.. Leora Kestrel tries to stabilize the commission schedule before old hurt destabilizes the work, but every useful object in the room still belongs to their unfinished history. Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.. The annotated proof reveals a page Talia once designed around Leora&#39;s private dedication line.</p>
+        <p>&quot;A hint for the dialogue line&quot; Talia Voss says. &quot;A hint for the dialogue line&quot; Leora Kestrel says.</p>
+        <p>Nothing that has opened here will close easily. Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?.</p>
+      </article>
+
+      <article id="chapter-002" class="chapter page-break">
+        <h2>Chapter 02 — Pressure Line</h2>
+        <p>Leora Kestrel reaches the inherited letterpress studio on Brindle Lane, where craft, routine, and old tenderness keep rubbing against unspoken hurt. Work replaces confession here because every surface carries the memory of collaboration. Talia Voss reads the room too carefully, while Cassia Mercer keeps alive the version of events other people would rather believe.</p>
+        <p>In the inherited letterpress studio on Brindle Lane, a batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.. Leora Kestrel tries to save the damaged folios without destroying the schedule, but fatigue makes every careful sentence sound either too sharp or too intimate. Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.. The misprint mirrors the exact margin shift from the night Talia left.</p>
+        <p>&quot;A hint for the dialogue line&quot; Talia Voss says. &quot;A hint for the dialogue line&quot; Leora Kestrel says.</p>
+        <p>Later, in the inherited letterpress studio on Brindle Lane, a batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.. Leora Kestrel tries to save the damaged folios without destroying the schedule, but fatigue makes every careful sentence sound either too sharp or too intimate. Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.. The misprint mirrors the exact margin shift from the night Talia left.</p>
+        <p>&quot;A hint for the dialogue line&quot; Talia Voss says. &quot;A hint for the dialogue line&quot; Leora Kestrel says.</p>
+        <p>Later, in the inherited letterpress studio on Brindle Lane, a batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.. Leora Kestrel tries to save the damaged folios without destroying the schedule, but fatigue makes every careful sentence sound either too sharp or too intimate. Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.. The misprint mirrors the exact margin shift from the night Talia left.</p>
+        <p>&quot;A hint for the dialogue line&quot; Talia Voss says. &quot;A hint for the dialogue line&quot; Leora Kestrel says.</p>
+        <p>Nothing that has opened here will close easily. Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?.</p>
+      </article>
+
+      <article id="chapter-003" class="chapter page-break">
+        <h2>Chapter 03 — The Cost of Turning</h2>
+        <p>Leora Kestrel reaches the inherited letterpress studio on Brindle Lane, where craft, routine, and old tenderness keep rubbing against unspoken hurt. Work replaces confession here because every surface carries the memory of collaboration. Talia Voss reads the room too carefully, while Cassia Mercer keeps alive the version of events other people would rather believe.</p>
+        <p>In the inherited letterpress studio on Brindle Lane, at the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.. Leora Kestrel tries to decide whether the launch should preserve the partnership or simply conclude it gracefully, but public success keeps rewarding them for the same evasions that nearly ruined them. Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.. The curator chooses the doubled-margin proof as the book&#39;s defining design feature.</p>
+        <p>&quot;A hint for the dialogue line&quot; Talia Voss says. &quot;A hint for the dialogue line&quot; Leora Kestrel says.</p>
+        <p>Later, in the inherited letterpress studio on Brindle Lane, at the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.. Leora Kestrel tries to decide whether the launch should preserve the partnership or simply conclude it gracefully, but public success keeps rewarding them for the same evasions that nearly ruined them. Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.. The curator chooses the doubled-margin proof as the book&#39;s defining design feature.</p>
+        <p>&quot;A hint for the dialogue line&quot; Talia Voss says. &quot;A hint for the dialogue line&quot; Leora Kestrel says.</p>
+        <p>Later, in the inherited letterpress studio on Brindle Lane, at the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.. Leora Kestrel tries to decide whether the launch should preserve the partnership or simply conclude it gracefully, but public success keeps rewarding them for the same evasions that nearly ruined them. Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.. The curator chooses the doubled-margin proof as the book&#39;s defining design feature.</p>
+        <p>&quot;A hint for the dialogue line&quot; Talia Voss says. &quot;A hint for the dialogue line&quot; Leora Kestrel says.</p>
+        <p>Nothing that has opened here will close easily. Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?.</p>
+      </article>
+
+      <article id="chapter-004" class="chapter page-break">
+        <h2>Chapter 04 — Irreversible Choice</h2>
+        <p>Leora Kestrel reaches the inherited letterpress studio on Brindle Lane, where craft, routine, and old tenderness keep rubbing against unspoken hurt. Work replaces confession here because every surface carries the memory of collaboration. Talia Voss reads the room too carefully, while Cassia Mercer keeps alive the version of events other people would rather believe.</p>
+        <p>In the inherited letterpress studio on Brindle Lane, on launch night, leora inserts the once-abandoned dedication page back into the finished edition.. Leora Kestrel tries to finish the commission without sacrificing the truth that now gives it meaning, but public celebration offers an easy way to hide inside performance instead of confession. Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.. The dedication names the year Talia left and the future Leora still wants.</p>
+        <p>&quot;A hint for the dialogue line&quot; Talia Voss says. &quot;A hint for the dialogue line&quot; Leora Kestrel says.</p>
+        <p>Later, in the inherited letterpress studio on Brindle Lane, on launch night, leora inserts the once-abandoned dedication page back into the finished edition.. Leora Kestrel tries to finish the commission without sacrificing the truth that now gives it meaning, but public celebration offers an easy way to hide inside performance instead of confession. Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.. The dedication names the year Talia left and the future Leora still wants.</p>
+        <p>&quot;A hint for the dialogue line&quot; Talia Voss says. &quot;A hint for the dialogue line&quot; Leora Kestrel says.</p>
+        <p>Later, in the inherited letterpress studio on Brindle Lane, on launch night, leora inserts the once-abandoned dedication page back into the finished edition.. Leora Kestrel tries to finish the commission without sacrificing the truth that now gives it meaning, but public celebration offers an easy way to hide inside performance instead of confession. Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.. The dedication names the year Talia left and the future Leora still wants.</p>
+        <p>&quot;A hint for the dialogue line&quot; Talia Voss says. &quot;A hint for the dialogue line&quot; Leora Kestrel says.</p>
+        <p>Leora Kestrel understands now that shared risk creates a truer form of security than controlled distance interdependence-is-stronger-than-isolation. Scarred-trust-rebuilt-on-painful-clarity.</p>
+      </article>
+      </div>
+    </div>
+  </main>
+  <script type="application/json" id="scripta-edition-metadata">{&quot;targetLanguage&quot;:&quot;en&quot;,&quot;contentLanguage&quot;:&quot;en&quot;,&quot;mode&quot;:&quot;built-in-renderer&quot;,&quot;translationInstruction&quot;:&quot;&quot;}</script>
+</body>
+</html>
