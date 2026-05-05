@@ -1,0 +1,88 @@
+{
+  "centralIdea": {
+    "hookPatterns": ["contradiction", "what-if", "forbidden-combination", "hidden-truth", "costed-power", "role-inversion"],
+    "tensionSources": ["internal", "external", "mixed"],
+    "namingStates": ["placeholder", "resolved"]
+  },
+  "theme": {
+    "topics": ["love-connection", "power-corruption", "identity-self", "good-evil", "mortality-death", "freedom-security", "coming-of-age", "nature-civilization", "redemption", "hybrid"],
+    "moralShapes": ["dilemma", "sacrifice", "corruption", "resistance", "transformation", "reconciliation"]
+  },
+  "wisdom": {
+    "dominantDimensions": ["cognitive", "emotional", "moral", "reflexive", "experiential", "balanced"],
+    "perspectiveModes": ["single-perspective", "multi-perspective", "polyphonic"],
+    "opennessModes": ["closed", "partially-open", "open"]
+  },
+  "structure": {
+    "macroForms": ["linear", "nonlinear", "circular", "episodic", "fragmented", "in-medias-res-led", "kishotenketsu-driven", "frame-based"],
+    "informationOrders": ["chronological", "delayed-reveal", "flashback-rich", "parallel-threaded", "recontextualizing"],
+    "causalDensities": ["tight", "moderate", "loose"]
+  },
+  "narrativeModel": {
+    "modelNames": ["three-act", "freytag", "save-the-cat", "heroic-journey", "episodic", "nonlinear", "kishotenketsu", "fragmented", "in-medias-res", "circular", "frame", "equilibrium-disruption-restoration"],
+    "adaptationStrengths": ["faithful", "adapted", "hybridized"]
+  },
+  "blueprint": {
+    "emotionalTokens": ["curiosity", "intrigue", "slight-tension", "tension", "anticipation", "mistrust", "surprise", "shock", "fear", "dread", "sadness", "relief", "satisfaction", "bittersweet-release", "reflection"]
+  },
+  "plot": {
+    "categories": ["physical-object", "information", "relationship", "event", "abstract-concept"],
+    "subtypes": ["artifact", "key", "document", "weapon", "secret", "prophecy", "evidence", "memory", "promise", "debt", "betrayal", "inheritance", "accident", "crime", "deadline", "discovery", "curse", "blessing", "revenge", "destiny", "fate"],
+    "functions": ["conflict-generation", "motivation", "obstacle", "revelation", "redirection"],
+    "deviceTypes": ["macguffin", "chekhov-gun", "red-herring", "foreshadowing", "flashback", "flash-forward", "delayed-reveal"]
+  },
+  "character": {
+    "complexities": ["flat", "round"],
+    "developmentTypes": ["dynamic", "static"],
+    "roles": ["protagonist", "antagonist", "secondary", "ally", "mentor", "witness", "herald", "shapeshifter", "threshold-guardian", "trickster", "anti-hero"],
+    "arcs": ["positive-change", "negative-change", "flat", "corruption", "redemption", "tragic", "circular"],
+    "archetypes": ["hero", "mentor", "shadow", "herald", "shapeshifter", "trickster", "threshold-guardian", "ally", "mother-figure", "father-figure", "innocent", "outcast"],
+    "relationshipTypes": ["conflictual", "cooperative", "mentor-student", "hierarchical", "romantic", "rivalry", "ambiguous", "betrayal-based", "familial"]
+  },
+  "worldbuilding": {
+    "domains": ["physics", "society", "economy", "technology", "magic", "metaphysics", "time", "geography", "biology"],
+    "visibilityModes": ["explicit", "implicit", "structural"],
+    "ruleTypes": ["physical-limitation", "social-norm", "resource-scarcity", "technological-restriction", "metaphysical-cost", "temporal-law"],
+    "magicDeterminacies": ["hard", "semi-hard", "soft"]
+  },
+  "chapter": {
+    "roles": ["setup", "escalation", "investigation", "revelation", "reversal", "culmination", "aftermath", "bridge"],
+    "openingModes": ["contextual-setup", "in-medias-res", "aftermath-entry", "dialogue-entry", "action-entry", "mystery-entry"],
+    "developmentModes": ["escalation", "investigation", "confrontation", "pursuit", "revelation-ladder", "psychological-pressure"],
+    "closingModes": ["partial-resolution", "revelation", "reversal", "cliffhanger", "aftermath", "open-question"],
+    "rhythmNotes": ["restrained", "balanced", "escalating", "breathless", "wave-like"]
+  },
+  "scene": {
+    "showingModes": ["direct-showing", "compressed-showing", "dialogic", "introspective", "mixed"],
+    "focalizations": ["external", "internal-single", "internal-shifting", "zero"],
+    "exitModes": ["cliffhanger", "handoff", "transition", "pause", "reversal-cut"]
+  },
+  "sequence": {
+    "types": ["investigation", "travel", "training", "courtship", "confrontation-chain", "escape", "downfall", "recovery"],
+    "linkLogics": ["causal", "temporal", "thematic", "mixed"],
+    "timeSpans": ["continuous", "discontinuous", "montage", "episodic"]
+  },
+  "content": {
+    "actionModes": ["attempt", "pursuit", "evasion", "negotiation", "revelation-act", "sacrifice"],
+    "conflictTypes": ["internal", "external-character", "external-society", "external-nature", "external-supernatural", "external-technology", "mixed"],
+    "eventTypes": ["discovery", "accident", "crime", "deadline", "revelation", "betrayal", "reversal", "loss", "arrival", "decision"]
+  },
+  "expression": {
+    "descriptionTypes": ["setting", "portrait", "atmosphere", "symbolic", "mixed"],
+    "descriptionFunctions": ["mimetic", "symbolic", "narrative", "atmospheric"],
+    "rhythmEffects": ["slow", "frame", "hold", "contrast"],
+    "exchangeTypes": ["simple", "question-answer", "conflictual", "informative"],
+    "dialoguePurposes": ["action-development", "characterization", "tension", "information", "dynamism"],
+    "narratorModes": ["first-person", "third-person", "subjective", "objective", "close-third-person", "omniscient-third-person"],
+    "timeHandlingModes": ["real-time", "summary", "reordered", "mixed"],
+    "monologueFunctions": ["characterization", "psychological-insight", "narrative-depth", "subjective-filtering", "emotional-intensity"],
+    "monologueTextures": ["fragmented", "reflective", "immediate", "associative", "recursive"]
+  },
+  "rhythm": {
+    "suspenseTypes": ["emotional", "cognitive", "situational", "dramatic"],
+    "delayTechniques": ["delayed-information", "foreshadowing", "interruption", "time-slowing", "danger", "mixed"],
+    "cliffhangerTypes": ["danger", "interrupted-revelation", "critical-decision", "unresolved-confrontation"],
+    "pauseFunctions": ["descriptive", "explanatory", "psychological", "atmospheric", "rhythmic"],
+    "accelerationModes": ["transition-skip", "montage", "summary-burst", "pursuit-compression"]
+  }
+}
