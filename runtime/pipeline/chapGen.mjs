@@ -96,15 +96,15 @@ function buildDraftText({ chapterId, chapterObject, microBlocks, macroText, prof
   const chapterTitle = `# ${chapterId.replace(/-/g, ' ').replace(/\b\w/g, (match) => match.toUpperCase())}`;
   const leadScene = sceneBlocks[0];
   const openingParagraph = [
-    `${protagonist} enters ${leadScene ? getFieldValue(leadScene, 'time-space') : 'the scene'} carrying the unresolved pressure of ${chapterObject['input-state']}.`,
-    `This ${profileLabel.toLowerCase()} movement is built to ${chapterObject.purpose.toLowerCase()}, so even small choices around ${chapterObject['thematic-focus'].toLowerCase()} acquire ${emotionalPair[0]} and ${emotionalPair[1]}.`,
+    `${protagonist} enters ${leadScene ? getFieldValue(leadScene, 'time-space') : 'the scene'} while ${clause(chapterObject['input-state'])}.`,
+    `In this ${profileLabel.toLowerCase()} chapter, ${clause(chapterObject.purpose)}, so choices around ${clause(chapterObject['thematic-focus'])} carry ${emotionalPair[0]} and ${emotionalPair[1]}.`,
     `${counterpart} keeps searching for a path toward relief, while ${pressureFigure} works to keep the conflict inside a safer official story.`,
-    chapterObject['chapter-question'] ? `The chapter question is direct: ${chapterObject['chapter-question']}` : '',
-    sequenceBlock ? `The sequence thread is explicit: ${getFieldValue(sequenceBlock, 'conflict-line')}.` : '',
-    locationBlock ? `${locationFlavor(profileId)} is anchored by ${getFieldValue(locationBlock, 'sensory-anchor')}, which keeps ${getFieldValue(locationBlock, 'symbolic-charge')?.toLowerCase() ?? 'the symbolic pressure'} visible.` : '',
-    rulePressureBlock ? `The world constraint remains active: ${getFieldValue(rulePressureBlock, 'action-limitation')}.` : '',
-    protagonistArcBlock ? `${protagonist} begins this chapter believing that ${getFieldValue(protagonistArcBlock, 'entry-belief')?.toLowerCase() ?? 'control is still possible'}.` : '',
-    alternationBlock ? `Its planned alternation is ${getFieldValue(alternationBlock, 'block-order')}.` : ''
+    chapterObject['chapter-question'] ? `The central question here is ${clause(chapterObject['chapter-question'])}.` : '',
+    sequenceBlock ? `The conflict thread is ${clause(getFieldValue(sequenceBlock, 'conflict-line'))}.` : '',
+    locationBlock ? `${locationFlavor(profileId)} is anchored by ${clause(getFieldValue(locationBlock, 'sensory-anchor'))} and keeps ${clause(getFieldValue(locationBlock, 'symbolic-charge') ?? 'the symbolic pressure')} in view.` : '',
+    rulePressureBlock ? `The governing constraint is still active: ${clause(getFieldValue(rulePressureBlock, 'action-limitation'))}.` : '',
+    protagonistArcBlock ? `At the start, ${protagonist} believes ${clause(getFieldValue(protagonistArcBlock, 'entry-belief') ?? 'control is still possible')}.` : '',
+    alternationBlock ? `Its rhythm leans on ${clause(getFieldValue(alternationBlock, 'block-order'))}.` : ''
   ].filter(Boolean).join(' ');
   const sceneParagraphs = sceneBlocks.flatMap((sceneBlock, index) => {
     const scene = blockToObject(sceneBlock);
@@ -117,52 +117,52 @@ function buildDraftText({ chapterId, chapterObject, microBlocks, macroText, prof
       .map((block) => blockToObject(block));
     const lead = sceneLead(profileId, chapterRole, index);
     const dialogueHint = dialogue.speakers
-      ? `${dialogueFrame(profileId, chapterRole)} ${dialogue.speakers} keep circling ${dialogue.subtext?.toLowerCase() ?? 'the unsaid truth under the conflict'}.`
+      ? `${dialogueFrame(profileId, chapterRole)} ${dialogue.speakers} keep circling ${clause(dialogue.subtext ?? 'the unsaid truth under the conflict')}.`
       : '';
     const eventHint = event.trigger
-      ? `When ${event.trigger.toLowerCase()}, the local pressure tips from ${emotionalPair[0]} toward ${emotionalPair[1]}.`
+      ? `When ${clause(event.trigger)}, the local pressure tips from ${emotionalPair[0]} toward ${emotionalPair[1]}.`
       : '';
     const suspenseHint = suspenseBlock?.fields?.length
-      ? `The unresolved line remains active through ${getFieldValue(suspenseBlock, 'uncertainty')?.toLowerCase() ?? 'uncertainty'}, which keeps fear and anticipation braided together.`
+      ? `The unresolved line remains active through ${clause(getFieldValue(suspenseBlock, 'uncertainty') ?? 'uncertainty')}, which keeps fear and anticipation braided together.`
       : '';
     const descriptionHint = descriptionBlock
-      ? `${locationFlavor(profileId)} mirrors ${getFieldValue(descriptionBlock, 'focus')?.toLowerCase() ?? 'the local pressure'}.`
+      ? `${locationFlavor(profileId)} mirrors ${clause(getFieldValue(descriptionBlock, 'focus') ?? 'the local pressure')}.`
       : '';
     const dialogueParagraph = turnBlocks.length > 0
       ? `${dialogueHint} ${renderDraftDialogue(turnBlocks, protagonist, counterpart)}`
       : '';
     const worldPressureParagraph = [
-      locationBlock ? `At the level of place, ${getFieldValue(locationBlock, 'social-signal')?.toLowerCase() ?? 'the setting shapes behavior'}; ${getFieldValue(locationBlock, 'conflict-use')?.toLowerCase() ?? 'the location supports conflict'}.` : '',
-      rulePressureBlock ? `The chapter rule keeps shaping possibility: ${getFieldValue(rulePressureBlock, 'visible-symptom')?.toLowerCase() ?? 'the system leaves a visible symptom'}, and ${getFieldValue(rulePressureBlock, 'conflict-output')?.toLowerCase() ?? 'conflict intensifies through the rule'}.` : ''
+      locationBlock ? `At the level of place, ${clause(getFieldValue(locationBlock, 'social-signal') ?? 'the setting shapes behavior')}; ${clause(getFieldValue(locationBlock, 'conflict-use') ?? 'the location supports conflict')}.` : '',
+      rulePressureBlock ? `The chapter rule keeps shaping possibility: ${clause(getFieldValue(rulePressureBlock, 'visible-symptom') ?? 'the system leaves a visible symptom')}, and ${clause(getFieldValue(rulePressureBlock, 'conflict-output') ?? 'conflict intensifies through the rule')}.` : ''
     ].filter(Boolean).join(' ');
     const pacingParagraph = [
-      index === 0 && pauseBlock ? `The first deceleration is deliberate: ${getFieldValue(pauseBlock, 'focus')?.toLowerCase() ?? 'the chapter pauses to read consequence clearly'}.` : '',
-      index === sceneBlocks.length - 1 && accelerationBlock ? `Then the pace compresses: ${getFieldValue(accelerationBlock, 'trigger')?.toLowerCase() ?? 'the chapter crosses an irreversible threshold'}.` : ''
+      index === 0 && pauseBlock ? `The first deceleration is deliberate: ${clause(getFieldValue(pauseBlock, 'focus') ?? 'the chapter pauses to read consequence clearly')}.` : '',
+      index === sceneBlocks.length - 1 && accelerationBlock ? `Then the pace compresses: ${clause(getFieldValue(accelerationBlock, 'trigger') ?? 'the chapter crosses an irreversible threshold')}.` : ''
     ].filter(Boolean).join(' ');
 
     const movementParagraph = [
       `${lead} ${sentenceCase(scene.introduction)}.`,
-      `${protagonist} tries to ${action.goal ?? 'change the local balance'}, but ${action.obstacle ?? 'the pressure adapts faster than expected'}.`,
+      `${protagonist} tries to ${clause(action.goal ?? 'change the local balance')}, but ${clause(action.obstacle ?? 'the pressure adapts faster than expected')}.`,
       `${sentenceCase(scene.development)}.`,
       `${sentenceCase(scene.conflict)}.`,
-      conflict.stakes ? `${pressureFigure} senses that ${conflict.stakes.toLowerCase()} now hang inside the same exchange.` : '',
+      conflict.stakes ? `${pressureFigure} senses that ${clause(conflict.stakes)} now hang inside the same exchange.` : '',
       descriptionHint,
       eventHint,
       scene.resolution ? `${sentenceCase(scene.resolution)}.` : '',
       suspenseHint,
-      `The immediate result is that ${scene['state-change'].toLowerCase()}.`
+      `The immediate result is ${clause(scene['state-change'])}.`
     ].filter(Boolean).join(' ').replace(/\s+/g, ' ').trim();
 
     const monologueParagraph = monologueBlock && index === sceneBlocks.length - 1
-      ? `${protagonist} feels ${getFieldValue(monologueBlock, 'trigger')?.toLowerCase() ?? 'the latest cost rearranging every earlier certainty'}, a mix of ${emotionalPair[0]} and ${emotionalPair[1]} that will not settle into easy relief. ${protagonistArcBlock ? `The chapter therefore pushes the inner line from ${getFieldValue(protagonistArcBlock, 'entry-belief')?.toLowerCase() ?? 'old certainty'} toward ${getFieldValue(protagonistArcBlock, 'exit-belief')?.toLowerCase() ?? 'a harsher insight'}.` : ''}` : '';
+      ? `${protagonist} feels ${clause(getFieldValue(monologueBlock, 'trigger') ?? 'the latest cost rearranging every earlier certainty')}, a mix of ${emotionalPair[0]} and ${emotionalPair[1]} that will not settle into easy relief. ${protagonistArcBlock ? `The chapter therefore pushes the inner line from ${clause(getFieldValue(protagonistArcBlock, 'entry-belief') ?? 'old certainty')} toward ${clause(getFieldValue(protagonistArcBlock, 'exit-belief') ?? 'a harsher insight')}.` : ''}` : '';
 
     return [movementParagraph, dialogueParagraph, worldPressureParagraph, pacingParagraph, monologueParagraph].filter(Boolean);
   });
   const closingParagraph = [
-    `By the end of ${chapterId}, ${chapterObject['output-state']}.`,
-    `The chapter keeps faith with ${chapterObject['thematic-focus']} while moving toward ${chapterObject['closing-mode']}, and it refuses relief without visible cost.`,
-    chapterObject['answer-shift'] ? `Its answer shift is clear: ${chapterObject['answer-shift']}.` : '',
-    relationshipArcBlock ? `Between ${protagonist} and ${counterpart}, the relational line moves from ${getFieldValue(relationshipArcBlock, 'entry-dynamic')?.toLowerCase() ?? 'fragile alignment'} toward ${getFieldValue(relationshipArcBlock, 'exit-dynamic')?.toLowerCase() ?? 'a more exposed bond'}.` : '',
+    `By the end of ${chapterId}, ${clause(chapterObject['output-state'])}.`,
+    `The chapter keeps faith with ${clause(chapterObject['thematic-focus'])} while moving toward ${clause(chapterObject['closing-mode'])}, and it refuses relief without visible cost.`,
+    chapterObject['answer-shift'] ? `Its answer shift is clear: ${clause(chapterObject['answer-shift'])}.` : '',
+    relationshipArcBlock ? `Between ${protagonist} and ${counterpart}, the relational line moves from ${clause(getFieldValue(relationshipArcBlock, 'entry-dynamic') ?? 'fragile alignment')} toward ${clause(getFieldValue(relationshipArcBlock, 'exit-dynamic') ?? 'a more exposed bond')}.` : '',
     `The closing pressure is therefore both ${emotionalPair[0]} and ${emotionalPair[1]}, which keeps the next chapter morally and emotionally legible.`,
     `Echoes from the macro promise remain visible: ${macroText.split('.').find(Boolean)?.trim() ?? macroText.trim()}.`
   ].join(' ');
@@ -232,19 +232,41 @@ function emotionalCue(profileId, chapterRole) {
 }
 
 function sentenceCase(value) {
-  const text = String(value ?? '').trim();
+  const text = normalizeFragment(value);
   return text ? text.charAt(0).toUpperCase() + text.slice(1) : text;
 }
 
 function renderDraftDialogue(turnBlocks, protagonist, counterpart) {
-  const lines = turnBlocks.map((turn) => {
+  const dialogueVerbs = ['says', 'replies', 'adds'];
+  const lines = turnBlocks.map((turn, index) => {
     const speaker = turn.speaker || protagonist;
-    const lineHint = turn['line-hint'] ?? 'Say what the scene cannot safely contain.';
-    const reaction = turn['reaction-beat'] ? ` ${sentenceCase(turn['reaction-beat'])}.` : '';
-    return `"${lineHint}" ${speaker} says.${reaction}`;
+    const lineHint = sentenceCase(turn['line-hint'] ?? 'Say what the scene cannot safely contain.');
+    const reaction = normalizeReaction(turn['reaction-beat']);
+    const verb = dialogueVerbs[index % dialogueVerbs.length];
+    return `"${lineHint}" ${speaker} ${verb}.${reaction ? ` ${reaction}` : ''}`;
   });
 
   return lines.join(' ');
+}
+
+function clause(value) {
+  const text = normalizeFragment(value);
+  return text ? text.charAt(0).toLowerCase() + text.slice(1) : text;
+}
+
+function normalizeReaction(value) {
+  const text = normalizeFragment(value);
+  if (!text || /^how the other character reacts$/i.test(text)) {
+    return '';
+  }
+  return sentenceCase(text) + '.';
+}
+
+function normalizeFragment(value) {
+  return String(value ?? '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .replace(/[.?!]+$/g, '');
 }
 
 function buildMacroEcho(refinedMacroEntries) {

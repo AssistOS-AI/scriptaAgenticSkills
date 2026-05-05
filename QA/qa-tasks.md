@@ -40,7 +40,7 @@
 - Priority: high
 - Stage: bookwriter
 - Action: Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.
-- Evidence: NQS=87
+- Evidence: NQS=88
 
 ## qa-scifi-orbit — Increase lexical novelty
 - Profile: science-fiction

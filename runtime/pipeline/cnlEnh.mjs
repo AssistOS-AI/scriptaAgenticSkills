@@ -1,5 +1,6 @@
 import { createBlock, collectPlaceholdersFromBlocks, replacePlaceholdersInBlock, serializeBlocks } from '../core/cnl.mjs';
 import { createSeededRandom } from '../core/random.mjs';
+import { COMMAND_CONFIGS } from '../config/domains.mjs';
 import { STAGE_FOLDERS, allocateArtifactPath, ensureWorkspace, registerStageRun, writeStructuredMarkdown, writeText } from '../core/workspace.mjs';
 import { generatePlaceholderLocation, generatePlaceholderName, generatePlaceholderOrganization } from '../config/presets.mjs';
 import { normalizePipelineOptions } from './options.mjs';
@@ -162,6 +163,7 @@ function generateContentPlaceholder(placeholder, options, random, visionContext)
   const pressure = getCharacterSeed(visionContext, 'pressure');
   const location = getLocationSeed(visionContext, spec);
   const chapterRole = parseChapterRole(spec);
+  const sceneIndex = parseSceneIndex(spec);
   const scene = getSceneSeed(visionContext, spec);
   const constraints = visionContext.constraints;
   const fallback = fallbackContentPlaceholder(id, spec, lowerLabel);
@@ -211,11 +213,11 @@ function generateContentPlaceholder(placeholder, options, random, visionContext)
     case 'purpose':
       return firstMeaningful(scene?.title ? `${capitalizeWords(chapterRole)} movement anchored by ${scene.title.toLowerCase()}` : '', fallback);
     case 'input-state':
-      return firstMeaningful(scene?.introduction, protagonist?.entryBelief, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'introduction'), protagonist?.entryBelief, fallback);
     case 'output-state':
-      return firstMeaningful(scene?.stateChange, protagonist?.exitBelief, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'stateChange'), protagonist?.exitBelief, fallback);
     case 'conflict':
-      return firstMeaningful(scene?.conflict, visionContext.dilemma, constraints.conflictOutput, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'conflict'), visionContext.dilemma, constraints.conflictOutput, fallback);
     case 'answer-shift':
       return firstMeaningful(scene?.payoff, protagonist?.turningInsight, fallback);
     case 'world-pressure':
@@ -238,58 +240,59 @@ function generateContentPlaceholder(placeholder, options, random, visionContext)
     case 'conflict-use':
       return firstMeaningful(location?.conflictUse, fallback);
     case 'sequence-objective':
-      return firstMeaningful(scene?.actionGoal, protagonist?.publicGoal, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'actionGoal'), protagonist?.publicGoal, fallback);
     case 'sequence-conflict':
-      return firstMeaningful(scene?.conflict, visionContext.dilemma, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'conflict'), visionContext.dilemma, fallback);
     case 'sequence-payoff':
-      return firstMeaningful(scene?.payoff, scene?.stateChange, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'payoff'), sceneVariant(scene, sceneIndex, 'stateChange'), fallback);
     case 'scene-introduction':
-      return firstMeaningful(scene?.introduction, scene?.title, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'introduction'), scene?.title, fallback);
     case 'scene-development':
-      return firstMeaningful(scene?.development, scene?.payoff, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'development'), sceneVariant(scene, sceneIndex, 'payoff'), fallback);
     case 'scene-conflict':
-      return firstMeaningful(scene?.conflict, visionContext.dilemma, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'conflict'), visionContext.dilemma, fallback);
     case 'scene-resolution':
-      return firstMeaningful(scene?.resolution, scene?.payoff, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'resolution'), sceneVariant(scene, sceneIndex, 'payoff'), fallback);
     case 'scene-state-change':
-      return firstMeaningful(scene?.stateChange, scene?.payoff, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'stateChange'), sceneVariant(scene, sceneIndex, 'payoff'), fallback);
     case 'action-goal':
-      return firstMeaningful(scene?.actionGoal, protagonist?.publicGoal, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'actionGoal'), protagonist?.publicGoal, fallback);
     case 'action-obstacle':
-      return firstMeaningful(scene?.actionObstacle, constraints.actionLimitation, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'actionObstacle'), constraints.actionLimitation, fallback);
     case 'action-result':
-      return firstMeaningful(scene?.stateChange, scene?.payoff, scene?.resolution, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'stateChange'), sceneVariant(scene, sceneIndex, 'payoff'), sceneVariant(scene, sceneIndex, 'resolution'), fallback);
     case 'conflict-escalation':
-      return firstMeaningful(scene?.development, constraints.conflictOutput, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'development'), constraints.conflictOutput, fallback);
     case 'event-trigger':
-      return firstMeaningful(scene?.eventTrigger, scene?.title, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'eventTrigger'), scene?.title, fallback);
     case 'event-impact':
-      return firstMeaningful(scene?.eventImpact, scene?.stateChange, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'eventImpact'), sceneVariant(scene, sceneIndex, 'stateChange'), fallback);
     case 'event-follow-through':
-      return firstMeaningful(scene?.payoff, scene?.resolution, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'payoff'), sceneVariant(scene, sceneIndex, 'resolution'), fallback);
     case 'dialogue-subtext':
-    case 'dialogue-core-subtext':
-      return firstMeaningful(scene?.conflict, `${protagonist?.name ?? 'the protagonist'} and ${counterpart?.name ?? 'the counterpart'} keep circling the truth they cannot safely name yet`, fallback);
-    case 'dialogue-line-hint':
-      return firstMeaningful(scene?.title, scene?.eventTrigger, fallback);
+      return firstMeaningful(COMMAND_CONFIGS.expression.dialogueIntentSubtext?.[spec], sceneVariant(scene, sceneIndex, 'conflict'), fallback);
     case 'dialogue-reaction':
-      return firstMeaningful(scene?.eventImpact, scene?.stateChange, fallback);
+      return firstMeaningful(COMMAND_CONFIGS.expression.dialogueIntentReactions?.[spec], sceneVariant(scene, sceneIndex, 'eventImpact'), fallback);
+    case 'dialogue-core-subtext':
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'conflict'), `${protagonist?.name ?? 'the protagonist'} and ${counterpart?.name ?? 'the counterpart'} keep circling the truth they cannot safely name yet`, fallback);
+    case 'dialogue-line-hint':
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'eventTrigger'), sceneVariant(scene, sceneIndex, 'development'), scene?.title, fallback);
     case 'description-focus':
       return firstMeaningful(location?.symbolicCharge, location?.conflictUse, fallback);
     case 'monologue-trigger':
-      return firstMeaningful(scene?.eventImpact, protagonist?.hiddenNeed, protagonist?.fear, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'eventImpact'), protagonist?.hiddenNeed, protagonist?.fear, fallback);
     case 'suspense-uncertainty':
       return firstMeaningful(visionContext.storyQuestion, constraints.visibleSymptom, fallback);
     case 'cliffhanger-moment':
-      return firstMeaningful(scene?.eventTrigger, scene?.conflict, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'eventTrigger'), sceneVariant(scene, sceneIndex, 'conflict'), fallback);
     case 'cliffhanger-continuation':
-      return firstMeaningful(scene?.payoff, visionContext.storyQuestion, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'payoff'), visionContext.storyQuestion, fallback);
     case 'pause-focus':
-      return firstMeaningful(scene?.stateChange, protagonist?.hiddenNeed, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'stateChange'), protagonist?.hiddenNeed, fallback);
     case 'acceleration-trigger':
-      return firstMeaningful(scene?.eventTrigger, constraints.visibleSymptom, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'eventTrigger'), constraints.visibleSymptom, fallback);
     case 'reader-effect':
-      return firstMeaningful(visionContext.themeQuestion, scene?.payoff, fallback);
+      return firstMeaningful(visionContext.themeQuestion, sceneVariant(scene, sceneIndex, 'payoff'), fallback);
     case 'rule':
       return firstMeaningful(spec.includes('secondary') ? constraints.secondaryRule : constraints.worldRule, fallback);
     case 'rule-to-conflict':
@@ -310,13 +313,13 @@ function generateContentPlaceholder(placeholder, options, random, visionContext)
     case 'turning-insight':
       return firstMeaningful(protagonist?.turningInsight, fallback);
     case 'challenge':
-      return firstMeaningful(scene?.conflict, visionContext.dilemma, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'conflict'), visionContext.dilemma, fallback);
     case 'insight-pressure':
-      return firstMeaningful(scene?.eventImpact, constraints.conflictOutput, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'eventImpact'), constraints.conflictOutput, fallback);
     case 'motif-object':
       return firstMeaningful(constraints.motif, fallback);
     case 'relationship-stress':
-      return firstMeaningful(scene?.conflict, `${counterpart?.name ?? 'the counterpart'} keeps forcing ${protagonist?.name ?? 'the protagonist'} to choose between control and honesty`, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'conflict'), `${counterpart?.name ?? 'the counterpart'} keeps forcing ${protagonist?.name ?? 'the protagonist'} to choose between control and honesty`, fallback);
     default:
       return fallback;
   }
@@ -357,18 +360,16 @@ function getSceneSeed(visionContext, spec) {
 }
 
 function parseChapterRole(spec) {
-  const text = String(spec ?? '');
-  const rolePart = text
-    .replace(/^protagonist-/, '')
-    .replace(/^counterpart-/, '')
-    .replace(/^pressure-/, '')
-    .replace(/-(final|mid|\d+)$/, '');
-  return fallbackChapterRole(rolePart || 'setup');
+  const tokens = tokenizeSpec(spec)
+    .filter((token) => !['protagonist', 'counterpart', 'pressure'].includes(token))
+    .filter((token) => !['final', 'mid'].includes(token))
+    .filter((token) => !/^\d+$/.test(token));
+  return fallbackChapterRole(tokens.join('-') || 'setup');
 }
 
 function parseSceneIndex(spec) {
-  const match = String(spec ?? '').match(/-(\d+)$/);
-  return match ? Number(match[1]) : 0;
+  const numericToken = tokenizeSpec(spec).find((token) => /^\d+$/.test(token));
+  return numericToken ? Number(numericToken) : 0;
 }
 
 function fallbackChapterRole(role) {
@@ -472,6 +473,32 @@ function capitalizeWords(value) {
     .filter(Boolean)
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
     .join(' ');
+}
+
+function tokenizeSpec(spec) {
+  return String(spec ?? '').split('-').filter(Boolean);
+}
+
+function sceneVariant(scene, index, slot) {
+  if (!scene) {
+    return '';
+  }
+
+  const variations = {
+    introduction: [scene.introduction, scene.development, scene.eventTrigger],
+    development: [scene.development, scene.conflict, scene.eventImpact],
+    conflict: [scene.conflict, scene.actionObstacle, scene.eventImpact],
+    resolution: [scene.resolution, scene.payoff, scene.stateChange],
+    stateChange: [scene.stateChange, scene.payoff, scene.resolution],
+    actionGoal: [scene.actionGoal, scene.payoff, scene.title],
+    actionObstacle: [scene.actionObstacle, scene.conflict, scene.eventTrigger],
+    eventTrigger: [scene.eventTrigger, scene.title, scene.development],
+    eventImpact: [scene.eventImpact, scene.stateChange, scene.payoff],
+    payoff: [scene.payoff, scene.stateChange, scene.resolution]
+  };
+
+  const values = variations[slot] ?? [scene[slot]];
+  return firstMeaningful(values[index] ?? '', ...values);
 }
 
 function buildRefineBlock({ sourceBlock, resolvedBlock, options, replacements }) {

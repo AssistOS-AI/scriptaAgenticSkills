@@ -26,9 +26,9 @@ Prioritized improvement backlog for the SCRIPTA project. Each entry references t
 
 ### TASK-004: Implement real CNLEnh placeholder resolution
 - **Area:** runtime/pipeline/cnlEnh.mjs, .agents/skills/scripta_cnlenh/
-- **Problem:** CNLEnh currently resolves entity placeholders (character, location, organization, object) but content placeholders like `{{desire:protagonist}}`, `{{purpose:setup}}`, etc. are resolved with static descriptive text rather than LLM-refined content.
-- **Status:** Partially done — entity placeholders resolve correctly, content placeholders are resolved with generic descriptive text via a contentMap in cnlEnh.mjs. Full resolution requires an LLM adapter.
-- **Remaining Action:** Connect LLM adapter (TASK-010) to CNLEnh for content placeholder resolution. Content placeholders should be refined by the LLM using profile constraint context.
+- **Problem:** CNLEnh now resolves entity placeholders plus a first layer of structured content placeholders from authored QA vision data, but the stage still falls back to deterministic templates for many chapter-specific, dialogue-level, and prose-shaping placeholders.
+- **Status:** Partially done — authored QA vision packets now drive concrete names, locations, scene beats, stakes, and world rules. Remaining placeholders are still resolved through deterministic heuristics instead of true refinement.
+- **Remaining Action:** Connect LLM adapter (TASK-010) and/or richer realization templates so chapter-purpose, dialogue-turn, scene-escalation, and reaction placeholders become stylistically specific prose rather than templated filler.
 - **Acceptance:** Refined plans in `cnl/` contain zero `{{...}}` tokens. Content placeholders are replaced with concrete, genre-appropriate prose instead of generic descriptions.
 
 ### TASK-005: Add architecture documentation
@@ -43,11 +43,12 @@ Prioritized improvement backlog for the SCRIPTA project. Each entry references t
 - **Action:** Add a "CLI Reference" section to AGENTS.md with: stage commands, required/optional flags, example invocations, and expected outputs. Cross-reference with DS files.
 - **Acceptance:** AGENTS.md contains a complete CLI reference section.
 
-### TASK-007: Diversify symbolic generation output per profile
+### TASK-007: Stabilize profile-guided symbolic generation
 - **Area:** runtime/pipeline/symbolicPlanGeneration.mjs, runtime/config/commands/*.json, runtime/config/profile-options.json
-- **Problem:** ~~Chapter role sequences, scene content, and block alternation patterns are too similar across profiles.~~ FIXED: Hardcoded genre-specific prose replaced with enum-based config + `{{...}}` placeholders. Profile constraints now drive selection from general enums per command config.
-- **Status:** DONE. Per-command config files under `runtime/config/commands/` define general enums with `profileConstraints`. `profile-options.json` uses a `constraints` map instead of `scenarioPools`. `symbolicPlanGeneration.mjs` emits `{{type:id}}` placeholders instead of hardcoded genre-specific texts. Tests pass.
-- **Acceptance:** Each of the 5 profiles produces structurally different plan files with profile-appropriate enum selections and constraint-driven content.
+- **Problem:** Hardcoded prose was removed and profile choices now bias selection instead of acting as absolute bans, but QA runs still show some cross-profile drift in macro arc/state packets (for example romance books occasionally inheriting arc openings that feel fantasy-coded).
+- **Status:** Partially done — symbolic generation is more config-driven and more flexible, but some macro packets still overdraw from generic enum pools and ignore authored vision context when a stronger profile signal is available.
+- **Remaining Action:** Move remaining arc-state and relationship-state selection into profile guidance and/or authored vision fields, then bias macro packets toward the active profile without returning to arbitrary hard exclusions.
+- **Acceptance:** Each QA profile produces macro packets whose arc, relationship, and opening-state language consistently read as belonging to that profile unless the authored vision explicitly overrides the expectation.
 
 ## P2 — Medium
 
@@ -81,6 +82,18 @@ Prioritized improvement backlog for the SCRIPTA project. Each entry references t
 - **Action:** Implement character state extraction from macro plans, track character attributes across chapter drafts, detect unexplained trait changes, and produce localized issue reports.
 - **Acceptance:** CAD scores vary per book and issues cite specific chapter/paragraph locations.
 
+### TASK-016: Promote authored book vision to a first-class input
+- **Area:** runtime/pipeline/options.mjs, runtime/pipeline/cnlEnh.mjs, docs/
+- **Problem:** QA now uses agent-authored `book-vision.md` files and structured `vision` seeds, but the runtime still lacks a documented, general ingestion path for authored book-vision content outside the baked-in QA config.
+- **Action:** Define and document how agent-authored book visions are supplied to the runtime (CLI flag, JSON sidecar, or parsed `book-vision.md` contract), validate the structure, and wire it into symbolic and refinement stages.
+- **Acceptance:** A non-QA workspace can provide an authored book vision and see the same concrete characters, locations, scenes, and constraints propagated into planning and drafting.
+
+### TASK-017: Replace report-like ChapGen scaffolding with scene-aware drafting
+- **Area:** runtime/pipeline/chapGen.mjs, runtime/config/
+- **Problem:** Draft chapters are more concrete than before, but QA still shows report-like phrasing, repeated scaffolding, and scene paragraphs that read as templated summaries rather than narrative prose.
+- **Action:** Move remaining draft realization logic into configurable scene-aware templates and/or the LLM adapter path so openings, scene transitions, and dialogue lines become less meta and more narratively embodied.
+- **Acceptance:** QA chapter drafts no longer read like stage reports, repeated scene scaffolds are materially reduced, and the final HTML editions feel closer to narrative prose than to pipeline commentary.
+
 ## P3 — Low
 
 ### TASK-013: Add fileSizesCheck.sh to AGENTS.md Key Paths context
@@ -97,6 +110,6 @@ Prioritized improvement backlog for the SCRIPTA project. Each entry references t
 
 ### TASK-015: Add support for additional work forms in QA
 - **Area:** runtime/pipeline/qaBooks.mjs, runtime/pipeline/options.mjs
-- **Problem:** QA campaign only generates 3-chapter books. The work-form parameter supports short-story, novelette, novella, novel, and series-volume but QA only exercises one pattern.
+- **Problem:** QA campaign now generates only one work form (`novelette`, 4 chapters). The work-form parameter supports short-story, novelette, novella, novel, and series-volume but QA still exercises just one structural band.
 - **Action:** Add at least one QA book with a different work form (e.g., 5-chapter novella or 10-chapter novel) to test the full work-form range.
 - **Acceptance:** QA campaign generates at least 2 different work forms with appropriate chapter counts.

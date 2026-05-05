@@ -4,7 +4,7 @@ One-line summary for each canonical QA book run.
 
 ## Books
 - qa-drama-silence (drama) — NQS 88% · CS 93% · CAR 99%
-- qa-detective-river (detective-police) — NQS 87% · CS 93% · CAR 99%
+- qa-detective-river (detective-police) — NQS 88% · CS 93% · CAR 99%
 - qa-scifi-orbit (science-fiction) — NQS 88% · CS 93% · CAR 99%
 - qa-fantasy-ash (fantasy) — NQS 88% · CS 93% · CAR 99%
 - qa-romance-margins (romance-relational) — NQS 88% · CS 93% · CAR 99%
@@ -204,7 +204,7 @@ One-line summary for each canonical QA book run.
           "title": "When the Silence Returns",
           "profile": "drama",
           "languageCode": "en",
-          "workspaceSource": "phase8-exports/edition-en.reader.iter-001.html",
+          "workspaceSource": "phase8-exports/edition-en.reader.iter-003.html",
           "publishedPath": "books/en/qa-drama-silence.html",
           "metricsPage": "books/metrics/qa-drama-silence.html",
           "metricsSnapshot": {
@@ -220,7 +220,7 @@ One-line summary for each canonical QA book run.
           "title": "Cand se intoarce tacerea",
           "profile": "drama",
           "languageCode": "ro",
-          "workspaceSource": "phase8-exports/edition-ro.reader.iter-001.html",
+          "workspaceSource": "phase8-exports/edition-ro.reader.iter-003.html",
           "publishedPath": "books/ro/qa-drama-silence.html",
           "metricsPage": "books/metrics/qa-drama-silence.html",
           "metricsSnapshot": {
@@ -251,7 +251,7 @@ One-line summary for each canonical QA book run.
         "EAP": 92,
         "CAR": 99,
         "CS": 93,
-        "NQS": 87
+        "NQS": 88
       },
       "exportAudit": {
         "score": 100,
@@ -417,7 +417,7 @@ One-line summary for each canonical QA book run.
           "stage": "bookwriter",
           "title": "Improve final prose polish",
           "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-          "evidence": "NQS=87"
+          "evidence": "NQS=88"
         }
       ],
       "publishedEditions": [
@@ -426,11 +426,11 @@ One-line summary for each canonical QA book run.
           "title": "The River Knows First",
           "profile": "detective-police",
           "languageCode": "en",
-          "workspaceSource": "phase8-exports/edition-en.reader.iter-001.html",
+          "workspaceSource": "phase8-exports/edition-en.reader.iter-003.html",
           "publishedPath": "books/en/qa-detective-river.html",
           "metricsPage": "books/metrics/qa-detective-river.html",
           "metricsSnapshot": {
-            "NQS": 87,
+            "NQS": 88,
             "CS": 93,
             "CAR": 99,
             "OI": 68,
@@ -442,11 +442,11 @@ One-line summary for each canonical QA book run.
           "title": "Raul stie primul",
           "profile": "detective-police",
           "languageCode": "ro",
-          "workspaceSource": "phase8-exports/edition-ro.reader.iter-001.html",
+          "workspaceSource": "phase8-exports/edition-ro.reader.iter-003.html",
           "publishedPath": "books/ro/qa-detective-river.html",
           "metricsPage": "books/metrics/qa-detective-river.html",
           "metricsSnapshot": {
-            "NQS": 87,
+            "NQS": 88,
             "CS": 93,
             "CAR": 99,
             "OI": 68,
@@ -648,7 +648,7 @@ One-line summary for each canonical QA book run.
           "title": "Orbit of the Unreturned",
           "profile": "science-fiction",
           "languageCode": "en",
-          "workspaceSource": "phase8-exports/edition-en.reader.iter-001.html",
+          "workspaceSource": "phase8-exports/edition-en.reader.iter-003.html",
           "publishedPath": "books/en/qa-scifi-orbit.html",
           "metricsPage": "books/metrics/qa-scifi-orbit.html",
           "metricsSnapshot": {
@@ -664,7 +664,7 @@ One-line summary for each canonical QA book run.
           "title": "Orbita celor nereveniti",
           "profile": "science-fiction",
           "languageCode": "ro",
-          "workspaceSource": "phase8-exports/edition-ro.reader.iter-001.html",
+          "workspaceSource": "phase8-exports/edition-ro.reader.iter-003.html",
           "publishedPath": "books/ro/qa-scifi-orbit.html",
           "metricsPage": "books/metrics/qa-scifi-orbit.html",
           "metricsSnapshot": {
@@ -870,7 +870,7 @@ One-line summary for each canonical QA book run.
           "title": "The Ash Keeps Your Name",
           "profile": "fantasy",
           "languageCode": "en",
-          "workspaceSource": "phase8-exports/edition-en.reader.iter-001.html",
+          "workspaceSource": "phase8-exports/edition-en.reader.iter-003.html",
           "publishedPath": "books/en/qa-fantasy-ash.html",
           "metricsPage": "books/metrics/qa-fantasy-ash.html",
           "metricsSnapshot": {
@@ -886,7 +886,7 @@ One-line summary for each canonical QA book run.
           "title": "Cenusa iti pastreaza numele",
           "profile": "fantasy",
           "languageCode": "ro",
-          "workspaceSource": "phase8-exports/edition-ro.reader.iter-001.html",
+          "workspaceSource": "phase8-exports/edition-ro.reader.iter-003.html",
           "publishedPath": "books/ro/qa-fantasy-ash.html",
           "metricsPage": "books/metrics/qa-fantasy-ash.html",
           "metricsSnapshot": {
@@ -1092,7 +1092,7 @@ One-line summary for each canonical QA book run.
           "title": "Margins of the Heart",
           "profile": "romance-relational",
           "languageCode": "en",
-          "workspaceSource": "phase8-exports/edition-en.reader.iter-001.html",
+          "workspaceSource": "phase8-exports/edition-en.reader.iter-003.html",
           "publishedPath": "books/en/qa-romance-margins.html",
           "metricsPage": "books/metrics/qa-romance-margins.html",
           "metricsSnapshot": {
@@ -1108,7 +1108,7 @@ One-line summary for each canonical QA book run.
           "title": "Marginile inimii",
           "profile": "romance-relational",
           "languageCode": "ro",
-          "workspaceSource": "phase8-exports/edition-ro.reader.iter-001.html",
+          "workspaceSource": "phase8-exports/edition-ro.reader.iter-003.html",
           "publishedPath": "books/ro/qa-romance-margins.html",
           "metricsPage": "books/metrics/qa-romance-margins.html",
           "metricsSnapshot": {
