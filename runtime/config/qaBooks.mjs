@@ -8,8 +8,8 @@ const QA_BOOK_SEEDS = [
     chapterCount: 4,
     sceneDensity: 'high',
     vision: {
-      storySummary: 'Mediator Mara Iliev returns to the flood-struck town of Cernav after her brother dies in what officials call an accident. With archivist Iona Radu she uncovers a compensation fraud hidden inside the mediation office, but exposing it would strip Mara\'s mother of the pension that kept the family alive.',
-      storyQuestion: 'Can Mara expose the lie that killed her brother if the truth also proves her family survived on the same silence?',
+      storySummary: 'Mediator Mira Solari returns to the flood-struck town of Greywater after her brother dies in what officials call an accident. With archivist Vera Quinn she uncovers a compensation fraud hidden inside the mediation office, but exposing it would strip Mira\'s mother of the pension that kept the family alive.',
+      storyQuestion: 'Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?',
       dilemma: 'Protect her mother from public ruin or read the forged flood ledger aloud before the town can bury her brother a second time.',
       themeQuestion: 'When grief becomes a civic ritual, is silence still mercy or only a softer form of power?',
       themeStatement: 'Private sorrow becomes public duty the moment institutions begin feeding on silence.',
@@ -17,7 +17,7 @@ const QA_BOOK_SEEDS = [
       poleB: 'justice-through-exposure',
       characters: {
         protagonist: {
-          name: 'Mara Iliev',
+          name: 'Mira Solari',
           role: 'returning mediator who once taught the town how to de-escalate public conflict',
           publicGoal: 'recover her brother\'s last testimony and reopen the closed flood compensation files',
           hiddenNeed: 'admit that keeping the family intact turned her into a careful accomplice',
@@ -28,7 +28,7 @@ const QA_BOOK_SEEDS = [
           turningInsight: 'the dead are betrayed again whenever the living turn grief into paperwork'
         },
         counterpart: {
-          name: 'Iona Radu',
+          name: 'Vera Quinn',
           role: 'municipal archivist and Mara\'s former closest friend',
           publicGoal: 'preserve the last unaltered records before the archive is resealed',
           hiddenNeed: 'stop treating witnesshood as a morally neutral profession',
@@ -36,7 +36,7 @@ const QA_BOOK_SEEDS = [
           contradiction: 'precise yet evasive, loyal yet chronically late to intervene'
         },
         pressure: {
-          name: 'Lucian Petrescu',
+          name: 'Corin Voss',
           role: 'deputy mayor who turned emergency relief into a patronage machine',
           publicGoal: 'keep the flood ledger sealed until the commemoration ceremony passes',
           hiddenNeed: 'convince himself that order mattered more than the lives it cost',
@@ -53,7 +53,7 @@ const QA_BOOK_SEEDS = [
           conflictUse: 'private negotiations keep collapsing into accusations that belong in public'
         },
         secondary: {
-          name: 'the flood memorial crypt beneath Saint Varin church',
+          name: 'the flood memorial crypt beneath Saint Rowan chapel',
           sensory: 'cold limestone, candle smoke, varnish over damp names',
           socialSignal: 'mourning is choreographed here so that blame never reaches the living officials',
           symbolicCharge: 'the dead are remembered through inscriptions edited by the same people who failed them',
@@ -64,14 +64,14 @@ const QA_BOOK_SEEDS = [
         setup: [
           {
             title: 'Memorial supper recording',
-            introduction: 'At her brother\'s memorial supper, Mara hears a hidden recording tucked inside a borrowed prayer book.',
+            introduction: 'At her brother\'s memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book.',
             development: 'The message points toward one erased witness statement and a ledger that should not exist anymore.',
-            conflict: 'Mara needs Iona\'s help immediately, but Iona refuses to move without proof that will survive the town hall.',
+            conflict: 'Mira needs Vera\'s help immediately, but Vera refuses to move without proof that will survive the town hall.',
             resolution: 'They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys.',
             stateChange: 'grief shifts from private mourning into a timed investigation',
             actionGoal: 'secure the recording and identify the file number mentioned in it',
             actionObstacle: 'family members keep interrupting every attempt to name what the voice implies',
-            eventTrigger: 'the recording ends with Mara\'s brother naming Lucian before the tape cuts off',
+            eventTrigger: 'the recording ends with Mira\'s brother naming Corin before the tape cuts off',
             eventImpact: 'the memorial becomes evidence instead of closure',
             payoff: 'Mara can no longer pretend the death belongs only to the past'
           }
@@ -79,14 +79,14 @@ const QA_BOOK_SEEDS = [
         escalation: [
           {
             title: 'Archive window without signatures',
-            introduction: 'Inside the mediation office, Mara and Iona find claims approved for the dead and rejected for the living.',
-            development: 'Lucian arrives with coffee, condolences, and a rewritten story about emergency discretion.',
-            conflict: 'Iona wants to copy the ledger quietly, while Mara wants to confront Lucian before he can recode the files again.',
-            resolution: 'They steal only three photographed pages and leave knowing Lucian saw the flash reflection in the cabinet glass.',
+            introduction: 'Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.',
+            development: 'Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.',
+            conflict: 'Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.',
+            resolution: 'They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.',
             stateChange: 'the lie becomes documentable, and therefore more dangerous',
             actionGoal: 'extract enough records to prove the compensation pattern is deliberate',
             actionObstacle: 'the archive software now mirrors paper files only after political approval',
-            eventTrigger: 'one photographed page carries Mara\'s mother\'s signature beneath a false evacuation report',
+            eventTrigger: 'one photographed page carries Mira\'s mother\'s signature beneath a false evacuation report',
             eventImpact: 'the investigation now threatens the family as much as the institution',
             payoff: 'Mara loses the comfort of treating her mother as untouched by the fraud'
           }
@@ -94,14 +94,14 @@ const QA_BOOK_SEEDS = [
         revelation: [
           {
             title: 'Names beneath the memorial varnish',
-            introduction: 'In the church crypt, Iona reveals that Mara\'s brother planned to testify during the annual flood commemoration.',
+            introduction: 'In the church crypt, Vera reveals that Mira\'s brother planned to testify during the annual flood commemoration.',
             development: 'The plaques show corrected dates that match the forged ledger rather than the actual deaths.',
-            conflict: 'Mara realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.',
-            resolution: 'She asks Iona to stand beside her publicly, even if it means both families lose protection.',
+            conflict: 'Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.',
+            resolution: 'She asks Vera to stand beside her publicly, even if it means both families lose protection.',
             stateChange: 'the truth stops being archival and becomes a shared moral choice',
             actionGoal: 'find a form of testimony that cannot be dismissed as private grief',
             actionObstacle: 'every valid witness is tied to the town through debt, salary, or kinship',
-            eventTrigger: 'the memorial plaque for Mara\'s brother lists a death date that predates the night he called her',
+            eventTrigger: 'the memorial plaque for Mira\'s brother lists a death date that predates the night he called her',
             eventImpact: 'forgery turns from suspicion into undeniable chronology',
             payoff: 'the case becomes inseparable from the commemoration ceremony'
           }
@@ -109,21 +109,21 @@ const QA_BOOK_SEEDS = [
         culmination: [
           {
             title: 'Commemoration ledger reading',
-            introduction: 'During the public flood ceremony, Mara interrupts the scripted prayer and reads from the photographed ledger pages.',
-            development: 'Lucian orders the microphone cut, but Iona starts naming the missing witnesses from memory.',
-            conflict: 'Mara must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.',
+            introduction: 'During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.',
+            development: 'Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.',
+            conflict: 'Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.',
             resolution: 'She finishes reading and lets the silence after the final name condemn the room.',
             stateChange: 'the town loses its protective story even though no immediate justice follows',
             actionGoal: 'force the lie into a setting where it cannot be quietly revised afterward',
             actionObstacle: 'the ceremony is choreographed to make dissent look like sacrilege',
-            eventTrigger: 'Mara reaches the line proving that relief money was routed through Lucian\'s family company',
+            eventTrigger: 'Mira reaches the line proving that relief money was routed through Corin\'s family company',
             eventImpact: 'grief becomes accusation before the whole town',
             payoff: 'the truth survives, but so does the cost of having spoken it'
           }
         ]
       },
       constraints: {
-        institutionName: 'the Cernav Mediation Office',
+        institutionName: 'the Greywater Mediation Office',
         plotObject: 'the flood compensation ledger',
         motif: 'rain-stained witness signatures',
         worldRule: 'Every flood-district compensation claim must pass through the mediation office before it reaches the court archive.',
@@ -145,8 +145,8 @@ const QA_BOOK_SEEDS = [
     chapterCount: 4,
     sceneDensity: 'high',
     vision: {
-      storySummary: 'Inspector Daria Muntean reopens a river drowning that the county police marked accidental, only to find tide logs, surveillance gaps, and witness transfers pointing back to a redevelopment contract. Diver-journalist Teo Sava helps her track the physical evidence while precinct chief Pavel Orban turns procedure into a moving wall designed to exhaust the case.',
-      storyQuestion: 'Can Daria prove murder before procedure itself is used to wash the evidence clean?',
+      storySummary: 'Inspector Nadia Voss reopens a river drowning that the county police marked accidental, only to find tide logs, surveillance gaps, and witness transfers pointing back to a redevelopment contract. Diver-journalist Theo Mercer helps her track the physical evidence while precinct chief Soren Arden turns procedure into a moving wall designed to exhaust the case.',
+      storyQuestion: 'Can Nadia prove murder before procedure itself is used to wash the evidence clean?',
       dilemma: 'Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.',
       themeQuestion: 'What remains of justice when institutions become experts at making truth look administrative?',
       themeStatement: 'Procedure stops protecting order the moment it is weaponized against the facts it claims to preserve.',
@@ -154,7 +154,7 @@ const QA_BOOK_SEEDS = [
       poleB: 'truth-through-breach',
       characters: {
         protagonist: {
-          name: 'Daria Muntean',
+          name: 'Nadia Voss',
           role: 'homicide inspector with a reputation for airtight reports',
           publicGoal: 'prove that the drowning victim was killed before he entered the river lock',
           hiddenNeed: 'accept that lawful procedure can become the crime\'s most reliable accomplice',
@@ -165,7 +165,7 @@ const QA_BOOK_SEEDS = [
           turningInsight: 'the cover-up is not separate from the institution; it is how the institution currently functions'
         },
         counterpart: {
-          name: 'Teo Sava',
+          name: 'Theo Mercer',
           role: 'river diver turned local investigations reporter',
           publicGoal: 'locate the missing lock-camera drive before it is sold as scrap',
           hiddenNeed: 'stop mistaking cynicism for immunity',
@@ -173,7 +173,7 @@ const QA_BOOK_SEEDS = [
           contradiction: 'reckless in the field, exacting with physical evidence'
         },
         pressure: {
-          name: 'Pavel Orban',
+          name: 'Soren Arden',
           role: 'precinct chief tied to the riverfront redevelopment board',
           publicGoal: 'close the file before the mayor signs the lock privatization deal',
           hiddenNeed: 'believe that preserving departmental stability still counts as public service',
@@ -201,59 +201,59 @@ const QA_BOOK_SEEDS = [
         setup: [
           {
             title: 'Autopsy against the report',
-            introduction: 'Daria watches the river autopsy and notices blunt-force trauma hidden beneath water damage.',
+            introduction: 'Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.',
             development: 'The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.',
-            conflict: 'Daria needs the missing bag and the lock-camera footage, but Pavel insists the drowning is already administratively closed.',
-            resolution: 'Teo offers her an off-record copy of tide maintenance logs that should not match the official timeline.',
+            conflict: 'Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.',
+            resolution: 'Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.',
             stateChange: 'the accidental drowning becomes a timed contradiction',
             actionGoal: 'preserve the physical inconsistency before it is corrected in the paperwork',
             actionObstacle: 'the precinct has already reassigned the scene file to property damage review',
             eventTrigger: 'the body shows wrist abrasions inconsistent with drifting debris',
             eventImpact: 'cause-of-death certainty is replaced by a procedural hole',
-            payoff: 'Daria has enough doubt to justify disobedience'
+            payoff: 'Nadia has enough doubt to justify disobedience'
           }
         ],
         escalation: [
           {
             title: 'Camera gap at Lock Six',
-            introduction: 'In the evidence hangar, Daria and Teo trace the victim\'s last route through broken camera timestamps.',
-            development: 'The footage gap lines up exactly with a maintenance override signed by Pavel\'s deputy.',
-            conflict: 'Teo wants to publish immediately, while Daria still needs proof that the camera gap conceals homicide rather than corruption alone.',
+            introduction: 'In the evidence hangar, Nadia and Theo trace the victim\'s last route through broken camera timestamps.',
+            development: 'The footage gap lines up exactly with a maintenance override signed by Soren\'s deputy.',
+            conflict: 'Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.',
             resolution: 'They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.',
             stateChange: 'administrative negligence hardens into coordinated concealment',
             actionGoal: 'connect the missing footage to a human decision rather than a technical accident',
             actionObstacle: 'every request for the raw server logs pings Pavel before it reaches records',
             eventTrigger: 'a duplicate maintenance form appears with two different timestamps',
             eventImpact: 'chain-of-custody becomes the crime scene',
-            payoff: 'Daria now knows the cover-up has a clock and a route'
+            payoff: 'Nadia now knows the cover-up has a clock and a route'
           }
         ],
         revelation: [
           {
             title: 'Diversion beneath the spillway',
             introduction: 'At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.',
-            development: 'Teo realizes the victim was killed during a meeting about the lock privatization signatures.',
-            conflict: 'Daria must decide whether to log the evidence through Pavel\'s system or leak it to the prosecutor first.',
+            development: 'Theo realizes the victim was killed during a meeting about the lock privatization signatures.',
+            conflict: 'Nadia must decide whether to log the evidence through Soren\'s system or leak it to the prosecutor first.',
             resolution: 'She copies the drive, then files the bolt officially so the precinct cannot deny it existed.',
             stateChange: 'the investigation turns from hidden search into institutional showdown',
             actionGoal: 'separate proof of murder from the police pathway designed to bury it',
             actionObstacle: 'the only lawful reporting channel leads back to Pavel\'s office',
             eventTrigger: 'the recovered drive contains muted footage of the victim arriving with the deputy mayor alive',
             eventImpact: 'murder, not drowning, becomes the central fact',
-            payoff: 'Daria can now accuse the precinct itself of obstruction'
+            payoff: 'Nadia can now accuse the precinct itself of obstruction'
           }
         ],
         culmination: [
           {
             title: 'Briefing room breach',
-            introduction: 'During the precinct briefing, Daria projects the recovered footage before Pavel can suspend her.',
-            development: 'Teo streams the room live while officers realize the cover-up reaches beyond one report.',
-            conflict: 'Daria can still frame the scandal as a deputy\'s mistake or name Pavel as the architect of the concealment.',
+            introduction: 'During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.',
+            development: 'Theo streams the room live while officers realize the cover-up reaches beyond one report.',
+            conflict: 'Nadia can still frame the scandal as a deputy\'s mistake or name Soren as the architect of the concealment.',
             resolution: 'She names him and files the footage directly to the prosecutor while the live stream continues.',
             stateChange: 'the case survives because the institution loses control of its own narrative',
             actionGoal: 'move the evidence faster than the suspension order',
             actionObstacle: 'the briefing room was built to keep testimony internal and deniable',
-            eventTrigger: 'the footage freezes on Pavel entering the lock corridor minutes after the murder',
+            eventTrigger: 'the footage freezes on Soren entering the lock corridor minutes after the murder',
             eventImpact: 'command authority becomes visible complicity',
             payoff: 'the victim finally receives a case worthy of the facts'
           }
