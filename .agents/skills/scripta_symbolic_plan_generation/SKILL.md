@@ -13,3 +13,15 @@ The skill must call the symbolic generation runtime rather than inventing freefo
 2. selecting enum-backed classifier values;
 3. emitting typed placeholders where surface names are intentionally unresolved;
 4. writing append-only artifacts that later stages can refine without overwriting.
+
+Global directives:
+
+1. Keep every CNL command header on its own line as `@identifier verb`, followed by one instruction per line until the next `@identifier` header.
+2. Use `$identifier` when a block references a previously defined entity, scene, chapter, or situation; keep `{{typed:stable-id}}` for unresolved surface placeholders only.
+3. When names are resolved, they must stay internationally portable and must not default to locale-locked or role-bearing proper names.
+
+Global directives:
+
+1. Keep every CNL command header on its own line as `@identifier verb`, followed by one instruction per line until the next `@identifier` header.
+2. Use `$identifier` when a block references a previously defined entity, scene, chapter, or situation; keep `{{typed:stable-id}}` for unresolved surface placeholders only.
+3. When names are resolved, they must stay internationally portable and must not default to locale-locked or role-bearing proper names.
