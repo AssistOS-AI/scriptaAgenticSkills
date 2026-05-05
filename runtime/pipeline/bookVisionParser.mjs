@@ -64,10 +64,10 @@ export function parseBookVisionMarkdown(content, { sourcePath = '' } = {}) {
       storySummary: cleanBody(sections['Short story']),
       storyQuestion: cleanBody(sections['Story question']),
       dilemma: cleanBody(sections.Dilemma),
-      themeQuestion: themeAnchors['theme-question'] ?? '',
-      themeStatement: themeAnchors['theme-statement'] ?? '',
-      poleA: themeAnchors['pole-a'] ?? '',
-      poleB: themeAnchors['pole-b'] ?? '',
+      themeQuestion: themeAnchors.themeQuestion ?? themeAnchors['theme-question'] ?? '',
+      themeStatement: themeAnchors.themeStatement ?? themeAnchors['theme-statement'] ?? '',
+      poleA: themeAnchors.poleA ?? themeAnchors['pole-a'] ?? '',
+      poleB: themeAnchors.poleB ?? themeAnchors['pole-b'] ?? '',
       characters: {
         protagonist: normalizeDictionary(characters.Protagonist),
         counterpart: normalizeDictionary(characters.Counterpart),
@@ -103,19 +103,13 @@ function splitFrontmatter(content) {
 }
 
 function splitSections(body) {
-  const sections = {};
-  const matches = [...String(body ?? '').matchAll(/^##\s+(.+)\n([\s\S]*?)(?=^##\s+|\Z)/gm)];
-  for (const [, heading, sectionBody] of matches) {
-    sections[heading.trim()] = sectionBody.trim();
-  }
-  return sections;
+  return splitByHeading(body, '## ');
 }
 
 function parseNamedSubsections(sectionBody) {
   const groups = {};
-  const matches = [...String(sectionBody ?? '').matchAll(/^###\s+(.+)\n([\s\S]*?)(?=^###\s+|\Z)/gm)];
-  for (const [, heading, body] of matches) {
-    groups[heading.trim()] = parseKeyValueBlock(body);
+  for (const [heading, body] of Object.entries(splitByHeading(sectionBody, '### '))) {
+    groups[heading] = parseKeyValueBlock(body);
   }
   return groups;
 }
@@ -181,7 +175,7 @@ function parseScalar(rawValue) {
 
 function normalizeDictionary(values = {}) {
   return Object.fromEntries(
-    Object.entries(values ?? {}).map(([key, value]) => [key, value === 'undefined' ? '' : value ?? ''])
+    Object.entries(values ?? {}).map(([key, value]) => [canonicalKey(key), value === 'undefined' ? '' : value ?? ''])
   );
 }
 
@@ -216,4 +210,37 @@ function firstMeaningful(...values) {
 
 function countSceneGroups(scenes) {
   return Object.keys(scenes ?? {}).length;
+}
+
+function splitByHeading(body, marker) {
+  const sections = {};
+  let currentHeading = null;
+  let buffer = [];
+
+  for (const line of String(body ?? '').split('\n')) {
+    if (line.startsWith(marker)) {
+      if (currentHeading) {
+        sections[currentHeading] = buffer.join('\n').trim();
+      }
+      currentHeading = line.slice(marker.length).trim();
+      buffer = [];
+      continue;
+    }
+
+    if (currentHeading) {
+      buffer.push(line);
+    }
+  }
+
+  if (currentHeading) {
+    sections[currentHeading] = buffer.join('\n').trim();
+  }
+
+  return sections;
+}
+
+function canonicalKey(key) {
+  return String(key ?? '')
+    .trim()
+    .replace(/-([a-z])/g, (_, letter) => letter.toUpperCase());
 }
