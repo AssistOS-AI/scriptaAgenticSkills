@@ -1,9 +1,9 @@
 export const WORK_FORMS = {
   'short-story': { targetWords: 3600, chapterCount: 3, scenesPerChapter: 2 },
-  novelette: { targetWords: 7600, chapterCount: 4, scenesPerChapter: 3 },
-  novella: { targetWords: 14000, chapterCount: 5, scenesPerChapter: 3 },
-  novel: { targetWords: 42000, chapterCount: 8, scenesPerChapter: 3 },
-  'series-volume': { targetWords: 70000, chapterCount: 10, scenesPerChapter: 4 }
+  novelette: { targetWords: 9600, chapterCount: 5, scenesPerChapter: 3 },
+  novella: { targetWords: 18000, chapterCount: 6, scenesPerChapter: 4 },
+  novel: { targetWords: 62000, chapterCount: 10, scenesPerChapter: 5 },
+  'series-volume': { targetWords: 96000, chapterCount: 12, scenesPerChapter: 6 }
 };
 
 export function normalizeWorkForm(workForm) {

@@ -2,9 +2,9 @@
 book-id: qa-detective-river
 title: "The River Knows First"
 profile: detective-police
-work-form: novel
-chapter-count: 10
-target-words: 64000
+work-form: series-volume
+chapter-count: 12
+target-words: 96000
 scene-density: high
 dialogue-density: high
 description-density: high

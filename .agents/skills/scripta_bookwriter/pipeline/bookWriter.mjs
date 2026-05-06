@@ -178,11 +178,23 @@ function buildManuscriptModel({
   const primaryLocation = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'location-primary', 'define')), resolveText);
   const secondaryLocation = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'location-secondary', 'define')), resolveText);
   const plotElement = resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'plot-element-core-object', 'define')), resolveText);
+  const characterBlocks = macroBlocks.filter((block) => block.identifier.startsWith('character-') && block.verb === 'define');
+  const locationBlocks = macroBlocks.filter((block) => block.identifier.startsWith('location-') && block.verb === 'define');
+  const objectBlocks = macroBlocks.filter((block) => block.identifier.startsWith('plot-element-') && block.verb === 'define');
   const characters = {
     protagonist: resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'character-protagonist-001', 'define')), resolveText),
     counterpart: resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'character-counterpart-001', 'define')), resolveText),
-    pressure: resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'character-pressure-001', 'define')), resolveText)
+    pressure: resolveObjectTexts(blockToObject(findRequiredBlock(macroBlocks, 'character-pressure-001', 'define')), resolveText),
+    supporting: characterBlocks
+      .filter((block) => !['character-protagonist-001', 'character-counterpart-001', 'character-pressure-001'].includes(block.identifier))
+      .map((block) => ({ id: block.identifier, ...resolveObjectTexts(blockToObject(block), resolveText) }))
   };
+  const supportingLocations = locationBlocks
+    .filter((block) => !['location-primary', 'location-secondary'].includes(block.identifier))
+    .map((block) => ({ id: block.identifier, ...resolveObjectTexts(blockToObject(block), resolveText) }));
+  const specialObjects = objectBlocks
+    .filter((block) => block.identifier !== 'plot-element-core-object')
+    .map((block) => ({ id: block.identifier, ...resolveObjectTexts(blockToObject(block), resolveText) }));
 
   const chapters = chapterArtifacts.map((chapterEntry) => {
     const microEntry = microArtifacts.find((candidate) => candidate.artifact.baseName === chapterEntry.artifact.baseName);
@@ -271,11 +283,13 @@ function buildManuscriptModel({
     relationshipArc,
     motif,
     plotElement,
+    specialObjects,
     worldRule,
     secondaryWorldRule,
     worldReveal,
     primaryLocation,
     secondaryLocation,
+    supportingLocations,
     chapters,
     characters,
     validationSummary
@@ -339,49 +353,40 @@ function buildEditionChapter(model, chapter, languageCode) {
   const dialogueLimit = dialogueTurnLimit(model.dialogueDensity);
 
   if (firstScene) {
-    const location = localizeBookText(firstScene['time-space'], languageCode);
-    const placeSignal = stripTerminalPunctuation(sentenceCase(chapterLocationSignal || chapterLocationSymbol));
-    if (languageCode === 'ro') {
-      pushUniqueParagraph(paragraphs,
-        `${firstScene.participants[0]} ajunge ${locationPhrase(location, languageCode)}, unde ${profileFlavor.atmosphere}. ${placeSignal ? `${placeSignal}.` : ''} ${firstScene.participants[1]} citeste prea atent incaperea, iar ${firstScene.participants[2]} tine in viata versiunea de evenimente pe care ceilalti ar prefera sa o creada.`.replace(/\s+/g, ' ').trim()
-      );
-    } else {
-      pushUniqueParagraph(paragraphs,
-        `${firstScene.participants[0]} reaches ${location}, where ${profileFlavor.atmosphere}. ${placeSignal ? `${placeSignal}.` : ''} ${firstScene.participants[1]} reads the room too carefully, while ${firstScene.participants[2]} keeps alive the version of events other people would rather believe.`.replace(/\s+/g, ' ').trim()
-      );
-    }
+    pushUniqueParagraph(paragraphs, buildChapterOpeningParagraph({
+      firstScene,
+      chapterLocationSignal,
+      chapterLocationSymbol,
+      profileFlavor,
+      languageCode
+    }));
   }
 
   chapter.scenes.forEach((scene, index) => {
-    const introduction = normalizeNarrativePhrase(scene.introduction, languageCode);
-    const development = normalizeNarrativePhrase(scene.development, languageCode);
-    const conflict = normalizeNarrativePhrase(scene.conflict, languageCode);
-    const trigger = stripTerminalPunctuation(sentenceCase(localizeBookText(scene.event.trigger ?? model.plotElement.activation ?? '', languageCode)));
-    const impact = sentenceCase(localizeBookText(scene.event.impact ?? scene.stateChange ?? '', languageCode));
-    const resolution = normalizeNarrativePhrase(scene.resolution, languageCode);
-
-    const sceneParagraph = languageCode === 'ro'
-      ? buildNarrativeParagraph([
-        index === 0 ? `${introduction}.` : `Mai tarziu, ${continueSentence(introduction)}.`,
-        development ? `${development}.` : '',
-        `${conflict}.`,
-        trigger && impact ? `Cand ${lowerFirst(trigger)}, ${lowerFirst(stripTerminalPunctuation(impact))}.` : '',
-        resolution ? `${resolution}.` : ''
-      ])
-      : buildNarrativeParagraph([
-        index === 0 ? `${introduction}.` : `Later, ${continueSentence(introduction)}.`,
-        development ? `${development}.` : '',
-        `${conflict}.`,
-        trigger && impact ? `When ${lowerFirst(trigger)}, ${lowerFirst(stripTerminalPunctuation(impact))}.` : '',
-        resolution ? `${resolution}.` : ''
-      ]);
-
-    pushUniqueParagraph(paragraphs, sceneParagraph);
+    pushUniqueParagraph(paragraphs, buildSceneNarrativeParagraph({
+      model,
+      scene,
+      index,
+      languageCode
+    }));
+    pushUniqueParagraph(paragraphs, buildSceneTextureParagraph({
+      model,
+      chapter,
+      scene,
+      index,
+      languageCode
+    }));
 
     const renderedDialogue = renderEditionDialogue(scene.dialogueTurns.slice(0, dialogueLimit), languageCode);
     if (renderedDialogue) {
       pushUniqueParagraph(paragraphs, renderedDialogue);
     }
+
+    pushUniqueParagraph(paragraphs, buildSceneConsequenceParagraph({
+      scene,
+      index,
+      languageCode
+    }));
   });
 
   pushUniqueParagraph(paragraphs, buildChapterClosingParagraph({
@@ -405,6 +410,102 @@ function buildEditionChapter(model, chapter, languageCode) {
     }),
     paragraphs
   };
+}
+
+function buildChapterOpeningParagraph({ firstScene, chapterLocationSignal, chapterLocationSymbol, profileFlavor, languageCode }) {
+  const location = localizeBookText(firstScene['time-space'], languageCode);
+  const placeSignal = stripTerminalPunctuation(sentenceCase(chapterLocationSignal || chapterLocationSymbol));
+  const secondary = firstScene.participants[1];
+  const pressure = firstScene.participants[2];
+  const widenedCast = firstScene.participants.slice(3);
+
+  if (languageCode === 'ro') {
+    return [
+      `${firstScene.participants[0]} ajunge ${locationPhrase(location, languageCode)}, unde ${profileFlavor.atmosphere}.`,
+      placeSignal ? `${placeSignal}.` : '',
+      secondary ? `${secondary} citeste prea atent incaperea, iar ${pressure ?? 'presiunea locului'} tine in viata versiunea de evenimente pe care ceilalti ar prefera sa o creada.` : '',
+      widenedCast.length > 0 ? `${formatNameList(widenedCast, languageCode)} largesc imediat costul scenei, pentru ca nimic din ce se petrece aici nu mai apartine doar unui singur conflict.` : ''
+    ].filter(Boolean).join(' ').replace(/\s+/g, ' ').trim();
+  }
+
+  return [
+    `${firstScene.participants[0]} reaches ${location}, where ${profileFlavor.atmosphere}.`,
+    placeSignal ? `${placeSignal}.` : '',
+    secondary ? `${secondary} reads the room too carefully, while ${pressure ?? 'the pressure in the room'} keeps alive the version of events other people would rather believe.` : '',
+    widenedCast.length > 0 ? `${formatNameList(widenedCast, languageCode)} widen the cost at once, making it clear that the scene will not stay contained inside a single private wound.` : ''
+  ].filter(Boolean).join(' ').replace(/\s+/g, ' ').trim();
+}
+
+function buildSceneNarrativeParagraph({ model, scene, index, languageCode }) {
+  const introduction = normalizeNarrativePhrase(scene.introduction, languageCode);
+  const development = normalizeNarrativePhrase(scene.development, languageCode);
+  const conflict = normalizeNarrativePhrase(scene.conflict, languageCode);
+  const trigger = stripTerminalPunctuation(sentenceCase(localizeBookText(scene.event.trigger ?? model.plotElement.activation ?? '', languageCode)));
+  const impact = sentenceCase(localizeBookText(scene.event.impact ?? scene.stateChange ?? '', languageCode));
+  const resolution = normalizeNarrativePhrase(scene.resolution, languageCode);
+  const lead = sceneTransition(index, languageCode, introduction);
+
+  return languageCode === 'ro'
+    ? buildNarrativeParagraph([
+      lead,
+      development ? `${development}.` : '',
+      conflict ? `${conflict}.` : '',
+      trigger && impact ? `Cand ${lowerFirst(trigger)}, ${lowerFirst(stripTerminalPunctuation(impact))}.` : '',
+      resolution ? `${resolution}.` : ''
+    ])
+    : buildNarrativeParagraph([
+      lead,
+      development ? `${development}.` : '',
+      conflict ? `${conflict}.` : '',
+      trigger && impact ? `When ${lowerFirst(trigger)}, ${lowerFirst(stripTerminalPunctuation(impact))}.` : '',
+      resolution ? `${resolution}.` : ''
+    ]);
+}
+
+function buildSceneTextureParagraph({ model, chapter, scene, index, languageCode }) {
+  const location = localizeBookText(scene['time-space'] ?? chapter.location['primary-setting'] ?? model.primaryLocation.name ?? '', languageCode);
+  const anchorObject = localizeBookText(scene['anchor-object'] ?? chapter.location['chapter-object'] ?? model.specialObjects[index % Math.max(model.specialObjects.length, 1)]?.name ?? model.plotElement.name ?? '', languageCode);
+  const supportFocus = localizeBookText(scene['support-focus'] ?? '', languageCode);
+  const sideParticipants = uniqueNames(scene.participants.slice(1));
+
+  if (languageCode === 'ro') {
+    return buildNarrativeParagraph([
+      location ? `In ${location}, ${sideParticipants.length > 0 ? `${formatNameList(sideParticipants, languageCode)} impiedica scena sa se stranga intr-un duel curat.` : 'incaperea refuza sa lase conflictul sa para abstract.'}` : '',
+      anchorObject ? `${anchorObject} tot reapare in maini, pe masa ori sub lumina, facand presiunea tangibila.` : '',
+      supportFocus ? `${supportFocus} muta discret centrul de greutate al schimbului, astfel incat cine priveste devine la fel de important ca cine vorbeste.` : ''
+    ]);
+  }
+
+  return buildNarrativeParagraph([
+    location ? `In ${location}, ${sideParticipants.length > 0 ? `${formatNameList(sideParticipants, languageCode)} keep the scene from collapsing into a clean duel.` : 'the room refuses to let the conflict stay abstract.'}` : '',
+    anchorObject ? `${anchorObject} keeps resurfacing in hands, on tables, or under the light, turning pressure into something material.` : '',
+    supportFocus ? `${supportFocus} subtly shifts the center of gravity, so the watcher matters as much as the speaker.` : ''
+  ]);
+}
+
+function buildSceneConsequenceParagraph({ scene, index, languageCode }) {
+  const goal = normalizeNarrativePhrase(scene.action.goal ?? '', languageCode);
+  const obstacle = normalizeNarrativePhrase(scene.action.obstacle ?? '', languageCode);
+  const stakes = normalizeNarrativePhrase(scene.conflictPacket.stakes ?? '', languageCode);
+  const followThrough = normalizeNarrativePhrase(scene.event.follow-through ?? '', languageCode);
+  const stateChange = normalizeNarrativePhrase(scene['state-change'] ?? '', languageCode);
+  const focal = scene.participants[0] ?? (languageCode === 'ro' ? 'protagonistul' : 'the protagonist');
+
+  if (languageCode === 'ro') {
+    return buildNarrativeParagraph([
+      goal ? `${focal} continua sa urmareasca ${lowerFirst(stripTerminalPunctuation(goal))}, dar ${lowerFirst(stripTerminalPunctuation(obstacle || 'presiunea se adapteaza mai repede decat oricine ar vrea sa admita'))}.` : '',
+      stakes ? `Miza nu mai incape doar in intentie, fiindca ${lowerFirst(stripTerminalPunctuation(stakes))}.` : '',
+      followThrough ? `${followThrough}.` : '',
+      stateChange ? `La capatul schimbului, ${lowerFirst(stripTerminalPunctuation(stateChange))}.` : ''
+    ]);
+  }
+
+  return buildNarrativeParagraph([
+    goal ? `${focal} keeps working toward ${lowerFirst(stripTerminalPunctuation(goal))}, but ${lowerFirst(stripTerminalPunctuation(obstacle || 'the pressure adapts faster than anyone admits'))}.` : '',
+    stakes ? `The stakes no longer fit inside intention alone, because ${lowerFirst(stripTerminalPunctuation(stakes))}.` : '',
+    followThrough ? `${followThrough}.` : '',
+    stateChange ? `By the end of the exchange, ${lowerFirst(stripTerminalPunctuation(stateChange))}.` : ''
+  ]);
 }
 
 function buildChapterClosingParagraph({ lastScene, finalBelief, finalRelationship, uncertainty, isFinalChapter, languageCode }) {
@@ -572,17 +673,7 @@ function renderEditionDialogue(turns, languageCode) {
     return '';
   }
 
-  if (languageCode === 'ro') {
-    return turns.map((turn) => {
-      const line = sentenceCase(localizeBookText(turn['line-hint'] ?? '', languageCode));
-      return `"${line}" spune ${turn.speaker}.`;
-    }).join(' ');
-  }
-
-  return turns.map((turn) => {
-    const line = sentenceCase(localizeBookText(turn['line-hint'] ?? '', languageCode));
-    return `"${line}" ${turn.speaker} says.`;
-  }).join(' ');
+  return turns.map((turn, index) => renderDialogueTurn(turn, index, languageCode)).join(' ');
 }
 
 function dialogueTurnLimit(dialogueDensity) {
@@ -593,6 +684,173 @@ function dialogueTurnLimit(dialogueDensity) {
     return 1;
   }
   return 2;
+}
+
+function renderDialogueTurn(turn, index, languageCode) {
+  const line = buildDialogueSurface(turn, index, languageCode);
+  const verb = dialogueVerb(turn.intent, languageCode, index);
+
+  if (languageCode === 'ro') {
+    const templates = [
+      `"${line}" ${turn.speaker} ${verb}.`,
+      `${turn.speaker} ${verb}: "${line}".`,
+      `"${line}", ${turn.speaker} ${verb}.`,
+      `${turn.speaker} ${verb} mai jos, aproape pentru sine: "${line}".`
+    ];
+    return templates[index % templates.length];
+  }
+
+  const templates = [
+    `"${line}" ${turn.speaker} ${verb}.`,
+    `${turn.speaker} ${verb}, "${line}."`,
+    `"${line}," ${turn.speaker} ${verb}.`,
+    `${turn.speaker} ${verb} more quietly, "${line}."`
+  ];
+  return templates[index % templates.length];
+}
+
+function buildDialogueSurface(turn, index, languageCode) {
+  const cue = stripTerminalPunctuation(sentenceCase(localizeBookText(turn['line-hint'] ?? '', languageCode)));
+  const templates = languageCode === 'ro'
+    ? {
+      probe: [
+        `Asculta: ${lowerFirst(cue)}`,
+        `Atunci spune-mi asta limpede: ${lowerFirst(cue)}`
+      ],
+      deflect: [
+        `Nu ocoli asta: ${lowerFirst(cue)}`,
+        `Stii bine la ce ne intoarcem: ${lowerFirst(cue)}`
+      ],
+      commit: [
+        `Bine, mergem pana la capat cu asta: ${lowerFirst(cue)}`,
+        `Atunci ramai cu mine aici: ${lowerFirst(cue)}`
+      ],
+      warn: [
+        `Atentie la pasul urmator: ${lowerFirst(cue)}`,
+        `Daca rostim asta, nu mai putem da inapoi: ${lowerFirst(cue)}`
+      ],
+      challenge: [
+        `Atunci raspunde la asta: ${lowerFirst(cue)}`,
+        `Nu-mi cere sa ignor asta: ${lowerFirst(cue)}`
+      ],
+      reframe: [
+        `Priveste altfel lucrurile: ${lowerFirst(cue)}`,
+        `Nu asta e cheia, ci asta: ${lowerFirst(cue)}`
+      ],
+      'answer-honestly': [
+        `Bine, adevarul e acesta: ${lowerFirst(cue)}`,
+        `Daca vrei raspunsul curat, e acesta: ${lowerFirst(cue)}`
+      ],
+      'tease-probe': [
+        `Ironic, nu? ${cue}`,
+        `Uite ce continuam sa ocolim: ${lowerFirst(cue)}`
+      ],
+      'name-risk': [
+        `Hai sa numim riscul pe sleau: ${lowerFirst(cue)}`,
+        `Asta e marginea de care ne apropiem: ${lowerFirst(cue)}`
+      ],
+      default: [cue]
+    }
+    : {
+      probe: [
+        `Listen: ${lowerFirst(cue)}`,
+        `Then answer me this plainly: ${lowerFirst(cue)}`
+      ],
+      deflect: [
+        `Do not sidestep this: ${lowerFirst(cue)}`,
+        `You know what this keeps returning to: ${lowerFirst(cue)}`
+      ],
+      commit: [
+        `Fine, then we carry this through: ${lowerFirst(cue)}`,
+        `Stay with me on this: ${lowerFirst(cue)}`
+      ],
+      warn: [
+        `Watch the next step: ${lowerFirst(cue)}`,
+        `If we say it aloud, there is no easy retreat: ${lowerFirst(cue)}`
+      ],
+      challenge: [
+        `Then answer this: ${lowerFirst(cue)}`,
+        `Do not ask me to ignore this: ${lowerFirst(cue)}`
+      ],
+      reframe: [
+        `Look at it another way: ${lowerFirst(cue)}`,
+        `That is not the center of it; this is: ${lowerFirst(cue)}`
+      ],
+      'answer-honestly': [
+        `All right, the truth is this: ${lowerFirst(cue)}`,
+        `If you want the clean answer, it is this: ${lowerFirst(cue)}`
+      ],
+      'tease-probe': [
+        `Funny, isn't it? ${cue}`,
+        `Here is what we keep circling: ${lowerFirst(cue)}`
+      ],
+      'name-risk': [
+        `Let us name the risk plainly: ${lowerFirst(cue)}`,
+        `This is the edge we are walking toward: ${lowerFirst(cue)}`
+      ],
+      default: [cue]
+    };
+
+  const variants = templates[turn.intent] ?? templates.default;
+  return variants[index % variants.length];
+}
+
+function dialogueVerb(intent, languageCode, index) {
+  const ro = {
+    probe: ['spune', 'intreaba', 'insista'],
+    deflect: ['replica', 'murmura', 'adauga'],
+    commit: ['spune', 'hotaraste', 'adauga'],
+    warn: ['avertizeaza', 'spune', 'murmura'],
+    challenge: ['taie scurt', 'spune', 'replica'],
+    reframe: ['reia', 'replica', 'adauga'],
+    'answer-honestly': ['raspunde', 'spune', 'marturiseste'],
+    'tease-probe': ['zambeste strans si spune', 'glumeste prea putin si adauga', 'spune'],
+    'name-risk': ['numeste fara ocolisuri', 'spune', 'rosteste']
+  };
+  const en = {
+    probe: ['says', 'asks', 'insists'],
+    deflect: ['replies', 'murmurs', 'adds'],
+    commit: ['says', 'promises', 'adds'],
+    warn: ['warns', 'says', 'murmurs'],
+    challenge: ['cuts in', 'says', 'replies'],
+    reframe: ['says', 'reframes', 'adds'],
+    'answer-honestly': ['answers', 'says', 'admits'],
+    'tease-probe': ['says with a thin smile', 'teases', 'says'],
+    'name-risk': ['says flatly', 'names outright', 'says']
+  };
+  const pool = (languageCode === 'ro' ? ro : en)[intent] ?? (languageCode === 'ro' ? ['spune'] : ['says']);
+  return pool[index % pool.length];
+}
+
+function sceneTransition(index, languageCode, introduction) {
+  const base = continueSentence(introduction);
+  if (index === 0) {
+    return `${sentenceCase(introduction)}.`;
+  }
+
+  const roLeads = ['Mai tarziu,', 'Dupa aceea,', 'Spre seara,', 'Cand presiunea revine,', 'La urmatorul prag,'];
+  const enLeads = ['Later,', 'After that,', 'Toward evening,', 'When the pressure returns,', 'At the next threshold,'];
+  const lead = languageCode === 'ro'
+    ? roLeads[(index - 1) % roLeads.length]
+    : enLeads[(index - 1) % enLeads.length];
+  return `${lead} ${base}.`;
+}
+
+function formatNameList(names, languageCode) {
+  const unique = uniqueNames(names);
+  if (unique.length <= 1) {
+    return unique[0] ?? '';
+  }
+
+  if (unique.length === 2) {
+    return unique.join(languageCode === 'ro' ? ' si ' : ' and ');
+  }
+
+  return `${unique.slice(0, -1).join(', ')}${languageCode === 'ro' ? ' si ' : ', and '}${unique.at(-1)}`;
+}
+
+function uniqueNames(names) {
+  return [...new Set((names ?? []).filter(Boolean))];
 }
 
 function normalizeNarrativePhrase(value, languageCode) {

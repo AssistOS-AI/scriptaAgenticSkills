@@ -2,9 +2,9 @@
 book-id: qa-scifi-orbit
 title: "Orbit of the Unreturned"
 profile: science-fiction
-work-form: novel
-chapter-count: 10
-target-words: 64000
+work-form: series-volume
+chapter-count: 12
+target-words: 96000
 scene-density: high
 dialogue-density: high
 description-density: high

@@ -2,9 +2,9 @@
 book-id: qa-drama-silence
 title: "When the Silence Returns"
 profile: drama
-work-form: novel
-chapter-count: 10
-target-words: 64000
+work-form: series-volume
+chapter-count: 12
+target-words: 96000
 scene-density: high
 dialogue-density: high
 description-density: high

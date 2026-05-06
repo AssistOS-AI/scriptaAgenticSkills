@@ -46,7 +46,8 @@ export async function generateSymbolicSeed(input = {}) {
 export async function generateMacroSeed(options) {
   const random = createSeededRandom(`${options.seed}:macro`);
   const c = options.constraints;
-  const entityMap = structuredClone(DEFAULT_ENTITY_MAP);
+  const scale = deriveNarrativeScale(options);
+  const entityMap = buildExtendedEntityMap(scale);
   const protagonistPlaceholder = placeholder('character', entityMap.characters.protagonist);
   const counterpartPlaceholder = placeholder('character', entityMap.characters.counterpart);
   const pressurePlaceholder = placeholder('character', entityMap.characters.pressure);
@@ -59,6 +60,10 @@ export async function generateMacroSeed(options) {
   const pressureRef = reference('character-pressure-001');
   const primaryLocationRef = reference('location-primary');
   const secondaryLocationRef = reference('location-secondary');
+  const supportCharacters = buildSupportingCharacters(options, random, scale);
+  const tertiaryLocations = buildSupportingLocations(options, random, scale);
+  const secondaryObjects = buildSupportingObjects(options, random, scale);
+  const supportCharacterRefs = supportCharacters.map((entry) => reference(entry.id));
 
   const charConfig = COMMAND_CONFIGS.character;
   const arcConfig = COMMAND_CONFIGS.arc;
@@ -147,7 +152,8 @@ export async function generateMacroSeed(options) {
       { name: 'climax', value: '{{dilemma:central}}' },
       { name: 'resolution', value: `the core conflict resolves with lasting cost and a redefined relation to ${organizationPlaceholder}` },
       { name: 'emotional-layer', value: emotionalTrack.join(' -> ') },
-       { name: 'stakes-ladder', value: pickProfileConfiguredValue(random, blueprintConfig, 'stakesLadderPatterns', options.profile, 'blueprint', 'allowedStakesLadders') }
+      { name: 'ensemble-pressure', value: `${supportCharacterRefs.slice(0, 3).join(', ')} widen the cost beyond the central trio` },
+      { name: 'stakes-ladder', value: pickProfileConfiguredValue(random, blueprintConfig, 'stakesLadderPatterns', options.profile, 'blueprint', 'allowedStakesLadders') }
     ]),
     createBlock('arc-book-main', 'map', [
       { name: 'arc-axis', value: `${options.themeTopic} under ${options.themeShape} pressure` },
@@ -226,7 +232,23 @@ export async function generateMacroSeed(options) {
       { name: 'arc', value: 'flat' },
       { name: 'contradictions', value: 'calm yet coercive, rational yet self-serving' },
       { name: 'relationships', value: `${protagonistRef} [conflictual], ${counterpartRef} [hierarchical]` }
-    ])
+    ]),
+    ...supportCharacters.map((entry, index) => createBlock(entry.id, 'define', [
+      { name: 'name', value: entry.name },
+      { name: 'complexity', value: entry.complexity },
+      { name: 'development-type', value: entry.developmentType },
+      { name: 'archetype', value: entry.archetype },
+      { name: 'role', value: entry.role },
+      { name: 'desire', value: entry.desire },
+      { name: 'need', value: entry.need },
+      { name: 'fear', value: entry.fear },
+      { name: 'lie', value: entry.lie },
+      { name: 'truth', value: entry.truth },
+      { name: 'conflict-mode', value: index % 2 === 0 ? 'mixed' : 'external' },
+      { name: 'arc', value: index < 2 ? 'dynamic' : 'supporting-static' },
+      { name: 'contradictions', value: entry.contradictions },
+      { name: 'relationships', value: `${protagonistRef} [${entry.protagonistBond}], ${counterpartRef} [${entry.counterpartBond}], ${pressureRef} [${entry.pressureBond}]` }
+    ]))
   ];
 
   const primaryRuleType = random.pick(c.worldbuilding.primaryRuleTypes);
@@ -296,7 +318,25 @@ export async function generateMacroSeed(options) {
       { name: 'social-signal', value: '{{social-signal:location-secondary}}' },
       { name: 'symbolic-charge', value: '{{symbolic-charge:location-secondary}}' },
       { name: 'conflict-use', value: '{{conflict-use:location-secondary}}' }
-    ])
+    ]),
+    ...tertiaryLocations.map((entry) => createBlock(entry.id, 'define', [
+      { name: 'name', value: entry.name },
+      { name: 'role', value: entry.role },
+      { name: 'sensory-anchor', value: entry.sensoryAnchor },
+      { name: 'social-signal', value: entry.socialSignal },
+      { name: 'symbolic-charge', value: entry.symbolicCharge },
+      { name: 'conflict-use', value: entry.conflictUse }
+    ])),
+    ...secondaryObjects.map((entry) => createBlock(entry.id, 'define', [
+      { name: 'name', value: entry.name },
+      { name: 'category', value: entry.category },
+      { name: 'subtype', value: entry.subtype },
+      { name: 'function', value: entry.function },
+      { name: 'stakes', value: entry.stakes },
+      { name: 'holders', value: `${organizationPlaceholder}, ${pressureRef}` },
+      { name: 'activation', value: entry.activation },
+      { name: 'payoff-zone', value: entry.payoffZone }
+    ]))
   ];
 
   const bookArtifact = await writeStageFile(options, 'macro', 'book', 'symbolic-plan', serializeBlocks(bookBlocks));
@@ -357,7 +397,8 @@ export async function generateChapterSeeds(options) {
 export async function generateMicroSeeds(options) {
   const random = createSeededRandom(`${options.seed}:micro`);
   const c = options.constraints;
-  const sceneCount = options.sceneDensity === 'high' ? 3 : 2;
+  const scale = deriveNarrativeScale(options);
+  const sceneCount = scale.sceneCountPerChapter;
   const artifacts = [];
   const chapterConfig = COMMAND_CONFIGS.chapter;
   const chapterRoles = buildChapterRoleSequence(options.chapterCount, options.profile, chapterConfig);
@@ -369,8 +410,16 @@ export async function generateMicroSeeds(options) {
   const protagonistRef = reference('character-protagonist-001');
   const counterpartRef = reference('character-counterpart-001');
   const pressureRef = reference('character-pressure-001');
-  const primaryLocationRef = reference('location-primary');
-  const secondaryLocationRef = reference('location-secondary');
+  const locationRefs = [
+    reference('location-primary'),
+    reference('location-secondary'),
+    ...Array.from({ length: scale.extraLocationCount }, (_, index) => reference(`location-tertiary-${String(index + 1).padStart(3, '0')}`))
+  ];
+  const objectRefs = [
+    reference('plot-element-core-object'),
+    ...Array.from({ length: scale.extraObjectCount }, (_, index) => reference(`plot-element-secondary-${String(index + 1).padStart(3, '0')}`))
+  ];
+  const supportCharacterRefs = Array.from({ length: scale.supportCharacterCount }, (_, index) => reference(`character-support-${String(index + 1).padStart(3, '0')}`));
 
   const expressionPrefs = c.expression;
   const rhythmPrefs = c.rhythm;
@@ -381,6 +430,9 @@ export async function generateMicroSeeds(options) {
     const chapterRef = reference(chapterId);
     const chapterRole = chapterRoles[chapterIndex] ?? 'bridge';
     const blocks = [];
+    const chapterSupportRefs = rotateReferences(supportCharacterRefs, chapterIndex, Math.min(3, supportCharacterRefs.length));
+    const chapterLocationRefs = rotateReferences(locationRefs, chapterIndex, Math.min(3, locationRefs.length));
+    const chapterObjectRefs = rotateReferences(objectRefs, chapterIndex, Math.min(2, objectRefs.length));
 
     blocks.push(createBlock(`sequence-${chapterNumber}-core`, 'define', [
       { name: 'sequence-type', value: options.sequenceType },
@@ -390,13 +442,17 @@ export async function generateMicroSeeds(options) {
       { name: 'scene-chain', value: Array.from({ length: sceneCount }, (_, index) => `scene-${chapterNumber}-${String(index + 1).padStart(2, '0')}`).join(', ') },
       { name: 'carry-forward-pressure', value: 'each scene must inherit and intensify the previous unresolved pressure' },
       { name: 'conflict-line', value: `{{sequence-conflict:${chapterRole}}}` },
+      { name: 'supporting-cast', value: chapterSupportRefs.join(', ') || `${counterpartRef}` },
+      { name: 'chapter-object', value: chapterObjectRefs[0] ?? reference('plot-element-core-object') },
       { name: 'payoff', value: chapterIndex === options.chapterCount - 1 ? 'the sequence delivers its final irreversible choice' : `{{sequence-payoff:${chapterRole}}}` }
     ]));
 
     blocks.push(createBlock(`location-${chapterNumber}-anchor`, 'define', [
       { name: 'chapter', value: chapterRef },
-      { name: 'primary-setting', value: primaryLocationRef },
-      { name: 'secondary-setting', value: secondaryLocationRef },
+      { name: 'primary-setting', value: chapterLocationRefs[0] ?? reference('location-primary') },
+      { name: 'secondary-setting', value: chapterLocationRefs[1] ?? reference('location-secondary') },
+      { name: 'transit-setting', value: chapterLocationRefs[2] ?? chapterLocationRefs[0] ?? reference('location-primary') },
+      { name: 'chapter-object', value: chapterObjectRefs[0] ?? reference('plot-element-core-object') },
       { name: 'sensory-anchor', value: '{{sensory-anchor:location-primary}}' },
       { name: 'social-signal', value: '{{social-signal:location-primary}}' },
       { name: 'symbolic-charge', value: '{{symbolic-charge:location-primary}}' },
@@ -422,7 +478,7 @@ export async function generateMicroSeeds(options) {
 
     blocks.push(createBlock(`arc-${chapterNumber}-relationship`, 'map', [
       { name: 'chapter', value: chapterRef },
-      { name: 'pair', value: `${protagonistRef}, ${counterpartRef}` },
+      { name: 'pair', value: `${protagonistRef}, ${chapterSupportRefs[0] ?? counterpartRef}` },
       { name: 'entry-dynamic', value: pickProfileConfiguredValue(random, COMMAND_CONFIGS.arc, 'relationshipOpeningPatterns', options.profile, 'arc', 'preferredRelationshipPattern') },
       { name: 'stress-line', value: `{{relationship-stress:${chapterRole}}}` },
       { name: 'exit-dynamic', value: random.pick(COMMAND_CONFIGS.arc.relationshipExitPatterns) }
@@ -435,21 +491,33 @@ export async function generateMicroSeeds(options) {
       { name: 'anti-flatness-rule', value: 'do not chain action summaries without dialogue, atmosphere, or reflection support' }
     ]));
 
-      for (let sceneIndex = 0; sceneIndex < sceneCount; sceneIndex += 1) {
-        const sceneId = `scene-${chapterNumber}-${String(sceneIndex + 1).padStart(2, '0')}`;
-        const sceneRef = reference(sceneId);
-        const isFinalScene = sceneIndex === sceneCount - 1;
-        blocks.push(createBlock(sceneId, 'define', [
+    for (let sceneIndex = 0; sceneIndex < sceneCount; sceneIndex += 1) {
+      const sceneId = `scene-${chapterNumber}-${String(sceneIndex + 1).padStart(2, '0')}`;
+      const sceneRef = reference(sceneId);
+      const isFinalScene = sceneIndex === sceneCount - 1;
+      const sceneParticipants = buildSceneParticipants({
+        protagonistRef,
+        counterpartRef,
+        pressureRef,
+        chapterSupportRefs,
+        sceneIndex,
+        sceneCount
+      });
+      const sceneLocationRef = chapterLocationRefs[sceneIndex % chapterLocationRefs.length] ?? chapterLocationRefs[0] ?? reference('location-primary');
+      const sceneObjectRef = chapterObjectRefs[sceneIndex % chapterObjectRefs.length] ?? reference('plot-element-core-object');
+      blocks.push(createBlock(sceneId, 'define', [
         { name: 'chapter', value: chapterRef },
         { name: 'showing-mode', value: sceneIndex === 0 ? pickProfileConfiguredValue(random, sceneConfig, 'showingModes', options.profile, 'scene', 'preferredShowingMode') : random.pick(sceneConfig.showingModes) },
         { name: 'focalization', value: options.focalizationMode },
-        { name: 'time-space', value: primaryLocationRef },
+        { name: 'time-space', value: sceneLocationRef },
         { name: 'introduction', value: `{{scene-introduction:${chapterRole}-${sceneIndex}}}` },
         { name: 'development', value: `{{scene-development:${chapterRole}-${sceneIndex}}}` },
         { name: 'conflict', value: `{{scene-conflict:${chapterRole}}}` },
         { name: 'resolution', value: `{{scene-resolution:${chapterRole}-${isFinalScene ? 'final' : 'mid'}}}` },
         { name: 'exit', value: isFinalScene ? `the chapter hands off to a sharper ${chapterRole} consequence` : 'the next scene begins before the pressure can settle' },
-        { name: 'participants', value: `${protagonistRef}, ${counterpartRef}, ${pressureRef}` },
+        { name: 'participants', value: sceneParticipants.join(', ') },
+        { name: 'anchor-object', value: sceneObjectRef },
+        { name: 'support-focus', value: chapterSupportRefs[sceneIndex % Math.max(chapterSupportRefs.length, 1)] ?? counterpartRef },
         { name: 'state-change', value: `{{scene-state-change:${chapterRole}-${isFinalScene ? 'final' : 'mid'}}}` }
       ]));
 
@@ -465,7 +533,7 @@ export async function generateMicroSeeds(options) {
       blocks.push(createBlock(`conflict-${chapterNumber}-${sceneIndex + 1}`, 'place', [
         { name: 'scope', value: sceneRef },
         { name: 'type', value: pickProfileConfiguredValue(random, contentConfig, 'conflictTypes', options.profile, 'content', 'allowedConflictTypes') },
-        { name: 'forces', value: `${protagonistRef} versus ${pressureRef}` },
+        { name: 'forces', value: `${sceneParticipants[0]} versus ${sceneParticipants.at(-1) ?? pressureRef}` },
         { name: 'stakes', value: `{{conflict-stakes:${c.content.stakePattern}}}` },
         { name: 'escalation', value: `{{conflict-escalation:${chapterRole}}}` }
       ]));
@@ -480,14 +548,24 @@ export async function generateMicroSeeds(options) {
         { name: 'follow-through', value: `{{event-follow-through:${chapterRole}-${isFinalScene ? 'final' : 'mid'}}}` }
       ]));
 
-      const dialogueTurns = dialogueTurnBlueprints(options.baselineProfile, chapterRole, sceneIndex, random);
+      const dialogueTurns = dialogueTurnBlueprints({
+        profileId: options.baselineProfile,
+        role: chapterRole,
+        sceneIndex,
+        random,
+        turnCount: scale.dialogueTurnsPerScene,
+        protagonistRef,
+        counterpartRef,
+        pressureRef,
+        chapterSupportRefs
+      });
       dialogueTurns.forEach((turn, turnIndex) => {
         blocks.push(createBlock(`dialogue-turn-${chapterNumber}-${String(sceneIndex + 1).padStart(2, '0')}-${String(turnIndex + 1).padStart(2, '0')}`, 'line', [
           { name: 'scene', value: sceneRef },
-          { name: 'speaker', value: turn.speaker === 'protagonist' ? protagonistRef : counterpartRef },
+          { name: 'speaker', value: turn.speaker },
           { name: 'intent', value: turn.intent },
           { name: 'subtext', value: `{{dialogue-subtext:${turn.intent}}}` },
-          { name: 'line-hint', value: `{{dialogue-line-hint:${chapterRole}-${sceneIndex}-${turnIndex}}}` },
+          { name: 'line-hint', value: turn.lineHint ?? `{{dialogue-line-hint:${chapterRole}-${sceneIndex}-${turnIndex}}}` },
           { name: 'reaction-beat', value: `{{dialogue-reaction:${turn.intent}}}` }
         ]));
       });
@@ -503,7 +581,7 @@ export async function generateMicroSeeds(options) {
 
     blocks.push(createBlock(`dialogue-${chapterNumber}-core`, 'apply', [
       { name: 'scene', value: reference(`scene-${chapterNumber}-01`) },
-      { name: 'speakers', value: `${protagonistRef}, ${counterpartRef}` },
+      { name: 'speakers', value: [protagonistRef, counterpartRef, ...chapterSupportRefs.slice(0, 2)].join(', ') },
       { name: 'exchange-type', value: expressionPrefs.exchangeType },
       { name: 'purpose', value: expressionPrefs.dialoguePurpose },
       { name: 'subtext', value: `{{dialogue-core-subtext:${options.baselineProfile}}}` }
@@ -581,8 +659,26 @@ function buildChapterRoleSequence(chapterCount, profile, chapterConfig) {
     return ['setup', 'escalation', roleSequence3[1] ?? 'revelation', roleSequence3[2] ?? 'culmination'];
   }
 
-  const defaultPattern = ['setup', 'escalation', 'investigation', 'revelation', 'culmination'];
-  return Array.from({ length: chapterCount }, (_, index) => defaultPattern[Math.min(index, defaultPattern.length - 1)]);
+  if (chapterCount === 5) {
+    return ['setup', 'escalation', 'investigation', 'revelation', 'culmination'];
+  }
+
+  const longFormPattern = [
+    'setup',
+    'escalation',
+    'investigation',
+    'bridge',
+    'revelation',
+    'reversal',
+    'escalation',
+    'investigation',
+    'bridge',
+    'revelation',
+    'culmination',
+    'aftermath'
+  ];
+
+  return Array.from({ length: chapterCount }, (_, index) => longFormPattern[Math.min(index, longFormPattern.length - 1)]);
 }
 
 function resolveChapterDevelopmentMode(role, profile, random) {
@@ -625,16 +721,335 @@ function resolveAccelerationMode(profile, role) {
   return profilePreference(profile, 'rhythm', 'preferredAccelerationMode', 'summary-burst');
 }
 
-function dialogueTurnBlueprints(profileId, role, sceneIndex, random) {
+function dialogueTurnBlueprints({
+  profileId,
+  role,
+  sceneIndex,
+  random,
+  turnCount,
+  protagonistRef,
+  counterpartRef,
+  pressureRef,
+  chapterSupportRefs
+}) {
   const intentTypes = COMMAND_CONFIGS.expression.dialogueIntentTypes;
-  const intent1 = random.pick(intentTypes);
-  const intent2 = random.pick(intentTypes);
+  const speakerOrder = buildDialogueSpeakerOrder({
+    protagonistRef,
+    counterpartRef,
+    pressureRef,
+    chapterSupportRefs,
+    sceneIndex,
+    turnCount
+  });
 
-  return [
-    { speaker: 'counterpart', intent: intent1, subtext: 'tests the visible argument for its hidden weakness', lineHint: 'Say what the scene refuses to admit directly.', reactionBeat: 'the line sharpens the local tension' },
-    { speaker: 'protagonist', intent: intent2, subtext: 'answers the surface claim while revealing a deeper cost', lineHint: 'Answer with both information and emotional consequence.', reactionBeat: 'the reply shifts the direction of the scene' }
-  ];
+  return speakerOrder.map((speaker, turnIndex) => {
+    const intent = random.pick(intentTypes);
+    return {
+      speaker,
+      intent,
+      subtext: turnIndex === 0
+        ? 'tests the visible argument for its hidden weakness'
+        : turnIndex === speakerOrder.length - 1
+          ? 'forces the scene to expose its hidden cost before retreat is possible'
+          : 'changes the balance of power by naming what the room wanted left implied',
+      lineHint: `{{dialogue-line-hint:${role}-${sceneIndex}-${turnIndex}}}`,
+      reactionBeat: turnIndex === speakerOrder.length - 1
+        ? 'the last line leaves no one able to return to the safer version of events'
+        : 'the exchange strips another layer of safety from the scene'
+    };
+  });
 }
+
+function deriveNarrativeScale(options) {
+  const averageChapterWords = Math.max(1200, Math.round(options.targetWords / Math.max(options.chapterCount, 1)));
+  const baseSceneCount = averageChapterWords >= 7000 ? 5 : averageChapterWords >= 5000 ? 4 : averageChapterWords >= 3200 ? 3 : 2;
+  const densityAdjustment = options.sceneDensity === 'high' ? 1 : options.sceneDensity === 'low' ? -1 : 0;
+  const sceneCountPerChapter = clamp(baseSceneCount + densityAdjustment, 2, 6);
+  const supportCharacterCount = clamp(Math.round(options.targetWords / 18000), 2, 6);
+  const extraLocationCount = clamp(Math.round(options.chapterCount / 3), 1, 5);
+  const extraObjectCount = clamp(Math.round(options.targetWords / 24000), 2, 5);
+  const dialogueTurnsPerScene = options.dialogueDensity === 'high' ? 4 : options.dialogueDensity === 'low' ? 2 : 3;
+
+  return {
+    sceneCountPerChapter,
+    supportCharacterCount,
+    extraLocationCount,
+    extraObjectCount,
+    dialogueTurnsPerScene
+  };
+}
+
+function buildExtendedEntityMap(scale) {
+  const entityMap = structuredClone(DEFAULT_ENTITY_MAP);
+
+  for (let index = 0; index < scale.supportCharacterCount; index += 1) {
+    entityMap.characters[`support-${String(index + 1).padStart(3, '0')}`] = `PERSON_${String(index + 4).padStart(3, '0')}`;
+  }
+
+  for (let index = 0; index < scale.extraLocationCount; index += 1) {
+    entityMap.locations[`tertiary-${String(index + 1).padStart(3, '0')}`] = `LOCATION_${String(index + 3).padStart(3, '0')}`;
+  }
+
+  for (let index = 0; index < scale.extraObjectCount; index += 1) {
+    entityMap.objects[`secondary-${String(index + 1).padStart(3, '0')}`] = `OBJECT_${String(index + 2).padStart(3, '0')}`;
+  }
+
+  return entityMap;
+}
+
+function buildSupportingCharacters(options, random, scale) {
+  const catalog = ENTITY_CATALOG[options.baselineProfile] ?? ENTITY_CATALOG.drama;
+  const names = pickCatalogEntries(catalog.supportingNames, scale.supportCharacterCount, random);
+  const roles = pickCatalogEntries(catalog.supportingRoles, scale.supportCharacterCount, random);
+  const contradictions = pickCatalogEntries(catalog.supportingContradictions, scale.supportCharacterCount, random);
+  const bonds = pickCatalogEntries(catalog.supportingBonds, scale.supportCharacterCount, random);
+
+  return names.map((name, index) => ({
+    id: `character-support-${String(index + 1).padStart(3, '0')}`,
+    name,
+    complexity: index < 2 ? 'round' : 'layered',
+    developmentType: index < 2 ? 'dynamic' : 'static',
+    archetype: SUPPORT_ARCHETYPES[index % SUPPORT_ARCHETYPES.length],
+    role: roles[index],
+    desire: `${name} wants to keep one fragile local balance from collapsing publicly`,
+    need: `${name} needs a version of the truth that can survive the institution around it`,
+    fear: `${name} fears becoming the next person absorbed by the system's safer lie`,
+    lie: 'small omissions can still count as mercy',
+    truth: 'shared truth costs less than silence maintained alone',
+    contradictions: contradictions[index],
+    protagonistBond: bonds[index].protagonist,
+    counterpartBond: bonds[index].counterpart,
+    pressureBond: bonds[index].pressure
+  }));
+}
+
+function buildSupportingLocations(options, random, scale) {
+  const catalog = ENTITY_CATALOG[options.baselineProfile] ?? ENTITY_CATALOG.drama;
+  const names = pickCatalogEntries(catalog.locationNames, scale.extraLocationCount, random);
+  const sensoryAnchors = pickCatalogEntries(catalog.locationSensoryAnchors, scale.extraLocationCount, random);
+  const socialSignals = pickCatalogEntries(catalog.locationSocialSignals, scale.extraLocationCount, random);
+  const symbolicCharges = pickCatalogEntries(catalog.locationSymbolicCharges, scale.extraLocationCount, random);
+  const conflictUses = pickCatalogEntries(catalog.locationConflictUses, scale.extraLocationCount, random);
+
+  return names.map((name, index) => ({
+    id: `location-tertiary-${String(index + 1).padStart(3, '0')}`,
+    name,
+    role: index % 2 === 0 ? 'hidden pressure chamber' : 'public consequence stage',
+    sensoryAnchor: sensoryAnchors[index],
+    socialSignal: socialSignals[index],
+    symbolicCharge: symbolicCharges[index],
+    conflictUse: conflictUses[index]
+  }));
+}
+
+function buildSupportingObjects(options, random, scale) {
+  const catalog = ENTITY_CATALOG[options.baselineProfile] ?? ENTITY_CATALOG.drama;
+  const names = pickCatalogEntries(catalog.objectNames, scale.extraObjectCount, random);
+  const activations = pickCatalogEntries(catalog.objectActivations, scale.extraObjectCount, random);
+  const stakes = pickCatalogEntries(catalog.objectStakes, scale.extraObjectCount, random);
+
+  return names.map((name, index) => ({
+    id: `plot-element-secondary-${String(index + 1).padStart(3, '0')}`,
+    name,
+    category: SECONDARY_OBJECT_CATEGORIES[index % SECONDARY_OBJECT_CATEGORIES.length],
+    subtype: SECONDARY_OBJECT_SUBTYPES[index % SECONDARY_OBJECT_SUBTYPES.length],
+    function: index % 2 === 0 ? 'pressure-amplifier' : 'proof-carrier',
+    stakes: stakes[index],
+    activation: activations[index],
+    payoffZone: index % 2 === 0 ? 'midbook escalation and final exposure' : 'late revelation and aftermath'
+  }));
+}
+
+function buildSceneParticipants({ protagonistRef, counterpartRef, pressureRef, chapterSupportRefs, sceneIndex, sceneCount }) {
+  const participants = [protagonistRef];
+
+  if (sceneIndex === 0 || sceneIndex % 2 === 0) {
+    participants.push(counterpartRef);
+  }
+
+  if (chapterSupportRefs.length > 0) {
+    participants.push(chapterSupportRefs[sceneIndex % chapterSupportRefs.length]);
+  }
+
+  if (chapterSupportRefs.length > 1 && sceneIndex % 2 === 1) {
+    participants.push(chapterSupportRefs[(sceneIndex + 1) % chapterSupportRefs.length]);
+  }
+
+  if (sceneIndex === sceneCount - 1 || sceneIndex % 3 === 1) {
+    participants.push(pressureRef);
+  }
+
+  return [...new Set(participants)];
+}
+
+function buildDialogueSpeakerOrder({ protagonistRef, counterpartRef, pressureRef, chapterSupportRefs, sceneIndex, turnCount }) {
+  const supportA = chapterSupportRefs[sceneIndex % Math.max(chapterSupportRefs.length, 1)];
+  const supportB = chapterSupportRefs[(sceneIndex + 1) % Math.max(chapterSupportRefs.length, 1)];
+  const fallbackSupport = supportA ?? counterpartRef;
+  const base = [fallbackSupport, protagonistRef, supportB ?? counterpartRef, pressureRef, counterpartRef, protagonistRef];
+  return base.slice(0, Math.max(2, turnCount));
+}
+
+function rotateReferences(references, startIndex, count) {
+  if (references.length === 0 || count <= 0) {
+    return [];
+  }
+
+  return Array.from({ length: count }, (_, index) => references[(startIndex + index) % references.length]);
+}
+
+function pickCatalogEntries(values, count, random) {
+  const pool = [...values];
+  const picks = [];
+
+  while (pool.length > 0 && picks.length < count) {
+    const choice = random.pick(pool);
+    picks.push(choice);
+    pool.splice(pool.indexOf(choice), 1);
+  }
+
+  while (picks.length < count) {
+    picks.push(values[picks.length % values.length]);
+  }
+
+  return picks;
+}
+
+function clamp(value, min, max) {
+  return Math.min(max, Math.max(min, value));
+}
+
+const SUPPORT_ARCHETYPES = ['ally', 'witness', 'broker', 'caretaker', 'fixer', 'rival'];
+const SECONDARY_OBJECT_CATEGORIES = ['document', 'artifact', 'token', 'device', 'relic'];
+const SECONDARY_OBJECT_SUBTYPES = ['ledger', 'seal', 'key', 'recording', 'packet'];
+
+const ENTITY_CATALOG = {
+  drama: {
+    supportingNames: ['Jonah Vale', 'Sabine Arlo', 'Petra Linn', 'Corin Hale', 'Alma Crest', 'Rufus Dene'],
+    supportingRoles: ['town clerk', 'union mediator', 'choir director', 'ferry accountant', 'widowed aunt', 'school archivist'],
+    supportingContradictions: [
+      'tender in crisis yet ruthless about appearances',
+      'meticulous with records yet frightened of public consequence',
+      'loyal to the family story yet unable to stop collecting contrary evidence',
+      'socially polished but privately resentful',
+      'protective of children yet complicit with old compromises',
+      'quick to comfort and quicker to conceal'
+    ],
+    supportingBonds: [
+      { protagonist: 'cooperative', counterpart: 'ambiguous', pressure: 'subordinate' },
+      { protagonist: 'familial', counterpart: 'cooperative', pressure: 'fearful' },
+      { protagonist: 'protective', counterpart: 'professional', pressure: 'dependent' },
+      { protagonist: 'uneasy', counterpart: 'conflictual', pressure: 'hierarchical' },
+      { protagonist: 'loyal', counterpart: 'cautious', pressure: 'resentful' },
+      { protagonist: 'witnessing', counterpart: 'allied', pressure: 'subordinate' }
+    ],
+    locationNames: ['Greymarket Steps', 'The Flood Chapel Yard', 'Ravelin Ferry Office', 'The Drowned Registry Annex', 'Saltglass Walk'],
+    locationSensoryAnchors: ['wet stone and candle soot', 'tide-mud under polished shoes', 'brackish rope and carbon paper', 'mildew trapped in ledger cloth', 'river wind rattling metal shutters'],
+    locationSocialSignals: ['everyone lowers their voice before naming the dead', 'public pity and civic gossip mix without warning', 'small courtesies are used to slow every accusation', 'records speak more honestly than the people guarding them', 'the town keeps pretending the damage is temporary'],
+    locationSymbolicCharges: ['grief staged as procedure', 'mourning that has been made municipal', 'public service stretched over private rot', 'an archive swollen with selective memory', 'a promenade that remembers each evacuation'],
+    locationConflictUses: ['private pleading keeps colliding with civic performance', 'official compassion becomes a shield for delay', 'every corridor funnels people back toward the same compromise', 'the place turns evidence into accusation through mere proximity', 'shared space removes the luxury of private denial']
+  },
+  'detective-police': {
+    supportingNames: ['Mara Quill', 'Denton Fiske', 'Iris Vale', 'Galen Pryce', 'Orla Keen', 'Bram Sutter'],
+    supportingRoles: ['harbor clerk', 'forensic diver', 'mayoral aide', 'tow-yard keeper', 'records sergeant', 'dock union steward'],
+    supportingContradictions: [
+      'procedural in tone yet visibly afraid of clean evidence',
+      'helpful with access and evasive about motive',
+      'sharp with detail but loyal to the wrong office',
+      'cynical in speech yet stubbornly decent in action',
+      'disciplined under scrutiny and reckless in private',
+      'alert to danger yet addicted to bureaucratic cover'
+    ],
+    supportingBonds: [
+      { protagonist: 'professional', counterpart: 'cooperative', pressure: 'subordinate' },
+      { protagonist: 'wary', counterpart: 'allied', pressure: 'conflictual' },
+      { protagonist: 'uneasy', counterpart: 'professional', pressure: 'dependent' },
+      { protagonist: 'cooperative', counterpart: 'ambiguous', pressure: 'hierarchical' },
+      { protagonist: 'respectful', counterpart: 'competitive', pressure: 'fearful' },
+      { protagonist: 'allied', counterpart: 'cooperative', pressure: 'resentful' }
+    ],
+    locationNames: ['Lock Six Camera Deck', 'Harbor Salvage Shed', 'North Jetty Briefing Room', 'Brine Tunnel Records Cage', 'Coffer Slip Warehouse'],
+    locationSensoryAnchors: ['cold fluorescents over wet steel', 'rope fibers and diesel sheen', 'coffee gone metallic in paper cups', 'rust and printer heat', 'tidewater trapped under concrete'],
+    locationSocialSignals: ['everyone speaks in clipped inventory terms', 'the room respects only what can be tagged', 'rank still thinks volume can replace fact', 'records move only when someone higher panics', 'evidence and scrap share the same floor'],
+    locationSymbolicCharges: ['surveillance failing exactly where power wants darkness', 'salvage dressed up as routine disposal', 'command trying to close the case before language catches up', 'documentation treated like a second crime scene', 'a warehouse built for disappearance under fluorescent light'],
+    locationConflictUses: ['the setting turns delay into tactical interference', 'every doorway doubles as a custody threshold', 'public authority tries to shrink the scale of the crime', 'access itself becomes a measurable risk', 'physical evidence keeps forcing argument back into the material world']
+  },
+  'science-fiction': {
+    supportingNames: ['Lio Marr', 'Sera Dune', 'Tarin Vox', 'Nael Quist', 'Mirax Pell', 'Oren Sile'],
+    supportingRoles: ['lattice engineer', 'dock pilot', 'civic historian', 'coolant diver', 'vote archivist', 'maintenance ethicist'],
+    supportingContradictions: [
+      'precise with systems and erratic with trust',
+      'habitually ironic yet unable to tolerate engineered cruelty',
+      'obsessed with continuity but drawn to sabotage',
+      'obedient to protocol until someone touches memory itself',
+      'publicly careful and privately radical',
+      'fascinated by order yet haunted by its human debris'
+    ],
+    supportingBonds: [
+      { protagonist: 'technical-alliance', counterpart: 'cooperative', pressure: 'subordinate' },
+      { protagonist: 'ambiguous', counterpart: 'allied', pressure: 'fearful' },
+      { protagonist: 'professional', counterpart: 'witnessing', pressure: 'dependent' },
+      { protagonist: 'cooperative', counterpart: 'uneasy', pressure: 'conflictual' },
+      { protagonist: 'respectful', counterpart: 'professional', pressure: 'hierarchical' },
+      { protagonist: 'allied', counterpart: 'cooperative', pressure: 'resentful' }
+    ],
+    locationNames: ['Mnemonic Orchard Spine', 'Dockside Cooling Loop', 'Archive Halo Concourse', 'The Quiet Vote Chamber', 'Spoke Nine Transit Vein'],
+    locationSensoryAnchors: ['ozone under sterilized blossom air', 'frost against warm conduit glass', 'soft lattice hum below civic announcements', 'dustless seats and archived breath', 'magnetic vibration in the floor plates'],
+    locationSocialSignals: ['comfort has been engineered past the point of honesty', 'maintenance workers know the system better than legislators do', 'citizens speak like witnesses to an edited memory', 'the room was built to make dissent look accidental', 'movement is logged before motive can be stated'],
+    locationSymbolicCharges: ['an ecosystem designed to soothe political amputation', 'infrastructure carrying the station\'s hidden panic', 'public transit shaped like a circulatory lie', 'democracy stripped to a museum fragment', 'the station trying to route unrest as if it were waste heat'],
+    locationConflictUses: ['technical access becomes moral trespass', 'shared memory fails in the exact place everyone trusts most', 'the setting makes secrecy feel efficient until bodies re-enter the frame', 'the architecture converts delay into pacification', 'distance only sharpens the ethical cost']
+  },
+  fantasy: {
+    supportingNames: ['Sered Wyn', 'Ilya Thorn', 'Pella Vey', 'Orrin Slate', 'Mirael Dask', 'Torven Hale'],
+    supportingRoles: ['ward singer', 'grave keeper', 'hearth scribe', 'mountain scout', 'ash herbalist', 'oath witness'],
+    supportingContradictions: [
+      'devout in ritual and skeptical in private',
+      'gentle with the dead yet brutal about necessity',
+      'ceremonial in speech yet reckless with secrets',
+      'fearful of exile and hungry for rupture',
+      'humble before power and furious at what it has cost',
+      'patient with grief yet impatient with submission'
+    ],
+    supportingBonds: [
+      { protagonist: 'loyal', counterpart: 'cooperative', pressure: 'fearful' },
+      { protagonist: 'protective', counterpart: 'witnessing', pressure: 'subordinate' },
+      { protagonist: 'uneasy', counterpart: 'cooperative', pressure: 'dependent' },
+      { protagonist: 'allied', counterpart: 'ritual-bound', pressure: 'conflictual' },
+      { protagonist: 'familial', counterpart: 'allied', pressure: 'resentful' },
+      { protagonist: 'reverent', counterpart: 'cautious', pressure: 'hierarchical' }
+    ],
+    locationNames: ['Cinder Terrace Gate', 'The Ember Well', 'Slatewind Ossuary', 'Warding Orchard Hollow', 'Oathstone Causeway'],
+    locationSensoryAnchors: ['snow smoke and hot mineral ash', 'embers clicking under black water', 'cedar resin inside old bones', 'frost caught on rune-wire branches', 'wind dragging sparks across carved stone'],
+    locationSocialSignals: ['reverence is used to slow every forbidden question', 'the valley treats obedience as weather', 'ritual labor covers a lineage wound no one heals', 'children repeat the chants before they understand them', 'everyone listens for the mountain before speaking plainly'],
+    locationSymbolicCharges: ['inheritance held together by managed forgetting', 'purification made indistinguishable from sacrifice', 'ancestral beauty lined with coercion', 'protection fed by an unpaid debt', 'a threshold that measures who may remember aloud'],
+    locationConflictUses: ['ritual space makes disobedience instantly visible', 'the landscape keeps returning moral cost as weather', 'sacred architecture traps the argument in public view', 'every path forces proximity to the vow itself', 'the setting turns memory into an elemental pressure']
+  },
+  'romance-relational': {
+    supportingNames: ['Mara Bell', 'Juniper Hale', 'Owen Crest', 'Selene Ward', 'Noah Quill', 'Imogen Pike'],
+    supportingRoles: ['bindery foreman', 'museum registrar', 'paper conservator', 'gallery producer', 'estate solicitor', 'press mechanic'],
+    supportingContradictions: [
+      'warm in person yet managerial under pressure',
+      'romantically observant and professionally severe',
+      'precise with craft and clumsy with tenderness',
+      'helpful with logistics yet hungry for control',
+      'devoted to beauty and suspicious of vulnerability',
+      'careful in speech but sharp in private judgement'
+    ],
+    supportingBonds: [
+      { protagonist: 'cooperative', counterpart: 'professional', pressure: 'dependent' },
+      { protagonist: 'allied', counterpart: 'witnessing', pressure: 'subordinate' },
+      { protagonist: 'familial', counterpart: 'cooperative', pressure: 'fearful' },
+      { protagonist: 'ambiguous', counterpart: 'allied', pressure: 'conflictual' },
+      { protagonist: 'respectful', counterpart: 'professional', pressure: 'hierarchical' },
+      { protagonist: 'cooperative', counterpart: 'competitive', pressure: 'resentful' }
+    ],
+    locationNames: ['Ink Room Mezzanine', 'Riverside Binding Loft', 'Museum Crate Hall', 'The Proofing Balcony', 'Wick Market Arcade'],
+    locationSensoryAnchors: ['linseed ink and warm brass', 'paper dust in winter light', 'pine crates and linen gloves', 'lamp heat over trimmed signatures', 'damp brick and sugared coffee'],
+    locationSocialSignals: ['everyone keeps using practical language to avoid naming feeling', 'craft offers cover but not real distance', 'the room is arranged for collaboration no one can keep impersonal', 'small design decisions carry emotional memory', 'public praise threatens private caution'],
+    locationSymbolicCharges: ['shared labor dressed as neutral routine', 'repair mistaken for mere maintenance', 'display culture forcing intimacy into view', 'a workspace that remembers every unfinished touch', 'commerce offering a stage for confession'],
+    locationConflictUses: ['the setting keeps collapsing logistics into tenderness', 'the space removes any believable excuse for emotional distance', 'objects of craft turn into witnesses', 'public elegance sharpens private vulnerability', 'material beauty refuses to stay emotionally neutral']
+  }
+};
 
 function placeholder(entityType, stableId) {
   return `{{${entityType}:${stableId}}}`;
