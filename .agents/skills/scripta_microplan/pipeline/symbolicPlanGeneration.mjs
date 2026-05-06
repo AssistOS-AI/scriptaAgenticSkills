@@ -971,7 +971,7 @@ const PRIMARY_ENTITY_FALLBACKS = {
   'science-fiction': {
     protagonist: 'Elian Quill',
     counterpart: 'Yara Sen',
-    pressure: 'Councilor Mirax Pell',
+    pressure: 'Mirax Pell',
     primaryLocation: 'the mnemonic orchard on Nacre Station',
     secondaryLocation: 'the sealed archive airlock',
     organization: 'the Nacre station council',
