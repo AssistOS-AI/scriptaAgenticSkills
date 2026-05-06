@@ -8,13 +8,14 @@
   ],
   "dependsOn": [],
   "outputs": [
-    "<workspace>/macro/*.symbolic-plan.iter-*.md",
-    "<workspace>/chapters/*.symbolic-plan.iter-*.md",
-    "<workspace>/micro/*.symbolic-plan.iter-*.md"
+    "<workspace>/phase1-macro/*.symbolic-plan.iter-*.md",
+    "<workspace>/phase1-macro/entities.symbolic-map.iter-*.md",
+    "<workspace>/phase2-chapters/*.symbolic-plan.iter-*.md",
+    "<workspace>/phase3-micro/*.symbolic-plan.iter-*.md"
   ],
   "entrypoints": [
     "SKILL.md",
     "skill.mjs"
   ],
-  "selfContained": false
+  "selfContained": true
 }

@@ -10,11 +10,11 @@
     "scripta_validation_suite"
   ],
   "outputs": [
-    "<workspace>/validation/summary.validation.iter-*.json"
+    "<workspace>/phase6-validation/summary.validation.iter-*.md"
   ],
   "entrypoints": [
     "SKILL.md",
     "skill.mjs"
   ],
-  "selfContained": false
+  "selfContained": true
 }

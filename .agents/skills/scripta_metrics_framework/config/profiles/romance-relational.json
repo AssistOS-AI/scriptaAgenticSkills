@@ -1,0 +1,348 @@
+{
+  "label": "Romance / Relational",
+  "genreMode": "romance-relational",
+  "constraints": {
+    "centralIdea": {
+      "hookPatterns": [
+        "role-inversion",
+        "contradiction"
+      ],
+      "tensionSources": [
+        "mixed"
+      ]
+    },
+    "theme": {
+      "topics": [
+        "love-connection",
+        "identity-self",
+        "freedom-security"
+      ],
+      "moralShapes": [
+        "reconciliation",
+        "transformation",
+        "dilemma"
+      ]
+    },
+    "wisdom": {
+      "perspectiveModes": [
+        "single-perspective",
+        "multi-perspective"
+      ],
+      "opennessModes": [
+        "partially-open",
+        "open"
+      ]
+    },
+    "structure": {
+      "macroForms": [
+        "linear"
+      ],
+      "informationOrders": [
+        "chronological",
+        "flashback-rich"
+      ],
+      "causalDensities": [
+        "tight",
+        "moderate"
+      ]
+    },
+    "narrativeModel": {
+      "modelNames": [
+        "three-act",
+        "freytag"
+      ],
+      "adaptationStrengths": [
+        "adapted"
+      ],
+      "corePatterns": [
+        "relationship-tested-by-truth"
+      ]
+    },
+    "character": {
+      "protagonistArc": "positive-change",
+      "counterpartRole": "ally",
+      "conflictModes": [
+        "mixed"
+      ],
+      "relationshipTypes": [
+        "romantic",
+        "cooperative",
+        "ambiguous",
+        "rivalry"
+      ]
+    },
+    "worldbuilding": {
+      "domains": [
+        "society"
+      ],
+      "primaryRuleTypes": [
+        "social-norm"
+      ],
+      "secondaryRuleTypes": [
+        "social-norm"
+      ],
+      "magicDeterminacy": null
+    },
+    "chapter": {
+      "roleSequence3": [
+        "setup",
+        "reversal",
+        "culmination"
+      ],
+      "developmentModes": [
+        "psychological-pressure",
+        "escalation"
+      ],
+      "blockAlternation": "dialogue-description-interior-monologue-action-pause-dialogue-cliffhanger"
+    },
+    "sequence": {
+      "types": [
+        "courtship",
+        "recovery"
+      ],
+      "linkLogics": [
+        "causal",
+        "mixed"
+      ]
+    },
+    "content": {
+      "actionModes": [
+        "attempt",
+        "negotiation",
+        "revelation-act"
+      ],
+      "conflictTypes": [
+        "internal",
+        "mixed"
+      ],
+      "stakePattern": "autonomy-tenderness-trust-future"
+    },
+    "expression": {
+      "descriptionType": "mixed",
+      "descriptionFunction": "narrative",
+      "exchangeType": "question-answer",
+      "dialoguePurpose": "characterization",
+      "monologueFunction": "psychological-insight",
+      "monologueTexture": "reflective"
+    },
+    "rhythm": {
+      "suspenseType": "emotional",
+      "delayTechnique": "interruption",
+      "uncertaintyPattern": "honesty-vs-limit-unclear"
+    },
+    "arc": {
+      "arcAxis": "autonomy-vs-interdependence",
+      "motifFunction": "carry-emotional-history-through-work-objects",
+      "relationshipPattern": "productive-partnership-guarded-by-emotional-self-defense"
+    }
+  },
+  "commandPreferences": {
+    "arc": {
+      "allowedArcAxes": [
+        "autonomy-vs-interdependence",
+        "identity-under-dilemma-pressure"
+      ],
+      "allowedMotifFunctions": [
+        "carry-emotional-history-through-work-objects",
+        "turn-absence-into-visible-accusation"
+      ],
+      "preferredRelationshipPattern": "productive-partnership-guarded-by-emotional-self-defense"
+    },
+    "blueprint": {
+      "allowedEmotionalTracks": [
+        [
+          "anticipation",
+          "slight-tension",
+          "surprise",
+          "tension",
+          "satisfaction",
+          "bittersweet-release"
+        ]
+      ],
+      "allowedStakesLadders": [
+        "relational-risk-to-identity-cost"
+      ]
+    },
+    "central-idea": {
+      "allowedHookPatterns": [
+        "role-inversion",
+        "contradiction"
+      ],
+      "allowedTensionSources": [
+        "mixed"
+      ]
+    },
+    "chapter": {
+      "allowedRoles3": [
+        "setup",
+        "reversal",
+        "culmination"
+      ],
+      "allowedDevelopmentModes": [
+        "psychological-pressure",
+        "escalation"
+      ],
+      "preferredBlockAlternation": "dialogue-description-interior-monologue-action-pause-dialogue-cliffhanger"
+    },
+    "character": {
+      "allowedLiePatterns": [
+        "competence-replaces-vulnerability",
+        "control-prevents-loss"
+      ],
+      "allowedTruthPatterns": [
+        "interdependence-is-stronger-than-isolation",
+        "visible-cost-is-preferable-to-stable-falsehood"
+      ],
+      "allowedWoundPatterns": [
+        "earlier-abandonment-transformed-need-into-logistics"
+      ],
+      "allowedPressurePatterns": [
+        "every-useful-act-asks-whether-care-can-remain-impersonal"
+      ],
+      "protagonistArc": [
+        "positive-change"
+      ],
+      "counterpartRole": [
+        "ally"
+      ],
+      "allowedConflictModes": [
+        "mixed"
+      ],
+      "allowedRelationshipTypes": [
+        "romantic",
+        "cooperative",
+        "ambiguous",
+        "rivalry"
+      ]
+    },
+    "content": {
+      "allowedActionModes": [
+        "attempt",
+        "negotiation",
+        "revelation-act"
+      ],
+      "allowedConflictTypes": [
+        "internal",
+        "mixed"
+      ],
+      "allowedEventTypes": [
+        "discovery",
+        "revelation",
+        "loss",
+        "decision"
+      ],
+      "stakePattern": "autonomy-tenderness-trust-future"
+    },
+    "expression": {
+      "preferredDescriptionType": "mixed",
+      "preferredDescriptionFunction": "narrative",
+      "preferredExchangeType": "question-answer",
+      "preferredDialoguePurpose": "characterization",
+      "preferredMonologueFunction": "psychological-insight",
+      "preferredMonologueTexture": "reflective"
+    },
+    "narrative-model": {
+      "allowedModels": [
+        "three-act",
+        "freytag"
+      ],
+      "allowedAdaptations": [
+        "adapted"
+      ],
+      "allowedPatterns": [
+        "relationship-tested-by-truth"
+      ]
+    },
+    "plot": {
+      "allowedCategories": [
+        "relationship",
+        "information",
+        "event"
+      ],
+      "allowedSubtypes": [
+        "promise",
+        "secret",
+        "betrayal",
+        "memory",
+        "discovery",
+        "debt"
+      ],
+      "allowedDeviceTypes": [
+        "flashback",
+        "foreshadowing",
+        "delayed-reveal"
+      ]
+    },
+    "rhythm": {
+      "preferredSuspenseType": "emotional",
+      "preferredDelayTechnique": "interruption",
+      "preferredUncertaintyPattern": "honesty-vs-limit-unclear",
+      "preferredPauseFunction": "psychological",
+      "preferredAccelerationMode": "transition-skip"
+    },
+    "scene": {
+      "preferredFocalization": "internal-single",
+      "preferredShowingMode": "dialogic"
+    },
+    "sequence": {
+      "allowedTypes": [
+        "courtship",
+        "recovery"
+      ],
+      "allowedLinkLogics": [
+        "causal",
+        "mixed"
+      ],
+      "allowedTimeSpans": [
+        "continuous"
+      ]
+    },
+    "structure": {
+      "allowedMacroForms": [
+        "linear"
+      ],
+      "allowedInformationOrders": [
+        "chronological",
+        "flashback-rich"
+      ],
+      "allowedCausalDensities": [
+        "tight",
+        "moderate"
+      ]
+    },
+    "theme": {
+      "allowedTopics": [
+        "love-connection",
+        "identity-self",
+        "freedom-security"
+      ],
+      "allowedShapes": [
+        "reconciliation",
+        "transformation",
+        "dilemma"
+      ]
+    },
+    "wisdom": {
+      "allowedPerspectiveModes": [
+        "single-perspective",
+        "multi-perspective"
+      ],
+      "allowedOpennessModes": [
+        "partially-open",
+        "open"
+      ]
+    },
+    "worldbuilding": {
+      "allowedDomains": [
+        "society"
+      ],
+      "allowedRuleTypes": [
+        "social-norm"
+      ],
+      "allowedSecondaryRuleTypes": [
+        "social-norm"
+      ],
+      "magicDeterminacy": null
+    }
+  }
+}

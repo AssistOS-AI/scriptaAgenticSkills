@@ -1,0 +1,43 @@
+{
+  "domains": [
+    "physics",
+    "society",
+    "economy",
+    "technology",
+    "magic",
+    "metaphysics",
+    "time",
+    "geography",
+    "biology"
+  ],
+  "visibilityModes": [
+    "explicit",
+    "implicit",
+    "structural"
+  ],
+  "ruleTypes": [
+    "physical-limitation",
+    "social-norm",
+    "resource-scarcity",
+    "technological-restriction",
+    "metaphysical-cost",
+    "temporal-law"
+  ],
+  "magicDeterminacies": [
+    "hard",
+    "semi-hard",
+    "soft"
+  ],
+  "revealStrategies": [
+    "show-consequence-first-explain-cause-later",
+    "embed-rule-in-dialogue",
+    "show-exception-to-reveal-rule"
+  ],
+  "secondaryRuleTypes": [
+    "physical-limitation",
+    "social-norm",
+    "resource-scarcity",
+    "technological-restriction",
+    "metaphysical-cost"
+  ]
+}

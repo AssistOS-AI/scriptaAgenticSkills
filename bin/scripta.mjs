@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { parseArgs } from 'node:util';
-import { runStageCommand } from '../runtime/pipeline/runStageCommand.mjs';
+import { runStageCommand } from '../orchestration/runStageCommand.mjs';
 
 const subcommand = process.argv[2];
 const cliArgs = process.argv.slice(3);

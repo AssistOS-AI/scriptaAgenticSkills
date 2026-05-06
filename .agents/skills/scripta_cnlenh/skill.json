@@ -10,13 +10,14 @@
     "scripta_microplan"
   ],
   "outputs": [
-    "<workspace>/cnl/*.macro-refined-plan.iter-*.md",
-    "<workspace>/cnl/*.chapter-refined-plan.iter-*.md",
-    "<workspace>/cnl/*.micro-refined-plan.iter-*.md"
+    "<workspace>/phase4-cnl/*.macro-refined-plan.iter-*.md",
+    "<workspace>/phase4-cnl/*.chapter-refined-plan.iter-*.md",
+    "<workspace>/phase4-cnl/*.micro-refined-plan.iter-*.md",
+    "<workspace>/phase4-cnl/cnl-resolution.validation.iter-*.md"
   ],
   "entrypoints": [
     "SKILL.md",
     "skill.mjs"
   ],
-  "selfContained": false
+  "selfContained": true
 }

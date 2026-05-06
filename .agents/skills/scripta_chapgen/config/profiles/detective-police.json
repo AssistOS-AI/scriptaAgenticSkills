@@ -1,0 +1,347 @@
+{
+  "label": "Detective / Police",
+  "genreMode": "detective-police",
+  "constraints": {
+    "centralIdea": {
+      "hookPatterns": [
+        "what-if",
+        "hidden-truth"
+      ],
+      "tensionSources": [
+        "external",
+        "mixed"
+      ]
+    },
+    "theme": {
+      "topics": [
+        "power-corruption",
+        "freedom-security",
+        "identity-self"
+      ],
+      "moralShapes": [
+        "resistance",
+        "dilemma",
+        "corruption"
+      ]
+    },
+    "wisdom": {
+      "perspectiveModes": [
+        "single-perspective"
+      ],
+      "opennessModes": [
+        "partially-open",
+        "open"
+      ]
+    },
+    "structure": {
+      "macroForms": [
+        "linear"
+      ],
+      "informationOrders": [
+        "delayed-reveal",
+        "recontextualizing"
+      ],
+      "causalDensities": [
+        "tight"
+      ]
+    },
+    "narrativeModel": {
+      "modelNames": [
+        "three-act",
+        "freytag"
+      ],
+      "adaptationStrengths": [
+        "adapted"
+      ],
+      "corePatterns": [
+        "investigation-reveals-hidden-structure"
+      ]
+    },
+    "character": {
+      "protagonistArc": "tragic",
+      "counterpartRole": "witness",
+      "conflictModes": [
+        "external",
+        "mixed"
+      ],
+      "relationshipTypes": [
+        "conflictual",
+        "hierarchical",
+        "cooperative"
+      ]
+    },
+    "worldbuilding": {
+      "domains": [
+        "society"
+      ],
+      "primaryRuleTypes": [
+        "social-norm",
+        "resource-scarcity"
+      ],
+      "secondaryRuleTypes": [
+        "resource-scarcity"
+      ],
+      "magicDeterminacy": null
+    },
+    "chapter": {
+      "roleSequence3": [
+        "setup",
+        "investigation",
+        "culmination"
+      ],
+      "developmentModes": [
+        "investigation",
+        "confrontation"
+      ],
+      "blockAlternation": "action-dialogue-description-conflict-revelation-suspense-cliffhanger"
+    },
+    "sequence": {
+      "types": [
+        "investigation",
+        "confrontation-chain"
+      ],
+      "linkLogics": [
+        "causal"
+      ]
+    },
+    "content": {
+      "actionModes": [
+        "pursuit",
+        "negotiation",
+        "revelation-act"
+      ],
+      "conflictTypes": [
+        "external-society",
+        "mixed"
+      ],
+      "stakePattern": "justice-legitimacy-trust-safety"
+    },
+    "expression": {
+      "descriptionType": "setting",
+      "descriptionFunction": "narrative",
+      "exchangeType": "question-answer",
+      "dialoguePurpose": "information",
+      "monologueFunction": "characterization",
+      "monologueTexture": "fragmented"
+    },
+    "rhythm": {
+      "suspenseType": "cognitive",
+      "delayTechnique": "delayed-information",
+      "uncertaintyPattern": "evidence-vs-institution-unclear"
+    },
+    "arc": {
+      "arcAxis": "evidence-vs-institution",
+      "motifFunction": "link-concrete-to-moral-contamination",
+      "relationshipPattern": "professional-alliance-with-unequal-risk"
+    }
+  },
+  "commandPreferences": {
+    "arc": {
+      "allowedArcAxes": [
+        "evidence-vs-institution",
+        "identity-under-dilemma-pressure"
+      ],
+      "allowedMotifFunctions": [
+        "link-concrete-to-moral-contamination",
+        "make-system-control-materially-visible"
+      ],
+      "preferredRelationshipPattern": "professional-alliance-with-unequal-risk"
+    },
+    "blueprint": {
+      "allowedEmotionalTracks": [
+        [
+          "curiosity",
+          "intrigue",
+          "tension",
+          "mistrust",
+          "shock",
+          "relief"
+        ]
+      ],
+      "allowedStakesLadders": [
+        "evidence-to-accusation"
+      ]
+    },
+    "central-idea": {
+      "allowedHookPatterns": [
+        "what-if",
+        "hidden-truth"
+      ],
+      "allowedTensionSources": [
+        "external",
+        "mixed"
+      ]
+    },
+    "chapter": {
+      "allowedRoles3": [
+        "setup",
+        "investigation",
+        "culmination"
+      ],
+      "allowedDevelopmentModes": [
+        "investigation",
+        "confrontation"
+      ],
+      "preferredBlockAlternation": "action-dialogue-description-conflict-revelation-suspense-cliffhanger"
+    },
+    "character": {
+      "allowedLiePatterns": [
+        "procedure-ensures-justice",
+        "stability-justifies-concealment"
+      ],
+      "allowedTruthPatterns": [
+        "truth-requires-breaking-procedure",
+        "concealment-breeds-larger-collapse"
+      ],
+      "allowedWoundPatterns": [
+        "institutional-loyalty-once-seen-as-justice"
+      ],
+      "allowedPressurePatterns": [
+        "every-lawful-move-risks-proving-the-law-compromised"
+      ],
+      "protagonistArc": [
+        "tragic"
+      ],
+      "counterpartRole": [
+        "witness"
+      ],
+      "allowedConflictModes": [
+        "external",
+        "mixed"
+      ],
+      "allowedRelationshipTypes": [
+        "conflictual",
+        "hierarchical",
+        "cooperative"
+      ]
+    },
+    "content": {
+      "allowedActionModes": [
+        "pursuit",
+        "negotiation",
+        "revelation-act"
+      ],
+      "allowedConflictTypes": [
+        "external-society",
+        "mixed"
+      ],
+      "allowedEventTypes": [
+        "discovery",
+        "crime",
+        "deadline",
+        "revelation",
+        "reversal"
+      ],
+      "stakePattern": "justice-legitimacy-trust-safety"
+    },
+    "expression": {
+      "preferredDescriptionType": "setting",
+      "preferredDescriptionFunction": "narrative",
+      "preferredExchangeType": "question-answer",
+      "preferredDialoguePurpose": "information",
+      "preferredMonologueFunction": "characterization",
+      "preferredMonologueTexture": "fragmented"
+    },
+    "narrative-model": {
+      "allowedModels": [
+        "three-act",
+        "freytag"
+      ],
+      "allowedAdaptations": [
+        "adapted"
+      ],
+      "allowedPatterns": [
+        "investigation-reveals-hidden-structure"
+      ]
+    },
+    "plot": {
+      "allowedCategories": [
+        "information",
+        "physical-object",
+        "event"
+      ],
+      "allowedSubtypes": [
+        "evidence",
+        "document",
+        "secret",
+        "crime",
+        "deadline",
+        "betrayal"
+      ],
+      "allowedDeviceTypes": [
+        "chekhov-gun",
+        "red-herring",
+        "delayed-reveal"
+      ]
+    },
+    "rhythm": {
+      "preferredSuspenseType": "cognitive",
+      "preferredDelayTechnique": "delayed-information",
+      "preferredUncertaintyPattern": "evidence-vs-institution-unclear",
+      "preferredPauseFunction": "explanatory",
+      "preferredAccelerationMode": "pursuit-compression"
+    },
+    "scene": {
+      "preferredFocalization": "internal-single",
+      "preferredShowingMode": "direct-showing"
+    },
+    "sequence": {
+      "allowedTypes": [
+        "investigation",
+        "confrontation-chain"
+      ],
+      "allowedLinkLogics": [
+        "causal"
+      ],
+      "allowedTimeSpans": [
+        "continuous"
+      ]
+    },
+    "structure": {
+      "allowedMacroForms": [
+        "linear"
+      ],
+      "allowedInformationOrders": [
+        "delayed-reveal",
+        "recontextualizing"
+      ],
+      "allowedCausalDensities": [
+        "tight"
+      ]
+    },
+    "theme": {
+      "allowedTopics": [
+        "power-corruption",
+        "freedom-security",
+        "identity-self"
+      ],
+      "allowedShapes": [
+        "resistance",
+        "dilemma",
+        "corruption"
+      ]
+    },
+    "wisdom": {
+      "allowedPerspectiveModes": [
+        "single-perspective"
+      ],
+      "allowedOpennessModes": [
+        "partially-open",
+        "open"
+      ]
+    },
+    "worldbuilding": {
+      "allowedDomains": [
+        "society"
+      ],
+      "allowedRuleTypes": [
+        "social-norm",
+        "resource-scarcity"
+      ],
+      "allowedSecondaryRuleTypes": [
+        "resource-scarcity"
+      ],
+      "magicDeterminacy": null
+    }
+  }
+}

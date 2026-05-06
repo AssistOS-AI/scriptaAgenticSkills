@@ -1,4 +1,4 @@
-import { generateSymbolicSeed } from '../../../runtime/pipeline/symbolicPlanGeneration.mjs';
+import { generateSymbolicSeed } from './pipeline/symbolicPlanGeneration.mjs';
 
 export async function runSkill(options = {}) {
   return generateSymbolicSeed(options);

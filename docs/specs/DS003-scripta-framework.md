@@ -42,7 +42,7 @@ SCRIPTA must preserve traceability at every stage. Every artifact must retain st
 
 The framework must distinguish public project contracts from repository helper tooling. Internal helper skills may be used to author documents or bootstrap the repository, but they must not become public SCRIPTA subsystems in `docs/` or in the DS set.
 
-The current reference runtime is implemented at the repository root through `bin/scripta.mjs`, `runtime/`, and the SCRIPTA skill wrappers under `.agents/skills/`. It also ships with a generated `QA/` bundle that exercises the five baseline profiles end to end.
+The current reference implementation is exposed through `bin/scripta.mjs`, project orchestration under `orchestration/`, and fully self-contained SCRIPTA runtime skills under `.agents/skills/`. Each runtime skill keeps its own code, configs, and helper modules inside the skill folder so the folder can be copied into another repository without a shared root `runtime/` tree. The project also ships with a generated `QA/` bundle that exercises the five baseline profiles end to end.
 
 ## Decisions & Questions
 

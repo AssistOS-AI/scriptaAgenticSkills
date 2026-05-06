@@ -10,11 +10,11 @@
     "scripta_chapplan"
   ],
   "outputs": [
-    "<workspace>/micro/chapter-*.symbolic-plan.iter-*.md"
+    "<workspace>/phase3-micro/chapter-*.symbolic-plan.iter-*.md"
   ],
   "entrypoints": [
     "SKILL.md",
     "skill.mjs"
   ],
-  "selfContained": false
+  "selfContained": true
 }

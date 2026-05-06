@@ -35,7 +35,7 @@ MacroPlan, ChapPlan, and MicroPlan may orchestrate symbolic generation, rule-bas
 
 The stage model must be append-only. A downstream stage must write new files in its own stage folder or iteration namespace and must not silently overwrite upstream files. This rule exists so validators can compare stages, detect unresolved planning problems, and force better implementation through failing checks instead of through hidden mutation.
 
-Placeholder use is allowed only in early planning artifacts. Symbolic seed generation may emit tokens such as `{{character:protagonist-001}}` or `{{location:city-001}}`, but later stages must progressively resolve them. `cnl/`, `drafts/`, and `exports/` artifacts must not be treated as valid outputs if unresolved placeholders remain, unless the artifact is explicitly marked as a failure or diagnostic by the workflow.
+Placeholder use is allowed only in early planning artifacts. Symbolic seed generation may emit tokens such as `{{character:protagonist-001}}` or `{{location:city-001}}`, but later stages must progressively resolve them. `phase4-cnl/`, `phase5-drafts/`, and `phase8-exports/` artifacts must not be treated as valid outputs if unresolved placeholders remain, unless the artifact is explicitly marked as a failure or diagnostic by the workflow.
 
 Every stage must have a validation gate. At minimum, the gate must verify that:
 

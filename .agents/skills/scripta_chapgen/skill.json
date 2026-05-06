@@ -10,12 +10,11 @@
     "scripta_cnlenh"
   ],
   "outputs": [
-    "<workspace>/drafts/chapter-*.draft.iter-*.md",
-    "<workspace>/drafts/chapter-*.continuity.iter-*.json"
+    "<workspace>/phase5-drafts/chapter-*.draft.iter-*.md"
   ],
   "entrypoints": [
     "SKILL.md",
     "skill.mjs"
   ],
-  "selfContained": false
+  "selfContained": true
 }

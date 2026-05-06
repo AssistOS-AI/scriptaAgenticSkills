@@ -28,7 +28,7 @@ The workspace must be organized by stage so that plans, generated text, validati
 | `phase8-exports/` | Store source editorial outputs | source manuscript, source reader edition, source bundle |
 | `phase9-translations/` | Store translated publication outputs | translated HTML editions, translation traces, final edition bundles |
 
-Every artifact must carry a book identifier. Chapter-bound artifacts must also carry a chapter identifier, and paragraph-level or block-level outputs must preserve a stable local identifier when possible. The authored workspace root must also keep a human-authored `book-vision.md` file that acts as the narrative source packet for that book.
+Every artifact must carry a book identifier. Chapter-bound artifacts must also carry a chapter identifier, and paragraph-level or block-level outputs must preserve a stable local identifier when possible. The authored workspace root must also keep a human-authored `book-vision.md` file that acts as the narrative source packet for that book. The canonical QA campaign is allowed to keep those authored source packets separately under `QA/specs/<book-id>.md` and copy them into generated workspaces during regeneration. QA cleanup may clear generated stage folders and publication mirrors, but it must preserve the authored source packet.
 
 All plan files in `phase1-macro/`, `phase2-chapters/`, `phase3-micro/`, and `phase4-cnl/` must be Markdown-compatible CNL files whose command blocks begin with `@identifier verb`. Scripts must be able to discover plan intent by scanning those header lines and the fixed labeled lines that follow them, while LLMs must still be able to read the same files as natural text.
 
@@ -54,7 +54,7 @@ When a workspace lives under the canonical `QA/` root, the latest final reader e
 | `QA/books/metrics/<book-id>.html` | Latest per-book HTML metrics and issue dashboard |
 | `QA/books/index.html` and `QA/books/metrics/index.html` | Browsable entry points for the QA library |
 
-The `validation/` folder must contain five baseline validation profiles that can be reused across books and specialized into genre-specific variants. The initial baseline bundle must cover:
+The reference implementation must ship five baseline validation profiles inside its self-contained runtime skill configs so the same canonical bundle can be reused across books and specialized into genre-specific variants. The initial baseline bundle must cover:
 
 | Profile | Purpose |
 | --- | --- |
@@ -74,7 +74,7 @@ The workspace must never collapse reports into anonymous summaries. If a score i
 
 Response: The user asked for five baseline book specifications in the validation area and gave examples such as science fiction, drama, and police fiction. Fixing the baseline bundle gives the implementation a stable starting point for both generation and validation.
 
-### Question #2: Why does the workspace separate `validation/` and `reports/`?
+### Question #2: Why does the workspace separate `phase6-validation/` and `phase7-reports/`?
 
 Response: Validation stores check definitions, raw evidence, and intermediate outputs. Reports store revision-facing interpretations of that evidence. Keeping them separate avoids mixing computation traces with reader-facing diagnostics.
 
@@ -84,7 +84,7 @@ Response: The user explicitly wants stages to create new files rather than updat
 
 ### Question #4: Why does the workspace contract mention the QA public mirror even though the authoritative artifacts still live inside each book workspace?
 
-Response: The user explicitly wants to open the final books and metrics directly under `QA/books/`. That public mirror is not a replacement for the per-book workspace. It is a publication surface derived from the latest append-only workspace artifacts while `book-vision.md` remains the authored source inside each QA book folder.
+Response: The user explicitly wants to open the final books and metrics directly under `QA/books/`. That public mirror is not a replacement for the per-book workspace. It is a publication surface derived from the latest append-only workspace artifacts, while the authored source packet remains preserved either as `book-vision.md` inside a normal workspace or as a canonical QA spec under `QA/specs/`.
 
 ## Conclusion
 

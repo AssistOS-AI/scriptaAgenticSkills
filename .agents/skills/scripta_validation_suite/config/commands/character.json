@@ -1,0 +1,92 @@
+{
+  "complexities": [
+    "flat",
+    "round"
+  ],
+  "developmentTypes": [
+    "dynamic",
+    "static"
+  ],
+  "roles": [
+    "protagonist",
+    "antagonist",
+    "secondary",
+    "ally",
+    "mentor",
+    "witness",
+    "herald",
+    "shapeshifter",
+    "threshold-guardian",
+    "trickster",
+    "anti-hero"
+  ],
+  "arcs": [
+    "positive-change",
+    "negative-change",
+    "flat",
+    "corruption",
+    "redemption",
+    "tragic",
+    "circular"
+  ],
+  "archetypes": [
+    "hero",
+    "mentor",
+    "shadow",
+    "herald",
+    "shapeshifter",
+    "trickster",
+    "threshold-guardian",
+    "ally",
+    "mother-figure",
+    "father-figure",
+    "innocent",
+    "outcast"
+  ],
+  "relationshipTypes": [
+    "conflictual",
+    "cooperative",
+    "mentor-student",
+    "hierarchical",
+    "romantic",
+    "rivalry",
+    "ambiguous",
+    "betrayal-based",
+    "familial"
+  ],
+  "conflictModes": [
+    "internal",
+    "external",
+    "mixed"
+  ],
+  "liePatterns": [
+    "control-prevents-loss",
+    "distance-keeps-safety",
+    "procedure-ensures-justice",
+    "stability-justifies-concealment",
+    "inheritance-can-be-redeemed",
+    "competence-replaces-vulnerability"
+  ],
+  "truthPatterns": [
+    "visible-cost-is-preferable-to-stable-falsehood",
+    "shared-risk-creates-stronger-agency",
+    "truth-requires-breaking-procedure",
+    "concealment-breeds-larger-collapse",
+    "redemption-requires-relinquishment",
+    "interdependence-is-stronger-than-isolation"
+  ],
+  "woundPatterns": [
+    "old-compromise-that-shapes-every-choice",
+    "institutional-loyalty-once-seen-as-justice",
+    "trust-in-managed-systems-over-unstable-testimony",
+    "belonging-purchased-through-partial-blindness",
+    "earlier-abandonment-transformed-need-into-logistics"
+  ],
+  "pressurePatterns": [
+    "every-truthful-move-threatens-the-bond-being-saved",
+    "every-lawful-move-risks-proving-the-law-compromised",
+    "every-repair-exposes-the-politics-in-the-machine",
+    "every-truthful-act-burns-a-layer-of-inherited-shelter",
+    "every-useful-act-asks-whether-care-can-remain-impersonal"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "macroForms": [
+    "linear",
+    "nonlinear",
+    "circular",
+    "episodic",
+    "fragmented",
+    "in-medias-res-led",
+    "kishotenketsu-driven",
+    "frame-based"
+  ],
+  "informationOrders": [
+    "chronological",
+    "delayed-reveal",
+    "flashback-rich",
+    "parallel-threaded",
+    "recontextualizing"
+  ],
+  "causalDensities": [
+    "tight",
+    "moderate",
+    "loose"
+  ],
+  "causalRules": [
+    "every-major-choice-must-create-visible-consequence",
+    "every-reveal-must-change-the-moral-reading",
+    "every-escalation-must-narrow-the-safe-options"
+  ]
+}

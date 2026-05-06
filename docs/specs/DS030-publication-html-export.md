@@ -3,7 +3,7 @@ id: DS030
 title: Publication HTML Export
 status: implemented
 owner: repository
-summary: Defines the dependency-free single-file HTML edition contract shared by the source BookWriter stage and the downstream Translation Skill.
+summary: Defines the dependency-free single-file HTML edition contract that source and translation stages must reproduce independently.
 ---
 
 # DS030 Publication HTML Export
@@ -33,7 +33,7 @@ The edition must expose machine-readable metadata in a non-executable payload em
 
 The export must include print styling. A consumer must be able to print the file directly while preserving cover separation, chapter breaks, and readable typography without loading any external asset.
 
-English is the canonical source edition in the current reference runtime, and Romanian is the built-in translated edition. For other target languages, the contract requires the translation stage to preserve the requested language and translation instruction in the export metadata even when the visible narrative remains in a supported source language.
+English is the canonical source edition in the current reference implementation, and Romanian is the built-in translated edition. BookWriter and Translation Skill may keep separate renderer code inside their own skill folders, but both outputs must satisfy this same publication contract. For other target languages, the contract requires the translation stage to preserve the requested language and translation instruction in the export metadata even when the visible narrative remains in a supported source language.
 
 ## Decisions & Questions
 

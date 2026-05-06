@@ -1,0 +1,66 @@
+{
+  "roles": [
+    "setup",
+    "escalation",
+    "investigation",
+    "revelation",
+    "reversal",
+    "culmination",
+    "aftermath",
+    "bridge"
+  ],
+  "openingModes": [
+    "contextual-setup",
+    "in-medias-res",
+    "aftermath-entry",
+    "dialogue-entry",
+    "action-entry",
+    "mystery-entry"
+  ],
+  "developmentModes": [
+    "escalation",
+    "investigation",
+    "confrontation",
+    "pursuit",
+    "revelation-ladder",
+    "psychological-pressure"
+  ],
+  "closingModes": [
+    "partial-resolution",
+    "revelation",
+    "reversal",
+    "cliffhanger",
+    "aftermath",
+    "open-question"
+  ],
+  "rhythmNotes": [
+    "restrained",
+    "balanced",
+    "escalating",
+    "breathless",
+    "wave-like"
+  ],
+  "arcStages": [
+    "entry-instability",
+    "pressure-rise",
+    "evidence-gathering",
+    "meaning-shift",
+    "power-flip",
+    "irreversible-choice",
+    "changed-state-reading"
+  ],
+  "blockAlternationPatterns": [
+    "description-action-dialogue-pause-event-monologue",
+    "action-dialogue-description-conflict-revelation-suspense-cliffhanger",
+    "description-dialogue-action-interior-monologue-suspense-revelation-acceleration",
+    "description-action-dialogue-suspense-interior-monologue-revelation-pause",
+    "dialogue-description-interior-monologue-action-pause-dialogue-cliffhanger"
+  ],
+  "answerShiftPatterns": [
+    "from-assumed-stability-to-visible-fracture",
+    "from-suspicion-to-systemic-pattern",
+    "from-anomaly-to-designed-control",
+    "from-ritual-silence-to-personal-responsibility",
+    "from-professional-distance-to-emotional-risk"
+  ]
+}

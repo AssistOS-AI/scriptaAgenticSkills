@@ -1,0 +1,42 @@
+{
+  "showingModes": [
+    "direct-showing",
+    "compressed-showing",
+    "dialogic",
+    "introspective",
+    "mixed"
+  ],
+  "focalizations": [
+    "external",
+    "internal-single",
+    "internal-shifting",
+    "zero"
+  ],
+  "exitModes": [
+    "cliffhanger",
+    "handoff",
+    "transition",
+    "pause",
+    "reversal-cut"
+  ],
+  "sceneIntroductionPatterns": [
+    "old-pressure-leaks-into-routine",
+    "fresh-evidence-disturbs-composure",
+    "routine-becomes-emotionally-charged"
+  ],
+  "sceneDevelopmentPatterns": [
+    "small-gestures-narrow-the-field",
+    "pressure-complicates-every-attempt-to-act",
+    "each-response-makes-resolution-more-costly"
+  ],
+  "sceneConflictPatterns": [
+    "competing-needs-demand-incompatible-timings",
+    "knowledge-and-safety-become-impossible-to-keep-together",
+    "desire-exposes-what-routine-tried-to-keep-manageable"
+  ],
+  "sceneResolutionPatterns": [
+    "costly-decision-after-partial-truth",
+    "altered-leverage-and-rising-risk",
+    "irreversible-consequence-with-lasting-cost"
+  ]
+}

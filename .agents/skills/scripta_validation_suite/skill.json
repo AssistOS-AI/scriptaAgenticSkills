@@ -10,12 +10,12 @@
     "scripta_chapgen"
   ],
   "outputs": [
-    "<workspace>/validation/*.validation.iter-*.json",
-    "<workspace>/reports/*.report.iter-*.md"
+    "<workspace>/phase6-validation/*.validation.iter-*.md",
+    "<workspace>/phase7-reports/*.report.iter-*.md"
   ],
   "entrypoints": [
     "SKILL.md",
     "skill.mjs"
   ],
-  "selfContained": false
+  "selfContained": true
 }

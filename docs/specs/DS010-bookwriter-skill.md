@@ -27,7 +27,7 @@ The subsystem must support at least these finishing capabilities:
 | Translation-source bundle | Emit the structured source payload required by the Translation Skill |
 | Publication provenance | Preserve target-language requests and translation instructions without duplicating translation logic |
 
-The current reference runtime implements manuscript assembly, editorial smoothing, a canonical source reader edition, and a translation-source bundle. Downstream target-language editions are produced by the Translation Skill, which may ship fluent adapters for some languages and visible fallbacks for others.
+The current reference implementation embeds manuscript assembly, editorial smoothing, a canonical source reader edition, and a translation-source bundle inside the self-contained `scripta_bookwriter` skill folder. Downstream target-language editions are produced by the Translation Skill, which may ship fluent adapters for some languages and visible fallbacks for others.
 
 BookWriter must remain upstream of translation. It may prepare the source edition and the structured publication payload before validation runs, but it must not silently emit translated editions that bypass the dedicated translation stage.
 
@@ -59,7 +59,7 @@ Response: The user explicitly asked for translation to be disciplined, chunked, 
 
 ### Question #5: Why must BookWriter emit a structured source bundle instead of only the source HTML?
 
-Response: The Translation Skill needs more than rendered HTML. It needs stable chapter metadata, source paragraphs, and publication fields so translated editions can reuse the same template without scraping HTML back into structure.
+Response: The Translation Skill needs more than rendered HTML. It needs stable chapter metadata, source paragraphs, and publication fields so translated editions can reproduce the same DS030 publication contract without scraping HTML back into structure.
 
 ## Conclusion
 

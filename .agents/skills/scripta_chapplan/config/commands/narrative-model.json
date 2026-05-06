@@ -1,0 +1,32 @@
+{
+  "modelNames": [
+    "three-act",
+    "freytag",
+    "save-the-cat",
+    "heroic-journey",
+    "episodic",
+    "nonlinear",
+    "kishotenketsu",
+    "fragmented",
+    "in-medias-res",
+    "circular",
+    "frame",
+    "equilibrium-disruption-restoration"
+  ],
+  "adaptationStrengths": [
+    "faithful",
+    "adapted",
+    "hybridized"
+  ],
+  "corePatterns": [
+    "disruption-escalates-into-irreversible-choice",
+    "investigation-reveals-hidden-structure",
+    "desire-opposed-by-system",
+    "relationship-tested-by-truth"
+  ],
+  "transformationLogics": [
+    "protagonist-changes-while-system-reveals-hidden-logic",
+    "protagonist-changes-while-others-resist-change",
+    "relationship-transforms-under-pressure"
+  ]
+}

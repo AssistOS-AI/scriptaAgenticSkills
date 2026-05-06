@@ -10,14 +10,14 @@
     "scripta_chapgen"
   ],
   "outputs": [
-    "<workspace>/exports/manuscript.book.iter-*.md",
-    "<workspace>/exports/edition-en.reader.iter-*.html",
-    "<workspace>/exports/edition-ro.reader.iter-*.html",
-    "<workspace>/exports/editions.bundle.iter-*.json"
+    "<workspace>/phase8-exports/manuscript.book.iter-*.md",
+    "<workspace>/phase8-exports/edition-en.reader.iter-*.html",
+    "<workspace>/phase8-exports/translation-source.bundle.iter-*.md",
+    "<workspace>/phase8-exports/editions.bundle.iter-*.md"
   ],
   "entrypoints": [
     "SKILL.md",
     "skill.mjs"
   ],
-  "selfContained": false
+  "selfContained": true
 }

@@ -1,0 +1,48 @@
+{
+  "categories": [
+    "physical-object",
+    "information",
+    "relationship",
+    "event",
+    "abstract-concept"
+  ],
+  "subtypes": [
+    "artifact",
+    "key",
+    "document",
+    "weapon",
+    "secret",
+    "prophecy",
+    "evidence",
+    "memory",
+    "promise",
+    "debt",
+    "betrayal",
+    "inheritance",
+    "accident",
+    "crime",
+    "deadline",
+    "discovery",
+    "curse",
+    "blessing",
+    "revenge",
+    "destiny",
+    "fate"
+  ],
+  "functions": [
+    "conflict-generation",
+    "motivation",
+    "obstacle",
+    "revelation",
+    "redirection"
+  ],
+  "deviceTypes": [
+    "macguffin",
+    "chekhov-gun",
+    "red-herring",
+    "foreshadowing",
+    "flashback",
+    "flash-forward",
+    "delayed-reveal"
+  ]
+}

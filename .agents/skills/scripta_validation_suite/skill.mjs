@@ -1,4 +1,4 @@
-import { runValidationSuite } from '../../../runtime/pipeline/validationSuite.mjs';
+import { runValidationSuite } from './pipeline/validationSuite.mjs';
 
 export async function runSkill(options = {}) {
   return runValidationSuite(options);

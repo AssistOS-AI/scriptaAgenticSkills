@@ -39,13 +39,15 @@ The helper skills in `.agents/skills/` may be used while writing specifications,
 
 ## Runtime Defaults
 
-The repository now exposes a root SCRIPTA runtime through `bin/scripta.mjs`, `runtime/`, and the implemented SCRIPTA skill wrappers under `.agents/skills/`. The reference runtime is deterministic and testable end to end. It preserves the indirect-skill stage contract and leaves room for future remote LLM adapters without changing the append-only workspace model.
+The repository now exposes a root SCRIPTA CLI through `bin/scripta.mjs`, project-level orchestration under `orchestration/`, and fully self-contained runtime skills under `.agents/skills/`. Each SCRIPTA runtime skill keeps its own code, configs, and helper modules inside the skill folder so it can be copied into another repository without a shared root `runtime/` tree. The reference implementation remains deterministic and testable end to end while preserving the indirect-skill stage contract and the append-only workspace model.
 
-Current documentation verification still relies on the standalone Node-based helpers shipped with `gamp_specs`. The SCRIPTA runtime itself is exercised with `npm test` and through the generated `QA/` workspaces. Future SCRIPTA scripts and validators must remain traceable, modular, and aligned with the per-book workspace structure defined in the DS set.
+Current documentation verification still relies on the standalone Node-based helpers shipped with `gamp_specs`. The SCRIPTA implementation itself is exercised with `npm test` and through the generated `QA/` workspaces. Future SCRIPTA scripts and validators must remain traceable, modular, and aligned with the per-book workspace structure defined in the DS set.
 
 The active helper-skill path is `.agents/skills/`. Do not recreate or update a `.claude/` mirror unless the repository requirements explicitly reintroduce one.
 
 SCRIPTA planning is append-only by stage. When future code is added, stage tools and skills must create successor artifacts instead of overwriting earlier plan files, because validation depends on comparing symbolic seeds, refined plans, and drafts across stages.
+
+The canonical QA campaign now keeps its authored source packets under `QA/specs/` as `<book-id>.md` files. Before regenerating QA workspaces, use `QA/clean.js` so the generated workspaces and publication mirrors are removed while the authored QA specs remain intact.
 
 ## Key Paths
 
@@ -56,7 +58,9 @@ SCRIPTA planning is append-only by stage. When future code is added, stage tools
 - `docs/specsLoader.html?spec=matrix.md`
 - `docs/specs/`
 - `bin/scripta.mjs`
-- `runtime/`
+- `orchestration/`
 - `QA/`
+- `QA/specs/`
+- `QA/clean.js`
 - `.agents/skills/`
 - `fileSizesCheck.sh`

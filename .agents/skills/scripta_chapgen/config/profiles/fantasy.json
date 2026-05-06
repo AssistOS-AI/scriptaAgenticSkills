@@ -1,0 +1,347 @@
+{
+  "label": "Fantasy",
+  "genreMode": "fantasy",
+  "constraints": {
+    "centralIdea": {
+      "hookPatterns": [
+        "forbidden-combination",
+        "hidden-truth"
+      ],
+      "tensionSources": [
+        "mixed"
+      ]
+    },
+    "theme": {
+      "topics": [
+        "redemption",
+        "identity-self",
+        "good-evil"
+      ],
+      "moralShapes": [
+        "sacrifice",
+        "transformation",
+        "reconciliation"
+      ]
+    },
+    "wisdom": {
+      "perspectiveModes": [
+        "multi-perspective"
+      ],
+      "opennessModes": [
+        "open"
+      ]
+    },
+    "structure": {
+      "macroForms": [
+        "linear"
+      ],
+      "informationOrders": [
+        "chronological",
+        "delayed-reveal"
+      ],
+      "causalDensities": [
+        "tight"
+      ]
+    },
+    "narrativeModel": {
+      "modelNames": [
+        "heroic-journey",
+        "freytag"
+      ],
+      "adaptationStrengths": [
+        "adapted"
+      ],
+      "corePatterns": [
+        "desire-opposed-by-system",
+        "disruption-escalates-into-irreversible-choice"
+      ]
+    },
+    "character": {
+      "protagonistArc": "redemption",
+      "counterpartRole": "witness",
+      "conflictModes": [
+        "mixed"
+      ],
+      "relationshipTypes": [
+        "conflictual",
+        "mentor-student",
+        "familial",
+        "cooperative"
+      ]
+    },
+    "worldbuilding": {
+      "domains": [
+        "magic"
+      ],
+      "primaryRuleTypes": [
+        "metaphysical-cost"
+      ],
+      "secondaryRuleTypes": [
+        "metaphysical-cost"
+      ],
+      "magicDeterminacy": "semi-hard"
+    },
+    "chapter": {
+      "roleSequence3": [
+        "setup",
+        "revelation",
+        "culmination"
+      ],
+      "developmentModes": [
+        "escalation",
+        "confrontation"
+      ],
+      "blockAlternation": "description-action-dialogue-suspense-interior-monologue-revelation-pause"
+    },
+    "sequence": {
+      "types": [
+        "training",
+        "confrontation-chain"
+      ],
+      "linkLogics": [
+        "causal",
+        "mixed"
+      ]
+    },
+    "content": {
+      "actionModes": [
+        "pursuit",
+        "attempt",
+        "sacrifice"
+      ],
+      "conflictTypes": [
+        "external-supernatural",
+        "mixed"
+      ],
+      "stakePattern": "lineage-survival-legitimacy-cost"
+    },
+    "expression": {
+      "descriptionType": "symbolic",
+      "descriptionFunction": "symbolic",
+      "exchangeType": "conflictual",
+      "dialoguePurpose": "tension",
+      "monologueFunction": "psychological-insight",
+      "monologueTexture": "reflective"
+    },
+    "rhythm": {
+      "suspenseType": "situational",
+      "delayTechnique": "foreshadowing",
+      "uncertaintyPattern": "sacrifice-vs-release-unclear"
+    },
+    "arc": {
+      "arcAxis": "redemption-vs-inheritance",
+      "motifFunction": "bind-inheritance-to-cost-and-memory",
+      "relationshipPattern": "oath-bound-cooperation-shadowed-by-allegiance"
+    }
+  },
+  "commandPreferences": {
+    "arc": {
+      "allowedArcAxes": [
+        "redemption-vs-inheritance",
+        "identity-under-dilemma-pressure"
+      ],
+      "allowedMotifFunctions": [
+        "bind-inheritance-to-cost-and-memory",
+        "make-system-control-materially-visible"
+      ],
+      "preferredRelationshipPattern": "oath-bound-cooperation-shadowed-by-allegiance"
+    },
+    "blueprint": {
+      "allowedEmotionalTracks": [
+        [
+          "curiosity",
+          "anticipation",
+          "tension",
+          "fear",
+          "bittersweet-release"
+        ]
+      ],
+      "allowedStakesLadders": [
+        "inheritance-to-sacrifice"
+      ]
+    },
+    "central-idea": {
+      "allowedHookPatterns": [
+        "forbidden-combination",
+        "hidden-truth"
+      ],
+      "allowedTensionSources": [
+        "mixed"
+      ]
+    },
+    "chapter": {
+      "allowedRoles3": [
+        "setup",
+        "revelation",
+        "culmination"
+      ],
+      "allowedDevelopmentModes": [
+        "escalation",
+        "confrontation"
+      ],
+      "preferredBlockAlternation": "description-action-dialogue-suspense-interior-monologue-revelation-pause"
+    },
+    "character": {
+      "allowedLiePatterns": [
+        "inheritance-can-be-redeemed",
+        "stability-justifies-concealment"
+      ],
+      "allowedTruthPatterns": [
+        "redemption-requires-relinquishment",
+        "concealment-breeds-larger-collapse"
+      ],
+      "allowedWoundPatterns": [
+        "belonging-purchased-through-partial-blindness"
+      ],
+      "allowedPressurePatterns": [
+        "every-truthful-act-burns-a-layer-of-inherited-shelter"
+      ],
+      "protagonistArc": [
+        "redemption"
+      ],
+      "counterpartRole": [
+        "witness",
+        "ally"
+      ],
+      "allowedConflictModes": [
+        "mixed"
+      ],
+      "allowedRelationshipTypes": [
+        "conflictual",
+        "mentor-student",
+        "familial",
+        "cooperative"
+      ]
+    },
+    "content": {
+      "allowedActionModes": [
+        "pursuit",
+        "attempt",
+        "sacrifice"
+      ],
+      "allowedConflictTypes": [
+        "external-supernatural",
+        "mixed"
+      ],
+      "allowedEventTypes": [
+        "discovery",
+        "revelation",
+        "betrayal",
+        "loss",
+        "decision"
+      ],
+      "stakePattern": "lineage-survival-legitimacy-cost"
+    },
+    "expression": {
+      "preferredDescriptionType": "symbolic",
+      "preferredDescriptionFunction": "symbolic",
+      "preferredExchangeType": "conflictual",
+      "preferredDialoguePurpose": "tension",
+      "preferredMonologueFunction": "psychological-insight",
+      "preferredMonologueTexture": "reflective"
+    },
+    "narrative-model": {
+      "allowedModels": [
+        "heroic-journey",
+        "freytag"
+      ],
+      "allowedAdaptations": [
+        "adapted"
+      ],
+      "allowedPatterns": [
+        "desire-opposed-by-system",
+        "disruption-escalates-into-irreversible-choice"
+      ]
+    },
+    "plot": {
+      "allowedCategories": [
+        "physical-object",
+        "abstract-concept",
+        "relationship"
+      ],
+      "allowedSubtypes": [
+        "artifact",
+        "curse",
+        "blessing",
+        "prophecy",
+        "destiny",
+        "inheritance",
+        "promise"
+      ],
+      "allowedDeviceTypes": [
+        "foreshadowing",
+        "chekhov-gun",
+        "delayed-reveal"
+      ]
+    },
+    "rhythm": {
+      "preferredSuspenseType": "situational",
+      "preferredDelayTechnique": "foreshadowing",
+      "preferredUncertaintyPattern": "sacrifice-vs-release-unclear",
+      "preferredPauseFunction": "atmospheric",
+      "preferredAccelerationMode": "summary-burst"
+    },
+    "scene": {
+      "preferredFocalization": "internal-shifting",
+      "preferredShowingMode": "mixed"
+    },
+    "sequence": {
+      "allowedTypes": [
+        "training",
+        "recovery",
+        "confrontation-chain"
+      ],
+      "allowedLinkLogics": [
+        "causal",
+        "mixed"
+      ],
+      "allowedTimeSpans": [
+        "continuous"
+      ]
+    },
+    "structure": {
+      "allowedMacroForms": [
+        "linear"
+      ],
+      "allowedInformationOrders": [
+        "chronological",
+        "delayed-reveal"
+      ],
+      "allowedCausalDensities": [
+        "tight"
+      ]
+    },
+    "theme": {
+      "allowedTopics": [
+        "redemption",
+        "identity-self",
+        "good-evil"
+      ],
+      "allowedShapes": [
+        "sacrifice",
+        "transformation",
+        "reconciliation"
+      ]
+    },
+    "wisdom": {
+      "allowedPerspectiveModes": [
+        "multi-perspective"
+      ],
+      "allowedOpennessModes": [
+        "open"
+      ]
+    },
+    "worldbuilding": {
+      "allowedDomains": [
+        "magic"
+      ],
+      "allowedRuleTypes": [
+        "metaphysical-cost"
+      ],
+      "allowedSecondaryRuleTypes": [
+        "metaphysical-cost"
+      ],
+      "magicDeterminacy": "semi-hard"
+    }
+  }
+}

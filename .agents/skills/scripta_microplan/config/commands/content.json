@@ -1,0 +1,45 @@
+{
+  "actionModes": [
+    "attempt",
+    "pursuit",
+    "evasion",
+    "negotiation",
+    "revelation-act",
+    "sacrifice"
+  ],
+  "conflictTypes": [
+    "internal",
+    "external-character",
+    "external-society",
+    "external-nature",
+    "external-supernatural",
+    "external-technology",
+    "mixed"
+  ],
+  "eventTypes": [
+    "discovery",
+    "accident",
+    "crime",
+    "deadline",
+    "revelation",
+    "betrayal",
+    "reversal",
+    "loss",
+    "arrival",
+    "decision"
+  ],
+  "stakePatterns": [
+    "identity-dignity-belonging-consequence",
+    "justice-legitimacy-trust-safety",
+    "freedom-consent-memory-agency",
+    "lineage-survival-legitimacy-cost",
+    "autonomy-tenderness-trust-future"
+  ],
+  "escalationPatterns": [
+    "each-exchange-removes-a-safer-interpretation",
+    "each-answer-exposes-a-larger-structure",
+    "each-fix-proves-the-system-resists-challenge",
+    "each-revelation-increases-both-clarity-and-cost",
+    "each-useful-act-makes-neutrality-less-believable"
+  ]
+}

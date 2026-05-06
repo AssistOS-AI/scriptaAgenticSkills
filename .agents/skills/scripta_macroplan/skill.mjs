@@ -1,4 +1,4 @@
-import { runMacroPlan } from '../../../runtime/pipeline/macroPlan.mjs';
+import { runMacroPlan } from './pipeline/macroPlan.mjs';
 
 export async function runSkill(options = {}) {
   return runMacroPlan(options);

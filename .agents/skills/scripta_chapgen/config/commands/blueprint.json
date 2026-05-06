@@ -1,0 +1,31 @@
+{
+  "emotionalTokens": [
+    "curiosity",
+    "intrigue",
+    "slight-tension",
+    "tension",
+    "anticipation",
+    "mistrust",
+    "surprise",
+    "shock",
+    "fear",
+    "dread",
+    "sadness",
+    "relief",
+    "satisfaction",
+    "bittersweet-release",
+    "reflection"
+  ],
+  "stakesLadderPatterns": [
+    "private-to-public",
+    "relational-risk-to-identity-cost",
+    "evidence-to-accusation",
+    "anomaly-to-systemic-reveal",
+    "inheritance-to-sacrifice"
+  ],
+  "premiseTemplates": [
+    "protagonist-must-desire-while-facing-opposition",
+    "protagonist-must-choose-between-competing-needs",
+    "protagonist-faces-dilemma-where-every-choice-has-cost"
+  ]
+}

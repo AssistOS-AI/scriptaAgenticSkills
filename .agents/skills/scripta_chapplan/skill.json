@@ -10,11 +10,11 @@
     "scripta_macroplan"
   ],
   "outputs": [
-    "<workspace>/chapters/chapter-*.symbolic-plan.iter-*.md"
+    "<workspace>/phase2-chapters/chapter-*.symbolic-plan.iter-*.md"
   ],
   "entrypoints": [
     "SKILL.md",
     "skill.mjs"
   ],
-  "selfContained": false
+  "selfContained": true
 }

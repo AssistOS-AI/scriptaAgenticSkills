@@ -1,0 +1,22 @@
+{
+  "title": "SCRIPTA Translation",
+  "family": "anthropic",
+  "summary": "Translates the BookWriter source bundle in ordered chunks and emits append-only reader editions plus chunk traces.",
+  "aliases": [
+    "scripta_translation",
+    "scripta-translation"
+  ],
+  "dependsOn": [
+    "scripta_bookwriter"
+  ],
+  "outputs": [
+    "<workspace>/phase9-translations/edition-<lang>.reader.iter-*.html",
+    "<workspace>/phase9-translations/edition-<lang>.translation-trace.iter-*.md",
+    "<workspace>/phase9-translations/editions.bundle.iter-*.md"
+  ],
+  "entrypoints": [
+    "SKILL.md",
+    "skill.mjs"
+  ],
+  "selfContained": true
+}

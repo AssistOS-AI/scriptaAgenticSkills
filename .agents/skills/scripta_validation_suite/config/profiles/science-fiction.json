@@ -1,0 +1,345 @@
+{
+  "label": "Science Fiction",
+  "genreMode": "science-fiction",
+  "constraints": {
+    "centralIdea": {
+      "hookPatterns": [
+        "costed-power",
+        "what-if"
+      ],
+      "tensionSources": [
+        "mixed"
+      ]
+    },
+    "theme": {
+      "topics": [
+        "freedom-security",
+        "identity-self",
+        "power-corruption"
+      ],
+      "moralShapes": [
+        "dilemma",
+        "transformation",
+        "resistance"
+      ]
+    },
+    "wisdom": {
+      "perspectiveModes": [
+        "single-perspective",
+        "multi-perspective"
+      ],
+      "opennessModes": [
+        "open"
+      ]
+    },
+    "structure": {
+      "macroForms": [
+        "linear"
+      ],
+      "informationOrders": [
+        "chronological",
+        "delayed-reveal"
+      ],
+      "causalDensities": [
+        "tight"
+      ]
+    },
+    "narrativeModel": {
+      "modelNames": [
+        "equilibrium-disruption-restoration",
+        "three-act"
+      ],
+      "adaptationStrengths": [
+        "adapted",
+        "hybridized"
+      ],
+      "corePatterns": [
+        "desire-opposed-by-system"
+      ]
+    },
+    "character": {
+      "protagonistArc": "tragic",
+      "counterpartRole": "witness",
+      "conflictModes": [
+        "mixed"
+      ],
+      "relationshipTypes": [
+        "cooperative",
+        "hierarchical",
+        "conflictual"
+      ]
+    },
+    "worldbuilding": {
+      "domains": [
+        "technology"
+      ],
+      "primaryRuleTypes": [
+        "technological-restriction"
+      ],
+      "secondaryRuleTypes": [
+        "physical-limitation"
+      ],
+      "magicDeterminacy": "semi-hard"
+    },
+    "chapter": {
+      "roleSequence3": [
+        "setup",
+        "revelation",
+        "culmination"
+      ],
+      "developmentModes": [
+        "escalation",
+        "revelation-ladder"
+      ],
+      "blockAlternation": "description-dialogue-action-interior-monologue-suspense-revelation-acceleration"
+    },
+    "sequence": {
+      "types": [
+        "escape",
+        "investigation"
+      ],
+      "linkLogics": [
+        "causal",
+        "mixed"
+      ]
+    },
+    "content": {
+      "actionModes": [
+        "evasion",
+        "attempt",
+        "sacrifice"
+      ],
+      "conflictTypes": [
+        "external-technology",
+        "external-society",
+        "mixed"
+      ],
+      "stakePattern": "freedom-consent-memory-agency"
+    },
+    "expression": {
+      "descriptionType": "atmosphere",
+      "descriptionFunction": "atmospheric",
+      "exchangeType": "conflictual",
+      "dialoguePurpose": "tension",
+      "monologueFunction": "psychological-insight",
+      "monologueTexture": "reflective"
+    },
+    "rhythm": {
+      "suspenseType": "cognitive",
+      "delayTechnique": "foreshadowing",
+      "uncertaintyPattern": "safety-vs-freedom-unclear"
+    },
+    "arc": {
+      "arcAxis": "freedom-vs-system",
+      "motifFunction": "make-system-control-materially-visible",
+      "relationshipPattern": "technical-trust-without-moral-agreement"
+    }
+  },
+  "commandPreferences": {
+    "arc": {
+      "allowedArcAxes": [
+        "freedom-vs-system",
+        "identity-under-dilemma-pressure"
+      ],
+      "allowedMotifFunctions": [
+        "make-system-control-materially-visible",
+        "link-concrete-to-moral-contamination"
+      ],
+      "preferredRelationshipPattern": "technical-trust-without-moral-agreement"
+    },
+    "blueprint": {
+      "allowedEmotionalTracks": [
+        [
+          "intrigue",
+          "tension",
+          "surprise",
+          "dread",
+          "bittersweet-release"
+        ]
+      ],
+      "allowedStakesLadders": [
+        "anomaly-to-systemic-reveal"
+      ]
+    },
+    "central-idea": {
+      "allowedHookPatterns": [
+        "costed-power",
+        "what-if"
+      ],
+      "allowedTensionSources": [
+        "mixed"
+      ]
+    },
+    "chapter": {
+      "allowedRoles3": [
+        "setup",
+        "revelation",
+        "culmination"
+      ],
+      "allowedDevelopmentModes": [
+        "escalation",
+        "revelation-ladder"
+      ],
+      "preferredBlockAlternation": "description-dialogue-action-interior-monologue-suspense-revelation-acceleration"
+    },
+    "character": {
+      "allowedLiePatterns": [
+        "procedure-ensures-justice",
+        "control-prevents-loss"
+      ],
+      "allowedTruthPatterns": [
+        "concealment-breeds-larger-collapse",
+        "visible-cost-is-preferable-to-stable-falsehood"
+      ],
+      "allowedWoundPatterns": [
+        "trust-in-managed-systems-over-unstable-testimony"
+      ],
+      "allowedPressurePatterns": [
+        "every-repair-exposes-the-politics-in-the-machine"
+      ],
+      "protagonistArc": [
+        "tragic"
+      ],
+      "counterpartRole": [
+        "witness"
+      ],
+      "allowedConflictModes": [
+        "mixed"
+      ],
+      "allowedRelationshipTypes": [
+        "cooperative",
+        "hierarchical",
+        "conflictual"
+      ]
+    },
+    "content": {
+      "allowedActionModes": [
+        "evasion",
+        "attempt",
+        "sacrifice"
+      ],
+      "allowedConflictTypes": [
+        "external-technology",
+        "external-society",
+        "mixed"
+      ],
+      "allowedEventTypes": [
+        "discovery",
+        "deadline",
+        "revelation",
+        "decision"
+      ],
+      "stakePattern": "freedom-consent-memory-agency"
+    },
+    "expression": {
+      "preferredDescriptionType": "atmosphere",
+      "preferredDescriptionFunction": "atmospheric",
+      "preferredExchangeType": "conflictual",
+      "preferredDialoguePurpose": "tension",
+      "preferredMonologueFunction": "psychological-insight",
+      "preferredMonologueTexture": "reflective"
+    },
+    "narrative-model": {
+      "allowedModels": [
+        "equilibrium-disruption-restoration",
+        "three-act"
+      ],
+      "allowedAdaptations": [
+        "adapted",
+        "hybridized"
+      ],
+      "allowedPatterns": [
+        "desire-opposed-by-system"
+      ]
+    },
+    "plot": {
+      "allowedCategories": [
+        "information",
+        "abstract-concept",
+        "physical-object"
+      ],
+      "allowedSubtypes": [
+        "memory",
+        "discovery",
+        "secret",
+        "prophecy",
+        "artifact"
+      ],
+      "allowedDeviceTypes": [
+        "foreshadowing",
+        "delayed-reveal",
+        "chekhov-gun"
+      ]
+    },
+    "rhythm": {
+      "preferredSuspenseType": "cognitive",
+      "preferredDelayTechnique": "foreshadowing",
+      "preferredUncertaintyPattern": "safety-vs-freedom-unclear",
+      "preferredPauseFunction": "atmospheric",
+      "preferredAccelerationMode": "montage"
+    },
+    "scene": {
+      "preferredFocalization": "internal-single",
+      "preferredShowingMode": "mixed"
+    },
+    "sequence": {
+      "allowedTypes": [
+        "escape",
+        "investigation"
+      ],
+      "allowedLinkLogics": [
+        "causal",
+        "mixed"
+      ],
+      "allowedTimeSpans": [
+        "continuous",
+        "discontinuous"
+      ]
+    },
+    "structure": {
+      "allowedMacroForms": [
+        "linear"
+      ],
+      "allowedInformationOrders": [
+        "chronological",
+        "delayed-reveal"
+      ],
+      "allowedCausalDensities": [
+        "tight"
+      ]
+    },
+    "theme": {
+      "allowedTopics": [
+        "freedom-security",
+        "identity-self",
+        "power-corruption"
+      ],
+      "allowedShapes": [
+        "dilemma",
+        "transformation",
+        "resistance"
+      ]
+    },
+    "wisdom": {
+      "allowedPerspectiveModes": [
+        "single-perspective",
+        "multi-perspective"
+      ],
+      "allowedOpennessModes": [
+        "open"
+      ]
+    },
+    "worldbuilding": {
+      "allowedDomains": [
+        "technology"
+      ],
+      "allowedRuleTypes": [
+        "technological-restriction"
+      ],
+      "allowedSecondaryRuleTypes": [
+        "physical-limitation"
+      ],
+      "magicDeterminacy": "semi-hard"
+    }
+  }
+}

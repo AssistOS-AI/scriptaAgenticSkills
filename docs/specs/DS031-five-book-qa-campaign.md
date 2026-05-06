@@ -10,7 +10,7 @@ summary: Defines the canonical five-book QA campaign, the per-stage generation p
 
 ## Introduction
 
-This file defines the canonical QA campaign used to exercise the reference runtime. The campaign exists to prove that SCRIPTA can move five distinct literary profiles from symbolic seed generation to final HTML reader editions and evidence-backed revision tasks.
+This file defines the canonical QA campaign used to exercise the reference implementation. The campaign exists to prove that SCRIPTA can move five distinct literary profiles from symbolic seed generation to final HTML reader editions and evidence-backed revision tasks.
 
 ## Core Content
 
@@ -24,7 +24,7 @@ The QA campaign must always contain five authored QA workspaces, one for each ca
 | `qa-fantasy-ash` | `fantasy` | `novelette` |
 | `qa-romance-margins` | `romance-relational` | `novelette` |
 
-Each QA book workspace must be sourced from its own local `book-vision.md`. The `qa` command may discover those workspaces automatically, but it must not depend on a separate hardcoded runtime list of QA books.
+The QA campaign must keep its authored source packets under `QA/specs/<book-id>.md`, one file per canonical book. The `qa` command may discover those specs automatically, but it must not depend on a separate hardcoded runtime list of QA books. During generation, each spec must be copied into the generated workspace as `book-vision.md`. Before regeneration, `QA/clean.js` must remove generated workspaces, published books, and summary artifacts while preserving `QA/specs/`, so a fresh `qa` run proves that the campaign was rebuilt from the authored sources.
 
 Each book in the campaign must be able to run through the full stage chain:
 
@@ -62,7 +62,7 @@ The `qa` command must generate all five books end to end and then emit consolida
 | `qa-review.md` | Consolidated review snapshot across the campaign |
 | `qa-tasks.md` | Human-readable task list for the next remediation pass |
 
-Every per-book workspace produced by the campaign must include the source English HTML reader edition in `exports/`, the translated Romanian HTML reader edition in `translations/`, and validation summaries and task reports under `validation/` and `reports/`. After each QA regeneration, the public `QA/books/` library and `QA/books/metrics/` library must be refreshed from the latest workspace iterations.
+Every per-book workspace produced by the campaign must include the source English HTML reader edition in `phase8-exports/`, the translated Romanian HTML reader edition in `phase9-translations/`, and validation summaries and task reports under `phase6-validation/` and `phase7-reports/`. After each QA regeneration, the public `QA/books/` library and `QA/books/metrics/` library must be refreshed from the latest workspace iterations.
 
 ## Decisions & Questions
 
@@ -84,4 +84,4 @@ Response: The user explicitly asked for browsable HTML metric pages under `QA/bo
 
 ## Conclusion
 
-The canonical five-book QA campaign is the regression harness for the SCRIPTA runtime: it proves the stage pipeline, the source-plus-translation publication surface, and the revision loop in one repeatable package.
+The canonical five-book QA campaign is the regression harness for the SCRIPTA implementation: it proves the stage pipeline, the source-plus-translation publication surface, and the revision loop in one repeatable package.

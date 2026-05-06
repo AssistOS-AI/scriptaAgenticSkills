@@ -1,0 +1,29 @@
+{
+  "hookPatterns": [
+    "contradiction",
+    "what-if",
+    "forbidden-combination",
+    "hidden-truth",
+    "costed-power",
+    "role-inversion"
+  ],
+  "tensionSources": [
+    "internal",
+    "external",
+    "mixed"
+  ],
+  "namingStates": [
+    "placeholder",
+    "resolved"
+  ],
+  "audienceFits": [
+    "genre-readers",
+    "literary-readers",
+    "cross-genre-readers"
+  ],
+  "pitchTemplates": [
+    "protagonist-vs-opposition",
+    "desire-vs-cost",
+    "dilemma-as-question"
+  ]
+}

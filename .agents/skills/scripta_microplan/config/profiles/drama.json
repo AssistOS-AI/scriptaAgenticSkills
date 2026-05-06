@@ -1,0 +1,358 @@
+{
+  "label": "Drama",
+  "genreMode": "drama",
+  "constraints": {
+    "centralIdea": {
+      "hookPatterns": [
+        "hidden-truth",
+        "contradiction"
+      ],
+      "tensionSources": [
+        "internal",
+        "mixed"
+      ]
+    },
+    "theme": {
+      "topics": [
+        "identity-self",
+        "mortality-death",
+        "love-connection"
+      ],
+      "moralShapes": [
+        "transformation",
+        "reconciliation",
+        "resistance"
+      ]
+    },
+    "wisdom": {
+      "perspectiveModes": [
+        "single-perspective"
+      ],
+      "opennessModes": [
+        "open"
+      ]
+    },
+    "structure": {
+      "macroForms": [
+        "linear",
+        "fragmented"
+      ],
+      "informationOrders": [
+        "delayed-reveal",
+        "flashback-rich"
+      ],
+      "causalDensities": [
+        "tight",
+        "moderate"
+      ]
+    },
+    "narrativeModel": {
+      "modelNames": [
+        "freytag",
+        "three-act"
+      ],
+      "adaptationStrengths": [
+        "adapted"
+      ],
+      "corePatterns": [
+        "disruption-escalates-into-irreversible-choice",
+        "desire-opposed-by-system"
+      ]
+    },
+    "character": {
+      "protagonistArc": "tragic",
+      "counterpartRole": "witness",
+      "conflictModes": [
+        "internal",
+        "mixed"
+      ],
+      "relationshipTypes": [
+        "conflictual",
+        "cooperative",
+        "ambiguous",
+        "familial"
+      ]
+    },
+    "worldbuilding": {
+      "domains": [
+        "society"
+      ],
+      "primaryRuleTypes": [
+        "social-norm"
+      ],
+      "secondaryRuleTypes": [
+        "social-norm"
+      ],
+      "magicDeterminacy": null
+    },
+    "chapter": {
+      "roleSequence3": [
+        "setup",
+        "revelation",
+        "culmination"
+      ],
+      "developmentModes": [
+        "escalation",
+        "psychological-pressure"
+      ],
+      "blockAlternation": "description-action-dialogue-pause-event-monologue"
+    },
+    "sequence": {
+      "types": [
+        "recovery",
+        "confrontation-chain"
+      ],
+      "linkLogics": [
+        "causal",
+        "mixed"
+      ]
+    },
+    "content": {
+      "actionModes": [
+        "attempt",
+        "negotiation",
+        "revelation-act"
+      ],
+      "conflictTypes": [
+        "internal",
+        "external-society",
+        "mixed"
+      ],
+      "stakePattern": "identity-dignity-belonging-consequence"
+    },
+    "expression": {
+      "descriptionType": "atmosphere",
+      "descriptionFunction": "atmospheric",
+      "exchangeType": "conflictual",
+      "dialoguePurpose": "tension",
+      "monologueFunction": "psychological-insight",
+      "monologueTexture": "reflective"
+    },
+    "rhythm": {
+      "suspenseType": "emotional",
+      "delayTechnique": "mixed",
+      "uncertaintyPattern": "truth-vs-repair-unclear"
+    },
+    "arc": {
+      "arcAxis": "identity-under-dilemma-pressure",
+      "motifFunction": "turn-absence-into-visible-accusation",
+      "relationshipPattern": "careful-cooperation-strained-by-withheld-history"
+    }
+  },
+  "commandPreferences": {
+    "arc": {
+      "allowedArcAxes": [
+        "identity-under-dilemma-pressure",
+        "truth-vs-shelter"
+      ],
+      "allowedMotifFunctions": [
+        "turn-absence-into-visible-accusation",
+        "link-concrete-to-moral-contamination"
+      ],
+      "preferredRelationshipPattern": "careful-cooperation-strained-by-withheld-history"
+    },
+    "blueprint": {
+      "allowedEmotionalTracks": [
+        [
+          "curiosity",
+          "tension",
+          "surprise",
+          "shock",
+          "bittersweet-release"
+        ]
+      ],
+      "allowedStakesLadders": [
+        "private-to-public",
+        "relational-risk-to-identity-cost"
+      ]
+    },
+    "central-idea": {
+      "allowedHookPatterns": [
+        "hidden-truth",
+        "contradiction"
+      ],
+      "allowedTensionSources": [
+        "internal",
+        "mixed"
+      ]
+    },
+    "chapter": {
+      "allowedRoles3": [
+        "setup",
+        "revelation",
+        "culmination"
+      ],
+      "allowedDevelopmentModes": [
+        "escalation",
+        "psychological-pressure"
+      ],
+      "preferredBlockAlternation": "description-action-dialogue-pause-event-monologue"
+    },
+    "character": {
+      "allowedLiePatterns": [
+        "control-prevents-loss",
+        "distance-keeps-safety"
+      ],
+      "allowedTruthPatterns": [
+        "visible-cost-is-preferable-to-stable-falsehood",
+        "shared-risk-creates-stronger-agency"
+      ],
+      "allowedWoundPatterns": [
+        "old-compromise-that-shapes-every-choice"
+      ],
+      "allowedPressurePatterns": [
+        "every-truthful-move-threatens-the-bond-being-saved"
+      ],
+      "protagonistArc": [
+        "tragic"
+      ],
+      "counterpartRole": [
+        "witness"
+      ],
+      "allowedConflictModes": [
+        "internal",
+        "mixed"
+      ],
+      "allowedRelationshipTypes": [
+        "conflictual",
+        "cooperative",
+        "ambiguous",
+        "familial"
+      ]
+    },
+    "content": {
+      "allowedActionModes": [
+        "attempt",
+        "negotiation",
+        "revelation-act"
+      ],
+      "allowedConflictTypes": [
+        "internal",
+        "external-society",
+        "mixed"
+      ],
+      "allowedEventTypes": [
+        "discovery",
+        "revelation",
+        "betrayal",
+        "loss",
+        "decision"
+      ],
+      "stakePattern": "identity-dignity-belonging-consequence"
+    },
+    "expression": {
+      "preferredDescriptionType": "atmosphere",
+      "preferredDescriptionFunction": "atmospheric",
+      "preferredExchangeType": "conflictual",
+      "preferredDialoguePurpose": "tension",
+      "preferredMonologueFunction": "psychological-insight",
+      "preferredMonologueTexture": "reflective"
+    },
+    "narrative-model": {
+      "allowedModels": [
+        "freytag",
+        "three-act"
+      ],
+      "allowedAdaptations": [
+        "adapted"
+      ],
+      "allowedPatterns": [
+        "disruption-escalates-into-irreversible-choice",
+        "desire-opposed-by-system"
+      ]
+    },
+    "plot": {
+      "allowedCategories": [
+        "information",
+        "relationship",
+        "event"
+      ],
+      "allowedSubtypes": [
+        "secret",
+        "memory",
+        "promise",
+        "debt",
+        "betrayal",
+        "inheritance",
+        "document",
+        "evidence"
+      ],
+      "allowedDeviceTypes": [
+        "delayed-reveal",
+        "chekhov-gun",
+        "flashback"
+      ]
+    },
+    "rhythm": {
+      "preferredSuspenseType": "emotional",
+      "preferredDelayTechnique": "mixed",
+      "preferredUncertaintyPattern": "truth-vs-repair-unclear",
+      "preferredPauseFunction": "psychological",
+      "preferredAccelerationMode": "summary-burst"
+    },
+    "scene": {
+      "preferredFocalization": "internal-single",
+      "preferredShowingMode": "mixed"
+    },
+    "sequence": {
+      "allowedTypes": [
+        "recovery",
+        "confrontation-chain"
+      ],
+      "allowedLinkLogics": [
+        "causal",
+        "mixed"
+      ],
+      "allowedTimeSpans": [
+        "continuous",
+        "discontinuous"
+      ]
+    },
+    "structure": {
+      "allowedMacroForms": [
+        "linear",
+        "fragmented"
+      ],
+      "allowedInformationOrders": [
+        "delayed-reveal",
+        "flashback-rich"
+      ],
+      "allowedCausalDensities": [
+        "tight",
+        "moderate"
+      ]
+    },
+    "theme": {
+      "allowedTopics": [
+        "identity-self",
+        "mortality-death",
+        "love-connection"
+      ],
+      "allowedShapes": [
+        "transformation",
+        "reconciliation",
+        "resistance"
+      ]
+    },
+    "wisdom": {
+      "allowedPerspectiveModes": [
+        "single-perspective"
+      ],
+      "allowedOpennessModes": [
+        "open"
+      ]
+    },
+    "worldbuilding": {
+      "allowedDomains": [
+        "society"
+      ],
+      "allowedRuleTypes": [
+        "social-norm"
+      ],
+      "allowedSecondaryRuleTypes": [
+        "social-norm"
+      ],
+      "magicDeterminacy": null
+    }
+  }
+}

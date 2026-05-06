@@ -1,6 +1,6 @@
 # Specification Matrix
 
-Generated from DS frontmatter by `skills/gamp_specs/scripts/generate_specs_matrix.mjs`. Edit the DS files and rerun the generator instead of editing this file manually.
+Generated from DS frontmatter by repository tooling. Edit the DS files and rerun the generator instead of editing this file manually.
 
 | Specification | Title | Status | Owner | Summary |
 | --- | --- | --- | --- | --- |
@@ -34,6 +34,6 @@ Generated from DS frontmatter by `skills/gamp_specs/scripts/generate_specs_matri
 | [DS027](specsLoader.html?spec=DS027-expression-block-commands.md) | Expression Block Commands | [[status:planned]] | repository | Defines the CNL commands for description, dialogue, narration, and interior monologue. |
 | [DS028](specsLoader.html?spec=DS028-rhythm-block-commands.md) | Rhythm Block Commands | [[status:planned]] | repository | Defines the CNL commands for suspense, cliffhanger, narrative pause, acceleration, and block alternation. |
 | [DS029](specsLoader.html?spec=DS029-symbolic-plan-generation.md) | Symbolic Plan Generation | [[status:implemented]] | repository | Defines the deterministic and constrained-random CLI layer that generates the first iteration of SCRIPTA plan files before LLM refinement. |
-| [DS030](specsLoader.html?spec=DS030-publication-html-export.md) | Publication HTML Export | [[status:implemented]] | repository | Defines the dependency-free single-file HTML edition contract shared by the source BookWriter stage and the downstream Translation Skill. |
+| [DS030](specsLoader.html?spec=DS030-publication-html-export.md) | Publication HTML Export | [[status:implemented]] | repository | Defines the dependency-free single-file HTML edition contract that source and translation stages must reproduce independently. |
 | [DS031](specsLoader.html?spec=DS031-five-book-qa-campaign.md) | Five-Book QA Campaign | [[status:implemented]] | repository | Defines the canonical five-book QA campaign, the per-stage generation path, and the consolidated review outputs. |
-| [DS032](specsLoader.html?spec=DS032-translation-skill.md) | Translation Skill | [[status:implemented]] | repository | Defines the independent translation subsystem that consumes BookWriter source bundles, translates ordered text chunks, and re-renders final reader editions through the shared publication template. |
+| [DS032](specsLoader.html?spec=DS032-translation-skill.md) | Translation Skill | [[status:implemented]] | repository | Defines the independent translation subsystem that consumes BookWriter source bundles, translates ordered text chunks, and re-renders final reader editions to the DS030 publication contract. |

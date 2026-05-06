@@ -24,7 +24,7 @@ CNLEnh is the first stage that must normally resolve symbolic placeholders into 
 
 CNLEnh must write new refinement artifacts and must not mutate the seed files it consumed. A valid run therefore leaves both the symbolic seed and the enriched successor available for validation and comparison.
 
-The current reference runtime fulfills this stage through a deterministic refinement adapter that resolves placeholders from authored vision packets plus the symbolic entity map and appends refinement hints. When names become concrete, they must remain internationally portable proper names rather than locale-locked defaults or role-bearing pseudo-names. Future remote LLM adapters must preserve the same successor-artifact contract.
+The current reference implementation fulfills this stage through a deterministic refinement adapter embedded inside the self-contained `scripta_cnlenh` skill folder. It resolves placeholders from authored vision packets plus the symbolic entity map and appends refinement hints. When names become concrete, they must remain internationally portable proper names rather than locale-locked defaults or role-bearing pseudo-names. Future remote LLM adapters must preserve the same successor-artifact contract.
 
 The enhancement vocabulary must cover:
 

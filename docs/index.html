@@ -68,18 +68,22 @@
       </p>
 
       <p>
-        The current reference runtime is available through <code>bin/scripta.mjs</code>, covered by
-        deterministic unit tests, and demonstrated through five generated QA books under
-        <code>QA/</code>.
+        The current reference implementation is available through <code>bin/scripta.mjs</code>, with
+        project-level orchestration at <code>orchestration/</code> and self-contained runtime skills under
+        <code>.agents/skills/</code>. It is covered by deterministic unit tests and demonstrated through five
+        generated QA books under <code>QA/</code>, sourced from authored spec packets in
+        <code>QA/specs/</code>.
       </p>
 
       <p>
         BookWriter now emits the canonical source edition and a structured translation-source bundle, while
-        the independent Translation Skill produces Romanian reader editions through the same HTML template.
-        The QA root also exposes consolidated review artifacts such as <code>qa-review.md</code> and
-        <code>qa-tasks.md</code>, plus directly browsable final books under <code>QA/books/en/</code> and
-        <code>QA/books/ro/</code>. The same publication surface now includes per-book HTML dashboards under
-        <code>QA/books/metrics/</code>, refreshed on each QA regeneration.
+        the independent Translation Skill rebuilds Romanian reader editions with its own chunk-processing
+        tool and a skill-local renderer that still matches the DS030 publication contract. The QA root also
+        exposes consolidated review artifacts such as <code>qa-review.md</code> and <code>qa-tasks.md</code>,
+        plus directly browsable final books under <code>QA/books/en/</code> and <code>QA/books/ro/</code>.
+        The same publication surface now includes per-book HTML dashboards under
+        <code>QA/books/metrics/</code>, refreshed on each QA regeneration after
+        <code>QA/clean.js</code> clears the generated QA surface while keeping the authored specs.
       </p>
 
       <h2>Core subsystems</h2>

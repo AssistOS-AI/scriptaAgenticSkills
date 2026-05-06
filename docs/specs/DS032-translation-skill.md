@@ -3,7 +3,7 @@ id: DS032
 title: Translation Skill
 status: implemented
 owner: repository
-summary: Defines the independent translation subsystem that consumes BookWriter source bundles, translates ordered text chunks, and re-renders final reader editions through the shared publication template.
+summary: Defines the independent translation subsystem that consumes BookWriter source bundles, translates ordered text chunks, and re-renders final reader editions to the DS030 publication contract.
 ---
 
 # DS032 Translation Skill
@@ -14,7 +14,7 @@ The Translation Skill is the downstream publication subsystem that turns a BookW
 
 ## Core Content
 
-The Translation Skill must consume a structured source-edition bundle produced by BookWriter. That bundle must provide the canonical source edition, the requested target languages, the translation instructions, and the stable chapter metadata needed to rebuild the final HTML book without duplicating template logic.
+The Translation Skill must consume a structured source-edition bundle produced by BookWriter. That bundle must provide the canonical source edition, the requested target languages, the translation instructions, and the stable chapter metadata needed to rebuild the final HTML book without scraping structure back out of rendered HTML.
 
 The subsystem must support at least these capabilities:
 
@@ -23,15 +23,15 @@ The subsystem must support at least these capabilities:
 | Source bundle loading | Read the canonical edition produced by BookWriter |
 | Ordered chunk translation | Split translatable text into sequential chunks and translate them in order |
 | Translation trace output | Record chunk-by-chunk source/target pairs for auditability |
-| Shared-template rendering | Reuse the same final HTML renderer used by the source edition |
+| Publication-contract rendering | Rebuild the final HTML edition through skill-local renderer code that still satisfies `DS030` |
 | Language-aware fallback | Preserve requested language intent even when no fluent built-in adapter exists |
 | Append-only publication | Emit translated editions and bundle manifests as successor artifacts |
 
-Chunk translation must remain structured. The skill may segment by sentence, paragraph, or other deterministic boundaries, but it must preserve chunk order, reassemble the translated text in the same structural position, and record the chunk trace as a stage artifact.
+Chunk translation must remain structured. The skill may segment by sentence, paragraph, or other deterministic boundaries, but it must preserve chunk order, reassemble the translated text in the same structural position, and record the chunk trace as a stage artifact. The reference implementation must expose a translation-local chunk tool that appends the trace artifact chunk by chunk while the translated edition is being assembled.
 
-The current reference runtime implements a built-in Romanian translation path. Other target languages remain valid requests, but when no fluent adapter exists the skill must still emit a compliant reader edition that preserves the requested target language and the translation instruction in metadata while making the fallback visible.
+The current reference implementation embeds a built-in Romanian translation path inside the self-contained `scripta_translation` skill folder. Other target languages remain valid requests, but when no fluent adapter exists the skill must still emit a compliant reader edition that preserves the requested target language and the translation instruction in metadata while making the fallback visible.
 
-The Translation Skill must not own the HTML template independently. Source and translated editions must pass through a shared publication renderer so cover layout, metadata embedding, print CSS, table of contents structure, and chapter anchors remain identical across languages except where the content itself differs.
+The Translation Skill must not invent a divergent publication surface. It may keep its own local renderer code inside the skill folder, but the translated edition must satisfy the same `DS030` HTML contract as the source edition so cover layout, metadata embedding, print CSS, table of contents structure, and chapter anchors remain aligned across languages except where the content itself differs.
 
 When a workspace belongs to the canonical QA campaign, the Translation Skill must cooperate with validation and publication so the latest translated editions are mirrored into `QA/books/<lang>/` together with the matching metrics page.
 
@@ -45,9 +45,9 @@ Response: The user explicitly asked for disciplined translation as an independen
 
 Response: Translation quality problems are difficult to debug when only the final reader file survives. Chunk traces preserve sequence, make leakage visible, and give validation a concrete audit surface.
 
-### Question #3: Why does the translation stage reuse the same renderer instead of shipping its own HTML template?
+### Question #3: Why does the translation stage target the same publication contract instead of inventing a translation-only template?
 
-Response: The user explicitly rejected duplicated HTML templates between generation and translation. A shared renderer ensures that layout drift does not become a second translation problem.
+Response: The user explicitly rejected layout drift between source and translated editions. Even when BookWriter and Translation Skill keep separate local renderer code for portability, both must still target the same `DS030` contract so translation does not create a second formatting problem.
 
 ### Question #4: Why are unsupported languages still part of the contract?
 
@@ -55,4 +55,4 @@ Response: The public pipeline must preserve target-language intent even before e
 
 ## Conclusion
 
-The Translation Skill must remain a traceable, append-only, shared-template publication stage that converts a canonical source edition into translated reader editions without blurring generation and translation responsibilities.
+The Translation Skill must remain a traceable, append-only publication stage that converts a canonical source edition into translated reader editions without blurring generation and translation responsibilities or diverging from the DS030 HTML contract.

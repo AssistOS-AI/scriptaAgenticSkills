@@ -1,4 +1,4 @@
-import { runBookWriter } from '../../../runtime/pipeline/bookWriter.mjs';
+import { runBookWriter } from './pipeline/bookWriter.mjs';
 
 export async function runSkill(options = {}) {
   return runBookWriter(options);
