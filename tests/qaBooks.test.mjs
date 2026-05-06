@@ -43,6 +43,8 @@ test('QA generation emits consolidated review and task artifacts', async () => {
       assert.ok((romanianBook.match(/<p>/g) ?? []).length >= 140);
       assert.match(englishBook, /\b(says|asks|replies|warns|admits|teases|cuts in)\b/);
       assert.match(romanianBook, /\b(spune|replica|raspunde|avertizeaza|murmura|adauga|marturiseste|rosteste)\b/);
+      assert.doesNotMatch(englishBook, /Generated with|Translation instruction/);
+      assert.doesNotMatch(romanianBook, /Generat cu|Instructiune de traducere/);
       const detectiveRoTitles = [...romanianDetectiveBook.matchAll(/<li><a href="#chapter-\d+">Capitolul \d+ — ([^<]+)<\/a>/g)].map((match) => match[1]);
       const detectiveEnTitles = [...englishDetectiveBook.matchAll(/<li><a href="#chapter-\d+">Chapter \d+ — ([^<]+)<\/a>/g)].map((match) => match[1]);
       assert.equal(new Set(detectiveRoTitles).size, detectiveRoTitles.length);

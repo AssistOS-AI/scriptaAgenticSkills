@@ -20,10 +20,12 @@ test('full pipeline generates drafts, exports, and validation without placeholde
     const summaryPath = (await listLatestStageArtifacts(result.options.workspaceRoot, 'validation', 'validation')).find((artifact) => artifact.baseName === 'summary')?.filePath;
     const reportPath = (await listLatestStageArtifacts(result.options.workspaceRoot, 'reports', 'report')).find((artifact) => artifact.baseName === 'summary')?.filePath;
     const manuscriptPath = (await listLatestStageArtifacts(result.options.workspaceRoot, 'exports')).find((artifact) => artifact.baseName === 'manuscript' && artifact.label === 'book')?.filePath;
+    const draftPath = (await listLatestStageArtifacts(result.options.workspaceRoot, 'drafts', 'draft')).find((artifact) => artifact.baseName === 'chapter-001')?.filePath;
     const tasksReportPath = (await listLatestStageArtifacts(result.options.workspaceRoot, 'reports', 'report')).find((artifact) => artifact.baseName === 'tasks')?.filePath;
     const summary = await readStructuredMarkdown(summaryPath, {});
     const report = await readFile(reportPath, 'utf8');
     const manuscript = await readFile(manuscriptPath, 'utf8');
+    const draft = await readFile(draftPath, 'utf8');
     const tasksReport = await readFile(tasksReportPath, 'utf8');
 
     assert.equal(summary.bookId, 'pipeline-book');
@@ -31,11 +33,13 @@ test('full pipeline generates drafts, exports, and validation without placeholde
     assert.equal(summary.exportAudit.score, 100);
     assert.match(report, /Validation report/);
     assert.match(tasksReport, /Revision tasks/);
+    assert.match(draft, /<!-- scripta-draft-data/);
     assert.doesNotMatch(manuscript, /\{\{/);
     assert.doesNotMatch(manuscript, /\$[A-Za-z][A-Za-z0-9_-]*/);
-    assert.match(manuscript, /Nothing that has opened here will close easily\.|understands now that/);
+    assert.match(manuscript, /"[^"]+," (?:says|asks|warns|counters|presses|insists)/);
     assert.doesNotMatch(manuscript, /By the end of the chapter/);
     assert.doesNotMatch(manuscript, /The chapter question is/);
+    assert.doesNotMatch(manuscript, /The immediate result is|A hint for the dialogue line/);
   } finally {
     await workspace.cleanup();
   }
