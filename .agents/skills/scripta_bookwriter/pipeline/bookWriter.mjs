@@ -337,7 +337,7 @@ function buildEditionChapter(model, chapter, languageCode) {
 
   if (firstScene) {
     const location = localizeBookText(firstScene['time-space'], languageCode);
-    const placeSignal = sentenceCase(chapterLocationSignal || chapterLocationSymbol);
+    const placeSignal = stripTerminalPunctuation(sentenceCase(chapterLocationSignal || chapterLocationSymbol));
     if (languageCode === 'ro') {
       pushUniqueParagraph(paragraphs,
         `${firstScene.participants[0]} ajunge ${locationPhrase(location, languageCode)}, unde ${profileFlavor.atmosphere}. ${placeSignal ? `${placeSignal}.` : ''} ${firstScene.participants[1]} citeste prea atent incaperea, iar ${firstScene.participants[2]} tine in viata versiunea de evenimente pe care ceilalti ar prefera sa o creada.`.replace(/\s+/g, ' ').trim()
@@ -353,26 +353,26 @@ function buildEditionChapter(model, chapter, languageCode) {
     const introduction = normalizeNarrativePhrase(scene.introduction, languageCode);
     const development = normalizeNarrativePhrase(scene.development, languageCode);
     const conflict = normalizeNarrativePhrase(scene.conflict, languageCode);
-    const trigger = sentenceCase(localizeBookText(scene.event.trigger ?? model.plotElement.activation ?? '', languageCode));
+    const trigger = stripTerminalPunctuation(sentenceCase(localizeBookText(scene.event.trigger ?? model.plotElement.activation ?? '', languageCode)));
     const impact = sentenceCase(localizeBookText(scene.event.impact ?? scene.stateChange ?? '', languageCode));
     const resolution = normalizeNarrativePhrase(scene.resolution, languageCode);
 
     if (languageCode === 'ro') {
       pushUniqueParagraph(paragraphs, buildNarrativeParagraph([
-        index === 0 ? `${introduction}.` : `Mai tarziu, ${introduction.toLowerCase()}.`,
+        index === 0 ? `${introduction}.` : `Mai tarziu, ${continueSentence(introduction)}.`,
         development ? `${development}.` : '',
         `${conflict}.`,
-        trigger && impact ? `Cand ${lowerFirst(trigger)}, ${lowerFirst(stripTerminalPeriod(impact))}.` : '',
+        trigger && impact ? `Cand ${lowerFirst(trigger)}, ${lowerFirst(stripTerminalPunctuation(impact))}.` : '',
         resolution ? `${resolution}.` : ''
       ]));
       return;
     }
 
     pushUniqueParagraph(paragraphs, buildNarrativeParagraph([
-      index === 0 ? `${introduction}.` : `Later, ${introduction.toLowerCase()}.`,
+      index === 0 ? `${introduction}.` : `Later, ${continueSentence(introduction)}.`,
       development ? `${development}.` : '',
       `${conflict}.`,
-      trigger && impact ? `When ${lowerFirst(trigger)}, ${lowerFirst(stripTerminalPeriod(impact))}.` : '',
+      trigger && impact ? `When ${lowerFirst(trigger)}, ${lowerFirst(stripTerminalPunctuation(impact))}.` : '',
       resolution ? `${resolution}.` : ''
     ]));
   });
@@ -407,8 +407,8 @@ function buildChapterClosingParagraph({ lastScene, finalBelief, finalRelationshi
   if (languageCode === 'ro') {
     if (isFinalChapter) {
       return [
-        finalBelief ? `${focalCharacter} intelege acum ca ${finalBelief.toLowerCase()}.` : '',
-        finalRelationship ? `${sentenceCase(finalRelationship)}.` : ''
+        finalBelief ? `${focalCharacter} intelege acum ca ${lowerFirst(stripTerminalPunctuation(finalBelief))}.` : '',
+        finalRelationship ? finalizeNarrativeSentence(sentenceCase(finalRelationship)) : ''
       ].filter(Boolean).join(' ');
     }
 
@@ -417,8 +417,8 @@ function buildChapterClosingParagraph({ lastScene, finalBelief, finalRelationshi
 
   if (isFinalChapter) {
     return [
-      finalBelief ? `${focalCharacter} understands now that ${finalBelief.toLowerCase()}.` : '',
-      finalRelationship ? `${sentenceCase(finalRelationship)}.` : ''
+      finalBelief ? `${focalCharacter} understands now that ${lowerFirst(stripTerminalPunctuation(finalBelief))}.` : '',
+      finalRelationship ? finalizeNarrativeSentence(sentenceCase(finalRelationship)) : ''
     ].filter(Boolean).join(' ');
   }
 
@@ -461,8 +461,23 @@ function lowerFirst(value) {
   return text ? text.charAt(0).toLowerCase() + text.slice(1) : text;
 }
 
+function continueSentence(value) {
+  const text = String(value ?? '').trim();
+  if (!text) {
+    return '';
+  }
+
+  return /^(In|At|On|During|Inside|As|With|After|Before)\b/.test(text)
+    ? lowerFirst(text)
+    : text;
+}
+
 function stripTerminalPeriod(value) {
   return String(value ?? '').trim().replace(/[.]+$/g, '');
+}
+
+function stripTerminalPunctuation(value) {
+  return String(value ?? '').trim().replace(/[.?!]+$/g, '');
 }
 
 function finalizeNarrativeSentence(value) {
