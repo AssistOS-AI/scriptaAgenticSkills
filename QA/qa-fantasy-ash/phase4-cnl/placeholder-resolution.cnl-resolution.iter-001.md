@@ -69,18 +69,34 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{conflict:escalation}}: Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
 - {{chapter-question:escalation}}: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
 - {{world-pressure:escalation}}: every promise of protection arrives already entangled with control, debt, and ancestral shame
+- {{purpose:investigation}}: Escalation movement anchored by chronicle beneath the chains
+- {{input-state:investigation-2}}: the records show Neris's mother volunteered the sister's memory to preserve the wards
+- {{output-state:investigation-2}}: She steals the regent's binding seal instead, buying time but alerting him to the betrayal.
+- {{conflict:investigation}}: Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
+- {{chapter-question:investigation}}: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
+- {{world-pressure:investigation}}: every promise of protection arrives already entangled with control, debt, and ancestral shame
 - {{purpose:revelation}}: Revelation movement anchored by ward breach at the mountain gate
-- {{input-state:revelation-2}}: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-- {{output-state:revelation-2}}: She decides to break the binding ceremony and speak the hidden names during the next warding chant.
+- {{input-state:revelation-3}}: A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
+- {{output-state:revelation-3}}: renunciation becomes the only form of leadership left to her
 - {{conflict:revelation}}: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
 - {{chapter-question:revelation}}: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
 - {{world-pressure:revelation}}: every promise of protection arrives already entangled with control, debt, and ancestral shame
 - {{purpose:culmination}}: Culmination movement anchored by the furnace broken in public
-- {{input-state:culmination-3}}: During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.
-- {{output-state:culmination-3}}: power changes from inherited command to shared burden
+- {{input-state:culmination-4}}: During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.
+- {{output-state:culmination-4}}: power changes from inherited command to shared burden
 - {{conflict:culmination}}: The valley must choose whether to stand in fear with Maeron or bear the truth and rebuild the wards differently.
 - {{chapter-question:culmination}}: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
 - {{world-pressure:culmination}}: every promise of protection arrives already entangled with control, debt, and ancestral shame
+- {{input-state:culmination-5}}: During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.
+- {{output-state:culmination-5}}: power changes from inherited command to shared burden
+- {{input-state:culmination-6}}: During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.
+- {{output-state:culmination-6}}: power changes from inherited command to shared burden
+- {{input-state:culmination-7}}: During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.
+- {{output-state:culmination-7}}: power changes from inherited command to shared burden
+- {{input-state:culmination-8}}: During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.
+- {{output-state:culmination-8}}: power changes from inherited command to shared burden
+- {{input-state:culmination-9}}: During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.
+- {{output-state:culmination-9}}: power changes from inherited command to shared burden
 - {{sequence-objective:setup}}: verify that the speaking ash is tied to the original family vow
 - {{sequence-conflict:setup}}: Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.
 - {{sequence-payoff:setup}}: Neris must face the possibility that exile protected her from knowing the truth
@@ -186,6 +202,54 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{acceleration-trigger:escalation}}: the records show Neris's mother volunteered the sister's memory to preserve the wards
 - {{cliffhanger-moment:escalation}}: the records show Neris's mother volunteered the sister's memory to preserve the wards
 - {{cliffhanger-continuation:escalation}}: Neris can no longer separate public duty from private violation
+- {{sequence-objective:investigation}}: find a path to truth that does not abandon the valley overnight
+- {{sequence-conflict:investigation}}: Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
+- {{sequence-payoff:investigation}}: Neris can no longer separate public duty from private violation
+- {{visible-symptom:investigation}}: ash drifts indoors and whispers names the ruling house refuses to acknowledge
+- {{action-limitation:investigation}}: Neris cannot break the oath in secret because the valley must witness and accept the cost together.
+- {{conflict-output-rule:investigation}}: every promise of protection arrives already entangled with control, debt, and ancestral shame
+- {{challenge:protagonist-investigation}}: Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
+- {{insight-pressure:protagonist-investigation}}: inheritance becomes personal wound rather than abstract lineage guilt
+- {{relationship-stress:investigation}}: Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
+- {{reader-effect:investigation}}: Is inherited protection still noble once it depends on ritualized theft from the people it claims to save?
+- {{scene-introduction:investigation-0}}: In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.
+- {{scene-development:investigation-0}}: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+- {{scene-conflict:investigation}}: Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
+- {{scene-resolution:investigation-mid}}: She steals the regent's binding seal instead, buying time but alerting him to the betrayal.
+- {{scene-state-change:investigation-mid}}: the oath becomes both a crime and a necessary shield
+- {{action-goal:investigation-0}}: find a path to truth that does not abandon the valley overnight
+- {{action-obstacle:investigation}}: the only people who know the full rite are the ones invested in preserving it
+- {{conflict-escalation:investigation}}: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+- {{event-trigger:investigation-mid}}: the records show Neris's mother volunteered the sister's memory to preserve the wards
+- {{event-impact:investigation}}: inheritance becomes personal wound rather than abstract lineage guilt
+- {{event-follow-through:investigation-mid}}: Neris can no longer separate public duty from private violation
+- {{dialogue-line-hint:investigation-0-0}}: the records show Neris's mother volunteered the sister's memory to preserve the wards
+- {{dialogue-subtext:reframe}}: changes the moral meaning of what was just said
+- {{dialogue-line-hint:investigation-0-1}}: the records show Neris's mother volunteered the sister's memory to preserve the wards
+- {{dialogue-reaction:reframe}}: The new framing makes the old position harder to keep.
+- {{scene-introduction:investigation-1}}: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+- {{scene-development:investigation-1}}: Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
+- {{action-goal:investigation-1}}: Neris can no longer separate public duty from private violation
+- {{dialogue-line-hint:investigation-1-0}}: Chronicle beneath the chains
+- {{dialogue-line-hint:investigation-1-1}}: Chronicle beneath the chains
+- {{scene-introduction:investigation-2}}: the records show Neris's mother volunteered the sister's memory to preserve the wards
+- {{scene-development:investigation-2}}: inheritance becomes personal wound rather than abstract lineage guilt
+- {{scene-resolution:investigation-final}}: She steals the regent's binding seal instead, buying time but alerting him to the betrayal.
+- {{scene-state-change:investigation-final}}: the oath becomes both a crime and a necessary shield
+- {{action-goal:investigation-2}}: Chronicle beneath the chains
+- {{action-result:investigation-final}}: the oath becomes both a crime and a necessary shield
+- {{event-trigger:investigation-final}}: the records show Neris's mother volunteered the sister's memory to preserve the wards
+- {{event-follow-through:investigation-final}}: Neris can no longer separate public duty from private violation
+- {{dialogue-subtext:challenge}}: refuses the easier story and forces the pressure into view
+- {{dialogue-line-hint:investigation-2-0}}: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+- {{dialogue-reaction:challenge}}: The challenge strips politeness away from the scene.
+- {{dialogue-line-hint:investigation-2-1}}: The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.
+- {{monologue-trigger:investigation}}: inheritance becomes personal wound rather than abstract lineage guilt
+- {{suspense-uncertainty:investigation}}: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
+- {{pause-focus:investigation}}: the oath becomes both a crime and a necessary shield
+- {{acceleration-trigger:investigation}}: the records show Neris's mother volunteered the sister's memory to preserve the wards
+- {{cliffhanger-moment:investigation}}: the records show Neris's mother volunteered the sister's memory to preserve the wards
+- {{cliffhanger-continuation:investigation}}: Neris can no longer separate public duty from private violation
 - {{sequence-objective:revelation}}: replace coerced obedience with a protection the valley chooses knowingly
 - {{sequence-conflict:revelation}}: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
 - {{sequence-payoff:revelation}}: Neris finally knows what must be sacrificed and what must be preserved
@@ -208,9 +272,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{event-impact:revelation}}: truth reveals itself as the missing element in the valley's defense
 - {{event-follow-through:revelation-mid}}: Neris finally knows what must be sacrificed and what must be preserved
 - {{dialogue-line-hint:revelation-0-0}}: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-- {{dialogue-subtext:reframe}}: changes the moral meaning of what was just said
 - {{dialogue-line-hint:revelation-0-1}}: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-- {{dialogue-reaction:reframe}}: The new framing makes the old position harder to keep.
 - {{scene-introduction:revelation-1}}: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
 - {{scene-development:revelation-1}}: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
 - {{action-goal:revelation-1}}: Neris finally knows what must be sacrificed and what must be preserved
@@ -224,9 +286,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{action-result:revelation-final}}: renunciation becomes the only form of leadership left to her
 - {{event-trigger:revelation-final}}: the winter spirit retreats only when Neris names one of the forgotten dead aloud
 - {{event-follow-through:revelation-final}}: Neris finally knows what must be sacrificed and what must be preserved
-- {{dialogue-subtext:challenge}}: refuses the easier story and forces the pressure into view
 - {{dialogue-line-hint:revelation-2-0}}: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
-- {{dialogue-reaction:challenge}}: The challenge strips politeness away from the scene.
 - {{dialogue-line-hint:revelation-2-1}}: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
 - {{monologue-trigger:revelation}}: truth reveals itself as the missing element in the valley's defense
 - {{suspense-uncertainty:revelation}}: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
@@ -236,6 +296,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{cliffhanger-continuation:revelation}}: Neris finally knows what must be sacrificed and what must be preserved
 - {{sequence-objective:culmination}}: destroy the coercive heart of the oath without abandoning the valley to the winter breach
 - {{sequence-conflict:culmination}}: The valley must choose whether to stand in fear with Maeron or bear the truth and rebuild the wards differently.
+- {{sequence-payoff:culmination}}: Neris earns belonging only by giving up the right to rule as her family did
 - {{visible-symptom:culmination}}: ash drifts indoors and whispers names the ruling house refuses to acknowledge
 - {{action-limitation:culmination}}: Neris cannot break the oath in secret because the valley must witness and accept the cost together.
 - {{conflict-output-rule:culmination}}: every promise of protection arrives already entangled with control, debt, and ancestral shame
@@ -275,6 +336,8 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{suspense-uncertainty:culmination}}: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
 - {{pause-focus:culmination}}: power changes from inherited command to shared burden
 - {{acceleration-trigger:culmination}}: the furnace spills the trapped names in a voice all of Drovna can hear
+- {{cliffhanger-moment:culmination}}: the furnace spills the trapped names in a voice all of Drovna can hear
+- {{cliffhanger-continuation:culmination}}: Neris earns belonging only by giving up the right to rule as her family did
 
 <!-- scripta-data
 {
@@ -364,18 +427,34 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{conflict:escalation}}": "Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.",
     "{{chapter-question:escalation}}": "Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?",
     "{{world-pressure:escalation}}": "every promise of protection arrives already entangled with control, debt, and ancestral shame",
+    "{{purpose:investigation}}": "Escalation movement anchored by chronicle beneath the chains",
+    "{{input-state:investigation-2}}": "the records show Neris's mother volunteered the sister's memory to preserve the wards",
+    "{{output-state:investigation-2}}": "She steals the regent's binding seal instead, buying time but alerting him to the betrayal.",
+    "{{conflict:investigation}}": "Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.",
+    "{{chapter-question:investigation}}": "Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?",
+    "{{world-pressure:investigation}}": "every promise of protection arrives already entangled with control, debt, and ancestral shame",
     "{{purpose:revelation}}": "Revelation movement anchored by ward breach at the mountain gate",
-    "{{input-state:revelation-2}}": "the winter spirit retreats only when Neris names one of the forgotten dead aloud",
-    "{{output-state:revelation-2}}": "She decides to break the binding ceremony and speak the hidden names during the next warding chant.",
+    "{{input-state:revelation-3}}": "A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.",
+    "{{output-state:revelation-3}}": "renunciation becomes the only form of leadership left to her",
     "{{conflict:revelation}}": "If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.",
     "{{chapter-question:revelation}}": "Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?",
     "{{world-pressure:revelation}}": "every promise of protection arrives already entangled with control, debt, and ancestral shame",
     "{{purpose:culmination}}": "Culmination movement anchored by the furnace broken in public",
-    "{{input-state:culmination-3}}": "During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.",
-    "{{output-state:culmination-3}}": "power changes from inherited command to shared burden",
+    "{{input-state:culmination-4}}": "During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.",
+    "{{output-state:culmination-4}}": "power changes from inherited command to shared burden",
     "{{conflict:culmination}}": "The valley must choose whether to stand in fear with Maeron or bear the truth and rebuild the wards differently.",
     "{{chapter-question:culmination}}": "Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?",
     "{{world-pressure:culmination}}": "every promise of protection arrives already entangled with control, debt, and ancestral shame",
+    "{{input-state:culmination-5}}": "During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.",
+    "{{output-state:culmination-5}}": "power changes from inherited command to shared burden",
+    "{{input-state:culmination-6}}": "During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.",
+    "{{output-state:culmination-6}}": "power changes from inherited command to shared burden",
+    "{{input-state:culmination-7}}": "During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.",
+    "{{output-state:culmination-7}}": "power changes from inherited command to shared burden",
+    "{{input-state:culmination-8}}": "During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.",
+    "{{output-state:culmination-8}}": "power changes from inherited command to shared burden",
+    "{{input-state:culmination-9}}": "During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.",
+    "{{output-state:culmination-9}}": "power changes from inherited command to shared burden",
     "{{sequence-objective:setup}}": "verify that the speaking ash is tied to the original family vow",
     "{{sequence-conflict:setup}}": "Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.",
     "{{sequence-payoff:setup}}": "Neris must face the possibility that exile protected her from knowing the truth",
@@ -481,6 +560,54 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{acceleration-trigger:escalation}}": "the records show Neris's mother volunteered the sister's memory to preserve the wards",
     "{{cliffhanger-moment:escalation}}": "the records show Neris's mother volunteered the sister's memory to preserve the wards",
     "{{cliffhanger-continuation:escalation}}": "Neris can no longer separate public duty from private violation",
+    "{{sequence-objective:investigation}}": "find a path to truth that does not abandon the valley overnight",
+    "{{sequence-conflict:investigation}}": "Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.",
+    "{{sequence-payoff:investigation}}": "Neris can no longer separate public duty from private violation",
+    "{{visible-symptom:investigation}}": "ash drifts indoors and whispers names the ruling house refuses to acknowledge",
+    "{{action-limitation:investigation}}": "Neris cannot break the oath in secret because the valley must witness and accept the cost together.",
+    "{{conflict-output-rule:investigation}}": "every promise of protection arrives already entangled with control, debt, and ancestral shame",
+    "{{challenge:protagonist-investigation}}": "Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.",
+    "{{insight-pressure:protagonist-investigation}}": "inheritance becomes personal wound rather than abstract lineage guilt",
+    "{{relationship-stress:investigation}}": "Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.",
+    "{{reader-effect:investigation}}": "Is inherited protection still noble once it depends on ritualized theft from the people it claims to save?",
+    "{{scene-introduction:investigation-0}}": "In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.",
+    "{{scene-development:investigation-0}}": "The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.",
+    "{{scene-conflict:investigation}}": "Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.",
+    "{{scene-resolution:investigation-mid}}": "She steals the regent's binding seal instead, buying time but alerting him to the betrayal.",
+    "{{scene-state-change:investigation-mid}}": "the oath becomes both a crime and a necessary shield",
+    "{{action-goal:investigation-0}}": "find a path to truth that does not abandon the valley overnight",
+    "{{action-obstacle:investigation}}": "the only people who know the full rite are the ones invested in preserving it",
+    "{{conflict-escalation:investigation}}": "The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.",
+    "{{event-trigger:investigation-mid}}": "the records show Neris's mother volunteered the sister's memory to preserve the wards",
+    "{{event-impact:investigation}}": "inheritance becomes personal wound rather than abstract lineage guilt",
+    "{{event-follow-through:investigation-mid}}": "Neris can no longer separate public duty from private violation",
+    "{{dialogue-line-hint:investigation-0-0}}": "the records show Neris's mother volunteered the sister's memory to preserve the wards",
+    "{{dialogue-subtext:reframe}}": "changes the moral meaning of what was just said",
+    "{{dialogue-line-hint:investigation-0-1}}": "the records show Neris's mother volunteered the sister's memory to preserve the wards",
+    "{{dialogue-reaction:reframe}}": "The new framing makes the old position harder to keep.",
+    "{{scene-introduction:investigation-1}}": "The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.",
+    "{{scene-development:investigation-1}}": "Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.",
+    "{{action-goal:investigation-1}}": "Neris can no longer separate public duty from private violation",
+    "{{dialogue-line-hint:investigation-1-0}}": "Chronicle beneath the chains",
+    "{{dialogue-line-hint:investigation-1-1}}": "Chronicle beneath the chains",
+    "{{scene-introduction:investigation-2}}": "the records show Neris's mother volunteered the sister's memory to preserve the wards",
+    "{{scene-development:investigation-2}}": "inheritance becomes personal wound rather than abstract lineage guilt",
+    "{{scene-resolution:investigation-final}}": "She steals the regent's binding seal instead, buying time but alerting him to the betrayal.",
+    "{{scene-state-change:investigation-final}}": "the oath becomes both a crime and a necessary shield",
+    "{{action-goal:investigation-2}}": "Chronicle beneath the chains",
+    "{{action-result:investigation-final}}": "the oath becomes both a crime and a necessary shield",
+    "{{event-trigger:investigation-final}}": "the records show Neris's mother volunteered the sister's memory to preserve the wards",
+    "{{event-follow-through:investigation-final}}": "Neris can no longer separate public duty from private violation",
+    "{{dialogue-subtext:challenge}}": "refuses the easier story and forces the pressure into view",
+    "{{dialogue-line-hint:investigation-2-0}}": "The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.",
+    "{{dialogue-reaction:challenge}}": "The challenge strips politeness away from the scene.",
+    "{{dialogue-line-hint:investigation-2-1}}": "The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.",
+    "{{monologue-trigger:investigation}}": "inheritance becomes personal wound rather than abstract lineage guilt",
+    "{{suspense-uncertainty:investigation}}": "Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?",
+    "{{pause-focus:investigation}}": "the oath becomes both a crime and a necessary shield",
+    "{{acceleration-trigger:investigation}}": "the records show Neris's mother volunteered the sister's memory to preserve the wards",
+    "{{cliffhanger-moment:investigation}}": "the records show Neris's mother volunteered the sister's memory to preserve the wards",
+    "{{cliffhanger-continuation:investigation}}": "Neris can no longer separate public duty from private violation",
     "{{sequence-objective:revelation}}": "replace coerced obedience with a protection the valley chooses knowingly",
     "{{sequence-conflict:revelation}}": "If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.",
     "{{sequence-payoff:revelation}}": "Neris finally knows what must be sacrificed and what must be preserved",
@@ -503,9 +630,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{event-impact:revelation}}": "truth reveals itself as the missing element in the valley's defense",
     "{{event-follow-through:revelation-mid}}": "Neris finally knows what must be sacrificed and what must be preserved",
     "{{dialogue-line-hint:revelation-0-0}}": "the winter spirit retreats only when Neris names one of the forgotten dead aloud",
-    "{{dialogue-subtext:reframe}}": "changes the moral meaning of what was just said",
     "{{dialogue-line-hint:revelation-0-1}}": "the winter spirit retreats only when Neris names one of the forgotten dead aloud",
-    "{{dialogue-reaction:reframe}}": "The new framing makes the old position harder to keep.",
     "{{scene-introduction:revelation-1}}": "Neris realizes the ward responds more strongly to named truth than to repeated liturgy.",
     "{{scene-development:revelation-1}}": "If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.",
     "{{action-goal:revelation-1}}": "Neris finally knows what must be sacrificed and what must be preserved",
@@ -519,9 +644,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{action-result:revelation-final}}": "renunciation becomes the only form of leadership left to her",
     "{{event-trigger:revelation-final}}": "the winter spirit retreats only when Neris names one of the forgotten dead aloud",
     "{{event-follow-through:revelation-final}}": "Neris finally knows what must be sacrificed and what must be preserved",
-    "{{dialogue-subtext:challenge}}": "refuses the easier story and forces the pressure into view",
     "{{dialogue-line-hint:revelation-2-0}}": "Neris realizes the ward responds more strongly to named truth than to repeated liturgy.",
-    "{{dialogue-reaction:challenge}}": "The challenge strips politeness away from the scene.",
     "{{dialogue-line-hint:revelation-2-1}}": "Neris realizes the ward responds more strongly to named truth than to repeated liturgy.",
     "{{monologue-trigger:revelation}}": "truth reveals itself as the missing element in the valley's defense",
     "{{suspense-uncertainty:revelation}}": "Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?",
@@ -531,6 +654,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{cliffhanger-continuation:revelation}}": "Neris finally knows what must be sacrificed and what must be preserved",
     "{{sequence-objective:culmination}}": "destroy the coercive heart of the oath without abandoning the valley to the winter breach",
     "{{sequence-conflict:culmination}}": "The valley must choose whether to stand in fear with Maeron or bear the truth and rebuild the wards differently.",
+    "{{sequence-payoff:culmination}}": "Neris earns belonging only by giving up the right to rule as her family did",
     "{{visible-symptom:culmination}}": "ash drifts indoors and whispers names the ruling house refuses to acknowledge",
     "{{action-limitation:culmination}}": "Neris cannot break the oath in secret because the valley must witness and accept the cost together.",
     "{{conflict-output-rule:culmination}}": "every promise of protection arrives already entangled with control, debt, and ancestral shame",
@@ -569,7 +693,9 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{monologue-trigger:culmination}}": "the valley witnesses the true cost of its protection at once",
     "{{suspense-uncertainty:culmination}}": "Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?",
     "{{pause-focus:culmination}}": "power changes from inherited command to shared burden",
-    "{{acceleration-trigger:culmination}}": "the furnace spills the trapped names in a voice all of Drovna can hear"
+    "{{acceleration-trigger:culmination}}": "the furnace spills the trapped names in a voice all of Drovna can hear",
+    "{{cliffhanger-moment:culmination}}": "the furnace spills the trapped names in a voice all of Drovna can hear",
+    "{{cliffhanger-continuation:culmination}}": "Neris earns belonging only by giving up the right to rule as her family did"
   }
 }
 -->

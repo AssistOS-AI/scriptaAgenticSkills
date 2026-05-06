@@ -62,9 +62,9 @@ Canonical source-edition payload used by the translation stage.
     "worldRule": "Every flood-district compensation claim must pass through the mediation office before it reaches the court archive.",
     "bookId": "qa-drama-silence",
     "profileId": "drama",
-    "workFormId": "novelette",
+    "workFormId": "novel",
     "profileLabel": "Drama",
-    "workForm": "Novelette",
+    "workForm": "Novel",
     "editorialProfile": "literary-smooth",
     "validationSummary": null,
     "chapters": [
@@ -76,8 +76,11 @@ Canonical source-edition payload used by the translation stage.
         "paragraphs": [
           "Mira Solari reaches the shuttered mediation office above the old customs hall, where grief has already been trained into politeness and silence. Every conversation sounds temporary because the office trained people to trade truth for calm. Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
           "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book. The message points toward one erased witness statement and a ledger that should not exist anymore. Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall. When the recording ends with Mira's brother naming Corin before the tape cuts off, the memorial becomes evidence instead of closure. They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys.",
+          "\"The recording ends with Mira's brother naming Corin before the tape cuts off\" Vera Quinn says. \"The recording ends with Mira's brother naming Corin before the tape cuts off\" Mira Solari says.",
           "Later, The message points toward one erased witness statement and a ledger that should not exist anymore. Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall. When the recording ends with Mira's brother naming Corin before the tape cuts off, the memorial becomes evidence instead of closure. They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys.",
+          "\"Memorial supper recording\" Vera Quinn says. \"Memorial supper recording\" Mira Solari says.",
           "Later, The recording ends with Mira's brother naming Corin before the tape cuts off. The memorial becomes evidence instead of closure. Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall. When the recording ends with Mira's brother naming Corin before the tape cuts off, the memorial becomes evidence instead of closure. They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys.",
+          "\"The message points toward one erased witness statement and a ledger that should not exist anymore.\" Vera Quinn says. \"The message points toward one erased witness statement and a ledger that should not exist anymore.\" Mira Solari says.",
           "Nothing that has opened here will close easily. Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?"
         ]
       },
@@ -89,34 +92,139 @@ Canonical source-edition payload used by the translation stage.
         "paragraphs": [
           "Mira Solari reaches the shuttered mediation office above the old customs hall, where grief has already been trained into politeness and silence. Every conversation sounds temporary because the office trained people to trade truth for calm. Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
           "Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living. Corin arrives with coffee, condolences, and a rewritten story about emergency discretion. Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. When one photographed page carries Mira's mother's signature beneath a false evacuation report, the investigation now threatens the family as much as the institution. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.",
+          "\"One photographed page carries Mira's mother's signature beneath a false evacuation report\" Vera Quinn says. \"One photographed page carries Mira's mother's signature beneath a false evacuation report\" Mira Solari says.",
           "Later, Corin arrives with coffee, condolences, and a rewritten story about emergency discretion. Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. When one photographed page carries Mira's mother's signature beneath a false evacuation report, the investigation now threatens the family as much as the institution. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.",
+          "\"Archive window without signatures\" Vera Quinn says. \"Archive window without signatures\" Mira Solari says.",
           "Later, One photographed page carries Mira's mother's signature beneath a false evacuation report. The investigation now threatens the family as much as the institution. Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. When one photographed page carries Mira's mother's signature beneath a false evacuation report, the investigation now threatens the family as much as the institution. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.",
+          "\"Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.\" Vera Quinn says. \"Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.\" Mira Solari says.",
           "Nothing that has opened here will close easily. Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?"
         ]
       },
       {
         "id": "chapter-003",
         "number": 3,
-        "role": "revelation",
-        "displayTitle": "Chapter 03 — What Surfaces",
+        "role": "investigation",
+        "displayTitle": "Chapter 03 — The Search Tightens",
         "paragraphs": [
           "Mira Solari reaches the shuttered mediation office above the old customs hall, where grief has already been trained into politeness and silence. Every conversation sounds temporary because the office trained people to trade truth for calm. Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
-          "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration. The plaques show corrected dates that match the forged ledger rather than the actual deaths. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. When the memorial plaque for Mira's brother lists a death date that predates the night he called her, forgery turns from suspicion into undeniable chronology. She asks Vera to stand beside her publicly, even if it means both families lose protection.",
-          "Later, The plaques show corrected dates that match the forged ledger rather than the actual deaths. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. When the memorial plaque for Mira's brother lists a death date that predates the night he called her, forgery turns from suspicion into undeniable chronology. She asks Vera to stand beside her publicly, even if it means both families lose protection.",
-          "Later, The memorial plaque for Mira's brother lists a death date that predates the night he called her. Forgery turns from suspicion into undeniable chronology. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. When the memorial plaque for Mira's brother lists a death date that predates the night he called her, forgery turns from suspicion into undeniable chronology. She asks Vera to stand beside her publicly, even if it means both families lose protection.",
+          "Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living. Corin arrives with coffee, condolences, and a rewritten story about emergency discretion. Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. When one photographed page carries Mira's mother's signature beneath a false evacuation report, the investigation now threatens the family as much as the institution. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.",
+          "\"One photographed page carries Mira's mother's signature beneath a false evacuation report\" Vera Quinn says. \"One photographed page carries Mira's mother's signature beneath a false evacuation report\" Mira Solari says.",
+          "Later, Corin arrives with coffee, condolences, and a rewritten story about emergency discretion. Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. When one photographed page carries Mira's mother's signature beneath a false evacuation report, the investigation now threatens the family as much as the institution. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.",
+          "\"Archive window without signatures\" Vera Quinn says. \"Archive window without signatures\" Mira Solari says.",
+          "Later, One photographed page carries Mira's mother's signature beneath a false evacuation report. The investigation now threatens the family as much as the institution. Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. When one photographed page carries Mira's mother's signature beneath a false evacuation report, the investigation now threatens the family as much as the institution. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.",
+          "\"Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.\" Vera Quinn says. \"Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.\" Mira Solari says.",
           "Nothing that has opened here will close easily. Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?"
         ]
       },
       {
         "id": "chapter-004",
         "number": 4,
+        "role": "revelation",
+        "displayTitle": "Chapter 04 — What Surfaces",
+        "paragraphs": [
+          "Mira Solari reaches the shuttered mediation office above the old customs hall, where grief has already been trained into politeness and silence. Every conversation sounds temporary because the office trained people to trade truth for calm. Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
+          "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration. The plaques show corrected dates that match the forged ledger rather than the actual deaths. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. When the memorial plaque for Mira's brother lists a death date that predates the night he called her, forgery turns from suspicion into undeniable chronology. She asks Vera to stand beside her publicly, even if it means both families lose protection.",
+          "\"The memorial plaque for Mira's brother lists a death date that predates the night he called her\" Vera Quinn says. \"The memorial plaque for Mira's brother lists a death date that predates the night he called her\" Mira Solari says.",
+          "Later, The plaques show corrected dates that match the forged ledger rather than the actual deaths. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. When the memorial plaque for Mira's brother lists a death date that predates the night he called her, forgery turns from suspicion into undeniable chronology. She asks Vera to stand beside her publicly, even if it means both families lose protection.",
+          "\"Names beneath the memorial varnish\" Vera Quinn says. \"Names beneath the memorial varnish\" Mira Solari says.",
+          "Later, The memorial plaque for Mira's brother lists a death date that predates the night he called her. Forgery turns from suspicion into undeniable chronology. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. When the memorial plaque for Mira's brother lists a death date that predates the night he called her, forgery turns from suspicion into undeniable chronology. She asks Vera to stand beside her publicly, even if it means both families lose protection.",
+          "\"The plaques show corrected dates that match the forged ledger rather than the actual deaths.\" Vera Quinn says. \"The plaques show corrected dates that match the forged ledger rather than the actual deaths.\" Mira Solari says.",
+          "Nothing that has opened here will close easily. Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?"
+        ]
+      },
+      {
+        "id": "chapter-005",
+        "number": 5,
         "role": "culmination",
-        "displayTitle": "Chapter 04 — Irreversible Choice",
+        "displayTitle": "Chapter 05 — Irreversible Choice",
         "paragraphs": [
           "Mira Solari reaches the shuttered mediation office above the old customs hall, where grief has already been trained into politeness and silence. Every conversation sounds temporary because the office trained people to trade truth for calm. Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
           "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Mira reaches the line proving that relief money was routed through Corin's family company\" Vera Quinn says. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Mira Solari says.",
           "Later, Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Commemoration ledger reading\" Vera Quinn says. \"Commemoration ledger reading\" Mira Solari says.",
           "Later, Mira reaches the line proving that relief money was routed through Corin's family company. Grief becomes accusation before the whole town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.\" Vera Quinn says. \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.\" Mira Solari says.",
+          "Nothing that has opened here will close easily. Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?"
+        ]
+      },
+      {
+        "id": "chapter-006",
+        "number": 6,
+        "role": "culmination",
+        "displayTitle": "Chapter 06 — Irreversible Choice",
+        "paragraphs": [
+          "Mira Solari reaches the shuttered mediation office above the old customs hall, where grief has already been trained into politeness and silence. Every conversation sounds temporary because the office trained people to trade truth for calm. Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
+          "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Mira reaches the line proving that relief money was routed through Corin's family company\" Vera Quinn says. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Mira Solari says.",
+          "Later, Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Commemoration ledger reading\" Vera Quinn says. \"Commemoration ledger reading\" Mira Solari says.",
+          "Later, Mira reaches the line proving that relief money was routed through Corin's family company. Grief becomes accusation before the whole town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.\" Vera Quinn says. \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.\" Mira Solari says.",
+          "Nothing that has opened here will close easily. Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?"
+        ]
+      },
+      {
+        "id": "chapter-007",
+        "number": 7,
+        "role": "culmination",
+        "displayTitle": "Chapter 07 — Irreversible Choice",
+        "paragraphs": [
+          "Mira Solari reaches the shuttered mediation office above the old customs hall, where grief has already been trained into politeness and silence. Every conversation sounds temporary because the office trained people to trade truth for calm. Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
+          "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Mira reaches the line proving that relief money was routed through Corin's family company\" Vera Quinn says. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Mira Solari says.",
+          "Later, Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Commemoration ledger reading\" Vera Quinn says. \"Commemoration ledger reading\" Mira Solari says.",
+          "Later, Mira reaches the line proving that relief money was routed through Corin's family company. Grief becomes accusation before the whole town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.\" Vera Quinn says. \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.\" Mira Solari says.",
+          "Nothing that has opened here will close easily. Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?"
+        ]
+      },
+      {
+        "id": "chapter-008",
+        "number": 8,
+        "role": "culmination",
+        "displayTitle": "Chapter 08 — Irreversible Choice",
+        "paragraphs": [
+          "Mira Solari reaches the shuttered mediation office above the old customs hall, where grief has already been trained into politeness and silence. Every conversation sounds temporary because the office trained people to trade truth for calm. Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
+          "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Mira reaches the line proving that relief money was routed through Corin's family company\" Vera Quinn says. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Mira Solari says.",
+          "Later, Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Commemoration ledger reading\" Vera Quinn says. \"Commemoration ledger reading\" Mira Solari says.",
+          "Later, Mira reaches the line proving that relief money was routed through Corin's family company. Grief becomes accusation before the whole town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.\" Vera Quinn says. \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.\" Mira Solari says.",
+          "Nothing that has opened here will close easily. Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?"
+        ]
+      },
+      {
+        "id": "chapter-009",
+        "number": 9,
+        "role": "culmination",
+        "displayTitle": "Chapter 09 — Irreversible Choice",
+        "paragraphs": [
+          "Mira Solari reaches the shuttered mediation office above the old customs hall, where grief has already been trained into politeness and silence. Every conversation sounds temporary because the office trained people to trade truth for calm. Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
+          "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Mira reaches the line proving that relief money was routed through Corin's family company\" Vera Quinn says. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Mira Solari says.",
+          "Later, Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Commemoration ledger reading\" Vera Quinn says. \"Commemoration ledger reading\" Mira Solari says.",
+          "Later, Mira reaches the line proving that relief money was routed through Corin's family company. Grief becomes accusation before the whole town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.\" Vera Quinn says. \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.\" Mira Solari says.",
+          "Nothing that has opened here will close easily. Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?"
+        ]
+      },
+      {
+        "id": "chapter-010",
+        "number": 10,
+        "role": "culmination",
+        "displayTitle": "Chapter 10 — Irreversible Choice",
+        "paragraphs": [
+          "Mira Solari reaches the shuttered mediation office above the old customs hall, where grief has already been trained into politeness and silence. Every conversation sounds temporary because the office trained people to trade truth for calm. Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
+          "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Mira reaches the line proving that relief money was routed through Corin's family company\" Vera Quinn says. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Mira Solari says.",
+          "Later, Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Commemoration ledger reading\" Vera Quinn says. \"Commemoration ledger reading\" Mira Solari says.",
+          "Later, Mira reaches the line proving that relief money was routed through Corin's family company. Grief becomes accusation before the whole town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room.",
+          "\"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.\" Vera Quinn says. \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.\" Mira Solari says.",
           "Mira Solari understands now that care without truth only prolongs the violence of the original wound visible-cost-is-preferable-to-stable-falsehood. Solidarity-forged-through-contested-truth."
         ]
       }
@@ -147,7 +255,9 @@ Canonical source-edition payload used by the translation stage.
     "bookId": "qa-drama-silence",
     "profileId": "drama",
     "profileLabel": "Drama",
-    "workForm": "novelette",
+    "workForm": "novel",
+    "dialogueDensity": "high",
+    "descriptionDensity": "high",
     "editorialProfile": "literary-smooth",
     "title": "When the Silence Returns",
     "centralIdea": {
@@ -813,9 +923,9 @@ Canonical source-edition payload used by the translation stage.
       {
         "id": "chapter-003",
         "number": 3,
-        "role": "revelation",
-        "outputState": "She asks Vera to stand beside her publicly, even if it means both families lose protection.",
-        "closingMode": "open-question",
+        "role": "investigation",
+        "outputState": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.",
+        "closingMode": "cliffhanger",
         "thematicFocus": "identity-self under reconciliation pressure",
         "chapterQuestion": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
         "answerShift": "the dead are betrayed again whenever the living turn grief into paperwork",
@@ -825,11 +935,11 @@ Canonical source-edition payload used by the translation stage.
           "sequence-type": "recovery",
           "link-logic": "causal",
           "chapter": "chapter 003",
-          "objective": "find a form of testimony that cannot be dismissed as private grief",
+          "objective": "extract enough records to prove the compensation pattern is deliberate",
           "scene-chain": "scene-003-01, scene-003-02, scene-003-03",
           "carry-forward-pressure": "each scene must inherit and intensify the previous unresolved pressure",
-          "conflict-line": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
-          "payoff": "the case becomes inseparable from the commemoration ceremony"
+          "conflict-line": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
+          "payoff": "Mira loses the comfort of treating her mother as untouched by the fraud"
         },
         "dialogue": {
           "scene": "the shuttered mediation office above the old customs hall",
@@ -842,7 +952,7 @@ Canonical source-edition payload used by the translation stage.
           "scene": "the shuttered mediation office above the old customs hall",
           "character": "Mira Solari",
           "function": "psychological-insight",
-          "trigger": "forgery turns from suspicion into undeniable chronology",
+          "trigger": "the investigation now threatens the family as much as the institution",
           "texture": "reflective"
         },
         "suspense": {
@@ -871,29 +981,29 @@ Canonical source-edition payload used by the translation stage.
         },
         "protagonistArc": {
           "chapter": "chapter 003",
-          "entry-belief": "keeping a family safe matters more than forcing a public reckoning at the start of the revelation chapter",
-          "challenge": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
-          "insight-pressure": "forgery turns from suspicion into undeniable chronology",
-          "exit-belief": "care without truth only prolongs the violence of the original wound after the revelation chapter"
+          "entry-belief": "keeping a family safe matters more than forcing a public reckoning at the start of the investigation chapter",
+          "challenge": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
+          "insight-pressure": "the investigation now threatens the family as much as the institution",
+          "exit-belief": "care without truth only prolongs the violence of the original wound after the investigation chapter"
         },
         "relationshipArc": {
           "chapter": "chapter 003",
           "pair": "Mira Solari, Vera Quinn",
           "entry-dynamic": "productive-partnership-guarded-by-emotional-self-defense",
-          "stress-line": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
+          "stress-line": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
           "exit-dynamic": "altered-but-legible-bond"
         },
         "pause": {
           "scope": "chapter 003",
           "pause-function": "psychological",
-          "focus": "the truth stops being archival and becomes a shared moral choice",
+          "focus": "the lie becomes documentable, and therefore more dangerous",
           "placement": "before-final-scene",
           "reader-effect": "decelerate just enough to let consequence become legible"
         },
         "acceleration": {
           "scope": "chapter 003",
           "acceleration-mode": "summary-burst",
-          "trigger": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
+          "trigger": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
           "reader-effect": "compress time and force the next consequence to land without emotional escape",
           "target-zone": "the shuttered mediation office above the old customs hall"
         },
@@ -909,38 +1019,38 @@ Canonical source-edition payload used by the translation stage.
             "showing-mode": "direct-showing",
             "focalization": "internal-single",
             "time-space": "the shuttered mediation office above the old customs hall",
-            "introduction": "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration.",
-            "development": "The plaques show corrected dates that match the forged ledger rather than the actual deaths.",
-            "conflict": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
-            "resolution": "She asks Vera to stand beside her publicly, even if it means both families lose protection.",
+            "introduction": "Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.",
+            "development": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.",
+            "conflict": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
+            "resolution": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.",
             "exit": "the next scene begins before the pressure can settle",
             "participants": [
               "Mira Solari",
               "Vera Quinn",
               "Corin Voss"
             ],
-            "state-change": "the truth stops being archival and becomes a shared moral choice",
+            "state-change": "the lie becomes documentable, and therefore more dangerous",
             "action": {
               "action-mode": "revelation-act",
               "scene": "the shuttered mediation office above the old customs hall",
               "actor": "Mira Solari",
-              "goal": "find a form of testimony that cannot be dismissed as private grief",
-              "obstacle": "every valid witness is tied to the town through debt, salary, or kinship",
+              "goal": "extract enough records to prove the compensation pattern is deliberate",
+              "obstacle": "the archive software now mirrors paper files only after political approval",
               "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
             },
             "event": {
               "scope": "the shuttered mediation office above the old customs hall",
               "event-type": "crime",
-              "trigger": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
-              "impact": "forgery turns from suspicion into undeniable chronology",
-              "follow-through": "the case becomes inseparable from the commemoration ceremony"
+              "trigger": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
+              "impact": "the investigation now threatens the family as much as the institution",
+              "follow-through": "Mira loses the comfort of treating her mother as untouched by the fraud"
             },
             "conflictPacket": {
               "scope": "the shuttered mediation office above the old customs hall",
               "type": "external-society",
               "forces": "Mira Solari versus Corin Voss",
               "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
-              "escalation": "The plaques show corrected dates that match the forged ledger rather than the actual deaths."
+              "escalation": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion."
             },
             "dialogueTurns": [
               {
@@ -948,7 +1058,7 @@ Canonical source-edition payload used by the translation stage.
                 "speaker": "Vera Quinn",
                 "intent": "tease-probe",
                 "subtext": "uses wit to test whether the wound can be named safely",
-                "line-hint": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
+                "line-hint": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
                 "reaction-beat": "The joke opens a bruise neither speaker can ignore now."
               },
               {
@@ -956,7 +1066,7 @@ Canonical source-edition payload used by the translation stage.
                 "speaker": "Mira Solari",
                 "intent": "name-risk",
                 "subtext": "speaks the consequence both speakers hoped could stay implied",
-                "line-hint": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
+                "line-hint": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
                 "reaction-beat": "Naming the risk turns pressure into irreversible commitment."
               }
             ]
@@ -966,38 +1076,38 @@ Canonical source-edition payload used by the translation stage.
             "showing-mode": "mixed",
             "focalization": "internal-single",
             "time-space": "the shuttered mediation office above the old customs hall",
-            "introduction": "The plaques show corrected dates that match the forged ledger rather than the actual deaths.",
-            "development": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
-            "conflict": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
-            "resolution": "She asks Vera to stand beside her publicly, even if it means both families lose protection.",
+            "introduction": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.",
+            "development": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
+            "conflict": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
+            "resolution": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.",
             "exit": "the next scene begins before the pressure can settle",
             "participants": [
               "Mira Solari",
               "Vera Quinn",
               "Corin Voss"
             ],
-            "state-change": "the truth stops being archival and becomes a shared moral choice",
+            "state-change": "the lie becomes documentable, and therefore more dangerous",
             "action": {
               "action-mode": "attempt",
               "scene": "the shuttered mediation office above the old customs hall",
               "actor": "Mira Solari",
-              "goal": "the case becomes inseparable from the commemoration ceremony",
-              "obstacle": "every valid witness is tied to the town through debt, salary, or kinship",
+              "goal": "Mira loses the comfort of treating her mother as untouched by the fraud",
+              "obstacle": "the archive software now mirrors paper files only after political approval",
               "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
             },
             "event": {
               "scope": "the shuttered mediation office above the old customs hall",
               "event-type": "betrayal",
-              "trigger": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
-              "impact": "forgery turns from suspicion into undeniable chronology",
-              "follow-through": "the case becomes inseparable from the commemoration ceremony"
+              "trigger": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
+              "impact": "the investigation now threatens the family as much as the institution",
+              "follow-through": "Mira loses the comfort of treating her mother as untouched by the fraud"
             },
             "conflictPacket": {
               "scope": "the shuttered mediation office above the old customs hall",
               "type": "external-character",
               "forces": "Mira Solari versus Corin Voss",
               "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
-              "escalation": "The plaques show corrected dates that match the forged ledger rather than the actual deaths."
+              "escalation": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion."
             },
             "dialogueTurns": [
               {
@@ -1005,7 +1115,7 @@ Canonical source-edition payload used by the translation stage.
                 "speaker": "Vera Quinn",
                 "intent": "commit",
                 "subtext": "makes risk sound practical enough to become a promise",
-                "line-hint": "Names beneath the memorial varnish",
+                "line-hint": "Archive window without signatures",
                 "reaction-beat": "The promise raises the stakes for the next exchange."
               },
               {
@@ -1013,7 +1123,7 @@ Canonical source-edition payload used by the translation stage.
                 "speaker": "Mira Solari",
                 "intent": "reframe",
                 "subtext": "changes the moral meaning of what was just said",
-                "line-hint": "Names beneath the memorial varnish",
+                "line-hint": "Archive window without signatures",
                 "reaction-beat": "The new framing makes the old position harder to keep."
               }
             ]
@@ -1023,38 +1133,38 @@ Canonical source-edition payload used by the translation stage.
             "showing-mode": "introspective",
             "focalization": "internal-single",
             "time-space": "the shuttered mediation office above the old customs hall",
-            "introduction": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
-            "development": "forgery turns from suspicion into undeniable chronology",
-            "conflict": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
-            "resolution": "She asks Vera to stand beside her publicly, even if it means both families lose protection.",
-            "exit": "the chapter hands off to a sharper revelation consequence",
+            "introduction": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
+            "development": "the investigation now threatens the family as much as the institution",
+            "conflict": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
+            "resolution": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.",
+            "exit": "the chapter hands off to a sharper investigation consequence",
             "participants": [
               "Mira Solari",
               "Vera Quinn",
               "Corin Voss"
             ],
-            "state-change": "the truth stops being archival and becomes a shared moral choice",
+            "state-change": "the lie becomes documentable, and therefore more dangerous",
             "action": {
               "action-mode": "revelation-act",
               "scene": "the shuttered mediation office above the old customs hall",
               "actor": "Mira Solari",
-              "goal": "Names beneath the memorial varnish",
-              "obstacle": "every valid witness is tied to the town through debt, salary, or kinship",
-              "result": "the truth stops being archival and becomes a shared moral choice"
+              "goal": "Archive window without signatures",
+              "obstacle": "the archive software now mirrors paper files only after political approval",
+              "result": "the lie becomes documentable, and therefore more dangerous"
             },
             "event": {
               "scope": "the shuttered mediation office above the old customs hall",
               "event-type": "deadline",
-              "trigger": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
-              "impact": "forgery turns from suspicion into undeniable chronology",
-              "follow-through": "the case becomes inseparable from the commemoration ceremony"
+              "trigger": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
+              "impact": "the investigation now threatens the family as much as the institution",
+              "follow-through": "Mira loses the comfort of treating her mother as untouched by the fraud"
             },
             "conflictPacket": {
               "scope": "the shuttered mediation office above the old customs hall",
               "type": "external-character",
               "forces": "Mira Solari versus Corin Voss",
               "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
-              "escalation": "The plaques show corrected dates that match the forged ledger rather than the actual deaths."
+              "escalation": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion."
             },
             "dialogueTurns": [
               {
@@ -1062,7 +1172,7 @@ Canonical source-edition payload used by the translation stage.
                 "speaker": "Vera Quinn",
                 "intent": "deflect",
                 "subtext": "turns confession sideways to protect status and control",
-                "line-hint": "The plaques show corrected dates that match the forged ledger rather than the actual deaths.",
+                "line-hint": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.",
                 "reaction-beat": "The evasion makes the silence more visible than the answer would have."
               },
               {
@@ -1070,20 +1180,20 @@ Canonical source-edition payload used by the translation stage.
                 "speaker": "Mira Solari",
                 "intent": "name-risk",
                 "subtext": "speaks the consequence both speakers hoped could stay implied",
-                "line-hint": "The plaques show corrected dates that match the forged ledger rather than the actual deaths.",
+                "line-hint": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.",
                 "reaction-beat": "Naming the risk turns pressure into irreversible commitment."
               }
             ]
           }
         ],
-        "draftText": "# Chapter 003\n\nMira Solari enters the shuttered mediation office above the old customs hall while the memorial plaque for Mira's brother lists a death date that predates the night he called her. In this drama chapter, revelation movement anchored by names beneath the memorial varnish, so choices around identity-self under reconciliation pressure carry shock and relief. Vera Quinn keeps searching for a path toward relief, while Corin Voss works to keep the conflict inside a safer official story. The central question here is can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence. The conflict thread is mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. The setting is anchored by wet wool, radiator hiss, mildew trapped in paper bindings and keeps a civic room designed to soften language until responsibility disappears in view. The governing constraint is still active: mira cannot accuse the town hall without exposing her mother and Vera to the same hearing. At the start, Mira Solari believes keeping a family safe matters more than forcing a public reckoning at the start of the revelation chapter. Its rhythm leans on description-action-dialogue-pause-event-monologue.\n\nThe room tightens before anyone can pretend calm is enough. A partial truth is about to force a harder one into view. In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration. Mira Solari tries to find a form of testimony that cannot be dismissed as private grief, but every valid witness is tied to the town through debt, salary, or kinship. The plaques show corrected dates that match the forged ledger rather than the actual deaths. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When the memorial plaque for Mira's brother lists a death date that predates the night he called her, the local pressure tips from shock toward relief. She asks Vera to stand beside her publicly, even if it means both families lose protection. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the truth stops being archival and becomes a shared moral choice.\n\nTheir speech stays careful, but grief keeps roughening the edges of each sentence. No line remains neutral now. Mira Solari, Vera Quinn keep circling mira Solari and Mira Solari keep circling the truth they cannot safely name yet. \"The memorial plaque for Mira's brother lists a death date that predates the night he called her\" Vera Quinn says. The joke opens a bruise neither speaker can ignore now. \"The memorial plaque for Mira's brother lists a death date that predates the night he called her\" Mira Solari replies. Naming the risk turns pressure into irreversible commitment.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe first deceleration is deliberate: the truth stops being archival and becomes a shared moral choice.\n\nThe silence breaks in smaller, sharper motions. A partial truth is about to force a harder one into view. The plaques show corrected dates that match the forged ledger rather than the actual deaths. Mira Solari tries to the case becomes inseparable from the commemoration ceremony, but every valid witness is tied to the town through debt, salary, or kinship. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When the memorial plaque for Mira's brother lists a death date that predates the night he called her, the local pressure tips from shock toward relief. She asks Vera to stand beside her publicly, even if it means both families lose protection. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the truth stops being archival and becomes a shared moral choice.\n\n \"Names beneath the memorial varnish\" Vera Quinn says. The promise raises the stakes for the next exchange. \"Names beneath the memorial varnish\" Mira Solari replies. The new framing makes the old position harder to keep.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe private wound becomes public at last. A partial truth is about to force a harder one into view. The memorial plaque for Mira's brother lists a death date that predates the night he called her. Mira Solari tries to names beneath the memorial varnish, but every valid witness is tied to the town through debt, salary, or kinship. Forgery turns from suspicion into undeniable chronology. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When the memorial plaque for Mira's brother lists a death date that predates the night he called her, the local pressure tips from shock toward relief. She asks Vera to stand beside her publicly, even if it means both families lose protection. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the truth stops being archival and becomes a shared moral choice.\n\n \"The plaques show corrected dates that match the forged ledger rather than the actual deaths\" Vera Quinn says. The evasion makes the silence more visible than the answer would have. \"The plaques show corrected dates that match the forged ledger rather than the actual deaths\" Mira Solari replies. Naming the risk turns pressure into irreversible commitment.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThen the pace compresses: the memorial plaque for Mira's brother lists a death date that predates the night he called her.\n\nMira Solari feels forgery turns from suspicion into undeniable chronology, a mix of shock and relief that will not settle into easy relief. The chapter therefore pushes the inner line from keeping a family safe matters more than forcing a public reckoning at the start of the revelation chapter toward care without truth only prolongs the violence of the original wound after the revelation chapter.\n\nBy the end of chapter-003, she asks Vera to stand beside her publicly, even if it means both families lose protection. The chapter keeps faith with identity-self under reconciliation pressure while moving toward open-question, and it refuses relief without visible cost. Its answer shift is clear: the dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the relational line moves from productive-partnership-guarded-by-emotional-self-defense toward altered-but-legible-bond. The closing pressure is therefore both shock and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?."
+        "draftText": "# Chapter 003\n\nMira Solari enters the shuttered mediation office above the old customs hall while one photographed page carries Mira's mother's signature beneath a false evacuation report. In this drama chapter, escalation movement anchored by archive window without signatures, so choices around identity-self under reconciliation pressure carry grief and tension. Vera Quinn keeps searching for a path toward relief, while Corin Voss works to keep the conflict inside a safer official story. The central question here is can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence. The conflict thread is vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. The setting is anchored by wet wool, radiator hiss, mildew trapped in paper bindings and keeps a civic room designed to soften language until responsibility disappears in view. The governing constraint is still active: mira cannot accuse the town hall without exposing her mother and Vera to the same hearing. At the start, Mira Solari believes keeping a family safe matters more than forcing a public reckoning at the start of the investigation chapter. Its rhythm leans on description-action-dialogue-pause-event-monologue.\n\nThe room tightens before anyone can pretend calm is enough. The movement now favors evidence over comfort. Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living. Mira Solari tries to extract enough records to prove the compensation pattern is deliberate, but the archive software now mirrors paper files only after political approval. Corin arrives with coffee, condolences, and a rewritten story about emergency discretion. Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When one photographed page carries Mira's mother's signature beneath a false evacuation report, the local pressure tips from grief toward tension. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the lie becomes documentable, and therefore more dangerous.\n\nTheir speech stays careful, but grief keeps roughening the edges of each sentence. Subtext matters as much as the explicit claim. Mira Solari, Vera Quinn keep circling mira Solari and Mira Solari keep circling the truth they cannot safely name yet. \"One photographed page carries Mira's mother's signature beneath a false evacuation report\" Vera Quinn says. The joke opens a bruise neither speaker can ignore now. \"One photographed page carries Mira's mother's signature beneath a false evacuation report\" Mira Solari replies. Naming the risk turns pressure into irreversible commitment.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe first deceleration is deliberate: the lie becomes documentable, and therefore more dangerous.\n\nThe silence breaks in smaller, sharper motions. The movement now favors evidence over comfort. Corin arrives with coffee, condolences, and a rewritten story about emergency discretion. Mira Solari tries to mira loses the comfort of treating her mother as untouched by the fraud, but the archive software now mirrors paper files only after political approval. Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When one photographed page carries Mira's mother's signature beneath a false evacuation report, the local pressure tips from grief toward tension. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the lie becomes documentable, and therefore more dangerous.\n\n \"Archive window without signatures\" Vera Quinn says. The promise raises the stakes for the next exchange. \"Archive window without signatures\" Mira Solari replies. The new framing makes the old position harder to keep.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe private wound becomes public at last. The movement now favors evidence over comfort. One photographed page carries Mira's mother's signature beneath a false evacuation report. Mira Solari tries to archive window without signatures, but the archive software now mirrors paper files only after political approval. The investigation now threatens the family as much as the institution. Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When one photographed page carries Mira's mother's signature beneath a false evacuation report, the local pressure tips from grief toward tension. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the lie becomes documentable, and therefore more dangerous.\n\n \"Corin arrives with coffee, condolences, and a rewritten story about emergency discretion\" Vera Quinn says. The evasion makes the silence more visible than the answer would have. \"Corin arrives with coffee, condolences, and a rewritten story about emergency discretion\" Mira Solari replies. Naming the risk turns pressure into irreversible commitment.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThen the pace compresses: one photographed page carries Mira's mother's signature beneath a false evacuation report.\n\nMira Solari feels the investigation now threatens the family as much as the institution, a mix of grief and tension that will not settle into easy relief. The chapter therefore pushes the inner line from keeping a family safe matters more than forcing a public reckoning at the start of the investigation chapter toward care without truth only prolongs the violence of the original wound after the investigation chapter.\n\nBy the end of chapter-003, they steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass. The chapter keeps faith with identity-self under reconciliation pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: the dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the relational line moves from productive-partnership-guarded-by-emotional-self-defense toward altered-but-legible-bond. The closing pressure is therefore both grief and tension, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?."
       },
       {
         "id": "chapter-004",
         "number": 4,
-        "role": "culmination",
-        "outputState": "the town loses its protective story even though no immediate justice follows",
-        "closingMode": "reversal",
+        "role": "revelation",
+        "outputState": "the truth stops being archival and becomes a shared moral choice",
+        "closingMode": "cliffhanger",
         "thematicFocus": "identity-self under reconciliation pressure",
         "chapterQuestion": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
         "answerShift": "the dead are betrayed again whenever the living turn grief into paperwork",
@@ -1093,11 +1203,11 @@ Canonical source-edition payload used by the translation stage.
           "sequence-type": "recovery",
           "link-logic": "mixed",
           "chapter": "chapter 004",
-          "objective": "force the lie into a setting where it cannot be quietly revised afterward",
+          "objective": "find a form of testimony that cannot be dismissed as private grief",
           "scene-chain": "scene-004-01, scene-004-02, scene-004-03",
           "carry-forward-pressure": "each scene must inherit and intensify the previous unresolved pressure",
-          "conflict-line": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
-          "payoff": "the sequence delivers its final irreversible choice"
+          "conflict-line": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
+          "payoff": "the case becomes inseparable from the commemoration ceremony"
         },
         "dialogue": {
           "scene": "the shuttered mediation office above the old customs hall",
@@ -1110,7 +1220,7 @@ Canonical source-edition payload used by the translation stage.
           "scene": "the shuttered mediation office above the old customs hall",
           "character": "Mira Solari",
           "function": "psychological-insight",
-          "trigger": "grief becomes accusation before the whole town",
+          "trigger": "forgery turns from suspicion into undeniable chronology",
           "texture": "reflective"
         },
         "suspense": {
@@ -1139,29 +1249,29 @@ Canonical source-edition payload used by the translation stage.
         },
         "protagonistArc": {
           "chapter": "chapter 004",
-          "entry-belief": "keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter",
-          "challenge": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
-          "insight-pressure": "grief becomes accusation before the whole town",
-          "exit-belief": "care without truth only prolongs the violence of the original wound after the culmination chapter"
+          "entry-belief": "keeping a family safe matters more than forcing a public reckoning at the start of the revelation chapter",
+          "challenge": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
+          "insight-pressure": "forgery turns from suspicion into undeniable chronology",
+          "exit-belief": "care without truth only prolongs the violence of the original wound after the revelation chapter"
         },
         "relationshipArc": {
           "chapter": "chapter 004",
           "pair": "Mira Solari, Vera Quinn",
           "entry-dynamic": "oath-bound-cooperation-shadowed-by-allegiance",
-          "stress-line": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "stress-line": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
           "exit-dynamic": "scarred-trust-rebuilt-on-painful-clarity"
         },
         "pause": {
           "scope": "chapter 004",
           "pause-function": "psychological",
-          "focus": "the town loses its protective story even though no immediate justice follows",
+          "focus": "the truth stops being archival and becomes a shared moral choice",
           "placement": "before-final-scene",
           "reader-effect": "decelerate just enough to let consequence become legible"
         },
         "acceleration": {
           "scope": "chapter 004",
-          "acceleration-mode": "pursuit-compression",
-          "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+          "acceleration-mode": "summary-burst",
+          "trigger": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
           "reader-effect": "compress time and force the next consequence to land without emotional escape",
           "target-zone": "the shuttered mediation office above the old customs hall"
         },
@@ -1177,6 +1287,274 @@ Canonical source-edition payload used by the translation stage.
             "showing-mode": "mixed",
             "focalization": "internal-single",
             "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration.",
+            "development": "The plaques show corrected dates that match the forged ledger rather than the actual deaths.",
+            "conflict": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
+            "resolution": "She asks Vera to stand beside her publicly, even if it means both families lose protection.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the truth stops being archival and becomes a shared moral choice",
+            "action": {
+              "action-mode": "evasion",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "find a form of testimony that cannot be dismissed as private grief",
+              "obstacle": "every valid witness is tied to the town through debt, salary, or kinship",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "arrival",
+              "trigger": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
+              "impact": "forgery turns from suspicion into undeniable chronology",
+              "follow-through": "the case becomes inseparable from the commemoration ceremony"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "type": "external-supernatural",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "The plaques show corrected dates that match the forged ledger rather than the actual deaths."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "reframe",
+                "subtext": "changes the moral meaning of what was just said",
+                "line-hint": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
+                "reaction-beat": "The new framing makes the old position harder to keep."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "challenge",
+                "subtext": "refuses the easier story and forces the pressure into view",
+                "line-hint": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
+                "reaction-beat": "The challenge strips politeness away from the scene."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 004",
+            "showing-mode": "mixed",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "The plaques show corrected dates that match the forged ledger rather than the actual deaths.",
+            "development": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
+            "conflict": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
+            "resolution": "She asks Vera to stand beside her publicly, even if it means both families lose protection.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the truth stops being archival and becomes a shared moral choice",
+            "action": {
+              "action-mode": "negotiation",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "the case becomes inseparable from the commemoration ceremony",
+              "obstacle": "every valid witness is tied to the town through debt, salary, or kinship",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "loss",
+              "trigger": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
+              "impact": "forgery turns from suspicion into undeniable chronology",
+              "follow-through": "the case becomes inseparable from the commemoration ceremony"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "type": "external-society",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "The plaques show corrected dates that match the forged ledger rather than the actual deaths."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "name-risk",
+                "subtext": "speaks the consequence both speakers hoped could stay implied",
+                "line-hint": "Names beneath the memorial varnish",
+                "reaction-beat": "Naming the risk turns pressure into irreversible commitment."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "warn",
+                "subtext": "tries to protect the bond by narrowing the next available move",
+                "line-hint": "Names beneath the memorial varnish",
+                "reaction-beat": "The warning narrows what can still be done safely."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 004",
+            "showing-mode": "compressed-showing",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
+            "development": "forgery turns from suspicion into undeniable chronology",
+            "conflict": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
+            "resolution": "She asks Vera to stand beside her publicly, even if it means both families lose protection.",
+            "exit": "the chapter hands off to a sharper revelation consequence",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the truth stops being archival and becomes a shared moral choice",
+            "action": {
+              "action-mode": "negotiation",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "Names beneath the memorial varnish",
+              "obstacle": "every valid witness is tied to the town through debt, salary, or kinship",
+              "result": "the truth stops being archival and becomes a shared moral choice"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "loss",
+              "trigger": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
+              "impact": "forgery turns from suspicion into undeniable chronology",
+              "follow-through": "the case becomes inseparable from the commemoration ceremony"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "type": "external-society",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "The plaques show corrected dates that match the forged ledger rather than the actual deaths."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "answer-honestly",
+                "subtext": "gives away more vulnerability than strategy intended",
+                "line-hint": "The plaques show corrected dates that match the forged ledger rather than the actual deaths.",
+                "reaction-beat": "The honesty changes the balance of power in the room."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "warn",
+                "subtext": "tries to protect the bond by narrowing the next available move",
+                "line-hint": "The plaques show corrected dates that match the forged ledger rather than the actual deaths.",
+                "reaction-beat": "The warning narrows what can still be done safely."
+              }
+            ]
+          }
+        ],
+        "draftText": "# Chapter 004\n\nMira Solari enters the shuttered mediation office above the old customs hall while in the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration. In this drama chapter, revelation movement anchored by names beneath the memorial varnish, so choices around identity-self under reconciliation pressure carry shock and relief. Vera Quinn keeps searching for a path toward relief, while Corin Voss works to keep the conflict inside a safer official story. The central question here is can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence. The conflict thread is mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. The setting is anchored by wet wool, radiator hiss, mildew trapped in paper bindings and keeps a civic room designed to soften language until responsibility disappears in view. The governing constraint is still active: mira cannot accuse the town hall without exposing her mother and Vera to the same hearing. At the start, Mira Solari believes keeping a family safe matters more than forcing a public reckoning at the start of the revelation chapter. Its rhythm leans on description-action-dialogue-pause-event-monologue.\n\nThe room tightens before anyone can pretend calm is enough. A partial truth is about to force a harder one into view. In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration. Mira Solari tries to find a form of testimony that cannot be dismissed as private grief, but every valid witness is tied to the town through debt, salary, or kinship. The plaques show corrected dates that match the forged ledger rather than the actual deaths. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When the memorial plaque for Mira's brother lists a death date that predates the night he called her, the local pressure tips from shock toward relief. She asks Vera to stand beside her publicly, even if it means both families lose protection. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the truth stops being archival and becomes a shared moral choice.\n\nTheir speech stays careful, but grief keeps roughening the edges of each sentence. No line remains neutral now. Mira Solari, Vera Quinn keep circling mira Solari and Mira Solari keep circling the truth they cannot safely name yet. \"The memorial plaque for Mira's brother lists a death date that predates the night he called her\" Vera Quinn says. The new framing makes the old position harder to keep. \"The memorial plaque for Mira's brother lists a death date that predates the night he called her\" Mira Solari replies. The challenge strips politeness away from the scene.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe first deceleration is deliberate: the truth stops being archival and becomes a shared moral choice.\n\nThe silence breaks in smaller, sharper motions. A partial truth is about to force a harder one into view. The plaques show corrected dates that match the forged ledger rather than the actual deaths. Mira Solari tries to the case becomes inseparable from the commemoration ceremony, but every valid witness is tied to the town through debt, salary, or kinship. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When the memorial plaque for Mira's brother lists a death date that predates the night he called her, the local pressure tips from shock toward relief. She asks Vera to stand beside her publicly, even if it means both families lose protection. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the truth stops being archival and becomes a shared moral choice.\n\n \"Names beneath the memorial varnish\" Vera Quinn says. Naming the risk turns pressure into irreversible commitment. \"Names beneath the memorial varnish\" Mira Solari replies. The warning narrows what can still be done safely.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe private wound becomes public at last. A partial truth is about to force a harder one into view. The memorial plaque for Mira's brother lists a death date that predates the night he called her. Mira Solari tries to names beneath the memorial varnish, but every valid witness is tied to the town through debt, salary, or kinship. Forgery turns from suspicion into undeniable chronology. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When the memorial plaque for Mira's brother lists a death date that predates the night he called her, the local pressure tips from shock toward relief. She asks Vera to stand beside her publicly, even if it means both families lose protection. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the truth stops being archival and becomes a shared moral choice.\n\n \"The plaques show corrected dates that match the forged ledger rather than the actual deaths\" Vera Quinn says. The honesty changes the balance of power in the room. \"The plaques show corrected dates that match the forged ledger rather than the actual deaths\" Mira Solari replies. The warning narrows what can still be done safely.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThen the pace compresses: the memorial plaque for Mira's brother lists a death date that predates the night he called her.\n\nMira Solari feels forgery turns from suspicion into undeniable chronology, a mix of shock and relief that will not settle into easy relief. The chapter therefore pushes the inner line from keeping a family safe matters more than forcing a public reckoning at the start of the revelation chapter toward care without truth only prolongs the violence of the original wound after the revelation chapter.\n\nBy the end of chapter-004, the truth stops being archival and becomes a shared moral choice. The chapter keeps faith with identity-self under reconciliation pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: the dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the relational line moves from oath-bound-cooperation-shadowed-by-allegiance toward scarred-trust-rebuilt-on-painful-clarity. The closing pressure is therefore both shock and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?."
+      },
+      {
+        "id": "chapter-005",
+        "number": 5,
+        "role": "culmination",
+        "outputState": "the town loses its protective story even though no immediate justice follows",
+        "closingMode": "cliffhanger",
+        "thematicFocus": "identity-self under reconciliation pressure",
+        "chapterQuestion": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
+        "answerShift": "the dead are betrayed again whenever the living turn grief into paperwork",
+        "worldPressure": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
+        "blockAlternation": "description-action-dialogue-pause-event-monologue",
+        "sequence": {
+          "sequence-type": "recovery",
+          "link-logic": "mixed",
+          "chapter": "chapter 005",
+          "objective": "force the lie into a setting where it cannot be quietly revised afterward",
+          "scene-chain": "scene-005-01, scene-005-02, scene-005-03",
+          "carry-forward-pressure": "each scene must inherit and intensify the previous unresolved pressure",
+          "conflict-line": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "payoff": "the truth survives, but so does the cost of having spoken it"
+        },
+        "dialogue": {
+          "scene": "the shuttered mediation office above the old customs hall",
+          "speakers": "Mira Solari, Vera Quinn",
+          "exchange-type": "conflictual",
+          "purpose": "tension",
+          "subtext": "Mira Solari and Mira Solari keep circling the truth they cannot safely name yet"
+        },
+        "monologue": {
+          "scene": "the shuttered mediation office above the old customs hall",
+          "character": "Mira Solari",
+          "function": "psychological-insight",
+          "trigger": "grief becomes accusation before the whole town",
+          "texture": "reflective"
+        },
+        "suspense": {
+          "scope": "chapter 005",
+          "suspense-type": "emotional",
+          "uncertainty": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
+          "delay-technique": "mixed",
+          "payoff-zone": "event-005-3"
+        },
+        "location": {
+          "chapter": "chapter 005",
+          "primary-setting": "the shuttered mediation office above the old customs hall",
+          "secondary-setting": "the flood memorial crypt beneath Saint Rowan chapel",
+          "sensory-anchor": "wet wool, radiator hiss, mildew trapped in paper bindings",
+          "social-signal": "every conversation sounds temporary because the office trained people to trade truth for calm",
+          "symbolic-charge": "a civic room designed to soften language until responsibility disappears",
+          "conflict-use": "private negotiations keep collapsing into accusations that belong in public"
+        },
+        "rulePressure": {
+          "chapter": "chapter 005",
+          "rule-reference": "Every flood-district compensation claim must pass through the mediation office before it reaches the court archive.",
+          "visible-symptom": "files return with fresh signatures but older dates, as if grief itself were rewritten overnight",
+          "action-limitation": "Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing.",
+          "conflict-output": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
+          "reveal-pattern": "show-exception-to-reveal-rule"
+        },
+        "protagonistArc": {
+          "chapter": "chapter 005",
+          "entry-belief": "keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter",
+          "challenge": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "insight-pressure": "grief becomes accusation before the whole town",
+          "exit-belief": "care without truth only prolongs the violence of the original wound after the culmination chapter"
+        },
+        "relationshipArc": {
+          "chapter": "chapter 005",
+          "pair": "Mira Solari, Vera Quinn",
+          "entry-dynamic": "careful-cooperation-strained-by-withheld-history",
+          "stress-line": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "exit-dynamic": "altered-but-legible-bond"
+        },
+        "pause": {
+          "scope": "chapter 005",
+          "pause-function": "psychological",
+          "focus": "the town loses its protective story even though no immediate justice follows",
+          "placement": "before-final-scene",
+          "reader-effect": "decelerate just enough to let consequence become legible"
+        },
+        "acceleration": {
+          "scope": "chapter 005",
+          "acceleration-mode": "pursuit-compression",
+          "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+          "reader-effect": "compress time and force the next consequence to land without emotional escape",
+          "target-zone": "the shuttered mediation office above the old customs hall"
+        },
+        "alternation": {
+          "chapter": "chapter 005",
+          "block-order": "description-action-dialogue-pause-event-monologue",
+          "reader-effect": "When grief becomes a civic ritual, is silence still mercy or only a softer form of power?",
+          "anti-flatness-rule": "do not chain action summaries without dialogue, atmosphere, or reflection support"
+        },
+        "scenes": [
+          {
+            "chapter": "chapter 005",
+            "showing-mode": "compressed-showing",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
             "introduction": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.",
             "development": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
             "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
@@ -1189,7 +1567,7 @@ Canonical source-edition payload used by the translation stage.
             ],
             "state-change": "the town loses its protective story even though no immediate justice follows",
             "action": {
-              "action-mode": "evasion",
+              "action-mode": "attempt",
               "scene": "the shuttered mediation office above the old customs hall",
               "actor": "Mira Solari",
               "goal": "force the lie into a setting where it cannot be quietly revised afterward",
@@ -1198,14 +1576,14 @@ Canonical source-edition payload used by the translation stage.
             },
             "event": {
               "scope": "the shuttered mediation office above the old customs hall",
-              "event-type": "arrival",
+              "event-type": "decision",
               "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
               "impact": "grief becomes accusation before the whole town",
               "follow-through": "the truth survives, but so does the cost of having spoken it"
             },
             "conflictPacket": {
               "scope": "the shuttered mediation office above the old customs hall",
-              "type": "external-supernatural",
+              "type": "external-character",
               "forces": "Mira Solari versus Corin Voss",
               "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
               "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
@@ -1214,10 +1592,278 @@ Canonical source-edition payload used by the translation stage.
               {
                 "scene": "the shuttered mediation office above the old customs hall",
                 "speaker": "Vera Quinn",
-                "intent": "reframe",
-                "subtext": "changes the moral meaning of what was just said",
+                "intent": "answer-honestly",
+                "subtext": "gives away more vulnerability than strategy intended",
                 "line-hint": "Mira reaches the line proving that relief money was routed through Corin's family company",
-                "reaction-beat": "The new framing makes the old position harder to keep."
+                "reaction-beat": "The honesty changes the balance of power in the room."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "probe",
+                "subtext": "tests whether the other speaker can bear the unsoftened truth",
+                "line-hint": "Mira reaches the line proving that relief money was routed through Corin's family company",
+                "reaction-beat": "The question lands harder than either speaker planned."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 005",
+            "showing-mode": "introspective",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+            "development": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "resolution": "She finishes reading and lets the silence after the final name condemn the room.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the town loses its protective story even though no immediate justice follows",
+            "action": {
+              "action-mode": "attempt",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "the truth survives, but so does the cost of having spoken it",
+              "obstacle": "the ceremony is choreographed to make dissent look like sacrilege",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "accident",
+              "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+              "impact": "grief becomes accusation before the whole town",
+              "follow-through": "the truth survives, but so does the cost of having spoken it"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "type": "internal",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "probe",
+                "subtext": "tests whether the other speaker can bear the unsoftened truth",
+                "line-hint": "Commemoration ledger reading",
+                "reaction-beat": "The question lands harder than either speaker planned."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "warn",
+                "subtext": "tries to protect the bond by narrowing the next available move",
+                "line-hint": "Commemoration ledger reading",
+                "reaction-beat": "The warning narrows what can still be done safely."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 005",
+            "showing-mode": "dialogic",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "Mira reaches the line proving that relief money was routed through Corin's family company",
+            "development": "grief becomes accusation before the whole town",
+            "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "resolution": "She finishes reading and lets the silence after the final name condemn the room.",
+            "exit": "the chapter hands off to a sharper culmination consequence",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the town loses its protective story even though no immediate justice follows",
+            "action": {
+              "action-mode": "attempt",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "Commemoration ledger reading",
+              "obstacle": "the ceremony is choreographed to make dissent look like sacrilege",
+              "result": "the town loses its protective story even though no immediate justice follows"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "loss",
+              "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+              "impact": "grief becomes accusation before the whole town",
+              "follow-through": "the truth survives, but so does the cost of having spoken it"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "type": "external-nature",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "challenge",
+                "subtext": "refuses the easier story and forces the pressure into view",
+                "line-hint": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+                "reaction-beat": "The challenge strips politeness away from the scene."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "answer-honestly",
+                "subtext": "gives away more vulnerability than strategy intended",
+                "line-hint": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+                "reaction-beat": "The honesty changes the balance of power in the room."
+              }
+            ]
+          }
+        ],
+        "draftText": "# Chapter 005\n\nMira Solari enters the shuttered mediation office above the old customs hall while during the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. In this drama chapter, culmination movement anchored by commemoration ledger reading, so choices around identity-self under reconciliation pressure carry fear and relief. Vera Quinn keeps searching for a path toward relief, while Corin Voss works to keep the conflict inside a safer official story. The central question here is can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence. The conflict thread is mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. The setting is anchored by wet wool, radiator hiss, mildew trapped in paper bindings and keeps a civic room designed to soften language until responsibility disappears in view. The governing constraint is still active: mira cannot accuse the town hall without exposing her mother and Vera to the same hearing. At the start, Mira Solari believes keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter. Its rhythm leans on description-action-dialogue-pause-event-monologue.\n\nThe room tightens before anyone can pretend calm is enough. No one can leave this moment unchanged. During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Mira Solari tries to force the lie into a setting where it cannot be quietly revised afterward, but the ceremony is choreographed to make dissent look like sacrilege. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\nTheir speech stays careful, but grief keeps roughening the edges of each sentence. Subtext matters as much as the explicit claim. Mira Solari, Vera Quinn keep circling mira Solari and Mira Solari keep circling the truth they cannot safely name yet. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Vera Quinn says. The honesty changes the balance of power in the room. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Mira Solari replies. The question lands harder than either speaker planned.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe first deceleration is deliberate: the town loses its protective story even though no immediate justice follows.\n\nThe silence breaks in smaller, sharper motions. No one can leave this moment unchanged. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira Solari tries to the truth survives, but so does the cost of having spoken it, but the ceremony is choreographed to make dissent look like sacrilege. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\n \"Commemoration ledger reading\" Vera Quinn says. The question lands harder than either speaker planned. \"Commemoration ledger reading\" Mira Solari replies. The warning narrows what can still be done safely.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe private wound becomes public at last. No one can leave this moment unchanged. Mira reaches the line proving that relief money was routed through Corin's family company. Mira Solari tries to commemoration ledger reading, but the ceremony is choreographed to make dissent look like sacrilege. Grief becomes accusation before the whole town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\n \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory\" Vera Quinn says. The challenge strips politeness away from the scene. \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory\" Mira Solari replies. The honesty changes the balance of power in the room.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThen the pace compresses: mira reaches the line proving that relief money was routed through Corin's family company.\n\nMira Solari feels grief becomes accusation before the whole town, a mix of fear and relief that will not settle into easy relief. The chapter therefore pushes the inner line from keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter toward care without truth only prolongs the violence of the original wound after the culmination chapter.\n\nBy the end of chapter-005, the town loses its protective story even though no immediate justice follows. The chapter keeps faith with identity-self under reconciliation pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: the dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the relational line moves from careful-cooperation-strained-by-withheld-history toward altered-but-legible-bond. The closing pressure is therefore both fear and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?."
+      },
+      {
+        "id": "chapter-006",
+        "number": 6,
+        "role": "culmination",
+        "outputState": "the town loses its protective story even though no immediate justice follows",
+        "closingMode": "cliffhanger",
+        "thematicFocus": "identity-self under reconciliation pressure",
+        "chapterQuestion": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
+        "answerShift": "the dead are betrayed again whenever the living turn grief into paperwork",
+        "worldPressure": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
+        "blockAlternation": "description-action-dialogue-pause-event-monologue",
+        "sequence": {
+          "sequence-type": "recovery",
+          "link-logic": "mixed",
+          "chapter": "chapter 006",
+          "objective": "force the lie into a setting where it cannot be quietly revised afterward",
+          "scene-chain": "scene-006-01, scene-006-02, scene-006-03",
+          "carry-forward-pressure": "each scene must inherit and intensify the previous unresolved pressure",
+          "conflict-line": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "payoff": "the truth survives, but so does the cost of having spoken it"
+        },
+        "dialogue": {
+          "scene": "the shuttered mediation office above the old customs hall",
+          "speakers": "Mira Solari, Vera Quinn",
+          "exchange-type": "conflictual",
+          "purpose": "tension",
+          "subtext": "Mira Solari and Mira Solari keep circling the truth they cannot safely name yet"
+        },
+        "monologue": {
+          "scene": "the shuttered mediation office above the old customs hall",
+          "character": "Mira Solari",
+          "function": "psychological-insight",
+          "trigger": "grief becomes accusation before the whole town",
+          "texture": "reflective"
+        },
+        "suspense": {
+          "scope": "chapter 006",
+          "suspense-type": "emotional",
+          "uncertainty": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
+          "delay-technique": "mixed",
+          "payoff-zone": "event-006-3"
+        },
+        "location": {
+          "chapter": "chapter 006",
+          "primary-setting": "the shuttered mediation office above the old customs hall",
+          "secondary-setting": "the flood memorial crypt beneath Saint Rowan chapel",
+          "sensory-anchor": "wet wool, radiator hiss, mildew trapped in paper bindings",
+          "social-signal": "every conversation sounds temporary because the office trained people to trade truth for calm",
+          "symbolic-charge": "a civic room designed to soften language until responsibility disappears",
+          "conflict-use": "private negotiations keep collapsing into accusations that belong in public"
+        },
+        "rulePressure": {
+          "chapter": "chapter 006",
+          "rule-reference": "Every flood-district compensation claim must pass through the mediation office before it reaches the court archive.",
+          "visible-symptom": "files return with fresh signatures but older dates, as if grief itself were rewritten overnight",
+          "action-limitation": "Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing.",
+          "conflict-output": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
+          "reveal-pattern": "embed-rule-in-dialogue"
+        },
+        "protagonistArc": {
+          "chapter": "chapter 006",
+          "entry-belief": "keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter",
+          "challenge": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "insight-pressure": "grief becomes accusation before the whole town",
+          "exit-belief": "care without truth only prolongs the violence of the original wound after the culmination chapter"
+        },
+        "relationshipArc": {
+          "chapter": "chapter 006",
+          "pair": "Mira Solari, Vera Quinn",
+          "entry-dynamic": "productive-partnership-guarded-by-emotional-self-defense",
+          "stress-line": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "exit-dynamic": "solidarity-forged-through-contested-truth"
+        },
+        "pause": {
+          "scope": "chapter 006",
+          "pause-function": "psychological",
+          "focus": "the town loses its protective story even though no immediate justice follows",
+          "placement": "before-final-scene",
+          "reader-effect": "decelerate just enough to let consequence become legible"
+        },
+        "acceleration": {
+          "scope": "chapter 006",
+          "acceleration-mode": "pursuit-compression",
+          "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+          "reader-effect": "compress time and force the next consequence to land without emotional escape",
+          "target-zone": "the shuttered mediation office above the old customs hall"
+        },
+        "alternation": {
+          "chapter": "chapter 006",
+          "block-order": "description-action-dialogue-pause-event-monologue",
+          "reader-effect": "When grief becomes a civic ritual, is silence still mercy or only a softer form of power?",
+          "anti-flatness-rule": "do not chain action summaries without dialogue, atmosphere, or reflection support"
+        },
+        "scenes": [
+          {
+            "chapter": "chapter 006",
+            "showing-mode": "direct-showing",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.",
+            "development": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+            "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "resolution": "She finishes reading and lets the silence after the final name condemn the room.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the town loses its protective story even though no immediate justice follows",
+            "action": {
+              "action-mode": "negotiation",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "force the lie into a setting where it cannot be quietly revised afterward",
+              "obstacle": "the ceremony is choreographed to make dissent look like sacrilege",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "accident",
+              "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+              "impact": "grief becomes accusation before the whole town",
+              "follow-through": "the truth survives, but so does the cost of having spoken it"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "type": "external-society",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "answer-honestly",
+                "subtext": "gives away more vulnerability than strategy intended",
+                "line-hint": "Mira reaches the line proving that relief money was routed through Corin's family company",
+                "reaction-beat": "The honesty changes the balance of power in the room."
               },
               {
                 "scene": "the shuttered mediation office above the old customs hall",
@@ -1230,8 +1876,8 @@ Canonical source-edition payload used by the translation stage.
             ]
           },
           {
-            "chapter": "chapter 004",
-            "showing-mode": "mixed",
+            "chapter": "chapter 006",
+            "showing-mode": "introspective",
             "focalization": "internal-single",
             "time-space": "the shuttered mediation office above the old customs hall",
             "introduction": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
@@ -1262,6 +1908,217 @@ Canonical source-edition payload used by the translation stage.
             },
             "conflictPacket": {
               "scope": "the shuttered mediation office above the old customs hall",
+              "type": "internal",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "warn",
+                "subtext": "tries to protect the bond by narrowing the next available move",
+                "line-hint": "Commemoration ledger reading",
+                "reaction-beat": "The warning narrows what can still be done safely."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "answer-honestly",
+                "subtext": "gives away more vulnerability than strategy intended",
+                "line-hint": "Commemoration ledger reading",
+                "reaction-beat": "The honesty changes the balance of power in the room."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 006",
+            "showing-mode": "direct-showing",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "Mira reaches the line proving that relief money was routed through Corin's family company",
+            "development": "grief becomes accusation before the whole town",
+            "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "resolution": "She finishes reading and lets the silence after the final name condemn the room.",
+            "exit": "the chapter hands off to a sharper culmination consequence",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the town loses its protective story even though no immediate justice follows",
+            "action": {
+              "action-mode": "negotiation",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "Commemoration ledger reading",
+              "obstacle": "the ceremony is choreographed to make dissent look like sacrilege",
+              "result": "the town loses its protective story even though no immediate justice follows"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "arrival",
+              "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+              "impact": "grief becomes accusation before the whole town",
+              "follow-through": "the truth survives, but so does the cost of having spoken it"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "type": "internal",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "tease-probe",
+                "subtext": "uses wit to test whether the wound can be named safely",
+                "line-hint": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+                "reaction-beat": "The joke opens a bruise neither speaker can ignore now."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "warn",
+                "subtext": "tries to protect the bond by narrowing the next available move",
+                "line-hint": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+                "reaction-beat": "The warning narrows what can still be done safely."
+              }
+            ]
+          }
+        ],
+        "draftText": "# Chapter 006\n\nMira Solari enters the shuttered mediation office above the old customs hall while during the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. In this drama chapter, culmination movement anchored by commemoration ledger reading, so choices around identity-self under reconciliation pressure carry fear and relief. Vera Quinn keeps searching for a path toward relief, while Corin Voss works to keep the conflict inside a safer official story. The central question here is can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence. The conflict thread is mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. The setting is anchored by wet wool, radiator hiss, mildew trapped in paper bindings and keeps a civic room designed to soften language until responsibility disappears in view. The governing constraint is still active: mira cannot accuse the town hall without exposing her mother and Vera to the same hearing. At the start, Mira Solari believes keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter. Its rhythm leans on description-action-dialogue-pause-event-monologue.\n\nThe room tightens before anyone can pretend calm is enough. No one can leave this moment unchanged. During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Mira Solari tries to force the lie into a setting where it cannot be quietly revised afterward, but the ceremony is choreographed to make dissent look like sacrilege. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\nTheir speech stays careful, but grief keeps roughening the edges of each sentence. Subtext matters as much as the explicit claim. Mira Solari, Vera Quinn keep circling mira Solari and Mira Solari keep circling the truth they cannot safely name yet. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Vera Quinn says. The honesty changes the balance of power in the room. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Mira Solari replies. The challenge strips politeness away from the scene.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe first deceleration is deliberate: the town loses its protective story even though no immediate justice follows.\n\nThe silence breaks in smaller, sharper motions. No one can leave this moment unchanged. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira Solari tries to the truth survives, but so does the cost of having spoken it, but the ceremony is choreographed to make dissent look like sacrilege. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\n \"Commemoration ledger reading\" Vera Quinn says. The warning narrows what can still be done safely. \"Commemoration ledger reading\" Mira Solari replies. The honesty changes the balance of power in the room.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe private wound becomes public at last. No one can leave this moment unchanged. Mira reaches the line proving that relief money was routed through Corin's family company. Mira Solari tries to commemoration ledger reading, but the ceremony is choreographed to make dissent look like sacrilege. Grief becomes accusation before the whole town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\n \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory\" Vera Quinn says. The joke opens a bruise neither speaker can ignore now. \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory\" Mira Solari replies. The warning narrows what can still be done safely.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThen the pace compresses: mira reaches the line proving that relief money was routed through Corin's family company.\n\nMira Solari feels grief becomes accusation before the whole town, a mix of fear and relief that will not settle into easy relief. The chapter therefore pushes the inner line from keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter toward care without truth only prolongs the violence of the original wound after the culmination chapter.\n\nBy the end of chapter-006, the town loses its protective story even though no immediate justice follows. The chapter keeps faith with identity-self under reconciliation pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: the dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the relational line moves from productive-partnership-guarded-by-emotional-self-defense toward solidarity-forged-through-contested-truth. The closing pressure is therefore both fear and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?."
+      },
+      {
+        "id": "chapter-007",
+        "number": 7,
+        "role": "culmination",
+        "outputState": "the town loses its protective story even though no immediate justice follows",
+        "closingMode": "cliffhanger",
+        "thematicFocus": "identity-self under reconciliation pressure",
+        "chapterQuestion": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
+        "answerShift": "the dead are betrayed again whenever the living turn grief into paperwork",
+        "worldPressure": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
+        "blockAlternation": "description-action-dialogue-pause-event-monologue",
+        "sequence": {
+          "sequence-type": "recovery",
+          "link-logic": "mixed",
+          "chapter": "chapter 007",
+          "objective": "force the lie into a setting where it cannot be quietly revised afterward",
+          "scene-chain": "scene-007-01, scene-007-02, scene-007-03",
+          "carry-forward-pressure": "each scene must inherit and intensify the previous unresolved pressure",
+          "conflict-line": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "payoff": "the truth survives, but so does the cost of having spoken it"
+        },
+        "dialogue": {
+          "scene": "the shuttered mediation office above the old customs hall",
+          "speakers": "Mira Solari, Vera Quinn",
+          "exchange-type": "conflictual",
+          "purpose": "tension",
+          "subtext": "Mira Solari and Mira Solari keep circling the truth they cannot safely name yet"
+        },
+        "monologue": {
+          "scene": "the shuttered mediation office above the old customs hall",
+          "character": "Mira Solari",
+          "function": "psychological-insight",
+          "trigger": "grief becomes accusation before the whole town",
+          "texture": "reflective"
+        },
+        "suspense": {
+          "scope": "chapter 007",
+          "suspense-type": "emotional",
+          "uncertainty": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
+          "delay-technique": "mixed",
+          "payoff-zone": "event-007-3"
+        },
+        "location": {
+          "chapter": "chapter 007",
+          "primary-setting": "the shuttered mediation office above the old customs hall",
+          "secondary-setting": "the flood memorial crypt beneath Saint Rowan chapel",
+          "sensory-anchor": "wet wool, radiator hiss, mildew trapped in paper bindings",
+          "social-signal": "every conversation sounds temporary because the office trained people to trade truth for calm",
+          "symbolic-charge": "a civic room designed to soften language until responsibility disappears",
+          "conflict-use": "private negotiations keep collapsing into accusations that belong in public"
+        },
+        "rulePressure": {
+          "chapter": "chapter 007",
+          "rule-reference": "Every flood-district compensation claim must pass through the mediation office before it reaches the court archive.",
+          "visible-symptom": "files return with fresh signatures but older dates, as if grief itself were rewritten overnight",
+          "action-limitation": "Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing.",
+          "conflict-output": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
+          "reveal-pattern": "show-exception-to-reveal-rule"
+        },
+        "protagonistArc": {
+          "chapter": "chapter 007",
+          "entry-belief": "keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter",
+          "challenge": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "insight-pressure": "grief becomes accusation before the whole town",
+          "exit-belief": "care without truth only prolongs the violence of the original wound after the culmination chapter"
+        },
+        "relationshipArc": {
+          "chapter": "chapter 007",
+          "pair": "Mira Solari, Vera Quinn",
+          "entry-dynamic": "careful-cooperation-strained-by-withheld-history",
+          "stress-line": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "exit-dynamic": "scarred-trust-rebuilt-on-painful-clarity"
+        },
+        "pause": {
+          "scope": "chapter 007",
+          "pause-function": "psychological",
+          "focus": "the town loses its protective story even though no immediate justice follows",
+          "placement": "before-final-scene",
+          "reader-effect": "decelerate just enough to let consequence become legible"
+        },
+        "acceleration": {
+          "scope": "chapter 007",
+          "acceleration-mode": "pursuit-compression",
+          "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+          "reader-effect": "compress time and force the next consequence to land without emotional escape",
+          "target-zone": "the shuttered mediation office above the old customs hall"
+        },
+        "alternation": {
+          "chapter": "chapter 007",
+          "block-order": "description-action-dialogue-pause-event-monologue",
+          "reader-effect": "When grief becomes a civic ritual, is silence still mercy or only a softer form of power?",
+          "anti-flatness-rule": "do not chain action summaries without dialogue, atmosphere, or reflection support"
+        },
+        "scenes": [
+          {
+            "chapter": "chapter 007",
+            "showing-mode": "introspective",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.",
+            "development": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+            "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "resolution": "She finishes reading and lets the silence after the final name condemn the room.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the town loses its protective story even though no immediate justice follows",
+            "action": {
+              "action-mode": "negotiation",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "force the lie into a setting where it cannot be quietly revised afterward",
+              "obstacle": "the ceremony is choreographed to make dissent look like sacrilege",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "accident",
+              "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+              "impact": "grief becomes accusation before the whole town",
+              "follow-through": "the truth survives, but so does the cost of having spoken it"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
               "type": "external-society",
               "forces": "Mira Solari versus Corin Voss",
               "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
@@ -1271,24 +2128,349 @@ Canonical source-edition payload used by the translation stage.
               {
                 "scene": "the shuttered mediation office above the old customs hall",
                 "speaker": "Vera Quinn",
-                "intent": "name-risk",
-                "subtext": "speaks the consequence both speakers hoped could stay implied",
+                "intent": "answer-honestly",
+                "subtext": "gives away more vulnerability than strategy intended",
+                "line-hint": "Mira reaches the line proving that relief money was routed through Corin's family company",
+                "reaction-beat": "The honesty changes the balance of power in the room."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "challenge",
+                "subtext": "refuses the easier story and forces the pressure into view",
+                "line-hint": "Mira reaches the line proving that relief money was routed through Corin's family company",
+                "reaction-beat": "The challenge strips politeness away from the scene."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 007",
+            "showing-mode": "compressed-showing",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+            "development": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "resolution": "She finishes reading and lets the silence after the final name condemn the room.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the town loses its protective story even though no immediate justice follows",
+            "action": {
+              "action-mode": "attempt",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "the truth survives, but so does the cost of having spoken it",
+              "obstacle": "the ceremony is choreographed to make dissent look like sacrilege",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "accident",
+              "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+              "impact": "grief becomes accusation before the whole town",
+              "follow-through": "the truth survives, but so does the cost of having spoken it"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "type": "external-society",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "reframe",
+                "subtext": "changes the moral meaning of what was just said",
                 "line-hint": "Commemoration ledger reading",
-                "reaction-beat": "Naming the risk turns pressure into irreversible commitment."
+                "reaction-beat": "The new framing makes the old position harder to keep."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "tease-probe",
+                "subtext": "uses wit to test whether the wound can be named safely",
+                "line-hint": "Commemoration ledger reading",
+                "reaction-beat": "The joke opens a bruise neither speaker can ignore now."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 007",
+            "showing-mode": "dialogic",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "Mira reaches the line proving that relief money was routed through Corin's family company",
+            "development": "grief becomes accusation before the whole town",
+            "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "resolution": "She finishes reading and lets the silence after the final name condemn the room.",
+            "exit": "the chapter hands off to a sharper culmination consequence",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the town loses its protective story even though no immediate justice follows",
+            "action": {
+              "action-mode": "negotiation",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "Commemoration ledger reading",
+              "obstacle": "the ceremony is choreographed to make dissent look like sacrilege",
+              "result": "the town loses its protective story even though no immediate justice follows"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "revelation",
+              "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+              "impact": "grief becomes accusation before the whole town",
+              "follow-through": "the truth survives, but so does the cost of having spoken it"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "type": "external-character",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "commit",
+                "subtext": "makes risk sound practical enough to become a promise",
+                "line-hint": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+                "reaction-beat": "The promise raises the stakes for the next exchange."
               },
               {
                 "scene": "the shuttered mediation office above the old customs hall",
                 "speaker": "Mira Solari",
                 "intent": "warn",
                 "subtext": "tries to protect the bond by narrowing the next available move",
-                "line-hint": "Commemoration ledger reading",
+                "line-hint": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
                 "reaction-beat": "The warning narrows what can still be done safely."
+              }
+            ]
+          }
+        ],
+        "draftText": "# Chapter 007\n\nMira Solari enters the shuttered mediation office above the old customs hall while during the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. In this drama chapter, culmination movement anchored by commemoration ledger reading, so choices around identity-self under reconciliation pressure carry fear and relief. Vera Quinn keeps searching for a path toward relief, while Corin Voss works to keep the conflict inside a safer official story. The central question here is can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence. The conflict thread is mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. The setting is anchored by wet wool, radiator hiss, mildew trapped in paper bindings and keeps a civic room designed to soften language until responsibility disappears in view. The governing constraint is still active: mira cannot accuse the town hall without exposing her mother and Vera to the same hearing. At the start, Mira Solari believes keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter. Its rhythm leans on description-action-dialogue-pause-event-monologue.\n\nThe room tightens before anyone can pretend calm is enough. No one can leave this moment unchanged. During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Mira Solari tries to force the lie into a setting where it cannot be quietly revised afterward, but the ceremony is choreographed to make dissent look like sacrilege. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\nTheir speech stays careful, but grief keeps roughening the edges of each sentence. Subtext matters as much as the explicit claim. Mira Solari, Vera Quinn keep circling mira Solari and Mira Solari keep circling the truth they cannot safely name yet. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Vera Quinn says. The honesty changes the balance of power in the room. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Mira Solari replies. The challenge strips politeness away from the scene.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe first deceleration is deliberate: the town loses its protective story even though no immediate justice follows.\n\nThe silence breaks in smaller, sharper motions. No one can leave this moment unchanged. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira Solari tries to the truth survives, but so does the cost of having spoken it, but the ceremony is choreographed to make dissent look like sacrilege. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\n \"Commemoration ledger reading\" Vera Quinn says. The new framing makes the old position harder to keep. \"Commemoration ledger reading\" Mira Solari replies. The joke opens a bruise neither speaker can ignore now.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe private wound becomes public at last. No one can leave this moment unchanged. Mira reaches the line proving that relief money was routed through Corin's family company. Mira Solari tries to commemoration ledger reading, but the ceremony is choreographed to make dissent look like sacrilege. Grief becomes accusation before the whole town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\n \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory\" Vera Quinn says. The promise raises the stakes for the next exchange. \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory\" Mira Solari replies. The warning narrows what can still be done safely.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThen the pace compresses: mira reaches the line proving that relief money was routed through Corin's family company.\n\nMira Solari feels grief becomes accusation before the whole town, a mix of fear and relief that will not settle into easy relief. The chapter therefore pushes the inner line from keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter toward care without truth only prolongs the violence of the original wound after the culmination chapter.\n\nBy the end of chapter-007, the town loses its protective story even though no immediate justice follows. The chapter keeps faith with identity-self under reconciliation pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: the dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the relational line moves from careful-cooperation-strained-by-withheld-history toward scarred-trust-rebuilt-on-painful-clarity. The closing pressure is therefore both fear and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?."
+      },
+      {
+        "id": "chapter-008",
+        "number": 8,
+        "role": "culmination",
+        "outputState": "the town loses its protective story even though no immediate justice follows",
+        "closingMode": "cliffhanger",
+        "thematicFocus": "identity-self under reconciliation pressure",
+        "chapterQuestion": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
+        "answerShift": "the dead are betrayed again whenever the living turn grief into paperwork",
+        "worldPressure": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
+        "blockAlternation": "description-action-dialogue-pause-event-monologue",
+        "sequence": {
+          "sequence-type": "recovery",
+          "link-logic": "causal",
+          "chapter": "chapter 008",
+          "objective": "force the lie into a setting where it cannot be quietly revised afterward",
+          "scene-chain": "scene-008-01, scene-008-02, scene-008-03",
+          "carry-forward-pressure": "each scene must inherit and intensify the previous unresolved pressure",
+          "conflict-line": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "payoff": "the truth survives, but so does the cost of having spoken it"
+        },
+        "dialogue": {
+          "scene": "the shuttered mediation office above the old customs hall",
+          "speakers": "Mira Solari, Vera Quinn",
+          "exchange-type": "conflictual",
+          "purpose": "tension",
+          "subtext": "Mira Solari and Mira Solari keep circling the truth they cannot safely name yet"
+        },
+        "monologue": {
+          "scene": "the shuttered mediation office above the old customs hall",
+          "character": "Mira Solari",
+          "function": "psychological-insight",
+          "trigger": "grief becomes accusation before the whole town",
+          "texture": "reflective"
+        },
+        "suspense": {
+          "scope": "chapter 008",
+          "suspense-type": "emotional",
+          "uncertainty": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
+          "delay-technique": "mixed",
+          "payoff-zone": "event-008-3"
+        },
+        "location": {
+          "chapter": "chapter 008",
+          "primary-setting": "the shuttered mediation office above the old customs hall",
+          "secondary-setting": "the flood memorial crypt beneath Saint Rowan chapel",
+          "sensory-anchor": "wet wool, radiator hiss, mildew trapped in paper bindings",
+          "social-signal": "every conversation sounds temporary because the office trained people to trade truth for calm",
+          "symbolic-charge": "a civic room designed to soften language until responsibility disappears",
+          "conflict-use": "private negotiations keep collapsing into accusations that belong in public"
+        },
+        "rulePressure": {
+          "chapter": "chapter 008",
+          "rule-reference": "Every flood-district compensation claim must pass through the mediation office before it reaches the court archive.",
+          "visible-symptom": "files return with fresh signatures but older dates, as if grief itself were rewritten overnight",
+          "action-limitation": "Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing.",
+          "conflict-output": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
+          "reveal-pattern": "embed-rule-in-dialogue"
+        },
+        "protagonistArc": {
+          "chapter": "chapter 008",
+          "entry-belief": "keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter",
+          "challenge": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "insight-pressure": "grief becomes accusation before the whole town",
+          "exit-belief": "care without truth only prolongs the violence of the original wound after the culmination chapter"
+        },
+        "relationshipArc": {
+          "chapter": "chapter 008",
+          "pair": "Mira Solari, Vera Quinn",
+          "entry-dynamic": "careful-cooperation-strained-by-withheld-history",
+          "stress-line": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "exit-dynamic": "solidarity-forged-through-contested-truth"
+        },
+        "pause": {
+          "scope": "chapter 008",
+          "pause-function": "psychological",
+          "focus": "the town loses its protective story even though no immediate justice follows",
+          "placement": "before-final-scene",
+          "reader-effect": "decelerate just enough to let consequence become legible"
+        },
+        "acceleration": {
+          "scope": "chapter 008",
+          "acceleration-mode": "pursuit-compression",
+          "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+          "reader-effect": "compress time and force the next consequence to land without emotional escape",
+          "target-zone": "the shuttered mediation office above the old customs hall"
+        },
+        "alternation": {
+          "chapter": "chapter 008",
+          "block-order": "description-action-dialogue-pause-event-monologue",
+          "reader-effect": "When grief becomes a civic ritual, is silence still mercy or only a softer form of power?",
+          "anti-flatness-rule": "do not chain action summaries without dialogue, atmosphere, or reflection support"
+        },
+        "scenes": [
+          {
+            "chapter": "chapter 008",
+            "showing-mode": "direct-showing",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.",
+            "development": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+            "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "resolution": "She finishes reading and lets the silence after the final name condemn the room.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the town loses its protective story even though no immediate justice follows",
+            "action": {
+              "action-mode": "pursuit",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "force the lie into a setting where it cannot be quietly revised afterward",
+              "obstacle": "the ceremony is choreographed to make dissent look like sacrilege",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "loss",
+              "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+              "impact": "grief becomes accusation before the whole town",
+              "follow-through": "the truth survives, but so does the cost of having spoken it"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "type": "internal",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "tease-probe",
+                "subtext": "uses wit to test whether the wound can be named safely",
+                "line-hint": "Mira reaches the line proving that relief money was routed through Corin's family company",
+                "reaction-beat": "The joke opens a bruise neither speaker can ignore now."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "tease-probe",
+                "subtext": "uses wit to test whether the wound can be named safely",
+                "line-hint": "Mira reaches the line proving that relief money was routed through Corin's family company",
+                "reaction-beat": "The joke opens a bruise neither speaker can ignore now."
               }
             ]
           },
           {
-            "chapter": "chapter 004",
-            "showing-mode": "compressed-showing",
+            "chapter": "chapter 008",
+            "showing-mode": "dialogic",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+            "development": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "resolution": "She finishes reading and lets the silence after the final name condemn the room.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the town loses its protective story even though no immediate justice follows",
+            "action": {
+              "action-mode": "negotiation",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "the truth survives, but so does the cost of having spoken it",
+              "obstacle": "the ceremony is choreographed to make dissent look like sacrilege",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "revelation",
+              "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+              "impact": "grief becomes accusation before the whole town",
+              "follow-through": "the truth survives, but so does the cost of having spoken it"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "type": "mixed",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "commit",
+                "subtext": "makes risk sound practical enough to become a promise",
+                "line-hint": "Commemoration ledger reading",
+                "reaction-beat": "The promise raises the stakes for the next exchange."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "tease-probe",
+                "subtext": "uses wit to test whether the wound can be named safely",
+                "line-hint": "Commemoration ledger reading",
+                "reaction-beat": "The joke opens a bruise neither speaker can ignore now."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 008",
+            "showing-mode": "direct-showing",
             "focalization": "internal-single",
             "time-space": "the shuttered mediation office above the old customs hall",
             "introduction": "Mira reaches the line proving that relief money was routed through Corin's family company",
@@ -1319,6 +2501,160 @@ Canonical source-edition payload used by the translation stage.
             },
             "conflictPacket": {
               "scope": "the shuttered mediation office above the old customs hall",
+              "type": "external-nature",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "warn",
+                "subtext": "tries to protect the bond by narrowing the next available move",
+                "line-hint": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+                "reaction-beat": "The warning narrows what can still be done safely."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "reframe",
+                "subtext": "changes the moral meaning of what was just said",
+                "line-hint": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+                "reaction-beat": "The new framing makes the old position harder to keep."
+              }
+            ]
+          }
+        ],
+        "draftText": "# Chapter 008\n\nMira Solari enters the shuttered mediation office above the old customs hall while during the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. In this drama chapter, culmination movement anchored by commemoration ledger reading, so choices around identity-self under reconciliation pressure carry fear and relief. Vera Quinn keeps searching for a path toward relief, while Corin Voss works to keep the conflict inside a safer official story. The central question here is can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence. The conflict thread is mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. The setting is anchored by wet wool, radiator hiss, mildew trapped in paper bindings and keeps a civic room designed to soften language until responsibility disappears in view. The governing constraint is still active: mira cannot accuse the town hall without exposing her mother and Vera to the same hearing. At the start, Mira Solari believes keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter. Its rhythm leans on description-action-dialogue-pause-event-monologue.\n\nThe room tightens before anyone can pretend calm is enough. No one can leave this moment unchanged. During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Mira Solari tries to force the lie into a setting where it cannot be quietly revised afterward, but the ceremony is choreographed to make dissent look like sacrilege. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\nTheir speech stays careful, but grief keeps roughening the edges of each sentence. Subtext matters as much as the explicit claim. Mira Solari, Vera Quinn keep circling mira Solari and Mira Solari keep circling the truth they cannot safely name yet. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Vera Quinn says. The joke opens a bruise neither speaker can ignore now. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Mira Solari replies. The joke opens a bruise neither speaker can ignore now.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe first deceleration is deliberate: the town loses its protective story even though no immediate justice follows.\n\nThe silence breaks in smaller, sharper motions. No one can leave this moment unchanged. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira Solari tries to the truth survives, but so does the cost of having spoken it, but the ceremony is choreographed to make dissent look like sacrilege. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\n \"Commemoration ledger reading\" Vera Quinn says. The promise raises the stakes for the next exchange. \"Commemoration ledger reading\" Mira Solari replies. The joke opens a bruise neither speaker can ignore now.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe private wound becomes public at last. No one can leave this moment unchanged. Mira reaches the line proving that relief money was routed through Corin's family company. Mira Solari tries to commemoration ledger reading, but the ceremony is choreographed to make dissent look like sacrilege. Grief becomes accusation before the whole town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\n \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory\" Vera Quinn says. The warning narrows what can still be done safely. \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory\" Mira Solari replies. The new framing makes the old position harder to keep.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThen the pace compresses: mira reaches the line proving that relief money was routed through Corin's family company.\n\nMira Solari feels grief becomes accusation before the whole town, a mix of fear and relief that will not settle into easy relief. The chapter therefore pushes the inner line from keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter toward care without truth only prolongs the violence of the original wound after the culmination chapter.\n\nBy the end of chapter-008, the town loses its protective story even though no immediate justice follows. The chapter keeps faith with identity-self under reconciliation pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: the dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the relational line moves from careful-cooperation-strained-by-withheld-history toward solidarity-forged-through-contested-truth. The closing pressure is therefore both fear and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?."
+      },
+      {
+        "id": "chapter-009",
+        "number": 9,
+        "role": "culmination",
+        "outputState": "the town loses its protective story even though no immediate justice follows",
+        "closingMode": "open-question",
+        "thematicFocus": "identity-self under reconciliation pressure",
+        "chapterQuestion": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
+        "answerShift": "the dead are betrayed again whenever the living turn grief into paperwork",
+        "worldPressure": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
+        "blockAlternation": "description-action-dialogue-pause-event-monologue",
+        "sequence": {
+          "sequence-type": "recovery",
+          "link-logic": "mixed",
+          "chapter": "chapter 009",
+          "objective": "force the lie into a setting where it cannot be quietly revised afterward",
+          "scene-chain": "scene-009-01, scene-009-02, scene-009-03",
+          "carry-forward-pressure": "each scene must inherit and intensify the previous unresolved pressure",
+          "conflict-line": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "payoff": "the truth survives, but so does the cost of having spoken it"
+        },
+        "dialogue": {
+          "scene": "the shuttered mediation office above the old customs hall",
+          "speakers": "Mira Solari, Vera Quinn",
+          "exchange-type": "conflictual",
+          "purpose": "tension",
+          "subtext": "Mira Solari and Mira Solari keep circling the truth they cannot safely name yet"
+        },
+        "monologue": {
+          "scene": "the shuttered mediation office above the old customs hall",
+          "character": "Mira Solari",
+          "function": "psychological-insight",
+          "trigger": "grief becomes accusation before the whole town",
+          "texture": "reflective"
+        },
+        "suspense": {
+          "scope": "chapter 009",
+          "suspense-type": "emotional",
+          "uncertainty": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
+          "delay-technique": "mixed",
+          "payoff-zone": "event-009-3"
+        },
+        "location": {
+          "chapter": "chapter 009",
+          "primary-setting": "the shuttered mediation office above the old customs hall",
+          "secondary-setting": "the flood memorial crypt beneath Saint Rowan chapel",
+          "sensory-anchor": "wet wool, radiator hiss, mildew trapped in paper bindings",
+          "social-signal": "every conversation sounds temporary because the office trained people to trade truth for calm",
+          "symbolic-charge": "a civic room designed to soften language until responsibility disappears",
+          "conflict-use": "private negotiations keep collapsing into accusations that belong in public"
+        },
+        "rulePressure": {
+          "chapter": "chapter 009",
+          "rule-reference": "Every flood-district compensation claim must pass through the mediation office before it reaches the court archive.",
+          "visible-symptom": "files return with fresh signatures but older dates, as if grief itself were rewritten overnight",
+          "action-limitation": "Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing.",
+          "conflict-output": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
+          "reveal-pattern": "show-consequence-first-explain-cause-later"
+        },
+        "protagonistArc": {
+          "chapter": "chapter 009",
+          "entry-belief": "keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter",
+          "challenge": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "insight-pressure": "grief becomes accusation before the whole town",
+          "exit-belief": "care without truth only prolongs the violence of the original wound after the culmination chapter"
+        },
+        "relationshipArc": {
+          "chapter": "chapter 009",
+          "pair": "Mira Solari, Vera Quinn",
+          "entry-dynamic": "technical-trust-without-moral-agreement",
+          "stress-line": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "exit-dynamic": "solidarity-forged-through-contested-truth"
+        },
+        "pause": {
+          "scope": "chapter 009",
+          "pause-function": "psychological",
+          "focus": "the town loses its protective story even though no immediate justice follows",
+          "placement": "before-final-scene",
+          "reader-effect": "decelerate just enough to let consequence become legible"
+        },
+        "acceleration": {
+          "scope": "chapter 009",
+          "acceleration-mode": "pursuit-compression",
+          "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+          "reader-effect": "compress time and force the next consequence to land without emotional escape",
+          "target-zone": "the shuttered mediation office above the old customs hall"
+        },
+        "alternation": {
+          "chapter": "chapter 009",
+          "block-order": "description-action-dialogue-pause-event-monologue",
+          "reader-effect": "When grief becomes a civic ritual, is silence still mercy or only a softer form of power?",
+          "anti-flatness-rule": "do not chain action summaries without dialogue, atmosphere, or reflection support"
+        },
+        "scenes": [
+          {
+            "chapter": "chapter 009",
+            "showing-mode": "introspective",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.",
+            "development": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+            "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "resolution": "She finishes reading and lets the silence after the final name condemn the room.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the town loses its protective story even though no immediate justice follows",
+            "action": {
+              "action-mode": "negotiation",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "force the lie into a setting where it cannot be quietly revised afterward",
+              "obstacle": "the ceremony is choreographed to make dissent look like sacrilege",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "revelation",
+              "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+              "impact": "grief becomes accusation before the whole town",
+              "follow-through": "the truth survives, but so does the cost of having spoken it"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
               "type": "external-society",
               "forces": "Mira Solari versus Corin Voss",
               "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
@@ -1328,23 +2664,405 @@ Canonical source-edition payload used by the translation stage.
               {
                 "scene": "the shuttered mediation office above the old customs hall",
                 "speaker": "Vera Quinn",
-                "intent": "answer-honestly",
-                "subtext": "gives away more vulnerability than strategy intended",
-                "line-hint": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
-                "reaction-beat": "The honesty changes the balance of power in the room."
+                "intent": "commit",
+                "subtext": "makes risk sound practical enough to become a promise",
+                "line-hint": "Mira reaches the line proving that relief money was routed through Corin's family company",
+                "reaction-beat": "The promise raises the stakes for the next exchange."
               },
               {
                 "scene": "the shuttered mediation office above the old customs hall",
                 "speaker": "Mira Solari",
                 "intent": "warn",
                 "subtext": "tries to protect the bond by narrowing the next available move",
-                "line-hint": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+                "line-hint": "Mira reaches the line proving that relief money was routed through Corin's family company",
                 "reaction-beat": "The warning narrows what can still be done safely."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 009",
+            "showing-mode": "mixed",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+            "development": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "resolution": "She finishes reading and lets the silence after the final name condemn the room.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the town loses its protective story even though no immediate justice follows",
+            "action": {
+              "action-mode": "attempt",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "the truth survives, but so does the cost of having spoken it",
+              "obstacle": "the ceremony is choreographed to make dissent look like sacrilege",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "deadline",
+              "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+              "impact": "grief becomes accusation before the whole town",
+              "follow-through": "the truth survives, but so does the cost of having spoken it"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "type": "internal",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "probe",
+                "subtext": "tests whether the other speaker can bear the unsoftened truth",
+                "line-hint": "Commemoration ledger reading",
+                "reaction-beat": "The question lands harder than either speaker planned."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "answer-honestly",
+                "subtext": "gives away more vulnerability than strategy intended",
+                "line-hint": "Commemoration ledger reading",
+                "reaction-beat": "The honesty changes the balance of power in the room."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 009",
+            "showing-mode": "dialogic",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "Mira reaches the line proving that relief money was routed through Corin's family company",
+            "development": "grief becomes accusation before the whole town",
+            "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "resolution": "She finishes reading and lets the silence after the final name condemn the room.",
+            "exit": "the chapter hands off to a sharper culmination consequence",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the town loses its protective story even though no immediate justice follows",
+            "action": {
+              "action-mode": "pursuit",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "Commemoration ledger reading",
+              "obstacle": "the ceremony is choreographed to make dissent look like sacrilege",
+              "result": "the town loses its protective story even though no immediate justice follows"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "betrayal",
+              "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+              "impact": "grief becomes accusation before the whole town",
+              "follow-through": "the truth survives, but so does the cost of having spoken it"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "type": "external-society",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "challenge",
+                "subtext": "refuses the easier story and forces the pressure into view",
+                "line-hint": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+                "reaction-beat": "The challenge strips politeness away from the scene."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "probe",
+                "subtext": "tests whether the other speaker can bear the unsoftened truth",
+                "line-hint": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+                "reaction-beat": "The question lands harder than either speaker planned."
               }
             ]
           }
         ],
-        "draftText": "# Chapter 004\n\nMira Solari enters the shuttered mediation office above the old customs hall while during the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. In this drama chapter, culmination movement anchored by commemoration ledger reading, so choices around identity-self under reconciliation pressure carry fear and relief. Vera Quinn keeps searching for a path toward relief, while Corin Voss works to keep the conflict inside a safer official story. The central question here is can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence. The conflict thread is mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. The setting is anchored by wet wool, radiator hiss, mildew trapped in paper bindings and keeps a civic room designed to soften language until responsibility disappears in view. The governing constraint is still active: mira cannot accuse the town hall without exposing her mother and Vera to the same hearing. At the start, Mira Solari believes keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter. Its rhythm leans on description-action-dialogue-pause-event-monologue.\n\nThe room tightens before anyone can pretend calm is enough. No one can leave this moment unchanged. During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Mira Solari tries to force the lie into a setting where it cannot be quietly revised afterward, but the ceremony is choreographed to make dissent look like sacrilege. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\nTheir speech stays careful, but grief keeps roughening the edges of each sentence. Subtext matters as much as the explicit claim. Mira Solari, Vera Quinn keep circling mira Solari and Mira Solari keep circling the truth they cannot safely name yet. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Vera Quinn says. The new framing makes the old position harder to keep. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Mira Solari replies. The challenge strips politeness away from the scene.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe first deceleration is deliberate: the town loses its protective story even though no immediate justice follows.\n\nThe silence breaks in smaller, sharper motions. No one can leave this moment unchanged. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira Solari tries to the truth survives, but so does the cost of having spoken it, but the ceremony is choreographed to make dissent look like sacrilege. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\n \"Commemoration ledger reading\" Vera Quinn says. Naming the risk turns pressure into irreversible commitment. \"Commemoration ledger reading\" Mira Solari replies. The warning narrows what can still be done safely.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe private wound becomes public at last. No one can leave this moment unchanged. Mira reaches the line proving that relief money was routed through Corin's family company. Mira Solari tries to commemoration ledger reading, but the ceremony is choreographed to make dissent look like sacrilege. Grief becomes accusation before the whole town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\n \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory\" Vera Quinn says. The honesty changes the balance of power in the room. \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory\" Mira Solari replies. The warning narrows what can still be done safely.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThen the pace compresses: mira reaches the line proving that relief money was routed through Corin's family company.\n\nMira Solari feels grief becomes accusation before the whole town, a mix of fear and relief that will not settle into easy relief. The chapter therefore pushes the inner line from keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter toward care without truth only prolongs the violence of the original wound after the culmination chapter.\n\nBy the end of chapter-004, the town loses its protective story even though no immediate justice follows. The chapter keeps faith with identity-self under reconciliation pressure while moving toward reversal, and it refuses relief without visible cost. Its answer shift is clear: the dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the relational line moves from oath-bound-cooperation-shadowed-by-allegiance toward scarred-trust-rebuilt-on-painful-clarity. The closing pressure is therefore both fear and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?."
+        "draftText": "# Chapter 009\n\nMira Solari enters the shuttered mediation office above the old customs hall while during the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. In this drama chapter, culmination movement anchored by commemoration ledger reading, so choices around identity-self under reconciliation pressure carry fear and relief. Vera Quinn keeps searching for a path toward relief, while Corin Voss works to keep the conflict inside a safer official story. The central question here is can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence. The conflict thread is mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. The setting is anchored by wet wool, radiator hiss, mildew trapped in paper bindings and keeps a civic room designed to soften language until responsibility disappears in view. The governing constraint is still active: mira cannot accuse the town hall without exposing her mother and Vera to the same hearing. At the start, Mira Solari believes keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter. Its rhythm leans on description-action-dialogue-pause-event-monologue.\n\nThe room tightens before anyone can pretend calm is enough. No one can leave this moment unchanged. During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Mira Solari tries to force the lie into a setting where it cannot be quietly revised afterward, but the ceremony is choreographed to make dissent look like sacrilege. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\nTheir speech stays careful, but grief keeps roughening the edges of each sentence. Subtext matters as much as the explicit claim. Mira Solari, Vera Quinn keep circling mira Solari and Mira Solari keep circling the truth they cannot safely name yet. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Vera Quinn says. The promise raises the stakes for the next exchange. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Mira Solari replies. The warning narrows what can still be done safely.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe first deceleration is deliberate: the town loses its protective story even though no immediate justice follows.\n\nThe silence breaks in smaller, sharper motions. No one can leave this moment unchanged. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira Solari tries to the truth survives, but so does the cost of having spoken it, but the ceremony is choreographed to make dissent look like sacrilege. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\n \"Commemoration ledger reading\" Vera Quinn says. The question lands harder than either speaker planned. \"Commemoration ledger reading\" Mira Solari replies. The honesty changes the balance of power in the room.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe private wound becomes public at last. No one can leave this moment unchanged. Mira reaches the line proving that relief money was routed through Corin's family company. Mira Solari tries to commemoration ledger reading, but the ceremony is choreographed to make dissent look like sacrilege. Grief becomes accusation before the whole town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\n \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory\" Vera Quinn says. The challenge strips politeness away from the scene. \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory\" Mira Solari replies. The question lands harder than either speaker planned.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThen the pace compresses: mira reaches the line proving that relief money was routed through Corin's family company.\n\nMira Solari feels grief becomes accusation before the whole town, a mix of fear and relief that will not settle into easy relief. The chapter therefore pushes the inner line from keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter toward care without truth only prolongs the violence of the original wound after the culmination chapter.\n\nBy the end of chapter-009, the town loses its protective story even though no immediate justice follows. The chapter keeps faith with identity-self under reconciliation pressure while moving toward open-question, and it refuses relief without visible cost. Its answer shift is clear: the dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the relational line moves from technical-trust-without-moral-agreement toward solidarity-forged-through-contested-truth. The closing pressure is therefore both fear and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?."
+      },
+      {
+        "id": "chapter-010",
+        "number": 10,
+        "role": "culmination",
+        "outputState": "the town loses its protective story even though no immediate justice follows",
+        "closingMode": "reversal",
+        "thematicFocus": "identity-self under reconciliation pressure",
+        "chapterQuestion": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
+        "answerShift": "the dead are betrayed again whenever the living turn grief into paperwork",
+        "worldPressure": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
+        "blockAlternation": "description-action-dialogue-pause-event-monologue",
+        "sequence": {
+          "sequence-type": "recovery",
+          "link-logic": "mixed",
+          "chapter": "chapter 010",
+          "objective": "force the lie into a setting where it cannot be quietly revised afterward",
+          "scene-chain": "scene-010-01, scene-010-02, scene-010-03",
+          "carry-forward-pressure": "each scene must inherit and intensify the previous unresolved pressure",
+          "conflict-line": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "payoff": "the sequence delivers its final irreversible choice"
+        },
+        "dialogue": {
+          "scene": "the shuttered mediation office above the old customs hall",
+          "speakers": "Mira Solari, Vera Quinn",
+          "exchange-type": "conflictual",
+          "purpose": "tension",
+          "subtext": "Mira Solari and Mira Solari keep circling the truth they cannot safely name yet"
+        },
+        "monologue": {
+          "scene": "the shuttered mediation office above the old customs hall",
+          "character": "Mira Solari",
+          "function": "psychological-insight",
+          "trigger": "grief becomes accusation before the whole town",
+          "texture": "reflective"
+        },
+        "suspense": {
+          "scope": "chapter 010",
+          "suspense-type": "emotional",
+          "uncertainty": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
+          "delay-technique": "mixed",
+          "payoff-zone": "event-010-3"
+        },
+        "location": {
+          "chapter": "chapter 010",
+          "primary-setting": "the shuttered mediation office above the old customs hall",
+          "secondary-setting": "the flood memorial crypt beneath Saint Rowan chapel",
+          "sensory-anchor": "wet wool, radiator hiss, mildew trapped in paper bindings",
+          "social-signal": "every conversation sounds temporary because the office trained people to trade truth for calm",
+          "symbolic-charge": "a civic room designed to soften language until responsibility disappears",
+          "conflict-use": "private negotiations keep collapsing into accusations that belong in public"
+        },
+        "rulePressure": {
+          "chapter": "chapter 010",
+          "rule-reference": "Every flood-district compensation claim must pass through the mediation office before it reaches the court archive.",
+          "visible-symptom": "files return with fresh signatures but older dates, as if grief itself were rewritten overnight",
+          "action-limitation": "Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing.",
+          "conflict-output": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
+          "reveal-pattern": "show-exception-to-reveal-rule"
+        },
+        "protagonistArc": {
+          "chapter": "chapter 010",
+          "entry-belief": "keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter",
+          "challenge": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "insight-pressure": "grief becomes accusation before the whole town",
+          "exit-belief": "care without truth only prolongs the violence of the original wound after the culmination chapter"
+        },
+        "relationshipArc": {
+          "chapter": "chapter 010",
+          "pair": "Mira Solari, Vera Quinn",
+          "entry-dynamic": "technical-trust-without-moral-agreement",
+          "stress-line": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+          "exit-dynamic": "solidarity-forged-through-contested-truth"
+        },
+        "pause": {
+          "scope": "chapter 010",
+          "pause-function": "psychological",
+          "focus": "the town loses its protective story even though no immediate justice follows",
+          "placement": "before-final-scene",
+          "reader-effect": "decelerate just enough to let consequence become legible"
+        },
+        "acceleration": {
+          "scope": "chapter 010",
+          "acceleration-mode": "pursuit-compression",
+          "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+          "reader-effect": "compress time and force the next consequence to land without emotional escape",
+          "target-zone": "the shuttered mediation office above the old customs hall"
+        },
+        "alternation": {
+          "chapter": "chapter 010",
+          "block-order": "description-action-dialogue-pause-event-monologue",
+          "reader-effect": "When grief becomes a civic ritual, is silence still mercy or only a softer form of power?",
+          "anti-flatness-rule": "do not chain action summaries without dialogue, atmosphere, or reflection support"
+        },
+        "scenes": [
+          {
+            "chapter": "chapter 010",
+            "showing-mode": "introspective",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.",
+            "development": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+            "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "resolution": "She finishes reading and lets the silence after the final name condemn the room.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the town loses its protective story even though no immediate justice follows",
+            "action": {
+              "action-mode": "revelation-act",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "force the lie into a setting where it cannot be quietly revised afterward",
+              "obstacle": "the ceremony is choreographed to make dissent look like sacrilege",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "betrayal",
+              "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+              "impact": "grief becomes accusation before the whole town",
+              "follow-through": "the truth survives, but so does the cost of having spoken it"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "type": "external-nature",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "tease-probe",
+                "subtext": "uses wit to test whether the wound can be named safely",
+                "line-hint": "Mira reaches the line proving that relief money was routed through Corin's family company",
+                "reaction-beat": "The joke opens a bruise neither speaker can ignore now."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "reframe",
+                "subtext": "changes the moral meaning of what was just said",
+                "line-hint": "Mira reaches the line proving that relief money was routed through Corin's family company",
+                "reaction-beat": "The new framing makes the old position harder to keep."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 010",
+            "showing-mode": "introspective",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+            "development": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "resolution": "She finishes reading and lets the silence after the final name condemn the room.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the town loses its protective story even though no immediate justice follows",
+            "action": {
+              "action-mode": "revelation-act",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "the truth survives, but so does the cost of having spoken it",
+              "obstacle": "the ceremony is choreographed to make dissent look like sacrilege",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "discovery",
+              "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+              "impact": "grief becomes accusation before the whole town",
+              "follow-through": "the truth survives, but so does the cost of having spoken it"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "type": "external-nature",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "deflect",
+                "subtext": "turns confession sideways to protect status and control",
+                "line-hint": "Commemoration ledger reading",
+                "reaction-beat": "The evasion makes the silence more visible than the answer would have."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "reframe",
+                "subtext": "changes the moral meaning of what was just said",
+                "line-hint": "Commemoration ledger reading",
+                "reaction-beat": "The new framing makes the old position harder to keep."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 010",
+            "showing-mode": "mixed",
+            "focalization": "internal-single",
+            "time-space": "the shuttered mediation office above the old customs hall",
+            "introduction": "Mira reaches the line proving that relief money was routed through Corin's family company",
+            "development": "grief becomes accusation before the whole town",
+            "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+            "resolution": "She finishes reading and lets the silence after the final name condemn the room.",
+            "exit": "the chapter hands off to a sharper culmination consequence",
+            "participants": [
+              "Mira Solari",
+              "Vera Quinn",
+              "Corin Voss"
+            ],
+            "state-change": "the town loses its protective story even though no immediate justice follows",
+            "action": {
+              "action-mode": "evasion",
+              "scene": "the shuttered mediation office above the old customs hall",
+              "actor": "Mira Solari",
+              "goal": "Commemoration ledger reading",
+              "obstacle": "the ceremony is choreographed to make dissent look like sacrilege",
+              "result": "the town loses its protective story even though no immediate justice follows"
+            },
+            "event": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "event-type": "revelation",
+              "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+              "impact": "grief becomes accusation before the whole town",
+              "follow-through": "the truth survives, but so does the cost of having spoken it"
+            },
+            "conflictPacket": {
+              "scope": "the shuttered mediation office above the old customs hall",
+              "type": "internal",
+              "forces": "Mira Solari versus Corin Voss",
+              "stakes": "her brother's last testimony, her mother's survival, and the town's false innocence",
+              "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Vera Quinn",
+                "intent": "reframe",
+                "subtext": "changes the moral meaning of what was just said",
+                "line-hint": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+                "reaction-beat": "The new framing makes the old position harder to keep."
+              },
+              {
+                "scene": "the shuttered mediation office above the old customs hall",
+                "speaker": "Mira Solari",
+                "intent": "challenge",
+                "subtext": "refuses the easier story and forces the pressure into view",
+                "line-hint": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
+                "reaction-beat": "The challenge strips politeness away from the scene."
+              }
+            ]
+          }
+        ],
+        "draftText": "# Chapter 010\n\nMira Solari enters the shuttered mediation office above the old customs hall while during the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. In this drama chapter, culmination movement anchored by commemoration ledger reading, so choices around identity-self under reconciliation pressure carry fear and relief. Vera Quinn keeps searching for a path toward relief, while Corin Voss works to keep the conflict inside a safer official story. The central question here is can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence. The conflict thread is mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. The setting is anchored by wet wool, radiator hiss, mildew trapped in paper bindings and keeps a civic room designed to soften language until responsibility disappears in view. The governing constraint is still active: mira cannot accuse the town hall without exposing her mother and Vera to the same hearing. At the start, Mira Solari believes keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter. Its rhythm leans on description-action-dialogue-pause-event-monologue.\n\nThe room tightens before anyone can pretend calm is enough. No one can leave this moment unchanged. During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Mira Solari tries to force the lie into a setting where it cannot be quietly revised afterward, but the ceremony is choreographed to make dissent look like sacrilege. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\nTheir speech stays careful, but grief keeps roughening the edges of each sentence. Subtext matters as much as the explicit claim. Mira Solari, Vera Quinn keep circling mira Solari and Mira Solari keep circling the truth they cannot safely name yet. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Vera Quinn says. The joke opens a bruise neither speaker can ignore now. \"Mira reaches the line proving that relief money was routed through Corin's family company\" Mira Solari replies. The new framing makes the old position harder to keep.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe first deceleration is deliberate: the town loses its protective story even though no immediate justice follows.\n\nThe silence breaks in smaller, sharper motions. No one can leave this moment unchanged. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira Solari tries to the truth survives, but so does the cost of having spoken it, but the ceremony is choreographed to make dissent look like sacrilege. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\n \"Commemoration ledger reading\" Vera Quinn says. The evasion makes the silence more visible than the answer would have. \"Commemoration ledger reading\" Mira Solari replies. The new framing makes the old position harder to keep.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThe private wound becomes public at last. No one can leave this moment unchanged. Mira reaches the line proving that relief money was routed through Corin's family company. Mira Solari tries to commemoration ledger reading, but the ceremony is choreographed to make dissent look like sacrilege. Grief becomes accusation before the whole town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Corin Voss senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from fear toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.\n\n \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory\" Vera Quinn says. The new framing makes the old position harder to keep. \"Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory\" Mira Solari replies. The challenge strips politeness away from the scene.\n\nAt the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity.\n\nThen the pace compresses: mira reaches the line proving that relief money was routed through Corin's family company.\n\nMira Solari feels grief becomes accusation before the whole town, a mix of fear and relief that will not settle into easy relief. The chapter therefore pushes the inner line from keeping a family safe matters more than forcing a public reckoning at the start of the culmination chapter toward care without truth only prolongs the violence of the original wound after the culmination chapter.\n\nBy the end of chapter-010, the town loses its protective story even though no immediate justice follows. The chapter keeps faith with identity-self under reconciliation pressure while moving toward reversal, and it refuses relief without visible cost. Its answer shift is clear: the dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the relational line moves from technical-trust-without-moral-agreement toward solidarity-forged-through-contested-truth. The closing pressure is therefore both fear and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?."
       }
     ],
     "characters": {

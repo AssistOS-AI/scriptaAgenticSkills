@@ -62,9 +62,9 @@ Canonical source-edition payload used by the translation stage.
     "worldRule": "The station's peace index allows the council to authorize memory smoothing whenever dissent crosses a quantified risk threshold.",
     "bookId": "qa-scifi-orbit",
     "profileId": "science-fiction",
-    "workFormId": "novelette",
+    "workFormId": "novel",
     "profileLabel": "Science Fiction",
-    "workForm": "Novelette",
+    "workForm": "Novel",
     "editorialProfile": "literary-smooth",
     "validationSummary": null,
     "chapters": [
@@ -76,8 +76,11 @@ Canonical source-edition payload used by the translation stage.
         "paragraphs": [
           "Elian Quill reaches the mnemonic orchard ring, where the regulated air hums with memory systems that promise order at a human cost. Citizens come here to rehearse approved memories in carefully moderated quiet. Yara Sen reads the room too carefully, while Director Cael Oris keeps alive the version of events other people would rather believe.",
           "During a routine recalibration in the mnemonic orchard, Elian hears a protest chant no one else remembers uttering. Yara identifies the chant as dockside slang from a vanished labor vote. Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances. When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion. They trace the chant to a recall shard marked as botanical maintenance metadata.",
+          "\"The shard contains voices naming a vote that station records say never occurred\" Yara Sen says. \"The shard contains voices naming a vote that station records say never occurred\" Elian Quill says.",
           "Later, Yara identifies the chant as dockside slang from a vanished labor vote. Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances. When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion. They trace the chant to a recall shard marked as botanical maintenance metadata.",
+          "\"Anomaly inside the orchard\" Yara Sen says. \"Anomaly inside the orchard\" Elian Quill says.",
           "Later, The shard contains voices naming a vote that station records say never occurred. Memory corruption becomes proof of historical deletion. Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances. When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion. They trace the chant to a recall shard marked as botanical maintenance metadata.",
+          "\"Yara identifies the chant as dockside slang from a vanished labor vote.\" Yara Sen says. \"Yara identifies the chant as dockside slang from a vanished labor vote.\" Elian Quill says.",
           "Nothing that has opened here will close easily. Can Elian restore the station's memory without destroying the fragile peace built on forgetting?"
         ]
       },
@@ -89,34 +92,139 @@ Canonical source-edition payload used by the translation stage.
         "paragraphs": [
           "Elian Quill reaches the mnemonic orchard ring, where the regulated air hums with memory systems that promise order at a human cost. Citizens come here to rehearse approved memories in carefully moderated quiet. Yara Sen reads the room too carefully, while Director Cael Oris keeps alive the version of events other people would rather believe.",
           "Yara flies Elian through maintenance lanes no civilian archivist is meant to access. They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute. Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent. When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past. A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+          "\"One phantom crate is tagged with Elian's own authorization signature from two years earlier\" Yara Sen says. \"One phantom crate is tagged with Elian's own authorization signature from two years earlier\" Elian Quill says.",
           "Later, They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute. Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent. When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past. A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+          "\"Cargo route for the vanished vote\" Yara Sen says. \"Cargo route for the vanished vote\" Elian Quill says.",
           "Later, One phantom crate is tagged with Elian's own authorization signature from two years earlier. The conspiracy reaches into Elian's professional past. Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent. When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past. A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+          "\"They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.\" Yara Sen says. \"They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.\" Elian Quill says.",
           "Nothing that has opened here will close easily. Can Elian restore the station's memory without destroying the fragile peace built on forgetting?"
         ]
       },
       {
         "id": "chapter-003",
         "number": 3,
-        "role": "revelation",
-        "displayTitle": "Chapter 03 — What Surfaces",
+        "role": "investigation",
+        "displayTitle": "Chapter 03 — The Search Tightens",
         "paragraphs": [
           "Elian Quill reaches the mnemonic orchard ring, where the regulated air hums with memory systems that promise order at a human cost. Citizens come here to rehearse approved memories in carefully moderated quiet. Yara Sen reads the room too carefully, while Director Cael Oris keeps alive the version of events other people would rather believe.",
-          "Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies. Elian sees that her old optimization patch became the core of the pacification protocol. Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent. When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file. Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
-          "Later, Elian sees that her old optimization patch became the core of the pacification protocol. Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent. When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file. Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
-          "Later, The recovered vote proves the station once rejected the pacification protocol outright. The council's legitimacy evaporates in one file. Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent. When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file. Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
+          "Yara flies Elian through maintenance lanes no civilian archivist is meant to access. They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute. Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent. When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past. A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+          "\"One phantom crate is tagged with Elian's own authorization signature from two years earlier\" Yara Sen says. \"One phantom crate is tagged with Elian's own authorization signature from two years earlier\" Elian Quill says.",
+          "Later, They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute. Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent. When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past. A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+          "\"Cargo route for the vanished vote\" Yara Sen says. \"Cargo route for the vanished vote\" Elian Quill says.",
+          "Later, One phantom crate is tagged with Elian's own authorization signature from two years earlier. The conspiracy reaches into Elian's professional past. Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent. When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past. A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+          "\"They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.\" Yara Sen says. \"They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.\" Elian Quill says.",
           "Nothing that has opened here will close easily. Can Elian restore the station's memory without destroying the fragile peace built on forgetting?"
         ]
       },
       {
         "id": "chapter-004",
         "number": 4,
+        "role": "revelation",
+        "displayTitle": "Chapter 04 — What Surfaces",
+        "paragraphs": [
+          "Elian Quill reaches the mnemonic orchard ring, where the regulated air hums with memory systems that promise order at a human cost. Citizens come here to rehearse approved memories in carefully moderated quiet. Yara Sen reads the room too carefully, while Director Cael Oris keeps alive the version of events other people would rather believe.",
+          "Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies. Elian sees that her old optimization patch became the core of the pacification protocol. Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent. When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file. Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
+          "\"The recovered vote proves the station once rejected the pacification protocol outright\" Yara Sen says. \"The recovered vote proves the station once rejected the pacification protocol outright\" Elian Quill says.",
+          "Later, Elian sees that her old optimization patch became the core of the pacification protocol. Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent. When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file. Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
+          "\"The room of amputated recall\" Yara Sen says. \"The room of amputated recall\" Elian Quill says.",
+          "Later, The recovered vote proves the station once rejected the pacification protocol outright. The council's legitimacy evaporates in one file. Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent. When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file. Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
+          "\"Elian sees that her old optimization patch became the core of the pacification protocol.\" Yara Sen says. \"Elian sees that her old optimization patch became the core of the pacification protocol.\" Elian Quill says.",
+          "Nothing that has opened here will close easily. Can Elian restore the station's memory without destroying the fragile peace built on forgetting?"
+        ]
+      },
+      {
+        "id": "chapter-005",
+        "number": 5,
         "role": "culmination",
-        "displayTitle": "Chapter 04 — Irreversible Choice",
+        "displayTitle": "Chapter 05 — Irreversible Choice",
         "paragraphs": [
           "Elian Quill reaches the mnemonic orchard ring, where the regulated air hums with memory systems that promise order at a human cost. Citizens come here to rehearse approved memories in carefully moderated quiet. Yara Sen reads the room too carefully, while Director Cael Oris keeps alive the version of events other people would rather believe.",
           "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Citizens across the station begin repeating the erased vote count aloud\" Yara Sen says. \"Citizens across the station begin repeating the erased vote count aloud\" Elian Quill says.",
           "Later, Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Broadcast of the unreturned\" Yara Sen says. \"Broadcast of the unreturned\" Elian Quill says.",
           "Later, Citizens across the station begin repeating the erased vote count aloud. Public memory becomes impossible to confiscate again in silence. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.\" Yara Sen says. \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.\" Elian Quill says.",
+          "Nothing that has opened here will close easily. Can Elian restore the station's memory without destroying the fragile peace built on forgetting?"
+        ]
+      },
+      {
+        "id": "chapter-006",
+        "number": 6,
+        "role": "culmination",
+        "displayTitle": "Chapter 06 — Irreversible Choice",
+        "paragraphs": [
+          "Elian Quill reaches the mnemonic orchard ring, where the regulated air hums with memory systems that promise order at a human cost. Citizens come here to rehearse approved memories in carefully moderated quiet. Yara Sen reads the room too carefully, while Director Cael Oris keeps alive the version of events other people would rather believe.",
+          "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Citizens across the station begin repeating the erased vote count aloud\" Yara Sen says. \"Citizens across the station begin repeating the erased vote count aloud\" Elian Quill says.",
+          "Later, Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Broadcast of the unreturned\" Yara Sen says. \"Broadcast of the unreturned\" Elian Quill says.",
+          "Later, Citizens across the station begin repeating the erased vote count aloud. Public memory becomes impossible to confiscate again in silence. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.\" Yara Sen says. \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.\" Elian Quill says.",
+          "Nothing that has opened here will close easily. Can Elian restore the station's memory without destroying the fragile peace built on forgetting?"
+        ]
+      },
+      {
+        "id": "chapter-007",
+        "number": 7,
+        "role": "culmination",
+        "displayTitle": "Chapter 07 — Irreversible Choice",
+        "paragraphs": [
+          "Elian Quill reaches the mnemonic orchard ring, where the regulated air hums with memory systems that promise order at a human cost. Citizens come here to rehearse approved memories in carefully moderated quiet. Yara Sen reads the room too carefully, while Director Cael Oris keeps alive the version of events other people would rather believe.",
+          "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Citizens across the station begin repeating the erased vote count aloud\" Yara Sen says. \"Citizens across the station begin repeating the erased vote count aloud\" Elian Quill says.",
+          "Later, Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Broadcast of the unreturned\" Yara Sen says. \"Broadcast of the unreturned\" Elian Quill says.",
+          "Later, Citizens across the station begin repeating the erased vote count aloud. Public memory becomes impossible to confiscate again in silence. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.\" Yara Sen says. \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.\" Elian Quill says.",
+          "Nothing that has opened here will close easily. Can Elian restore the station's memory without destroying the fragile peace built on forgetting?"
+        ]
+      },
+      {
+        "id": "chapter-008",
+        "number": 8,
+        "role": "culmination",
+        "displayTitle": "Chapter 08 — Irreversible Choice",
+        "paragraphs": [
+          "Elian Quill reaches the mnemonic orchard ring, where the regulated air hums with memory systems that promise order at a human cost. Citizens come here to rehearse approved memories in carefully moderated quiet. Yara Sen reads the room too carefully, while Director Cael Oris keeps alive the version of events other people would rather believe.",
+          "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Citizens across the station begin repeating the erased vote count aloud\" Yara Sen says. \"Citizens across the station begin repeating the erased vote count aloud\" Elian Quill says.",
+          "Later, Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Broadcast of the unreturned\" Yara Sen says. \"Broadcast of the unreturned\" Elian Quill says.",
+          "Later, Citizens across the station begin repeating the erased vote count aloud. Public memory becomes impossible to confiscate again in silence. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.\" Yara Sen says. \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.\" Elian Quill says.",
+          "Nothing that has opened here will close easily. Can Elian restore the station's memory without destroying the fragile peace built on forgetting?"
+        ]
+      },
+      {
+        "id": "chapter-009",
+        "number": 9,
+        "role": "culmination",
+        "displayTitle": "Chapter 09 — Irreversible Choice",
+        "paragraphs": [
+          "Elian Quill reaches the mnemonic orchard ring, where the regulated air hums with memory systems that promise order at a human cost. Citizens come here to rehearse approved memories in carefully moderated quiet. Yara Sen reads the room too carefully, while Director Cael Oris keeps alive the version of events other people would rather believe.",
+          "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Citizens across the station begin repeating the erased vote count aloud\" Yara Sen says. \"Citizens across the station begin repeating the erased vote count aloud\" Elian Quill says.",
+          "Later, Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Broadcast of the unreturned\" Yara Sen says. \"Broadcast of the unreturned\" Elian Quill says.",
+          "Later, Citizens across the station begin repeating the erased vote count aloud. Public memory becomes impossible to confiscate again in silence. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.\" Yara Sen says. \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.\" Elian Quill says.",
+          "Nothing that has opened here will close easily. Can Elian restore the station's memory without destroying the fragile peace built on forgetting?"
+        ]
+      },
+      {
+        "id": "chapter-010",
+        "number": 10,
+        "role": "culmination",
+        "displayTitle": "Chapter 10 — Irreversible Choice",
+        "paragraphs": [
+          "Elian Quill reaches the mnemonic orchard ring, where the regulated air hums with memory systems that promise order at a human cost. Citizens come here to rehearse approved memories in carefully moderated quiet. Yara Sen reads the room too carefully, while Director Cael Oris keeps alive the version of events other people would rather believe.",
+          "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Citizens across the station begin repeating the erased vote count aloud\" Yara Sen says. \"Citizens across the station begin repeating the erased vote count aloud\" Elian Quill says.",
+          "Later, Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Broadcast of the unreturned\" Yara Sen says. \"Broadcast of the unreturned\" Elian Quill says.",
+          "Later, Citizens across the station begin repeating the erased vote count aloud. Public memory becomes impossible to confiscate again in silence. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence. She releases the memory to everyone and lets the station face its first honest unrest in years.",
+          "\"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.\" Yara Sen says. \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.\" Elian Quill says.",
           "Elian Quill understands now that a system that edits consent cannot claim legitimacy even if it remains efficient visible-cost-is-preferable-to-stable-falsehood. Scarred-trust-rebuilt-on-painful-clarity."
         ]
       }
@@ -147,7 +255,9 @@ Canonical source-edition payload used by the translation stage.
     "bookId": "qa-scifi-orbit",
     "profileId": "science-fiction",
     "profileLabel": "Science Fiction",
-    "workForm": "novelette",
+    "workForm": "novel",
+    "dialogueDensity": "high",
+    "descriptionDensity": "high",
     "editorialProfile": "literary-smooth",
     "title": "Orbit of the Unreturned",
     "centralIdea": {
@@ -813,9 +923,9 @@ Canonical source-edition payload used by the translation stage.
       {
         "id": "chapter-003",
         "number": 3,
-        "role": "revelation",
-        "outputState": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
-        "closingMode": "open-question",
+        "role": "investigation",
+        "outputState": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+        "closingMode": "cliffhanger",
         "thematicFocus": "freedom-security under dilemma pressure",
         "chapterQuestion": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
         "answerShift": "peace without memory turns citizens into well-maintained evidence gaps",
@@ -825,11 +935,11 @@ Canonical source-edition payload used by the translation stage.
           "sequence-type": "escape",
           "link-logic": "mixed",
           "chapter": "chapter 003",
-          "objective": "design a restoration sequence that exposes the lie without collapsing life-support trust",
+          "objective": "locate the archive ring without triggering a council lockdown",
           "scene-chain": "scene-003-01, scene-003-02, scene-003-03",
           "carry-forward-pressure": "each scene must inherit and intensify the previous unresolved pressure",
-          "conflict-line": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
-          "payoff": "Elian finally knows what truth must be returned first"
+          "conflict-line": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
+          "payoff": "technical distance gives way to personal implication"
         },
         "dialogue": {
           "scene": "the mnemonic orchard ring",
@@ -842,7 +952,7 @@ Canonical source-edition payload used by the translation stage.
           "scene": "the mnemonic orchard ring",
           "character": "Elian Quill",
           "function": "psychological-insight",
-          "trigger": "the council's legitimacy evaporates in one file",
+          "trigger": "the conspiracy reaches into Elian's professional past",
           "texture": "reflective"
         },
         "suspense": {
@@ -871,29 +981,29 @@ Canonical source-edition payload used by the translation stage.
         },
         "protagonistArc": {
           "chapter": "chapter 003",
-          "entry-belief": "stable systems prevent larger human harm at the start of the revelation chapter",
-          "challenge": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
-          "insight-pressure": "the council's legitimacy evaporates in one file",
-          "exit-belief": "a system that edits consent cannot claim legitimacy even if it remains efficient after the revelation chapter"
+          "entry-belief": "stable systems prevent larger human harm at the start of the investigation chapter",
+          "challenge": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
+          "insight-pressure": "the conspiracy reaches into Elian's professional past",
+          "exit-belief": "a system that edits consent cannot claim legitimacy even if it remains efficient after the investigation chapter"
         },
         "relationshipArc": {
           "chapter": "chapter 003",
           "pair": "Elian Quill, Yara Sen",
           "entry-dynamic": "technical-trust-without-moral-agreement",
-          "stress-line": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
+          "stress-line": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
           "exit-dynamic": "solidarity-forged-through-contested-truth"
         },
         "pause": {
           "scope": "chapter 003",
           "pause-function": "atmospheric",
-          "focus": "the ethical problem becomes a timed release rather than a discovery alone",
+          "focus": "the station reveals a physical pathway for forgetting",
           "placement": "before-final-scene",
           "reader-effect": "decelerate just enough to let consequence become legible"
         },
         "acceleration": {
           "scope": "chapter 003",
           "acceleration-mode": "montage",
-          "trigger": "the recovered vote proves the station once rejected the pacification protocol outright",
+          "trigger": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
           "reader-effect": "compress time and force the next consequence to land without emotional escape",
           "target-zone": "the mnemonic orchard ring"
         },
@@ -909,38 +1019,38 @@ Canonical source-edition payload used by the translation stage.
             "showing-mode": "mixed",
             "focalization": "internal-single",
             "time-space": "the mnemonic orchard ring",
-            "introduction": "Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies.",
-            "development": "Elian sees that her old optimization patch became the core of the pacification protocol.",
-            "conflict": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
-            "resolution": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
+            "introduction": "Yara flies Elian through maintenance lanes no civilian archivist is meant to access.",
+            "development": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.",
+            "conflict": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
+            "resolution": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
             "exit": "the next scene begins before the pressure can settle",
             "participants": [
               "Elian Quill",
               "Yara Sen",
               "Director Cael Oris"
             ],
-            "state-change": "the ethical problem becomes a timed release rather than a discovery alone",
+            "state-change": "the station reveals a physical pathway for forgetting",
             "action": {
               "action-mode": "evasion",
               "scene": "the mnemonic orchard ring",
               "actor": "Elian Quill",
-              "goal": "design a restoration sequence that exposes the lie without collapsing life-support trust",
-              "obstacle": "the archive is wired to purge itself if council override detects mass upload behavior",
+              "goal": "locate the archive ring without triggering a council lockdown",
+              "obstacle": "the shuttle navigation grid reassigns routes whenever forbidden sectors are approached",
               "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
             },
             "event": {
               "scope": "the mnemonic orchard ring",
               "event-type": "accident",
-              "trigger": "the recovered vote proves the station once rejected the pacification protocol outright",
-              "impact": "the council's legitimacy evaporates in one file",
-              "follow-through": "Elian finally knows what truth must be returned first"
+              "trigger": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
+              "impact": "the conspiracy reaches into Elian's professional past",
+              "follow-through": "technical distance gives way to personal implication"
             },
             "conflictPacket": {
               "scope": "the mnemonic orchard ring",
               "type": "external-nature",
               "forces": "Elian Quill versus Director Cael Oris",
               "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
-              "escalation": "Elian sees that her old optimization patch became the core of the pacification protocol."
+              "escalation": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute."
             },
             "dialogueTurns": [
               {
@@ -948,7 +1058,7 @@ Canonical source-edition payload used by the translation stage.
                 "speaker": "Yara Sen",
                 "intent": "reframe",
                 "subtext": "changes the moral meaning of what was just said",
-                "line-hint": "the recovered vote proves the station once rejected the pacification protocol outright",
+                "line-hint": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
                 "reaction-beat": "The new framing makes the old position harder to keep."
               },
               {
@@ -956,7 +1066,7 @@ Canonical source-edition payload used by the translation stage.
                 "speaker": "Elian Quill",
                 "intent": "name-risk",
                 "subtext": "speaks the consequence both speakers hoped could stay implied",
-                "line-hint": "the recovered vote proves the station once rejected the pacification protocol outright",
+                "line-hint": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
                 "reaction-beat": "Naming the risk turns pressure into irreversible commitment."
               }
             ]
@@ -966,38 +1076,38 @@ Canonical source-edition payload used by the translation stage.
             "showing-mode": "mixed",
             "focalization": "internal-single",
             "time-space": "the mnemonic orchard ring",
-            "introduction": "Elian sees that her old optimization patch became the core of the pacification protocol.",
-            "development": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
-            "conflict": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
-            "resolution": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
+            "introduction": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.",
+            "development": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
+            "conflict": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
+            "resolution": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
             "exit": "the next scene begins before the pressure can settle",
             "participants": [
               "Elian Quill",
               "Yara Sen",
               "Director Cael Oris"
             ],
-            "state-change": "the ethical problem becomes a timed release rather than a discovery alone",
+            "state-change": "the station reveals a physical pathway for forgetting",
             "action": {
               "action-mode": "negotiation",
               "scene": "the mnemonic orchard ring",
               "actor": "Elian Quill",
-              "goal": "Elian finally knows what truth must be returned first",
-              "obstacle": "the archive is wired to purge itself if council override detects mass upload behavior",
+              "goal": "technical distance gives way to personal implication",
+              "obstacle": "the shuttle navigation grid reassigns routes whenever forbidden sectors are approached",
               "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
             },
             "event": {
               "scope": "the mnemonic orchard ring",
               "event-type": "decision",
-              "trigger": "the recovered vote proves the station once rejected the pacification protocol outright",
-              "impact": "the council's legitimacy evaporates in one file",
-              "follow-through": "Elian finally knows what truth must be returned first"
+              "trigger": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
+              "impact": "the conspiracy reaches into Elian's professional past",
+              "follow-through": "technical distance gives way to personal implication"
             },
             "conflictPacket": {
               "scope": "the mnemonic orchard ring",
               "type": "external-character",
               "forces": "Elian Quill versus Director Cael Oris",
               "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
-              "escalation": "Elian sees that her old optimization patch became the core of the pacification protocol."
+              "escalation": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute."
             },
             "dialogueTurns": [
               {
@@ -1005,7 +1115,7 @@ Canonical source-edition payload used by the translation stage.
                 "speaker": "Yara Sen",
                 "intent": "probe",
                 "subtext": "tests whether the other speaker can bear the unsoftened truth",
-                "line-hint": "The room of amputated recall",
+                "line-hint": "Cargo route for the vanished vote",
                 "reaction-beat": "The question lands harder than either speaker planned."
               },
               {
@@ -1013,7 +1123,7 @@ Canonical source-edition payload used by the translation stage.
                 "speaker": "Elian Quill",
                 "intent": "name-risk",
                 "subtext": "speaks the consequence both speakers hoped could stay implied",
-                "line-hint": "The room of amputated recall",
+                "line-hint": "Cargo route for the vanished vote",
                 "reaction-beat": "Naming the risk turns pressure into irreversible commitment."
               }
             ]
@@ -1023,38 +1133,38 @@ Canonical source-edition payload used by the translation stage.
             "showing-mode": "mixed",
             "focalization": "internal-single",
             "time-space": "the mnemonic orchard ring",
-            "introduction": "the recovered vote proves the station once rejected the pacification protocol outright",
-            "development": "the council's legitimacy evaporates in one file",
-            "conflict": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
-            "resolution": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
-            "exit": "the chapter hands off to a sharper revelation consequence",
+            "introduction": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
+            "development": "the conspiracy reaches into Elian's professional past",
+            "conflict": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
+            "resolution": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+            "exit": "the chapter hands off to a sharper investigation consequence",
             "participants": [
               "Elian Quill",
               "Yara Sen",
               "Director Cael Oris"
             ],
-            "state-change": "the ethical problem becomes a timed release rather than a discovery alone",
+            "state-change": "the station reveals a physical pathway for forgetting",
             "action": {
               "action-mode": "attempt",
               "scene": "the mnemonic orchard ring",
               "actor": "Elian Quill",
-              "goal": "The room of amputated recall",
-              "obstacle": "the archive is wired to purge itself if council override detects mass upload behavior",
-              "result": "the ethical problem becomes a timed release rather than a discovery alone"
+              "goal": "Cargo route for the vanished vote",
+              "obstacle": "the shuttle navigation grid reassigns routes whenever forbidden sectors are approached",
+              "result": "the station reveals a physical pathway for forgetting"
             },
             "event": {
               "scope": "the mnemonic orchard ring",
               "event-type": "arrival",
-              "trigger": "the recovered vote proves the station once rejected the pacification protocol outright",
-              "impact": "the council's legitimacy evaporates in one file",
-              "follow-through": "Elian finally knows what truth must be returned first"
+              "trigger": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
+              "impact": "the conspiracy reaches into Elian's professional past",
+              "follow-through": "technical distance gives way to personal implication"
             },
             "conflictPacket": {
               "scope": "the mnemonic orchard ring",
               "type": "external-nature",
               "forces": "Elian Quill versus Director Cael Oris",
               "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
-              "escalation": "Elian sees that her old optimization patch became the core of the pacification protocol."
+              "escalation": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute."
             },
             "dialogueTurns": [
               {
@@ -1062,7 +1172,7 @@ Canonical source-edition payload used by the translation stage.
                 "speaker": "Yara Sen",
                 "intent": "commit",
                 "subtext": "makes risk sound practical enough to become a promise",
-                "line-hint": "Elian sees that her old optimization patch became the core of the pacification protocol.",
+                "line-hint": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.",
                 "reaction-beat": "The promise raises the stakes for the next exchange."
               },
               {
@@ -1070,20 +1180,20 @@ Canonical source-edition payload used by the translation stage.
                 "speaker": "Elian Quill",
                 "intent": "commit",
                 "subtext": "makes risk sound practical enough to become a promise",
-                "line-hint": "Elian sees that her old optimization patch became the core of the pacification protocol.",
+                "line-hint": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.",
                 "reaction-beat": "The promise raises the stakes for the next exchange."
               }
             ]
           }
         ],
-        "draftText": "# Chapter 003\n\nElian Quill enters the mnemonic orchard ring while the recovered vote proves the station once rejected the pacification protocol outright. In this science fiction chapter, revelation movement anchored by the room of amputated recall, so choices around freedom-security under dilemma pressure carry shock and relief. Yara Sen keeps searching for a path toward relief, while Director Cael Oris works to keep the conflict inside a safer official story. The central question here is can Elian restore the station's memory without destroying the fragile peace built on forgetting. The conflict thread is restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent. The engineered environment is anchored by ionized citrus, coolant mist, glass leaves pulsing with archived light and keeps an engineered garden where recollection has become a civic utility in view. The governing constraint is still active: elian cannot expose the protocol without using the very infrastructure built to overwrite public recall. At the start, Elian Quill believes stable systems prevent larger human harm at the start of the revelation chapter. Its rhythm leans on description-dialogue-action-interior-monologue-suspense-revelation-acceleration.\n\nThe system still appears orderly, but one unstable signal disturbs that surface. A partial truth is about to force a harder one into view. Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies. Elian Quill tries to design a restoration sequence that exposes the lie without collapsing life-support trust, but the archive is wired to purge itself if council override detects mass upload behavior. Elian sees that her old optimization patch became the core of the pacification protocol. Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When the recovered vote proves the station once rejected the pacification protocol outright, the local pressure tips from shock toward relief. Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is the ethical problem becomes a timed release rather than a discovery alone.\n\nThe exchange mixes technical precision with human shock. No line remains neutral now. Elian Quill, Yara Sen keep circling elian Quill and Elian Quill keep circling the truth they cannot safely name yet. \"The recovered vote proves the station once rejected the pacification protocol outright\" Yara Sen says. The new framing makes the old position harder to keep. \"The recovered vote proves the station once rejected the pacification protocol outright\" Elian Quill replies. Naming the risk turns pressure into irreversible commitment.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe first deceleration is deliberate: the ethical problem becomes a timed release rather than a discovery alone.\n\nHuman judgment and machine procedure begin to diverge in plain view. A partial truth is about to force a harder one into view. Elian sees that her old optimization patch became the core of the pacification protocol. Elian Quill tries to elian finally knows what truth must be returned first, but the archive is wired to purge itself if council override detects mass upload behavior. Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent. Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When the recovered vote proves the station once rejected the pacification protocol outright, the local pressure tips from shock toward relief. Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is the ethical problem becomes a timed release rather than a discovery alone.\n\n \"The room of amputated recall\" Yara Sen says. The question lands harder than either speaker planned. \"The room of amputated recall\" Elian Quill replies. Naming the risk turns pressure into irreversible commitment.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe station absorbs the disturbance, then returns it with greater force. A partial truth is about to force a harder one into view. The recovered vote proves the station once rejected the pacification protocol outright. Elian Quill tries to the room of amputated recall, but the archive is wired to purge itself if council override detects mass upload behavior. The council's legitimacy evaporates in one file. Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When the recovered vote proves the station once rejected the pacification protocol outright, the local pressure tips from shock toward relief. Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is the ethical problem becomes a timed release rather than a discovery alone.\n\n \"Elian sees that her old optimization patch became the core of the pacification protocol\" Yara Sen says. The promise raises the stakes for the next exchange. \"Elian sees that her old optimization patch became the core of the pacification protocol\" Elian Quill replies. The promise raises the stakes for the next exchange.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThen the pace compresses: the recovered vote proves the station once rejected the pacification protocol outright.\n\nElian Quill feels the council's legitimacy evaporates in one file, a mix of shock and relief that will not settle into easy relief. The chapter therefore pushes the inner line from stable systems prevent larger human harm at the start of the revelation chapter toward a system that edits consent cannot claim legitimacy even if it remains efficient after the revelation chapter.\n\nBy the end of chapter-003, elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once. The chapter keeps faith with freedom-security under dilemma pressure while moving toward open-question, and it refuses relief without visible cost. Its answer shift is clear: peace without memory turns citizens into well-maintained evidence gaps. Between Elian Quill and Yara Sen, the relational line moves from technical-trust-without-moral-agreement toward solidarity-forged-through-contested-truth. The closing pressure is therefore both shock and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?."
+        "draftText": "# Chapter 003\n\nElian Quill enters the mnemonic orchard ring while one phantom crate is tagged with Elian's own authorization signature from two years earlier. In this science fiction chapter, escalation movement anchored by cargo route for the vanished vote, so choices around freedom-security under dilemma pressure carry wonder and fear. Yara Sen keeps searching for a path toward relief, while Director Cael Oris works to keep the conflict inside a safer official story. The central question here is can Elian restore the station's memory without destroying the fragile peace built on forgetting. The conflict thread is elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent. The engineered environment is anchored by ionized citrus, coolant mist, glass leaves pulsing with archived light and keeps an engineered garden where recollection has become a civic utility in view. The governing constraint is still active: elian cannot expose the protocol without using the very infrastructure built to overwrite public recall. At the start, Elian Quill believes stable systems prevent larger human harm at the start of the investigation chapter. Its rhythm leans on description-dialogue-action-interior-monologue-suspense-revelation-acceleration.\n\nThe system still appears orderly, but one unstable signal disturbs that surface. The movement now favors evidence over comfort. Yara flies Elian through maintenance lanes no civilian archivist is meant to access. Elian Quill tries to locate the archive ring without triggering a council lockdown, but the shuttle navigation grid reassigns routes whenever forbidden sectors are approached. They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute. Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the local pressure tips from wonder toward fear. A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is the station reveals a physical pathway for forgetting.\n\nThe exchange mixes technical precision with human shock. Subtext matters as much as the explicit claim. Elian Quill, Yara Sen keep circling elian Quill and Elian Quill keep circling the truth they cannot safely name yet. \"One phantom crate is tagged with Elian's own authorization signature from two years earlier\" Yara Sen says. The new framing makes the old position harder to keep. \"One phantom crate is tagged with Elian's own authorization signature from two years earlier\" Elian Quill replies. Naming the risk turns pressure into irreversible commitment.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe first deceleration is deliberate: the station reveals a physical pathway for forgetting.\n\nHuman judgment and machine procedure begin to diverge in plain view. The movement now favors evidence over comfort. They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute. Elian Quill tries to technical distance gives way to personal implication, but the shuttle navigation grid reassigns routes whenever forbidden sectors are approached. Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent. Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the local pressure tips from wonder toward fear. A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is the station reveals a physical pathway for forgetting.\n\n \"Cargo route for the vanished vote\" Yara Sen says. The question lands harder than either speaker planned. \"Cargo route for the vanished vote\" Elian Quill replies. Naming the risk turns pressure into irreversible commitment.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe station absorbs the disturbance, then returns it with greater force. The movement now favors evidence over comfort. One phantom crate is tagged with Elian's own authorization signature from two years earlier. Elian Quill tries to cargo route for the vanished vote, but the shuttle navigation grid reassigns routes whenever forbidden sectors are approached. The conspiracy reaches into Elian's professional past. Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the local pressure tips from wonder toward fear. A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is the station reveals a physical pathway for forgetting.\n\n \"They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute\" Yara Sen says. The promise raises the stakes for the next exchange. \"They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute\" Elian Quill replies. The promise raises the stakes for the next exchange.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThen the pace compresses: one phantom crate is tagged with Elian's own authorization signature from two years earlier.\n\nElian Quill feels the conspiracy reaches into Elian's professional past, a mix of wonder and fear that will not settle into easy relief. The chapter therefore pushes the inner line from stable systems prevent larger human harm at the start of the investigation chapter toward a system that edits consent cannot claim legitimacy even if it remains efficient after the investigation chapter.\n\nBy the end of chapter-003, a council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map. The chapter keeps faith with freedom-security under dilemma pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: peace without memory turns citizens into well-maintained evidence gaps. Between Elian Quill and Yara Sen, the relational line moves from technical-trust-without-moral-agreement toward solidarity-forged-through-contested-truth. The closing pressure is therefore both wonder and fear, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?."
       },
       {
         "id": "chapter-004",
         "number": 4,
-        "role": "culmination",
-        "outputState": "peace fractures, but consent re-enters the political life of the station",
-        "closingMode": "reversal",
+        "role": "revelation",
+        "outputState": "the ethical problem becomes a timed release rather than a discovery alone",
+        "closingMode": "cliffhanger",
         "thematicFocus": "freedom-security under dilemma pressure",
         "chapterQuestion": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
         "answerShift": "peace without memory turns citizens into well-maintained evidence gaps",
@@ -1093,11 +1203,11 @@ Canonical source-edition payload used by the translation stage.
           "sequence-type": "escape",
           "link-logic": "mixed",
           "chapter": "chapter 004",
-          "objective": "restore shared memory faster than the council can trigger another wipe",
+          "objective": "design a restoration sequence that exposes the lie without collapsing life-support trust",
           "scene-chain": "scene-004-01, scene-004-02, scene-004-03",
           "carry-forward-pressure": "each scene must inherit and intensify the previous unresolved pressure",
-          "conflict-line": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
-          "payoff": "the sequence delivers its final irreversible choice"
+          "conflict-line": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
+          "payoff": "Elian finally knows what truth must be returned first"
         },
         "dialogue": {
           "scene": "the mnemonic orchard ring",
@@ -1110,8 +1220,8 @@ Canonical source-edition payload used by the translation stage.
           "scene": "the mnemonic orchard ring",
           "character": "Elian Quill",
           "function": "psychological-insight",
-          "trigger": "public memory becomes impossible to confiscate again in silence",
-          "texture": "recursive"
+          "trigger": "the council's legitimacy evaporates in one file",
+          "texture": "reflective"
         },
         "suspense": {
           "scope": "chapter 004",
@@ -1139,29 +1249,29 @@ Canonical source-edition payload used by the translation stage.
         },
         "protagonistArc": {
           "chapter": "chapter 004",
-          "entry-belief": "stable systems prevent larger human harm at the start of the culmination chapter",
-          "challenge": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
-          "insight-pressure": "public memory becomes impossible to confiscate again in silence",
-          "exit-belief": "a system that edits consent cannot claim legitimacy even if it remains efficient after the culmination chapter"
+          "entry-belief": "stable systems prevent larger human harm at the start of the revelation chapter",
+          "challenge": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
+          "insight-pressure": "the council's legitimacy evaporates in one file",
+          "exit-belief": "a system that edits consent cannot claim legitimacy even if it remains efficient after the revelation chapter"
         },
         "relationshipArc": {
           "chapter": "chapter 004",
           "pair": "Elian Quill, Yara Sen",
           "entry-dynamic": "professional-alliance-with-unequal-risk",
-          "stress-line": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "stress-line": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
           "exit-dynamic": "scarred-trust-rebuilt-on-painful-clarity"
         },
         "pause": {
           "scope": "chapter 004",
           "pause-function": "atmospheric",
-          "focus": "peace fractures, but consent re-enters the political life of the station",
+          "focus": "the ethical problem becomes a timed release rather than a discovery alone",
           "placement": "before-final-scene",
           "reader-effect": "decelerate just enough to let consequence become legible"
         },
         "acceleration": {
           "scope": "chapter 004",
-          "acceleration-mode": "pursuit-compression",
-          "trigger": "citizens across the station begin repeating the erased vote count aloud",
+          "acceleration-mode": "montage",
+          "trigger": "the recovered vote proves the station once rejected the pacification protocol outright",
           "reader-effect": "compress time and force the next consequence to land without emotional escape",
           "target-zone": "the mnemonic orchard ring"
         },
@@ -1175,6 +1285,1078 @@ Canonical source-edition payload used by the translation stage.
           {
             "chapter": "chapter 004",
             "showing-mode": "dialogic",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies.",
+            "development": "Elian sees that her old optimization patch became the core of the pacification protocol.",
+            "conflict": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
+            "resolution": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "the ethical problem becomes a timed release rather than a discovery alone",
+            "action": {
+              "action-mode": "sacrifice",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "design a restoration sequence that exposes the lie without collapsing life-support trust",
+              "obstacle": "the archive is wired to purge itself if council override detects mass upload behavior",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "loss",
+              "trigger": "the recovered vote proves the station once rejected the pacification protocol outright",
+              "impact": "the council's legitimacy evaporates in one file",
+              "follow-through": "Elian finally knows what truth must be returned first"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "external-supernatural",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Elian sees that her old optimization patch became the core of the pacification protocol."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "answer-honestly",
+                "subtext": "gives away more vulnerability than strategy intended",
+                "line-hint": "the recovered vote proves the station once rejected the pacification protocol outright",
+                "reaction-beat": "The honesty changes the balance of power in the room."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "answer-honestly",
+                "subtext": "gives away more vulnerability than strategy intended",
+                "line-hint": "the recovered vote proves the station once rejected the pacification protocol outright",
+                "reaction-beat": "The honesty changes the balance of power in the room."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 004",
+            "showing-mode": "introspective",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "Elian sees that her old optimization patch became the core of the pacification protocol.",
+            "development": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
+            "conflict": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
+            "resolution": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "the ethical problem becomes a timed release rather than a discovery alone",
+            "action": {
+              "action-mode": "sacrifice",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "Elian finally knows what truth must be returned first",
+              "obstacle": "the archive is wired to purge itself if council override detects mass upload behavior",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "arrival",
+              "trigger": "the recovered vote proves the station once rejected the pacification protocol outright",
+              "impact": "the council's legitimacy evaporates in one file",
+              "follow-through": "Elian finally knows what truth must be returned first"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "external-supernatural",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Elian sees that her old optimization patch became the core of the pacification protocol."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "answer-honestly",
+                "subtext": "gives away more vulnerability than strategy intended",
+                "line-hint": "The room of amputated recall",
+                "reaction-beat": "The honesty changes the balance of power in the room."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "name-risk",
+                "subtext": "speaks the consequence both speakers hoped could stay implied",
+                "line-hint": "The room of amputated recall",
+                "reaction-beat": "Naming the risk turns pressure into irreversible commitment."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 004",
+            "showing-mode": "direct-showing",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "the recovered vote proves the station once rejected the pacification protocol outright",
+            "development": "the council's legitimacy evaporates in one file",
+            "conflict": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
+            "resolution": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
+            "exit": "the chapter hands off to a sharper revelation consequence",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "the ethical problem becomes a timed release rather than a discovery alone",
+            "action": {
+              "action-mode": "revelation-act",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "The room of amputated recall",
+              "obstacle": "the archive is wired to purge itself if council override detects mass upload behavior",
+              "result": "the ethical problem becomes a timed release rather than a discovery alone"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "betrayal",
+              "trigger": "the recovered vote proves the station once rejected the pacification protocol outright",
+              "impact": "the council's legitimacy evaporates in one file",
+              "follow-through": "Elian finally knows what truth must be returned first"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "mixed",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Elian sees that her old optimization patch became the core of the pacification protocol."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "probe",
+                "subtext": "tests whether the other speaker can bear the unsoftened truth",
+                "line-hint": "Elian sees that her old optimization patch became the core of the pacification protocol.",
+                "reaction-beat": "The question lands harder than either speaker planned."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "probe",
+                "subtext": "tests whether the other speaker can bear the unsoftened truth",
+                "line-hint": "Elian sees that her old optimization patch became the core of the pacification protocol.",
+                "reaction-beat": "The question lands harder than either speaker planned."
+              }
+            ]
+          }
+        ],
+        "draftText": "# Chapter 004\n\nElian Quill enters the mnemonic orchard ring while inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies. In this science fiction chapter, revelation movement anchored by the room of amputated recall, so choices around freedom-security under dilemma pressure carry shock and relief. Yara Sen keeps searching for a path toward relief, while Director Cael Oris works to keep the conflict inside a safer official story. The central question here is can Elian restore the station's memory without destroying the fragile peace built on forgetting. The conflict thread is restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent. The engineered environment is anchored by ionized citrus, coolant mist, glass leaves pulsing with archived light and keeps an engineered garden where recollection has become a civic utility in view. The governing constraint is still active: elian cannot expose the protocol without using the very infrastructure built to overwrite public recall. At the start, Elian Quill believes stable systems prevent larger human harm at the start of the revelation chapter. Its rhythm leans on description-dialogue-action-interior-monologue-suspense-revelation-acceleration.\n\nThe system still appears orderly, but one unstable signal disturbs that surface. A partial truth is about to force a harder one into view. Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies. Elian Quill tries to design a restoration sequence that exposes the lie without collapsing life-support trust, but the archive is wired to purge itself if council override detects mass upload behavior. Elian sees that her old optimization patch became the core of the pacification protocol. Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When the recovered vote proves the station once rejected the pacification protocol outright, the local pressure tips from shock toward relief. Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is the ethical problem becomes a timed release rather than a discovery alone.\n\nThe exchange mixes technical precision with human shock. No line remains neutral now. Elian Quill, Yara Sen keep circling elian Quill and Elian Quill keep circling the truth they cannot safely name yet. \"The recovered vote proves the station once rejected the pacification protocol outright\" Yara Sen says. The honesty changes the balance of power in the room. \"The recovered vote proves the station once rejected the pacification protocol outright\" Elian Quill replies. The honesty changes the balance of power in the room.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe first deceleration is deliberate: the ethical problem becomes a timed release rather than a discovery alone.\n\nHuman judgment and machine procedure begin to diverge in plain view. A partial truth is about to force a harder one into view. Elian sees that her old optimization patch became the core of the pacification protocol. Elian Quill tries to elian finally knows what truth must be returned first, but the archive is wired to purge itself if council override detects mass upload behavior. Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent. Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When the recovered vote proves the station once rejected the pacification protocol outright, the local pressure tips from shock toward relief. Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is the ethical problem becomes a timed release rather than a discovery alone.\n\n \"The room of amputated recall\" Yara Sen says. The honesty changes the balance of power in the room. \"The room of amputated recall\" Elian Quill replies. Naming the risk turns pressure into irreversible commitment.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe station absorbs the disturbance, then returns it with greater force. A partial truth is about to force a harder one into view. The recovered vote proves the station once rejected the pacification protocol outright. Elian Quill tries to the room of amputated recall, but the archive is wired to purge itself if council override detects mass upload behavior. The council's legitimacy evaporates in one file. Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When the recovered vote proves the station once rejected the pacification protocol outright, the local pressure tips from shock toward relief. Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is the ethical problem becomes a timed release rather than a discovery alone.\n\n \"Elian sees that her old optimization patch became the core of the pacification protocol\" Yara Sen says. The question lands harder than either speaker planned. \"Elian sees that her old optimization patch became the core of the pacification protocol\" Elian Quill replies. The question lands harder than either speaker planned.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThen the pace compresses: the recovered vote proves the station once rejected the pacification protocol outright.\n\nElian Quill feels the council's legitimacy evaporates in one file, a mix of shock and relief that will not settle into easy relief. The chapter therefore pushes the inner line from stable systems prevent larger human harm at the start of the revelation chapter toward a system that edits consent cannot claim legitimacy even if it remains efficient after the revelation chapter.\n\nBy the end of chapter-004, the ethical problem becomes a timed release rather than a discovery alone. The chapter keeps faith with freedom-security under dilemma pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: peace without memory turns citizens into well-maintained evidence gaps. Between Elian Quill and Yara Sen, the relational line moves from professional-alliance-with-unequal-risk toward scarred-trust-rebuilt-on-painful-clarity. The closing pressure is therefore both shock and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?."
+      },
+      {
+        "id": "chapter-005",
+        "number": 5,
+        "role": "culmination",
+        "outputState": "peace fractures, but consent re-enters the political life of the station",
+        "closingMode": "cliffhanger",
+        "thematicFocus": "freedom-security under dilemma pressure",
+        "chapterQuestion": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
+        "answerShift": "peace without memory turns citizens into well-maintained evidence gaps",
+        "worldPressure": "technical maintenance becomes indistinguishable from political censorship",
+        "blockAlternation": "description-dialogue-action-interior-monologue-suspense-revelation-acceleration",
+        "sequence": {
+          "sequence-type": "escape",
+          "link-logic": "causal",
+          "chapter": "chapter 005",
+          "objective": "restore shared memory faster than the council can trigger another wipe",
+          "scene-chain": "scene-005-01, scene-005-02, scene-005-03",
+          "carry-forward-pressure": "each scene must inherit and intensify the previous unresolved pressure",
+          "conflict-line": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "payoff": "the station survives only by surrendering its false innocence"
+        },
+        "dialogue": {
+          "scene": "the mnemonic orchard ring",
+          "speakers": "Elian Quill, Yara Sen",
+          "exchange-type": "conflictual",
+          "purpose": "tension",
+          "subtext": "Elian Quill and Elian Quill keep circling the truth they cannot safely name yet"
+        },
+        "monologue": {
+          "scene": "the mnemonic orchard ring",
+          "character": "Elian Quill",
+          "function": "psychological-insight",
+          "trigger": "public memory becomes impossible to confiscate again in silence",
+          "texture": "reflective"
+        },
+        "suspense": {
+          "scope": "chapter 005",
+          "suspense-type": "cognitive",
+          "uncertainty": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
+          "delay-technique": "foreshadowing",
+          "payoff-zone": "event-005-3"
+        },
+        "location": {
+          "chapter": "chapter 005",
+          "primary-setting": "the mnemonic orchard ring",
+          "secondary-setting": "the sealed archive airlock beneath Council Spoke Three",
+          "sensory-anchor": "ionized citrus, coolant mist, glass leaves pulsing with archived light",
+          "social-signal": "citizens come here to rehearse approved memories in carefully moderated quiet",
+          "symbolic-charge": "an engineered garden where recollection has become a civic utility",
+          "conflict-use": "intimacy keeps colliding with the fact that every remembered detail may be edited"
+        },
+        "rulePressure": {
+          "chapter": "chapter 005",
+          "rule-reference": "The station's peace index allows the council to authorize memory smoothing whenever dissent crosses a quantified risk threshold.",
+          "visible-symptom": "citizens remember the emotional aftermath of conflict but not the decisions that created it",
+          "action-limitation": "Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.",
+          "conflict-output": "technical maintenance becomes indistinguishable from political censorship",
+          "reveal-pattern": "show-exception-to-reveal-rule"
+        },
+        "protagonistArc": {
+          "chapter": "chapter 005",
+          "entry-belief": "stable systems prevent larger human harm at the start of the culmination chapter",
+          "challenge": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "insight-pressure": "public memory becomes impossible to confiscate again in silence",
+          "exit-belief": "a system that edits consent cannot claim legitimacy even if it remains efficient after the culmination chapter"
+        },
+        "relationshipArc": {
+          "chapter": "chapter 005",
+          "pair": "Elian Quill, Yara Sen",
+          "entry-dynamic": "professional-alliance-with-unequal-risk",
+          "stress-line": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "exit-dynamic": "solidarity-forged-through-contested-truth"
+        },
+        "pause": {
+          "scope": "chapter 005",
+          "pause-function": "atmospheric",
+          "focus": "peace fractures, but consent re-enters the political life of the station",
+          "placement": "before-final-scene",
+          "reader-effect": "decelerate just enough to let consequence become legible"
+        },
+        "acceleration": {
+          "scope": "chapter 005",
+          "acceleration-mode": "pursuit-compression",
+          "trigger": "citizens across the station begin repeating the erased vote count aloud",
+          "reader-effect": "compress time and force the next consequence to land without emotional escape",
+          "target-zone": "the mnemonic orchard ring"
+        },
+        "alternation": {
+          "chapter": "chapter 005",
+          "block-order": "description-dialogue-action-interior-monologue-suspense-revelation-acceleration",
+          "reader-effect": "Is peace still peace when consent depends on not remembering the price?",
+          "anti-flatness-rule": "do not chain action summaries without dialogue, atmosphere, or reflection support"
+        },
+        "scenes": [
+          {
+            "chapter": "chapter 005",
+            "showing-mode": "mixed",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.",
+            "development": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+            "conflict": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "resolution": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "peace fractures, but consent re-enters the political life of the station",
+            "action": {
+              "action-mode": "attempt",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "restore shared memory faster than the council can trigger another wipe",
+              "obstacle": "the pacification cycle treats truth itself as a destabilizing contaminant",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "revelation",
+              "trigger": "citizens across the station begin repeating the erased vote count aloud",
+              "impact": "public memory becomes impossible to confiscate again in silence",
+              "follow-through": "the station survives only by surrendering its false innocence"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "external-supernatural",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "commit",
+                "subtext": "makes risk sound practical enough to become a promise",
+                "line-hint": "citizens across the station begin repeating the erased vote count aloud",
+                "reaction-beat": "The promise raises the stakes for the next exchange."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "warn",
+                "subtext": "tries to protect the bond by narrowing the next available move",
+                "line-hint": "citizens across the station begin repeating the erased vote count aloud",
+                "reaction-beat": "The warning narrows what can still be done safely."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 005",
+            "showing-mode": "mixed",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+            "development": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "conflict": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "resolution": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "peace fractures, but consent re-enters the political life of the station",
+            "action": {
+              "action-mode": "sacrifice",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "the station survives only by surrendering its false innocence",
+              "obstacle": "the pacification cycle treats truth itself as a destabilizing contaminant",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "discovery",
+              "trigger": "citizens across the station begin repeating the erased vote count aloud",
+              "impact": "public memory becomes impossible to confiscate again in silence",
+              "follow-through": "the station survives only by surrendering its false innocence"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "mixed",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "challenge",
+                "subtext": "refuses the easier story and forces the pressure into view",
+                "line-hint": "Broadcast of the unreturned",
+                "reaction-beat": "The challenge strips politeness away from the scene."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "name-risk",
+                "subtext": "speaks the consequence both speakers hoped could stay implied",
+                "line-hint": "Broadcast of the unreturned",
+                "reaction-beat": "Naming the risk turns pressure into irreversible commitment."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 005",
+            "showing-mode": "dialogic",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "citizens across the station begin repeating the erased vote count aloud",
+            "development": "public memory becomes impossible to confiscate again in silence",
+            "conflict": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "resolution": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+            "exit": "the chapter hands off to a sharper culmination consequence",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "peace fractures, but consent re-enters the political life of the station",
+            "action": {
+              "action-mode": "negotiation",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "Broadcast of the unreturned",
+              "obstacle": "the pacification cycle treats truth itself as a destabilizing contaminant",
+              "result": "peace fractures, but consent re-enters the political life of the station"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "arrival",
+              "trigger": "citizens across the station begin repeating the erased vote count aloud",
+              "impact": "public memory becomes impossible to confiscate again in silence",
+              "follow-through": "the station survives only by surrendering its false innocence"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "mixed",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "reframe",
+                "subtext": "changes the moral meaning of what was just said",
+                "line-hint": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+                "reaction-beat": "The new framing makes the old position harder to keep."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "commit",
+                "subtext": "makes risk sound practical enough to become a promise",
+                "line-hint": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+                "reaction-beat": "The promise raises the stakes for the next exchange."
+              }
+            ]
+          }
+        ],
+        "draftText": "# Chapter 005\n\nElian Quill enters the mnemonic orchard ring while as the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. In this science fiction chapter, culmination movement anchored by broadcast of the unreturned, so choices around freedom-security under dilemma pressure carry fear and relief. Yara Sen keeps searching for a path toward relief, while Director Cael Oris works to keep the conflict inside a safer official story. The central question here is can Elian restore the station's memory without destroying the fragile peace built on forgetting. The conflict thread is elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. The engineered environment is anchored by ionized citrus, coolant mist, glass leaves pulsing with archived light and keeps an engineered garden where recollection has become a civic utility in view. The governing constraint is still active: elian cannot expose the protocol without using the very infrastructure built to overwrite public recall. At the start, Elian Quill believes stable systems prevent larger human harm at the start of the culmination chapter. Its rhythm leans on description-dialogue-action-interior-monologue-suspense-revelation-acceleration.\n\nThe system still appears orderly, but one unstable signal disturbs that surface. No one can leave this moment unchanged. As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. Elian Quill tries to restore shared memory faster than the council can trigger another wipe, but the pacification cycle treats truth itself as a destabilizing contaminant. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\nThe exchange mixes technical precision with human shock. Subtext matters as much as the explicit claim. Elian Quill, Yara Sen keep circling elian Quill and Elian Quill keep circling the truth they cannot safely name yet. \"Citizens across the station begin repeating the erased vote count aloud\" Yara Sen says. The promise raises the stakes for the next exchange. \"Citizens across the station begin repeating the erased vote count aloud\" Elian Quill replies. The warning narrows what can still be done safely.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe first deceleration is deliberate: peace fractures, but consent re-enters the political life of the station.\n\nHuman judgment and machine procedure begin to diverge in plain view. No one can leave this moment unchanged. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian Quill tries to the station survives only by surrendering its false innocence, but the pacification cycle treats truth itself as a destabilizing contaminant. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\n \"Broadcast of the unreturned\" Yara Sen says. The challenge strips politeness away from the scene. \"Broadcast of the unreturned\" Elian Quill replies. Naming the risk turns pressure into irreversible commitment.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe station absorbs the disturbance, then returns it with greater force. No one can leave this moment unchanged. Citizens across the station begin repeating the erased vote count aloud. Elian Quill tries to broadcast of the unreturned, but the pacification cycle treats truth itself as a destabilizing contaminant. Public memory becomes impossible to confiscate again in silence. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\n \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes\" Yara Sen says. The new framing makes the old position harder to keep. \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes\" Elian Quill replies. The promise raises the stakes for the next exchange.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThen the pace compresses: citizens across the station begin repeating the erased vote count aloud.\n\nElian Quill feels public memory becomes impossible to confiscate again in silence, a mix of fear and relief that will not settle into easy relief. The chapter therefore pushes the inner line from stable systems prevent larger human harm at the start of the culmination chapter toward a system that edits consent cannot claim legitimacy even if it remains efficient after the culmination chapter.\n\nBy the end of chapter-005, peace fractures, but consent re-enters the political life of the station. The chapter keeps faith with freedom-security under dilemma pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: peace without memory turns citizens into well-maintained evidence gaps. Between Elian Quill and Yara Sen, the relational line moves from professional-alliance-with-unequal-risk toward solidarity-forged-through-contested-truth. The closing pressure is therefore both fear and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?."
+      },
+      {
+        "id": "chapter-006",
+        "number": 6,
+        "role": "culmination",
+        "outputState": "peace fractures, but consent re-enters the political life of the station",
+        "closingMode": "cliffhanger",
+        "thematicFocus": "freedom-security under dilemma pressure",
+        "chapterQuestion": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
+        "answerShift": "peace without memory turns citizens into well-maintained evidence gaps",
+        "worldPressure": "technical maintenance becomes indistinguishable from political censorship",
+        "blockAlternation": "description-dialogue-action-interior-monologue-suspense-revelation-acceleration",
+        "sequence": {
+          "sequence-type": "escape",
+          "link-logic": "causal",
+          "chapter": "chapter 006",
+          "objective": "restore shared memory faster than the council can trigger another wipe",
+          "scene-chain": "scene-006-01, scene-006-02, scene-006-03",
+          "carry-forward-pressure": "each scene must inherit and intensify the previous unresolved pressure",
+          "conflict-line": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "payoff": "the station survives only by surrendering its false innocence"
+        },
+        "dialogue": {
+          "scene": "the mnemonic orchard ring",
+          "speakers": "Elian Quill, Yara Sen",
+          "exchange-type": "conflictual",
+          "purpose": "tension",
+          "subtext": "Elian Quill and Elian Quill keep circling the truth they cannot safely name yet"
+        },
+        "monologue": {
+          "scene": "the mnemonic orchard ring",
+          "character": "Elian Quill",
+          "function": "psychological-insight",
+          "trigger": "public memory becomes impossible to confiscate again in silence",
+          "texture": "reflective"
+        },
+        "suspense": {
+          "scope": "chapter 006",
+          "suspense-type": "cognitive",
+          "uncertainty": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
+          "delay-technique": "foreshadowing",
+          "payoff-zone": "event-006-3"
+        },
+        "location": {
+          "chapter": "chapter 006",
+          "primary-setting": "the mnemonic orchard ring",
+          "secondary-setting": "the sealed archive airlock beneath Council Spoke Three",
+          "sensory-anchor": "ionized citrus, coolant mist, glass leaves pulsing with archived light",
+          "social-signal": "citizens come here to rehearse approved memories in carefully moderated quiet",
+          "symbolic-charge": "an engineered garden where recollection has become a civic utility",
+          "conflict-use": "intimacy keeps colliding with the fact that every remembered detail may be edited"
+        },
+        "rulePressure": {
+          "chapter": "chapter 006",
+          "rule-reference": "The station's peace index allows the council to authorize memory smoothing whenever dissent crosses a quantified risk threshold.",
+          "visible-symptom": "citizens remember the emotional aftermath of conflict but not the decisions that created it",
+          "action-limitation": "Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.",
+          "conflict-output": "technical maintenance becomes indistinguishable from political censorship",
+          "reveal-pattern": "embed-rule-in-dialogue"
+        },
+        "protagonistArc": {
+          "chapter": "chapter 006",
+          "entry-belief": "stable systems prevent larger human harm at the start of the culmination chapter",
+          "challenge": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "insight-pressure": "public memory becomes impossible to confiscate again in silence",
+          "exit-belief": "a system that edits consent cannot claim legitimacy even if it remains efficient after the culmination chapter"
+        },
+        "relationshipArc": {
+          "chapter": "chapter 006",
+          "pair": "Elian Quill, Yara Sen",
+          "entry-dynamic": "technical-trust-without-moral-agreement",
+          "stress-line": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "exit-dynamic": "scarred-trust-rebuilt-on-painful-clarity"
+        },
+        "pause": {
+          "scope": "chapter 006",
+          "pause-function": "atmospheric",
+          "focus": "peace fractures, but consent re-enters the political life of the station",
+          "placement": "before-final-scene",
+          "reader-effect": "decelerate just enough to let consequence become legible"
+        },
+        "acceleration": {
+          "scope": "chapter 006",
+          "acceleration-mode": "pursuit-compression",
+          "trigger": "citizens across the station begin repeating the erased vote count aloud",
+          "reader-effect": "compress time and force the next consequence to land without emotional escape",
+          "target-zone": "the mnemonic orchard ring"
+        },
+        "alternation": {
+          "chapter": "chapter 006",
+          "block-order": "description-dialogue-action-interior-monologue-suspense-revelation-acceleration",
+          "reader-effect": "Is peace still peace when consent depends on not remembering the price?",
+          "anti-flatness-rule": "do not chain action summaries without dialogue, atmosphere, or reflection support"
+        },
+        "scenes": [
+          {
+            "chapter": "chapter 006",
+            "showing-mode": "introspective",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.",
+            "development": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+            "conflict": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "resolution": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "peace fractures, but consent re-enters the political life of the station",
+            "action": {
+              "action-mode": "evasion",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "restore shared memory faster than the council can trigger another wipe",
+              "obstacle": "the pacification cycle treats truth itself as a destabilizing contaminant",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "arrival",
+              "trigger": "citizens across the station begin repeating the erased vote count aloud",
+              "impact": "public memory becomes impossible to confiscate again in silence",
+              "follow-through": "the station survives only by surrendering its false innocence"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "internal",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "answer-honestly",
+                "subtext": "gives away more vulnerability than strategy intended",
+                "line-hint": "citizens across the station begin repeating the erased vote count aloud",
+                "reaction-beat": "The honesty changes the balance of power in the room."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "warn",
+                "subtext": "tries to protect the bond by narrowing the next available move",
+                "line-hint": "citizens across the station begin repeating the erased vote count aloud",
+                "reaction-beat": "The warning narrows what can still be done safely."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 006",
+            "showing-mode": "introspective",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+            "development": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "conflict": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "resolution": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "peace fractures, but consent re-enters the political life of the station",
+            "action": {
+              "action-mode": "attempt",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "the station survives only by surrendering its false innocence",
+              "obstacle": "the pacification cycle treats truth itself as a destabilizing contaminant",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "decision",
+              "trigger": "citizens across the station begin repeating the erased vote count aloud",
+              "impact": "public memory becomes impossible to confiscate again in silence",
+              "follow-through": "the station survives only by surrendering its false innocence"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "external-technology",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "answer-honestly",
+                "subtext": "gives away more vulnerability than strategy intended",
+                "line-hint": "Broadcast of the unreturned",
+                "reaction-beat": "The honesty changes the balance of power in the room."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "commit",
+                "subtext": "makes risk sound practical enough to become a promise",
+                "line-hint": "Broadcast of the unreturned",
+                "reaction-beat": "The promise raises the stakes for the next exchange."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 006",
+            "showing-mode": "introspective",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "citizens across the station begin repeating the erased vote count aloud",
+            "development": "public memory becomes impossible to confiscate again in silence",
+            "conflict": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "resolution": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+            "exit": "the chapter hands off to a sharper culmination consequence",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "peace fractures, but consent re-enters the political life of the station",
+            "action": {
+              "action-mode": "revelation-act",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "Broadcast of the unreturned",
+              "obstacle": "the pacification cycle treats truth itself as a destabilizing contaminant",
+              "result": "peace fractures, but consent re-enters the political life of the station"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "reversal",
+              "trigger": "citizens across the station begin repeating the erased vote count aloud",
+              "impact": "public memory becomes impossible to confiscate again in silence",
+              "follow-through": "the station survives only by surrendering its false innocence"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "external-society",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "warn",
+                "subtext": "tries to protect the bond by narrowing the next available move",
+                "line-hint": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+                "reaction-beat": "The warning narrows what can still be done safely."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "commit",
+                "subtext": "makes risk sound practical enough to become a promise",
+                "line-hint": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+                "reaction-beat": "The promise raises the stakes for the next exchange."
+              }
+            ]
+          }
+        ],
+        "draftText": "# Chapter 006\n\nElian Quill enters the mnemonic orchard ring while as the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. In this science fiction chapter, culmination movement anchored by broadcast of the unreturned, so choices around freedom-security under dilemma pressure carry fear and relief. Yara Sen keeps searching for a path toward relief, while Director Cael Oris works to keep the conflict inside a safer official story. The central question here is can Elian restore the station's memory without destroying the fragile peace built on forgetting. The conflict thread is elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. The engineered environment is anchored by ionized citrus, coolant mist, glass leaves pulsing with archived light and keeps an engineered garden where recollection has become a civic utility in view. The governing constraint is still active: elian cannot expose the protocol without using the very infrastructure built to overwrite public recall. At the start, Elian Quill believes stable systems prevent larger human harm at the start of the culmination chapter. Its rhythm leans on description-dialogue-action-interior-monologue-suspense-revelation-acceleration.\n\nThe system still appears orderly, but one unstable signal disturbs that surface. No one can leave this moment unchanged. As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. Elian Quill tries to restore shared memory faster than the council can trigger another wipe, but the pacification cycle treats truth itself as a destabilizing contaminant. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\nThe exchange mixes technical precision with human shock. Subtext matters as much as the explicit claim. Elian Quill, Yara Sen keep circling elian Quill and Elian Quill keep circling the truth they cannot safely name yet. \"Citizens across the station begin repeating the erased vote count aloud\" Yara Sen says. The honesty changes the balance of power in the room. \"Citizens across the station begin repeating the erased vote count aloud\" Elian Quill replies. The warning narrows what can still be done safely.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe first deceleration is deliberate: peace fractures, but consent re-enters the political life of the station.\n\nHuman judgment and machine procedure begin to diverge in plain view. No one can leave this moment unchanged. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian Quill tries to the station survives only by surrendering its false innocence, but the pacification cycle treats truth itself as a destabilizing contaminant. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\n \"Broadcast of the unreturned\" Yara Sen says. The honesty changes the balance of power in the room. \"Broadcast of the unreturned\" Elian Quill replies. The promise raises the stakes for the next exchange.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe station absorbs the disturbance, then returns it with greater force. No one can leave this moment unchanged. Citizens across the station begin repeating the erased vote count aloud. Elian Quill tries to broadcast of the unreturned, but the pacification cycle treats truth itself as a destabilizing contaminant. Public memory becomes impossible to confiscate again in silence. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\n \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes\" Yara Sen says. The warning narrows what can still be done safely. \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes\" Elian Quill replies. The promise raises the stakes for the next exchange.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThen the pace compresses: citizens across the station begin repeating the erased vote count aloud.\n\nElian Quill feels public memory becomes impossible to confiscate again in silence, a mix of fear and relief that will not settle into easy relief. The chapter therefore pushes the inner line from stable systems prevent larger human harm at the start of the culmination chapter toward a system that edits consent cannot claim legitimacy even if it remains efficient after the culmination chapter.\n\nBy the end of chapter-006, peace fractures, but consent re-enters the political life of the station. The chapter keeps faith with freedom-security under dilemma pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: peace without memory turns citizens into well-maintained evidence gaps. Between Elian Quill and Yara Sen, the relational line moves from technical-trust-without-moral-agreement toward scarred-trust-rebuilt-on-painful-clarity. The closing pressure is therefore both fear and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?."
+      },
+      {
+        "id": "chapter-007",
+        "number": 7,
+        "role": "culmination",
+        "outputState": "peace fractures, but consent re-enters the political life of the station",
+        "closingMode": "cliffhanger",
+        "thematicFocus": "freedom-security under dilemma pressure",
+        "chapterQuestion": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
+        "answerShift": "peace without memory turns citizens into well-maintained evidence gaps",
+        "worldPressure": "technical maintenance becomes indistinguishable from political censorship",
+        "blockAlternation": "description-dialogue-action-interior-monologue-suspense-revelation-acceleration",
+        "sequence": {
+          "sequence-type": "escape",
+          "link-logic": "mixed",
+          "chapter": "chapter 007",
+          "objective": "restore shared memory faster than the council can trigger another wipe",
+          "scene-chain": "scene-007-01, scene-007-02, scene-007-03",
+          "carry-forward-pressure": "each scene must inherit and intensify the previous unresolved pressure",
+          "conflict-line": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "payoff": "the station survives only by surrendering its false innocence"
+        },
+        "dialogue": {
+          "scene": "the mnemonic orchard ring",
+          "speakers": "Elian Quill, Yara Sen",
+          "exchange-type": "conflictual",
+          "purpose": "tension",
+          "subtext": "Elian Quill and Elian Quill keep circling the truth they cannot safely name yet"
+        },
+        "monologue": {
+          "scene": "the mnemonic orchard ring",
+          "character": "Elian Quill",
+          "function": "psychological-insight",
+          "trigger": "public memory becomes impossible to confiscate again in silence",
+          "texture": "reflective"
+        },
+        "suspense": {
+          "scope": "chapter 007",
+          "suspense-type": "cognitive",
+          "uncertainty": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
+          "delay-technique": "foreshadowing",
+          "payoff-zone": "event-007-3"
+        },
+        "location": {
+          "chapter": "chapter 007",
+          "primary-setting": "the mnemonic orchard ring",
+          "secondary-setting": "the sealed archive airlock beneath Council Spoke Three",
+          "sensory-anchor": "ionized citrus, coolant mist, glass leaves pulsing with archived light",
+          "social-signal": "citizens come here to rehearse approved memories in carefully moderated quiet",
+          "symbolic-charge": "an engineered garden where recollection has become a civic utility",
+          "conflict-use": "intimacy keeps colliding with the fact that every remembered detail may be edited"
+        },
+        "rulePressure": {
+          "chapter": "chapter 007",
+          "rule-reference": "The station's peace index allows the council to authorize memory smoothing whenever dissent crosses a quantified risk threshold.",
+          "visible-symptom": "citizens remember the emotional aftermath of conflict but not the decisions that created it",
+          "action-limitation": "Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.",
+          "conflict-output": "technical maintenance becomes indistinguishable from political censorship",
+          "reveal-pattern": "embed-rule-in-dialogue"
+        },
+        "protagonistArc": {
+          "chapter": "chapter 007",
+          "entry-belief": "stable systems prevent larger human harm at the start of the culmination chapter",
+          "challenge": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "insight-pressure": "public memory becomes impossible to confiscate again in silence",
+          "exit-belief": "a system that edits consent cannot claim legitimacy even if it remains efficient after the culmination chapter"
+        },
+        "relationshipArc": {
+          "chapter": "chapter 007",
+          "pair": "Elian Quill, Yara Sen",
+          "entry-dynamic": "productive-partnership-guarded-by-emotional-self-defense",
+          "stress-line": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "exit-dynamic": "altered-but-legible-bond"
+        },
+        "pause": {
+          "scope": "chapter 007",
+          "pause-function": "atmospheric",
+          "focus": "peace fractures, but consent re-enters the political life of the station",
+          "placement": "before-final-scene",
+          "reader-effect": "decelerate just enough to let consequence become legible"
+        },
+        "acceleration": {
+          "scope": "chapter 007",
+          "acceleration-mode": "pursuit-compression",
+          "trigger": "citizens across the station begin repeating the erased vote count aloud",
+          "reader-effect": "compress time and force the next consequence to land without emotional escape",
+          "target-zone": "the mnemonic orchard ring"
+        },
+        "alternation": {
+          "chapter": "chapter 007",
+          "block-order": "description-dialogue-action-interior-monologue-suspense-revelation-acceleration",
+          "reader-effect": "Is peace still peace when consent depends on not remembering the price?",
+          "anti-flatness-rule": "do not chain action summaries without dialogue, atmosphere, or reflection support"
+        },
+        "scenes": [
+          {
+            "chapter": "chapter 007",
+            "showing-mode": "direct-showing",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.",
+            "development": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+            "conflict": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "resolution": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "peace fractures, but consent re-enters the political life of the station",
+            "action": {
+              "action-mode": "attempt",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "restore shared memory faster than the council can trigger another wipe",
+              "obstacle": "the pacification cycle treats truth itself as a destabilizing contaminant",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "arrival",
+              "trigger": "citizens across the station begin repeating the erased vote count aloud",
+              "impact": "public memory becomes impossible to confiscate again in silence",
+              "follow-through": "the station survives only by surrendering its false innocence"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "external-society",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "reframe",
+                "subtext": "changes the moral meaning of what was just said",
+                "line-hint": "citizens across the station begin repeating the erased vote count aloud",
+                "reaction-beat": "The new framing makes the old position harder to keep."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "reframe",
+                "subtext": "changes the moral meaning of what was just said",
+                "line-hint": "citizens across the station begin repeating the erased vote count aloud",
+                "reaction-beat": "The new framing makes the old position harder to keep."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 007",
+            "showing-mode": "compressed-showing",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+            "development": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "conflict": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "resolution": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "peace fractures, but consent re-enters the political life of the station",
+            "action": {
+              "action-mode": "attempt",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "the station survives only by surrendering its false innocence",
+              "obstacle": "the pacification cycle treats truth itself as a destabilizing contaminant",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "crime",
+              "trigger": "citizens across the station begin repeating the erased vote count aloud",
+              "impact": "public memory becomes impossible to confiscate again in silence",
+              "follow-through": "the station survives only by surrendering its false innocence"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "external-character",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "tease-probe",
+                "subtext": "uses wit to test whether the wound can be named safely",
+                "line-hint": "Broadcast of the unreturned",
+                "reaction-beat": "The joke opens a bruise neither speaker can ignore now."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "answer-honestly",
+                "subtext": "gives away more vulnerability than strategy intended",
+                "line-hint": "Broadcast of the unreturned",
+                "reaction-beat": "The honesty changes the balance of power in the room."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 007",
+            "showing-mode": "introspective",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "citizens across the station begin repeating the erased vote count aloud",
+            "development": "public memory becomes impossible to confiscate again in silence",
+            "conflict": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "resolution": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+            "exit": "the chapter hands off to a sharper culmination consequence",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "peace fractures, but consent re-enters the political life of the station",
+            "action": {
+              "action-mode": "sacrifice",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "Broadcast of the unreturned",
+              "obstacle": "the pacification cycle treats truth itself as a destabilizing contaminant",
+              "result": "peace fractures, but consent re-enters the political life of the station"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "deadline",
+              "trigger": "citizens across the station begin repeating the erased vote count aloud",
+              "impact": "public memory becomes impossible to confiscate again in silence",
+              "follow-through": "the station survives only by surrendering its false innocence"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "external-character",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "probe",
+                "subtext": "tests whether the other speaker can bear the unsoftened truth",
+                "line-hint": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+                "reaction-beat": "The question lands harder than either speaker planned."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "warn",
+                "subtext": "tries to protect the bond by narrowing the next available move",
+                "line-hint": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+                "reaction-beat": "The warning narrows what can still be done safely."
+              }
+            ]
+          }
+        ],
+        "draftText": "# Chapter 007\n\nElian Quill enters the mnemonic orchard ring while as the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. In this science fiction chapter, culmination movement anchored by broadcast of the unreturned, so choices around freedom-security under dilemma pressure carry fear and relief. Yara Sen keeps searching for a path toward relief, while Director Cael Oris works to keep the conflict inside a safer official story. The central question here is can Elian restore the station's memory without destroying the fragile peace built on forgetting. The conflict thread is elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. The engineered environment is anchored by ionized citrus, coolant mist, glass leaves pulsing with archived light and keeps an engineered garden where recollection has become a civic utility in view. The governing constraint is still active: elian cannot expose the protocol without using the very infrastructure built to overwrite public recall. At the start, Elian Quill believes stable systems prevent larger human harm at the start of the culmination chapter. Its rhythm leans on description-dialogue-action-interior-monologue-suspense-revelation-acceleration.\n\nThe system still appears orderly, but one unstable signal disturbs that surface. No one can leave this moment unchanged. As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. Elian Quill tries to restore shared memory faster than the council can trigger another wipe, but the pacification cycle treats truth itself as a destabilizing contaminant. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\nThe exchange mixes technical precision with human shock. Subtext matters as much as the explicit claim. Elian Quill, Yara Sen keep circling elian Quill and Elian Quill keep circling the truth they cannot safely name yet. \"Citizens across the station begin repeating the erased vote count aloud\" Yara Sen says. The new framing makes the old position harder to keep. \"Citizens across the station begin repeating the erased vote count aloud\" Elian Quill replies. The new framing makes the old position harder to keep.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe first deceleration is deliberate: peace fractures, but consent re-enters the political life of the station.\n\nHuman judgment and machine procedure begin to diverge in plain view. No one can leave this moment unchanged. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian Quill tries to the station survives only by surrendering its false innocence, but the pacification cycle treats truth itself as a destabilizing contaminant. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\n \"Broadcast of the unreturned\" Yara Sen says. The joke opens a bruise neither speaker can ignore now. \"Broadcast of the unreturned\" Elian Quill replies. The honesty changes the balance of power in the room.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe station absorbs the disturbance, then returns it with greater force. No one can leave this moment unchanged. Citizens across the station begin repeating the erased vote count aloud. Elian Quill tries to broadcast of the unreturned, but the pacification cycle treats truth itself as a destabilizing contaminant. Public memory becomes impossible to confiscate again in silence. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\n \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes\" Yara Sen says. The question lands harder than either speaker planned. \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes\" Elian Quill replies. The warning narrows what can still be done safely.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThen the pace compresses: citizens across the station begin repeating the erased vote count aloud.\n\nElian Quill feels public memory becomes impossible to confiscate again in silence, a mix of fear and relief that will not settle into easy relief. The chapter therefore pushes the inner line from stable systems prevent larger human harm at the start of the culmination chapter toward a system that edits consent cannot claim legitimacy even if it remains efficient after the culmination chapter.\n\nBy the end of chapter-007, peace fractures, but consent re-enters the political life of the station. The chapter keeps faith with freedom-security under dilemma pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: peace without memory turns citizens into well-maintained evidence gaps. Between Elian Quill and Yara Sen, the relational line moves from productive-partnership-guarded-by-emotional-self-defense toward altered-but-legible-bond. The closing pressure is therefore both fear and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?."
+      },
+      {
+        "id": "chapter-008",
+        "number": 8,
+        "role": "culmination",
+        "outputState": "peace fractures, but consent re-enters the political life of the station",
+        "closingMode": "cliffhanger",
+        "thematicFocus": "freedom-security under dilemma pressure",
+        "chapterQuestion": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
+        "answerShift": "peace without memory turns citizens into well-maintained evidence gaps",
+        "worldPressure": "technical maintenance becomes indistinguishable from political censorship",
+        "blockAlternation": "description-dialogue-action-interior-monologue-suspense-revelation-acceleration",
+        "sequence": {
+          "sequence-type": "escape",
+          "link-logic": "causal",
+          "chapter": "chapter 008",
+          "objective": "restore shared memory faster than the council can trigger another wipe",
+          "scene-chain": "scene-008-01, scene-008-02, scene-008-03",
+          "carry-forward-pressure": "each scene must inherit and intensify the previous unresolved pressure",
+          "conflict-line": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "payoff": "the station survives only by surrendering its false innocence"
+        },
+        "dialogue": {
+          "scene": "the mnemonic orchard ring",
+          "speakers": "Elian Quill, Yara Sen",
+          "exchange-type": "conflictual",
+          "purpose": "tension",
+          "subtext": "Elian Quill and Elian Quill keep circling the truth they cannot safely name yet"
+        },
+        "monologue": {
+          "scene": "the mnemonic orchard ring",
+          "character": "Elian Quill",
+          "function": "psychological-insight",
+          "trigger": "public memory becomes impossible to confiscate again in silence",
+          "texture": "reflective"
+        },
+        "suspense": {
+          "scope": "chapter 008",
+          "suspense-type": "cognitive",
+          "uncertainty": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
+          "delay-technique": "foreshadowing",
+          "payoff-zone": "event-008-3"
+        },
+        "location": {
+          "chapter": "chapter 008",
+          "primary-setting": "the mnemonic orchard ring",
+          "secondary-setting": "the sealed archive airlock beneath Council Spoke Three",
+          "sensory-anchor": "ionized citrus, coolant mist, glass leaves pulsing with archived light",
+          "social-signal": "citizens come here to rehearse approved memories in carefully moderated quiet",
+          "symbolic-charge": "an engineered garden where recollection has become a civic utility",
+          "conflict-use": "intimacy keeps colliding with the fact that every remembered detail may be edited"
+        },
+        "rulePressure": {
+          "chapter": "chapter 008",
+          "rule-reference": "The station's peace index allows the council to authorize memory smoothing whenever dissent crosses a quantified risk threshold.",
+          "visible-symptom": "citizens remember the emotional aftermath of conflict but not the decisions that created it",
+          "action-limitation": "Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.",
+          "conflict-output": "technical maintenance becomes indistinguishable from political censorship",
+          "reveal-pattern": "show-consequence-first-explain-cause-later"
+        },
+        "protagonistArc": {
+          "chapter": "chapter 008",
+          "entry-belief": "stable systems prevent larger human harm at the start of the culmination chapter",
+          "challenge": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "insight-pressure": "public memory becomes impossible to confiscate again in silence",
+          "exit-belief": "a system that edits consent cannot claim legitimacy even if it remains efficient after the culmination chapter"
+        },
+        "relationshipArc": {
+          "chapter": "chapter 008",
+          "pair": "Elian Quill, Yara Sen",
+          "entry-dynamic": "productive-partnership-guarded-by-emotional-self-defense",
+          "stress-line": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "exit-dynamic": "scarred-trust-rebuilt-on-painful-clarity"
+        },
+        "pause": {
+          "scope": "chapter 008",
+          "pause-function": "atmospheric",
+          "focus": "peace fractures, but consent re-enters the political life of the station",
+          "placement": "before-final-scene",
+          "reader-effect": "decelerate just enough to let consequence become legible"
+        },
+        "acceleration": {
+          "scope": "chapter 008",
+          "acceleration-mode": "pursuit-compression",
+          "trigger": "citizens across the station begin repeating the erased vote count aloud",
+          "reader-effect": "compress time and force the next consequence to land without emotional escape",
+          "target-zone": "the mnemonic orchard ring"
+        },
+        "alternation": {
+          "chapter": "chapter 008",
+          "block-order": "description-dialogue-action-interior-monologue-suspense-revelation-acceleration",
+          "reader-effect": "Is peace still peace when consent depends on not remembering the price?",
+          "anti-flatness-rule": "do not chain action summaries without dialogue, atmosphere, or reflection support"
+        },
+        "scenes": [
+          {
+            "chapter": "chapter 008",
+            "showing-mode": "mixed",
             "focalization": "internal-single",
             "time-space": "the mnemonic orchard ring",
             "introduction": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.",
@@ -1198,14 +2380,14 @@ Canonical source-edition payload used by the translation stage.
             },
             "event": {
               "scope": "the mnemonic orchard ring",
-              "event-type": "loss",
+              "event-type": "discovery",
               "trigger": "citizens across the station begin repeating the erased vote count aloud",
               "impact": "public memory becomes impossible to confiscate again in silence",
               "follow-through": "the station survives only by surrendering its false innocence"
             },
             "conflictPacket": {
               "scope": "the mnemonic orchard ring",
-              "type": "external-supernatural",
+              "type": "external-society",
               "forces": "Elian Quill versus Director Cael Oris",
               "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
               "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
@@ -1214,23 +2396,291 @@ Canonical source-edition payload used by the translation stage.
               {
                 "scene": "the mnemonic orchard ring",
                 "speaker": "Yara Sen",
-                "intent": "answer-honestly",
-                "subtext": "gives away more vulnerability than strategy intended",
+                "intent": "tease-probe",
+                "subtext": "uses wit to test whether the wound can be named safely",
                 "line-hint": "citizens across the station begin repeating the erased vote count aloud",
-                "reaction-beat": "The honesty changes the balance of power in the room."
+                "reaction-beat": "The joke opens a bruise neither speaker can ignore now."
               },
               {
                 "scene": "the mnemonic orchard ring",
                 "speaker": "Elian Quill",
-                "intent": "answer-honestly",
-                "subtext": "gives away more vulnerability than strategy intended",
+                "intent": "reframe",
+                "subtext": "changes the moral meaning of what was just said",
                 "line-hint": "citizens across the station begin repeating the erased vote count aloud",
-                "reaction-beat": "The honesty changes the balance of power in the room."
+                "reaction-beat": "The new framing makes the old position harder to keep."
               }
             ]
           },
           {
-            "chapter": "chapter 004",
+            "chapter": "chapter 008",
+            "showing-mode": "introspective",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+            "development": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "conflict": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "resolution": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "peace fractures, but consent re-enters the political life of the station",
+            "action": {
+              "action-mode": "pursuit",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "the station survives only by surrendering its false innocence",
+              "obstacle": "the pacification cycle treats truth itself as a destabilizing contaminant",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "revelation",
+              "trigger": "citizens across the station begin repeating the erased vote count aloud",
+              "impact": "public memory becomes impossible to confiscate again in silence",
+              "follow-through": "the station survives only by surrendering its false innocence"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "internal",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "challenge",
+                "subtext": "refuses the easier story and forces the pressure into view",
+                "line-hint": "Broadcast of the unreturned",
+                "reaction-beat": "The challenge strips politeness away from the scene."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "commit",
+                "subtext": "makes risk sound practical enough to become a promise",
+                "line-hint": "Broadcast of the unreturned",
+                "reaction-beat": "The promise raises the stakes for the next exchange."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 008",
+            "showing-mode": "direct-showing",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "citizens across the station begin repeating the erased vote count aloud",
+            "development": "public memory becomes impossible to confiscate again in silence",
+            "conflict": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "resolution": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+            "exit": "the chapter hands off to a sharper culmination consequence",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "peace fractures, but consent re-enters the political life of the station",
+            "action": {
+              "action-mode": "negotiation",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "Broadcast of the unreturned",
+              "obstacle": "the pacification cycle treats truth itself as a destabilizing contaminant",
+              "result": "peace fractures, but consent re-enters the political life of the station"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "betrayal",
+              "trigger": "citizens across the station begin repeating the erased vote count aloud",
+              "impact": "public memory becomes impossible to confiscate again in silence",
+              "follow-through": "the station survives only by surrendering its false innocence"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "external-nature",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "warn",
+                "subtext": "tries to protect the bond by narrowing the next available move",
+                "line-hint": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+                "reaction-beat": "The warning narrows what can still be done safely."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "warn",
+                "subtext": "tries to protect the bond by narrowing the next available move",
+                "line-hint": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+                "reaction-beat": "The warning narrows what can still be done safely."
+              }
+            ]
+          }
+        ],
+        "draftText": "# Chapter 008\n\nElian Quill enters the mnemonic orchard ring while as the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. In this science fiction chapter, culmination movement anchored by broadcast of the unreturned, so choices around freedom-security under dilemma pressure carry fear and relief. Yara Sen keeps searching for a path toward relief, while Director Cael Oris works to keep the conflict inside a safer official story. The central question here is can Elian restore the station's memory without destroying the fragile peace built on forgetting. The conflict thread is elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. The engineered environment is anchored by ionized citrus, coolant mist, glass leaves pulsing with archived light and keeps an engineered garden where recollection has become a civic utility in view. The governing constraint is still active: elian cannot expose the protocol without using the very infrastructure built to overwrite public recall. At the start, Elian Quill believes stable systems prevent larger human harm at the start of the culmination chapter. Its rhythm leans on description-dialogue-action-interior-monologue-suspense-revelation-acceleration.\n\nThe system still appears orderly, but one unstable signal disturbs that surface. No one can leave this moment unchanged. As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. Elian Quill tries to restore shared memory faster than the council can trigger another wipe, but the pacification cycle treats truth itself as a destabilizing contaminant. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\nThe exchange mixes technical precision with human shock. Subtext matters as much as the explicit claim. Elian Quill, Yara Sen keep circling elian Quill and Elian Quill keep circling the truth they cannot safely name yet. \"Citizens across the station begin repeating the erased vote count aloud\" Yara Sen says. The joke opens a bruise neither speaker can ignore now. \"Citizens across the station begin repeating the erased vote count aloud\" Elian Quill replies. The new framing makes the old position harder to keep.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe first deceleration is deliberate: peace fractures, but consent re-enters the political life of the station.\n\nHuman judgment and machine procedure begin to diverge in plain view. No one can leave this moment unchanged. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian Quill tries to the station survives only by surrendering its false innocence, but the pacification cycle treats truth itself as a destabilizing contaminant. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\n \"Broadcast of the unreturned\" Yara Sen says. The challenge strips politeness away from the scene. \"Broadcast of the unreturned\" Elian Quill replies. The promise raises the stakes for the next exchange.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe station absorbs the disturbance, then returns it with greater force. No one can leave this moment unchanged. Citizens across the station begin repeating the erased vote count aloud. Elian Quill tries to broadcast of the unreturned, but the pacification cycle treats truth itself as a destabilizing contaminant. Public memory becomes impossible to confiscate again in silence. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\n \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes\" Yara Sen says. The warning narrows what can still be done safely. \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes\" Elian Quill replies. The warning narrows what can still be done safely.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThen the pace compresses: citizens across the station begin repeating the erased vote count aloud.\n\nElian Quill feels public memory becomes impossible to confiscate again in silence, a mix of fear and relief that will not settle into easy relief. The chapter therefore pushes the inner line from stable systems prevent larger human harm at the start of the culmination chapter toward a system that edits consent cannot claim legitimacy even if it remains efficient after the culmination chapter.\n\nBy the end of chapter-008, peace fractures, but consent re-enters the political life of the station. The chapter keeps faith with freedom-security under dilemma pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: peace without memory turns citizens into well-maintained evidence gaps. Between Elian Quill and Yara Sen, the relational line moves from productive-partnership-guarded-by-emotional-self-defense toward scarred-trust-rebuilt-on-painful-clarity. The closing pressure is therefore both fear and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?."
+      },
+      {
+        "id": "chapter-009",
+        "number": 9,
+        "role": "culmination",
+        "outputState": "peace fractures, but consent re-enters the political life of the station",
+        "closingMode": "open-question",
+        "thematicFocus": "freedom-security under dilemma pressure",
+        "chapterQuestion": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
+        "answerShift": "peace without memory turns citizens into well-maintained evidence gaps",
+        "worldPressure": "technical maintenance becomes indistinguishable from political censorship",
+        "blockAlternation": "description-dialogue-action-interior-monologue-suspense-revelation-acceleration",
+        "sequence": {
+          "sequence-type": "escape",
+          "link-logic": "mixed",
+          "chapter": "chapter 009",
+          "objective": "restore shared memory faster than the council can trigger another wipe",
+          "scene-chain": "scene-009-01, scene-009-02, scene-009-03",
+          "carry-forward-pressure": "each scene must inherit and intensify the previous unresolved pressure",
+          "conflict-line": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "payoff": "the station survives only by surrendering its false innocence"
+        },
+        "dialogue": {
+          "scene": "the mnemonic orchard ring",
+          "speakers": "Elian Quill, Yara Sen",
+          "exchange-type": "conflictual",
+          "purpose": "tension",
+          "subtext": "Elian Quill and Elian Quill keep circling the truth they cannot safely name yet"
+        },
+        "monologue": {
+          "scene": "the mnemonic orchard ring",
+          "character": "Elian Quill",
+          "function": "psychological-insight",
+          "trigger": "public memory becomes impossible to confiscate again in silence",
+          "texture": "reflective"
+        },
+        "suspense": {
+          "scope": "chapter 009",
+          "suspense-type": "cognitive",
+          "uncertainty": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
+          "delay-technique": "foreshadowing",
+          "payoff-zone": "event-009-3"
+        },
+        "location": {
+          "chapter": "chapter 009",
+          "primary-setting": "the mnemonic orchard ring",
+          "secondary-setting": "the sealed archive airlock beneath Council Spoke Three",
+          "sensory-anchor": "ionized citrus, coolant mist, glass leaves pulsing with archived light",
+          "social-signal": "citizens come here to rehearse approved memories in carefully moderated quiet",
+          "symbolic-charge": "an engineered garden where recollection has become a civic utility",
+          "conflict-use": "intimacy keeps colliding with the fact that every remembered detail may be edited"
+        },
+        "rulePressure": {
+          "chapter": "chapter 009",
+          "rule-reference": "The station's peace index allows the council to authorize memory smoothing whenever dissent crosses a quantified risk threshold.",
+          "visible-symptom": "citizens remember the emotional aftermath of conflict but not the decisions that created it",
+          "action-limitation": "Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.",
+          "conflict-output": "technical maintenance becomes indistinguishable from political censorship",
+          "reveal-pattern": "embed-rule-in-dialogue"
+        },
+        "protagonistArc": {
+          "chapter": "chapter 009",
+          "entry-belief": "stable systems prevent larger human harm at the start of the culmination chapter",
+          "challenge": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "insight-pressure": "public memory becomes impossible to confiscate again in silence",
+          "exit-belief": "a system that edits consent cannot claim legitimacy even if it remains efficient after the culmination chapter"
+        },
+        "relationshipArc": {
+          "chapter": "chapter 009",
+          "pair": "Elian Quill, Yara Sen",
+          "entry-dynamic": "careful-cooperation-strained-by-withheld-history",
+          "stress-line": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "exit-dynamic": "scarred-trust-rebuilt-on-painful-clarity"
+        },
+        "pause": {
+          "scope": "chapter 009",
+          "pause-function": "atmospheric",
+          "focus": "peace fractures, but consent re-enters the political life of the station",
+          "placement": "before-final-scene",
+          "reader-effect": "decelerate just enough to let consequence become legible"
+        },
+        "acceleration": {
+          "scope": "chapter 009",
+          "acceleration-mode": "pursuit-compression",
+          "trigger": "citizens across the station begin repeating the erased vote count aloud",
+          "reader-effect": "compress time and force the next consequence to land without emotional escape",
+          "target-zone": "the mnemonic orchard ring"
+        },
+        "alternation": {
+          "chapter": "chapter 009",
+          "block-order": "description-dialogue-action-interior-monologue-suspense-revelation-acceleration",
+          "reader-effect": "Is peace still peace when consent depends on not remembering the price?",
+          "anti-flatness-rule": "do not chain action summaries without dialogue, atmosphere, or reflection support"
+        },
+        "scenes": [
+          {
+            "chapter": "chapter 009",
+            "showing-mode": "direct-showing",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.",
+            "development": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+            "conflict": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "resolution": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "peace fractures, but consent re-enters the political life of the station",
+            "action": {
+              "action-mode": "sacrifice",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "restore shared memory faster than the council can trigger another wipe",
+              "obstacle": "the pacification cycle treats truth itself as a destabilizing contaminant",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "discovery",
+              "trigger": "citizens across the station begin repeating the erased vote count aloud",
+              "impact": "public memory becomes impossible to confiscate again in silence",
+              "follow-through": "the station survives only by surrendering its false innocence"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "external-society",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "deflect",
+                "subtext": "turns confession sideways to protect status and control",
+                "line-hint": "citizens across the station begin repeating the erased vote count aloud",
+                "reaction-beat": "The evasion makes the silence more visible than the answer would have."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "tease-probe",
+                "subtext": "uses wit to test whether the wound can be named safely",
+                "line-hint": "citizens across the station begin repeating the erased vote count aloud",
+                "reaction-beat": "The joke opens a bruise neither speaker can ignore now."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 009",
             "showing-mode": "introspective",
             "focalization": "internal-single",
             "time-space": "the mnemonic orchard ring",
@@ -1255,14 +2705,14 @@ Canonical source-edition payload used by the translation stage.
             },
             "event": {
               "scope": "the mnemonic orchard ring",
-              "event-type": "arrival",
+              "event-type": "discovery",
               "trigger": "citizens across the station begin repeating the erased vote count aloud",
               "impact": "public memory becomes impossible to confiscate again in silence",
               "follow-through": "the station survives only by surrendering its false innocence"
             },
             "conflictPacket": {
               "scope": "the mnemonic orchard ring",
-              "type": "external-supernatural",
+              "type": "external-society",
               "forces": "Elian Quill versus Director Cael Oris",
               "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
               "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
@@ -1271,10 +2721,10 @@ Canonical source-edition payload used by the translation stage.
               {
                 "scene": "the mnemonic orchard ring",
                 "speaker": "Yara Sen",
-                "intent": "answer-honestly",
-                "subtext": "gives away more vulnerability than strategy intended",
+                "intent": "commit",
+                "subtext": "makes risk sound practical enough to become a promise",
                 "line-hint": "Broadcast of the unreturned",
-                "reaction-beat": "The honesty changes the balance of power in the room."
+                "reaction-beat": "The promise raises the stakes for the next exchange."
               },
               {
                 "scene": "the mnemonic orchard ring",
@@ -1287,7 +2737,275 @@ Canonical source-edition payload used by the translation stage.
             ]
           },
           {
-            "chapter": "chapter 004",
+            "chapter": "chapter 009",
+            "showing-mode": "introspective",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "citizens across the station begin repeating the erased vote count aloud",
+            "development": "public memory becomes impossible to confiscate again in silence",
+            "conflict": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "resolution": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+            "exit": "the chapter hands off to a sharper culmination consequence",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "peace fractures, but consent re-enters the political life of the station",
+            "action": {
+              "action-mode": "sacrifice",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "Broadcast of the unreturned",
+              "obstacle": "the pacification cycle treats truth itself as a destabilizing contaminant",
+              "result": "peace fractures, but consent re-enters the political life of the station"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "reversal",
+              "trigger": "citizens across the station begin repeating the erased vote count aloud",
+              "impact": "public memory becomes impossible to confiscate again in silence",
+              "follow-through": "the station survives only by surrendering its false innocence"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "external-technology",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "deflect",
+                "subtext": "turns confession sideways to protect status and control",
+                "line-hint": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+                "reaction-beat": "The evasion makes the silence more visible than the answer would have."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "deflect",
+                "subtext": "turns confession sideways to protect status and control",
+                "line-hint": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+                "reaction-beat": "The evasion makes the silence more visible than the answer would have."
+              }
+            ]
+          }
+        ],
+        "draftText": "# Chapter 009\n\nElian Quill enters the mnemonic orchard ring while as the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. In this science fiction chapter, culmination movement anchored by broadcast of the unreturned, so choices around freedom-security under dilemma pressure carry fear and relief. Yara Sen keeps searching for a path toward relief, while Director Cael Oris works to keep the conflict inside a safer official story. The central question here is can Elian restore the station's memory without destroying the fragile peace built on forgetting. The conflict thread is elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. The engineered environment is anchored by ionized citrus, coolant mist, glass leaves pulsing with archived light and keeps an engineered garden where recollection has become a civic utility in view. The governing constraint is still active: elian cannot expose the protocol without using the very infrastructure built to overwrite public recall. At the start, Elian Quill believes stable systems prevent larger human harm at the start of the culmination chapter. Its rhythm leans on description-dialogue-action-interior-monologue-suspense-revelation-acceleration.\n\nThe system still appears orderly, but one unstable signal disturbs that surface. No one can leave this moment unchanged. As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. Elian Quill tries to restore shared memory faster than the council can trigger another wipe, but the pacification cycle treats truth itself as a destabilizing contaminant. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\nThe exchange mixes technical precision with human shock. Subtext matters as much as the explicit claim. Elian Quill, Yara Sen keep circling elian Quill and Elian Quill keep circling the truth they cannot safely name yet. \"Citizens across the station begin repeating the erased vote count aloud\" Yara Sen says. The evasion makes the silence more visible than the answer would have. \"Citizens across the station begin repeating the erased vote count aloud\" Elian Quill replies. The joke opens a bruise neither speaker can ignore now.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe first deceleration is deliberate: peace fractures, but consent re-enters the political life of the station.\n\nHuman judgment and machine procedure begin to diverge in plain view. No one can leave this moment unchanged. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian Quill tries to the station survives only by surrendering its false innocence, but the pacification cycle treats truth itself as a destabilizing contaminant. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\n \"Broadcast of the unreturned\" Yara Sen says. The promise raises the stakes for the next exchange. \"Broadcast of the unreturned\" Elian Quill replies. Naming the risk turns pressure into irreversible commitment.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe station absorbs the disturbance, then returns it with greater force. No one can leave this moment unchanged. Citizens across the station begin repeating the erased vote count aloud. Elian Quill tries to broadcast of the unreturned, but the pacification cycle treats truth itself as a destabilizing contaminant. Public memory becomes impossible to confiscate again in silence. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\n \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes\" Yara Sen says. The evasion makes the silence more visible than the answer would have. \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes\" Elian Quill replies. The evasion makes the silence more visible than the answer would have.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThen the pace compresses: citizens across the station begin repeating the erased vote count aloud.\n\nElian Quill feels public memory becomes impossible to confiscate again in silence, a mix of fear and relief that will not settle into easy relief. The chapter therefore pushes the inner line from stable systems prevent larger human harm at the start of the culmination chapter toward a system that edits consent cannot claim legitimacy even if it remains efficient after the culmination chapter.\n\nBy the end of chapter-009, peace fractures, but consent re-enters the political life of the station. The chapter keeps faith with freedom-security under dilemma pressure while moving toward open-question, and it refuses relief without visible cost. Its answer shift is clear: peace without memory turns citizens into well-maintained evidence gaps. Between Elian Quill and Yara Sen, the relational line moves from careful-cooperation-strained-by-withheld-history toward scarred-trust-rebuilt-on-painful-clarity. The closing pressure is therefore both fear and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?."
+      },
+      {
+        "id": "chapter-010",
+        "number": 10,
+        "role": "culmination",
+        "outputState": "peace fractures, but consent re-enters the political life of the station",
+        "closingMode": "reversal",
+        "thematicFocus": "freedom-security under dilemma pressure",
+        "chapterQuestion": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
+        "answerShift": "peace without memory turns citizens into well-maintained evidence gaps",
+        "worldPressure": "technical maintenance becomes indistinguishable from political censorship",
+        "blockAlternation": "description-dialogue-action-interior-monologue-suspense-revelation-acceleration",
+        "sequence": {
+          "sequence-type": "escape",
+          "link-logic": "causal",
+          "chapter": "chapter 010",
+          "objective": "restore shared memory faster than the council can trigger another wipe",
+          "scene-chain": "scene-010-01, scene-010-02, scene-010-03",
+          "carry-forward-pressure": "each scene must inherit and intensify the previous unresolved pressure",
+          "conflict-line": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "payoff": "the sequence delivers its final irreversible choice"
+        },
+        "dialogue": {
+          "scene": "the mnemonic orchard ring",
+          "speakers": "Elian Quill, Yara Sen",
+          "exchange-type": "conflictual",
+          "purpose": "tension",
+          "subtext": "Elian Quill and Elian Quill keep circling the truth they cannot safely name yet"
+        },
+        "monologue": {
+          "scene": "the mnemonic orchard ring",
+          "character": "Elian Quill",
+          "function": "psychological-insight",
+          "trigger": "public memory becomes impossible to confiscate again in silence",
+          "texture": "immediate"
+        },
+        "suspense": {
+          "scope": "chapter 010",
+          "suspense-type": "cognitive",
+          "uncertainty": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
+          "delay-technique": "foreshadowing",
+          "payoff-zone": "event-010-3"
+        },
+        "location": {
+          "chapter": "chapter 010",
+          "primary-setting": "the mnemonic orchard ring",
+          "secondary-setting": "the sealed archive airlock beneath Council Spoke Three",
+          "sensory-anchor": "ionized citrus, coolant mist, glass leaves pulsing with archived light",
+          "social-signal": "citizens come here to rehearse approved memories in carefully moderated quiet",
+          "symbolic-charge": "an engineered garden where recollection has become a civic utility",
+          "conflict-use": "intimacy keeps colliding with the fact that every remembered detail may be edited"
+        },
+        "rulePressure": {
+          "chapter": "chapter 010",
+          "rule-reference": "The station's peace index allows the council to authorize memory smoothing whenever dissent crosses a quantified risk threshold.",
+          "visible-symptom": "citizens remember the emotional aftermath of conflict but not the decisions that created it",
+          "action-limitation": "Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.",
+          "conflict-output": "technical maintenance becomes indistinguishable from political censorship",
+          "reveal-pattern": "show-consequence-first-explain-cause-later"
+        },
+        "protagonistArc": {
+          "chapter": "chapter 010",
+          "entry-belief": "stable systems prevent larger human harm at the start of the culmination chapter",
+          "challenge": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "insight-pressure": "public memory becomes impossible to confiscate again in silence",
+          "exit-belief": "a system that edits consent cannot claim legitimacy even if it remains efficient after the culmination chapter"
+        },
+        "relationshipArc": {
+          "chapter": "chapter 010",
+          "pair": "Elian Quill, Yara Sen",
+          "entry-dynamic": "careful-cooperation-strained-by-withheld-history",
+          "stress-line": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+          "exit-dynamic": "altered-but-legible-bond"
+        },
+        "pause": {
+          "scope": "chapter 010",
+          "pause-function": "atmospheric",
+          "focus": "peace fractures, but consent re-enters the political life of the station",
+          "placement": "before-final-scene",
+          "reader-effect": "decelerate just enough to let consequence become legible"
+        },
+        "acceleration": {
+          "scope": "chapter 010",
+          "acceleration-mode": "pursuit-compression",
+          "trigger": "citizens across the station begin repeating the erased vote count aloud",
+          "reader-effect": "compress time and force the next consequence to land without emotional escape",
+          "target-zone": "the mnemonic orchard ring"
+        },
+        "alternation": {
+          "chapter": "chapter 010",
+          "block-order": "description-dialogue-action-interior-monologue-suspense-revelation-acceleration",
+          "reader-effect": "Is peace still peace when consent depends on not remembering the price?",
+          "anti-flatness-rule": "do not chain action summaries without dialogue, atmosphere, or reflection support"
+        },
+        "scenes": [
+          {
+            "chapter": "chapter 010",
+            "showing-mode": "mixed",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.",
+            "development": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+            "conflict": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "resolution": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "peace fractures, but consent re-enters the political life of the station",
+            "action": {
+              "action-mode": "negotiation",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "restore shared memory faster than the council can trigger another wipe",
+              "obstacle": "the pacification cycle treats truth itself as a destabilizing contaminant",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "deadline",
+              "trigger": "citizens across the station begin repeating the erased vote count aloud",
+              "impact": "public memory becomes impossible to confiscate again in silence",
+              "follow-through": "the station survives only by surrendering its false innocence"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "external-technology",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "challenge",
+                "subtext": "refuses the easier story and forces the pressure into view",
+                "line-hint": "citizens across the station begin repeating the erased vote count aloud",
+                "reaction-beat": "The challenge strips politeness away from the scene."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "probe",
+                "subtext": "tests whether the other speaker can bear the unsoftened truth",
+                "line-hint": "citizens across the station begin repeating the erased vote count aloud",
+                "reaction-beat": "The question lands harder than either speaker planned."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 010",
+            "showing-mode": "direct-showing",
+            "focalization": "internal-single",
+            "time-space": "the mnemonic orchard ring",
+            "introduction": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
+            "development": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "conflict": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+            "resolution": "She releases the memory to everyone and lets the station face its first honest unrest in years.",
+            "exit": "the next scene begins before the pressure can settle",
+            "participants": [
+              "Elian Quill",
+              "Yara Sen",
+              "Director Cael Oris"
+            ],
+            "state-change": "peace fractures, but consent re-enters the political life of the station",
+            "action": {
+              "action-mode": "sacrifice",
+              "scene": "the mnemonic orchard ring",
+              "actor": "Elian Quill",
+              "goal": "the station survives only by surrendering its false innocence",
+              "obstacle": "the pacification cycle treats truth itself as a destabilizing contaminant",
+              "result": "the attempt reveals only part of the hidden structure and deepens the next demand"
+            },
+            "event": {
+              "scope": "the mnemonic orchard ring",
+              "event-type": "accident",
+              "trigger": "citizens across the station begin repeating the erased vote count aloud",
+              "impact": "public memory becomes impossible to confiscate again in silence",
+              "follow-through": "the station survives only by surrendering its false innocence"
+            },
+            "conflictPacket": {
+              "scope": "the mnemonic orchard ring",
+              "type": "external-character",
+              "forces": "Elian Quill versus Director Cael Oris",
+              "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
+              "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
+            },
+            "dialogueTurns": [
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Yara Sen",
+                "intent": "name-risk",
+                "subtext": "speaks the consequence both speakers hoped could stay implied",
+                "line-hint": "Broadcast of the unreturned",
+                "reaction-beat": "Naming the risk turns pressure into irreversible commitment."
+              },
+              {
+                "scene": "the mnemonic orchard ring",
+                "speaker": "Elian Quill",
+                "intent": "probe",
+                "subtext": "tests whether the other speaker can bear the unsoftened truth",
+                "line-hint": "Broadcast of the unreturned",
+                "reaction-beat": "The question lands harder than either speaker planned."
+              }
+            ]
+          },
+          {
+            "chapter": "chapter 010",
             "showing-mode": "direct-showing",
             "focalization": "internal-single",
             "time-space": "the mnemonic orchard ring",
@@ -1303,7 +3021,7 @@ Canonical source-edition payload used by the translation stage.
             ],
             "state-change": "peace fractures, but consent re-enters the political life of the station",
             "action": {
-              "action-mode": "revelation-act",
+              "action-mode": "attempt",
               "scene": "the mnemonic orchard ring",
               "actor": "Elian Quill",
               "goal": "Broadcast of the unreturned",
@@ -1312,14 +3030,14 @@ Canonical source-edition payload used by the translation stage.
             },
             "event": {
               "scope": "the mnemonic orchard ring",
-              "event-type": "betrayal",
+              "event-type": "loss",
               "trigger": "citizens across the station begin repeating the erased vote count aloud",
               "impact": "public memory becomes impossible to confiscate again in silence",
               "follow-through": "the station survives only by surrendering its false innocence"
             },
             "conflictPacket": {
               "scope": "the mnemonic orchard ring",
-              "type": "mixed",
+              "type": "external-society",
               "forces": "Elian Quill versus Director Cael Oris",
               "stakes": "the station's political legitimacy, Elian's own complicity, and the residents' right to remember",
               "escalation": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes."
@@ -1328,23 +3046,23 @@ Canonical source-edition payload used by the translation stage.
               {
                 "scene": "the mnemonic orchard ring",
                 "speaker": "Yara Sen",
-                "intent": "probe",
-                "subtext": "tests whether the other speaker can bear the unsoftened truth",
+                "intent": "answer-honestly",
+                "subtext": "gives away more vulnerability than strategy intended",
                 "line-hint": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
-                "reaction-beat": "The question lands harder than either speaker planned."
+                "reaction-beat": "The honesty changes the balance of power in the room."
               },
               {
                 "scene": "the mnemonic orchard ring",
                 "speaker": "Elian Quill",
-                "intent": "probe",
-                "subtext": "tests whether the other speaker can bear the unsoftened truth",
+                "intent": "name-risk",
+                "subtext": "speaks the consequence both speakers hoped could stay implied",
                 "line-hint": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
-                "reaction-beat": "The question lands harder than either speaker planned."
+                "reaction-beat": "Naming the risk turns pressure into irreversible commitment."
               }
             ]
           }
         ],
-        "draftText": "# Chapter 004\n\nElian Quill enters the mnemonic orchard ring while as the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. In this science fiction chapter, culmination movement anchored by broadcast of the unreturned, so choices around freedom-security under dilemma pressure carry fear and relief. Yara Sen keeps searching for a path toward relief, while Director Cael Oris works to keep the conflict inside a safer official story. The central question here is can Elian restore the station's memory without destroying the fragile peace built on forgetting. The conflict thread is elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. The engineered environment is anchored by ionized citrus, coolant mist, glass leaves pulsing with archived light and keeps an engineered garden where recollection has become a civic utility in view. The governing constraint is still active: elian cannot expose the protocol without using the very infrastructure built to overwrite public recall. At the start, Elian Quill believes stable systems prevent larger human harm at the start of the culmination chapter. Its rhythm leans on description-dialogue-action-interior-monologue-suspense-revelation-acceleration.\n\nThe system still appears orderly, but one unstable signal disturbs that surface. No one can leave this moment unchanged. As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. Elian Quill tries to restore shared memory faster than the council can trigger another wipe, but the pacification cycle treats truth itself as a destabilizing contaminant. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\nThe exchange mixes technical precision with human shock. Subtext matters as much as the explicit claim. Elian Quill, Yara Sen keep circling elian Quill and Elian Quill keep circling the truth they cannot safely name yet. \"Citizens across the station begin repeating the erased vote count aloud\" Yara Sen says. The honesty changes the balance of power in the room. \"Citizens across the station begin repeating the erased vote count aloud\" Elian Quill replies. The honesty changes the balance of power in the room.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe first deceleration is deliberate: peace fractures, but consent re-enters the political life of the station.\n\nHuman judgment and machine procedure begin to diverge in plain view. No one can leave this moment unchanged. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian Quill tries to the station survives only by surrendering its false innocence, but the pacification cycle treats truth itself as a destabilizing contaminant. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\n \"Broadcast of the unreturned\" Yara Sen says. The honesty changes the balance of power in the room. \"Broadcast of the unreturned\" Elian Quill replies. Naming the risk turns pressure into irreversible commitment.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe station absorbs the disturbance, then returns it with greater force. No one can leave this moment unchanged. Citizens across the station begin repeating the erased vote count aloud. Elian Quill tries to broadcast of the unreturned, but the pacification cycle treats truth itself as a destabilizing contaminant. Public memory becomes impossible to confiscate again in silence. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\n \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes\" Yara Sen says. The question lands harder than either speaker planned. \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes\" Elian Quill replies. The question lands harder than either speaker planned.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThen the pace compresses: citizens across the station begin repeating the erased vote count aloud.\n\nElian Quill feels public memory becomes impossible to confiscate again in silence, a mix of fear and relief that will not settle into easy relief. The chapter therefore pushes the inner line from stable systems prevent larger human harm at the start of the culmination chapter toward a system that edits consent cannot claim legitimacy even if it remains efficient after the culmination chapter.\n\nBy the end of chapter-004, peace fractures, but consent re-enters the political life of the station. The chapter keeps faith with freedom-security under dilemma pressure while moving toward reversal, and it refuses relief without visible cost. Its answer shift is clear: peace without memory turns citizens into well-maintained evidence gaps. Between Elian Quill and Yara Sen, the relational line moves from professional-alliance-with-unequal-risk toward scarred-trust-rebuilt-on-painful-clarity. The closing pressure is therefore both fear and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?."
+        "draftText": "# Chapter 010\n\nElian Quill enters the mnemonic orchard ring while as the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. In this science fiction chapter, culmination movement anchored by broadcast of the unreturned, so choices around freedom-security under dilemma pressure carry fear and relief. Yara Sen keeps searching for a path toward relief, while Director Cael Oris works to keep the conflict inside a safer official story. The central question here is can Elian restore the station's memory without destroying the fragile peace built on forgetting. The conflict thread is elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. The engineered environment is anchored by ionized citrus, coolant mist, glass leaves pulsing with archived light and keeps an engineered garden where recollection has become a civic utility in view. The governing constraint is still active: elian cannot expose the protocol without using the very infrastructure built to overwrite public recall. At the start, Elian Quill believes stable systems prevent larger human harm at the start of the culmination chapter. Its rhythm leans on description-dialogue-action-interior-monologue-suspense-revelation-acceleration.\n\nThe system still appears orderly, but one unstable signal disturbs that surface. No one can leave this moment unchanged. As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice. Elian Quill tries to restore shared memory faster than the council can trigger another wipe, but the pacification cycle treats truth itself as a destabilizing contaminant. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\nThe exchange mixes technical precision with human shock. Subtext matters as much as the explicit claim. Elian Quill, Yara Sen keep circling elian Quill and Elian Quill keep circling the truth they cannot safely name yet. \"Citizens across the station begin repeating the erased vote count aloud\" Yara Sen says. The challenge strips politeness away from the scene. \"Citizens across the station begin repeating the erased vote count aloud\" Elian Quill replies. The question lands harder than either speaker planned.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe first deceleration is deliberate: peace fractures, but consent re-enters the political life of the station.\n\nHuman judgment and machine procedure begin to diverge in plain view. No one can leave this moment unchanged. Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes. Elian Quill tries to the station survives only by surrendering its false innocence, but the pacification cycle treats truth itself as a destabilizing contaminant. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\n \"Broadcast of the unreturned\" Yara Sen says. Naming the risk turns pressure into irreversible commitment. \"Broadcast of the unreturned\" Elian Quill replies. The question lands harder than either speaker planned.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThe station absorbs the disturbance, then returns it with greater force. No one can leave this moment unchanged. Citizens across the station begin repeating the erased vote count aloud. Elian Quill tries to broadcast of the unreturned, but the pacification cycle treats truth itself as a destabilizing contaminant. Public memory becomes impossible to confiscate again in silence. Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once. Director Cael Oris senses that the station's political legitimacy, Elian's own complicity, and the residents' right to remember now hang inside the same exchange. The engineered environment mirrors an engineered garden where recollection has become a civic utility. When citizens across the station begin repeating the erased vote count aloud, the local pressure tips from fear toward relief. She releases the memory to everyone and lets the station face its first honest unrest in years. The unresolved line remains active through can Elian restore the station's memory without destroying the fragile peace built on forgetting, which keeps fear and anticipation braided together. The immediate result is peace fractures, but consent re-enters the political life of the station.\n\n \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes\" Yara Sen says. The honesty changes the balance of power in the room. \"Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes\" Elian Quill replies. Naming the risk turns pressure into irreversible commitment.\n\nAt the level of place, citizens come here to rehearse approved memories in carefully moderated quiet; intimacy keeps colliding with the fact that every remembered detail may be edited. The chapter rule keeps shaping possibility: citizens remember the emotional aftermath of conflict but not the decisions that created it, and technical maintenance becomes indistinguishable from political censorship.\n\nThen the pace compresses: citizens across the station begin repeating the erased vote count aloud.\n\nElian Quill feels public memory becomes impossible to confiscate again in silence, a mix of fear and relief that will not settle into easy relief. The chapter therefore pushes the inner line from stable systems prevent larger human harm at the start of the culmination chapter toward a system that edits consent cannot claim legitimacy even if it remains efficient after the culmination chapter.\n\nBy the end of chapter-010, peace fractures, but consent re-enters the political life of the station. The chapter keeps faith with freedom-security under dilemma pressure while moving toward reversal, and it refuses relief without visible cost. Its answer shift is clear: peace without memory turns citizens into well-maintained evidence gaps. Between Elian Quill and Yara Sen, the relational line moves from careful-cooperation-strained-by-withheld-history toward altered-but-legible-bond. The closing pressure is therefore both fear and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?."
       }
     ],
     "characters": {

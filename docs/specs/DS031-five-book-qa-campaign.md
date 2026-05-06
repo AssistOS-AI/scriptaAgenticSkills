@@ -18,13 +18,15 @@ The QA campaign must always contain five authored QA workspaces, one for each ca
 
 | Book ID | Profile | Work form |
 | --- | --- | --- |
-| `qa-drama-silence` | `drama` | `novelette` |
-| `qa-detective-river` | `detective-police` | `novelette` |
-| `qa-scifi-orbit` | `science-fiction` | `novelette` |
-| `qa-fantasy-ash` | `fantasy` | `novelette` |
-| `qa-romance-margins` | `romance-relational` | `novelette` |
+| `qa-drama-silence` | `drama` | `novel` |
+| `qa-detective-river` | `detective-police` | `novel` |
+| `qa-scifi-orbit` | `science-fiction` | `novel` |
+| `qa-fantasy-ash` | `fantasy` | `novel` |
+| `qa-romance-margins` | `romance-relational` | `novel` |
 
-The QA campaign must keep its authored source packets under `QA/specs/<book-id>.md`, one file per canonical book. The `qa` command may discover those specs automatically, but it must not depend on a separate hardcoded runtime list of QA books. During generation, each spec must be copied into the generated workspace as `book-vision.md`. Before regeneration, `QA/clean.js` must remove only the generated `QA/qa-*` workspace folders while preserving `QA/specs/`, so a fresh `qa` run rebuilds the workspaces from the authored sources.
+The QA campaign must keep its authored source packets under `QA/specs/<book-id>.md`, one file per canonical book. The `qa` command may discover those specs automatically, but it must not depend on a separate hardcoded runtime list of QA books. During generation, each spec must be copied into the generated workspace as `book-vision.md`. Before regeneration, `QA/clean.js` must remove all generated QA output while preserving `QA/specs/` and `QA/clean.js`, so a fresh `qa` run rebuilds the workspaces, published books, metrics dashboards, and review artifacts from the authored sources.
+
+The canonical QA specs currently target ten-chapter, dialogue-rich novels rather than short demonstrator packets. The QA contract therefore assumes novel-scale stage outputs, richer dialogue presence in the final HTML editions, and materially longer English and Romanian reader editions than the earlier four-chapter baseline.
 
 Each book in the campaign must be able to run through the full stage chain:
 
@@ -68,7 +70,7 @@ Every per-book workspace produced by the campaign must include the source Englis
 
 ### Question #1: Why are exactly five canonical QA books required?
 
-Response: The user asked for five short demonstrator books covering different literary profiles such as drama, police/detective, science fiction, fantasy, and romance. Keeping that fixed set stable makes it possible to compare changes to the runtime over time.
+Response: The user asked for five stable canonical books that cover different literary profiles such as drama, police/detective, science fiction, fantasy, and romance. Keeping that fixed set stable makes it possible to compare runtime changes over time even as the authored QA specs move from short demos to fuller novel-scale regression books.
 
 ### Question #2: Why must the QA campaign preserve both stage-by-stage commands and a single `qa` command?
 

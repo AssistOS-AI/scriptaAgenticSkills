@@ -47,7 +47,7 @@ The active helper-skill path is `.agents/skills/`. Do not recreate or update a `
 
 SCRIPTA planning is append-only by stage. When future code is added, stage tools and skills must create successor artifacts instead of overwriting earlier plan files, because validation depends on comparing symbolic seeds, refined plans, and drafts across stages.
 
-The canonical QA campaign now keeps its authored source packets under `QA/specs/` as `<book-id>.md` files. Before regenerating QA workspaces, use `QA/clean.js` to remove the generated `QA/qa-*` workspace folders while the authored QA specs remain intact.
+The canonical QA campaign now keeps its authored source packets under `QA/specs/` as `<book-id>.md` files. Before regenerating QA workspaces, use `QA/clean.js` to remove all generated QA output while preserving `QA/specs/` and `QA/clean.js`, so the five novel-scale QA books are rebuilt from authored sources on every run.
 
 ## Key Paths
 

@@ -7,7 +7,7 @@ conflict: {{conflict:investigation}}
 stakes: {{stakes:justice-legitimacy-trust-safety}}
 opening-mode: mystery-entry
 development-mode: investigation
-closing-mode: open-question
+closing-mode: cliffhanger
 handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-003
 thematic-focus: identity-self under resistance pressure
 rhythm-note: escalating

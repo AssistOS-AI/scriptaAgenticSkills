@@ -69,18 +69,34 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{conflict:escalation}}: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
 - {{chapter-question:escalation}}: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?
 - {{world-pressure:escalation}}: bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity
+- {{purpose:investigation}}: Escalation movement anchored by archive window without signatures
+- {{input-state:investigation-2}}: one photographed page carries Mira's mother's signature beneath a false evacuation report
+- {{output-state:investigation-2}}: They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
+- {{conflict:investigation}}: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
+- {{chapter-question:investigation}}: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?
+- {{world-pressure:investigation}}: bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity
 - {{purpose:revelation}}: Revelation movement anchored by names beneath the memorial varnish
-- {{input-state:revelation-2}}: the memorial plaque for Mira's brother lists a death date that predates the night he called her
-- {{output-state:revelation-2}}: She asks Vera to stand beside her publicly, even if it means both families lose protection.
+- {{input-state:revelation-3}}: In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration.
+- {{output-state:revelation-3}}: the truth stops being archival and becomes a shared moral choice
 - {{conflict:revelation}}: Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.
 - {{chapter-question:revelation}}: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?
 - {{world-pressure:revelation}}: bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity
 - {{purpose:culmination}}: Culmination movement anchored by commemoration ledger reading
-- {{input-state:culmination-3}}: During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.
-- {{output-state:culmination-3}}: the town loses its protective story even though no immediate justice follows
+- {{input-state:culmination-4}}: During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.
+- {{output-state:culmination-4}}: the town loses its protective story even though no immediate justice follows
 - {{conflict:culmination}}: Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.
 - {{chapter-question:culmination}}: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?
 - {{world-pressure:culmination}}: bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity
+- {{input-state:culmination-5}}: During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.
+- {{output-state:culmination-5}}: the town loses its protective story even though no immediate justice follows
+- {{input-state:culmination-6}}: During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.
+- {{output-state:culmination-6}}: the town loses its protective story even though no immediate justice follows
+- {{input-state:culmination-7}}: During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.
+- {{output-state:culmination-7}}: the town loses its protective story even though no immediate justice follows
+- {{input-state:culmination-8}}: During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.
+- {{output-state:culmination-8}}: the town loses its protective story even though no immediate justice follows
+- {{input-state:culmination-9}}: During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.
+- {{output-state:culmination-9}}: the town loses its protective story even though no immediate justice follows
 - {{sequence-objective:setup}}: secure the recording and identify the file number mentioned in it
 - {{sequence-conflict:setup}}: Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall.
 - {{sequence-payoff:setup}}: Mira can no longer pretend the death belongs only to the past
@@ -186,6 +202,52 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{acceleration-trigger:escalation}}: one photographed page carries Mira's mother's signature beneath a false evacuation report
 - {{cliffhanger-moment:escalation}}: one photographed page carries Mira's mother's signature beneath a false evacuation report
 - {{cliffhanger-continuation:escalation}}: Mira loses the comfort of treating her mother as untouched by the fraud
+- {{sequence-objective:investigation}}: extract enough records to prove the compensation pattern is deliberate
+- {{sequence-conflict:investigation}}: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
+- {{sequence-payoff:investigation}}: Mira loses the comfort of treating her mother as untouched by the fraud
+- {{visible-symptom:investigation}}: files return with fresh signatures but older dates, as if grief itself were rewritten overnight
+- {{action-limitation:investigation}}: Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing.
+- {{conflict-output-rule:investigation}}: bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity
+- {{challenge:protagonist-investigation}}: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
+- {{insight-pressure:protagonist-investigation}}: the investigation now threatens the family as much as the institution
+- {{relationship-stress:investigation}}: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
+- {{reader-effect:investigation}}: When grief becomes a civic ritual, is silence still mercy or only a softer form of power?
+- {{scene-introduction:investigation-0}}: Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
+- {{scene-development:investigation-0}}: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+- {{scene-conflict:investigation}}: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
+- {{scene-resolution:investigation-mid}}: They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
+- {{scene-state-change:investigation-mid}}: the lie becomes documentable, and therefore more dangerous
+- {{action-goal:investigation-0}}: extract enough records to prove the compensation pattern is deliberate
+- {{action-obstacle:investigation}}: the archive software now mirrors paper files only after political approval
+- {{conflict-escalation:investigation}}: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+- {{event-trigger:investigation-mid}}: one photographed page carries Mira's mother's signature beneath a false evacuation report
+- {{event-impact:investigation}}: the investigation now threatens the family as much as the institution
+- {{event-follow-through:investigation-mid}}: Mira loses the comfort of treating her mother as untouched by the fraud
+- {{dialogue-line-hint:investigation-0-0}}: one photographed page carries Mira's mother's signature beneath a false evacuation report
+- {{dialogue-line-hint:investigation-0-1}}: one photographed page carries Mira's mother's signature beneath a false evacuation report
+- {{scene-introduction:investigation-1}}: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+- {{scene-development:investigation-1}}: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
+- {{action-goal:investigation-1}}: Mira loses the comfort of treating her mother as untouched by the fraud
+- {{dialogue-line-hint:investigation-1-0}}: Archive window without signatures
+- {{dialogue-line-hint:investigation-1-1}}: Archive window without signatures
+- {{scene-introduction:investigation-2}}: one photographed page carries Mira's mother's signature beneath a false evacuation report
+- {{scene-development:investigation-2}}: the investigation now threatens the family as much as the institution
+- {{scene-resolution:investigation-final}}: They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
+- {{scene-state-change:investigation-final}}: the lie becomes documentable, and therefore more dangerous
+- {{action-goal:investigation-2}}: Archive window without signatures
+- {{action-result:investigation-final}}: the lie becomes documentable, and therefore more dangerous
+- {{event-trigger:investigation-final}}: one photographed page carries Mira's mother's signature beneath a false evacuation report
+- {{event-follow-through:investigation-final}}: Mira loses the comfort of treating her mother as untouched by the fraud
+- {{dialogue-subtext:deflect}}: turns confession sideways to protect status and control
+- {{dialogue-line-hint:investigation-2-0}}: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+- {{dialogue-reaction:deflect}}: The evasion makes the silence more visible than the answer would have.
+- {{dialogue-line-hint:investigation-2-1}}: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+- {{monologue-trigger:investigation}}: the investigation now threatens the family as much as the institution
+- {{suspense-uncertainty:investigation}}: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?
+- {{pause-focus:investigation}}: the lie becomes documentable, and therefore more dangerous
+- {{acceleration-trigger:investigation}}: one photographed page carries Mira's mother's signature beneath a false evacuation report
+- {{cliffhanger-moment:investigation}}: one photographed page carries Mira's mother's signature beneath a false evacuation report
+- {{cliffhanger-continuation:investigation}}: Mira loses the comfort of treating her mother as untouched by the fraud
 - {{sequence-objective:revelation}}: find a form of testimony that cannot be dismissed as private grief
 - {{sequence-conflict:revelation}}: Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.
 - {{sequence-payoff:revelation}}: the case becomes inseparable from the commemoration ceremony
@@ -222,9 +284,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{action-result:revelation-final}}: the truth stops being archival and becomes a shared moral choice
 - {{event-trigger:revelation-final}}: the memorial plaque for Mira's brother lists a death date that predates the night he called her
 - {{event-follow-through:revelation-final}}: the case becomes inseparable from the commemoration ceremony
-- {{dialogue-subtext:deflect}}: turns confession sideways to protect status and control
 - {{dialogue-line-hint:revelation-2-0}}: The plaques show corrected dates that match the forged ledger rather than the actual deaths.
-- {{dialogue-reaction:deflect}}: The evasion makes the silence more visible than the answer would have.
 - {{dialogue-line-hint:revelation-2-1}}: The plaques show corrected dates that match the forged ledger rather than the actual deaths.
 - {{monologue-trigger:revelation}}: forgery turns from suspicion into undeniable chronology
 - {{suspense-uncertainty:revelation}}: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?
@@ -234,6 +294,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{cliffhanger-continuation:revelation}}: the case becomes inseparable from the commemoration ceremony
 - {{sequence-objective:culmination}}: force the lie into a setting where it cannot be quietly revised afterward
 - {{sequence-conflict:culmination}}: Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.
+- {{sequence-payoff:culmination}}: the truth survives, but so does the cost of having spoken it
 - {{visible-symptom:culmination}}: files return with fresh signatures but older dates, as if grief itself were rewritten overnight
 - {{action-limitation:culmination}}: Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing.
 - {{conflict-output-rule:culmination}}: bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity
@@ -253,7 +314,9 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{event-impact:culmination}}: grief becomes accusation before the whole town
 - {{event-follow-through:culmination-mid}}: the truth survives, but so does the cost of having spoken it
 - {{dialogue-line-hint:culmination-0-0}}: Mira reaches the line proving that relief money was routed through Corin's family company
+- {{dialogue-subtext:probe}}: tests whether the other speaker can bear the unsoftened truth
 - {{dialogue-line-hint:culmination-0-1}}: Mira reaches the line proving that relief money was routed through Corin's family company
+- {{dialogue-reaction:probe}}: The question lands harder than either speaker planned.
 - {{scene-introduction:culmination-1}}: Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.
 - {{scene-development:culmination-1}}: Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.
 - {{action-goal:culmination-1}}: the truth survives, but so does the cost of having spoken it
@@ -273,6 +336,8 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{suspense-uncertainty:culmination}}: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?
 - {{pause-focus:culmination}}: the town loses its protective story even though no immediate justice follows
 - {{acceleration-trigger:culmination}}: Mira reaches the line proving that relief money was routed through Corin's family company
+- {{cliffhanger-moment:culmination}}: Mira reaches the line proving that relief money was routed through Corin's family company
+- {{cliffhanger-continuation:culmination}}: the truth survives, but so does the cost of having spoken it
 
 <!-- scripta-data
 {
@@ -362,18 +427,34 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{conflict:escalation}}": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
     "{{chapter-question:escalation}}": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
     "{{world-pressure:escalation}}": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
+    "{{purpose:investigation}}": "Escalation movement anchored by archive window without signatures",
+    "{{input-state:investigation-2}}": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
+    "{{output-state:investigation-2}}": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.",
+    "{{conflict:investigation}}": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
+    "{{chapter-question:investigation}}": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
+    "{{world-pressure:investigation}}": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
     "{{purpose:revelation}}": "Revelation movement anchored by names beneath the memorial varnish",
-    "{{input-state:revelation-2}}": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
-    "{{output-state:revelation-2}}": "She asks Vera to stand beside her publicly, even if it means both families lose protection.",
+    "{{input-state:revelation-3}}": "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration.",
+    "{{output-state:revelation-3}}": "the truth stops being archival and becomes a shared moral choice",
     "{{conflict:revelation}}": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
     "{{chapter-question:revelation}}": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
     "{{world-pressure:revelation}}": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
     "{{purpose:culmination}}": "Culmination movement anchored by commemoration ledger reading",
-    "{{input-state:culmination-3}}": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.",
-    "{{output-state:culmination-3}}": "the town loses its protective story even though no immediate justice follows",
+    "{{input-state:culmination-4}}": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.",
+    "{{output-state:culmination-4}}": "the town loses its protective story even though no immediate justice follows",
     "{{conflict:culmination}}": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
     "{{chapter-question:culmination}}": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
     "{{world-pressure:culmination}}": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
+    "{{input-state:culmination-5}}": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.",
+    "{{output-state:culmination-5}}": "the town loses its protective story even though no immediate justice follows",
+    "{{input-state:culmination-6}}": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.",
+    "{{output-state:culmination-6}}": "the town loses its protective story even though no immediate justice follows",
+    "{{input-state:culmination-7}}": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.",
+    "{{output-state:culmination-7}}": "the town loses its protective story even though no immediate justice follows",
+    "{{input-state:culmination-8}}": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.",
+    "{{output-state:culmination-8}}": "the town loses its protective story even though no immediate justice follows",
+    "{{input-state:culmination-9}}": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.",
+    "{{output-state:culmination-9}}": "the town loses its protective story even though no immediate justice follows",
     "{{sequence-objective:setup}}": "secure the recording and identify the file number mentioned in it",
     "{{sequence-conflict:setup}}": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall.",
     "{{sequence-payoff:setup}}": "Mira can no longer pretend the death belongs only to the past",
@@ -479,6 +560,52 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{acceleration-trigger:escalation}}": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
     "{{cliffhanger-moment:escalation}}": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
     "{{cliffhanger-continuation:escalation}}": "Mira loses the comfort of treating her mother as untouched by the fraud",
+    "{{sequence-objective:investigation}}": "extract enough records to prove the compensation pattern is deliberate",
+    "{{sequence-conflict:investigation}}": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
+    "{{sequence-payoff:investigation}}": "Mira loses the comfort of treating her mother as untouched by the fraud",
+    "{{visible-symptom:investigation}}": "files return with fresh signatures but older dates, as if grief itself were rewritten overnight",
+    "{{action-limitation:investigation}}": "Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing.",
+    "{{conflict-output-rule:investigation}}": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
+    "{{challenge:protagonist-investigation}}": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
+    "{{insight-pressure:protagonist-investigation}}": "the investigation now threatens the family as much as the institution",
+    "{{relationship-stress:investigation}}": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
+    "{{reader-effect:investigation}}": "When grief becomes a civic ritual, is silence still mercy or only a softer form of power?",
+    "{{scene-introduction:investigation-0}}": "Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.",
+    "{{scene-development:investigation-0}}": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.",
+    "{{scene-conflict:investigation}}": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
+    "{{scene-resolution:investigation-mid}}": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.",
+    "{{scene-state-change:investigation-mid}}": "the lie becomes documentable, and therefore more dangerous",
+    "{{action-goal:investigation-0}}": "extract enough records to prove the compensation pattern is deliberate",
+    "{{action-obstacle:investigation}}": "the archive software now mirrors paper files only after political approval",
+    "{{conflict-escalation:investigation}}": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.",
+    "{{event-trigger:investigation-mid}}": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
+    "{{event-impact:investigation}}": "the investigation now threatens the family as much as the institution",
+    "{{event-follow-through:investigation-mid}}": "Mira loses the comfort of treating her mother as untouched by the fraud",
+    "{{dialogue-line-hint:investigation-0-0}}": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
+    "{{dialogue-line-hint:investigation-0-1}}": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
+    "{{scene-introduction:investigation-1}}": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.",
+    "{{scene-development:investigation-1}}": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
+    "{{action-goal:investigation-1}}": "Mira loses the comfort of treating her mother as untouched by the fraud",
+    "{{dialogue-line-hint:investigation-1-0}}": "Archive window without signatures",
+    "{{dialogue-line-hint:investigation-1-1}}": "Archive window without signatures",
+    "{{scene-introduction:investigation-2}}": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
+    "{{scene-development:investigation-2}}": "the investigation now threatens the family as much as the institution",
+    "{{scene-resolution:investigation-final}}": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.",
+    "{{scene-state-change:investigation-final}}": "the lie becomes documentable, and therefore more dangerous",
+    "{{action-goal:investigation-2}}": "Archive window without signatures",
+    "{{action-result:investigation-final}}": "the lie becomes documentable, and therefore more dangerous",
+    "{{event-trigger:investigation-final}}": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
+    "{{event-follow-through:investigation-final}}": "Mira loses the comfort of treating her mother as untouched by the fraud",
+    "{{dialogue-subtext:deflect}}": "turns confession sideways to protect status and control",
+    "{{dialogue-line-hint:investigation-2-0}}": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.",
+    "{{dialogue-reaction:deflect}}": "The evasion makes the silence more visible than the answer would have.",
+    "{{dialogue-line-hint:investigation-2-1}}": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.",
+    "{{monologue-trigger:investigation}}": "the investigation now threatens the family as much as the institution",
+    "{{suspense-uncertainty:investigation}}": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
+    "{{pause-focus:investigation}}": "the lie becomes documentable, and therefore more dangerous",
+    "{{acceleration-trigger:investigation}}": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
+    "{{cliffhanger-moment:investigation}}": "one photographed page carries Mira's mother's signature beneath a false evacuation report",
+    "{{cliffhanger-continuation:investigation}}": "Mira loses the comfort of treating her mother as untouched by the fraud",
     "{{sequence-objective:revelation}}": "find a form of testimony that cannot be dismissed as private grief",
     "{{sequence-conflict:revelation}}": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.",
     "{{sequence-payoff:revelation}}": "the case becomes inseparable from the commemoration ceremony",
@@ -515,9 +642,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{action-result:revelation-final}}": "the truth stops being archival and becomes a shared moral choice",
     "{{event-trigger:revelation-final}}": "the memorial plaque for Mira's brother lists a death date that predates the night he called her",
     "{{event-follow-through:revelation-final}}": "the case becomes inseparable from the commemoration ceremony",
-    "{{dialogue-subtext:deflect}}": "turns confession sideways to protect status and control",
     "{{dialogue-line-hint:revelation-2-0}}": "The plaques show corrected dates that match the forged ledger rather than the actual deaths.",
-    "{{dialogue-reaction:deflect}}": "The evasion makes the silence more visible than the answer would have.",
     "{{dialogue-line-hint:revelation-2-1}}": "The plaques show corrected dates that match the forged ledger rather than the actual deaths.",
     "{{monologue-trigger:revelation}}": "forgery turns from suspicion into undeniable chronology",
     "{{suspense-uncertainty:revelation}}": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
@@ -527,6 +652,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{cliffhanger-continuation:revelation}}": "the case becomes inseparable from the commemoration ceremony",
     "{{sequence-objective:culmination}}": "force the lie into a setting where it cannot be quietly revised afterward",
     "{{sequence-conflict:culmination}}": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
+    "{{sequence-payoff:culmination}}": "the truth survives, but so does the cost of having spoken it",
     "{{visible-symptom:culmination}}": "files return with fresh signatures but older dates, as if grief itself were rewritten overnight",
     "{{action-limitation:culmination}}": "Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing.",
     "{{conflict-output-rule:culmination}}": "bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity",
@@ -546,7 +672,9 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{event-impact:culmination}}": "grief becomes accusation before the whole town",
     "{{event-follow-through:culmination-mid}}": "the truth survives, but so does the cost of having spoken it",
     "{{dialogue-line-hint:culmination-0-0}}": "Mira reaches the line proving that relief money was routed through Corin's family company",
+    "{{dialogue-subtext:probe}}": "tests whether the other speaker can bear the unsoftened truth",
     "{{dialogue-line-hint:culmination-0-1}}": "Mira reaches the line proving that relief money was routed through Corin's family company",
+    "{{dialogue-reaction:probe}}": "The question lands harder than either speaker planned.",
     "{{scene-introduction:culmination-1}}": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.",
     "{{scene-development:culmination-1}}": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.",
     "{{action-goal:culmination-1}}": "the truth survives, but so does the cost of having spoken it",
@@ -565,7 +693,9 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{monologue-trigger:culmination}}": "grief becomes accusation before the whole town",
     "{{suspense-uncertainty:culmination}}": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?",
     "{{pause-focus:culmination}}": "the town loses its protective story even though no immediate justice follows",
-    "{{acceleration-trigger:culmination}}": "Mira reaches the line proving that relief money was routed through Corin's family company"
+    "{{acceleration-trigger:culmination}}": "Mira reaches the line proving that relief money was routed through Corin's family company",
+    "{{cliffhanger-moment:culmination}}": "Mira reaches the line proving that relief money was routed through Corin's family company",
+    "{{cliffhanger-continuation:culmination}}": "the truth survives, but so does the cost of having spoken it"
   }
 }
 -->

@@ -249,7 +249,7 @@ target-zone: $scene-003-03
 
 @cliffhanger-003-exit cut
 scope: $chapter-003
-cliffhanger-type: critical-decision
+cliffhanger-type: interrupted-revelation
 cut-moment: a duplicate maintenance form appears with two different timestamps
 continuation-pressure: Nadia now knows the cover-up has a clock and a route
 

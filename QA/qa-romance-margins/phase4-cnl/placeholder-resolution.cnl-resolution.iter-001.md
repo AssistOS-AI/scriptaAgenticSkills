@@ -69,18 +69,34 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{conflict:escalation}}: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
 - {{chapter-question:escalation}}: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
 - {{world-pressure:escalation}}: shared labor turns every practical choice into a referendum on trust, apology, and future risk
-- {{purpose:reversal}}: Revelation movement anchored by warehouse mock-up and public eyes
-- {{input-state:reversal-2}}: the curator chooses the doubled-margin proof as the book's defining design feature
-- {{output-state:reversal-2}}: She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.
-- {{conflict:reversal}}: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
-- {{chapter-question:reversal}}: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
-- {{world-pressure:reversal}}: shared labor turns every practical choice into a referendum on trust, apology, and future risk
+- {{purpose:investigation}}: Escalation movement anchored by the misprinted folio night
+- {{input-state:investigation-2}}: the misprint mirrors the exact margin shift from the night Talia left
+- {{output-state:investigation-2}}: They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+- {{conflict:investigation}}: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+- {{chapter-question:investigation}}: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
+- {{world-pressure:investigation}}: shared labor turns every practical choice into a referendum on trust, apology, and future risk
+- {{purpose:revelation}}: Revelation movement anchored by warehouse mock-up and public eyes
+- {{input-state:revelation-3}}: At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.
+- {{output-state:revelation-3}}: what they feel becomes harder to frame as accidental residue
+- {{conflict:revelation}}: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
+- {{chapter-question:revelation}}: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
+- {{world-pressure:revelation}}: shared labor turns every practical choice into a referendum on trust, apology, and future risk
 - {{purpose:culmination}}: Culmination movement anchored by launch with the unfinished dedication
-- {{input-state:culmination-3}}: On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.
-- {{output-state:culmination-3}}: their bond shifts from guarded usefulness to acknowledged reciprocity
+- {{input-state:culmination-4}}: On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.
+- {{output-state:culmination-4}}: their bond shifts from guarded usefulness to acknowledged reciprocity
 - {{conflict:culmination}}: Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
 - {{chapter-question:culmination}}: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
 - {{world-pressure:culmination}}: shared labor turns every practical choice into a referendum on trust, apology, and future risk
+- {{input-state:culmination-5}}: On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.
+- {{output-state:culmination-5}}: their bond shifts from guarded usefulness to acknowledged reciprocity
+- {{input-state:culmination-6}}: On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.
+- {{output-state:culmination-6}}: their bond shifts from guarded usefulness to acknowledged reciprocity
+- {{input-state:culmination-7}}: On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.
+- {{output-state:culmination-7}}: their bond shifts from guarded usefulness to acknowledged reciprocity
+- {{input-state:culmination-8}}: On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.
+- {{output-state:culmination-8}}: their bond shifts from guarded usefulness to acknowledged reciprocity
+- {{input-state:culmination-9}}: On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.
+- {{output-state:culmination-9}}: their bond shifts from guarded usefulness to acknowledged reciprocity
 - {{sequence-objective:setup}}: stabilize the commission schedule before old hurt destabilizes the work
 - {{sequence-conflict:setup}}: Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.
 - {{sequence-payoff:setup}}: professional collaboration becomes impossible to keep emotionally neutral
@@ -184,56 +200,103 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{acceleration-trigger:escalation}}: the misprint mirrors the exact margin shift from the night Talia left
 - {{cliffhanger-moment:escalation}}: the misprint mirrors the exact margin shift from the night Talia left
 - {{cliffhanger-continuation:escalation}}: repair becomes emotionally riskier than failure
-- {{sequence-objective:reversal}}: decide whether the launch should preserve the partnership or simply conclude it gracefully
-- {{sequence-conflict:reversal}}: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
-- {{sequence-payoff:reversal}}: the future of the studio becomes inseparable from whether they can speak honestly
-- {{visible-symptom:reversal}}: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work
-- {{action-limitation:reversal}}: Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure.
-- {{conflict-output-rule:reversal}}: shared labor turns every practical choice into a referendum on trust, apology, and future risk
-- {{challenge:protagonist-reversal}}: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
-- {{insight-pressure:protagonist-reversal}}: their most damaged page becomes the commission's emotional signature
-- {{relationship-stress:reversal}}: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
-- {{reader-effect:reversal}}: Is intimacy a threat to autonomy, or the form that honest autonomy eventually takes?
-- {{scene-introduction:reversal-0}}: At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.
-- {{scene-development:reversal-0}}: The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
-- {{scene-conflict:reversal}}: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
-- {{scene-resolution:reversal-mid}}: She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.
-- {{scene-state-change:reversal-mid}}: what they feel becomes harder to frame as accidental residue
-- {{action-goal:reversal-0}}: decide whether the launch should preserve the partnership or simply conclude it gracefully
-- {{action-obstacle:reversal}}: public success keeps rewarding them for the same evasions that nearly ruined them
-- {{conflict-escalation:reversal}}: The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
-- {{event-trigger:reversal-mid}}: the curator chooses the doubled-margin proof as the book's defining design feature
-- {{event-impact:reversal}}: their most damaged page becomes the commission's emotional signature
-- {{event-follow-through:reversal-mid}}: the future of the studio becomes inseparable from whether they can speak honestly
-- {{dialogue-line-hint:reversal-0-0}}: the curator chooses the doubled-margin proof as the book's defining design feature
+- {{sequence-objective:investigation}}: save the damaged folios without destroying the schedule
+- {{sequence-conflict:investigation}}: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+- {{sequence-payoff:investigation}}: repair becomes emotionally riskier than failure
+- {{visible-symptom:investigation}}: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work
+- {{action-limitation:investigation}}: Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure.
+- {{conflict-output-rule:investigation}}: shared labor turns every practical choice into a referendum on trust, apology, and future risk
+- {{challenge:protagonist-investigation}}: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+- {{insight-pressure:protagonist-investigation}}: the studio forces the past into the present workload
+- {{relationship-stress:investigation}}: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+- {{reader-effect:investigation}}: Is intimacy a threat to autonomy, or the form that honest autonomy eventually takes?
+- {{scene-introduction:investigation-0}}: A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.
+- {{scene-development:investigation-0}}: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+- {{scene-conflict:investigation}}: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+- {{scene-resolution:investigation-mid}}: They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+- {{scene-state-change:investigation-mid}}: the work begins storing their conflict instead of hiding it
+- {{action-goal:investigation-0}}: save the damaged folios without destroying the schedule
+- {{action-obstacle:investigation}}: fatigue makes every careful sentence sound either too sharp or too intimate
+- {{conflict-escalation:investigation}}: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+- {{event-trigger:investigation-mid}}: the misprint mirrors the exact margin shift from the night Talia left
+- {{event-impact:investigation}}: the studio forces the past into the present workload
+- {{event-follow-through:investigation-mid}}: repair becomes emotionally riskier than failure
+- {{dialogue-line-hint:investigation-0-0}}: the misprint mirrors the exact margin shift from the night Talia left
 - {{dialogue-subtext:reframe}}: changes the moral meaning of what was just said
-- {{dialogue-line-hint:reversal-0-1}}: the curator chooses the doubled-margin proof as the book's defining design feature
+- {{dialogue-line-hint:investigation-0-1}}: the misprint mirrors the exact margin shift from the night Talia left
 - {{dialogue-reaction:reframe}}: The new framing makes the old position harder to keep.
-- {{scene-introduction:reversal-1}}: The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
-- {{scene-development:reversal-1}}: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
-- {{action-goal:reversal-1}}: the future of the studio becomes inseparable from whether they can speak honestly
-- {{dialogue-line-hint:reversal-1-0}}: Warehouse mock-up and public eyes
-- {{dialogue-line-hint:reversal-1-1}}: Warehouse mock-up and public eyes
-- {{scene-introduction:reversal-2}}: the curator chooses the doubled-margin proof as the book's defining design feature
-- {{scene-development:reversal-2}}: their most damaged page becomes the commission's emotional signature
-- {{scene-resolution:reversal-final}}: She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.
-- {{scene-state-change:reversal-final}}: what they feel becomes harder to frame as accidental residue
-- {{action-goal:reversal-2}}: Warehouse mock-up and public eyes
-- {{action-result:reversal-final}}: what they feel becomes harder to frame as accidental residue
-- {{event-trigger:reversal-final}}: the curator chooses the doubled-margin proof as the book's defining design feature
-- {{event-follow-through:reversal-final}}: the future of the studio becomes inseparable from whether they can speak honestly
+- {{scene-introduction:investigation-1}}: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+- {{scene-development:investigation-1}}: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+- {{action-goal:investigation-1}}: repair becomes emotionally riskier than failure
+- {{dialogue-line-hint:investigation-1-0}}: The misprinted folio night
+- {{dialogue-line-hint:investigation-1-1}}: The misprinted folio night
+- {{scene-introduction:investigation-2}}: the misprint mirrors the exact margin shift from the night Talia left
+- {{scene-development:investigation-2}}: the studio forces the past into the present workload
+- {{scene-resolution:investigation-final}}: They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+- {{scene-state-change:investigation-final}}: the work begins storing their conflict instead of hiding it
+- {{action-goal:investigation-2}}: The misprinted folio night
+- {{action-result:investigation-final}}: the work begins storing their conflict instead of hiding it
+- {{event-trigger:investigation-final}}: the misprint mirrors the exact margin shift from the night Talia left
+- {{event-follow-through:investigation-final}}: repair becomes emotionally riskier than failure
 - {{dialogue-subtext:warn}}: tries to protect the bond by narrowing the next available move
-- {{dialogue-line-hint:reversal-2-0}}: The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
+- {{dialogue-line-hint:investigation-2-0}}: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
 - {{dialogue-reaction:warn}}: The warning narrows what can still be done safely.
-- {{dialogue-line-hint:reversal-2-1}}: The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
-- {{monologue-trigger:reversal}}: their most damaged page becomes the commission's emotional signature
-- {{suspense-uncertainty:reversal}}: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
-- {{pause-focus:reversal}}: what they feel becomes harder to frame as accidental residue
-- {{acceleration-trigger:reversal}}: the curator chooses the doubled-margin proof as the book's defining design feature
-- {{cliffhanger-moment:reversal}}: the curator chooses the doubled-margin proof as the book's defining design feature
-- {{cliffhanger-continuation:reversal}}: the future of the studio becomes inseparable from whether they can speak honestly
+- {{dialogue-line-hint:investigation-2-1}}: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+- {{monologue-trigger:investigation}}: the studio forces the past into the present workload
+- {{suspense-uncertainty:investigation}}: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
+- {{pause-focus:investigation}}: the work begins storing their conflict instead of hiding it
+- {{acceleration-trigger:investigation}}: the misprint mirrors the exact margin shift from the night Talia left
+- {{cliffhanger-moment:investigation}}: the misprint mirrors the exact margin shift from the night Talia left
+- {{cliffhanger-continuation:investigation}}: repair becomes emotionally riskier than failure
+- {{sequence-objective:revelation}}: decide whether the launch should preserve the partnership or simply conclude it gracefully
+- {{sequence-conflict:revelation}}: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
+- {{sequence-payoff:revelation}}: the future of the studio becomes inseparable from whether they can speak honestly
+- {{visible-symptom:revelation}}: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work
+- {{action-limitation:revelation}}: Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure.
+- {{conflict-output-rule:revelation}}: shared labor turns every practical choice into a referendum on trust, apology, and future risk
+- {{challenge:protagonist-revelation}}: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
+- {{insight-pressure:protagonist-revelation}}: their most damaged page becomes the commission's emotional signature
+- {{relationship-stress:revelation}}: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
+- {{reader-effect:revelation}}: Is intimacy a threat to autonomy, or the form that honest autonomy eventually takes?
+- {{scene-introduction:revelation-0}}: At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.
+- {{scene-development:revelation-0}}: The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
+- {{scene-conflict:revelation}}: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
+- {{scene-resolution:revelation-mid}}: She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.
+- {{scene-state-change:revelation-mid}}: what they feel becomes harder to frame as accidental residue
+- {{action-goal:revelation-0}}: decide whether the launch should preserve the partnership or simply conclude it gracefully
+- {{action-obstacle:revelation}}: public success keeps rewarding them for the same evasions that nearly ruined them
+- {{conflict-escalation:revelation}}: The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
+- {{event-trigger:revelation-mid}}: the curator chooses the doubled-margin proof as the book's defining design feature
+- {{event-impact:revelation}}: their most damaged page becomes the commission's emotional signature
+- {{event-follow-through:revelation-mid}}: the future of the studio becomes inseparable from whether they can speak honestly
+- {{dialogue-subtext:name-risk}}: speaks the consequence both speakers hoped could stay implied
+- {{dialogue-line-hint:revelation-0-0}}: the curator chooses the doubled-margin proof as the book's defining design feature
+- {{dialogue-reaction:name-risk}}: Naming the risk turns pressure into irreversible commitment.
+- {{dialogue-line-hint:revelation-0-1}}: the curator chooses the doubled-margin proof as the book's defining design feature
+- {{scene-introduction:revelation-1}}: The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
+- {{scene-development:revelation-1}}: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
+- {{action-goal:revelation-1}}: the future of the studio becomes inseparable from whether they can speak honestly
+- {{dialogue-line-hint:revelation-1-0}}: Warehouse mock-up and public eyes
+- {{dialogue-line-hint:revelation-1-1}}: Warehouse mock-up and public eyes
+- {{scene-introduction:revelation-2}}: the curator chooses the doubled-margin proof as the book's defining design feature
+- {{scene-development:revelation-2}}: their most damaged page becomes the commission's emotional signature
+- {{scene-resolution:revelation-final}}: She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.
+- {{scene-state-change:revelation-final}}: what they feel becomes harder to frame as accidental residue
+- {{action-goal:revelation-2}}: Warehouse mock-up and public eyes
+- {{action-result:revelation-final}}: what they feel becomes harder to frame as accidental residue
+- {{event-trigger:revelation-final}}: the curator chooses the doubled-margin proof as the book's defining design feature
+- {{event-follow-through:revelation-final}}: the future of the studio becomes inseparable from whether they can speak honestly
+- {{dialogue-line-hint:revelation-2-0}}: The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
+- {{dialogue-line-hint:revelation-2-1}}: The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.
+- {{monologue-trigger:revelation}}: their most damaged page becomes the commission's emotional signature
+- {{suspense-uncertainty:revelation}}: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
+- {{pause-focus:revelation}}: what they feel becomes harder to frame as accidental residue
+- {{acceleration-trigger:revelation}}: the curator chooses the doubled-margin proof as the book's defining design feature
+- {{cliffhanger-moment:revelation}}: the curator chooses the doubled-margin proof as the book's defining design feature
+- {{cliffhanger-continuation:revelation}}: the future of the studio becomes inseparable from whether they can speak honestly
 - {{sequence-objective:culmination}}: finish the commission without sacrificing the truth that now gives it meaning
 - {{sequence-conflict:culmination}}: Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
+- {{sequence-payoff:culmination}}: the partnership survives because honesty finally becomes part of the work
 - {{visible-symptom:culmination}}: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work
 - {{action-limitation:culmination}}: Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure.
 - {{conflict-output-rule:culmination}}: shared labor turns every practical choice into a referendum on trust, apology, and future risk
@@ -252,9 +315,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{event-trigger:culmination-mid}}: the dedication names the year Talia left and the future Leora still wants
 - {{event-impact:culmination}}: the launch becomes confession as much as success
 - {{event-follow-through:culmination-mid}}: the partnership survives because honesty finally becomes part of the work
-- {{dialogue-subtext:name-risk}}: speaks the consequence both speakers hoped could stay implied
 - {{dialogue-line-hint:culmination-0-0}}: the dedication names the year Talia left and the future Leora still wants
-- {{dialogue-reaction:name-risk}}: Naming the risk turns pressure into irreversible commitment.
 - {{dialogue-line-hint:culmination-0-1}}: the dedication names the year Talia left and the future Leora still wants
 - {{scene-introduction:culmination-1}}: Talia sees the page only after the first public copy is opened in front of the crowd.
 - {{scene-development:culmination-1}}: Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
@@ -275,6 +336,8 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{suspense-uncertainty:culmination}}: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
 - {{pause-focus:culmination}}: their bond shifts from guarded usefulness to acknowledged reciprocity
 - {{acceleration-trigger:culmination}}: the dedication names the year Talia left and the future Leora still wants
+- {{cliffhanger-moment:culmination}}: the dedication names the year Talia left and the future Leora still wants
+- {{cliffhanger-continuation:culmination}}: the partnership survives because honesty finally becomes part of the work
 
 <!-- scripta-data
 {
@@ -364,18 +427,34 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{conflict:escalation}}": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.",
     "{{chapter-question:escalation}}": "Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?",
     "{{world-pressure:escalation}}": "shared labor turns every practical choice into a referendum on trust, apology, and future risk",
-    "{{purpose:reversal}}": "Revelation movement anchored by warehouse mock-up and public eyes",
-    "{{input-state:reversal-2}}": "the curator chooses the doubled-margin proof as the book's defining design feature",
-    "{{output-state:reversal-2}}": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.",
-    "{{conflict:reversal}}": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.",
-    "{{chapter-question:reversal}}": "Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?",
-    "{{world-pressure:reversal}}": "shared labor turns every practical choice into a referendum on trust, apology, and future risk",
+    "{{purpose:investigation}}": "Escalation movement anchored by the misprinted folio night",
+    "{{input-state:investigation-2}}": "the misprint mirrors the exact margin shift from the night Talia left",
+    "{{output-state:investigation-2}}": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.",
+    "{{conflict:investigation}}": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.",
+    "{{chapter-question:investigation}}": "Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?",
+    "{{world-pressure:investigation}}": "shared labor turns every practical choice into a referendum on trust, apology, and future risk",
+    "{{purpose:revelation}}": "Revelation movement anchored by warehouse mock-up and public eyes",
+    "{{input-state:revelation-3}}": "At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.",
+    "{{output-state:revelation-3}}": "what they feel becomes harder to frame as accidental residue",
+    "{{conflict:revelation}}": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.",
+    "{{chapter-question:revelation}}": "Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?",
+    "{{world-pressure:revelation}}": "shared labor turns every practical choice into a referendum on trust, apology, and future risk",
     "{{purpose:culmination}}": "Culmination movement anchored by launch with the unfinished dedication",
-    "{{input-state:culmination-3}}": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.",
-    "{{output-state:culmination-3}}": "their bond shifts from guarded usefulness to acknowledged reciprocity",
+    "{{input-state:culmination-4}}": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.",
+    "{{output-state:culmination-4}}": "their bond shifts from guarded usefulness to acknowledged reciprocity",
     "{{conflict:culmination}}": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.",
     "{{chapter-question:culmination}}": "Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?",
     "{{world-pressure:culmination}}": "shared labor turns every practical choice into a referendum on trust, apology, and future risk",
+    "{{input-state:culmination-5}}": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.",
+    "{{output-state:culmination-5}}": "their bond shifts from guarded usefulness to acknowledged reciprocity",
+    "{{input-state:culmination-6}}": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.",
+    "{{output-state:culmination-6}}": "their bond shifts from guarded usefulness to acknowledged reciprocity",
+    "{{input-state:culmination-7}}": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.",
+    "{{output-state:culmination-7}}": "their bond shifts from guarded usefulness to acknowledged reciprocity",
+    "{{input-state:culmination-8}}": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.",
+    "{{output-state:culmination-8}}": "their bond shifts from guarded usefulness to acknowledged reciprocity",
+    "{{input-state:culmination-9}}": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.",
+    "{{output-state:culmination-9}}": "their bond shifts from guarded usefulness to acknowledged reciprocity",
     "{{sequence-objective:setup}}": "stabilize the commission schedule before old hurt destabilizes the work",
     "{{sequence-conflict:setup}}": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.",
     "{{sequence-payoff:setup}}": "professional collaboration becomes impossible to keep emotionally neutral",
@@ -479,56 +558,103 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{acceleration-trigger:escalation}}": "the misprint mirrors the exact margin shift from the night Talia left",
     "{{cliffhanger-moment:escalation}}": "the misprint mirrors the exact margin shift from the night Talia left",
     "{{cliffhanger-continuation:escalation}}": "repair becomes emotionally riskier than failure",
-    "{{sequence-objective:reversal}}": "decide whether the launch should preserve the partnership or simply conclude it gracefully",
-    "{{sequence-conflict:reversal}}": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.",
-    "{{sequence-payoff:reversal}}": "the future of the studio becomes inseparable from whether they can speak honestly",
-    "{{visible-symptom:reversal}}": "the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work",
-    "{{action-limitation:reversal}}": "Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure.",
-    "{{conflict-output-rule:reversal}}": "shared labor turns every practical choice into a referendum on trust, apology, and future risk",
-    "{{challenge:protagonist-reversal}}": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.",
-    "{{insight-pressure:protagonist-reversal}}": "their most damaged page becomes the commission's emotional signature",
-    "{{relationship-stress:reversal}}": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.",
-    "{{reader-effect:reversal}}": "Is intimacy a threat to autonomy, or the form that honest autonomy eventually takes?",
-    "{{scene-introduction:reversal-0}}": "At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.",
-    "{{scene-development:reversal-0}}": "The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.",
-    "{{scene-conflict:reversal}}": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.",
-    "{{scene-resolution:reversal-mid}}": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.",
-    "{{scene-state-change:reversal-mid}}": "what they feel becomes harder to frame as accidental residue",
-    "{{action-goal:reversal-0}}": "decide whether the launch should preserve the partnership or simply conclude it gracefully",
-    "{{action-obstacle:reversal}}": "public success keeps rewarding them for the same evasions that nearly ruined them",
-    "{{conflict-escalation:reversal}}": "The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.",
-    "{{event-trigger:reversal-mid}}": "the curator chooses the doubled-margin proof as the book's defining design feature",
-    "{{event-impact:reversal}}": "their most damaged page becomes the commission's emotional signature",
-    "{{event-follow-through:reversal-mid}}": "the future of the studio becomes inseparable from whether they can speak honestly",
-    "{{dialogue-line-hint:reversal-0-0}}": "the curator chooses the doubled-margin proof as the book's defining design feature",
+    "{{sequence-objective:investigation}}": "save the damaged folios without destroying the schedule",
+    "{{sequence-conflict:investigation}}": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.",
+    "{{sequence-payoff:investigation}}": "repair becomes emotionally riskier than failure",
+    "{{visible-symptom:investigation}}": "the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work",
+    "{{action-limitation:investigation}}": "Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure.",
+    "{{conflict-output-rule:investigation}}": "shared labor turns every practical choice into a referendum on trust, apology, and future risk",
+    "{{challenge:protagonist-investigation}}": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.",
+    "{{insight-pressure:protagonist-investigation}}": "the studio forces the past into the present workload",
+    "{{relationship-stress:investigation}}": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.",
+    "{{reader-effect:investigation}}": "Is intimacy a threat to autonomy, or the form that honest autonomy eventually takes?",
+    "{{scene-introduction:investigation-0}}": "A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.",
+    "{{scene-development:investigation-0}}": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.",
+    "{{scene-conflict:investigation}}": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.",
+    "{{scene-resolution:investigation-mid}}": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.",
+    "{{scene-state-change:investigation-mid}}": "the work begins storing their conflict instead of hiding it",
+    "{{action-goal:investigation-0}}": "save the damaged folios without destroying the schedule",
+    "{{action-obstacle:investigation}}": "fatigue makes every careful sentence sound either too sharp or too intimate",
+    "{{conflict-escalation:investigation}}": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.",
+    "{{event-trigger:investigation-mid}}": "the misprint mirrors the exact margin shift from the night Talia left",
+    "{{event-impact:investigation}}": "the studio forces the past into the present workload",
+    "{{event-follow-through:investigation-mid}}": "repair becomes emotionally riskier than failure",
+    "{{dialogue-line-hint:investigation-0-0}}": "the misprint mirrors the exact margin shift from the night Talia left",
     "{{dialogue-subtext:reframe}}": "changes the moral meaning of what was just said",
-    "{{dialogue-line-hint:reversal-0-1}}": "the curator chooses the doubled-margin proof as the book's defining design feature",
+    "{{dialogue-line-hint:investigation-0-1}}": "the misprint mirrors the exact margin shift from the night Talia left",
     "{{dialogue-reaction:reframe}}": "The new framing makes the old position harder to keep.",
-    "{{scene-introduction:reversal-1}}": "The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.",
-    "{{scene-development:reversal-1}}": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.",
-    "{{action-goal:reversal-1}}": "the future of the studio becomes inseparable from whether they can speak honestly",
-    "{{dialogue-line-hint:reversal-1-0}}": "Warehouse mock-up and public eyes",
-    "{{dialogue-line-hint:reversal-1-1}}": "Warehouse mock-up and public eyes",
-    "{{scene-introduction:reversal-2}}": "the curator chooses the doubled-margin proof as the book's defining design feature",
-    "{{scene-development:reversal-2}}": "their most damaged page becomes the commission's emotional signature",
-    "{{scene-resolution:reversal-final}}": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.",
-    "{{scene-state-change:reversal-final}}": "what they feel becomes harder to frame as accidental residue",
-    "{{action-goal:reversal-2}}": "Warehouse mock-up and public eyes",
-    "{{action-result:reversal-final}}": "what they feel becomes harder to frame as accidental residue",
-    "{{event-trigger:reversal-final}}": "the curator chooses the doubled-margin proof as the book's defining design feature",
-    "{{event-follow-through:reversal-final}}": "the future of the studio becomes inseparable from whether they can speak honestly",
+    "{{scene-introduction:investigation-1}}": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.",
+    "{{scene-development:investigation-1}}": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.",
+    "{{action-goal:investigation-1}}": "repair becomes emotionally riskier than failure",
+    "{{dialogue-line-hint:investigation-1-0}}": "The misprinted folio night",
+    "{{dialogue-line-hint:investigation-1-1}}": "The misprinted folio night",
+    "{{scene-introduction:investigation-2}}": "the misprint mirrors the exact margin shift from the night Talia left",
+    "{{scene-development:investigation-2}}": "the studio forces the past into the present workload",
+    "{{scene-resolution:investigation-final}}": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.",
+    "{{scene-state-change:investigation-final}}": "the work begins storing their conflict instead of hiding it",
+    "{{action-goal:investigation-2}}": "The misprinted folio night",
+    "{{action-result:investigation-final}}": "the work begins storing their conflict instead of hiding it",
+    "{{event-trigger:investigation-final}}": "the misprint mirrors the exact margin shift from the night Talia left",
+    "{{event-follow-through:investigation-final}}": "repair becomes emotionally riskier than failure",
     "{{dialogue-subtext:warn}}": "tries to protect the bond by narrowing the next available move",
-    "{{dialogue-line-hint:reversal-2-0}}": "The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.",
+    "{{dialogue-line-hint:investigation-2-0}}": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.",
     "{{dialogue-reaction:warn}}": "The warning narrows what can still be done safely.",
-    "{{dialogue-line-hint:reversal-2-1}}": "The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.",
-    "{{monologue-trigger:reversal}}": "their most damaged page becomes the commission's emotional signature",
-    "{{suspense-uncertainty:reversal}}": "Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?",
-    "{{pause-focus:reversal}}": "what they feel becomes harder to frame as accidental residue",
-    "{{acceleration-trigger:reversal}}": "the curator chooses the doubled-margin proof as the book's defining design feature",
-    "{{cliffhanger-moment:reversal}}": "the curator chooses the doubled-margin proof as the book's defining design feature",
-    "{{cliffhanger-continuation:reversal}}": "the future of the studio becomes inseparable from whether they can speak honestly",
+    "{{dialogue-line-hint:investigation-2-1}}": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.",
+    "{{monologue-trigger:investigation}}": "the studio forces the past into the present workload",
+    "{{suspense-uncertainty:investigation}}": "Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?",
+    "{{pause-focus:investigation}}": "the work begins storing their conflict instead of hiding it",
+    "{{acceleration-trigger:investigation}}": "the misprint mirrors the exact margin shift from the night Talia left",
+    "{{cliffhanger-moment:investigation}}": "the misprint mirrors the exact margin shift from the night Talia left",
+    "{{cliffhanger-continuation:investigation}}": "repair becomes emotionally riskier than failure",
+    "{{sequence-objective:revelation}}": "decide whether the launch should preserve the partnership or simply conclude it gracefully",
+    "{{sequence-conflict:revelation}}": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.",
+    "{{sequence-payoff:revelation}}": "the future of the studio becomes inseparable from whether they can speak honestly",
+    "{{visible-symptom:revelation}}": "the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work",
+    "{{action-limitation:revelation}}": "Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure.",
+    "{{conflict-output-rule:revelation}}": "shared labor turns every practical choice into a referendum on trust, apology, and future risk",
+    "{{challenge:protagonist-revelation}}": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.",
+    "{{insight-pressure:protagonist-revelation}}": "their most damaged page becomes the commission's emotional signature",
+    "{{relationship-stress:revelation}}": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.",
+    "{{reader-effect:revelation}}": "Is intimacy a threat to autonomy, or the form that honest autonomy eventually takes?",
+    "{{scene-introduction:revelation-0}}": "At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.",
+    "{{scene-development:revelation-0}}": "The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.",
+    "{{scene-conflict:revelation}}": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.",
+    "{{scene-resolution:revelation-mid}}": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.",
+    "{{scene-state-change:revelation-mid}}": "what they feel becomes harder to frame as accidental residue",
+    "{{action-goal:revelation-0}}": "decide whether the launch should preserve the partnership or simply conclude it gracefully",
+    "{{action-obstacle:revelation}}": "public success keeps rewarding them for the same evasions that nearly ruined them",
+    "{{conflict-escalation:revelation}}": "The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.",
+    "{{event-trigger:revelation-mid}}": "the curator chooses the doubled-margin proof as the book's defining design feature",
+    "{{event-impact:revelation}}": "their most damaged page becomes the commission's emotional signature",
+    "{{event-follow-through:revelation-mid}}": "the future of the studio becomes inseparable from whether they can speak honestly",
+    "{{dialogue-subtext:name-risk}}": "speaks the consequence both speakers hoped could stay implied",
+    "{{dialogue-line-hint:revelation-0-0}}": "the curator chooses the doubled-margin proof as the book's defining design feature",
+    "{{dialogue-reaction:name-risk}}": "Naming the risk turns pressure into irreversible commitment.",
+    "{{dialogue-line-hint:revelation-0-1}}": "the curator chooses the doubled-margin proof as the book's defining design feature",
+    "{{scene-introduction:revelation-1}}": "The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.",
+    "{{scene-development:revelation-1}}": "Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.",
+    "{{action-goal:revelation-1}}": "the future of the studio becomes inseparable from whether they can speak honestly",
+    "{{dialogue-line-hint:revelation-1-0}}": "Warehouse mock-up and public eyes",
+    "{{dialogue-line-hint:revelation-1-1}}": "Warehouse mock-up and public eyes",
+    "{{scene-introduction:revelation-2}}": "the curator chooses the doubled-margin proof as the book's defining design feature",
+    "{{scene-development:revelation-2}}": "their most damaged page becomes the commission's emotional signature",
+    "{{scene-resolution:revelation-final}}": "She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.",
+    "{{scene-state-change:revelation-final}}": "what they feel becomes harder to frame as accidental residue",
+    "{{action-goal:revelation-2}}": "Warehouse mock-up and public eyes",
+    "{{action-result:revelation-final}}": "what they feel becomes harder to frame as accidental residue",
+    "{{event-trigger:revelation-final}}": "the curator chooses the doubled-margin proof as the book's defining design feature",
+    "{{event-follow-through:revelation-final}}": "the future of the studio becomes inseparable from whether they can speak honestly",
+    "{{dialogue-line-hint:revelation-2-0}}": "The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.",
+    "{{dialogue-line-hint:revelation-2-1}}": "The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.",
+    "{{monologue-trigger:revelation}}": "their most damaged page becomes the commission's emotional signature",
+    "{{suspense-uncertainty:revelation}}": "Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?",
+    "{{pause-focus:revelation}}": "what they feel becomes harder to frame as accidental residue",
+    "{{acceleration-trigger:revelation}}": "the curator chooses the doubled-margin proof as the book's defining design feature",
+    "{{cliffhanger-moment:revelation}}": "the curator chooses the doubled-margin proof as the book's defining design feature",
+    "{{cliffhanger-continuation:revelation}}": "the future of the studio becomes inseparable from whether they can speak honestly",
     "{{sequence-objective:culmination}}": "finish the commission without sacrificing the truth that now gives it meaning",
     "{{sequence-conflict:culmination}}": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.",
+    "{{sequence-payoff:culmination}}": "the partnership survives because honesty finally becomes part of the work",
     "{{visible-symptom:culmination}}": "the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work",
     "{{action-limitation:culmination}}": "Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure.",
     "{{conflict-output-rule:culmination}}": "shared labor turns every practical choice into a referendum on trust, apology, and future risk",
@@ -547,9 +673,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{event-trigger:culmination-mid}}": "the dedication names the year Talia left and the future Leora still wants",
     "{{event-impact:culmination}}": "the launch becomes confession as much as success",
     "{{event-follow-through:culmination-mid}}": "the partnership survives because honesty finally becomes part of the work",
-    "{{dialogue-subtext:name-risk}}": "speaks the consequence both speakers hoped could stay implied",
     "{{dialogue-line-hint:culmination-0-0}}": "the dedication names the year Talia left and the future Leora still wants",
-    "{{dialogue-reaction:name-risk}}": "Naming the risk turns pressure into irreversible commitment.",
     "{{dialogue-line-hint:culmination-0-1}}": "the dedication names the year Talia left and the future Leora still wants",
     "{{scene-introduction:culmination-1}}": "Talia sees the page only after the first public copy is opened in front of the crowd.",
     "{{scene-development:culmination-1}}": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.",
@@ -569,7 +693,9 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{monologue-trigger:culmination}}": "the launch becomes confession as much as success",
     "{{suspense-uncertainty:culmination}}": "Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?",
     "{{pause-focus:culmination}}": "their bond shifts from guarded usefulness to acknowledged reciprocity",
-    "{{acceleration-trigger:culmination}}": "the dedication names the year Talia left and the future Leora still wants"
+    "{{acceleration-trigger:culmination}}": "the dedication names the year Talia left and the future Leora still wants",
+    "{{cliffhanger-moment:culmination}}": "the dedication names the year Talia left and the future Leora still wants",
+    "{{cliffhanger-continuation:culmination}}": "the partnership survives because honesty finally becomes part of the work"
   }
 }
 -->

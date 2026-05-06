@@ -1,7 +1,7 @@
 # Validation report for qa-drama-silence
 
 ## Metrics
-- **OI**: 68%
+- **OI**: 66%
 - **NCS**: 100%
 - **BCI**: 96%
 - **VAD_score**: 100%
@@ -13,7 +13,7 @@
 - **EAP**: 92%
 - **CAR**: 99%
 - **CS**: 93%
-- **NQS**: 88%
+- **NQS**: 87%
 
 ## Issues
 - No major deterministic issues were detected.

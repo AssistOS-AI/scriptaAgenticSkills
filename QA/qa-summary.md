@@ -3,11 +3,11 @@
 One-line summary for each canonical QA book run.
 
 ## Books
-- qa-detective-river (detective-police) — NQS 88% · CS 93% · CAR 99%
-- qa-drama-silence (drama) — NQS 88% · CS 93% · CAR 99%
-- qa-fantasy-ash (fantasy) — NQS 88% · CS 93% · CAR 99%
-- qa-romance-margins (romance-relational) — NQS 88% · CS 93% · CAR 99%
-- qa-scifi-orbit (science-fiction) — NQS 88% · CS 93% · CAR 99%
+- qa-detective-river (detective-police) — NQS 87% · CS 93% · CAR 99%
+- qa-drama-silence (drama) — NQS 87% · CS 93% · CAR 99%
+- qa-fantasy-ash (fantasy) — NQS 87% · CS 93% · CAR 99%
+- qa-romance-margins (romance-relational) — NQS 87% · CS 93% · CAR 99%
+- qa-scifi-orbit (science-fiction) — NQS 87% · CS 93% · CAR 99%
 
 <!-- scripta-data
 {
@@ -17,7 +17,7 @@ One-line summary for each canonical QA book run.
       "profile": "detective-police",
       "workspaceRoot": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-detective-river",
       "metrics": {
-        "OI": 68,
+        "OI": 66,
         "NCS": 100,
         "BCI": 96,
         "VAD_score": 100,
@@ -29,7 +29,7 @@ One-line summary for each canonical QA book run.
         "EAP": 92,
         "CAR": 99,
         "CS": 93,
-        "NQS": 88
+        "NQS": 87
       },
       "exportAudit": {
         "score": 100,
@@ -179,7 +179,7 @@ One-line summary for each canonical QA book run.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=68"
+          "evidence": "OI=66"
         },
         {
           "id": "task-002",
@@ -195,7 +195,7 @@ One-line summary for each canonical QA book run.
           "stage": "bookwriter",
           "title": "Improve final prose polish",
           "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-          "evidence": "NQS=88"
+          "evidence": "NQS=87"
         }
       ],
       "publishedEditions": [
@@ -208,10 +208,10 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/en/qa-detective-river.html",
           "metricsPage": "books/metrics/qa-detective-river.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 68,
+            "OI": 66,
             "EAP": 92
           }
         },
@@ -224,10 +224,10 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/ro/qa-detective-river.html",
           "metricsPage": "books/metrics/qa-detective-river.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 68,
+            "OI": 66,
             "EAP": 92
           }
         }
@@ -239,7 +239,7 @@ One-line summary for each canonical QA book run.
       "profile": "drama",
       "workspaceRoot": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence",
       "metrics": {
-        "OI": 68,
+        "OI": 66,
         "NCS": 100,
         "BCI": 96,
         "VAD_score": 100,
@@ -251,7 +251,7 @@ One-line summary for each canonical QA book run.
         "EAP": 92,
         "CAR": 99,
         "CS": 93,
-        "NQS": 88
+        "NQS": 87
       },
       "exportAudit": {
         "score": 100,
@@ -401,7 +401,7 @@ One-line summary for each canonical QA book run.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=68"
+          "evidence": "OI=66"
         },
         {
           "id": "task-002",
@@ -417,7 +417,7 @@ One-line summary for each canonical QA book run.
           "stage": "bookwriter",
           "title": "Improve final prose polish",
           "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-          "evidence": "NQS=88"
+          "evidence": "NQS=87"
         }
       ],
       "publishedEditions": [
@@ -430,10 +430,10 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/en/qa-drama-silence.html",
           "metricsPage": "books/metrics/qa-drama-silence.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 68,
+            "OI": 66,
             "EAP": 92
           }
         },
@@ -446,10 +446,10 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/ro/qa-drama-silence.html",
           "metricsPage": "books/metrics/qa-drama-silence.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 68,
+            "OI": 66,
             "EAP": 92
           }
         }
@@ -461,7 +461,7 @@ One-line summary for each canonical QA book run.
       "profile": "fantasy",
       "workspaceRoot": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash",
       "metrics": {
-        "OI": 68,
+        "OI": 66,
         "NCS": 100,
         "BCI": 96,
         "VAD_score": 100,
@@ -473,7 +473,7 @@ One-line summary for each canonical QA book run.
         "EAP": 92,
         "CAR": 99,
         "CS": 93,
-        "NQS": 88
+        "NQS": 87
       },
       "exportAudit": {
         "score": 100,
@@ -623,7 +623,7 @@ One-line summary for each canonical QA book run.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=68"
+          "evidence": "OI=66"
         },
         {
           "id": "task-002",
@@ -639,7 +639,7 @@ One-line summary for each canonical QA book run.
           "stage": "bookwriter",
           "title": "Improve final prose polish",
           "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-          "evidence": "NQS=88"
+          "evidence": "NQS=87"
         }
       ],
       "publishedEditions": [
@@ -652,10 +652,10 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/en/qa-fantasy-ash.html",
           "metricsPage": "books/metrics/qa-fantasy-ash.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 68,
+            "OI": 66,
             "EAP": 92
           }
         },
@@ -668,10 +668,10 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/ro/qa-fantasy-ash.html",
           "metricsPage": "books/metrics/qa-fantasy-ash.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 68,
+            "OI": 66,
             "EAP": 92
           }
         }
@@ -683,7 +683,7 @@ One-line summary for each canonical QA book run.
       "profile": "romance-relational",
       "workspaceRoot": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins",
       "metrics": {
-        "OI": 68,
+        "OI": 66,
         "NCS": 100,
         "BCI": 96,
         "VAD_score": 100,
@@ -695,7 +695,7 @@ One-line summary for each canonical QA book run.
         "EAP": 92,
         "CAR": 99,
         "CS": 93,
-        "NQS": 88
+        "NQS": 87
       },
       "exportAudit": {
         "score": 100,
@@ -845,7 +845,7 @@ One-line summary for each canonical QA book run.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=68"
+          "evidence": "OI=66"
         },
         {
           "id": "task-002",
@@ -861,7 +861,7 @@ One-line summary for each canonical QA book run.
           "stage": "bookwriter",
           "title": "Improve final prose polish",
           "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-          "evidence": "NQS=88"
+          "evidence": "NQS=87"
         }
       ],
       "publishedEditions": [
@@ -874,10 +874,10 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/en/qa-romance-margins.html",
           "metricsPage": "books/metrics/qa-romance-margins.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 68,
+            "OI": 66,
             "EAP": 92
           }
         },
@@ -890,10 +890,10 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/ro/qa-romance-margins.html",
           "metricsPage": "books/metrics/qa-romance-margins.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 68,
+            "OI": 66,
             "EAP": 92
           }
         }
@@ -905,7 +905,7 @@ One-line summary for each canonical QA book run.
       "profile": "science-fiction",
       "workspaceRoot": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-scifi-orbit",
       "metrics": {
-        "OI": 69,
+        "OI": 67,
         "NCS": 100,
         "BCI": 96,
         "VAD_score": 100,
@@ -917,7 +917,7 @@ One-line summary for each canonical QA book run.
         "EAP": 92,
         "CAR": 99,
         "CS": 93,
-        "NQS": 88
+        "NQS": 87
       },
       "exportAudit": {
         "score": 100,
@@ -1067,7 +1067,7 @@ One-line summary for each canonical QA book run.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=69"
+          "evidence": "OI=67"
         },
         {
           "id": "task-002",
@@ -1083,7 +1083,7 @@ One-line summary for each canonical QA book run.
           "stage": "bookwriter",
           "title": "Improve final prose polish",
           "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-          "evidence": "NQS=88"
+          "evidence": "NQS=87"
         }
       ],
       "publishedEditions": [
@@ -1096,10 +1096,10 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/en/qa-scifi-orbit.html",
           "metricsPage": "books/metrics/qa-scifi-orbit.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 69,
+            "OI": 67,
             "EAP": 92
           }
         },
@@ -1112,10 +1112,10 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/ro/qa-scifi-orbit.html",
           "metricsPage": "books/metrics/qa-scifi-orbit.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 69,
+            "OI": 67,
             "EAP": 92
           }
         }

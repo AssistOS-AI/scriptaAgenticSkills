@@ -7,7 +7,7 @@ conflict: Theo wants to publish immediately, while Nadia still needs proof that 
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 opening-mode: mystery-entry
 development-mode: investigation
-closing-mode: open-question
+closing-mode: cliffhanger
 handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-003
 thematic-focus: identity-self under resistance pressure
 rhythm-note: escalating

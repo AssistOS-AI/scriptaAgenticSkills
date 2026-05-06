@@ -69,18 +69,34 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{conflict:escalation}}: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
 - {{chapter-question:escalation}}: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?
 - {{world-pressure:escalation}}: technical maintenance becomes indistinguishable from political censorship
+- {{purpose:investigation}}: Escalation movement anchored by cargo route for the vanished vote
+- {{input-state:investigation-2}}: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+- {{output-state:investigation-2}}: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
+- {{conflict:investigation}}: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+- {{chapter-question:investigation}}: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?
+- {{world-pressure:investigation}}: technical maintenance becomes indistinguishable from political censorship
 - {{purpose:revelation}}: Revelation movement anchored by the room of amputated recall
-- {{input-state:revelation-2}}: the recovered vote proves the station once rejected the pacification protocol outright
-- {{output-state:revelation-2}}: Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.
+- {{input-state:revelation-3}}: Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies.
+- {{output-state:revelation-3}}: the ethical problem becomes a timed release rather than a discovery alone
 - {{conflict:revelation}}: Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.
 - {{chapter-question:revelation}}: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?
 - {{world-pressure:revelation}}: technical maintenance becomes indistinguishable from political censorship
 - {{purpose:culmination}}: Culmination movement anchored by broadcast of the unreturned
-- {{input-state:culmination-3}}: As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.
-- {{output-state:culmination-3}}: peace fractures, but consent re-enters the political life of the station
+- {{input-state:culmination-4}}: As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.
+- {{output-state:culmination-4}}: peace fractures, but consent re-enters the political life of the station
 - {{conflict:culmination}}: Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
 - {{chapter-question:culmination}}: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?
 - {{world-pressure:culmination}}: technical maintenance becomes indistinguishable from political censorship
+- {{input-state:culmination-5}}: As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.
+- {{output-state:culmination-5}}: peace fractures, but consent re-enters the political life of the station
+- {{input-state:culmination-6}}: As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.
+- {{output-state:culmination-6}}: peace fractures, but consent re-enters the political life of the station
+- {{input-state:culmination-7}}: As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.
+- {{output-state:culmination-7}}: peace fractures, but consent re-enters the political life of the station
+- {{input-state:culmination-8}}: As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.
+- {{output-state:culmination-8}}: peace fractures, but consent re-enters the political life of the station
+- {{input-state:culmination-9}}: As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.
+- {{output-state:culmination-9}}: peace fractures, but consent re-enters the political life of the station
 - {{sequence-objective:setup}}: preserve the anomalous memory trace before the orchard flushes it
 - {{sequence-conflict:setup}}: Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.
 - {{sequence-payoff:setup}}: Elian can no longer treat the problem as technical noise
@@ -182,6 +198,54 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{acceleration-trigger:escalation}}: one phantom crate is tagged with Elian's own authorization signature from two years earlier
 - {{cliffhanger-moment:escalation}}: one phantom crate is tagged with Elian's own authorization signature from two years earlier
 - {{cliffhanger-continuation:escalation}}: technical distance gives way to personal implication
+- {{sequence-objective:investigation}}: locate the archive ring without triggering a council lockdown
+- {{sequence-conflict:investigation}}: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+- {{sequence-payoff:investigation}}: technical distance gives way to personal implication
+- {{visible-symptom:investigation}}: citizens remember the emotional aftermath of conflict but not the decisions that created it
+- {{action-limitation:investigation}}: Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.
+- {{conflict-output-rule:investigation}}: technical maintenance becomes indistinguishable from political censorship
+- {{challenge:protagonist-investigation}}: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+- {{insight-pressure:protagonist-investigation}}: the conspiracy reaches into Elian's professional past
+- {{relationship-stress:investigation}}: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+- {{reader-effect:investigation}}: Is peace still peace when consent depends on not remembering the price?
+- {{scene-introduction:investigation-0}}: Yara flies Elian through maintenance lanes no civilian archivist is meant to access.
+- {{scene-development:investigation-0}}: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+- {{scene-conflict:investigation}}: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+- {{scene-resolution:investigation-mid}}: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
+- {{scene-state-change:investigation-mid}}: the station reveals a physical pathway for forgetting
+- {{action-goal:investigation-0}}: locate the archive ring without triggering a council lockdown
+- {{action-obstacle:investigation}}: the shuttle navigation grid reassigns routes whenever forbidden sectors are approached
+- {{conflict-escalation:investigation}}: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+- {{event-trigger:investigation-mid}}: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+- {{event-impact:investigation}}: the conspiracy reaches into Elian's professional past
+- {{event-follow-through:investigation-mid}}: technical distance gives way to personal implication
+- {{dialogue-subtext:reframe}}: changes the moral meaning of what was just said
+- {{dialogue-line-hint:investigation-0-0}}: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+- {{dialogue-reaction:reframe}}: The new framing makes the old position harder to keep.
+- {{dialogue-line-hint:investigation-0-1}}: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+- {{scene-introduction:investigation-1}}: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+- {{scene-development:investigation-1}}: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+- {{action-goal:investigation-1}}: technical distance gives way to personal implication
+- {{dialogue-line-hint:investigation-1-0}}: Cargo route for the vanished vote
+- {{dialogue-line-hint:investigation-1-1}}: Cargo route for the vanished vote
+- {{scene-introduction:investigation-2}}: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+- {{scene-development:investigation-2}}: the conspiracy reaches into Elian's professional past
+- {{scene-resolution:investigation-final}}: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
+- {{scene-state-change:investigation-final}}: the station reveals a physical pathway for forgetting
+- {{action-goal:investigation-2}}: Cargo route for the vanished vote
+- {{action-result:investigation-final}}: the station reveals a physical pathway for forgetting
+- {{event-trigger:investigation-final}}: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+- {{event-follow-through:investigation-final}}: technical distance gives way to personal implication
+- {{dialogue-subtext:commit}}: makes risk sound practical enough to become a promise
+- {{dialogue-line-hint:investigation-2-0}}: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+- {{dialogue-reaction:commit}}: The promise raises the stakes for the next exchange.
+- {{dialogue-line-hint:investigation-2-1}}: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+- {{monologue-trigger:investigation}}: the conspiracy reaches into Elian's professional past
+- {{suspense-uncertainty:investigation}}: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?
+- {{pause-focus:investigation}}: the station reveals a physical pathway for forgetting
+- {{acceleration-trigger:investigation}}: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+- {{cliffhanger-moment:investigation}}: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+- {{cliffhanger-continuation:investigation}}: technical distance gives way to personal implication
 - {{sequence-objective:revelation}}: design a restoration sequence that exposes the lie without collapsing life-support trust
 - {{sequence-conflict:revelation}}: Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.
 - {{sequence-payoff:revelation}}: Elian finally knows what truth must be returned first
@@ -203,9 +267,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{event-trigger:revelation-mid}}: the recovered vote proves the station once rejected the pacification protocol outright
 - {{event-impact:revelation}}: the council's legitimacy evaporates in one file
 - {{event-follow-through:revelation-mid}}: Elian finally knows what truth must be returned first
-- {{dialogue-subtext:reframe}}: changes the moral meaning of what was just said
 - {{dialogue-line-hint:revelation-0-0}}: the recovered vote proves the station once rejected the pacification protocol outright
-- {{dialogue-reaction:reframe}}: The new framing makes the old position harder to keep.
 - {{dialogue-line-hint:revelation-0-1}}: the recovered vote proves the station once rejected the pacification protocol outright
 - {{scene-introduction:revelation-1}}: Elian sees that her old optimization patch became the core of the pacification protocol.
 - {{scene-development:revelation-1}}: Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.
@@ -220,9 +282,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{action-result:revelation-final}}: the ethical problem becomes a timed release rather than a discovery alone
 - {{event-trigger:revelation-final}}: the recovered vote proves the station once rejected the pacification protocol outright
 - {{event-follow-through:revelation-final}}: Elian finally knows what truth must be returned first
-- {{dialogue-subtext:commit}}: makes risk sound practical enough to become a promise
 - {{dialogue-line-hint:revelation-2-0}}: Elian sees that her old optimization patch became the core of the pacification protocol.
-- {{dialogue-reaction:commit}}: The promise raises the stakes for the next exchange.
 - {{dialogue-line-hint:revelation-2-1}}: Elian sees that her old optimization patch became the core of the pacification protocol.
 - {{monologue-trigger:revelation}}: the council's legitimacy evaporates in one file
 - {{suspense-uncertainty:revelation}}: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?
@@ -232,6 +292,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{cliffhanger-continuation:revelation}}: Elian finally knows what truth must be returned first
 - {{sequence-objective:culmination}}: restore shared memory faster than the council can trigger another wipe
 - {{sequence-conflict:culmination}}: Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
+- {{sequence-payoff:culmination}}: the station survives only by surrendering its false innocence
 - {{visible-symptom:culmination}}: citizens remember the emotional aftermath of conflict but not the decisions that created it
 - {{action-limitation:culmination}}: Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.
 - {{conflict-output-rule:culmination}}: technical maintenance becomes indistinguishable from political censorship
@@ -251,7 +312,9 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{event-impact:culmination}}: public memory becomes impossible to confiscate again in silence
 - {{event-follow-through:culmination-mid}}: the station survives only by surrendering its false innocence
 - {{dialogue-line-hint:culmination-0-0}}: citizens across the station begin repeating the erased vote count aloud
+- {{dialogue-subtext:warn}}: tries to protect the bond by narrowing the next available move
 - {{dialogue-line-hint:culmination-0-1}}: citizens across the station begin repeating the erased vote count aloud
+- {{dialogue-reaction:warn}}: The warning narrows what can still be done safely.
 - {{scene-introduction:culmination-1}}: Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.
 - {{scene-development:culmination-1}}: Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
 - {{action-goal:culmination-1}}: the station survives only by surrendering its false innocence
@@ -271,6 +334,10 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{suspense-uncertainty:culmination}}: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?
 - {{pause-focus:culmination}}: peace fractures, but consent re-enters the political life of the station
 - {{acceleration-trigger:culmination}}: citizens across the station begin repeating the erased vote count aloud
+- {{cliffhanger-moment:culmination}}: citizens across the station begin repeating the erased vote count aloud
+- {{cliffhanger-continuation:culmination}}: the station survives only by surrendering its false innocence
+- {{dialogue-subtext:tease-probe}}: uses wit to test whether the wound can be named safely
+- {{dialogue-reaction:tease-probe}}: The joke opens a bruise neither speaker can ignore now.
 
 <!-- scripta-data
 {
@@ -360,18 +427,34 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{conflict:escalation}}": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
     "{{chapter-question:escalation}}": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
     "{{world-pressure:escalation}}": "technical maintenance becomes indistinguishable from political censorship",
+    "{{purpose:investigation}}": "Escalation movement anchored by cargo route for the vanished vote",
+    "{{input-state:investigation-2}}": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
+    "{{output-state:investigation-2}}": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+    "{{conflict:investigation}}": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
+    "{{chapter-question:investigation}}": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
+    "{{world-pressure:investigation}}": "technical maintenance becomes indistinguishable from political censorship",
     "{{purpose:revelation}}": "Revelation movement anchored by the room of amputated recall",
-    "{{input-state:revelation-2}}": "the recovered vote proves the station once rejected the pacification protocol outright",
-    "{{output-state:revelation-2}}": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
+    "{{input-state:revelation-3}}": "Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies.",
+    "{{output-state:revelation-3}}": "the ethical problem becomes a timed release rather than a discovery alone",
     "{{conflict:revelation}}": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
     "{{chapter-question:revelation}}": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
     "{{world-pressure:revelation}}": "technical maintenance becomes indistinguishable from political censorship",
     "{{purpose:culmination}}": "Culmination movement anchored by broadcast of the unreturned",
-    "{{input-state:culmination-3}}": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.",
-    "{{output-state:culmination-3}}": "peace fractures, but consent re-enters the political life of the station",
+    "{{input-state:culmination-4}}": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.",
+    "{{output-state:culmination-4}}": "peace fractures, but consent re-enters the political life of the station",
     "{{conflict:culmination}}": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
     "{{chapter-question:culmination}}": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
     "{{world-pressure:culmination}}": "technical maintenance becomes indistinguishable from political censorship",
+    "{{input-state:culmination-5}}": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.",
+    "{{output-state:culmination-5}}": "peace fractures, but consent re-enters the political life of the station",
+    "{{input-state:culmination-6}}": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.",
+    "{{output-state:culmination-6}}": "peace fractures, but consent re-enters the political life of the station",
+    "{{input-state:culmination-7}}": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.",
+    "{{output-state:culmination-7}}": "peace fractures, but consent re-enters the political life of the station",
+    "{{input-state:culmination-8}}": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.",
+    "{{output-state:culmination-8}}": "peace fractures, but consent re-enters the political life of the station",
+    "{{input-state:culmination-9}}": "As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.",
+    "{{output-state:culmination-9}}": "peace fractures, but consent re-enters the political life of the station",
     "{{sequence-objective:setup}}": "preserve the anomalous memory trace before the orchard flushes it",
     "{{sequence-conflict:setup}}": "Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.",
     "{{sequence-payoff:setup}}": "Elian can no longer treat the problem as technical noise",
@@ -473,6 +556,54 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{acceleration-trigger:escalation}}": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
     "{{cliffhanger-moment:escalation}}": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
     "{{cliffhanger-continuation:escalation}}": "technical distance gives way to personal implication",
+    "{{sequence-objective:investigation}}": "locate the archive ring without triggering a council lockdown",
+    "{{sequence-conflict:investigation}}": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
+    "{{sequence-payoff:investigation}}": "technical distance gives way to personal implication",
+    "{{visible-symptom:investigation}}": "citizens remember the emotional aftermath of conflict but not the decisions that created it",
+    "{{action-limitation:investigation}}": "Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.",
+    "{{conflict-output-rule:investigation}}": "technical maintenance becomes indistinguishable from political censorship",
+    "{{challenge:protagonist-investigation}}": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
+    "{{insight-pressure:protagonist-investigation}}": "the conspiracy reaches into Elian's professional past",
+    "{{relationship-stress:investigation}}": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
+    "{{reader-effect:investigation}}": "Is peace still peace when consent depends on not remembering the price?",
+    "{{scene-introduction:investigation-0}}": "Yara flies Elian through maintenance lanes no civilian archivist is meant to access.",
+    "{{scene-development:investigation-0}}": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.",
+    "{{scene-conflict:investigation}}": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
+    "{{scene-resolution:investigation-mid}}": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+    "{{scene-state-change:investigation-mid}}": "the station reveals a physical pathway for forgetting",
+    "{{action-goal:investigation-0}}": "locate the archive ring without triggering a council lockdown",
+    "{{action-obstacle:investigation}}": "the shuttle navigation grid reassigns routes whenever forbidden sectors are approached",
+    "{{conflict-escalation:investigation}}": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.",
+    "{{event-trigger:investigation-mid}}": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
+    "{{event-impact:investigation}}": "the conspiracy reaches into Elian's professional past",
+    "{{event-follow-through:investigation-mid}}": "technical distance gives way to personal implication",
+    "{{dialogue-subtext:reframe}}": "changes the moral meaning of what was just said",
+    "{{dialogue-line-hint:investigation-0-0}}": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
+    "{{dialogue-reaction:reframe}}": "The new framing makes the old position harder to keep.",
+    "{{dialogue-line-hint:investigation-0-1}}": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
+    "{{scene-introduction:investigation-1}}": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.",
+    "{{scene-development:investigation-1}}": "Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.",
+    "{{action-goal:investigation-1}}": "technical distance gives way to personal implication",
+    "{{dialogue-line-hint:investigation-1-0}}": "Cargo route for the vanished vote",
+    "{{dialogue-line-hint:investigation-1-1}}": "Cargo route for the vanished vote",
+    "{{scene-introduction:investigation-2}}": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
+    "{{scene-development:investigation-2}}": "the conspiracy reaches into Elian's professional past",
+    "{{scene-resolution:investigation-final}}": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+    "{{scene-state-change:investigation-final}}": "the station reveals a physical pathway for forgetting",
+    "{{action-goal:investigation-2}}": "Cargo route for the vanished vote",
+    "{{action-result:investigation-final}}": "the station reveals a physical pathway for forgetting",
+    "{{event-trigger:investigation-final}}": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
+    "{{event-follow-through:investigation-final}}": "technical distance gives way to personal implication",
+    "{{dialogue-subtext:commit}}": "makes risk sound practical enough to become a promise",
+    "{{dialogue-line-hint:investigation-2-0}}": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.",
+    "{{dialogue-reaction:commit}}": "The promise raises the stakes for the next exchange.",
+    "{{dialogue-line-hint:investigation-2-1}}": "They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.",
+    "{{monologue-trigger:investigation}}": "the conspiracy reaches into Elian's professional past",
+    "{{suspense-uncertainty:investigation}}": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
+    "{{pause-focus:investigation}}": "the station reveals a physical pathway for forgetting",
+    "{{acceleration-trigger:investigation}}": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
+    "{{cliffhanger-moment:investigation}}": "one phantom crate is tagged with Elian's own authorization signature from two years earlier",
+    "{{cliffhanger-continuation:investigation}}": "technical distance gives way to personal implication",
     "{{sequence-objective:revelation}}": "design a restoration sequence that exposes the lie without collapsing life-support trust",
     "{{sequence-conflict:revelation}}": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
     "{{sequence-payoff:revelation}}": "Elian finally knows what truth must be returned first",
@@ -494,9 +625,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{event-trigger:revelation-mid}}": "the recovered vote proves the station once rejected the pacification protocol outright",
     "{{event-impact:revelation}}": "the council's legitimacy evaporates in one file",
     "{{event-follow-through:revelation-mid}}": "Elian finally knows what truth must be returned first",
-    "{{dialogue-subtext:reframe}}": "changes the moral meaning of what was just said",
     "{{dialogue-line-hint:revelation-0-0}}": "the recovered vote proves the station once rejected the pacification protocol outright",
-    "{{dialogue-reaction:reframe}}": "The new framing makes the old position harder to keep.",
     "{{dialogue-line-hint:revelation-0-1}}": "the recovered vote proves the station once rejected the pacification protocol outright",
     "{{scene-introduction:revelation-1}}": "Elian sees that her old optimization patch became the core of the pacification protocol.",
     "{{scene-development:revelation-1}}": "Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.",
@@ -511,9 +640,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{action-result:revelation-final}}": "the ethical problem becomes a timed release rather than a discovery alone",
     "{{event-trigger:revelation-final}}": "the recovered vote proves the station once rejected the pacification protocol outright",
     "{{event-follow-through:revelation-final}}": "Elian finally knows what truth must be returned first",
-    "{{dialogue-subtext:commit}}": "makes risk sound practical enough to become a promise",
     "{{dialogue-line-hint:revelation-2-0}}": "Elian sees that her old optimization patch became the core of the pacification protocol.",
-    "{{dialogue-reaction:commit}}": "The promise raises the stakes for the next exchange.",
     "{{dialogue-line-hint:revelation-2-1}}": "Elian sees that her old optimization patch became the core of the pacification protocol.",
     "{{monologue-trigger:revelation}}": "the council's legitimacy evaporates in one file",
     "{{suspense-uncertainty:revelation}}": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
@@ -523,6 +650,7 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{cliffhanger-continuation:revelation}}": "Elian finally knows what truth must be returned first",
     "{{sequence-objective:culmination}}": "restore shared memory faster than the council can trigger another wipe",
     "{{sequence-conflict:culmination}}": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
+    "{{sequence-payoff:culmination}}": "the station survives only by surrendering its false innocence",
     "{{visible-symptom:culmination}}": "citizens remember the emotional aftermath of conflict but not the decisions that created it",
     "{{action-limitation:culmination}}": "Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.",
     "{{conflict-output-rule:culmination}}": "technical maintenance becomes indistinguishable from political censorship",
@@ -542,7 +670,9 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{event-impact:culmination}}": "public memory becomes impossible to confiscate again in silence",
     "{{event-follow-through:culmination-mid}}": "the station survives only by surrendering its false innocence",
     "{{dialogue-line-hint:culmination-0-0}}": "citizens across the station begin repeating the erased vote count aloud",
+    "{{dialogue-subtext:warn}}": "tries to protect the bond by narrowing the next available move",
     "{{dialogue-line-hint:culmination-0-1}}": "citizens across the station begin repeating the erased vote count aloud",
+    "{{dialogue-reaction:warn}}": "The warning narrows what can still be done safely.",
     "{{scene-introduction:culmination-1}}": "Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.",
     "{{scene-development:culmination-1}}": "Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.",
     "{{action-goal:culmination-1}}": "the station survives only by surrendering its false innocence",
@@ -561,7 +691,11 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{monologue-trigger:culmination}}": "public memory becomes impossible to confiscate again in silence",
     "{{suspense-uncertainty:culmination}}": "Can Elian restore the station's memory without destroying the fragile peace built on forgetting?",
     "{{pause-focus:culmination}}": "peace fractures, but consent re-enters the political life of the station",
-    "{{acceleration-trigger:culmination}}": "citizens across the station begin repeating the erased vote count aloud"
+    "{{acceleration-trigger:culmination}}": "citizens across the station begin repeating the erased vote count aloud",
+    "{{cliffhanger-moment:culmination}}": "citizens across the station begin repeating the erased vote count aloud",
+    "{{cliffhanger-continuation:culmination}}": "the station survives only by surrendering its false innocence",
+    "{{dialogue-subtext:tease-probe}}": "uses wit to test whether the wound can be named safely",
+    "{{dialogue-reaction:tease-probe}}": "The joke opens a bruise neither speaker can ignore now."
   }
 }
 -->

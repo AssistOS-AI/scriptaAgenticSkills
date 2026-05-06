@@ -249,6 +249,6 @@ target-zone: $scene-003-03
 
 @cliffhanger-003-exit cut
 scope: $chapter-003
-cliffhanger-type: critical-decision
+cliffhanger-type: interrupted-revelation
 cut-moment: {{cliffhanger-moment:investigation}}
 continuation-pressure: {{cliffhanger-continuation:investigation}}

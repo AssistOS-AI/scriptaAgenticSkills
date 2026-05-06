@@ -26,10 +26,10 @@ Published QA reader editions mirrored from the latest book workspaces.
       "publishedPath": "books/en/qa-detective-river.html",
       "metricsPage": "books/metrics/qa-detective-river.html",
       "metricsSnapshot": {
-        "NQS": 88,
+        "NQS": 87,
         "CS": 93,
         "CAR": 99,
-        "OI": 68,
+        "OI": 66,
         "EAP": 92
       }
     },
@@ -42,10 +42,10 @@ Published QA reader editions mirrored from the latest book workspaces.
       "publishedPath": "books/ro/qa-detective-river.html",
       "metricsPage": "books/metrics/qa-detective-river.html",
       "metricsSnapshot": {
-        "NQS": 88,
+        "NQS": 87,
         "CS": 93,
         "CAR": 99,
-        "OI": 68,
+        "OI": 66,
         "EAP": 92
       }
     },
@@ -58,10 +58,10 @@ Published QA reader editions mirrored from the latest book workspaces.
       "publishedPath": "books/en/qa-drama-silence.html",
       "metricsPage": "books/metrics/qa-drama-silence.html",
       "metricsSnapshot": {
-        "NQS": 88,
+        "NQS": 87,
         "CS": 93,
         "CAR": 99,
-        "OI": 68,
+        "OI": 66,
         "EAP": 92
       }
     },
@@ -74,10 +74,10 @@ Published QA reader editions mirrored from the latest book workspaces.
       "publishedPath": "books/ro/qa-drama-silence.html",
       "metricsPage": "books/metrics/qa-drama-silence.html",
       "metricsSnapshot": {
-        "NQS": 88,
+        "NQS": 87,
         "CS": 93,
         "CAR": 99,
-        "OI": 68,
+        "OI": 66,
         "EAP": 92
       }
     },
@@ -90,10 +90,10 @@ Published QA reader editions mirrored from the latest book workspaces.
       "publishedPath": "books/en/qa-fantasy-ash.html",
       "metricsPage": "books/metrics/qa-fantasy-ash.html",
       "metricsSnapshot": {
-        "NQS": 88,
+        "NQS": 87,
         "CS": 93,
         "CAR": 99,
-        "OI": 68,
+        "OI": 66,
         "EAP": 92
       }
     },
@@ -106,10 +106,10 @@ Published QA reader editions mirrored from the latest book workspaces.
       "publishedPath": "books/ro/qa-fantasy-ash.html",
       "metricsPage": "books/metrics/qa-fantasy-ash.html",
       "metricsSnapshot": {
-        "NQS": 88,
+        "NQS": 87,
         "CS": 93,
         "CAR": 99,
-        "OI": 68,
+        "OI": 66,
         "EAP": 92
       }
     },
@@ -122,10 +122,10 @@ Published QA reader editions mirrored from the latest book workspaces.
       "publishedPath": "books/en/qa-romance-margins.html",
       "metricsPage": "books/metrics/qa-romance-margins.html",
       "metricsSnapshot": {
-        "NQS": 88,
+        "NQS": 87,
         "CS": 93,
         "CAR": 99,
-        "OI": 68,
+        "OI": 66,
         "EAP": 92
       }
     },
@@ -138,10 +138,10 @@ Published QA reader editions mirrored from the latest book workspaces.
       "publishedPath": "books/ro/qa-romance-margins.html",
       "metricsPage": "books/metrics/qa-romance-margins.html",
       "metricsSnapshot": {
-        "NQS": 88,
+        "NQS": 87,
         "CS": 93,
         "CAR": 99,
-        "OI": 68,
+        "OI": 66,
         "EAP": 92
       }
     },
@@ -154,10 +154,10 @@ Published QA reader editions mirrored from the latest book workspaces.
       "publishedPath": "books/en/qa-scifi-orbit.html",
       "metricsPage": "books/metrics/qa-scifi-orbit.html",
       "metricsSnapshot": {
-        "NQS": 88,
+        "NQS": 87,
         "CS": 93,
         "CAR": 99,
-        "OI": 69,
+        "OI": 67,
         "EAP": 92
       }
     },
@@ -170,10 +170,10 @@ Published QA reader editions mirrored from the latest book workspaces.
       "publishedPath": "books/ro/qa-scifi-orbit.html",
       "metricsPage": "books/metrics/qa-scifi-orbit.html",
       "metricsSnapshot": {
-        "NQS": 88,
+        "NQS": 87,
         "CS": 93,
         "CAR": 99,
-        "OI": 69,
+        "OI": 67,
         "EAP": 92
       }
     }

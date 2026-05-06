@@ -75,12 +75,28 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{conflict:investigation}}: Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
 - {{chapter-question:investigation}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
 - {{world-pressure:investigation}}: every lawful request alerts the people most interested in erasing the answer
+- {{purpose:revelation}}: Revelation movement anchored by diversion beneath the spillway
+- {{input-state:revelation-3}}: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
+- {{output-state:revelation-3}}: the investigation turns from hidden search into institutional showdown
+- {{conflict:revelation}}: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+- {{chapter-question:revelation}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
+- {{world-pressure:revelation}}: every lawful request alerts the people most interested in erasing the answer
 - {{purpose:culmination}}: Culmination movement anchored by briefing room breach
-- {{input-state:culmination-3}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
-- {{output-state:culmination-3}}: the case survives because the institution loses control of its own narrative
+- {{input-state:culmination-4}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+- {{output-state:culmination-4}}: the case survives because the institution loses control of its own narrative
 - {{conflict:culmination}}: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 - {{chapter-question:culmination}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
 - {{world-pressure:culmination}}: every lawful request alerts the people most interested in erasing the answer
+- {{input-state:culmination-5}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+- {{output-state:culmination-5}}: the case survives because the institution loses control of its own narrative
+- {{input-state:culmination-6}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+- {{output-state:culmination-6}}: the case survives because the institution loses control of its own narrative
+- {{input-state:culmination-7}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+- {{output-state:culmination-7}}: the case survives because the institution loses control of its own narrative
+- {{input-state:culmination-8}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+- {{output-state:culmination-8}}: the case survives because the institution loses control of its own narrative
+- {{input-state:culmination-9}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+- {{output-state:culmination-9}}: the case survives because the institution loses control of its own narrative
 - {{sequence-objective:setup}}: preserve the physical inconsistency before it is corrected in the paperwork
 - {{sequence-conflict:setup}}: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
 - {{sequence-payoff:setup}}: Nadia has enough doubt to justify disobedience
@@ -232,8 +248,53 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{acceleration-trigger:investigation}}: a duplicate maintenance form appears with two different timestamps
 - {{cliffhanger-moment:investigation}}: a duplicate maintenance form appears with two different timestamps
 - {{cliffhanger-continuation:investigation}}: Nadia now knows the cover-up has a clock and a route
+- {{sequence-objective:revelation}}: separate proof of murder from the police pathway designed to bury it
+- {{sequence-conflict:revelation}}: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+- {{sequence-payoff:revelation}}: Nadia can now accuse the precinct itself of obstruction
+- {{visible-symptom:revelation}}: logs are complete on paper but physically impossible when matched against the river timing
+- {{action-limitation:revelation}}: Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
+- {{conflict-output-rule:revelation}}: every lawful request alerts the people most interested in erasing the answer
+- {{challenge:protagonist-revelation}}: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+- {{insight-pressure:protagonist-revelation}}: murder, not drowning, becomes the central fact
+- {{relationship-stress:revelation}}: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+- {{reader-effect:revelation}}: What remains of justice when institutions become experts at making truth look administrative?
+- {{scene-introduction:revelation-0}}: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
+- {{scene-development:revelation-0}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{scene-conflict:revelation}}: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+- {{scene-resolution:revelation-mid}}: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
+- {{scene-state-change:revelation-mid}}: the investigation turns from hidden search into institutional showdown
+- {{action-goal:revelation-0}}: separate proof of murder from the police pathway designed to bury it
+- {{action-obstacle:revelation}}: the only lawful reporting channel leads back to Soren's office
+- {{conflict-escalation:revelation}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{event-trigger:revelation-mid}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{event-impact:revelation}}: murder, not drowning, becomes the central fact
+- {{event-follow-through:revelation-mid}}: Nadia can now accuse the precinct itself of obstruction
+- {{dialogue-line-hint:revelation-0-0}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:revelation-0-1}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{scene-introduction:revelation-1}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{scene-development:revelation-1}}: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+- {{action-goal:revelation-1}}: Nadia can now accuse the precinct itself of obstruction
+- {{dialogue-line-hint:revelation-1-0}}: Diversion beneath the spillway
+- {{dialogue-line-hint:revelation-1-1}}: Diversion beneath the spillway
+- {{scene-introduction:revelation-2}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{scene-development:revelation-2}}: murder, not drowning, becomes the central fact
+- {{scene-resolution:revelation-final}}: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
+- {{scene-state-change:revelation-final}}: the investigation turns from hidden search into institutional showdown
+- {{action-goal:revelation-2}}: Diversion beneath the spillway
+- {{action-result:revelation-final}}: the investigation turns from hidden search into institutional showdown
+- {{event-trigger:revelation-final}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{event-follow-through:revelation-final}}: Nadia can now accuse the precinct itself of obstruction
+- {{dialogue-line-hint:revelation-2-0}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{dialogue-line-hint:revelation-2-1}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{monologue-trigger:revelation}}: murder, not drowning, becomes the central fact
+- {{suspense-uncertainty:revelation}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
+- {{pause-focus:revelation}}: the investigation turns from hidden search into institutional showdown
+- {{acceleration-trigger:revelation}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{cliffhanger-moment:revelation}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{cliffhanger-continuation:revelation}}: Nadia can now accuse the precinct itself of obstruction
 - {{sequence-objective:culmination}}: move the evidence faster than the suspension order
 - {{sequence-conflict:culmination}}: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+- {{sequence-payoff:culmination}}: the victim finally receives a case worthy of the facts
 - {{visible-symptom:culmination}}: logs are complete on paper but physically impossible when matched against the river timing
 - {{action-limitation:culmination}}: Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
 - {{conflict-output-rule:culmination}}: every lawful request alerts the people most interested in erasing the answer
@@ -273,6 +334,10 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{suspense-uncertainty:culmination}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
 - {{pause-focus:culmination}}: the case survives because the institution loses control of its own narrative
 - {{acceleration-trigger:culmination}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{cliffhanger-moment:culmination}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{cliffhanger-continuation:culmination}}: the victim finally receives a case worthy of the facts
+- {{dialogue-subtext:challenge}}: refuses the easier story and forces the pressure into view
+- {{dialogue-reaction:challenge}}: The challenge strips politeness away from the scene.
 
 <!-- scripta-data
 {
@@ -368,12 +433,28 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{conflict:investigation}}": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.",
     "{{chapter-question:investigation}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
     "{{world-pressure:investigation}}": "every lawful request alerts the people most interested in erasing the answer",
+    "{{purpose:revelation}}": "Revelation movement anchored by diversion beneath the spillway",
+    "{{input-state:revelation-3}}": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.",
+    "{{output-state:revelation-3}}": "the investigation turns from hidden search into institutional showdown",
+    "{{conflict:revelation}}": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.",
+    "{{chapter-question:revelation}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
+    "{{world-pressure:revelation}}": "every lawful request alerts the people most interested in erasing the answer",
     "{{purpose:culmination}}": "Culmination movement anchored by briefing room breach",
-    "{{input-state:culmination-3}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
-    "{{output-state:culmination-3}}": "the case survives because the institution loses control of its own narrative",
+    "{{input-state:culmination-4}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
+    "{{output-state:culmination-4}}": "the case survives because the institution loses control of its own narrative",
     "{{conflict:culmination}}": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.",
     "{{chapter-question:culmination}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
     "{{world-pressure:culmination}}": "every lawful request alerts the people most interested in erasing the answer",
+    "{{input-state:culmination-5}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
+    "{{output-state:culmination-5}}": "the case survives because the institution loses control of its own narrative",
+    "{{input-state:culmination-6}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
+    "{{output-state:culmination-6}}": "the case survives because the institution loses control of its own narrative",
+    "{{input-state:culmination-7}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
+    "{{output-state:culmination-7}}": "the case survives because the institution loses control of its own narrative",
+    "{{input-state:culmination-8}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
+    "{{output-state:culmination-8}}": "the case survives because the institution loses control of its own narrative",
+    "{{input-state:culmination-9}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
+    "{{output-state:culmination-9}}": "the case survives because the institution loses control of its own narrative",
     "{{sequence-objective:setup}}": "preserve the physical inconsistency before it is corrected in the paperwork",
     "{{sequence-conflict:setup}}": "Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.",
     "{{sequence-payoff:setup}}": "Nadia has enough doubt to justify disobedience",
@@ -525,8 +606,53 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{acceleration-trigger:investigation}}": "a duplicate maintenance form appears with two different timestamps",
     "{{cliffhanger-moment:investigation}}": "a duplicate maintenance form appears with two different timestamps",
     "{{cliffhanger-continuation:investigation}}": "Nadia now knows the cover-up has a clock and a route",
+    "{{sequence-objective:revelation}}": "separate proof of murder from the police pathway designed to bury it",
+    "{{sequence-conflict:revelation}}": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.",
+    "{{sequence-payoff:revelation}}": "Nadia can now accuse the precinct itself of obstruction",
+    "{{visible-symptom:revelation}}": "logs are complete on paper but physically impossible when matched against the river timing",
+    "{{action-limitation:revelation}}": "Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.",
+    "{{conflict-output-rule:revelation}}": "every lawful request alerts the people most interested in erasing the answer",
+    "{{challenge:protagonist-revelation}}": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.",
+    "{{insight-pressure:protagonist-revelation}}": "murder, not drowning, becomes the central fact",
+    "{{relationship-stress:revelation}}": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.",
+    "{{reader-effect:revelation}}": "What remains of justice when institutions become experts at making truth look administrative?",
+    "{{scene-introduction:revelation-0}}": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.",
+    "{{scene-development:revelation-0}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{scene-conflict:revelation}}": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.",
+    "{{scene-resolution:revelation-mid}}": "She copies the drive, then files the bolt officially so the precinct cannot deny it existed.",
+    "{{scene-state-change:revelation-mid}}": "the investigation turns from hidden search into institutional showdown",
+    "{{action-goal:revelation-0}}": "separate proof of murder from the police pathway designed to bury it",
+    "{{action-obstacle:revelation}}": "the only lawful reporting channel leads back to Soren's office",
+    "{{conflict-escalation:revelation}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{event-trigger:revelation-mid}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{event-impact:revelation}}": "murder, not drowning, becomes the central fact",
+    "{{event-follow-through:revelation-mid}}": "Nadia can now accuse the precinct itself of obstruction",
+    "{{dialogue-line-hint:revelation-0-0}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:revelation-0-1}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{scene-introduction:revelation-1}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{scene-development:revelation-1}}": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.",
+    "{{action-goal:revelation-1}}": "Nadia can now accuse the precinct itself of obstruction",
+    "{{dialogue-line-hint:revelation-1-0}}": "Diversion beneath the spillway",
+    "{{dialogue-line-hint:revelation-1-1}}": "Diversion beneath the spillway",
+    "{{scene-introduction:revelation-2}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{scene-development:revelation-2}}": "murder, not drowning, becomes the central fact",
+    "{{scene-resolution:revelation-final}}": "She copies the drive, then files the bolt officially so the precinct cannot deny it existed.",
+    "{{scene-state-change:revelation-final}}": "the investigation turns from hidden search into institutional showdown",
+    "{{action-goal:revelation-2}}": "Diversion beneath the spillway",
+    "{{action-result:revelation-final}}": "the investigation turns from hidden search into institutional showdown",
+    "{{event-trigger:revelation-final}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{event-follow-through:revelation-final}}": "Nadia can now accuse the precinct itself of obstruction",
+    "{{dialogue-line-hint:revelation-2-0}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{dialogue-line-hint:revelation-2-1}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{monologue-trigger:revelation}}": "murder, not drowning, becomes the central fact",
+    "{{suspense-uncertainty:revelation}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
+    "{{pause-focus:revelation}}": "the investigation turns from hidden search into institutional showdown",
+    "{{acceleration-trigger:revelation}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{cliffhanger-moment:revelation}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{cliffhanger-continuation:revelation}}": "Nadia can now accuse the precinct itself of obstruction",
     "{{sequence-objective:culmination}}": "move the evidence faster than the suspension order",
     "{{sequence-conflict:culmination}}": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.",
+    "{{sequence-payoff:culmination}}": "the victim finally receives a case worthy of the facts",
     "{{visible-symptom:culmination}}": "logs are complete on paper but physically impossible when matched against the river timing",
     "{{action-limitation:culmination}}": "Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.",
     "{{conflict-output-rule:culmination}}": "every lawful request alerts the people most interested in erasing the answer",
@@ -565,7 +691,11 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{monologue-trigger:culmination}}": "command authority becomes visible complicity",
     "{{suspense-uncertainty:culmination}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
     "{{pause-focus:culmination}}": "the case survives because the institution loses control of its own narrative",
-    "{{acceleration-trigger:culmination}}": "the footage freezes on Soren entering the lock corridor minutes after the murder"
+    "{{acceleration-trigger:culmination}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{cliffhanger-moment:culmination}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{cliffhanger-continuation:culmination}}": "the victim finally receives a case worthy of the facts",
+    "{{dialogue-subtext:challenge}}": "refuses the easier story and forces the pressure into view",
+    "{{dialogue-reaction:challenge}}": "The challenge strips politeness away from the scene."
   }
 }
 -->

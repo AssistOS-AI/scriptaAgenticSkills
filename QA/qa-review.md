@@ -180,7 +180,7 @@ Consolidated QA review across all canonical books.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=68"
+          "evidence": "OI=66"
         },
         {
           "id": "task-002",
@@ -196,7 +196,7 @@ Consolidated QA review across all canonical books.
           "stage": "bookwriter",
           "title": "Improve final prose polish",
           "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-          "evidence": "NQS=88"
+          "evidence": "NQS=87"
         }
       ],
       "publishedEditions": [
@@ -209,10 +209,10 @@ Consolidated QA review across all canonical books.
           "publishedPath": "books/en/qa-detective-river.html",
           "metricsPage": "books/metrics/qa-detective-river.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 68,
+            "OI": 66,
             "EAP": 92
           }
         },
@@ -225,10 +225,10 @@ Consolidated QA review across all canonical books.
           "publishedPath": "books/ro/qa-detective-river.html",
           "metricsPage": "books/metrics/qa-detective-river.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 68,
+            "OI": 66,
             "EAP": 92
           }
         }
@@ -386,7 +386,7 @@ Consolidated QA review across all canonical books.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=68"
+          "evidence": "OI=66"
         },
         {
           "id": "task-002",
@@ -402,7 +402,7 @@ Consolidated QA review across all canonical books.
           "stage": "bookwriter",
           "title": "Improve final prose polish",
           "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-          "evidence": "NQS=88"
+          "evidence": "NQS=87"
         }
       ],
       "publishedEditions": [
@@ -415,10 +415,10 @@ Consolidated QA review across all canonical books.
           "publishedPath": "books/en/qa-drama-silence.html",
           "metricsPage": "books/metrics/qa-drama-silence.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 68,
+            "OI": 66,
             "EAP": 92
           }
         },
@@ -431,10 +431,10 @@ Consolidated QA review across all canonical books.
           "publishedPath": "books/ro/qa-drama-silence.html",
           "metricsPage": "books/metrics/qa-drama-silence.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 68,
+            "OI": 66,
             "EAP": 92
           }
         }
@@ -592,7 +592,7 @@ Consolidated QA review across all canonical books.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=68"
+          "evidence": "OI=66"
         },
         {
           "id": "task-002",
@@ -608,7 +608,7 @@ Consolidated QA review across all canonical books.
           "stage": "bookwriter",
           "title": "Improve final prose polish",
           "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-          "evidence": "NQS=88"
+          "evidence": "NQS=87"
         }
       ],
       "publishedEditions": [
@@ -621,10 +621,10 @@ Consolidated QA review across all canonical books.
           "publishedPath": "books/en/qa-fantasy-ash.html",
           "metricsPage": "books/metrics/qa-fantasy-ash.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 68,
+            "OI": 66,
             "EAP": 92
           }
         },
@@ -637,10 +637,10 @@ Consolidated QA review across all canonical books.
           "publishedPath": "books/ro/qa-fantasy-ash.html",
           "metricsPage": "books/metrics/qa-fantasy-ash.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 68,
+            "OI": 66,
             "EAP": 92
           }
         }
@@ -798,7 +798,7 @@ Consolidated QA review across all canonical books.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=68"
+          "evidence": "OI=66"
         },
         {
           "id": "task-002",
@@ -814,7 +814,7 @@ Consolidated QA review across all canonical books.
           "stage": "bookwriter",
           "title": "Improve final prose polish",
           "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-          "evidence": "NQS=88"
+          "evidence": "NQS=87"
         }
       ],
       "publishedEditions": [
@@ -827,10 +827,10 @@ Consolidated QA review across all canonical books.
           "publishedPath": "books/en/qa-romance-margins.html",
           "metricsPage": "books/metrics/qa-romance-margins.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 68,
+            "OI": 66,
             "EAP": 92
           }
         },
@@ -843,10 +843,10 @@ Consolidated QA review across all canonical books.
           "publishedPath": "books/ro/qa-romance-margins.html",
           "metricsPage": "books/metrics/qa-romance-margins.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 68,
+            "OI": 66,
             "EAP": 92
           }
         }
@@ -1004,7 +1004,7 @@ Consolidated QA review across all canonical books.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=69"
+          "evidence": "OI=67"
         },
         {
           "id": "task-002",
@@ -1020,7 +1020,7 @@ Consolidated QA review across all canonical books.
           "stage": "bookwriter",
           "title": "Improve final prose polish",
           "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-          "evidence": "NQS=88"
+          "evidence": "NQS=87"
         }
       ],
       "publishedEditions": [
@@ -1033,10 +1033,10 @@ Consolidated QA review across all canonical books.
           "publishedPath": "books/en/qa-scifi-orbit.html",
           "metricsPage": "books/metrics/qa-scifi-orbit.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 69,
+            "OI": 67,
             "EAP": 92
           }
         },
@@ -1049,10 +1049,10 @@ Consolidated QA review across all canonical books.
           "publishedPath": "books/ro/qa-scifi-orbit.html",
           "metricsPage": "books/metrics/qa-scifi-orbit.html",
           "metricsSnapshot": {
-            "NQS": 88,
+            "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 69,
+            "OI": 67,
             "EAP": 92
           }
         }
@@ -1069,7 +1069,7 @@ Consolidated QA review across all canonical books.
       "stage": "micro",
       "title": "Increase lexical novelty",
       "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-      "evidence": "OI=68"
+      "evidence": "OI=66"
     },
     {
       "bookId": "qa-detective-river",
@@ -1089,7 +1089,7 @@ Consolidated QA review across all canonical books.
       "stage": "bookwriter",
       "title": "Improve final prose polish",
       "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-      "evidence": "NQS=88"
+      "evidence": "NQS=87"
     },
     {
       "bookId": "qa-drama-silence",
@@ -1099,7 +1099,7 @@ Consolidated QA review across all canonical books.
       "stage": "micro",
       "title": "Increase lexical novelty",
       "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-      "evidence": "OI=68"
+      "evidence": "OI=66"
     },
     {
       "bookId": "qa-drama-silence",
@@ -1119,7 +1119,7 @@ Consolidated QA review across all canonical books.
       "stage": "bookwriter",
       "title": "Improve final prose polish",
       "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-      "evidence": "NQS=88"
+      "evidence": "NQS=87"
     },
     {
       "bookId": "qa-fantasy-ash",
@@ -1129,7 +1129,7 @@ Consolidated QA review across all canonical books.
       "stage": "micro",
       "title": "Increase lexical novelty",
       "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-      "evidence": "OI=68"
+      "evidence": "OI=66"
     },
     {
       "bookId": "qa-fantasy-ash",
@@ -1149,7 +1149,7 @@ Consolidated QA review across all canonical books.
       "stage": "bookwriter",
       "title": "Improve final prose polish",
       "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-      "evidence": "NQS=88"
+      "evidence": "NQS=87"
     },
     {
       "bookId": "qa-romance-margins",
@@ -1159,7 +1159,7 @@ Consolidated QA review across all canonical books.
       "stage": "micro",
       "title": "Increase lexical novelty",
       "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-      "evidence": "OI=68"
+      "evidence": "OI=66"
     },
     {
       "bookId": "qa-romance-margins",
@@ -1179,7 +1179,7 @@ Consolidated QA review across all canonical books.
       "stage": "bookwriter",
       "title": "Improve final prose polish",
       "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-      "evidence": "NQS=88"
+      "evidence": "NQS=87"
     },
     {
       "bookId": "qa-scifi-orbit",
@@ -1189,7 +1189,7 @@ Consolidated QA review across all canonical books.
       "stage": "micro",
       "title": "Increase lexical novelty",
       "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-      "evidence": "OI=69"
+      "evidence": "OI=67"
     },
     {
       "bookId": "qa-scifi-orbit",
@@ -1209,7 +1209,7 @@ Consolidated QA review across all canonical books.
       "stage": "bookwriter",
       "title": "Improve final prose polish",
       "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-      "evidence": "NQS=88"
+      "evidence": "NQS=87"
     }
   ]
 }
