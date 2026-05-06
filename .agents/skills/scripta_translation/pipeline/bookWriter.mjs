@@ -359,24 +359,23 @@ function buildEditionChapter(model, chapter, languageCode) {
     const impact = sentenceCase(localizeBookText(scene.event.impact ?? scene.stateChange ?? '', languageCode));
     const resolution = normalizeNarrativePhrase(scene.resolution, languageCode);
 
-    if (languageCode === 'ro') {
-      pushUniqueParagraph(paragraphs, buildNarrativeParagraph([
+    const sceneParagraph = languageCode === 'ro'
+      ? buildNarrativeParagraph([
         index === 0 ? `${introduction}.` : `Mai tarziu, ${continueSentence(introduction)}.`,
         development ? `${development}.` : '',
         `${conflict}.`,
         trigger && impact ? `Cand ${lowerFirst(trigger)}, ${lowerFirst(stripTerminalPunctuation(impact))}.` : '',
         resolution ? `${resolution}.` : ''
-      ]));
-      return;
-    }
+      ])
+      : buildNarrativeParagraph([
+        index === 0 ? `${introduction}.` : `Later, ${continueSentence(introduction)}.`,
+        development ? `${development}.` : '',
+        `${conflict}.`,
+        trigger && impact ? `When ${lowerFirst(trigger)}, ${lowerFirst(stripTerminalPunctuation(impact))}.` : '',
+        resolution ? `${resolution}.` : ''
+      ]);
 
-    pushUniqueParagraph(paragraphs, buildNarrativeParagraph([
-      index === 0 ? `${introduction}.` : `Later, ${continueSentence(introduction)}.`,
-      development ? `${development}.` : '',
-      `${conflict}.`,
-      trigger && impact ? `When ${lowerFirst(trigger)}, ${lowerFirst(stripTerminalPunctuation(impact))}.` : '',
-      resolution ? `${resolution}.` : ''
-    ]));
+    pushUniqueParagraph(paragraphs, sceneParagraph);
 
     const renderedDialogue = renderEditionDialogue(scene.dialogueTurns.slice(0, dialogueLimit), languageCode);
     if (renderedDialogue) {
