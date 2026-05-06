@@ -35,10 +35,11 @@ test('BookWriter emits the source edition and the translation source bundle', as
     assert.match(englishHtml, /<svg/);
     assert.match(englishHtml, /Contents/);
     assert.match(englishHtml, /@media print/);
-    assert.match(englishHtml, /(Nothing that has opened here will close easily\.|The live question now tightens around what still refuses a clean answer:)/);
+    assert.match(englishHtml, /"[^"]+," (?:says|asks|warns|counters|presses|insists)/);
     assert.doesNotMatch(englishHtml, /By the end of the chapter/);
     assert.doesNotMatch(englishHtml, /The chapter question is/);
     assert.doesNotMatch(englishHtml, /Production appendix/);
+    assert.doesNotMatch(englishHtml, /Generated with|Translation instruction|Book ID/);
     assert.doesNotMatch(englishHtml, /while the chapter still carries/);
     assert.doesNotMatch(englishHtml, /The scene closes|The scene ends/);
     assert.doesNotMatch(englishHtml, /\[object Object\]/);

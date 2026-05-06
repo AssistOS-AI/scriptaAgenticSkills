@@ -555,6 +555,79 @@ function detectOverlap(content) {
   return matches;
 }
 
+function detectRepeatedScaffolds(draft) {
+  const paragraphs = splitParagraphs(draft.content);
+  const chapter = draft.artifact.baseName;
+  const seen = new Map();
+  const matches = [];
+
+  for (let index = 0; index < paragraphs.length; index += 1) {
+    const normalized = normalizeScaffoldSentence(paragraphs[index]);
+    if (!normalized || normalized.split(' ').length < 7) {
+      continue;
+    }
+
+    if (seen.has(normalized)) {
+      matches.push({
+        chapter,
+        paragraph: index + 1,
+        phrase: normalized
+      });
+      continue;
+    }
+
+    seen.set(normalized, index + 1);
+  }
+
+  return matches;
+}
+
+function detectDraftSurfaceLeaks(draft) {
+  const paragraphs = splitParagraphs(draft.content);
+  const chapter = draft.artifact.baseName;
+  const matches = [];
+  const leakPatterns = [
+    /a hint for the dialogue line/i,
+    /\bthe immediate result is\b/i,
+    /\bthe central question here is\b/i,
+    /\bby the end of (?:the )?chapter\b/i
+  ];
+
+  for (let index = 0; index < paragraphs.length; index += 1) {
+    const paragraph = paragraphs[index];
+    const pattern = leakPatterns.find((entry) => entry.test(paragraph));
+    if (pattern) {
+      matches.push({
+        chapter,
+        paragraph: index + 1,
+        message: `Draft scaffold leaked into visible prose: "${paragraph}".`
+      });
+    }
+  }
+
+  if (!/<!-- scripta-draft-data/.test(draft.content)) {
+    matches.push({
+      chapter,
+      paragraph: null,
+      message: 'Draft artifact is missing the hidden draft payload marker.'
+    });
+  }
+
+  return matches;
+}
+
+function normalizeScaffoldSentence(value) {
+  return String(value ?? '')
+    .toLowerCase()
+    .replace(/<!--[\s\S]*?-->/g, '')
+    .replace(/^#+\s+/gm, '')
+    .replace(/"[^"]+"/g, '"quote"')
+    .replace(/\b[a-z]+-\d+\b/g, 'token')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .replace(/[.?!]+$/g, '');
+}
+
 function locateParagraph(paragraphs, token) {
   return paragraphs.findIndex((paragraph) => paragraph.includes(token)) + 1;
 }
