@@ -35,10 +35,12 @@ test('QA generation emits consolidated review and task artifacts', async () => {
       assert.match(libraryIndex, /metrics library/i);
       assert.match(englishBook, /When the Silence Returns/);
       assert.match(romanianBook, /Cand se intoarce tacerea/);
-      assert.ok((englishBook.match(/class="chapter page-break"/g) ?? []).length >= 8);
-      assert.ok((romanianBook.match(/class="chapter page-break"/g) ?? []).length >= 8);
-      assert.match(englishBook, / says\./);
-      assert.match(romanianBook, / spune /);
+      assert.ok((englishBook.match(/class="chapter page-break"/g) ?? []).length >= 12);
+      assert.ok((romanianBook.match(/class="chapter page-break"/g) ?? []).length >= 12);
+      assert.ok((englishBook.match(/<p>/g) ?? []).length >= 140);
+      assert.ok((romanianBook.match(/<p>/g) ?? []).length >= 140);
+      assert.match(englishBook, /\b(says|asks|replies|warns|admits|teases|cuts in)\b/);
+      assert.match(romanianBook, /\b(spune|replica|raspunde|avertizeaza|murmura|adauga|marturiseste|rosteste)\b/);
       assert.match(metricsIndex, /SCRIPTA QA Metrics Library/);
       assert.match(metricsPage, /Localized issues/);
       assert.match(preservedVision, /qa-drama-silence/);

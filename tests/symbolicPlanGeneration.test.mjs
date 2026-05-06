@@ -57,3 +57,35 @@ test('symbolic generation creates append-only macro, chapter, and micro artifact
     await workspace.cleanup();
   }
 });
+
+test('symbolic generation expands cast, locations, objects, and dialogue turns for long-form books', async () => {
+  const workspace = await createTempWorkspace('scripta-seed-long-');
+
+  try {
+    const run = await generateSymbolicSeed({
+      bookId: 'seed-long-book',
+      baselineProfile: 'fantasy',
+      workspaceRoot: workspace.directoryPath,
+      chapterCount: 12,
+      targetWords: 96000,
+      sceneDensity: 'high',
+      dialogueDensity: 'high',
+      seed: 'test-seed-long'
+    });
+
+    const characterArtifact = run.artifacts.find((artifact) => artifact.baseName === 'characters');
+    const worldArtifact = run.artifacts.find((artifact) => artifact.baseName === 'world');
+    const microArtifact = run.artifacts.find((artifact) => artifact.relativePath.startsWith(`${STAGE_FOLDERS.micro}/`));
+    const characterContent = await readFile(characterArtifact.filePath, 'utf8');
+    const worldContent = await readFile(worldArtifact.filePath, 'utf8');
+    const microContent = await readFile(microArtifact.filePath, 'utf8');
+
+    assert.match(characterContent, /@character-support-001 define/);
+    assert.match(worldContent, /@location-tertiary-001 define/);
+    assert.match(worldContent, /@plot-element-secondary-001 define/);
+    assert.ok((microContent.match(/^@dialogue-turn-/gm) ?? []).length >= 20);
+    assert.ok((microContent.match(/^@scene-/gm) ?? []).length >= 5);
+  } finally {
+    await workspace.cleanup();
+  }
+});
