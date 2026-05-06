@@ -37,23 +37,23 @@ openness: open
 anti-didactic-rule: insight must emerge from consequences, reversals, and conflicting voices
 
 @narrative-structure define
-information-order: flashback-rich
+information-order: delayed-reveal
 causal-density: moderate
 macro-form: fragmented
-beginning: establish $character-protagonist-001 inside $location-primary and the pressure around {{organization:ORG_001}}
+beginning: establish $character-protagonist-001 inside $location-primary and the pressure around Greywater mediation office
 inciting-incident: {{inciting-incident:primary}}
 middle: escalation, pressure, and relational strain expose the cost of {{desire:protagonist}}
 plot-point-1: $character-protagonist-001 commits to action instead of withdrawal
-midpoint: {{object:OBJECT_001}} reveals a hidden layer of the conflict
+midpoint: the flood compensation ledger reveals a hidden layer of the conflict
 plot-point-2: $character-pressure-001 turns pressure into direct threat
 climax: {{dilemma:central}}
 resolution: a new equilibrium forms after $character-protagonist-001 accepts irreversible cost
-causal-rule: every-reveal-must-change-the-moral-reading
+causal-rule: every-major-choice-must-create-visible-consequence
 
 @narrative-model select
 adaptation-strength: adapted
 model-name: three-act
-core-pattern: disruption-escalates-into-irreversible-choice
+core-pattern: desire-opposed-by-system
 fit-reason: the drama profile needs direct escalation with meaningful internal cost
 transformation-logic: $character-protagonist-001 changes while the surrounding system reveals its hidden logic
 genre-compatibility: Drama
@@ -61,37 +61,38 @@ adaptation-note: the chosen model is bent toward short-form clarity and evidence
 
 @blueprint map
 premise: {{premise:primary}}
-exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around {{object:OBJECT_001}}
-rising-action: pressure from $character-pressure-001 and {{organization:ORG_001}} complicates every attempt to act
-midpoint-shift: {{object:OBJECT_001}} changes what the protagonist understands about the conflict
+exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around the flood compensation ledger
+rising-action: pressure from $character-pressure-001 and Greywater mediation office complicates every attempt to act
+midpoint-shift: the flood compensation ledger changes what the protagonist understands about the conflict
 climax: {{dilemma:central}}
-resolution: the core conflict resolves with lasting cost and a redefined relation to {{organization:ORG_001}}
+resolution: the core conflict resolves with lasting cost and a redefined relation to Greywater mediation office
 emotional-layer: curiosity -> tension -> surprise -> shock -> bittersweet-release
-stakes-ladder: relational-risk-to-identity-cost
+ensemble-pressure: $character-support-001, $character-support-002, $character-support-003 widen the cost beyond the central trio
+stakes-ladder: anomaly-to-systemic-reveal
 
 @arc-book-main map
 arc-axis: identity-self under reconciliation pressure
-opening-state: functional-partnership-guarded-by-self-defense
+opening-state: system-appears-stable-but-is-leaking
 escalation-pattern: each-fix-proves-system-resists-change
 midpoint-recognition: apparent-problem-hides-larger-moral-structure
 climactic-choice: {{dilemma:central}}
-ending-state: preserves-meaning-by-leaving-cost-visible
+ending-state: truth-reorders-structure-at-irreversible-cost
 
 @arc-protagonist-main map
-entry-belief: {{entry-belief:protagonist}} competence-replaces-vulnerability
-core-wound: belonging-purchased-through-partial-blindness
-pressure-line: every-useful-act-asks-whether-care-can-remain-impersonal
-turning-insight: {{turning-insight:protagonist}} visible-cost-is-preferable-to-stable-falsehood
-exit-belief: {{exit-belief:protagonist}} visible-cost-is-preferable-to-stable-falsehood
+entry-belief: {{entry-belief:protagonist}} stability-justifies-concealment
+core-wound: institutional-loyalty-once-seen-as-justice
+pressure-line: every-lawful-move-risks-proving-the-law-compromised
+turning-insight: {{turning-insight:protagonist}} redemption-requires-relinquishment
+exit-belief: {{exit-belief:protagonist}} redemption-requires-relinquishment
 
 @arc-relationship-main map
 pair: $character-protagonist-001, $character-counterpart-001
-entry-dynamic: technical-trust-without-moral-agreement
-stress-pattern: shared-danger-exposes-opposite-loyalties
-repair-condition: repair-requires-shared-risk-rather-than-strategic-distance
-exit-dynamic: solidarity-forged-through-contested-truth
+entry-dynamic: oath-bound-cooperation-shadowed-by-allegiance
+stress-pattern: cooperation-intensifies-rather-than-dissolves-contradiction
+repair-condition: repair-requires-naming-the-most-damaging-truth
+exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
 
 @motif-primary define
 motif: {{motif-object:drama}}
-symbolic-function: carry-emotional-history-through-work-objects
+symbolic-function: link-concrete-to-moral-contamination
 recurrence-rule: the motif should recur across opening, midpoint, and late consequence scenes with altered meaning

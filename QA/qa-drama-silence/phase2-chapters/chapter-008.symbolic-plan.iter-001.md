@@ -1,20 +1,20 @@
 @chapter-008 define
-chapter-role: culmination
-purpose: {{purpose:culmination}}
-input-state: {{input-state:culmination-7}}
-output-state: {{output-state:culmination-7}}
-conflict: {{conflict:culmination}}
+chapter-role: investigation
+purpose: {{purpose:investigation}}
+input-state: {{input-state:investigation-7}}
+output-state: {{output-state:investigation-7}}
+conflict: {{conflict:investigation}}
 stakes: {{stakes:identity-dignity-belonging-consequence}}
 opening-mode: action-entry
-development-mode: psychological-pressure
+development-mode: investigation
 closing-mode: cliffhanger
 handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-008
 thematic-focus: identity-self under reconciliation pressure
 rhythm-note: escalating
-chapter-question: {{chapter-question:culmination}}
+chapter-question: {{chapter-question:investigation}}
 answer-shift: {{answer-shift:drama}}
-arc-stage: irreversible-choice
-world-pressure: {{world-pressure:culmination}}
+arc-stage: evidence-gathering
+world-pressure: {{world-pressure:investigation}}
 location-focus: $location-primary
 block-alternation: description-action-dialogue-pause-event-monologue
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.

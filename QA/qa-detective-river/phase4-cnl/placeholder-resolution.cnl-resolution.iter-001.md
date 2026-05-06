@@ -21,21 +21,16 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{wisdom:moral}}: Procedure stops protecting order the moment it is weaponized against the facts it claims to preserve.
 - {{wisdom:reflexive}}: the reflexive dimension of insight this story offers
 - {{wisdom:experiential}}: the experiential dimension of insight this story offers
-- {{organization:ORG_001}}: County Precinct South
 - {{inciting-incident:primary}}: the body shows wrist abrasions inconsistent with drifting debris
-- {{object:OBJECT_001}}: the missing lock-camera drive
 - {{premise:primary}}: Inspector Nadia Voss reopens a river drowning that the county police marked accidental, only to find tide logs, surveillance gaps, and witness transfers pointing back to a redevelopment contract. Diver-journalist Theo Mercer helps her track the physical evidence while precinct chief Soren Arden turns procedure into a moving wall designed to exhaust the case.
 - {{turning-insight:protagonist}}: the cover-up is not separate from the institution; it is how the institution currently functions
 - {{motif-object:detective-police}}: watermarked evidence tags
-- {{character:PERSON_001}}: Nadia Voss
 - {{need:protagonist}}: accept that lawful procedure can become the crime's most reliable accomplice
 - {{fear:protagonist}}: discovering that her own precinct archived the decisive evidence
 - {{contradictions:protagonist}}: contradictions for this detective / police story
-- {{character:PERSON_002}}: Theo Mercer
 - {{desire:counterpart}}: prove that the drowning victim was killed before he entered the river lock
 - {{need:counterpart}}: accept that lawful procedure can become the crime's most reliable accomplice
 - {{fear:counterpart}}: discovering that her own precinct archived the decisive evidence
-- {{character:PERSON_003}}: Soren Arden
 - {{desire:pressure}}: prove that the drowning victim was killed before he entered the river lock
 - {{need:pressure}}: accept that lawful procedure can become the crime's most reliable accomplice
 - {{fear:pressure}}: discovering that her own precinct archived the decisive evidence
@@ -46,12 +41,10 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{rule:world-secondary}}: Maintenance overrides can be audited only if their physical hardware is recovered from the lock site.
 - {{conflict-transform:world-secondary}}: Maintenance overrides can be audited only if their physical hardware is recovered from the lock site.
 - {{rule-to-conflict:world}}: Any river death inside the redevelopment corridor is reviewed first by the precinct and only later by the civil prosecutor. so every lawful request alerts the people most interested in erasing the answer
-- {{location:LOCATION_001}}: the river evidence hangar beside Lock Six
 - {{sensory-anchor:location-primary}}: diesel sheen, wet rope, fluorescent glare on metal trays
 - {{social-signal:location-primary}}: everyone speaks in clipped inventory terms because the room only respects what can be tagged
 - {{symbolic-charge:location-primary}}: a warehouse where facts are stored just long enough to be reassigned
 - {{conflict-use:location-primary}}: physical traces keep resisting the official story each time they are catalogued
-- {{location:LOCATION_002}}: the abandoned sluice control room above the spillway
 - {{sensory-anchor:location-secondary}}: diesel sheen, wet rope, fluorescent glare on metal trays
 - {{social-signal:location-secondary}}: everyone speaks in clipped inventory terms because the room only respects what can be tagged
 - {{symbolic-charge:location-secondary}}: a warehouse where facts are stored just long enough to be reassigned
@@ -75,28 +68,44 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{conflict:investigation}}: Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
 - {{chapter-question:investigation}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
 - {{world-pressure:investigation}}: every lawful request alerts the people most interested in erasing the answer
+- {{purpose:bridge}}: Escalation movement anchored by camera gap at lock six
+- {{input-state:bridge-3}}: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+- {{output-state:bridge-3}}: administrative negligence hardens into coordinated concealment
+- {{conflict:bridge}}: Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+- {{chapter-question:bridge}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
+- {{world-pressure:bridge}}: every lawful request alerts the people most interested in erasing the answer
 - {{purpose:revelation}}: Revelation movement anchored by diversion beneath the spillway
-- {{input-state:revelation-3}}: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
-- {{output-state:revelation-3}}: the investigation turns from hidden search into institutional showdown
+- {{input-state:revelation-4}}: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
+- {{output-state:revelation-4}}: the investigation turns from hidden search into institutional showdown
 - {{conflict:revelation}}: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
 - {{chapter-question:revelation}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
 - {{world-pressure:revelation}}: every lawful request alerts the people most interested in erasing the answer
+- {{purpose:reversal}}: Revelation movement anchored by diversion beneath the spillway
+- {{input-state:reversal-5}}: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
+- {{output-state:reversal-5}}: the investigation turns from hidden search into institutional showdown
+- {{conflict:reversal}}: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+- {{chapter-question:reversal}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
+- {{world-pressure:reversal}}: every lawful request alerts the people most interested in erasing the answer
+- {{input-state:escalation-6}}: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+- {{output-state:escalation-6}}: administrative negligence hardens into coordinated concealment
+- {{input-state:investigation-7}}: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+- {{output-state:investigation-7}}: administrative negligence hardens into coordinated concealment
+- {{input-state:bridge-8}}: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+- {{output-state:bridge-8}}: administrative negligence hardens into coordinated concealment
+- {{input-state:revelation-9}}: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
+- {{output-state:revelation-9}}: the investigation turns from hidden search into institutional showdown
 - {{purpose:culmination}}: Culmination movement anchored by briefing room breach
-- {{input-state:culmination-4}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
-- {{output-state:culmination-4}}: the case survives because the institution loses control of its own narrative
+- {{input-state:culmination-10}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+- {{output-state:culmination-10}}: the case survives because the institution loses control of its own narrative
 - {{conflict:culmination}}: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 - {{chapter-question:culmination}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
 - {{world-pressure:culmination}}: every lawful request alerts the people most interested in erasing the answer
-- {{input-state:culmination-5}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
-- {{output-state:culmination-5}}: the case survives because the institution loses control of its own narrative
-- {{input-state:culmination-6}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
-- {{output-state:culmination-6}}: the case survives because the institution loses control of its own narrative
-- {{input-state:culmination-7}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
-- {{output-state:culmination-7}}: the case survives because the institution loses control of its own narrative
-- {{input-state:culmination-8}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
-- {{output-state:culmination-8}}: the case survives because the institution loses control of its own narrative
-- {{input-state:culmination-9}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
-- {{output-state:culmination-9}}: the case survives because the institution loses control of its own narrative
+- {{purpose:aftermath}}: Culmination movement anchored by briefing room breach
+- {{input-state:aftermath-11}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+- {{output-state:aftermath-11}}: the case survives because the institution loses control of its own narrative
+- {{conflict:aftermath}}: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+- {{chapter-question:aftermath}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
+- {{world-pressure:aftermath}}: every lawful request alerts the people most interested in erasing the answer
 - {{sequence-objective:setup}}: preserve the physical inconsistency before it is corrected in the paperwork
 - {{sequence-conflict:setup}}: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
 - {{sequence-payoff:setup}}: Nadia has enough doubt to justify disobedience
@@ -125,25 +134,62 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{dialogue-subtext:commit}}: makes risk sound practical enough to become a promise
 - {{dialogue-line-hint:setup-0-1}}: the body shows wrist abrasions inconsistent with drifting debris
 - {{dialogue-reaction:commit}}: The promise raises the stakes for the next exchange.
+- {{dialogue-subtext:probe}}: tests whether the other speaker can bear the unsoftened truth
+- {{dialogue-line-hint:setup-0-2}}: the body shows wrist abrasions inconsistent with drifting debris
+- {{dialogue-reaction:probe}}: The question lands harder than either speaker planned.
+- {{dialogue-subtext:challenge}}: refuses the easier story and forces the pressure into view
+- {{dialogue-line-hint:setup-0-3}}: the body shows wrist abrasions inconsistent with drifting debris
+- {{dialogue-reaction:challenge}}: The challenge strips politeness away from the scene.
 - {{scene-introduction:setup-1}}: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
 - {{scene-development:setup-1}}: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
 - {{action-goal:setup-1}}: Nadia has enough doubt to justify disobedience
-- {{dialogue-line-hint:setup-1-0}}: Autopsy against the report
 - {{dialogue-subtext:reframe}}: changes the moral meaning of what was just said
-- {{dialogue-line-hint:setup-1-1}}: Autopsy against the report
+- {{dialogue-line-hint:setup-1-0}}: Autopsy against the report
 - {{dialogue-reaction:reframe}}: The new framing makes the old position harder to keep.
+- {{dialogue-line-hint:setup-1-1}}: Autopsy against the report
+- {{dialogue-line-hint:setup-1-2}}: Autopsy against the report
+- {{dialogue-line-hint:setup-1-3}}: Autopsy against the report
 - {{scene-introduction:setup-2}}: the body shows wrist abrasions inconsistent with drifting debris
 - {{scene-development:setup-2}}: cause-of-death certainty is replaced by a procedural hole
+- {{action-goal:setup-2}}: Autopsy against the report
+- {{dialogue-line-hint:setup-2-0}}: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+- {{dialogue-subtext:warn}}: tries to protect the bond by narrowing the next available move
+- {{dialogue-line-hint:setup-2-1}}: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+- {{dialogue-reaction:warn}}: The warning narrows what can still be done safely.
+- {{dialogue-subtext:answer-honestly}}: gives away more vulnerability than strategy intended
+- {{dialogue-line-hint:setup-2-2}}: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+- {{dialogue-reaction:answer-honestly}}: The honesty changes the balance of power in the room.
+- {{dialogue-line-hint:setup-2-3}}: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+- {{scene-introduction:setup-3}}: Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.
+- {{scene-development:setup-3}}: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+- {{action-goal:setup-3}}: preserve the physical inconsistency before it is corrected in the paperwork
+- {{dialogue-line-hint:setup-3-0}}: the body shows wrist abrasions inconsistent with drifting debris
+- {{dialogue-line-hint:setup-3-1}}: the body shows wrist abrasions inconsistent with drifting debris
+- {{dialogue-line-hint:setup-3-2}}: the body shows wrist abrasions inconsistent with drifting debris
+- {{dialogue-line-hint:setup-3-3}}: the body shows wrist abrasions inconsistent with drifting debris
+- {{scene-introduction:setup-4}}: Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.
+- {{scene-development:setup-4}}: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+- {{action-goal:setup-4}}: preserve the physical inconsistency before it is corrected in the paperwork
+- {{dialogue-line-hint:setup-4-0}}: the body shows wrist abrasions inconsistent with drifting debris
+- {{dialogue-line-hint:setup-4-1}}: the body shows wrist abrasions inconsistent with drifting debris
+- {{dialogue-line-hint:setup-4-2}}: the body shows wrist abrasions inconsistent with drifting debris
+- {{dialogue-subtext:name-risk}}: speaks the consequence both speakers hoped could stay implied
+- {{dialogue-line-hint:setup-4-3}}: the body shows wrist abrasions inconsistent with drifting debris
+- {{dialogue-reaction:name-risk}}: Naming the risk turns pressure into irreversible commitment.
+- {{scene-introduction:setup-5}}: Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.
+- {{scene-development:setup-5}}: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
 - {{scene-resolution:setup-final}}: Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
 - {{scene-state-change:setup-final}}: the accidental drowning becomes a timed contradiction
-- {{action-goal:setup-2}}: Autopsy against the report
+- {{action-goal:setup-5}}: preserve the physical inconsistency before it is corrected in the paperwork
 - {{action-result:setup-final}}: the accidental drowning becomes a timed contradiction
 - {{event-trigger:setup-final}}: the body shows wrist abrasions inconsistent with drifting debris
 - {{event-follow-through:setup-final}}: Nadia has enough doubt to justify disobedience
-- {{dialogue-subtext:warn}}: tries to protect the bond by narrowing the next available move
-- {{dialogue-line-hint:setup-2-0}}: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
-- {{dialogue-reaction:warn}}: The warning narrows what can still be done safely.
-- {{dialogue-line-hint:setup-2-1}}: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+- {{dialogue-line-hint:setup-5-0}}: the body shows wrist abrasions inconsistent with drifting debris
+- {{dialogue-subtext:tease-probe}}: uses wit to test whether the wound can be named safely
+- {{dialogue-line-hint:setup-5-1}}: the body shows wrist abrasions inconsistent with drifting debris
+- {{dialogue-reaction:tease-probe}}: The joke opens a bruise neither speaker can ignore now.
+- {{dialogue-line-hint:setup-5-2}}: the body shows wrist abrasions inconsistent with drifting debris
+- {{dialogue-line-hint:setup-5-3}}: the body shows wrist abrasions inconsistent with drifting debris
 - {{description-focus:detective-police}}: a warehouse where facts are stored just long enough to be reassigned
 - {{dialogue-core-subtext:detective-police}}: Nadia Voss and Nadia Voss keep circling the truth they cannot safely name yet
 - {{monologue-trigger:setup}}: cause-of-death certainty is replaced by a procedural hole
@@ -173,29 +219,50 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{event-trigger:escalation-mid}}: a duplicate maintenance form appears with two different timestamps
 - {{event-impact:escalation}}: chain-of-custody becomes the crime scene
 - {{event-follow-through:escalation-mid}}: Nadia now knows the cover-up has a clock and a route
-- {{dialogue-subtext:probe}}: tests whether the other speaker can bear the unsoftened truth
 - {{dialogue-line-hint:escalation-0-0}}: a duplicate maintenance form appears with two different timestamps
-- {{dialogue-reaction:probe}}: The question lands harder than either speaker planned.
-- {{dialogue-subtext:answer-honestly}}: gives away more vulnerability than strategy intended
 - {{dialogue-line-hint:escalation-0-1}}: a duplicate maintenance form appears with two different timestamps
-- {{dialogue-reaction:answer-honestly}}: The honesty changes the balance of power in the room.
+- {{dialogue-line-hint:escalation-0-2}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:escalation-0-3}}: a duplicate maintenance form appears with two different timestamps
 - {{scene-introduction:escalation-1}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
 - {{scene-development:escalation-1}}: Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
 - {{action-goal:escalation-1}}: Nadia now knows the cover-up has a clock and a route
 - {{dialogue-line-hint:escalation-1-0}}: Camera gap at Lock Six
-- {{dialogue-subtext:tease-probe}}: uses wit to test whether the wound can be named safely
 - {{dialogue-line-hint:escalation-1-1}}: Camera gap at Lock Six
-- {{dialogue-reaction:tease-probe}}: The joke opens a bruise neither speaker can ignore now.
+- {{dialogue-line-hint:escalation-1-2}}: Camera gap at Lock Six
+- {{dialogue-line-hint:escalation-1-3}}: Camera gap at Lock Six
 - {{scene-introduction:escalation-2}}: a duplicate maintenance form appears with two different timestamps
 - {{scene-development:escalation-2}}: chain-of-custody becomes the crime scene
+- {{action-goal:escalation-2}}: Camera gap at Lock Six
+- {{dialogue-line-hint:escalation-2-0}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{dialogue-line-hint:escalation-2-1}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{dialogue-line-hint:escalation-2-2}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{dialogue-line-hint:escalation-2-3}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{scene-introduction:escalation-3}}: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+- {{scene-development:escalation-3}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{action-goal:escalation-3}}: connect the missing footage to a human decision rather than a technical accident
+- {{dialogue-line-hint:escalation-3-0}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:escalation-3-1}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:escalation-3-2}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:escalation-3-3}}: a duplicate maintenance form appears with two different timestamps
+- {{scene-introduction:escalation-4}}: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+- {{scene-development:escalation-4}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{action-goal:escalation-4}}: connect the missing footage to a human decision rather than a technical accident
+- {{dialogue-line-hint:escalation-4-0}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:escalation-4-1}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:escalation-4-2}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:escalation-4-3}}: a duplicate maintenance form appears with two different timestamps
+- {{scene-introduction:escalation-5}}: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+- {{scene-development:escalation-5}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
 - {{scene-resolution:escalation-final}}: They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
 - {{scene-state-change:escalation-final}}: administrative negligence hardens into coordinated concealment
-- {{action-goal:escalation-2}}: Camera gap at Lock Six
+- {{action-goal:escalation-5}}: connect the missing footage to a human decision rather than a technical accident
 - {{action-result:escalation-final}}: administrative negligence hardens into coordinated concealment
 - {{event-trigger:escalation-final}}: a duplicate maintenance form appears with two different timestamps
 - {{event-follow-through:escalation-final}}: Nadia now knows the cover-up has a clock and a route
-- {{dialogue-line-hint:escalation-2-0}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
-- {{dialogue-line-hint:escalation-2-1}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{dialogue-line-hint:escalation-5-0}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:escalation-5-1}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:escalation-5-2}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:escalation-5-3}}: a duplicate maintenance form appears with two different timestamps
 - {{monologue-trigger:escalation}}: chain-of-custody becomes the crime scene
 - {{suspense-uncertainty:escalation}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
 - {{pause-focus:escalation}}: administrative negligence hardens into coordinated concealment
@@ -225,29 +292,125 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{event-follow-through:investigation-mid}}: Nadia now knows the cover-up has a clock and a route
 - {{dialogue-line-hint:investigation-0-0}}: a duplicate maintenance form appears with two different timestamps
 - {{dialogue-line-hint:investigation-0-1}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:investigation-0-2}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:investigation-0-3}}: a duplicate maintenance form appears with two different timestamps
 - {{scene-introduction:investigation-1}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
 - {{scene-development:investigation-1}}: Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
 - {{action-goal:investigation-1}}: Nadia now knows the cover-up has a clock and a route
 - {{dialogue-line-hint:investigation-1-0}}: Camera gap at Lock Six
 - {{dialogue-line-hint:investigation-1-1}}: Camera gap at Lock Six
+- {{dialogue-line-hint:investigation-1-2}}: Camera gap at Lock Six
+- {{dialogue-line-hint:investigation-1-3}}: Camera gap at Lock Six
 - {{scene-introduction:investigation-2}}: a duplicate maintenance form appears with two different timestamps
 - {{scene-development:investigation-2}}: chain-of-custody becomes the crime scene
+- {{action-goal:investigation-2}}: Camera gap at Lock Six
+- {{dialogue-line-hint:investigation-2-0}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{dialogue-line-hint:investigation-2-1}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{dialogue-line-hint:investigation-2-2}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{dialogue-line-hint:investigation-2-3}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{scene-introduction:investigation-3}}: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+- {{scene-development:investigation-3}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{action-goal:investigation-3}}: connect the missing footage to a human decision rather than a technical accident
+- {{dialogue-line-hint:investigation-3-0}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:investigation-3-1}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:investigation-3-2}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:investigation-3-3}}: a duplicate maintenance form appears with two different timestamps
+- {{scene-introduction:investigation-4}}: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+- {{scene-development:investigation-4}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{action-goal:investigation-4}}: connect the missing footage to a human decision rather than a technical accident
+- {{dialogue-line-hint:investigation-4-0}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:investigation-4-1}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:investigation-4-2}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:investigation-4-3}}: a duplicate maintenance form appears with two different timestamps
+- {{scene-introduction:investigation-5}}: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+- {{scene-development:investigation-5}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
 - {{scene-resolution:investigation-final}}: They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
 - {{scene-state-change:investigation-final}}: administrative negligence hardens into coordinated concealment
-- {{action-goal:investigation-2}}: Camera gap at Lock Six
+- {{action-goal:investigation-5}}: connect the missing footage to a human decision rather than a technical accident
 - {{action-result:investigation-final}}: administrative negligence hardens into coordinated concealment
 - {{event-trigger:investigation-final}}: a duplicate maintenance form appears with two different timestamps
 - {{event-follow-through:investigation-final}}: Nadia now knows the cover-up has a clock and a route
-- {{dialogue-line-hint:investigation-2-0}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
-- {{dialogue-subtext:name-risk}}: speaks the consequence both speakers hoped could stay implied
-- {{dialogue-line-hint:investigation-2-1}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
-- {{dialogue-reaction:name-risk}}: Naming the risk turns pressure into irreversible commitment.
+- {{dialogue-line-hint:investigation-5-0}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:investigation-5-1}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:investigation-5-2}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:investigation-5-3}}: a duplicate maintenance form appears with two different timestamps
 - {{monologue-trigger:investigation}}: chain-of-custody becomes the crime scene
 - {{suspense-uncertainty:investigation}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
 - {{pause-focus:investigation}}: administrative negligence hardens into coordinated concealment
 - {{acceleration-trigger:investigation}}: a duplicate maintenance form appears with two different timestamps
 - {{cliffhanger-moment:investigation}}: a duplicate maintenance form appears with two different timestamps
 - {{cliffhanger-continuation:investigation}}: Nadia now knows the cover-up has a clock and a route
+- {{sequence-objective:bridge}}: connect the missing footage to a human decision rather than a technical accident
+- {{sequence-conflict:bridge}}: Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+- {{sequence-payoff:bridge}}: Nadia now knows the cover-up has a clock and a route
+- {{visible-symptom:bridge}}: logs are complete on paper but physically impossible when matched against the river timing
+- {{action-limitation:bridge}}: Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
+- {{conflict-output-rule:bridge}}: every lawful request alerts the people most interested in erasing the answer
+- {{challenge:protagonist-bridge}}: Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+- {{insight-pressure:protagonist-bridge}}: chain-of-custody becomes the crime scene
+- {{relationship-stress:bridge}}: Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+- {{reader-effect:bridge}}: What remains of justice when institutions become experts at making truth look administrative?
+- {{scene-introduction:bridge-0}}: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+- {{scene-development:bridge-0}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{scene-conflict:bridge}}: Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+- {{scene-resolution:bridge-mid}}: They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
+- {{scene-state-change:bridge-mid}}: administrative negligence hardens into coordinated concealment
+- {{action-goal:bridge-0}}: connect the missing footage to a human decision rather than a technical accident
+- {{action-obstacle:bridge}}: every request for the raw server logs pings Soren before it reaches records
+- {{conflict-escalation:bridge}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{event-trigger:bridge-mid}}: a duplicate maintenance form appears with two different timestamps
+- {{event-impact:bridge}}: chain-of-custody becomes the crime scene
+- {{event-follow-through:bridge-mid}}: Nadia now knows the cover-up has a clock and a route
+- {{dialogue-line-hint:bridge-0-0}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:bridge-0-1}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:bridge-0-2}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:bridge-0-3}}: a duplicate maintenance form appears with two different timestamps
+- {{scene-introduction:bridge-1}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{scene-development:bridge-1}}: Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+- {{action-goal:bridge-1}}: Nadia now knows the cover-up has a clock and a route
+- {{dialogue-line-hint:bridge-1-0}}: Camera gap at Lock Six
+- {{dialogue-line-hint:bridge-1-1}}: Camera gap at Lock Six
+- {{dialogue-line-hint:bridge-1-2}}: Camera gap at Lock Six
+- {{dialogue-line-hint:bridge-1-3}}: Camera gap at Lock Six
+- {{scene-introduction:bridge-2}}: a duplicate maintenance form appears with two different timestamps
+- {{scene-development:bridge-2}}: chain-of-custody becomes the crime scene
+- {{action-goal:bridge-2}}: Camera gap at Lock Six
+- {{dialogue-line-hint:bridge-2-0}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{dialogue-line-hint:bridge-2-1}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{dialogue-line-hint:bridge-2-2}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{dialogue-line-hint:bridge-2-3}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{scene-introduction:bridge-3}}: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+- {{scene-development:bridge-3}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{action-goal:bridge-3}}: connect the missing footage to a human decision rather than a technical accident
+- {{dialogue-line-hint:bridge-3-0}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:bridge-3-1}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:bridge-3-2}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:bridge-3-3}}: a duplicate maintenance form appears with two different timestamps
+- {{scene-introduction:bridge-4}}: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+- {{scene-development:bridge-4}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{action-goal:bridge-4}}: connect the missing footage to a human decision rather than a technical accident
+- {{dialogue-line-hint:bridge-4-0}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:bridge-4-1}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:bridge-4-2}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:bridge-4-3}}: a duplicate maintenance form appears with two different timestamps
+- {{scene-introduction:bridge-5}}: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+- {{scene-development:bridge-5}}: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+- {{scene-resolution:bridge-final}}: They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
+- {{scene-state-change:bridge-final}}: administrative negligence hardens into coordinated concealment
+- {{action-goal:bridge-5}}: connect the missing footage to a human decision rather than a technical accident
+- {{action-result:bridge-final}}: administrative negligence hardens into coordinated concealment
+- {{event-trigger:bridge-final}}: a duplicate maintenance form appears with two different timestamps
+- {{event-follow-through:bridge-final}}: Nadia now knows the cover-up has a clock and a route
+- {{dialogue-line-hint:bridge-5-0}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:bridge-5-1}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:bridge-5-2}}: a duplicate maintenance form appears with two different timestamps
+- {{dialogue-line-hint:bridge-5-3}}: a duplicate maintenance form appears with two different timestamps
+- {{monologue-trigger:bridge}}: chain-of-custody becomes the crime scene
+- {{suspense-uncertainty:bridge}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
+- {{pause-focus:bridge}}: administrative negligence hardens into coordinated concealment
+- {{acceleration-trigger:bridge}}: a duplicate maintenance form appears with two different timestamps
+- {{cliffhanger-moment:bridge}}: a duplicate maintenance form appears with two different timestamps
+- {{cliffhanger-continuation:bridge}}: Nadia now knows the cover-up has a clock and a route
 - {{sequence-objective:revelation}}: separate proof of murder from the police pathway designed to bury it
 - {{sequence-conflict:revelation}}: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
 - {{sequence-payoff:revelation}}: Nadia can now accuse the precinct itself of obstruction
@@ -271,27 +434,125 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{event-follow-through:revelation-mid}}: Nadia can now accuse the precinct itself of obstruction
 - {{dialogue-line-hint:revelation-0-0}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 - {{dialogue-line-hint:revelation-0-1}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:revelation-0-2}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:revelation-0-3}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 - {{scene-introduction:revelation-1}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
 - {{scene-development:revelation-1}}: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
 - {{action-goal:revelation-1}}: Nadia can now accuse the precinct itself of obstruction
 - {{dialogue-line-hint:revelation-1-0}}: Diversion beneath the spillway
 - {{dialogue-line-hint:revelation-1-1}}: Diversion beneath the spillway
+- {{dialogue-line-hint:revelation-1-2}}: Diversion beneath the spillway
+- {{dialogue-line-hint:revelation-1-3}}: Diversion beneath the spillway
 - {{scene-introduction:revelation-2}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 - {{scene-development:revelation-2}}: murder, not drowning, becomes the central fact
+- {{action-goal:revelation-2}}: Diversion beneath the spillway
+- {{dialogue-line-hint:revelation-2-0}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{dialogue-line-hint:revelation-2-1}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{dialogue-line-hint:revelation-2-2}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{dialogue-line-hint:revelation-2-3}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{scene-introduction:revelation-3}}: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
+- {{scene-development:revelation-3}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{action-goal:revelation-3}}: separate proof of murder from the police pathway designed to bury it
+- {{dialogue-line-hint:revelation-3-0}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:revelation-3-1}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:revelation-3-2}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:revelation-3-3}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{scene-introduction:revelation-4}}: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
+- {{scene-development:revelation-4}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{action-goal:revelation-4}}: separate proof of murder from the police pathway designed to bury it
+- {{dialogue-line-hint:revelation-4-0}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:revelation-4-1}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:revelation-4-2}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:revelation-4-3}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{scene-introduction:revelation-5}}: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
+- {{scene-development:revelation-5}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
 - {{scene-resolution:revelation-final}}: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
 - {{scene-state-change:revelation-final}}: the investigation turns from hidden search into institutional showdown
-- {{action-goal:revelation-2}}: Diversion beneath the spillway
+- {{action-goal:revelation-5}}: separate proof of murder from the police pathway designed to bury it
 - {{action-result:revelation-final}}: the investigation turns from hidden search into institutional showdown
 - {{event-trigger:revelation-final}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 - {{event-follow-through:revelation-final}}: Nadia can now accuse the precinct itself of obstruction
-- {{dialogue-line-hint:revelation-2-0}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
-- {{dialogue-line-hint:revelation-2-1}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{dialogue-line-hint:revelation-5-0}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:revelation-5-1}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:revelation-5-2}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:revelation-5-3}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 - {{monologue-trigger:revelation}}: murder, not drowning, becomes the central fact
 - {{suspense-uncertainty:revelation}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
 - {{pause-focus:revelation}}: the investigation turns from hidden search into institutional showdown
 - {{acceleration-trigger:revelation}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 - {{cliffhanger-moment:revelation}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 - {{cliffhanger-continuation:revelation}}: Nadia can now accuse the precinct itself of obstruction
+- {{sequence-objective:reversal}}: separate proof of murder from the police pathway designed to bury it
+- {{sequence-conflict:reversal}}: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+- {{sequence-payoff:reversal}}: Nadia can now accuse the precinct itself of obstruction
+- {{visible-symptom:reversal}}: logs are complete on paper but physically impossible when matched against the river timing
+- {{action-limitation:reversal}}: Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
+- {{conflict-output-rule:reversal}}: every lawful request alerts the people most interested in erasing the answer
+- {{challenge:protagonist-reversal}}: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+- {{insight-pressure:protagonist-reversal}}: murder, not drowning, becomes the central fact
+- {{relationship-stress:reversal}}: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+- {{reader-effect:reversal}}: What remains of justice when institutions become experts at making truth look administrative?
+- {{scene-introduction:reversal-0}}: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
+- {{scene-development:reversal-0}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{scene-conflict:reversal}}: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+- {{scene-resolution:reversal-mid}}: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
+- {{scene-state-change:reversal-mid}}: the investigation turns from hidden search into institutional showdown
+- {{action-goal:reversal-0}}: separate proof of murder from the police pathway designed to bury it
+- {{action-obstacle:reversal}}: the only lawful reporting channel leads back to Soren's office
+- {{conflict-escalation:reversal}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{event-trigger:reversal-mid}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{event-impact:reversal}}: murder, not drowning, becomes the central fact
+- {{event-follow-through:reversal-mid}}: Nadia can now accuse the precinct itself of obstruction
+- {{dialogue-line-hint:reversal-0-0}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:reversal-0-1}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:reversal-0-2}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:reversal-0-3}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{scene-introduction:reversal-1}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{scene-development:reversal-1}}: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+- {{action-goal:reversal-1}}: Nadia can now accuse the precinct itself of obstruction
+- {{dialogue-line-hint:reversal-1-0}}: Diversion beneath the spillway
+- {{dialogue-line-hint:reversal-1-1}}: Diversion beneath the spillway
+- {{dialogue-line-hint:reversal-1-2}}: Diversion beneath the spillway
+- {{dialogue-line-hint:reversal-1-3}}: Diversion beneath the spillway
+- {{scene-introduction:reversal-2}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{scene-development:reversal-2}}: murder, not drowning, becomes the central fact
+- {{action-goal:reversal-2}}: Diversion beneath the spillway
+- {{dialogue-line-hint:reversal-2-0}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{dialogue-line-hint:reversal-2-1}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{dialogue-line-hint:reversal-2-2}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{dialogue-line-hint:reversal-2-3}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{scene-introduction:reversal-3}}: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
+- {{scene-development:reversal-3}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{action-goal:reversal-3}}: separate proof of murder from the police pathway designed to bury it
+- {{dialogue-line-hint:reversal-3-0}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:reversal-3-1}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:reversal-3-2}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:reversal-3-3}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{scene-introduction:reversal-4}}: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
+- {{scene-development:reversal-4}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{action-goal:reversal-4}}: separate proof of murder from the police pathway designed to bury it
+- {{dialogue-line-hint:reversal-4-0}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:reversal-4-1}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:reversal-4-2}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:reversal-4-3}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{scene-introduction:reversal-5}}: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
+- {{scene-development:reversal-5}}: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+- {{scene-resolution:reversal-final}}: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
+- {{scene-state-change:reversal-final}}: the investigation turns from hidden search into institutional showdown
+- {{action-goal:reversal-5}}: separate proof of murder from the police pathway designed to bury it
+- {{action-result:reversal-final}}: the investigation turns from hidden search into institutional showdown
+- {{event-trigger:reversal-final}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{event-follow-through:reversal-final}}: Nadia can now accuse the precinct itself of obstruction
+- {{dialogue-line-hint:reversal-5-0}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:reversal-5-1}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:reversal-5-2}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{dialogue-line-hint:reversal-5-3}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{monologue-trigger:reversal}}: murder, not drowning, becomes the central fact
+- {{suspense-uncertainty:reversal}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
+- {{pause-focus:reversal}}: the investigation turns from hidden search into institutional showdown
+- {{acceleration-trigger:reversal}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{cliffhanger-moment:reversal}}: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+- {{cliffhanger-continuation:reversal}}: Nadia can now accuse the precinct itself of obstruction
 - {{sequence-objective:culmination}}: move the evidence faster than the suspension order
 - {{sequence-conflict:culmination}}: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 - {{sequence-payoff:culmination}}: the victim finally receives a case worthy of the facts
@@ -315,29 +576,122 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
 - {{event-follow-through:culmination-mid}}: the victim finally receives a case worthy of the facts
 - {{dialogue-line-hint:culmination-0-0}}: the footage freezes on Soren entering the lock corridor minutes after the murder
 - {{dialogue-line-hint:culmination-0-1}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:culmination-0-2}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:culmination-0-3}}: the footage freezes on Soren entering the lock corridor minutes after the murder
 - {{scene-introduction:culmination-1}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
 - {{scene-development:culmination-1}}: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 - {{action-goal:culmination-1}}: the victim finally receives a case worthy of the facts
 - {{dialogue-line-hint:culmination-1-0}}: Briefing room breach
 - {{dialogue-line-hint:culmination-1-1}}: Briefing room breach
+- {{dialogue-line-hint:culmination-1-2}}: Briefing room breach
+- {{dialogue-line-hint:culmination-1-3}}: Briefing room breach
 - {{scene-introduction:culmination-2}}: the footage freezes on Soren entering the lock corridor minutes after the murder
 - {{scene-development:culmination-2}}: command authority becomes visible complicity
+- {{action-goal:culmination-2}}: Briefing room breach
+- {{dialogue-line-hint:culmination-2-0}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{dialogue-line-hint:culmination-2-1}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{dialogue-line-hint:culmination-2-2}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{dialogue-line-hint:culmination-2-3}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{scene-introduction:culmination-3}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+- {{scene-development:culmination-3}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{action-goal:culmination-3}}: move the evidence faster than the suspension order
+- {{dialogue-line-hint:culmination-3-0}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:culmination-3-1}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:culmination-3-2}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:culmination-3-3}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{scene-introduction:culmination-4}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+- {{scene-development:culmination-4}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{action-goal:culmination-4}}: move the evidence faster than the suspension order
+- {{dialogue-line-hint:culmination-4-0}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:culmination-4-1}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:culmination-4-2}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:culmination-4-3}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{scene-introduction:culmination-5}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+- {{scene-development:culmination-5}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
 - {{scene-resolution:culmination-final}}: She names him and files the footage directly to the prosecutor while the live stream continues.
 - {{scene-state-change:culmination-final}}: the case survives because the institution loses control of its own narrative
-- {{action-goal:culmination-2}}: Briefing room breach
+- {{action-goal:culmination-5}}: move the evidence faster than the suspension order
 - {{action-result:culmination-final}}: the case survives because the institution loses control of its own narrative
 - {{event-trigger:culmination-final}}: the footage freezes on Soren entering the lock corridor minutes after the murder
 - {{event-follow-through:culmination-final}}: the victim finally receives a case worthy of the facts
-- {{dialogue-line-hint:culmination-2-0}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
-- {{dialogue-line-hint:culmination-2-1}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{dialogue-line-hint:culmination-5-0}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:culmination-5-1}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:culmination-5-2}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:culmination-5-3}}: the footage freezes on Soren entering the lock corridor minutes after the murder
 - {{monologue-trigger:culmination}}: command authority becomes visible complicity
 - {{suspense-uncertainty:culmination}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
 - {{pause-focus:culmination}}: the case survives because the institution loses control of its own narrative
 - {{acceleration-trigger:culmination}}: the footage freezes on Soren entering the lock corridor minutes after the murder
 - {{cliffhanger-moment:culmination}}: the footage freezes on Soren entering the lock corridor minutes after the murder
 - {{cliffhanger-continuation:culmination}}: the victim finally receives a case worthy of the facts
-- {{dialogue-subtext:challenge}}: refuses the easier story and forces the pressure into view
-- {{dialogue-reaction:challenge}}: The challenge strips politeness away from the scene.
+- {{sequence-objective:aftermath}}: move the evidence faster than the suspension order
+- {{sequence-conflict:aftermath}}: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+- {{visible-symptom:aftermath}}: logs are complete on paper but physically impossible when matched against the river timing
+- {{action-limitation:aftermath}}: Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
+- {{conflict-output-rule:aftermath}}: every lawful request alerts the people most interested in erasing the answer
+- {{challenge:protagonist-aftermath}}: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+- {{insight-pressure:protagonist-aftermath}}: command authority becomes visible complicity
+- {{relationship-stress:aftermath}}: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+- {{reader-effect:aftermath}}: What remains of justice when institutions become experts at making truth look administrative?
+- {{scene-introduction:aftermath-0}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+- {{scene-development:aftermath-0}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{scene-conflict:aftermath}}: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+- {{scene-resolution:aftermath-mid}}: She names him and files the footage directly to the prosecutor while the live stream continues.
+- {{scene-state-change:aftermath-mid}}: the case survives because the institution loses control of its own narrative
+- {{action-goal:aftermath-0}}: move the evidence faster than the suspension order
+- {{action-obstacle:aftermath}}: the briefing room was built to keep testimony internal and deniable
+- {{conflict-escalation:aftermath}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{event-trigger:aftermath-mid}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{event-impact:aftermath}}: command authority becomes visible complicity
+- {{event-follow-through:aftermath-mid}}: the victim finally receives a case worthy of the facts
+- {{dialogue-line-hint:aftermath-0-0}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:aftermath-0-1}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:aftermath-0-2}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:aftermath-0-3}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{scene-introduction:aftermath-1}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{scene-development:aftermath-1}}: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+- {{action-goal:aftermath-1}}: the victim finally receives a case worthy of the facts
+- {{dialogue-line-hint:aftermath-1-0}}: Briefing room breach
+- {{dialogue-line-hint:aftermath-1-1}}: Briefing room breach
+- {{dialogue-line-hint:aftermath-1-2}}: Briefing room breach
+- {{dialogue-line-hint:aftermath-1-3}}: Briefing room breach
+- {{scene-introduction:aftermath-2}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{scene-development:aftermath-2}}: command authority becomes visible complicity
+- {{action-goal:aftermath-2}}: Briefing room breach
+- {{dialogue-line-hint:aftermath-2-0}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{dialogue-line-hint:aftermath-2-1}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{dialogue-line-hint:aftermath-2-2}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{dialogue-line-hint:aftermath-2-3}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{scene-introduction:aftermath-3}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+- {{scene-development:aftermath-3}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{action-goal:aftermath-3}}: move the evidence faster than the suspension order
+- {{dialogue-line-hint:aftermath-3-0}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:aftermath-3-1}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:aftermath-3-2}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:aftermath-3-3}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{scene-introduction:aftermath-4}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+- {{scene-development:aftermath-4}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{action-goal:aftermath-4}}: move the evidence faster than the suspension order
+- {{dialogue-line-hint:aftermath-4-0}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:aftermath-4-1}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:aftermath-4-2}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:aftermath-4-3}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{scene-introduction:aftermath-5}}: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+- {{scene-development:aftermath-5}}: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+- {{scene-resolution:aftermath-final}}: She names him and files the footage directly to the prosecutor while the live stream continues.
+- {{scene-state-change:aftermath-final}}: the case survives because the institution loses control of its own narrative
+- {{action-goal:aftermath-5}}: move the evidence faster than the suspension order
+- {{action-result:aftermath-final}}: the case survives because the institution loses control of its own narrative
+- {{event-trigger:aftermath-final}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{event-follow-through:aftermath-final}}: the victim finally receives a case worthy of the facts
+- {{dialogue-line-hint:aftermath-5-0}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:aftermath-5-1}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:aftermath-5-2}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{dialogue-line-hint:aftermath-5-3}}: the footage freezes on Soren entering the lock corridor minutes after the murder
+- {{monologue-trigger:aftermath}}: command authority becomes visible complicity
+- {{suspense-uncertainty:aftermath}}: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
+- {{pause-focus:aftermath}}: the case survives because the institution loses control of its own narrative
+- {{acceleration-trigger:aftermath}}: the footage freezes on Soren entering the lock corridor minutes after the murder
 
 <!-- scripta-data
 {
@@ -347,17 +701,30 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "characters": {
       "protagonist": "PERSON_001",
       "counterpart": "PERSON_002",
-      "pressure": "PERSON_003"
+      "pressure": "PERSON_003",
+      "support-001": "PERSON_004",
+      "support-002": "PERSON_005",
+      "support-003": "PERSON_006",
+      "support-004": "PERSON_007",
+      "support-005": "PERSON_008"
     },
     "locations": {
       "primary": "LOCATION_001",
-      "secondary": "LOCATION_002"
+      "secondary": "LOCATION_002",
+      "tertiary-001": "LOCATION_003",
+      "tertiary-002": "LOCATION_004",
+      "tertiary-003": "LOCATION_005",
+      "tertiary-004": "LOCATION_006"
     },
     "organizations": {
       "institution": "ORG_001"
     },
     "objects": {
-      "plot": "OBJECT_001"
+      "plot": "OBJECT_001",
+      "secondary-001": "OBJECT_002",
+      "secondary-002": "OBJECT_003",
+      "secondary-003": "OBJECT_004",
+      "secondary-004": "OBJECT_005"
     }
   },
   "replacements": {
@@ -379,21 +746,16 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{wisdom:moral}}": "Procedure stops protecting order the moment it is weaponized against the facts it claims to preserve.",
     "{{wisdom:reflexive}}": "the reflexive dimension of insight this story offers",
     "{{wisdom:experiential}}": "the experiential dimension of insight this story offers",
-    "{{organization:ORG_001}}": "County Precinct South",
     "{{inciting-incident:primary}}": "the body shows wrist abrasions inconsistent with drifting debris",
-    "{{object:OBJECT_001}}": "the missing lock-camera drive",
     "{{premise:primary}}": "Inspector Nadia Voss reopens a river drowning that the county police marked accidental, only to find tide logs, surveillance gaps, and witness transfers pointing back to a redevelopment contract. Diver-journalist Theo Mercer helps her track the physical evidence while precinct chief Soren Arden turns procedure into a moving wall designed to exhaust the case.",
     "{{turning-insight:protagonist}}": "the cover-up is not separate from the institution; it is how the institution currently functions",
     "{{motif-object:detective-police}}": "watermarked evidence tags",
-    "{{character:PERSON_001}}": "Nadia Voss",
     "{{need:protagonist}}": "accept that lawful procedure can become the crime's most reliable accomplice",
     "{{fear:protagonist}}": "discovering that her own precinct archived the decisive evidence",
     "{{contradictions:protagonist}}": "contradictions for this detective / police story",
-    "{{character:PERSON_002}}": "Theo Mercer",
     "{{desire:counterpart}}": "prove that the drowning victim was killed before he entered the river lock",
     "{{need:counterpart}}": "accept that lawful procedure can become the crime's most reliable accomplice",
     "{{fear:counterpart}}": "discovering that her own precinct archived the decisive evidence",
-    "{{character:PERSON_003}}": "Soren Arden",
     "{{desire:pressure}}": "prove that the drowning victim was killed before he entered the river lock",
     "{{need:pressure}}": "accept that lawful procedure can become the crime's most reliable accomplice",
     "{{fear:pressure}}": "discovering that her own precinct archived the decisive evidence",
@@ -404,12 +766,10 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{rule:world-secondary}}": "Maintenance overrides can be audited only if their physical hardware is recovered from the lock site.",
     "{{conflict-transform:world-secondary}}": "Maintenance overrides can be audited only if their physical hardware is recovered from the lock site.",
     "{{rule-to-conflict:world}}": "Any river death inside the redevelopment corridor is reviewed first by the precinct and only later by the civil prosecutor. so every lawful request alerts the people most interested in erasing the answer",
-    "{{location:LOCATION_001}}": "the river evidence hangar beside Lock Six",
     "{{sensory-anchor:location-primary}}": "diesel sheen, wet rope, fluorescent glare on metal trays",
     "{{social-signal:location-primary}}": "everyone speaks in clipped inventory terms because the room only respects what can be tagged",
     "{{symbolic-charge:location-primary}}": "a warehouse where facts are stored just long enough to be reassigned",
     "{{conflict-use:location-primary}}": "physical traces keep resisting the official story each time they are catalogued",
-    "{{location:LOCATION_002}}": "the abandoned sluice control room above the spillway",
     "{{sensory-anchor:location-secondary}}": "diesel sheen, wet rope, fluorescent glare on metal trays",
     "{{social-signal:location-secondary}}": "everyone speaks in clipped inventory terms because the room only respects what can be tagged",
     "{{symbolic-charge:location-secondary}}": "a warehouse where facts are stored just long enough to be reassigned",
@@ -433,28 +793,44 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{conflict:investigation}}": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.",
     "{{chapter-question:investigation}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
     "{{world-pressure:investigation}}": "every lawful request alerts the people most interested in erasing the answer",
+    "{{purpose:bridge}}": "Escalation movement anchored by camera gap at lock six",
+    "{{input-state:bridge-3}}": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.",
+    "{{output-state:bridge-3}}": "administrative negligence hardens into coordinated concealment",
+    "{{conflict:bridge}}": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.",
+    "{{chapter-question:bridge}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
+    "{{world-pressure:bridge}}": "every lawful request alerts the people most interested in erasing the answer",
     "{{purpose:revelation}}": "Revelation movement anchored by diversion beneath the spillway",
-    "{{input-state:revelation-3}}": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.",
-    "{{output-state:revelation-3}}": "the investigation turns from hidden search into institutional showdown",
+    "{{input-state:revelation-4}}": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.",
+    "{{output-state:revelation-4}}": "the investigation turns from hidden search into institutional showdown",
     "{{conflict:revelation}}": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.",
     "{{chapter-question:revelation}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
     "{{world-pressure:revelation}}": "every lawful request alerts the people most interested in erasing the answer",
+    "{{purpose:reversal}}": "Revelation movement anchored by diversion beneath the spillway",
+    "{{input-state:reversal-5}}": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.",
+    "{{output-state:reversal-5}}": "the investigation turns from hidden search into institutional showdown",
+    "{{conflict:reversal}}": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.",
+    "{{chapter-question:reversal}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
+    "{{world-pressure:reversal}}": "every lawful request alerts the people most interested in erasing the answer",
+    "{{input-state:escalation-6}}": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.",
+    "{{output-state:escalation-6}}": "administrative negligence hardens into coordinated concealment",
+    "{{input-state:investigation-7}}": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.",
+    "{{output-state:investigation-7}}": "administrative negligence hardens into coordinated concealment",
+    "{{input-state:bridge-8}}": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.",
+    "{{output-state:bridge-8}}": "administrative negligence hardens into coordinated concealment",
+    "{{input-state:revelation-9}}": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.",
+    "{{output-state:revelation-9}}": "the investigation turns from hidden search into institutional showdown",
     "{{purpose:culmination}}": "Culmination movement anchored by briefing room breach",
-    "{{input-state:culmination-4}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
-    "{{output-state:culmination-4}}": "the case survives because the institution loses control of its own narrative",
+    "{{input-state:culmination-10}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
+    "{{output-state:culmination-10}}": "the case survives because the institution loses control of its own narrative",
     "{{conflict:culmination}}": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.",
     "{{chapter-question:culmination}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
     "{{world-pressure:culmination}}": "every lawful request alerts the people most interested in erasing the answer",
-    "{{input-state:culmination-5}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
-    "{{output-state:culmination-5}}": "the case survives because the institution loses control of its own narrative",
-    "{{input-state:culmination-6}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
-    "{{output-state:culmination-6}}": "the case survives because the institution loses control of its own narrative",
-    "{{input-state:culmination-7}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
-    "{{output-state:culmination-7}}": "the case survives because the institution loses control of its own narrative",
-    "{{input-state:culmination-8}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
-    "{{output-state:culmination-8}}": "the case survives because the institution loses control of its own narrative",
-    "{{input-state:culmination-9}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
-    "{{output-state:culmination-9}}": "the case survives because the institution loses control of its own narrative",
+    "{{purpose:aftermath}}": "Culmination movement anchored by briefing room breach",
+    "{{input-state:aftermath-11}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
+    "{{output-state:aftermath-11}}": "the case survives because the institution loses control of its own narrative",
+    "{{conflict:aftermath}}": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.",
+    "{{chapter-question:aftermath}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
+    "{{world-pressure:aftermath}}": "every lawful request alerts the people most interested in erasing the answer",
     "{{sequence-objective:setup}}": "preserve the physical inconsistency before it is corrected in the paperwork",
     "{{sequence-conflict:setup}}": "Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.",
     "{{sequence-payoff:setup}}": "Nadia has enough doubt to justify disobedience",
@@ -483,25 +859,62 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{dialogue-subtext:commit}}": "makes risk sound practical enough to become a promise",
     "{{dialogue-line-hint:setup-0-1}}": "the body shows wrist abrasions inconsistent with drifting debris",
     "{{dialogue-reaction:commit}}": "The promise raises the stakes for the next exchange.",
+    "{{dialogue-subtext:probe}}": "tests whether the other speaker can bear the unsoftened truth",
+    "{{dialogue-line-hint:setup-0-2}}": "the body shows wrist abrasions inconsistent with drifting debris",
+    "{{dialogue-reaction:probe}}": "The question lands harder than either speaker planned.",
+    "{{dialogue-subtext:challenge}}": "refuses the easier story and forces the pressure into view",
+    "{{dialogue-line-hint:setup-0-3}}": "the body shows wrist abrasions inconsistent with drifting debris",
+    "{{dialogue-reaction:challenge}}": "The challenge strips politeness away from the scene.",
     "{{scene-introduction:setup-1}}": "The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.",
     "{{scene-development:setup-1}}": "Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.",
     "{{action-goal:setup-1}}": "Nadia has enough doubt to justify disobedience",
-    "{{dialogue-line-hint:setup-1-0}}": "Autopsy against the report",
     "{{dialogue-subtext:reframe}}": "changes the moral meaning of what was just said",
-    "{{dialogue-line-hint:setup-1-1}}": "Autopsy against the report",
+    "{{dialogue-line-hint:setup-1-0}}": "Autopsy against the report",
     "{{dialogue-reaction:reframe}}": "The new framing makes the old position harder to keep.",
+    "{{dialogue-line-hint:setup-1-1}}": "Autopsy against the report",
+    "{{dialogue-line-hint:setup-1-2}}": "Autopsy against the report",
+    "{{dialogue-line-hint:setup-1-3}}": "Autopsy against the report",
     "{{scene-introduction:setup-2}}": "the body shows wrist abrasions inconsistent with drifting debris",
     "{{scene-development:setup-2}}": "cause-of-death certainty is replaced by a procedural hole",
+    "{{action-goal:setup-2}}": "Autopsy against the report",
+    "{{dialogue-line-hint:setup-2-0}}": "The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.",
+    "{{dialogue-subtext:warn}}": "tries to protect the bond by narrowing the next available move",
+    "{{dialogue-line-hint:setup-2-1}}": "The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.",
+    "{{dialogue-reaction:warn}}": "The warning narrows what can still be done safely.",
+    "{{dialogue-subtext:answer-honestly}}": "gives away more vulnerability than strategy intended",
+    "{{dialogue-line-hint:setup-2-2}}": "The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.",
+    "{{dialogue-reaction:answer-honestly}}": "The honesty changes the balance of power in the room.",
+    "{{dialogue-line-hint:setup-2-3}}": "The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.",
+    "{{scene-introduction:setup-3}}": "Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.",
+    "{{scene-development:setup-3}}": "The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.",
+    "{{action-goal:setup-3}}": "preserve the physical inconsistency before it is corrected in the paperwork",
+    "{{dialogue-line-hint:setup-3-0}}": "the body shows wrist abrasions inconsistent with drifting debris",
+    "{{dialogue-line-hint:setup-3-1}}": "the body shows wrist abrasions inconsistent with drifting debris",
+    "{{dialogue-line-hint:setup-3-2}}": "the body shows wrist abrasions inconsistent with drifting debris",
+    "{{dialogue-line-hint:setup-3-3}}": "the body shows wrist abrasions inconsistent with drifting debris",
+    "{{scene-introduction:setup-4}}": "Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.",
+    "{{scene-development:setup-4}}": "The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.",
+    "{{action-goal:setup-4}}": "preserve the physical inconsistency before it is corrected in the paperwork",
+    "{{dialogue-line-hint:setup-4-0}}": "the body shows wrist abrasions inconsistent with drifting debris",
+    "{{dialogue-line-hint:setup-4-1}}": "the body shows wrist abrasions inconsistent with drifting debris",
+    "{{dialogue-line-hint:setup-4-2}}": "the body shows wrist abrasions inconsistent with drifting debris",
+    "{{dialogue-subtext:name-risk}}": "speaks the consequence both speakers hoped could stay implied",
+    "{{dialogue-line-hint:setup-4-3}}": "the body shows wrist abrasions inconsistent with drifting debris",
+    "{{dialogue-reaction:name-risk}}": "Naming the risk turns pressure into irreversible commitment.",
+    "{{scene-introduction:setup-5}}": "Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.",
+    "{{scene-development:setup-5}}": "The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.",
     "{{scene-resolution:setup-final}}": "Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.",
     "{{scene-state-change:setup-final}}": "the accidental drowning becomes a timed contradiction",
-    "{{action-goal:setup-2}}": "Autopsy against the report",
+    "{{action-goal:setup-5}}": "preserve the physical inconsistency before it is corrected in the paperwork",
     "{{action-result:setup-final}}": "the accidental drowning becomes a timed contradiction",
     "{{event-trigger:setup-final}}": "the body shows wrist abrasions inconsistent with drifting debris",
     "{{event-follow-through:setup-final}}": "Nadia has enough doubt to justify disobedience",
-    "{{dialogue-subtext:warn}}": "tries to protect the bond by narrowing the next available move",
-    "{{dialogue-line-hint:setup-2-0}}": "The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.",
-    "{{dialogue-reaction:warn}}": "The warning narrows what can still be done safely.",
-    "{{dialogue-line-hint:setup-2-1}}": "The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.",
+    "{{dialogue-line-hint:setup-5-0}}": "the body shows wrist abrasions inconsistent with drifting debris",
+    "{{dialogue-subtext:tease-probe}}": "uses wit to test whether the wound can be named safely",
+    "{{dialogue-line-hint:setup-5-1}}": "the body shows wrist abrasions inconsistent with drifting debris",
+    "{{dialogue-reaction:tease-probe}}": "The joke opens a bruise neither speaker can ignore now.",
+    "{{dialogue-line-hint:setup-5-2}}": "the body shows wrist abrasions inconsistent with drifting debris",
+    "{{dialogue-line-hint:setup-5-3}}": "the body shows wrist abrasions inconsistent with drifting debris",
     "{{description-focus:detective-police}}": "a warehouse where facts are stored just long enough to be reassigned",
     "{{dialogue-core-subtext:detective-police}}": "Nadia Voss and Nadia Voss keep circling the truth they cannot safely name yet",
     "{{monologue-trigger:setup}}": "cause-of-death certainty is replaced by a procedural hole",
@@ -531,29 +944,50 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{event-trigger:escalation-mid}}": "a duplicate maintenance form appears with two different timestamps",
     "{{event-impact:escalation}}": "chain-of-custody becomes the crime scene",
     "{{event-follow-through:escalation-mid}}": "Nadia now knows the cover-up has a clock and a route",
-    "{{dialogue-subtext:probe}}": "tests whether the other speaker can bear the unsoftened truth",
     "{{dialogue-line-hint:escalation-0-0}}": "a duplicate maintenance form appears with two different timestamps",
-    "{{dialogue-reaction:probe}}": "The question lands harder than either speaker planned.",
-    "{{dialogue-subtext:answer-honestly}}": "gives away more vulnerability than strategy intended",
     "{{dialogue-line-hint:escalation-0-1}}": "a duplicate maintenance form appears with two different timestamps",
-    "{{dialogue-reaction:answer-honestly}}": "The honesty changes the balance of power in the room.",
+    "{{dialogue-line-hint:escalation-0-2}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:escalation-0-3}}": "a duplicate maintenance form appears with two different timestamps",
     "{{scene-introduction:escalation-1}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
     "{{scene-development:escalation-1}}": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.",
     "{{action-goal:escalation-1}}": "Nadia now knows the cover-up has a clock and a route",
     "{{dialogue-line-hint:escalation-1-0}}": "Camera gap at Lock Six",
-    "{{dialogue-subtext:tease-probe}}": "uses wit to test whether the wound can be named safely",
     "{{dialogue-line-hint:escalation-1-1}}": "Camera gap at Lock Six",
-    "{{dialogue-reaction:tease-probe}}": "The joke opens a bruise neither speaker can ignore now.",
+    "{{dialogue-line-hint:escalation-1-2}}": "Camera gap at Lock Six",
+    "{{dialogue-line-hint:escalation-1-3}}": "Camera gap at Lock Six",
     "{{scene-introduction:escalation-2}}": "a duplicate maintenance form appears with two different timestamps",
     "{{scene-development:escalation-2}}": "chain-of-custody becomes the crime scene",
+    "{{action-goal:escalation-2}}": "Camera gap at Lock Six",
+    "{{dialogue-line-hint:escalation-2-0}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{dialogue-line-hint:escalation-2-1}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{dialogue-line-hint:escalation-2-2}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{dialogue-line-hint:escalation-2-3}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{scene-introduction:escalation-3}}": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.",
+    "{{scene-development:escalation-3}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{action-goal:escalation-3}}": "connect the missing footage to a human decision rather than a technical accident",
+    "{{dialogue-line-hint:escalation-3-0}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:escalation-3-1}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:escalation-3-2}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:escalation-3-3}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{scene-introduction:escalation-4}}": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.",
+    "{{scene-development:escalation-4}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{action-goal:escalation-4}}": "connect the missing footage to a human decision rather than a technical accident",
+    "{{dialogue-line-hint:escalation-4-0}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:escalation-4-1}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:escalation-4-2}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:escalation-4-3}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{scene-introduction:escalation-5}}": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.",
+    "{{scene-development:escalation-5}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
     "{{scene-resolution:escalation-final}}": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.",
     "{{scene-state-change:escalation-final}}": "administrative negligence hardens into coordinated concealment",
-    "{{action-goal:escalation-2}}": "Camera gap at Lock Six",
+    "{{action-goal:escalation-5}}": "connect the missing footage to a human decision rather than a technical accident",
     "{{action-result:escalation-final}}": "administrative negligence hardens into coordinated concealment",
     "{{event-trigger:escalation-final}}": "a duplicate maintenance form appears with two different timestamps",
     "{{event-follow-through:escalation-final}}": "Nadia now knows the cover-up has a clock and a route",
-    "{{dialogue-line-hint:escalation-2-0}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
-    "{{dialogue-line-hint:escalation-2-1}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{dialogue-line-hint:escalation-5-0}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:escalation-5-1}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:escalation-5-2}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:escalation-5-3}}": "a duplicate maintenance form appears with two different timestamps",
     "{{monologue-trigger:escalation}}": "chain-of-custody becomes the crime scene",
     "{{suspense-uncertainty:escalation}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
     "{{pause-focus:escalation}}": "administrative negligence hardens into coordinated concealment",
@@ -583,29 +1017,125 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{event-follow-through:investigation-mid}}": "Nadia now knows the cover-up has a clock and a route",
     "{{dialogue-line-hint:investigation-0-0}}": "a duplicate maintenance form appears with two different timestamps",
     "{{dialogue-line-hint:investigation-0-1}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:investigation-0-2}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:investigation-0-3}}": "a duplicate maintenance form appears with two different timestamps",
     "{{scene-introduction:investigation-1}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
     "{{scene-development:investigation-1}}": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.",
     "{{action-goal:investigation-1}}": "Nadia now knows the cover-up has a clock and a route",
     "{{dialogue-line-hint:investigation-1-0}}": "Camera gap at Lock Six",
     "{{dialogue-line-hint:investigation-1-1}}": "Camera gap at Lock Six",
+    "{{dialogue-line-hint:investigation-1-2}}": "Camera gap at Lock Six",
+    "{{dialogue-line-hint:investigation-1-3}}": "Camera gap at Lock Six",
     "{{scene-introduction:investigation-2}}": "a duplicate maintenance form appears with two different timestamps",
     "{{scene-development:investigation-2}}": "chain-of-custody becomes the crime scene",
+    "{{action-goal:investigation-2}}": "Camera gap at Lock Six",
+    "{{dialogue-line-hint:investigation-2-0}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{dialogue-line-hint:investigation-2-1}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{dialogue-line-hint:investigation-2-2}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{dialogue-line-hint:investigation-2-3}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{scene-introduction:investigation-3}}": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.",
+    "{{scene-development:investigation-3}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{action-goal:investigation-3}}": "connect the missing footage to a human decision rather than a technical accident",
+    "{{dialogue-line-hint:investigation-3-0}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:investigation-3-1}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:investigation-3-2}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:investigation-3-3}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{scene-introduction:investigation-4}}": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.",
+    "{{scene-development:investigation-4}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{action-goal:investigation-4}}": "connect the missing footage to a human decision rather than a technical accident",
+    "{{dialogue-line-hint:investigation-4-0}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:investigation-4-1}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:investigation-4-2}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:investigation-4-3}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{scene-introduction:investigation-5}}": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.",
+    "{{scene-development:investigation-5}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
     "{{scene-resolution:investigation-final}}": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.",
     "{{scene-state-change:investigation-final}}": "administrative negligence hardens into coordinated concealment",
-    "{{action-goal:investigation-2}}": "Camera gap at Lock Six",
+    "{{action-goal:investigation-5}}": "connect the missing footage to a human decision rather than a technical accident",
     "{{action-result:investigation-final}}": "administrative negligence hardens into coordinated concealment",
     "{{event-trigger:investigation-final}}": "a duplicate maintenance form appears with two different timestamps",
     "{{event-follow-through:investigation-final}}": "Nadia now knows the cover-up has a clock and a route",
-    "{{dialogue-line-hint:investigation-2-0}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
-    "{{dialogue-subtext:name-risk}}": "speaks the consequence both speakers hoped could stay implied",
-    "{{dialogue-line-hint:investigation-2-1}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
-    "{{dialogue-reaction:name-risk}}": "Naming the risk turns pressure into irreversible commitment.",
+    "{{dialogue-line-hint:investigation-5-0}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:investigation-5-1}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:investigation-5-2}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:investigation-5-3}}": "a duplicate maintenance form appears with two different timestamps",
     "{{monologue-trigger:investigation}}": "chain-of-custody becomes the crime scene",
     "{{suspense-uncertainty:investigation}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
     "{{pause-focus:investigation}}": "administrative negligence hardens into coordinated concealment",
     "{{acceleration-trigger:investigation}}": "a duplicate maintenance form appears with two different timestamps",
     "{{cliffhanger-moment:investigation}}": "a duplicate maintenance form appears with two different timestamps",
     "{{cliffhanger-continuation:investigation}}": "Nadia now knows the cover-up has a clock and a route",
+    "{{sequence-objective:bridge}}": "connect the missing footage to a human decision rather than a technical accident",
+    "{{sequence-conflict:bridge}}": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.",
+    "{{sequence-payoff:bridge}}": "Nadia now knows the cover-up has a clock and a route",
+    "{{visible-symptom:bridge}}": "logs are complete on paper but physically impossible when matched against the river timing",
+    "{{action-limitation:bridge}}": "Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.",
+    "{{conflict-output-rule:bridge}}": "every lawful request alerts the people most interested in erasing the answer",
+    "{{challenge:protagonist-bridge}}": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.",
+    "{{insight-pressure:protagonist-bridge}}": "chain-of-custody becomes the crime scene",
+    "{{relationship-stress:bridge}}": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.",
+    "{{reader-effect:bridge}}": "What remains of justice when institutions become experts at making truth look administrative?",
+    "{{scene-introduction:bridge-0}}": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.",
+    "{{scene-development:bridge-0}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{scene-conflict:bridge}}": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.",
+    "{{scene-resolution:bridge-mid}}": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.",
+    "{{scene-state-change:bridge-mid}}": "administrative negligence hardens into coordinated concealment",
+    "{{action-goal:bridge-0}}": "connect the missing footage to a human decision rather than a technical accident",
+    "{{action-obstacle:bridge}}": "every request for the raw server logs pings Soren before it reaches records",
+    "{{conflict-escalation:bridge}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{event-trigger:bridge-mid}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{event-impact:bridge}}": "chain-of-custody becomes the crime scene",
+    "{{event-follow-through:bridge-mid}}": "Nadia now knows the cover-up has a clock and a route",
+    "{{dialogue-line-hint:bridge-0-0}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:bridge-0-1}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:bridge-0-2}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:bridge-0-3}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{scene-introduction:bridge-1}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{scene-development:bridge-1}}": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.",
+    "{{action-goal:bridge-1}}": "Nadia now knows the cover-up has a clock and a route",
+    "{{dialogue-line-hint:bridge-1-0}}": "Camera gap at Lock Six",
+    "{{dialogue-line-hint:bridge-1-1}}": "Camera gap at Lock Six",
+    "{{dialogue-line-hint:bridge-1-2}}": "Camera gap at Lock Six",
+    "{{dialogue-line-hint:bridge-1-3}}": "Camera gap at Lock Six",
+    "{{scene-introduction:bridge-2}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{scene-development:bridge-2}}": "chain-of-custody becomes the crime scene",
+    "{{action-goal:bridge-2}}": "Camera gap at Lock Six",
+    "{{dialogue-line-hint:bridge-2-0}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{dialogue-line-hint:bridge-2-1}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{dialogue-line-hint:bridge-2-2}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{dialogue-line-hint:bridge-2-3}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{scene-introduction:bridge-3}}": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.",
+    "{{scene-development:bridge-3}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{action-goal:bridge-3}}": "connect the missing footage to a human decision rather than a technical accident",
+    "{{dialogue-line-hint:bridge-3-0}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:bridge-3-1}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:bridge-3-2}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:bridge-3-3}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{scene-introduction:bridge-4}}": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.",
+    "{{scene-development:bridge-4}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{action-goal:bridge-4}}": "connect the missing footage to a human decision rather than a technical accident",
+    "{{dialogue-line-hint:bridge-4-0}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:bridge-4-1}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:bridge-4-2}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:bridge-4-3}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{scene-introduction:bridge-5}}": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.",
+    "{{scene-development:bridge-5}}": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy.",
+    "{{scene-resolution:bridge-final}}": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.",
+    "{{scene-state-change:bridge-final}}": "administrative negligence hardens into coordinated concealment",
+    "{{action-goal:bridge-5}}": "connect the missing footage to a human decision rather than a technical accident",
+    "{{action-result:bridge-final}}": "administrative negligence hardens into coordinated concealment",
+    "{{event-trigger:bridge-final}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{event-follow-through:bridge-final}}": "Nadia now knows the cover-up has a clock and a route",
+    "{{dialogue-line-hint:bridge-5-0}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:bridge-5-1}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:bridge-5-2}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{dialogue-line-hint:bridge-5-3}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{monologue-trigger:bridge}}": "chain-of-custody becomes the crime scene",
+    "{{suspense-uncertainty:bridge}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
+    "{{pause-focus:bridge}}": "administrative negligence hardens into coordinated concealment",
+    "{{acceleration-trigger:bridge}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{cliffhanger-moment:bridge}}": "a duplicate maintenance form appears with two different timestamps",
+    "{{cliffhanger-continuation:bridge}}": "Nadia now knows the cover-up has a clock and a route",
     "{{sequence-objective:revelation}}": "separate proof of murder from the police pathway designed to bury it",
     "{{sequence-conflict:revelation}}": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.",
     "{{sequence-payoff:revelation}}": "Nadia can now accuse the precinct itself of obstruction",
@@ -629,27 +1159,125 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{event-follow-through:revelation-mid}}": "Nadia can now accuse the precinct itself of obstruction",
     "{{dialogue-line-hint:revelation-0-0}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
     "{{dialogue-line-hint:revelation-0-1}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:revelation-0-2}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:revelation-0-3}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
     "{{scene-introduction:revelation-1}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
     "{{scene-development:revelation-1}}": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.",
     "{{action-goal:revelation-1}}": "Nadia can now accuse the precinct itself of obstruction",
     "{{dialogue-line-hint:revelation-1-0}}": "Diversion beneath the spillway",
     "{{dialogue-line-hint:revelation-1-1}}": "Diversion beneath the spillway",
+    "{{dialogue-line-hint:revelation-1-2}}": "Diversion beneath the spillway",
+    "{{dialogue-line-hint:revelation-1-3}}": "Diversion beneath the spillway",
     "{{scene-introduction:revelation-2}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
     "{{scene-development:revelation-2}}": "murder, not drowning, becomes the central fact",
+    "{{action-goal:revelation-2}}": "Diversion beneath the spillway",
+    "{{dialogue-line-hint:revelation-2-0}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{dialogue-line-hint:revelation-2-1}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{dialogue-line-hint:revelation-2-2}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{dialogue-line-hint:revelation-2-3}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{scene-introduction:revelation-3}}": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.",
+    "{{scene-development:revelation-3}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{action-goal:revelation-3}}": "separate proof of murder from the police pathway designed to bury it",
+    "{{dialogue-line-hint:revelation-3-0}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:revelation-3-1}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:revelation-3-2}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:revelation-3-3}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{scene-introduction:revelation-4}}": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.",
+    "{{scene-development:revelation-4}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{action-goal:revelation-4}}": "separate proof of murder from the police pathway designed to bury it",
+    "{{dialogue-line-hint:revelation-4-0}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:revelation-4-1}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:revelation-4-2}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:revelation-4-3}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{scene-introduction:revelation-5}}": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.",
+    "{{scene-development:revelation-5}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
     "{{scene-resolution:revelation-final}}": "She copies the drive, then files the bolt officially so the precinct cannot deny it existed.",
     "{{scene-state-change:revelation-final}}": "the investigation turns from hidden search into institutional showdown",
-    "{{action-goal:revelation-2}}": "Diversion beneath the spillway",
+    "{{action-goal:revelation-5}}": "separate proof of murder from the police pathway designed to bury it",
     "{{action-result:revelation-final}}": "the investigation turns from hidden search into institutional showdown",
     "{{event-trigger:revelation-final}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
     "{{event-follow-through:revelation-final}}": "Nadia can now accuse the precinct itself of obstruction",
-    "{{dialogue-line-hint:revelation-2-0}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
-    "{{dialogue-line-hint:revelation-2-1}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{dialogue-line-hint:revelation-5-0}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:revelation-5-1}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:revelation-5-2}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:revelation-5-3}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
     "{{monologue-trigger:revelation}}": "murder, not drowning, becomes the central fact",
     "{{suspense-uncertainty:revelation}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
     "{{pause-focus:revelation}}": "the investigation turns from hidden search into institutional showdown",
     "{{acceleration-trigger:revelation}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
     "{{cliffhanger-moment:revelation}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
     "{{cliffhanger-continuation:revelation}}": "Nadia can now accuse the precinct itself of obstruction",
+    "{{sequence-objective:reversal}}": "separate proof of murder from the police pathway designed to bury it",
+    "{{sequence-conflict:reversal}}": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.",
+    "{{sequence-payoff:reversal}}": "Nadia can now accuse the precinct itself of obstruction",
+    "{{visible-symptom:reversal}}": "logs are complete on paper but physically impossible when matched against the river timing",
+    "{{action-limitation:reversal}}": "Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.",
+    "{{conflict-output-rule:reversal}}": "every lawful request alerts the people most interested in erasing the answer",
+    "{{challenge:protagonist-reversal}}": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.",
+    "{{insight-pressure:protagonist-reversal}}": "murder, not drowning, becomes the central fact",
+    "{{relationship-stress:reversal}}": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.",
+    "{{reader-effect:reversal}}": "What remains of justice when institutions become experts at making truth look administrative?",
+    "{{scene-introduction:reversal-0}}": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.",
+    "{{scene-development:reversal-0}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{scene-conflict:reversal}}": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.",
+    "{{scene-resolution:reversal-mid}}": "She copies the drive, then files the bolt officially so the precinct cannot deny it existed.",
+    "{{scene-state-change:reversal-mid}}": "the investigation turns from hidden search into institutional showdown",
+    "{{action-goal:reversal-0}}": "separate proof of murder from the police pathway designed to bury it",
+    "{{action-obstacle:reversal}}": "the only lawful reporting channel leads back to Soren's office",
+    "{{conflict-escalation:reversal}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{event-trigger:reversal-mid}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{event-impact:reversal}}": "murder, not drowning, becomes the central fact",
+    "{{event-follow-through:reversal-mid}}": "Nadia can now accuse the precinct itself of obstruction",
+    "{{dialogue-line-hint:reversal-0-0}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:reversal-0-1}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:reversal-0-2}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:reversal-0-3}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{scene-introduction:reversal-1}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{scene-development:reversal-1}}": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.",
+    "{{action-goal:reversal-1}}": "Nadia can now accuse the precinct itself of obstruction",
+    "{{dialogue-line-hint:reversal-1-0}}": "Diversion beneath the spillway",
+    "{{dialogue-line-hint:reversal-1-1}}": "Diversion beneath the spillway",
+    "{{dialogue-line-hint:reversal-1-2}}": "Diversion beneath the spillway",
+    "{{dialogue-line-hint:reversal-1-3}}": "Diversion beneath the spillway",
+    "{{scene-introduction:reversal-2}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{scene-development:reversal-2}}": "murder, not drowning, becomes the central fact",
+    "{{action-goal:reversal-2}}": "Diversion beneath the spillway",
+    "{{dialogue-line-hint:reversal-2-0}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{dialogue-line-hint:reversal-2-1}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{dialogue-line-hint:reversal-2-2}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{dialogue-line-hint:reversal-2-3}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{scene-introduction:reversal-3}}": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.",
+    "{{scene-development:reversal-3}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{action-goal:reversal-3}}": "separate proof of murder from the police pathway designed to bury it",
+    "{{dialogue-line-hint:reversal-3-0}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:reversal-3-1}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:reversal-3-2}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:reversal-3-3}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{scene-introduction:reversal-4}}": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.",
+    "{{scene-development:reversal-4}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{action-goal:reversal-4}}": "separate proof of murder from the police pathway designed to bury it",
+    "{{dialogue-line-hint:reversal-4-0}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:reversal-4-1}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:reversal-4-2}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:reversal-4-3}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{scene-introduction:reversal-5}}": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.",
+    "{{scene-development:reversal-5}}": "Theo realizes the victim was killed during a meeting about the lock privatization signatures.",
+    "{{scene-resolution:reversal-final}}": "She copies the drive, then files the bolt officially so the precinct cannot deny it existed.",
+    "{{scene-state-change:reversal-final}}": "the investigation turns from hidden search into institutional showdown",
+    "{{action-goal:reversal-5}}": "separate proof of murder from the police pathway designed to bury it",
+    "{{action-result:reversal-final}}": "the investigation turns from hidden search into institutional showdown",
+    "{{event-trigger:reversal-final}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{event-follow-through:reversal-final}}": "Nadia can now accuse the precinct itself of obstruction",
+    "{{dialogue-line-hint:reversal-5-0}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:reversal-5-1}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:reversal-5-2}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{dialogue-line-hint:reversal-5-3}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{monologue-trigger:reversal}}": "murder, not drowning, becomes the central fact",
+    "{{suspense-uncertainty:reversal}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
+    "{{pause-focus:reversal}}": "the investigation turns from hidden search into institutional showdown",
+    "{{acceleration-trigger:reversal}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{cliffhanger-moment:reversal}}": "the recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+    "{{cliffhanger-continuation:reversal}}": "Nadia can now accuse the precinct itself of obstruction",
     "{{sequence-objective:culmination}}": "move the evidence faster than the suspension order",
     "{{sequence-conflict:culmination}}": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.",
     "{{sequence-payoff:culmination}}": "the victim finally receives a case worthy of the facts",
@@ -673,29 +1301,122 @@ Placeholder substitutions and resolution provenance stored as structured Markdow
     "{{event-follow-through:culmination-mid}}": "the victim finally receives a case worthy of the facts",
     "{{dialogue-line-hint:culmination-0-0}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
     "{{dialogue-line-hint:culmination-0-1}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:culmination-0-2}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:culmination-0-3}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
     "{{scene-introduction:culmination-1}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
     "{{scene-development:culmination-1}}": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.",
     "{{action-goal:culmination-1}}": "the victim finally receives a case worthy of the facts",
     "{{dialogue-line-hint:culmination-1-0}}": "Briefing room breach",
     "{{dialogue-line-hint:culmination-1-1}}": "Briefing room breach",
+    "{{dialogue-line-hint:culmination-1-2}}": "Briefing room breach",
+    "{{dialogue-line-hint:culmination-1-3}}": "Briefing room breach",
     "{{scene-introduction:culmination-2}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
     "{{scene-development:culmination-2}}": "command authority becomes visible complicity",
+    "{{action-goal:culmination-2}}": "Briefing room breach",
+    "{{dialogue-line-hint:culmination-2-0}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{dialogue-line-hint:culmination-2-1}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{dialogue-line-hint:culmination-2-2}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{dialogue-line-hint:culmination-2-3}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{scene-introduction:culmination-3}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
+    "{{scene-development:culmination-3}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{action-goal:culmination-3}}": "move the evidence faster than the suspension order",
+    "{{dialogue-line-hint:culmination-3-0}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:culmination-3-1}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:culmination-3-2}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:culmination-3-3}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{scene-introduction:culmination-4}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
+    "{{scene-development:culmination-4}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{action-goal:culmination-4}}": "move the evidence faster than the suspension order",
+    "{{dialogue-line-hint:culmination-4-0}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:culmination-4-1}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:culmination-4-2}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:culmination-4-3}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{scene-introduction:culmination-5}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
+    "{{scene-development:culmination-5}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
     "{{scene-resolution:culmination-final}}": "She names him and files the footage directly to the prosecutor while the live stream continues.",
     "{{scene-state-change:culmination-final}}": "the case survives because the institution loses control of its own narrative",
-    "{{action-goal:culmination-2}}": "Briefing room breach",
+    "{{action-goal:culmination-5}}": "move the evidence faster than the suspension order",
     "{{action-result:culmination-final}}": "the case survives because the institution loses control of its own narrative",
     "{{event-trigger:culmination-final}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
     "{{event-follow-through:culmination-final}}": "the victim finally receives a case worthy of the facts",
-    "{{dialogue-line-hint:culmination-2-0}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
-    "{{dialogue-line-hint:culmination-2-1}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{dialogue-line-hint:culmination-5-0}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:culmination-5-1}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:culmination-5-2}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:culmination-5-3}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
     "{{monologue-trigger:culmination}}": "command authority becomes visible complicity",
     "{{suspense-uncertainty:culmination}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
     "{{pause-focus:culmination}}": "the case survives because the institution loses control of its own narrative",
     "{{acceleration-trigger:culmination}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
     "{{cliffhanger-moment:culmination}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
     "{{cliffhanger-continuation:culmination}}": "the victim finally receives a case worthy of the facts",
-    "{{dialogue-subtext:challenge}}": "refuses the easier story and forces the pressure into view",
-    "{{dialogue-reaction:challenge}}": "The challenge strips politeness away from the scene."
+    "{{sequence-objective:aftermath}}": "move the evidence faster than the suspension order",
+    "{{sequence-conflict:aftermath}}": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.",
+    "{{visible-symptom:aftermath}}": "logs are complete on paper but physically impossible when matched against the river timing",
+    "{{action-limitation:aftermath}}": "Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.",
+    "{{conflict-output-rule:aftermath}}": "every lawful request alerts the people most interested in erasing the answer",
+    "{{challenge:protagonist-aftermath}}": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.",
+    "{{insight-pressure:protagonist-aftermath}}": "command authority becomes visible complicity",
+    "{{relationship-stress:aftermath}}": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.",
+    "{{reader-effect:aftermath}}": "What remains of justice when institutions become experts at making truth look administrative?",
+    "{{scene-introduction:aftermath-0}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
+    "{{scene-development:aftermath-0}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{scene-conflict:aftermath}}": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.",
+    "{{scene-resolution:aftermath-mid}}": "She names him and files the footage directly to the prosecutor while the live stream continues.",
+    "{{scene-state-change:aftermath-mid}}": "the case survives because the institution loses control of its own narrative",
+    "{{action-goal:aftermath-0}}": "move the evidence faster than the suspension order",
+    "{{action-obstacle:aftermath}}": "the briefing room was built to keep testimony internal and deniable",
+    "{{conflict-escalation:aftermath}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{event-trigger:aftermath-mid}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{event-impact:aftermath}}": "command authority becomes visible complicity",
+    "{{event-follow-through:aftermath-mid}}": "the victim finally receives a case worthy of the facts",
+    "{{dialogue-line-hint:aftermath-0-0}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:aftermath-0-1}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:aftermath-0-2}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:aftermath-0-3}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{scene-introduction:aftermath-1}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{scene-development:aftermath-1}}": "Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.",
+    "{{action-goal:aftermath-1}}": "the victim finally receives a case worthy of the facts",
+    "{{dialogue-line-hint:aftermath-1-0}}": "Briefing room breach",
+    "{{dialogue-line-hint:aftermath-1-1}}": "Briefing room breach",
+    "{{dialogue-line-hint:aftermath-1-2}}": "Briefing room breach",
+    "{{dialogue-line-hint:aftermath-1-3}}": "Briefing room breach",
+    "{{scene-introduction:aftermath-2}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{scene-development:aftermath-2}}": "command authority becomes visible complicity",
+    "{{action-goal:aftermath-2}}": "Briefing room breach",
+    "{{dialogue-line-hint:aftermath-2-0}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{dialogue-line-hint:aftermath-2-1}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{dialogue-line-hint:aftermath-2-2}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{dialogue-line-hint:aftermath-2-3}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{scene-introduction:aftermath-3}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
+    "{{scene-development:aftermath-3}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{action-goal:aftermath-3}}": "move the evidence faster than the suspension order",
+    "{{dialogue-line-hint:aftermath-3-0}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:aftermath-3-1}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:aftermath-3-2}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:aftermath-3-3}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{scene-introduction:aftermath-4}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
+    "{{scene-development:aftermath-4}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{action-goal:aftermath-4}}": "move the evidence faster than the suspension order",
+    "{{dialogue-line-hint:aftermath-4-0}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:aftermath-4-1}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:aftermath-4-2}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:aftermath-4-3}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{scene-introduction:aftermath-5}}": "During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.",
+    "{{scene-development:aftermath-5}}": "Theo streams the room live while officers realize the cover-up reaches beyond one report.",
+    "{{scene-resolution:aftermath-final}}": "She names him and files the footage directly to the prosecutor while the live stream continues.",
+    "{{scene-state-change:aftermath-final}}": "the case survives because the institution loses control of its own narrative",
+    "{{action-goal:aftermath-5}}": "move the evidence faster than the suspension order",
+    "{{action-result:aftermath-final}}": "the case survives because the institution loses control of its own narrative",
+    "{{event-trigger:aftermath-final}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{event-follow-through:aftermath-final}}": "the victim finally receives a case worthy of the facts",
+    "{{dialogue-line-hint:aftermath-5-0}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:aftermath-5-1}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:aftermath-5-2}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{dialogue-line-hint:aftermath-5-3}}": "the footage freezes on Soren entering the lock corridor minutes after the murder",
+    "{{monologue-trigger:aftermath}}": "command authority becomes visible complicity",
+    "{{suspense-uncertainty:aftermath}}": "Can Nadia prove murder before procedure itself is used to wash the evidence clean?",
+    "{{pause-focus:aftermath}}": "the case survives because the institution loses control of its own narrative",
+    "{{acceleration-trigger:aftermath}}": "the footage freezes on Soren entering the lock corridor minutes after the murder"
   }
 }
 -->

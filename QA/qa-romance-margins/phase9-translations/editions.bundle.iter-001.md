@@ -15,7 +15,7 @@ Final reader editions assembled from the source BookWriter output and the transl
     "ro"
   ],
   "editorialProfile": "literary-smooth",
-  "chapterCount": 10,
+  "chapterCount": 12,
   "editions": [
     {
       "targetLanguage": "en",

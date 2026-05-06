@@ -157,7 +157,7 @@ Published QA reader editions mirrored from the latest book workspaces.
         "NQS": 87,
         "CS": 93,
         "CAR": 99,
-        "OI": 67,
+        "OI": 66,
         "EAP": 92
       }
     },
@@ -173,7 +173,7 @@ Published QA reader editions mirrored from the latest book workspaces.
         "NQS": 87,
         "CS": 93,
         "CAR": 99,
-        "OI": 67,
+        "OI": 66,
         "EAP": 92
       }
     }

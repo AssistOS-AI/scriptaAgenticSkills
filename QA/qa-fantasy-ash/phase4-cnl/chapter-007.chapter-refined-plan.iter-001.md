@@ -1,9 +1,9 @@
 @chapter-007 define
-chapter-role: culmination
-purpose: Culmination movement anchored by the furnace broken in public
-input-state: During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.
-output-state: power changes from inherited command to shared burden
-conflict: The valley must choose whether to stand in fear with Maeron or bear the truth and rebuild the wards differently.
+chapter-role: escalation
+purpose: Escalation movement anchored by chronicle beneath the chains
+input-state: In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.
+output-state: the oath becomes both a crime and a necessary shield
+conflict: Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
 stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
 opening-mode: mystery-entry
 development-mode: confrontation
@@ -13,7 +13,7 @@ thematic-focus: identity-self under reconciliation pressure
 rhythm-note: escalating
 chapter-question: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
 answer-shift: the valley was never protected from cost; it was merely trained to pay it quietly
-arc-stage: irreversible-choice
+arc-stage: pressure-rise
 world-pressure: every promise of protection arrives already entangled with control, debt, and ancestral shame
 location-focus: $location-primary
 block-alternation: description-action-dialogue-suspense-interior-monologue-revelation-pause
@@ -22,12 +22,12 @@ This chapter must remain traceable to the symbolic seed so validation can compar
 @chapter-007 refine
 ref: stakes:lineage-survival-legitimacy-cost -> the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
 ref: answer-shift:fantasy -> the valley was never protected from cost; it was merely trained to pay it quietly
-ref: purpose:culmination -> Culmination movement anchored by the furnace broken in public
-ref: conflict:culmination -> The valley must choose whether to stand in fear with Maeron or bear the truth and rebuild the wards differently.
-ref: chapter-question:culmination -> Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
-ref: world-pressure:culmination -> every promise of protection arrives already entangled with control, debt, and ancestral shame
-ref: input-state:culmination-6 -> During the valley rite, Neris interrupts Maeron's succession oath with the stolen seal and the hidden chronicle.
-ref: output-state:culmination-6 -> power changes from inherited command to shared burden
+ref: purpose:escalation -> Escalation movement anchored by chronicle beneath the chains
+ref: conflict:escalation -> Neris wants to expose Maeron immediately, yet doing so before the warding rite could leave the valley open to the winter breach.
+ref: chapter-question:escalation -> Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
+ref: world-pressure:escalation -> every promise of protection arrives already entangled with control, debt, and ancestral shame
+ref: input-state:escalation-6 -> In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.
+ref: output-state:escalation-6 -> the oath becomes both a crime and a necessary shield
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: anchor wonder in material detail, cost, and consequence

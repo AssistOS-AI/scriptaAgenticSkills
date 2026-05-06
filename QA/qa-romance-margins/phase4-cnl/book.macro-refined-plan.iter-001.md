@@ -32,15 +32,15 @@ emotional: admit that precision has become her preferred disguise for abandonmen
 moral: Partnership becomes real only when usefulness stops impersonating emotional safety.
 reflexive: the reflexive dimension of insight this story offers
 experiential: the experiential dimension of insight this story offers
-perspective-mode: single-perspective
+perspective-mode: multi-perspective
 openness: open
 anti-didactic-rule: insight must emerge from consequences, reversals, and conflicting voices
 
 @narrative-structure define
 information-order: flashback-rich
-causal-density: tight
+causal-density: moderate
 macro-form: linear
-beginning: establish $character-protagonist-001 inside $location-primary and the pressure around the Mercer Estate
+beginning: establish $character-protagonist-001 inside $location-primary and the pressure around the estate trust behind the studio
 inciting-incident: the annotated proof reveals a page Talia once designed around Leora's private dedication line
 middle: escalation, pressure, and relational strain expose the cost of deliver the museum art-book commission before the winter launch deadline
 plot-point-1: $character-protagonist-001 commits to action instead of withdrawal
@@ -48,7 +48,7 @@ midpoint: the doubled-margin proof set reveals a hidden layer of the conflict
 plot-point-2: $character-pressure-001 turns pressure into direct threat
 climax: Protect the commission by staying emotionally procedural, or risk the studio's future by telling the truth their partnership was built to avoid.
 resolution: a new equilibrium forms after $character-protagonist-001 accepts irreversible cost
-causal-rule: every-reveal-must-change-the-moral-reading
+causal-rule: every-major-choice-must-create-visible-consequence
 
 @narrative-model select
 adaptation-strength: adapted
@@ -62,38 +62,39 @@ adaptation-note: the chosen model is bent toward short-form clarity and evidence
 @blueprint map
 premise: Editor Leora Kestrel inherits a failing letterpress studio and can save it only by working with designer Talia Voss, the woman who left both the business and their relationship unfinished three years earlier. Estate manager Cassia Mercer gives them one season to deliver a landmark art-book commission, forcing every practical decision to reopen the tenderness and betrayal buried in the studio itself.
 exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around the doubled-margin proof set
-rising-action: pressure from $character-pressure-001 and the Mercer Estate complicates every attempt to act
+rising-action: pressure from $character-pressure-001 and the estate trust behind the studio complicates every attempt to act
 midpoint-shift: the doubled-margin proof set changes what the protagonist understands about the conflict
 climax: Protect the commission by staying emotionally procedural, or risk the studio's future by telling the truth their partnership was built to avoid.
-resolution: the core conflict resolves with lasting cost and a redefined relation to the Mercer Estate
+resolution: the core conflict resolves with lasting cost and a redefined relation to the estate trust behind the studio
 emotional-layer: anticipation -> slight-tension -> surprise -> tension -> satisfaction -> bittersweet-release
-stakes-ladder: private-to-public
+ensemble-pressure: $character-support-001, $character-support-002, $character-support-003 widen the cost beyond the central trio
+stakes-ladder: evidence-to-accusation
 
 @arc-book-main map
 arc-axis: love-connection under transformation pressure
 opening-state: visible-curse-protected-by-ritual-silence
 escalation-pattern: each-fix-proves-system-resists-change
-midpoint-recognition: repair-impossible-without-naming-wound-correctly
+midpoint-recognition: apparent-problem-hides-larger-moral-structure
 climactic-choice: Protect the commission by staying emotionally procedural, or risk the studio's future by telling the truth their partnership was built to avoid.
 ending-state: survival-remains-but-innocence-does-not
 
 @arc-protagonist-main map
 entry-belief: competence is safer than emotional dependence control-prevents-loss
-core-wound: belonging-purchased-through-partial-blindness
-pressure-line: every-lawful-move-risks-proving-the-law-compromised
+core-wound: old-compromise-that-shapes-every-choice
+pressure-line: every-truthful-act-burns-a-layer-of-inherited-shelter
 turning-insight: the studio survives only if the people inside it stop pretending usefulness is neutral interdependence-is-stronger-than-isolation
 exit-belief: shared risk creates a truer form of security than controlled distance interdependence-is-stronger-than-isolation
 
 @arc-relationship-main map
 pair: $character-protagonist-001, $character-counterpart-001
-entry-dynamic: oath-bound-cooperation-shadowed-by-allegiance
-stress-pattern: cooperation-intensifies-rather-than-dissolves-contradiction
+entry-dynamic: productive-partnership-guarded-by-emotional-self-defense
+stress-pattern: shared-work-keeps-exposing-emotional-imbalance
 repair-condition: repair-requires-naming-the-most-damaging-truth
 exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
 
 @motif-primary define
 motif: handwritten notes in the book margins
-symbolic-function: bind-inheritance-to-cost-and-memory
+symbolic-function: carry-emotional-history-through-work-objects
 recurrence-rule: the motif should recur across opening, midpoint, and late consequence scenes with altered meaning
 
 @central-idea refine

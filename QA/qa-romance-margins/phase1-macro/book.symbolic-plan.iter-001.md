@@ -32,23 +32,23 @@ emotional: {{wisdom:emotional}}
 moral: {{wisdom:moral}}
 reflexive: {{wisdom:reflexive}}
 experiential: {{wisdom:experiential}}
-perspective-mode: single-perspective
+perspective-mode: multi-perspective
 openness: open
 anti-didactic-rule: insight must emerge from consequences, reversals, and conflicting voices
 
 @narrative-structure define
 information-order: flashback-rich
-causal-density: tight
+causal-density: moderate
 macro-form: linear
-beginning: establish $character-protagonist-001 inside $location-primary and the pressure around {{organization:ORG_001}}
+beginning: establish $character-protagonist-001 inside $location-primary and the pressure around the estate trust behind the studio
 inciting-incident: {{inciting-incident:primary}}
 middle: escalation, pressure, and relational strain expose the cost of {{desire:protagonist}}
 plot-point-1: $character-protagonist-001 commits to action instead of withdrawal
-midpoint: {{object:OBJECT_001}} reveals a hidden layer of the conflict
+midpoint: the doubled-margin proof set reveals a hidden layer of the conflict
 plot-point-2: $character-pressure-001 turns pressure into direct threat
 climax: {{dilemma:central}}
 resolution: a new equilibrium forms after $character-protagonist-001 accepts irreversible cost
-causal-rule: every-reveal-must-change-the-moral-reading
+causal-rule: every-major-choice-must-create-visible-consequence
 
 @narrative-model select
 adaptation-strength: adapted
@@ -61,37 +61,38 @@ adaptation-note: the chosen model is bent toward short-form clarity and evidence
 
 @blueprint map
 premise: {{premise:primary}}
-exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around {{object:OBJECT_001}}
-rising-action: pressure from $character-pressure-001 and {{organization:ORG_001}} complicates every attempt to act
-midpoint-shift: {{object:OBJECT_001}} changes what the protagonist understands about the conflict
+exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around the doubled-margin proof set
+rising-action: pressure from $character-pressure-001 and the estate trust behind the studio complicates every attempt to act
+midpoint-shift: the doubled-margin proof set changes what the protagonist understands about the conflict
 climax: {{dilemma:central}}
-resolution: the core conflict resolves with lasting cost and a redefined relation to {{organization:ORG_001}}
+resolution: the core conflict resolves with lasting cost and a redefined relation to the estate trust behind the studio
 emotional-layer: anticipation -> slight-tension -> surprise -> tension -> satisfaction -> bittersweet-release
-stakes-ladder: private-to-public
+ensemble-pressure: $character-support-001, $character-support-002, $character-support-003 widen the cost beyond the central trio
+stakes-ladder: evidence-to-accusation
 
 @arc-book-main map
 arc-axis: love-connection under transformation pressure
 opening-state: visible-curse-protected-by-ritual-silence
 escalation-pattern: each-fix-proves-system-resists-change
-midpoint-recognition: repair-impossible-without-naming-wound-correctly
+midpoint-recognition: apparent-problem-hides-larger-moral-structure
 climactic-choice: {{dilemma:central}}
 ending-state: survival-remains-but-innocence-does-not
 
 @arc-protagonist-main map
 entry-belief: {{entry-belief:protagonist}} control-prevents-loss
-core-wound: belonging-purchased-through-partial-blindness
-pressure-line: every-lawful-move-risks-proving-the-law-compromised
+core-wound: old-compromise-that-shapes-every-choice
+pressure-line: every-truthful-act-burns-a-layer-of-inherited-shelter
 turning-insight: {{turning-insight:protagonist}} interdependence-is-stronger-than-isolation
 exit-belief: {{exit-belief:protagonist}} interdependence-is-stronger-than-isolation
 
 @arc-relationship-main map
 pair: $character-protagonist-001, $character-counterpart-001
-entry-dynamic: oath-bound-cooperation-shadowed-by-allegiance
-stress-pattern: cooperation-intensifies-rather-than-dissolves-contradiction
+entry-dynamic: productive-partnership-guarded-by-emotional-self-defense
+stress-pattern: shared-work-keeps-exposing-emotional-imbalance
 repair-condition: repair-requires-naming-the-most-damaging-truth
 exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
 
 @motif-primary define
 motif: {{motif-object:romance-relational}}
-symbolic-function: bind-inheritance-to-cost-and-memory
+symbolic-function: carry-emotional-history-through-work-objects
 recurrence-rule: the motif should recur across opening, midpoint, and late consequence scenes with altered meaning

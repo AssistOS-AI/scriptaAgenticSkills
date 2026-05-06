@@ -37,10 +37,10 @@ openness: open
 anti-didactic-rule: insight must emerge from consequences, reversals, and conflicting voices
 
 @narrative-structure define
-information-order: flashback-rich
+information-order: delayed-reveal
 causal-density: moderate
 macro-form: fragmented
-beginning: establish $character-protagonist-001 inside $location-primary and the pressure around the Greywater Mediation Office
+beginning: establish $character-protagonist-001 inside $location-primary and the pressure around Greywater mediation office
 inciting-incident: the recording ends with Mira's brother naming Corin before the tape cuts off
 middle: escalation, pressure, and relational strain expose the cost of recover her brother's last testimony and reopen the closed flood compensation files
 plot-point-1: $character-protagonist-001 commits to action instead of withdrawal
@@ -48,12 +48,12 @@ midpoint: the flood compensation ledger reveals a hidden layer of the conflict
 plot-point-2: $character-pressure-001 turns pressure into direct threat
 climax: Protect her mother from public ruin or read the forged flood ledger aloud before the town can bury her brother a second time.
 resolution: a new equilibrium forms after $character-protagonist-001 accepts irreversible cost
-causal-rule: every-reveal-must-change-the-moral-reading
+causal-rule: every-major-choice-must-create-visible-consequence
 
 @narrative-model select
 adaptation-strength: adapted
 model-name: three-act
-core-pattern: disruption-escalates-into-irreversible-choice
+core-pattern: desire-opposed-by-system
 fit-reason: the drama profile needs direct escalation with meaningful internal cost
 transformation-logic: $character-protagonist-001 changes while the surrounding system reveals its hidden logic
 genre-compatibility: Drama
@@ -62,38 +62,39 @@ adaptation-note: the chosen model is bent toward short-form clarity and evidence
 @blueprint map
 premise: Mediator Mira Solari returns to the flood-struck town of Greywater after her brother dies in what officials call an accident. With archivist Vera Quinn she uncovers a compensation fraud hidden inside the mediation office, but exposing it would strip Mira's mother of the pension that kept the family alive.
 exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around the flood compensation ledger
-rising-action: pressure from $character-pressure-001 and the Greywater Mediation Office complicates every attempt to act
+rising-action: pressure from $character-pressure-001 and Greywater mediation office complicates every attempt to act
 midpoint-shift: the flood compensation ledger changes what the protagonist understands about the conflict
 climax: Protect her mother from public ruin or read the forged flood ledger aloud before the town can bury her brother a second time.
-resolution: the core conflict resolves with lasting cost and a redefined relation to the Greywater Mediation Office
+resolution: the core conflict resolves with lasting cost and a redefined relation to Greywater mediation office
 emotional-layer: curiosity -> tension -> surprise -> shock -> bittersweet-release
-stakes-ladder: relational-risk-to-identity-cost
+ensemble-pressure: $character-support-001, $character-support-002, $character-support-003 widen the cost beyond the central trio
+stakes-ladder: anomaly-to-systemic-reveal
 
 @arc-book-main map
 arc-axis: identity-self under reconciliation pressure
-opening-state: functional-partnership-guarded-by-self-defense
+opening-state: system-appears-stable-but-is-leaking
 escalation-pattern: each-fix-proves-system-resists-change
 midpoint-recognition: apparent-problem-hides-larger-moral-structure
 climactic-choice: Protect her mother from public ruin or read the forged flood ledger aloud before the town can bury her brother a second time.
-ending-state: preserves-meaning-by-leaving-cost-visible
+ending-state: truth-reorders-structure-at-irreversible-cost
 
 @arc-protagonist-main map
-entry-belief: keeping a family safe matters more than forcing a public reckoning competence-replaces-vulnerability
-core-wound: belonging-purchased-through-partial-blindness
-pressure-line: every-useful-act-asks-whether-care-can-remain-impersonal
-turning-insight: the dead are betrayed again whenever the living turn grief into paperwork visible-cost-is-preferable-to-stable-falsehood
-exit-belief: care without truth only prolongs the violence of the original wound visible-cost-is-preferable-to-stable-falsehood
+entry-belief: keeping a family safe matters more than forcing a public reckoning stability-justifies-concealment
+core-wound: institutional-loyalty-once-seen-as-justice
+pressure-line: every-lawful-move-risks-proving-the-law-compromised
+turning-insight: the dead are betrayed again whenever the living turn grief into paperwork redemption-requires-relinquishment
+exit-belief: care without truth only prolongs the violence of the original wound redemption-requires-relinquishment
 
 @arc-relationship-main map
 pair: $character-protagonist-001, $character-counterpart-001
-entry-dynamic: technical-trust-without-moral-agreement
-stress-pattern: shared-danger-exposes-opposite-loyalties
-repair-condition: repair-requires-shared-risk-rather-than-strategic-distance
-exit-dynamic: solidarity-forged-through-contested-truth
+entry-dynamic: oath-bound-cooperation-shadowed-by-allegiance
+stress-pattern: cooperation-intensifies-rather-than-dissolves-contradiction
+repair-condition: repair-requires-naming-the-most-damaging-truth
+exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
 
 @motif-primary define
 motif: rain-stained witness signatures
-symbolic-function: carry-emotional-history-through-work-objects
+symbolic-function: link-concrete-to-moral-contamination
 recurrence-rule: the motif should recur across opening, midpoint, and late consequence scenes with altered meaning
 
 @central-idea refine

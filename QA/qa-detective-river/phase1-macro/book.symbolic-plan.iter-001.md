@@ -33,22 +33,22 @@ moral: {{wisdom:moral}}
 reflexive: {{wisdom:reflexive}}
 experiential: {{wisdom:experiential}}
 perspective-mode: single-perspective
-openness: partially-open
+openness: open
 anti-didactic-rule: insight must emerge from consequences, reversals, and conflicting voices
 
 @narrative-structure define
-information-order: recontextualizing
+information-order: delayed-reveal
 causal-density: tight
 macro-form: linear
-beginning: establish $character-protagonist-001 inside $location-primary and the pressure around {{organization:ORG_001}}
+beginning: establish $character-protagonist-001 inside $location-primary and the pressure around the redevelopment corridor precinct
 inciting-incident: {{inciting-incident:primary}}
 middle: escalation, pressure, and relational strain expose the cost of {{desire:protagonist}}
 plot-point-1: $character-protagonist-001 commits to action instead of withdrawal
-midpoint: {{object:OBJECT_001}} reveals a hidden layer of the conflict
+midpoint: the stolen drive case reveals a hidden layer of the conflict
 plot-point-2: $character-pressure-001 turns pressure into direct threat
 climax: {{dilemma:central}}
 resolution: a new equilibrium forms after $character-protagonist-001 accepts irreversible cost
-causal-rule: every-escalation-must-narrow-the-safe-options
+causal-rule: every-reveal-must-change-the-moral-reading
 
 @narrative-model select
 adaptation-strength: adapted
@@ -61,37 +61,38 @@ adaptation-note: the chosen model is bent toward short-form clarity and evidence
 
 @blueprint map
 premise: {{premise:primary}}
-exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around {{object:OBJECT_001}}
-rising-action: pressure from $character-pressure-001 and {{organization:ORG_001}} complicates every attempt to act
-midpoint-shift: {{object:OBJECT_001}} changes what the protagonist understands about the conflict
+exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around the stolen drive case
+rising-action: pressure from $character-pressure-001 and the redevelopment corridor precinct complicates every attempt to act
+midpoint-shift: the stolen drive case changes what the protagonist understands about the conflict
 climax: {{dilemma:central}}
-resolution: the core conflict resolves with lasting cost and a redefined relation to {{organization:ORG_001}}
+resolution: the core conflict resolves with lasting cost and a redefined relation to the redevelopment corridor precinct
 emotional-layer: curiosity -> intrigue -> tension -> mistrust -> shock -> relief
+ensemble-pressure: $character-support-001, $character-support-002, $character-support-003 widen the cost beyond the central trio
 stakes-ladder: private-to-public
 
 @arc-book-main map
 arc-axis: identity-self under resistance pressure
-opening-state: initial-promise-unstable-but-not-public
-escalation-pattern: pressure-converts-hidden-contradiction-into-visible-consequence
-midpoint-recognition: apparent-problem-hides-larger-moral-structure
+opening-state: unstable-but-socially-protected-equilibrium
+escalation-pattern: each-escalation-narrows-safe-options
+midpoint-recognition: repair-impossible-without-naming-wound-correctly
 climactic-choice: {{dilemma:central}}
-ending-state: preserves-meaning-by-leaving-cost-visible
+ending-state: truth-reorders-structure-at-irreversible-cost
 
 @arc-protagonist-main map
-entry-belief: {{entry-belief:protagonist}} control-prevents-loss
+entry-belief: {{entry-belief:protagonist}} inheritance-can-be-redeemed
 core-wound: institutional-loyalty-once-seen-as-justice
 pressure-line: every-lawful-move-risks-proving-the-law-compromised
-turning-insight: {{turning-insight:protagonist}} concealment-breeds-larger-collapse
-exit-belief: {{exit-belief:protagonist}} concealment-breeds-larger-collapse
+turning-insight: {{turning-insight:protagonist}} shared-risk-creates-stronger-agency
+exit-belief: {{exit-belief:protagonist}} shared-risk-creates-stronger-agency
 
 @arc-relationship-main map
 pair: $character-protagonist-001, $character-counterpart-001
-entry-dynamic: professional-alliance-with-unequal-risk
+entry-dynamic: oath-bound-cooperation-shadowed-by-allegiance
 stress-pattern: shared-work-keeps-exposing-emotional-imbalance
 repair-condition: repair-requires-naming-the-most-damaging-truth
-exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
+exit-dynamic: solidarity-forged-through-contested-truth
 
 @motif-primary define
 motif: {{motif-object:detective-police}}
-symbolic-function: turn-absence-into-visible-accusation
+symbolic-function: link-concrete-to-moral-contamination
 recurrence-rule: the motif should recur across opening, midpoint, and late consequence scenes with altered meaning

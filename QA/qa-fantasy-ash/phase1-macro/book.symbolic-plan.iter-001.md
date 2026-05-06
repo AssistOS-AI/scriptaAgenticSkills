@@ -40,15 +40,15 @@ anti-didactic-rule: insight must emerge from consequences, reversals, and confli
 information-order: chronological
 causal-density: tight
 macro-form: linear
-beginning: establish $character-protagonist-001 inside $location-primary and the pressure around {{organization:ORG_001}}
+beginning: establish $character-protagonist-001 inside $location-primary and the pressure around the oath furnace court
 inciting-incident: {{inciting-incident:primary}}
 middle: escalation, pressure, and relational strain expose the cost of {{desire:protagonist}}
 plot-point-1: $character-protagonist-001 commits to action instead of withdrawal
-midpoint: {{object:OBJECT_001}} reveals a hidden layer of the conflict
+midpoint: the hidden chronicle leaf reveals a hidden layer of the conflict
 plot-point-2: $character-pressure-001 turns pressure into direct threat
 climax: {{dilemma:central}}
 resolution: a new equilibrium forms after $character-protagonist-001 accepts irreversible cost
-causal-rule: every-reveal-must-change-the-moral-reading
+causal-rule: every-escalation-must-narrow-the-safe-options
 
 @narrative-model select
 adaptation-strength: adapted
@@ -61,37 +61,38 @@ adaptation-note: the chosen model is bent toward short-form clarity and evidence
 
 @blueprint map
 premise: {{premise:primary}}
-exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around {{object:OBJECT_001}}
-rising-action: pressure from $character-pressure-001 and {{organization:ORG_001}} complicates every attempt to act
-midpoint-shift: {{object:OBJECT_001}} changes what the protagonist understands about the conflict
+exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around the hidden chronicle leaf
+rising-action: pressure from $character-pressure-001 and the oath furnace court complicates every attempt to act
+midpoint-shift: the hidden chronicle leaf changes what the protagonist understands about the conflict
 climax: {{dilemma:central}}
-resolution: the core conflict resolves with lasting cost and a redefined relation to {{organization:ORG_001}}
+resolution: the core conflict resolves with lasting cost and a redefined relation to the oath furnace court
 emotional-layer: curiosity -> anticipation -> tension -> fear -> bittersweet-release
+ensemble-pressure: $character-support-001, $character-support-002, $character-support-003 widen the cost beyond the central trio
 stakes-ladder: private-to-public
 
 @arc-book-main map
 arc-axis: identity-self under reconciliation pressure
-opening-state: visible-curse-protected-by-ritual-silence
+opening-state: unstable-but-socially-protected-equilibrium
 escalation-pattern: each-fix-proves-system-resists-change
-midpoint-recognition: malfunction-is-not-accidental-but-designed
+midpoint-recognition: repair-impossible-without-naming-wound-correctly
 climactic-choice: {{dilemma:central}}
 ending-state: survival-remains-but-innocence-does-not
 
 @arc-protagonist-main map
-entry-belief: {{entry-belief:protagonist}} inheritance-can-be-redeemed
-core-wound: old-compromise-that-shapes-every-choice
-pressure-line: every-useful-act-asks-whether-care-can-remain-impersonal
-turning-insight: {{turning-insight:protagonist}} shared-risk-creates-stronger-agency
-exit-belief: {{exit-belief:protagonist}} shared-risk-creates-stronger-agency
+entry-belief: {{entry-belief:protagonist}} procedure-ensures-justice
+core-wound: trust-in-managed-systems-over-unstable-testimony
+pressure-line: every-truthful-act-burns-a-layer-of-inherited-shelter
+turning-insight: {{turning-insight:protagonist}} truth-requires-breaking-procedure
+exit-belief: {{exit-belief:protagonist}} truth-requires-breaking-procedure
 
 @arc-relationship-main map
 pair: $character-protagonist-001, $character-counterpart-001
-entry-dynamic: oath-bound-cooperation-shadowed-by-allegiance
-stress-pattern: shared-work-keeps-exposing-emotional-imbalance
-repair-condition: repair-requires-shared-risk-rather-than-strategic-distance
-exit-dynamic: altered-but-legible-bond
+entry-dynamic: professional-alliance-with-unequal-risk
+stress-pattern: cooperation-intensifies-rather-than-dissolves-contradiction
+repair-condition: repair-requires-naming-the-most-damaging-truth
+exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
 
 @motif-primary define
 motif: {{motif-object:fantasy}}
-symbolic-function: carry-emotional-history-through-work-objects
+symbolic-function: make-system-control-materially-visible
 recurrence-rule: the motif should recur across opening, midpoint, and late consequence scenes with altered meaning

@@ -2,16 +2,20 @@
 sequence-type: escape
 link-logic: mixed
 chapter: $chapter-004
-objective: design a restoration sequence that exposes the lie without collapsing life-support trust
-scene-chain: scene-004-01, scene-004-02, scene-004-03
+objective: locate the archive ring without triggering a council lockdown
+scene-chain: scene-004-01, scene-004-02, scene-004-03, scene-004-04, scene-004-05, scene-004-06
 carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
-conflict-line: Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.
-payoff: Elian finally knows what truth must be returned first
+conflict-line: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+supporting-cast: $character-support-004, $character-support-005, $character-support-001
+chapter-object: $plot-element-secondary-003
+payoff: technical distance gives way to personal implication
 
 @location-004-anchor define
 chapter: $chapter-004
-primary-setting: $location-primary
-secondary-setting: $location-secondary
+primary-setting: $location-tertiary-002
+secondary-setting: $location-tertiary-003
+transit-setting: $location-tertiary-004
+chapter-object: $plot-element-secondary-003
 sensory-anchor: ionized citrus, coolant mist, glass leaves pulsing with archived light
 social-signal: citizens come here to rehearse approved memories in carefully moderated quiet
 symbolic-charge: an engineered garden where recollection has become a civic utility
@@ -23,20 +27,20 @@ rule-reference: $world-rule-primary
 visible-symptom: citizens remember the emotional aftermath of conflict but not the decisions that created it
 action-limitation: Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.
 conflict-output: technical maintenance becomes indistinguishable from political censorship
-reveal-pattern: show-exception-to-reveal-rule
+reveal-pattern: show-consequence-first-explain-cause-later
 
 @arc-004-protagonist map
 chapter: $chapter-004
-entry-belief: stable systems prevent larger human harm at the start of the revelation chapter
-challenge: Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.
-insight-pressure: the council's legitimacy evaporates in one file
-exit-belief: a system that edits consent cannot claim legitimacy even if it remains efficient after the revelation chapter
+entry-belief: stable systems prevent larger human harm at the start of the bridge chapter
+challenge: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+insight-pressure: the conspiracy reaches into Elian's professional past
+exit-belief: a system that edits consent cannot claim legitimacy even if it remains efficient after the bridge chapter
 
 @arc-004-relationship map
 chapter: $chapter-004
-pair: $character-protagonist-001, $character-counterpart-001
-entry-dynamic: professional-alliance-with-unequal-risk
-stress-line: Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.
+pair: $character-protagonist-001, $character-support-004
+entry-dynamic: technical-trust-without-moral-agreement
+stress-line: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
 exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
 
 @alternation-004-core arrange
@@ -47,167 +51,428 @@ anti-flatness-rule: do not chain action summaries without dialogue, atmosphere, 
 
 @scene-004-01 define
 chapter: $chapter-004
-showing-mode: dialogic
+showing-mode: mixed
 focalization: internal-single
-time-space: $location-primary
-introduction: Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies.
-development: Elian sees that her old optimization patch became the core of the pacification protocol.
-conflict: Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.
-resolution: Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.
+time-space: $location-tertiary-002
+introduction: Yara flies Elian through maintenance lanes no civilian archivist is meant to access.
+development: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+conflict: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+resolution: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
 exit: the next scene begins before the pressure can settle
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: the ethical problem becomes a timed release rather than a discovery alone
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-004
+anchor-object: $plot-element-secondary-003
+support-focus: $character-support-004
+state-change: the station reveals a physical pathway for forgetting
 
 @action-004-1 place
 action-mode: sacrifice
 scene: $scene-004-01
 actor: $character-protagonist-001
-goal: design a restoration sequence that exposes the lie without collapsing life-support trust
-obstacle: the archive is wired to purge itself if council override detects mass upload behavior
+goal: locate the archive ring without triggering a council lockdown
+obstacle: the shuttle navigation grid reassigns routes whenever forbidden sectors are approached
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-004-1 place
 scope: $scene-004-01
-type: external-supernatural
-forces: $character-protagonist-001 versus $character-pressure-001
+type: external-society
+forces: $character-protagonist-001 versus $character-support-004
 stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
-escalation: Elian sees that her old optimization patch became the core of the pacification protocol.
+escalation: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
 
 @event-004-1 trigger
 scope: $scene-004-01
-event-type: loss
-trigger: the recovered vote proves the station once rejected the pacification protocol outright
-impact: the council's legitimacy evaporates in one file
-follow-through: Elian finally knows what truth must be returned first
+event-type: discovery
+trigger: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+impact: the conspiracy reaches into Elian's professional past
+follow-through: technical distance gives way to personal implication
 
 @dialogue-turn-004-01-01 line
 scene: $scene-004-01
-speaker: $character-counterpart-001
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: the recovered vote proves the station once rejected the pacification protocol outright
-reaction-beat: The honesty changes the balance of power in the room.
+speaker: $character-support-004
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @dialogue-turn-004-01-02 line
 scene: $scene-004-01
 speaker: $character-protagonist-001
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: the recovered vote proves the station once rejected the pacification protocol outright
-reaction-beat: The honesty changes the balance of power in the room.
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+reaction-beat: The warning narrows what can still be done safely.
+
+@dialogue-turn-004-01-03 line
+scene: $scene-004-01
+speaker: $character-support-005
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+reaction-beat: The question lands harder than either speaker planned.
+
+@dialogue-turn-004-01-04 line
+scene: $scene-004-01
+speaker: $character-pressure-001
+intent: reframe
+subtext: changes the moral meaning of what was just said
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+reaction-beat: The new framing makes the old position harder to keep.
 
 @scene-004-02 define
 chapter: $chapter-004
-showing-mode: introspective
+showing-mode: direct-showing
 focalization: internal-single
-time-space: $location-primary
-introduction: Elian sees that her old optimization patch became the core of the pacification protocol.
-development: Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.
-conflict: Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.
-resolution: Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.
+time-space: $location-tertiary-003
+introduction: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+development: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+conflict: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+resolution: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
 exit: the next scene begins before the pressure can settle
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: the ethical problem becomes a timed release rather than a discovery alone
+participants: $character-protagonist-001, $character-support-005, $character-support-001, $character-pressure-001
+anchor-object: $plot-element-secondary-004
+support-focus: $character-support-005
+state-change: the station reveals a physical pathway for forgetting
 
 @action-004-2 place
-action-mode: sacrifice
+action-mode: evasion
 scene: $scene-004-02
 actor: $character-protagonist-001
-goal: Elian finally knows what truth must be returned first
-obstacle: the archive is wired to purge itself if council override detects mass upload behavior
+goal: technical distance gives way to personal implication
+obstacle: the shuttle navigation grid reassigns routes whenever forbidden sectors are approached
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-004-2 place
 scope: $scene-004-02
-type: external-supernatural
+type: external-nature
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
-escalation: Elian sees that her old optimization patch became the core of the pacification protocol.
+escalation: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
 
 @event-004-2 trigger
 scope: $scene-004-02
-event-type: arrival
-trigger: the recovered vote proves the station once rejected the pacification protocol outright
-impact: the council's legitimacy evaporates in one file
-follow-through: Elian finally knows what truth must be returned first
+event-type: accident
+trigger: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+impact: the conspiracy reaches into Elian's professional past
+follow-through: technical distance gives way to personal implication
 
 @dialogue-turn-004-02-01 line
 scene: $scene-004-02
-speaker: $character-counterpart-001
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: The room of amputated recall
-reaction-beat: The honesty changes the balance of power in the room.
+speaker: $character-support-005
+intent: reframe
+subtext: changes the moral meaning of what was just said
+line-hint: Cargo route for the vanished vote
+reaction-beat: The new framing makes the old position harder to keep.
 
 @dialogue-turn-004-02-02 line
 scene: $scene-004-02
 speaker: $character-protagonist-001
-intent: name-risk
-subtext: speaks the consequence both speakers hoped could stay implied
-line-hint: The room of amputated recall
-reaction-beat: Naming the risk turns pressure into irreversible commitment.
+intent: answer-honestly
+subtext: gives away more vulnerability than strategy intended
+line-hint: Cargo route for the vanished vote
+reaction-beat: The honesty changes the balance of power in the room.
+
+@dialogue-turn-004-02-03 line
+scene: $scene-004-02
+speaker: $character-support-001
+intent: reframe
+subtext: changes the moral meaning of what was just said
+line-hint: Cargo route for the vanished vote
+reaction-beat: The new framing makes the old position harder to keep.
+
+@dialogue-turn-004-02-04 line
+scene: $scene-004-02
+speaker: $character-pressure-001
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: Cargo route for the vanished vote
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-004-03 define
 chapter: $chapter-004
-showing-mode: direct-showing
+showing-mode: dialogic
 focalization: internal-single
-time-space: $location-primary
-introduction: the recovered vote proves the station once rejected the pacification protocol outright
-development: the council's legitimacy evaporates in one file
-conflict: Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.
-resolution: Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.
-exit: the chapter hands off to a sharper revelation consequence
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: the ethical problem becomes a timed release rather than a discovery alone
+time-space: $location-tertiary-004
+introduction: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+development: the conspiracy reaches into Elian's professional past
+conflict: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+resolution: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-001
+anchor-object: $plot-element-secondary-003
+support-focus: $character-support-001
+state-change: the station reveals a physical pathway for forgetting
 
 @action-004-3 place
-action-mode: revelation-act
+action-mode: sacrifice
 scene: $scene-004-03
 actor: $character-protagonist-001
-goal: The room of amputated recall
-obstacle: the archive is wired to purge itself if council override detects mass upload behavior
-result: the ethical problem becomes a timed release rather than a discovery alone
+goal: Cargo route for the vanished vote
+obstacle: the shuttle navigation grid reassigns routes whenever forbidden sectors are approached
+result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-004-3 place
 scope: $scene-004-03
-type: mixed
-forces: $character-protagonist-001 versus $character-pressure-001
+type: external-society
+forces: $character-protagonist-001 versus $character-support-001
 stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
-escalation: Elian sees that her old optimization patch became the core of the pacification protocol.
+escalation: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
 
 @event-004-3 trigger
 scope: $scene-004-03
-event-type: betrayal
-trigger: the recovered vote proves the station once rejected the pacification protocol outright
-impact: the council's legitimacy evaporates in one file
-follow-through: Elian finally knows what truth must be returned first
+event-type: reversal
+trigger: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+impact: the conspiracy reaches into Elian's professional past
+follow-through: technical distance gives way to personal implication
 
 @dialogue-turn-004-03-01 line
 scene: $scene-004-03
-speaker: $character-counterpart-001
-intent: probe
-subtext: tests whether the other speaker can bear the unsoftened truth
-line-hint: Elian sees that her old optimization patch became the core of the pacification protocol.
-reaction-beat: The question lands harder than either speaker planned.
+speaker: $character-support-001
+intent: tease-probe
+subtext: uses wit to test whether the wound can be named safely
+line-hint: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+reaction-beat: The joke opens a bruise neither speaker can ignore now.
 
 @dialogue-turn-004-03-02 line
 scene: $scene-004-03
 speaker: $character-protagonist-001
+intent: answer-honestly
+subtext: gives away more vulnerability than strategy intended
+line-hint: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+reaction-beat: The honesty changes the balance of power in the room.
+
+@dialogue-turn-004-03-03 line
+scene: $scene-004-03
+speaker: $character-support-004
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+reaction-beat: The warning narrows what can still be done safely.
+
+@dialogue-turn-004-03-04 line
+scene: $scene-004-03
+speaker: $character-pressure-001
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+reaction-beat: The warning narrows what can still be done safely.
+
+@scene-004-04 define
+chapter: $chapter-004
+showing-mode: compressed-showing
+focalization: internal-single
+time-space: $location-tertiary-002
+introduction: Yara flies Elian through maintenance lanes no civilian archivist is meant to access.
+development: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+conflict: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+resolution: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-support-004, $character-support-005
+anchor-object: $plot-element-secondary-004
+support-focus: $character-support-004
+state-change: the station reveals a physical pathway for forgetting
+
+@action-004-4 place
+action-mode: sacrifice
+scene: $scene-004-04
+actor: $character-protagonist-001
+goal: locate the archive ring without triggering a council lockdown
+obstacle: the shuttle navigation grid reassigns routes whenever forbidden sectors are approached
+result: the attempt reveals only part of the hidden structure and deepens the next demand
+
+@conflict-004-4 place
+scope: $scene-004-04
+type: external-character
+forces: $character-protagonist-001 versus $character-support-005
+stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
+escalation: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+
+@event-004-4 trigger
+scope: $scene-004-04
+event-type: accident
+trigger: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+impact: the conspiracy reaches into Elian's professional past
+follow-through: technical distance gives way to personal implication
+
+@dialogue-turn-004-04-01 line
+scene: $scene-004-04
+speaker: $character-support-004
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+reaction-beat: The warning narrows what can still be done safely.
+
+@dialogue-turn-004-04-02 line
+scene: $scene-004-04
+speaker: $character-protagonist-001
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+reaction-beat: The warning narrows what can still be done safely.
+
+@dialogue-turn-004-04-03 line
+scene: $scene-004-04
+speaker: $character-support-005
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+reaction-beat: The challenge strips politeness away from the scene.
+
+@dialogue-turn-004-04-04 line
+scene: $scene-004-04
+speaker: $character-pressure-001
+intent: reframe
+subtext: changes the moral meaning of what was just said
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+reaction-beat: The new framing makes the old position harder to keep.
+
+@scene-004-05 define
+chapter: $chapter-004
+showing-mode: direct-showing
+focalization: internal-single
+time-space: $location-tertiary-003
+introduction: Yara flies Elian through maintenance lanes no civilian archivist is meant to access.
+development: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+conflict: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+resolution: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-005, $character-pressure-001
+anchor-object: $plot-element-secondary-003
+support-focus: $character-support-005
+state-change: the station reveals a physical pathway for forgetting
+
+@action-004-5 place
+action-mode: evasion
+scene: $scene-004-05
+actor: $character-protagonist-001
+goal: locate the archive ring without triggering a council lockdown
+obstacle: the shuttle navigation grid reassigns routes whenever forbidden sectors are approached
+result: the attempt reveals only part of the hidden structure and deepens the next demand
+
+@conflict-004-5 place
+scope: $scene-004-05
+type: external-society
+forces: $character-protagonist-001 versus $character-pressure-001
+stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
+escalation: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+
+@event-004-5 trigger
+scope: $scene-004-05
+event-type: loss
+trigger: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+impact: the conspiracy reaches into Elian's professional past
+follow-through: technical distance gives way to personal implication
+
+@dialogue-turn-004-05-01 line
+scene: $scene-004-05
+speaker: $character-support-005
+intent: tease-probe
+subtext: uses wit to test whether the wound can be named safely
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+reaction-beat: The joke opens a bruise neither speaker can ignore now.
+
+@dialogue-turn-004-05-02 line
+scene: $scene-004-05
+speaker: $character-protagonist-001
+intent: reframe
+subtext: changes the moral meaning of what was just said
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+reaction-beat: The new framing makes the old position harder to keep.
+
+@dialogue-turn-004-05-03 line
+scene: $scene-004-05
+speaker: $character-support-001
 intent: probe
 subtext: tests whether the other speaker can bear the unsoftened truth
-line-hint: Elian sees that her old optimization patch became the core of the pacification protocol.
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
 reaction-beat: The question lands harder than either speaker planned.
+
+@dialogue-turn-004-05-04 line
+scene: $scene-004-05
+speaker: $character-pressure-001
+intent: commit
+subtext: makes risk sound practical enough to become a promise
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+reaction-beat: The promise raises the stakes for the next exchange.
+
+@scene-004-06 define
+chapter: $chapter-004
+showing-mode: compressed-showing
+focalization: internal-single
+time-space: $location-tertiary-004
+introduction: Yara flies Elian through maintenance lanes no civilian archivist is meant to access.
+development: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+conflict: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+resolution: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
+exit: the chapter hands off to a sharper bridge consequence
+participants: $character-protagonist-001, $character-support-001, $character-support-004, $character-pressure-001
+anchor-object: $plot-element-secondary-004
+support-focus: $character-support-001
+state-change: the station reveals a physical pathway for forgetting
+
+@action-004-6 place
+action-mode: revelation-act
+scene: $scene-004-06
+actor: $character-protagonist-001
+goal: locate the archive ring without triggering a council lockdown
+obstacle: the shuttle navigation grid reassigns routes whenever forbidden sectors are approached
+result: the station reveals a physical pathway for forgetting
+
+@conflict-004-6 place
+scope: $scene-004-06
+type: external-character
+forces: $character-protagonist-001 versus $character-pressure-001
+stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
+escalation: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+
+@event-004-6 trigger
+scope: $scene-004-06
+event-type: deadline
+trigger: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+impact: the conspiracy reaches into Elian's professional past
+follow-through: technical distance gives way to personal implication
+
+@dialogue-turn-004-06-01 line
+scene: $scene-004-06
+speaker: $character-support-001
+intent: commit
+subtext: makes risk sound practical enough to become a promise
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+reaction-beat: The promise raises the stakes for the next exchange.
+
+@dialogue-turn-004-06-02 line
+scene: $scene-004-06
+speaker: $character-protagonist-001
+intent: tease-probe
+subtext: uses wit to test whether the wound can be named safely
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+reaction-beat: The joke opens a bruise neither speaker can ignore now.
+
+@dialogue-turn-004-06-03 line
+scene: $scene-004-06
+speaker: $character-support-004
+intent: deflect
+subtext: turns confession sideways to protect status and control
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+reaction-beat: The evasion makes the silence more visible than the answer would have.
+
+@dialogue-turn-004-06-04 line
+scene: $scene-004-06
+speaker: $character-pressure-001
+intent: deflect
+subtext: turns confession sideways to protect status and control
+line-hint: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+reaction-beat: The evasion makes the silence more visible than the answer would have.
 
 @description-004-atmosphere apply
 scope: $chapter-004
 description-type: atmosphere
 focus: an engineered garden where recollection has become a civic utility
 function: atmospheric
-rhythm-effect: slow
+rhythm-effect: frame
 
 @dialogue-004-core apply
 scene: $scene-004-01
-speakers: $character-protagonist-001, $character-counterpart-001
+speakers: $character-protagonist-001, $character-counterpart-001, $character-support-004, $character-support-005
 exchange-type: conflictual
 purpose: tension
 subtext: Elian Quill and Elian Quill keep circling the truth they cannot safely name yet
@@ -219,10 +484,10 @@ function: organizational
 time-handling: mixed
 
 @interior-monologue-004-core apply
-scene: $scene-004-03
+scene: $scene-004-06
 character: $character-protagonist-001
 function: psychological-insight
-trigger: the council's legitimacy evaporates in one file
+trigger: the conspiracy reaches into Elian's professional past
 texture: reflective
 
 @suspense-004-core build
@@ -230,28 +495,28 @@ scope: $chapter-004
 suspense-type: cognitive
 uncertainty: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?
 delay-technique: foreshadowing
-payoff-zone: event-004-3
+payoff-zone: event-004-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
 
 @pause-004-core hold
 scope: $chapter-004
 pause-function: atmospheric
-focus: the ethical problem becomes a timed release rather than a discovery alone
+focus: the station reveals a physical pathway for forgetting
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-004-core burst
 scope: $chapter-004
 acceleration-mode: montage
-trigger: the recovered vote proves the station once rejected the pacification protocol outright
+trigger: one phantom crate is tagged with Elian's own authorization signature from two years earlier
 reader-effect: compress time and force the next consequence to land without emotional escape
-target-zone: $scene-004-03
+target-zone: $scene-004-06
 
 @cliffhanger-004-exit cut
 scope: $chapter-004
-cliffhanger-type: unresolved-confrontation
-cut-moment: the recovered vote proves the station once rejected the pacification protocol outright
-continuation-pressure: Elian finally knows what truth must be returned first
+cliffhanger-type: interrupted-revelation
+cut-moment: one phantom crate is tagged with Elian's own authorization signature from two years earlier
+continuation-pressure: technical distance gives way to personal implication
 
 @location-004-anchor refine
 ref: sensory-anchor:location-primary -> ionized citrus, coolant mist, glass leaves pulsing with archived light
@@ -264,9 +529,9 @@ should: make the setting engineered, tactile, and ethically revealing
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @rule-pressure-004-core refine
-ref: visible-symptom:revelation -> citizens remember the emotional aftermath of conflict but not the decisions that created it
-ref: action-limitation:revelation -> Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.
-ref: conflict-output-rule:revelation -> technical maintenance becomes indistinguishable from political censorship
+ref: visible-symptom:bridge -> citizens remember the emotional aftermath of conflict but not the decisions that created it
+ref: action-limitation:bridge -> Elian cannot expose the protocol without using the very infrastructure built to overwrite public recall.
+ref: conflict-output-rule:bridge -> technical maintenance becomes indistinguishable from political censorship
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let system rules create action limits, not just background lore
@@ -275,109 +540,304 @@ The refined artifact preserves identifier continuity so deterministic validation
 @arc-004-protagonist refine
 ref: entry-belief:protagonist -> stable systems prevent larger human harm
 ref: exit-belief:protagonist -> a system that edits consent cannot claim legitimacy even if it remains efficient
-ref: challenge:protagonist-revelation -> Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.
-ref: insight-pressure:protagonist-revelation -> the council's legitimacy evaporates in one file
+ref: challenge:protagonist-bridge -> Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+ref: insight-pressure:protagonist-bridge -> the conspiracy reaches into Elian's professional past
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the arc bind system insight to ethical choice
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @arc-004-relationship refine
-ref: relationship-stress:revelation -> Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.
+ref: relationship-stress:bridge -> Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the arc bind system insight to ethical choice
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @alternation-004-core refine
-ref: reader-effect:revelation -> Is peace still peace when consent depends on not remembering the price?
+ref: reader-effect:bridge -> Is peace still peace when consent depends on not remembering the price?
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance orientation, system pressure, and kinetic consequence
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-004-01 refine
-ref: scene-introduction:revelation-0 -> Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies.
-ref: scene-development:revelation-0 -> Elian sees that her old optimization patch became the core of the pacification protocol.
-ref: scene-conflict:revelation -> Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.
-ref: scene-resolution:revelation-mid -> Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.
-ref: scene-state-change:revelation-mid -> the ethical problem becomes a timed release rather than a discovery alone
+ref: scene-introduction:bridge-0 -> Yara flies Elian through maintenance lanes no civilian archivist is meant to access.
+ref: scene-development:bridge-0 -> They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+ref: scene-conflict:bridge -> Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+ref: scene-resolution:bridge-mid -> A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
+ref: scene-state-change:bridge-mid -> the station reveals a physical pathway for forgetting
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance technical detail with human disorientation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-004-01-01 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:revelation-0-0 -> the recovered vote proves the station once rejected the pacification protocol outright
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:bridge-0-0 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let technical vocabulary carry ethical pressure instead of decorative jargon
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-004-01-02 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:revelation-0-1 -> the recovered vote proves the station once rejected the pacification protocol outright
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:bridge-0-1 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-01-03 refine
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:bridge-0-2 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-01-04 refine
+ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
+ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
+ref: dialogue-line-hint:bridge-0-3 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let technical vocabulary carry ethical pressure instead of decorative jargon
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-004-02 refine
-ref: scene-conflict:revelation -> Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.
-ref: scene-resolution:revelation-mid -> Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.
-ref: scene-state-change:revelation-mid -> the ethical problem becomes a timed release rather than a discovery alone
-ref: scene-introduction:revelation-1 -> Elian sees that her old optimization patch became the core of the pacification protocol.
-ref: scene-development:revelation-1 -> Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.
+ref: scene-conflict:bridge -> Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+ref: scene-resolution:bridge-mid -> A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
+ref: scene-state-change:bridge-mid -> the station reveals a physical pathway for forgetting
+ref: scene-introduction:bridge-1 -> They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+ref: scene-development:bridge-1 -> Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance technical detail with human disorientation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-004-02-01 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:revelation-1-0 -> The room of amputated recall
+ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
+ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
+ref: dialogue-line-hint:bridge-1-0 -> Cargo route for the vanished vote
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let technical vocabulary carry ethical pressure instead of decorative jargon
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-004-02-02 refine
-ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
-ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
-ref: dialogue-line-hint:revelation-1-1 -> The room of amputated recall
+ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
+ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
+ref: dialogue-line-hint:bridge-1-1 -> Cargo route for the vanished vote
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-02-03 refine
+ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
+ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
+ref: dialogue-line-hint:bridge-1-2 -> Cargo route for the vanished vote
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-02-04 refine
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:bridge-1-3 -> Cargo route for the vanished vote
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let technical vocabulary carry ethical pressure instead of decorative jargon
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-004-03 refine
-ref: scene-conflict:revelation -> Restoring memory station-wide could trigger panic and secondary casualties, yet leaving the archive hidden means permanent counterfeit consent.
-ref: scene-introduction:revelation-2 -> the recovered vote proves the station once rejected the pacification protocol outright
-ref: scene-development:revelation-2 -> the council's legitimacy evaporates in one file
-ref: scene-resolution:revelation-final -> Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.
-ref: scene-state-change:revelation-final -> the ethical problem becomes a timed release rather than a discovery alone
+ref: scene-conflict:bridge -> Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+ref: scene-resolution:bridge-mid -> A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
+ref: scene-state-change:bridge-mid -> the station reveals a physical pathway for forgetting
+ref: scene-introduction:bridge-2 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
+ref: scene-development:bridge-2 -> the conspiracy reaches into Elian's professional past
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance technical detail with human disorientation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-004-03-01 refine
-ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
-ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
-ref: dialogue-line-hint:revelation-2-0 -> Elian sees that her old optimization patch became the core of the pacification protocol.
+ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
+ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
+ref: dialogue-line-hint:bridge-2-0 -> They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let technical vocabulary carry ethical pressure instead of decorative jargon
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-004-03-02 refine
+ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
+ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
+ref: dialogue-line-hint:bridge-2-1 -> They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-03-03 refine
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:bridge-2-2 -> They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-03-04 refine
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:bridge-2-3 -> They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@scene-004-04 refine
+ref: scene-conflict:bridge -> Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+ref: scene-resolution:bridge-mid -> A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
+ref: scene-state-change:bridge-mid -> the station reveals a physical pathway for forgetting
+ref: scene-introduction:bridge-3 -> Yara flies Elian through maintenance lanes no civilian archivist is meant to access.
+ref: scene-development:bridge-3 -> They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: balance technical detail with human disorientation
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-04-01 refine
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:bridge-3-0 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-04-02 refine
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:bridge-3-1 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-04-03 refine
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:bridge-3-2 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-04-04 refine
+ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
+ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
+ref: dialogue-line-hint:bridge-3-3 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@scene-004-05 refine
+ref: scene-conflict:bridge -> Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+ref: scene-resolution:bridge-mid -> A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
+ref: scene-state-change:bridge-mid -> the station reveals a physical pathway for forgetting
+ref: scene-introduction:bridge-4 -> Yara flies Elian through maintenance lanes no civilian archivist is meant to access.
+ref: scene-development:bridge-4 -> They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: balance technical detail with human disorientation
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-05-01 refine
+ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
+ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
+ref: dialogue-line-hint:bridge-4-0 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-05-02 refine
+ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
+ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
+ref: dialogue-line-hint:bridge-4-1 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-05-03 refine
 ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
 ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
-ref: dialogue-line-hint:revelation-2-1 -> Elian sees that her old optimization patch became the core of the pacification protocol.
+ref: dialogue-line-hint:bridge-4-2 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-05-04 refine
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:bridge-4-3 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@scene-004-06 refine
+ref: scene-conflict:bridge -> Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
+ref: scene-introduction:bridge-5 -> Yara flies Elian through maintenance lanes no civilian archivist is meant to access.
+ref: scene-development:bridge-5 -> They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
+ref: scene-resolution:bridge-final -> A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
+ref: scene-state-change:bridge-final -> the station reveals a physical pathway for forgetting
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: balance technical detail with human disorientation
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-06-01 refine
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:bridge-5-0 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-06-02 refine
+ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
+ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
+ref: dialogue-line-hint:bridge-5-1 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-06-03 refine
+ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
+ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
+ref: dialogue-line-hint:bridge-5-2 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let technical vocabulary carry ethical pressure instead of decorative jargon
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-004-06-04 refine
+ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
+ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
+ref: dialogue-line-hint:bridge-5-3 -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let technical vocabulary carry ethical pressure instead of decorative jargon
@@ -391,21 +851,21 @@ should: use concrete system language without losing emotional readability
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @suspense-004-core refine
-ref: suspense-uncertainty:revelation -> Can Elian restore the station's memory without destroying the fragile peace built on forgetting?
+ref: suspense-uncertainty:bridge -> Can Elian restore the station's memory without destroying the fragile peace built on forgetting?
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use concrete system language without losing emotional readability
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @pause-004-core refine
-ref: pause-focus:revelation -> the ethical problem becomes a timed release rather than a discovery alone
+ref: pause-focus:bridge -> the station reveals a physical pathway for forgetting
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance orientation, system pressure, and kinetic consequence
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @acceleration-004-core refine
-ref: acceleration-trigger:revelation -> the recovered vote proves the station once rejected the pacification protocol outright
+ref: acceleration-trigger:bridge -> one phantom crate is tagged with Elian's own authorization signature from two years earlier
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: balance orientation, system pressure, and kinetic consequence

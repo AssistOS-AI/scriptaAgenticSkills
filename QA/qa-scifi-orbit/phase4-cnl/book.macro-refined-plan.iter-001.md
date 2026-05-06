@@ -32,26 +32,26 @@ emotional: accept that elegant systems can become moral anesthesia
 moral: Safety purchased through engineered forgetting is only a delayed form of coercion.
 reflexive: the reflexive dimension of insight this story offers
 experiential: the experiential dimension of insight this story offers
-perspective-mode: multi-perspective
+perspective-mode: single-perspective
 openness: open
 anti-didactic-rule: insight must emerge from consequences, reversals, and conflicting voices
 
 @narrative-structure define
-information-order: chronological
+information-order: delayed-reveal
 causal-density: tight
 macro-form: linear
-beginning: establish $character-protagonist-001 inside $location-primary and the pressure around Nacre Station Council
+beginning: establish $character-protagonist-001 inside $location-primary and the pressure around the Nacre station council
 inciting-incident: the shard contains voices naming a vote that station records say never occurred
 middle: escalation, pressure, and relational strain expose the cost of trace the corrupted recall patterns and restore the missing vote archive
 plot-point-1: $character-protagonist-001 commits to action instead of withdrawal
-midpoint: the erased council vote archive reveals a hidden layer of the conflict
+midpoint: the erased vote lattice reveals a hidden layer of the conflict
 plot-point-2: $character-pressure-001 turns pressure into direct threat
 climax: Preserve a stable station that survives by selective erasure, or return memory to the people who may tear it apart once they remember what was done to them.
 resolution: a new equilibrium forms after $character-protagonist-001 accepts irreversible cost
 causal-rule: every-escalation-must-narrow-the-safe-options
 
 @narrative-model select
-adaptation-strength: adapted
+adaptation-strength: hybridized
 model-name: equilibrium-disruption-restoration
 core-pattern: desire-opposed-by-system
 fit-reason: the science fiction profile needs direct escalation with meaningful internal cost
@@ -61,39 +61,40 @@ adaptation-note: the chosen model is bent toward short-form clarity and evidence
 
 @blueprint map
 premise: Memory architect Elian Quill discovers that the orbital station Nacre keeps social harmony by erasing witness memory whenever dissent threatens the station council. With shuttle pilot Yara Sen she traces a series of benign technical anomalies back to a hidden archive where entire political decisions have been amputated from collective recall.
-exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around the erased council vote archive
-rising-action: pressure from $character-pressure-001 and Nacre Station Council complicates every attempt to act
-midpoint-shift: the erased council vote archive changes what the protagonist understands about the conflict
+exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around the erased vote lattice
+rising-action: pressure from $character-pressure-001 and the Nacre station council complicates every attempt to act
+midpoint-shift: the erased vote lattice changes what the protagonist understands about the conflict
 climax: Preserve a stable station that survives by selective erasure, or return memory to the people who may tear it apart once they remember what was done to them.
-resolution: the core conflict resolves with lasting cost and a redefined relation to Nacre Station Council
+resolution: the core conflict resolves with lasting cost and a redefined relation to the Nacre station council
 emotional-layer: intrigue -> tension -> surprise -> dread -> bittersweet-release
-stakes-ladder: private-to-public
+ensemble-pressure: $character-support-001, $character-support-002, $character-support-003 widen the cost beyond the central trio
+stakes-ladder: anomaly-to-systemic-reveal
 
 @arc-book-main map
 arc-axis: freedom-security under dilemma pressure
-opening-state: system-appears-stable-but-is-leaking
-escalation-pattern: each-escalation-narrows-safe-options
+opening-state: initial-promise-unstable-but-not-public
+escalation-pattern: pressure-converts-hidden-contradiction-into-visible-consequence
 midpoint-recognition: apparent-problem-hides-larger-moral-structure
 climactic-choice: Preserve a stable station that survives by selective erasure, or return memory to the people who may tear it apart once they remember what was done to them.
-ending-state: survival-remains-but-innocence-does-not
+ending-state: preserves-meaning-by-leaving-cost-visible
 
 @arc-protagonist-main map
-entry-belief: stable systems prevent larger human harm control-prevents-loss
-core-wound: earlier-abandonment-transformed-need-into-logistics
-pressure-line: every-repair-exposes-the-politics-in-the-machine
+entry-belief: stable systems prevent larger human harm competence-replaces-vulnerability
+core-wound: old-compromise-that-shapes-every-choice
+pressure-line: every-truthful-move-threatens-the-bond-being-saved
 turning-insight: peace without memory turns citizens into well-maintained evidence gaps visible-cost-is-preferable-to-stable-falsehood
 exit-belief: a system that edits consent cannot claim legitimacy even if it remains efficient visible-cost-is-preferable-to-stable-falsehood
 
 @arc-relationship-main map
 pair: $character-protagonist-001, $character-counterpart-001
-entry-dynamic: professional-alliance-with-unequal-risk
-stress-pattern: shared-work-keeps-exposing-emotional-imbalance
+entry-dynamic: technical-trust-without-moral-agreement
+stress-pattern: shared-danger-exposes-opposite-loyalties
 repair-condition: repair-requires-naming-the-most-damaging-truth
-exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
+exit-dynamic: altered-but-legible-bond
 
 @motif-primary define
 motif: orchard leaves flickering with absent voices
-symbolic-function: bind-inheritance-to-cost-and-memory
+symbolic-function: make-system-control-materially-visible
 recurrence-rule: the motif should recur across opening, midpoint, and late consequence scenes with altered meaning
 
 @central-idea refine

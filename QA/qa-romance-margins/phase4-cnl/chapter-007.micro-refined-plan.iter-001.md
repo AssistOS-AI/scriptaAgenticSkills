@@ -2,16 +2,20 @@
 sequence-type: courtship
 link-logic: causal
 chapter: $chapter-007
-objective: finish the commission without sacrificing the truth that now gives it meaning
-scene-chain: scene-007-01, scene-007-02, scene-007-03
+objective: save the damaged folios without destroying the schedule
+scene-chain: scene-007-01, scene-007-02, scene-007-03, scene-007-04, scene-007-05, scene-007-06
 carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
-conflict-line: Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
-payoff: the partnership survives because honesty finally becomes part of the work
+conflict-line: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+supporting-cast: $character-support-002, $character-support-003, $character-support-004
+chapter-object: $plot-element-secondary-001
+payoff: repair becomes emotionally riskier than failure
 
 @location-007-anchor define
 chapter: $chapter-007
 primary-setting: $location-primary
 secondary-setting: $location-secondary
+transit-setting: $location-tertiary-001
+chapter-object: $plot-element-secondary-001
 sensory-anchor: ink oil, paper dust, hot metal type, winter air trapped in skylight glass
 social-signal: work replaces confession here because every surface carries the memory of collaboration
 symbolic-charge: a place where touch leaves visible marks and every correction shows
@@ -23,20 +27,20 @@ rule-reference: $world-rule-primary
 visible-symptom: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work
 action-limitation: Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure.
 conflict-output: shared labor turns every practical choice into a referendum on trust, apology, and future risk
-reveal-pattern: show-consequence-first-explain-cause-later
+reveal-pattern: show-exception-to-reveal-rule
 
 @arc-007-protagonist map
 chapter: $chapter-007
-entry-belief: competence is safer than emotional dependence at the start of the culmination chapter
-challenge: Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
-insight-pressure: the launch becomes confession as much as success
-exit-belief: shared risk creates a truer form of security than controlled distance after the culmination chapter
+entry-belief: competence is safer than emotional dependence at the start of the escalation chapter
+challenge: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+insight-pressure: the studio forces the past into the present workload
+exit-belief: shared risk creates a truer form of security than controlled distance after the escalation chapter
 
 @arc-007-relationship map
 chapter: $chapter-007
-pair: $character-protagonist-001, $character-counterpart-001
-entry-dynamic: technical-trust-without-moral-agreement
-stress-line: Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
+pair: $character-protagonist-001, $character-support-002
+entry-dynamic: oath-bound-cooperation-shadowed-by-allegiance
+stress-line: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
 exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
 
 @alternation-007-core arrange
@@ -50,153 +54,414 @@ chapter: $chapter-007
 showing-mode: dialogic
 focalization: internal-single
 time-space: $location-primary
-introduction: On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.
-development: Talia sees the page only after the first public copy is opened in front of the crowd.
-conflict: Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
-resolution: She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view.
+introduction: A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.
+development: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+conflict: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+resolution: They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
 exit: the next scene begins before the pressure can settle
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: their bond shifts from guarded usefulness to acknowledged reciprocity
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-002
+anchor-object: $plot-element-secondary-001
+support-focus: $character-support-002
+state-change: the work begins storing their conflict instead of hiding it
 
 @action-007-1 place
 action-mode: pursuit
 scene: $scene-007-01
 actor: $character-protagonist-001
-goal: finish the commission without sacrificing the truth that now gives it meaning
-obstacle: public celebration offers an easy way to hide inside performance instead of confession
+goal: save the damaged folios without destroying the schedule
+obstacle: fatigue makes every careful sentence sound either too sharp or too intimate
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-007-1 place
 scope: $scene-007-01
-type: internal
-forces: $character-protagonist-001 versus $character-pressure-001
+type: mixed
+forces: $character-protagonist-001 versus $character-support-002
 stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
-escalation: Talia sees the page only after the first public copy is opened in front of the crowd.
+escalation: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
 
 @event-007-1 trigger
 scope: $scene-007-01
-event-type: arrival
-trigger: the dedication names the year Talia left and the future Leora still wants
-impact: the launch becomes confession as much as success
-follow-through: the partnership survives because honesty finally becomes part of the work
+event-type: loss
+trigger: the misprint mirrors the exact margin shift from the night Talia left
+impact: the studio forces the past into the present workload
+follow-through: repair becomes emotionally riskier than failure
 
 @dialogue-turn-007-01-01 line
 scene: $scene-007-01
-speaker: $character-counterpart-001
+speaker: $character-support-002
 intent: tease-probe
 subtext: uses wit to test whether the wound can be named safely
-line-hint: the dedication names the year Talia left and the future Leora still wants
+line-hint: the misprint mirrors the exact margin shift from the night Talia left
 reaction-beat: The joke opens a bruise neither speaker can ignore now.
 
 @dialogue-turn-007-01-02 line
 scene: $scene-007-01
 speaker: $character-protagonist-001
-intent: commit
-subtext: makes risk sound practical enough to become a promise
-line-hint: the dedication names the year Talia left and the future Leora still wants
-reaction-beat: The promise raises the stakes for the next exchange.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: the misprint mirrors the exact margin shift from the night Talia left
+reaction-beat: The question lands harder than either speaker planned.
+
+@dialogue-turn-007-01-03 line
+scene: $scene-007-01
+speaker: $character-support-003
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: the misprint mirrors the exact margin shift from the night Talia left
+reaction-beat: The challenge strips politeness away from the scene.
+
+@dialogue-turn-007-01-04 line
+scene: $scene-007-01
+speaker: $character-pressure-001
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: the misprint mirrors the exact margin shift from the night Talia left
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @scene-007-02 define
 chapter: $chapter-007
-showing-mode: introspective
+showing-mode: dialogic
 focalization: internal-single
-time-space: $location-primary
-introduction: Talia sees the page only after the first public copy is opened in front of the crowd.
-development: Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
-conflict: Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
-resolution: She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view.
+time-space: $location-secondary
+introduction: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+development: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+conflict: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+resolution: They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
 exit: the next scene begins before the pressure can settle
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: their bond shifts from guarded usefulness to acknowledged reciprocity
+participants: $character-protagonist-001, $character-support-003, $character-support-004, $character-pressure-001
+anchor-object: $plot-element-secondary-002
+support-focus: $character-support-003
+state-change: the work begins storing their conflict instead of hiding it
 
 @action-007-2 place
-action-mode: pursuit
+action-mode: attempt
 scene: $scene-007-02
 actor: $character-protagonist-001
-goal: the partnership survives because honesty finally becomes part of the work
-obstacle: public celebration offers an easy way to hide inside performance instead of confession
+goal: repair becomes emotionally riskier than failure
+obstacle: fatigue makes every careful sentence sound either too sharp or too intimate
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-007-2 place
 scope: $scene-007-02
-type: external-society
+type: mixed
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
-escalation: Talia sees the page only after the first public copy is opened in front of the crowd.
+escalation: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
 
 @event-007-2 trigger
 scope: $scene-007-02
-event-type: arrival
-trigger: the dedication names the year Talia left and the future Leora still wants
-impact: the launch becomes confession as much as success
-follow-through: the partnership survives because honesty finally becomes part of the work
+event-type: betrayal
+trigger: the misprint mirrors the exact margin shift from the night Talia left
+impact: the studio forces the past into the present workload
+follow-through: repair becomes emotionally riskier than failure
 
 @dialogue-turn-007-02-01 line
 scene: $scene-007-02
-speaker: $character-counterpart-001
-intent: challenge
-subtext: refuses the easier story and forces the pressure into view
-line-hint: Launch with the unfinished dedication
-reaction-beat: The challenge strips politeness away from the scene.
+speaker: $character-support-003
+intent: reframe
+subtext: changes the moral meaning of what was just said
+line-hint: The misprinted folio night
+reaction-beat: The new framing makes the old position harder to keep.
 
 @dialogue-turn-007-02-02 line
 scene: $scene-007-02
 speaker: $character-protagonist-001
-intent: commit
-subtext: makes risk sound practical enough to become a promise
-line-hint: Launch with the unfinished dedication
-reaction-beat: The promise raises the stakes for the next exchange.
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: The misprinted folio night
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
+
+@dialogue-turn-007-02-03 line
+scene: $scene-007-02
+speaker: $character-support-004
+intent: tease-probe
+subtext: uses wit to test whether the wound can be named safely
+line-hint: The misprinted folio night
+reaction-beat: The joke opens a bruise neither speaker can ignore now.
+
+@dialogue-turn-007-02-04 line
+scene: $scene-007-02
+speaker: $character-pressure-001
+intent: tease-probe
+subtext: uses wit to test whether the wound can be named safely
+line-hint: The misprinted folio night
+reaction-beat: The joke opens a bruise neither speaker can ignore now.
 
 @scene-007-03 define
 chapter: $chapter-007
-showing-mode: introspective
+showing-mode: direct-showing
 focalization: internal-single
-time-space: $location-primary
-introduction: the dedication names the year Talia left and the future Leora still wants
-development: the launch becomes confession as much as success
-conflict: Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
-resolution: She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view.
-exit: the chapter hands off to a sharper culmination consequence
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: their bond shifts from guarded usefulness to acknowledged reciprocity
+time-space: $location-tertiary-001
+introduction: the misprint mirrors the exact margin shift from the night Talia left
+development: the studio forces the past into the present workload
+conflict: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+resolution: They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-004
+anchor-object: $plot-element-secondary-001
+support-focus: $character-support-004
+state-change: the work begins storing their conflict instead of hiding it
 
 @action-007-3 place
-action-mode: attempt
+action-mode: revelation-act
 scene: $scene-007-03
 actor: $character-protagonist-001
-goal: Launch with the unfinished dedication
-obstacle: public celebration offers an easy way to hide inside performance instead of confession
-result: their bond shifts from guarded usefulness to acknowledged reciprocity
+goal: The misprinted folio night
+obstacle: fatigue makes every careful sentence sound either too sharp or too intimate
+result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-007-3 place
 scope: $scene-007-03
-type: internal
-forces: $character-protagonist-001 versus $character-pressure-001
+type: mixed
+forces: $character-protagonist-001 versus $character-support-004
 stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
-escalation: Talia sees the page only after the first public copy is opened in front of the crowd.
+escalation: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
 
 @event-007-3 trigger
 scope: $scene-007-03
-event-type: crime
-trigger: the dedication names the year Talia left and the future Leora still wants
-impact: the launch becomes confession as much as success
-follow-through: the partnership survives because honesty finally becomes part of the work
+event-type: discovery
+trigger: the misprint mirrors the exact margin shift from the night Talia left
+impact: the studio forces the past into the present workload
+follow-through: repair becomes emotionally riskier than failure
 
 @dialogue-turn-007-03-01 line
 scene: $scene-007-03
-speaker: $character-counterpart-001
-intent: tease-probe
-subtext: uses wit to test whether the wound can be named safely
-line-hint: Talia sees the page only after the first public copy is opened in front of the crowd.
-reaction-beat: The joke opens a bruise neither speaker can ignore now.
+speaker: $character-support-004
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+reaction-beat: The warning narrows what can still be done safely.
 
 @dialogue-turn-007-03-02 line
 scene: $scene-007-03
 speaker: $character-protagonist-001
+intent: deflect
+subtext: turns confession sideways to protect status and control
+line-hint: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+reaction-beat: The evasion makes the silence more visible than the answer would have.
+
+@dialogue-turn-007-03-03 line
+scene: $scene-007-03
+speaker: $character-support-002
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+reaction-beat: The challenge strips politeness away from the scene.
+
+@dialogue-turn-007-03-04 line
+scene: $scene-007-03
+speaker: $character-pressure-001
+intent: deflect
+subtext: turns confession sideways to protect status and control
+line-hint: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+reaction-beat: The evasion makes the silence more visible than the answer would have.
+
+@scene-007-04 define
+chapter: $chapter-007
+showing-mode: introspective
+focalization: internal-single
+time-space: $location-primary
+introduction: A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.
+development: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+conflict: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+resolution: They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-support-002, $character-support-003
+anchor-object: $plot-element-secondary-002
+support-focus: $character-support-002
+state-change: the work begins storing their conflict instead of hiding it
+
+@action-007-4 place
+action-mode: negotiation
+scene: $scene-007-04
+actor: $character-protagonist-001
+goal: save the damaged folios without destroying the schedule
+obstacle: fatigue makes every careful sentence sound either too sharp or too intimate
+result: the attempt reveals only part of the hidden structure and deepens the next demand
+
+@conflict-007-4 place
+scope: $scene-007-04
+type: external-character
+forces: $character-protagonist-001 versus $character-support-003
+stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
+escalation: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+
+@event-007-4 trigger
+scope: $scene-007-04
+event-type: arrival
+trigger: the misprint mirrors the exact margin shift from the night Talia left
+impact: the studio forces the past into the present workload
+follow-through: repair becomes emotionally riskier than failure
+
+@dialogue-turn-007-04-01 line
+scene: $scene-007-04
+speaker: $character-support-002
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: the misprint mirrors the exact margin shift from the night Talia left
+reaction-beat: The warning narrows what can still be done safely.
+
+@dialogue-turn-007-04-02 line
+scene: $scene-007-04
+speaker: $character-protagonist-001
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: the misprint mirrors the exact margin shift from the night Talia left
+reaction-beat: The challenge strips politeness away from the scene.
+
+@dialogue-turn-007-04-03 line
+scene: $scene-007-04
+speaker: $character-support-003
+intent: commit
+subtext: makes risk sound practical enough to become a promise
+line-hint: the misprint mirrors the exact margin shift from the night Talia left
+reaction-beat: The promise raises the stakes for the next exchange.
+
+@dialogue-turn-007-04-04 line
+scene: $scene-007-04
+speaker: $character-pressure-001
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: the misprint mirrors the exact margin shift from the night Talia left
+reaction-beat: The challenge strips politeness away from the scene.
+
+@scene-007-05 define
+chapter: $chapter-007
+showing-mode: dialogic
+focalization: internal-single
+time-space: $location-secondary
+introduction: A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.
+development: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+conflict: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+resolution: They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-003, $character-pressure-001
+anchor-object: $plot-element-secondary-001
+support-focus: $character-support-003
+state-change: the work begins storing their conflict instead of hiding it
+
+@action-007-5 place
+action-mode: pursuit
+scene: $scene-007-05
+actor: $character-protagonist-001
+goal: save the damaged folios without destroying the schedule
+obstacle: fatigue makes every careful sentence sound either too sharp or too intimate
+result: the attempt reveals only part of the hidden structure and deepens the next demand
+
+@conflict-007-5 place
+scope: $scene-007-05
+type: external-character
+forces: $character-protagonist-001 versus $character-pressure-001
+stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
+escalation: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+
+@event-007-5 trigger
+scope: $scene-007-05
+event-type: decision
+trigger: the misprint mirrors the exact margin shift from the night Talia left
+impact: the studio forces the past into the present workload
+follow-through: repair becomes emotionally riskier than failure
+
+@dialogue-turn-007-05-01 line
+scene: $scene-007-05
+speaker: $character-support-003
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: the misprint mirrors the exact margin shift from the night Talia left
+reaction-beat: The warning narrows what can still be done safely.
+
+@dialogue-turn-007-05-02 line
+scene: $scene-007-05
+speaker: $character-protagonist-001
 intent: tease-probe
 subtext: uses wit to test whether the wound can be named safely
-line-hint: Talia sees the page only after the first public copy is opened in front of the crowd.
+line-hint: the misprint mirrors the exact margin shift from the night Talia left
 reaction-beat: The joke opens a bruise neither speaker can ignore now.
+
+@dialogue-turn-007-05-03 line
+scene: $scene-007-05
+speaker: $character-support-004
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: the misprint mirrors the exact margin shift from the night Talia left
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
+
+@dialogue-turn-007-05-04 line
+scene: $scene-007-05
+speaker: $character-pressure-001
+intent: deflect
+subtext: turns confession sideways to protect status and control
+line-hint: the misprint mirrors the exact margin shift from the night Talia left
+reaction-beat: The evasion makes the silence more visible than the answer would have.
+
+@scene-007-06 define
+chapter: $chapter-007
+showing-mode: compressed-showing
+focalization: internal-single
+time-space: $location-tertiary-001
+introduction: A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.
+development: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+conflict: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+resolution: They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+exit: the chapter hands off to a sharper escalation consequence
+participants: $character-protagonist-001, $character-support-004, $character-support-002, $character-pressure-001
+anchor-object: $plot-element-secondary-002
+support-focus: $character-support-004
+state-change: the work begins storing their conflict instead of hiding it
+
+@action-007-6 place
+action-mode: pursuit
+scene: $scene-007-06
+actor: $character-protagonist-001
+goal: save the damaged folios without destroying the schedule
+obstacle: fatigue makes every careful sentence sound either too sharp or too intimate
+result: the work begins storing their conflict instead of hiding it
+
+@conflict-007-6 place
+scope: $scene-007-06
+type: mixed
+forces: $character-protagonist-001 versus $character-pressure-001
+stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
+escalation: Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+
+@event-007-6 trigger
+scope: $scene-007-06
+event-type: revelation
+trigger: the misprint mirrors the exact margin shift from the night Talia left
+impact: the studio forces the past into the present workload
+follow-through: repair becomes emotionally riskier than failure
+
+@dialogue-turn-007-06-01 line
+scene: $scene-007-06
+speaker: $character-support-004
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: the misprint mirrors the exact margin shift from the night Talia left
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
+
+@dialogue-turn-007-06-02 line
+scene: $scene-007-06
+speaker: $character-protagonist-001
+intent: reframe
+subtext: changes the moral meaning of what was just said
+line-hint: the misprint mirrors the exact margin shift from the night Talia left
+reaction-beat: The new framing makes the old position harder to keep.
+
+@dialogue-turn-007-06-03 line
+scene: $scene-007-06
+speaker: $character-support-002
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: the misprint mirrors the exact margin shift from the night Talia left
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
+
+@dialogue-turn-007-06-04 line
+scene: $scene-007-06
+speaker: $character-pressure-001
+intent: commit
+subtext: makes risk sound practical enough to become a promise
+line-hint: the misprint mirrors the exact margin shift from the night Talia left
+reaction-beat: The promise raises the stakes for the next exchange.
 
 @description-007-atmosphere apply
 scope: $chapter-007
@@ -207,7 +472,7 @@ rhythm-effect: hold
 
 @dialogue-007-core apply
 scene: $scene-007-01
-speakers: $character-protagonist-001, $character-counterpart-001
+speakers: $character-protagonist-001, $character-counterpart-001, $character-support-002, $character-support-003
 exchange-type: question-answer
 purpose: characterization
 subtext: Leora Kestrel and Leora Kestrel keep circling the truth they cannot safely name yet
@@ -219,10 +484,10 @@ function: organizational
 time-handling: mixed
 
 @interior-monologue-007-core apply
-scene: $scene-007-03
+scene: $scene-007-06
 character: $character-protagonist-001
 function: psychological-insight
-trigger: the launch becomes confession as much as success
+trigger: the studio forces the past into the present workload
 texture: reflective
 
 @suspense-007-core build
@@ -230,28 +495,28 @@ scope: $chapter-007
 suspense-type: emotional
 uncertainty: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
 delay-technique: interruption
-payoff-zone: event-007-3
+payoff-zone: event-007-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
 
 @pause-007-core hold
 scope: $chapter-007
 pause-function: psychological
-focus: their bond shifts from guarded usefulness to acknowledged reciprocity
+focus: the work begins storing their conflict instead of hiding it
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-007-core burst
 scope: $chapter-007
-acceleration-mode: pursuit-compression
-trigger: the dedication names the year Talia left and the future Leora still wants
+acceleration-mode: transition-skip
+trigger: the misprint mirrors the exact margin shift from the night Talia left
 reader-effect: compress time and force the next consequence to land without emotional escape
-target-zone: $scene-007-03
+target-zone: $scene-007-06
 
 @cliffhanger-007-exit cut
 scope: $chapter-007
 cliffhanger-type: interrupted-revelation
-cut-moment: the dedication names the year Talia left and the future Leora still wants
-continuation-pressure: the partnership survives because honesty finally becomes part of the work
+cut-moment: the misprint mirrors the exact margin shift from the night Talia left
+continuation-pressure: repair becomes emotionally riskier than failure
 
 @location-007-anchor refine
 ref: sensory-anchor:location-primary -> ink oil, paper dust, hot metal type, winter air trapped in skylight glass
@@ -264,9 +529,9 @@ should: make the place intimate through work, routine, and shared objects
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @rule-pressure-007-core refine
-ref: visible-symptom:culmination -> the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work
-ref: action-limitation:culmination -> Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure.
-ref: conflict-output-rule:culmination -> shared labor turns every practical choice into a referendum on trust, apology, and future risk
+ref: visible-symptom:escalation -> the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work
+ref: action-limitation:escalation -> Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure.
+ref: conflict-output-rule:escalation -> shared labor turns every practical choice into a referendum on trust, apology, and future risk
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: treat social expectations as real constraints on intimacy and choice
@@ -275,33 +540,33 @@ The refined artifact preserves identifier continuity so deterministic validation
 @arc-007-protagonist refine
 ref: entry-belief:protagonist -> competence is safer than emotional dependence
 ref: exit-belief:protagonist -> shared risk creates a truer form of security than controlled distance
-ref: challenge:protagonist-culmination -> Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
-ref: insight-pressure:protagonist-culmination -> the launch becomes confession as much as success
+ref: challenge:protagonist-escalation -> Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+ref: insight-pressure:protagonist-escalation -> the studio forces the past into the present workload
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the arc move through defensiveness, dependence, and honest reciprocity
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @arc-007-relationship refine
-ref: relationship-stress:culmination -> Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
+ref: relationship-stress:escalation -> Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the arc move through defensiveness, dependence, and honest reciprocity
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @alternation-007-core refine
-ref: reader-effect:culmination -> Is intimacy a threat to autonomy, or the form that honest autonomy eventually takes?
+ref: reader-effect:escalation -> Is intimacy a threat to autonomy, or the form that honest autonomy eventually takes?
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pauses and bursts to make vulnerability feel earned rather than abrupt
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-007-01 refine
-ref: scene-introduction:culmination-0 -> On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.
-ref: scene-development:culmination-0 -> Talia sees the page only after the first public copy is opened in front of the crowd.
-ref: scene-conflict:culmination -> Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
-ref: scene-resolution:culmination-mid -> She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view.
-ref: scene-state-change:culmination-mid -> their bond shifts from guarded usefulness to acknowledged reciprocity
+ref: scene-introduction:escalation-0 -> A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.
+ref: scene-development:escalation-0 -> Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+ref: scene-conflict:escalation -> Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+ref: scene-resolution:escalation-mid -> They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+ref: scene-state-change:escalation-mid -> the work begins storing their conflict instead of hiding it
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let attraction and defensiveness coexist inside the same exchange
@@ -310,74 +575,269 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-007-01-01 refine
 ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
 ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:culmination-0-0 -> the dedication names the year Talia left and the future Leora still wants
+ref: dialogue-line-hint:escalation-0-0 -> the misprint mirrors the exact margin shift from the night Talia left
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let practical language and emotional risk coexist in the same line
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-01-02 refine
-ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
-ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:culmination-0-1 -> the dedication names the year Talia left and the future Leora still wants
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:escalation-0-1 -> the misprint mirrors the exact margin shift from the night Talia left
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-01-03 refine
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:escalation-0-2 -> the misprint mirrors the exact margin shift from the night Talia left
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-01-04 refine
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:escalation-0-3 -> the misprint mirrors the exact margin shift from the night Talia left
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let practical language and emotional risk coexist in the same line
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-007-02 refine
-ref: scene-conflict:culmination -> Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
-ref: scene-resolution:culmination-mid -> She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view.
-ref: scene-state-change:culmination-mid -> their bond shifts from guarded usefulness to acknowledged reciprocity
-ref: scene-introduction:culmination-1 -> Talia sees the page only after the first public copy is opened in front of the crowd.
-ref: scene-development:culmination-1 -> Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
+ref: scene-conflict:escalation -> Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+ref: scene-resolution:escalation-mid -> They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+ref: scene-state-change:escalation-mid -> the work begins storing their conflict instead of hiding it
+ref: scene-introduction:escalation-1 -> Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+ref: scene-development:escalation-1 -> Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let attraction and defensiveness coexist inside the same exchange
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-02-01 refine
-ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
-ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:culmination-1-0 -> Launch with the unfinished dedication
+ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
+ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
+ref: dialogue-line-hint:escalation-1-0 -> The misprinted folio night
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let practical language and emotional risk coexist in the same line
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-02-02 refine
-ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
-ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:culmination-1-1 -> Launch with the unfinished dedication
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:escalation-1-1 -> The misprinted folio night
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-02-03 refine
+ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
+ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
+ref: dialogue-line-hint:escalation-1-2 -> The misprinted folio night
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-02-04 refine
+ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
+ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
+ref: dialogue-line-hint:escalation-1-3 -> The misprinted folio night
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let practical language and emotional risk coexist in the same line
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-007-03 refine
-ref: scene-conflict:culmination -> Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
-ref: scene-introduction:culmination-2 -> the dedication names the year Talia left and the future Leora still wants
-ref: scene-development:culmination-2 -> the launch becomes confession as much as success
-ref: scene-resolution:culmination-final -> She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view.
-ref: scene-state-change:culmination-final -> their bond shifts from guarded usefulness to acknowledged reciprocity
+ref: scene-conflict:escalation -> Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+ref: scene-resolution:escalation-mid -> They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+ref: scene-state-change:escalation-mid -> the work begins storing their conflict instead of hiding it
+ref: scene-introduction:escalation-2 -> the misprint mirrors the exact margin shift from the night Talia left
+ref: scene-development:escalation-2 -> the studio forces the past into the present workload
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let attraction and defensiveness coexist inside the same exchange
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-03-01 refine
-ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
-ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:culmination-2-0 -> Talia sees the page only after the first public copy is opened in front of the crowd.
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:escalation-2-0 -> Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let practical language and emotional risk coexist in the same line
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-03-02 refine
+ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
+ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
+ref: dialogue-line-hint:escalation-2-1 -> Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-03-03 refine
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:escalation-2-2 -> Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-03-04 refine
+ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
+ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
+ref: dialogue-line-hint:escalation-2-3 -> Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@scene-007-04 refine
+ref: scene-conflict:escalation -> Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+ref: scene-resolution:escalation-mid -> They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+ref: scene-state-change:escalation-mid -> the work begins storing their conflict instead of hiding it
+ref: scene-introduction:escalation-3 -> A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.
+ref: scene-development:escalation-3 -> Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let attraction and defensiveness coexist inside the same exchange
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-04-01 refine
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:escalation-3-0 -> the misprint mirrors the exact margin shift from the night Talia left
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-04-02 refine
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:escalation-3-1 -> the misprint mirrors the exact margin shift from the night Talia left
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-04-03 refine
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:escalation-3-2 -> the misprint mirrors the exact margin shift from the night Talia left
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-04-04 refine
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:escalation-3-3 -> the misprint mirrors the exact margin shift from the night Talia left
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@scene-007-05 refine
+ref: scene-conflict:escalation -> Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+ref: scene-resolution:escalation-mid -> They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+ref: scene-state-change:escalation-mid -> the work begins storing their conflict instead of hiding it
+ref: scene-introduction:escalation-4 -> A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.
+ref: scene-development:escalation-4 -> Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let attraction and defensiveness coexist inside the same exchange
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-05-01 refine
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:escalation-4-0 -> the misprint mirrors the exact margin shift from the night Talia left
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-05-02 refine
 ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
 ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:culmination-2-1 -> Talia sees the page only after the first public copy is opened in front of the crowd.
+ref: dialogue-line-hint:escalation-4-1 -> the misprint mirrors the exact margin shift from the night Talia left
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-05-03 refine
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:escalation-4-2 -> the misprint mirrors the exact margin shift from the night Talia left
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-05-04 refine
+ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
+ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
+ref: dialogue-line-hint:escalation-4-3 -> the misprint mirrors the exact margin shift from the night Talia left
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@scene-007-06 refine
+ref: scene-conflict:escalation -> Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+ref: scene-introduction:escalation-5 -> A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.
+ref: scene-development:escalation-5 -> Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+ref: scene-resolution:escalation-final -> They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+ref: scene-state-change:escalation-final -> the work begins storing their conflict instead of hiding it
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let attraction and defensiveness coexist inside the same exchange
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-06-01 refine
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:escalation-5-0 -> the misprint mirrors the exact margin shift from the night Talia left
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-06-02 refine
+ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
+ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
+ref: dialogue-line-hint:escalation-5-1 -> the misprint mirrors the exact margin shift from the night Talia left
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-06-03 refine
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:escalation-5-2 -> the misprint mirrors the exact margin shift from the night Talia left
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: let practical language and emotional risk coexist in the same line
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-007-06-04 refine
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:escalation-5-3 -> the misprint mirrors the exact margin shift from the night Talia left
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let practical language and emotional risk coexist in the same line
@@ -391,21 +851,21 @@ should: make subtext carry as much weight as direct confession
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @suspense-007-core refine
-ref: suspense-uncertainty:culmination -> Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
+ref: suspense-uncertainty:escalation -> Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make subtext carry as much weight as direct confession
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @pause-007-core refine
-ref: pause-focus:culmination -> their bond shifts from guarded usefulness to acknowledged reciprocity
+ref: pause-focus:escalation -> the work begins storing their conflict instead of hiding it
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pauses and bursts to make vulnerability feel earned rather than abrupt
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @acceleration-007-core refine
-ref: acceleration-trigger:culmination -> the dedication names the year Talia left and the future Leora still wants
+ref: acceleration-trigger:escalation -> the misprint mirrors the exact margin shift from the night Talia left
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pauses and bursts to make vulnerability feel earned rather than abrupt

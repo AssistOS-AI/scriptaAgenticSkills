@@ -3,15 +3,19 @@ sequence-type: escape
 link-logic: mixed
 chapter: $chapter-001
 objective: {{sequence-objective:setup}}
-scene-chain: scene-001-01, scene-001-02, scene-001-03
+scene-chain: scene-001-01, scene-001-02, scene-001-03, scene-001-04, scene-001-05, scene-001-06
 carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
 conflict-line: {{sequence-conflict:setup}}
+supporting-cast: $character-support-001, $character-support-002, $character-support-003
+chapter-object: $plot-element-core-object
 payoff: {{sequence-payoff:setup}}
 
 @location-001-anchor define
 chapter: $chapter-001
 primary-setting: $location-primary
 secondary-setting: $location-secondary
+transit-setting: $location-tertiary-001
+chapter-object: $plot-element-core-object
 sensory-anchor: {{sensory-anchor:location-primary}}
 social-signal: {{social-signal:location-primary}}
 symbolic-charge: {{symbolic-charge:location-primary}}
@@ -34,7 +38,7 @@ exit-belief: {{exit-belief:protagonist}} after the setup chapter
 
 @arc-001-relationship map
 chapter: $chapter-001
-pair: $character-protagonist-001, $character-counterpart-001
+pair: $character-protagonist-001, $character-support-001
 entry-dynamic: productive-partnership-guarded-by-emotional-self-defense
 stress-line: {{relationship-stress:setup}}
 exit-dynamic: solidarity-forged-through-contested-truth
@@ -55,7 +59,9 @@ development: {{scene-development:setup-0}}
 conflict: {{scene-conflict:setup}}
 resolution: {{scene-resolution:setup-mid}}
 exit: the next scene begins before the pressure can settle
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-001
+anchor-object: $plot-element-core-object
+support-focus: $character-support-001
 state-change: {{scene-state-change:setup-mid}}
 
 @action-001-1 place
@@ -69,7 +75,7 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 @conflict-001-1 place
 scope: $scene-001-01
 type: external-technology
-forces: $character-protagonist-001 versus $character-pressure-001
+forces: $character-protagonist-001 versus $character-support-001
 stakes: {{conflict-stakes:freedom-consent-memory-agency}}
 escalation: {{conflict-escalation:setup}}
 
@@ -82,7 +88,7 @@ follow-through: {{event-follow-through:setup-mid}}
 
 @dialogue-turn-001-01-01 line
 scene: $scene-001-01
-speaker: $character-counterpart-001
+speaker: $character-support-001
 intent: probe
 subtext: {{dialogue-subtext:probe}}
 line-hint: {{dialogue-line-hint:setup-0-0}}
@@ -96,21 +102,39 @@ subtext: {{dialogue-subtext:deflect}}
 line-hint: {{dialogue-line-hint:setup-0-1}}
 reaction-beat: {{dialogue-reaction:deflect}}
 
+@dialogue-turn-001-01-03 line
+scene: $scene-001-01
+speaker: $character-support-002
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
+line-hint: {{dialogue-line-hint:setup-0-2}}
+reaction-beat: {{dialogue-reaction:name-risk}}
+
+@dialogue-turn-001-01-04 line
+scene: $scene-001-01
+speaker: $character-pressure-001
+intent: answer-honestly
+subtext: {{dialogue-subtext:answer-honestly}}
+line-hint: {{dialogue-line-hint:setup-0-3}}
+reaction-beat: {{dialogue-reaction:answer-honestly}}
+
 @scene-001-02 define
 chapter: $chapter-001
-showing-mode: mixed
+showing-mode: dialogic
 focalization: internal-single
-time-space: $location-primary
+time-space: $location-secondary
 introduction: {{scene-introduction:setup-1}}
 development: {{scene-development:setup-1}}
 conflict: {{scene-conflict:setup}}
 resolution: {{scene-resolution:setup-mid}}
 exit: the next scene begins before the pressure can settle
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
+participants: $character-protagonist-001, $character-support-002, $character-support-003, $character-pressure-001
+anchor-object: $plot-element-secondary-001
+support-focus: $character-support-002
 state-change: {{scene-state-change:setup-mid}}
 
 @action-001-2 place
-action-mode: pursuit
+action-mode: negotiation
 scene: $scene-001-02
 actor: $character-protagonist-001
 goal: {{action-goal:setup-1}}
@@ -119,95 +143,336 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-001-2 place
 scope: $scene-001-02
-type: external-society
+type: external-supernatural
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:freedom-consent-memory-agency}}
 escalation: {{conflict-escalation:setup}}
 
 @event-001-2 trigger
 scope: $scene-001-02
-event-type: reversal
+event-type: deadline
 trigger: {{event-trigger:setup-mid}}
 impact: {{event-impact:setup}}
 follow-through: {{event-follow-through:setup-mid}}
 
 @dialogue-turn-001-02-01 line
 scene: $scene-001-02
-speaker: $character-counterpart-001
-intent: name-risk
-subtext: {{dialogue-subtext:name-risk}}
+speaker: $character-support-002
+intent: deflect
+subtext: {{dialogue-subtext:deflect}}
 line-hint: {{dialogue-line-hint:setup-1-0}}
-reaction-beat: {{dialogue-reaction:name-risk}}
+reaction-beat: {{dialogue-reaction:deflect}}
 
 @dialogue-turn-001-02-02 line
 scene: $scene-001-02
 speaker: $character-protagonist-001
+intent: reframe
+subtext: {{dialogue-subtext:reframe}}
+line-hint: {{dialogue-line-hint:setup-1-1}}
+reaction-beat: {{dialogue-reaction:reframe}}
+
+@dialogue-turn-001-02-03 line
+scene: $scene-001-02
+speaker: $character-support-003
 intent: deflect
 subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:setup-1-1}}
+line-hint: {{dialogue-line-hint:setup-1-2}}
+reaction-beat: {{dialogue-reaction:deflect}}
+
+@dialogue-turn-001-02-04 line
+scene: $scene-001-02
+speaker: $character-pressure-001
+intent: deflect
+subtext: {{dialogue-subtext:deflect}}
+line-hint: {{dialogue-line-hint:setup-1-3}}
 reaction-beat: {{dialogue-reaction:deflect}}
 
 @scene-001-03 define
 chapter: $chapter-001
 showing-mode: compressed-showing
 focalization: internal-single
-time-space: $location-primary
+time-space: $location-tertiary-001
 introduction: {{scene-introduction:setup-2}}
 development: {{scene-development:setup-2}}
 conflict: {{scene-conflict:setup}}
-resolution: {{scene-resolution:setup-final}}
-exit: the chapter hands off to a sharper setup consequence
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: {{scene-state-change:setup-final}}
+resolution: {{scene-resolution:setup-mid}}
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-003
+anchor-object: $plot-element-core-object
+support-focus: $character-support-003
+state-change: {{scene-state-change:setup-mid}}
 
 @action-001-3 place
-action-mode: sacrifice
+action-mode: evasion
 scene: $scene-001-03
 actor: $character-protagonist-001
 goal: {{action-goal:setup-2}}
 obstacle: {{action-obstacle:setup}}
-result: {{action-result:setup-final}}
+result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-001-3 place
 scope: $scene-001-03
-type: external-society
-forces: $character-protagonist-001 versus $character-pressure-001
+type: external-technology
+forces: $character-protagonist-001 versus $character-support-003
 stakes: {{conflict-stakes:freedom-consent-memory-agency}}
 escalation: {{conflict-escalation:setup}}
 
 @event-001-3 trigger
 scope: $scene-001-03
-event-type: discovery
-trigger: {{event-trigger:setup-final}}
+event-type: loss
+trigger: {{event-trigger:setup-mid}}
 impact: {{event-impact:setup}}
-follow-through: {{event-follow-through:setup-final}}
+follow-through: {{event-follow-through:setup-mid}}
 
 @dialogue-turn-001-03-01 line
 scene: $scene-001-03
-speaker: $character-counterpart-001
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
+speaker: $character-support-003
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
 line-hint: {{dialogue-line-hint:setup-2-0}}
-reaction-beat: {{dialogue-reaction:deflect}}
+reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-001-03-02 line
 scene: $scene-001-03
 speaker: $character-protagonist-001
-intent: probe
-subtext: {{dialogue-subtext:probe}}
+intent: warn
+subtext: {{dialogue-subtext:warn}}
 line-hint: {{dialogue-line-hint:setup-2-1}}
-reaction-beat: {{dialogue-reaction:probe}}
+reaction-beat: {{dialogue-reaction:warn}}
+
+@dialogue-turn-001-03-03 line
+scene: $scene-001-03
+speaker: $character-support-001
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
+line-hint: {{dialogue-line-hint:setup-2-2}}
+reaction-beat: {{dialogue-reaction:name-risk}}
+
+@dialogue-turn-001-03-04 line
+scene: $scene-001-03
+speaker: $character-pressure-001
+intent: tease-probe
+subtext: {{dialogue-subtext:tease-probe}}
+line-hint: {{dialogue-line-hint:setup-2-3}}
+reaction-beat: {{dialogue-reaction:tease-probe}}
+
+@scene-001-04 define
+chapter: $chapter-001
+showing-mode: direct-showing
+focalization: internal-single
+time-space: $location-primary
+introduction: {{scene-introduction:setup-3}}
+development: {{scene-development:setup-3}}
+conflict: {{scene-conflict:setup}}
+resolution: {{scene-resolution:setup-mid}}
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-support-001, $character-support-002
+anchor-object: $plot-element-secondary-001
+support-focus: $character-support-001
+state-change: {{scene-state-change:setup-mid}}
+
+@action-001-4 place
+action-mode: negotiation
+scene: $scene-001-04
+actor: $character-protagonist-001
+goal: {{action-goal:setup-3}}
+obstacle: {{action-obstacle:setup}}
+result: the attempt reveals only part of the hidden structure and deepens the next demand
+
+@conflict-001-4 place
+scope: $scene-001-04
+type: internal
+forces: $character-protagonist-001 versus $character-support-002
+stakes: {{conflict-stakes:freedom-consent-memory-agency}}
+escalation: {{conflict-escalation:setup}}
+
+@event-001-4 trigger
+scope: $scene-001-04
+event-type: arrival
+trigger: {{event-trigger:setup-mid}}
+impact: {{event-impact:setup}}
+follow-through: {{event-follow-through:setup-mid}}
+
+@dialogue-turn-001-04-01 line
+scene: $scene-001-04
+speaker: $character-support-001
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:setup-3-0}}
+reaction-beat: {{dialogue-reaction:challenge}}
+
+@dialogue-turn-001-04-02 line
+scene: $scene-001-04
+speaker: $character-protagonist-001
+intent: deflect
+subtext: {{dialogue-subtext:deflect}}
+line-hint: {{dialogue-line-hint:setup-3-1}}
+reaction-beat: {{dialogue-reaction:deflect}}
+
+@dialogue-turn-001-04-03 line
+scene: $scene-001-04
+speaker: $character-support-002
+intent: reframe
+subtext: {{dialogue-subtext:reframe}}
+line-hint: {{dialogue-line-hint:setup-3-2}}
+reaction-beat: {{dialogue-reaction:reframe}}
+
+@dialogue-turn-001-04-04 line
+scene: $scene-001-04
+speaker: $character-pressure-001
+intent: deflect
+subtext: {{dialogue-subtext:deflect}}
+line-hint: {{dialogue-line-hint:setup-3-3}}
+reaction-beat: {{dialogue-reaction:deflect}}
+
+@scene-001-05 define
+chapter: $chapter-001
+showing-mode: dialogic
+focalization: internal-single
+time-space: $location-secondary
+introduction: {{scene-introduction:setup-4}}
+development: {{scene-development:setup-4}}
+conflict: {{scene-conflict:setup}}
+resolution: {{scene-resolution:setup-mid}}
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-002, $character-pressure-001
+anchor-object: $plot-element-core-object
+support-focus: $character-support-002
+state-change: {{scene-state-change:setup-mid}}
+
+@action-001-5 place
+action-mode: evasion
+scene: $scene-001-05
+actor: $character-protagonist-001
+goal: {{action-goal:setup-4}}
+obstacle: {{action-obstacle:setup}}
+result: the attempt reveals only part of the hidden structure and deepens the next demand
+
+@conflict-001-5 place
+scope: $scene-001-05
+type: external-society
+forces: $character-protagonist-001 versus $character-pressure-001
+stakes: {{conflict-stakes:freedom-consent-memory-agency}}
+escalation: {{conflict-escalation:setup}}
+
+@event-001-5 trigger
+scope: $scene-001-05
+event-type: decision
+trigger: {{event-trigger:setup-mid}}
+impact: {{event-impact:setup}}
+follow-through: {{event-follow-through:setup-mid}}
+
+@dialogue-turn-001-05-01 line
+scene: $scene-001-05
+speaker: $character-support-002
+intent: reframe
+subtext: {{dialogue-subtext:reframe}}
+line-hint: {{dialogue-line-hint:setup-4-0}}
+reaction-beat: {{dialogue-reaction:reframe}}
+
+@dialogue-turn-001-05-02 line
+scene: $scene-001-05
+speaker: $character-protagonist-001
+intent: reframe
+subtext: {{dialogue-subtext:reframe}}
+line-hint: {{dialogue-line-hint:setup-4-1}}
+reaction-beat: {{dialogue-reaction:reframe}}
+
+@dialogue-turn-001-05-03 line
+scene: $scene-001-05
+speaker: $character-support-003
+intent: reframe
+subtext: {{dialogue-subtext:reframe}}
+line-hint: {{dialogue-line-hint:setup-4-2}}
+reaction-beat: {{dialogue-reaction:reframe}}
+
+@dialogue-turn-001-05-04 line
+scene: $scene-001-05
+speaker: $character-pressure-001
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:setup-4-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
+
+@scene-001-06 define
+chapter: $chapter-001
+showing-mode: introspective
+focalization: internal-single
+time-space: $location-tertiary-001
+introduction: {{scene-introduction:setup-5}}
+development: {{scene-development:setup-5}}
+conflict: {{scene-conflict:setup}}
+resolution: {{scene-resolution:setup-final}}
+exit: the chapter hands off to a sharper setup consequence
+participants: $character-protagonist-001, $character-support-003, $character-support-001, $character-pressure-001
+anchor-object: $plot-element-secondary-001
+support-focus: $character-support-003
+state-change: {{scene-state-change:setup-final}}
+
+@action-001-6 place
+action-mode: pursuit
+scene: $scene-001-06
+actor: $character-protagonist-001
+goal: {{action-goal:setup-5}}
+obstacle: {{action-obstacle:setup}}
+result: {{action-result:setup-final}}
+
+@conflict-001-6 place
+scope: $scene-001-06
+type: external-technology
+forces: $character-protagonist-001 versus $character-pressure-001
+stakes: {{conflict-stakes:freedom-consent-memory-agency}}
+escalation: {{conflict-escalation:setup}}
+
+@event-001-6 trigger
+scope: $scene-001-06
+event-type: revelation
+trigger: {{event-trigger:setup-final}}
+impact: {{event-impact:setup}}
+follow-through: {{event-follow-through:setup-final}}
+
+@dialogue-turn-001-06-01 line
+scene: $scene-001-06
+speaker: $character-support-003
+intent: tease-probe
+subtext: {{dialogue-subtext:tease-probe}}
+line-hint: {{dialogue-line-hint:setup-5-0}}
+reaction-beat: {{dialogue-reaction:tease-probe}}
+
+@dialogue-turn-001-06-02 line
+scene: $scene-001-06
+speaker: $character-protagonist-001
+intent: deflect
+subtext: {{dialogue-subtext:deflect}}
+line-hint: {{dialogue-line-hint:setup-5-1}}
+reaction-beat: {{dialogue-reaction:deflect}}
+
+@dialogue-turn-001-06-03 line
+scene: $scene-001-06
+speaker: $character-support-001
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:setup-5-2}}
+reaction-beat: {{dialogue-reaction:commit}}
+
+@dialogue-turn-001-06-04 line
+scene: $scene-001-06
+speaker: $character-pressure-001
+intent: answer-honestly
+subtext: {{dialogue-subtext:answer-honestly}}
+line-hint: {{dialogue-line-hint:setup-5-3}}
+reaction-beat: {{dialogue-reaction:answer-honestly}}
 
 @description-001-atmosphere apply
 scope: $chapter-001
 description-type: atmosphere
 focus: {{description-focus:science-fiction}}
 function: atmospheric
-rhythm-effect: slow
+rhythm-effect: frame
 
 @dialogue-001-core apply
 scene: $scene-001-01
-speakers: $character-protagonist-001, $character-counterpart-001
+speakers: $character-protagonist-001, $character-counterpart-001, $character-support-001, $character-support-002
 exchange-type: conflictual
 purpose: tension
 subtext: {{dialogue-core-subtext:science-fiction}}
@@ -219,7 +484,7 @@ function: organizational
 time-handling: mixed
 
 @interior-monologue-001-core apply
-scene: $scene-001-03
+scene: $scene-001-06
 character: $character-protagonist-001
 function: psychological-insight
 trigger: {{monologue-trigger:setup}}
@@ -230,7 +495,7 @@ scope: $chapter-001
 suspense-type: cognitive
 uncertainty: {{suspense-uncertainty:setup}}
 delay-technique: foreshadowing
-payoff-zone: event-001-3
+payoff-zone: event-001-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
 
 @pause-001-core hold
@@ -245,10 +510,10 @@ scope: $chapter-001
 acceleration-mode: montage
 trigger: {{acceleration-trigger:setup}}
 reader-effect: compress time and force the next consequence to land without emotional escape
-target-zone: $scene-001-03
+target-zone: $scene-001-06
 
 @cliffhanger-001-exit cut
 scope: $chapter-001
-cliffhanger-type: unresolved-confrontation
+cliffhanger-type: interrupted-revelation
 cut-moment: {{cliffhanger-moment:setup}}
 continuation-pressure: {{cliffhanger-continuation:setup}}

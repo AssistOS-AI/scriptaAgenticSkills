@@ -1,20 +1,20 @@
 @chapter-009 define
-chapter-role: culmination
-purpose: {{purpose:culmination}}
-input-state: {{input-state:culmination-8}}
-output-state: {{output-state:culmination-8}}
-conflict: {{conflict:culmination}}
+chapter-role: bridge
+purpose: {{purpose:bridge}}
+input-state: {{input-state:bridge-8}}
+output-state: {{output-state:bridge-8}}
+conflict: {{conflict:bridge}}
 stakes: {{stakes:lineage-survival-legitimacy-cost}}
-opening-mode: mystery-entry
+opening-mode: dialogue-entry
 development-mode: confrontation
-closing-mode: open-question
+closing-mode: cliffhanger
 handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-009
 thematic-focus: identity-self under reconciliation pressure
 rhythm-note: escalating
-chapter-question: {{chapter-question:culmination}}
+chapter-question: {{chapter-question:bridge}}
 answer-shift: {{answer-shift:fantasy}}
-arc-stage: irreversible-choice
-world-pressure: {{world-pressure:culmination}}
+arc-stage: threshold-crossing
+world-pressure: {{world-pressure:bridge}}
 location-focus: $location-primary
 block-alternation: description-action-dialogue-suspense-interior-monologue-revelation-pause
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.

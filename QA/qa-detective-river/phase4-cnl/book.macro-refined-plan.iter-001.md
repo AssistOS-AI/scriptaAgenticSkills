@@ -33,22 +33,22 @@ moral: Procedure stops protecting order the moment it is weaponized against the 
 reflexive: the reflexive dimension of insight this story offers
 experiential: the experiential dimension of insight this story offers
 perspective-mode: single-perspective
-openness: partially-open
+openness: open
 anti-didactic-rule: insight must emerge from consequences, reversals, and conflicting voices
 
 @narrative-structure define
-information-order: recontextualizing
+information-order: delayed-reveal
 causal-density: tight
 macro-form: linear
-beginning: establish $character-protagonist-001 inside $location-primary and the pressure around County Precinct South
+beginning: establish $character-protagonist-001 inside $location-primary and the pressure around the redevelopment corridor precinct
 inciting-incident: the body shows wrist abrasions inconsistent with drifting debris
 middle: escalation, pressure, and relational strain expose the cost of prove that the drowning victim was killed before he entered the river lock
 plot-point-1: $character-protagonist-001 commits to action instead of withdrawal
-midpoint: the missing lock-camera drive reveals a hidden layer of the conflict
+midpoint: the stolen drive case reveals a hidden layer of the conflict
 plot-point-2: $character-pressure-001 turns pressure into direct threat
 climax: Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.
 resolution: a new equilibrium forms after $character-protagonist-001 accepts irreversible cost
-causal-rule: every-escalation-must-narrow-the-safe-options
+causal-rule: every-reveal-must-change-the-moral-reading
 
 @narrative-model select
 adaptation-strength: adapted
@@ -61,39 +61,40 @@ adaptation-note: the chosen model is bent toward short-form clarity and evidence
 
 @blueprint map
 premise: Inspector Nadia Voss reopens a river drowning that the county police marked accidental, only to find tide logs, surveillance gaps, and witness transfers pointing back to a redevelopment contract. Diver-journalist Theo Mercer helps her track the physical evidence while precinct chief Soren Arden turns procedure into a moving wall designed to exhaust the case.
-exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around the missing lock-camera drive
-rising-action: pressure from $character-pressure-001 and County Precinct South complicates every attempt to act
-midpoint-shift: the missing lock-camera drive changes what the protagonist understands about the conflict
+exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around the stolen drive case
+rising-action: pressure from $character-pressure-001 and the redevelopment corridor precinct complicates every attempt to act
+midpoint-shift: the stolen drive case changes what the protagonist understands about the conflict
 climax: Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.
-resolution: the core conflict resolves with lasting cost and a redefined relation to County Precinct South
+resolution: the core conflict resolves with lasting cost and a redefined relation to the redevelopment corridor precinct
 emotional-layer: curiosity -> intrigue -> tension -> mistrust -> shock -> relief
+ensemble-pressure: $character-support-001, $character-support-002, $character-support-003 widen the cost beyond the central trio
 stakes-ladder: private-to-public
 
 @arc-book-main map
 arc-axis: identity-self under resistance pressure
-opening-state: initial-promise-unstable-but-not-public
-escalation-pattern: pressure-converts-hidden-contradiction-into-visible-consequence
-midpoint-recognition: apparent-problem-hides-larger-moral-structure
+opening-state: unstable-but-socially-protected-equilibrium
+escalation-pattern: each-escalation-narrows-safe-options
+midpoint-recognition: repair-impossible-without-naming-wound-correctly
 climactic-choice: Obey the chain of command and lose the victim forever, or break protocol and prove the station protected the killing.
-ending-state: preserves-meaning-by-leaving-cost-visible
+ending-state: truth-reorders-structure-at-irreversible-cost
 
 @arc-protagonist-main map
-entry-belief: if she follows procedure closely enough, the truth will eventually surface control-prevents-loss
+entry-belief: if she follows procedure closely enough, the truth will eventually surface inheritance-can-be-redeemed
 core-wound: institutional-loyalty-once-seen-as-justice
 pressure-line: every-lawful-move-risks-proving-the-law-compromised
-turning-insight: the cover-up is not separate from the institution; it is how the institution currently functions concealment-breeds-larger-collapse
-exit-belief: evidence survives only when someone refuses the procedure designed to neutralize it concealment-breeds-larger-collapse
+turning-insight: the cover-up is not separate from the institution; it is how the institution currently functions shared-risk-creates-stronger-agency
+exit-belief: evidence survives only when someone refuses the procedure designed to neutralize it shared-risk-creates-stronger-agency
 
 @arc-relationship-main map
 pair: $character-protagonist-001, $character-counterpart-001
-entry-dynamic: professional-alliance-with-unequal-risk
+entry-dynamic: oath-bound-cooperation-shadowed-by-allegiance
 stress-pattern: shared-work-keeps-exposing-emotional-imbalance
 repair-condition: repair-requires-naming-the-most-damaging-truth
-exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
+exit-dynamic: solidarity-forged-through-contested-truth
 
 @motif-primary define
 motif: watermarked evidence tags
-symbolic-function: turn-absence-into-visible-accusation
+symbolic-function: link-concrete-to-moral-contamination
 recurrence-rule: the motif should recur across opening, midpoint, and late consequence scenes with altered meaning
 
 @central-idea refine

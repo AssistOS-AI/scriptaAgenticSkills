@@ -905,7 +905,7 @@ One-line summary for each canonical QA book run.
       "profile": "science-fiction",
       "workspaceRoot": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-scifi-orbit",
       "metrics": {
-        "OI": 67,
+        "OI": 66,
         "NCS": 100,
         "BCI": 96,
         "VAD_score": 100,
@@ -1067,7 +1067,7 @@ One-line summary for each canonical QA book run.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=67"
+          "evidence": "OI=66"
         },
         {
           "id": "task-002",
@@ -1099,7 +1099,7 @@ One-line summary for each canonical QA book run.
             "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 67,
+            "OI": 66,
             "EAP": 92
           }
         },
@@ -1115,7 +1115,7 @@ One-line summary for each canonical QA book run.
             "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 67,
+            "OI": 66,
             "EAP": 92
           }
         }

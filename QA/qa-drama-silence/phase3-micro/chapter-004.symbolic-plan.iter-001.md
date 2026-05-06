@@ -2,16 +2,20 @@
 sequence-type: recovery
 link-logic: mixed
 chapter: $chapter-004
-objective: {{sequence-objective:revelation}}
-scene-chain: scene-004-01, scene-004-02, scene-004-03
+objective: {{sequence-objective:bridge}}
+scene-chain: scene-004-01, scene-004-02, scene-004-03, scene-004-04, scene-004-05, scene-004-06
 carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
-conflict-line: {{sequence-conflict:revelation}}
-payoff: {{sequence-payoff:revelation}}
+conflict-line: {{sequence-conflict:bridge}}
+supporting-cast: $character-support-004, $character-support-005, $character-support-001
+chapter-object: $plot-element-secondary-003
+payoff: {{sequence-payoff:bridge}}
 
 @location-004-anchor define
 chapter: $chapter-004
-primary-setting: $location-primary
-secondary-setting: $location-secondary
+primary-setting: $location-tertiary-002
+secondary-setting: $location-tertiary-003
+transit-setting: $location-tertiary-004
+chapter-object: $plot-element-secondary-003
 sensory-anchor: {{sensory-anchor:location-primary}}
 social-signal: {{social-signal:location-primary}}
 symbolic-charge: {{symbolic-charge:location-primary}}
@@ -20,194 +24,455 @@ conflict-use: {{conflict-use:location-primary}}
 @rule-pressure-004-core apply
 chapter: $chapter-004
 rule-reference: $world-rule-primary
-visible-symptom: {{visible-symptom:revelation}}
-action-limitation: {{action-limitation:revelation}}
-conflict-output: {{conflict-output-rule:revelation}}
-reveal-pattern: show-exception-to-reveal-rule
+visible-symptom: {{visible-symptom:bridge}}
+action-limitation: {{action-limitation:bridge}}
+conflict-output: {{conflict-output-rule:bridge}}
+reveal-pattern: show-consequence-first-explain-cause-later
 
 @arc-004-protagonist map
 chapter: $chapter-004
-entry-belief: {{entry-belief:protagonist}} at the start of the revelation chapter
-challenge: {{challenge:protagonist-revelation}}
-insight-pressure: {{insight-pressure:protagonist-revelation}}
-exit-belief: {{exit-belief:protagonist}} after the revelation chapter
+entry-belief: {{entry-belief:protagonist}} at the start of the bridge chapter
+challenge: {{challenge:protagonist-bridge}}
+insight-pressure: {{insight-pressure:protagonist-bridge}}
+exit-belief: {{exit-belief:protagonist}} after the bridge chapter
 
 @arc-004-relationship map
 chapter: $chapter-004
-pair: $character-protagonist-001, $character-counterpart-001
-entry-dynamic: oath-bound-cooperation-shadowed-by-allegiance
-stress-line: {{relationship-stress:revelation}}
+pair: $character-protagonist-001, $character-support-004
+entry-dynamic: careful-cooperation-strained-by-withheld-history
+stress-line: {{relationship-stress:bridge}}
 exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
 
 @alternation-004-core arrange
 chapter: $chapter-004
 block-order: description-action-dialogue-pause-event-monologue
-reader-effect: {{reader-effect:revelation}}
+reader-effect: {{reader-effect:bridge}}
 anti-flatness-rule: do not chain action summaries without dialogue, atmosphere, or reflection support
 
 @scene-004-01 define
 chapter: $chapter-004
-showing-mode: mixed
+showing-mode: dialogic
 focalization: internal-single
-time-space: $location-primary
-introduction: {{scene-introduction:revelation-0}}
-development: {{scene-development:revelation-0}}
-conflict: {{scene-conflict:revelation}}
-resolution: {{scene-resolution:revelation-mid}}
+time-space: $location-tertiary-002
+introduction: {{scene-introduction:bridge-0}}
+development: {{scene-development:bridge-0}}
+conflict: {{scene-conflict:bridge}}
+resolution: {{scene-resolution:bridge-mid}}
 exit: the next scene begins before the pressure can settle
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: {{scene-state-change:revelation-mid}}
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-004
+anchor-object: $plot-element-secondary-003
+support-focus: $character-support-004
+state-change: {{scene-state-change:bridge-mid}}
 
 @action-004-1 place
-action-mode: evasion
+action-mode: revelation-act
 scene: $scene-004-01
 actor: $character-protagonist-001
-goal: {{action-goal:revelation-0}}
-obstacle: {{action-obstacle:revelation}}
+goal: {{action-goal:bridge-0}}
+obstacle: {{action-obstacle:bridge}}
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-004-1 place
 scope: $scene-004-01
-type: external-supernatural
-forces: $character-protagonist-001 versus $character-pressure-001
+type: external-society
+forces: $character-protagonist-001 versus $character-support-004
 stakes: {{conflict-stakes:identity-dignity-belonging-consequence}}
-escalation: {{conflict-escalation:revelation}}
+escalation: {{conflict-escalation:bridge}}
 
 @event-004-1 trigger
 scope: $scene-004-01
-event-type: arrival
-trigger: {{event-trigger:revelation-mid}}
-impact: {{event-impact:revelation}}
-follow-through: {{event-follow-through:revelation-mid}}
+event-type: revelation
+trigger: {{event-trigger:bridge-mid}}
+impact: {{event-impact:bridge}}
+follow-through: {{event-follow-through:bridge-mid}}
 
 @dialogue-turn-004-01-01 line
 scene: $scene-004-01
-speaker: $character-counterpart-001
-intent: reframe
-subtext: {{dialogue-subtext:reframe}}
-line-hint: {{dialogue-line-hint:revelation-0-0}}
-reaction-beat: {{dialogue-reaction:reframe}}
+speaker: $character-support-004
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:bridge-0-0}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-004-01-02 line
 scene: $scene-004-01
 speaker: $character-protagonist-001
-intent: challenge
-subtext: {{dialogue-subtext:challenge}}
-line-hint: {{dialogue-line-hint:revelation-0-1}}
-reaction-beat: {{dialogue-reaction:challenge}}
+intent: answer-honestly
+subtext: {{dialogue-subtext:answer-honestly}}
+line-hint: {{dialogue-line-hint:bridge-0-1}}
+reaction-beat: {{dialogue-reaction:answer-honestly}}
+
+@dialogue-turn-004-01-03 line
+scene: $scene-004-01
+speaker: $character-support-005
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:bridge-0-2}}
+reaction-beat: {{dialogue-reaction:warn}}
+
+@dialogue-turn-004-01-04 line
+scene: $scene-004-01
+speaker: $character-pressure-001
+intent: answer-honestly
+subtext: {{dialogue-subtext:answer-honestly}}
+line-hint: {{dialogue-line-hint:bridge-0-3}}
+reaction-beat: {{dialogue-reaction:answer-honestly}}
 
 @scene-004-02 define
 chapter: $chapter-004
-showing-mode: mixed
+showing-mode: compressed-showing
 focalization: internal-single
-time-space: $location-primary
-introduction: {{scene-introduction:revelation-1}}
-development: {{scene-development:revelation-1}}
-conflict: {{scene-conflict:revelation}}
-resolution: {{scene-resolution:revelation-mid}}
+time-space: $location-tertiary-003
+introduction: {{scene-introduction:bridge-1}}
+development: {{scene-development:bridge-1}}
+conflict: {{scene-conflict:bridge}}
+resolution: {{scene-resolution:bridge-mid}}
 exit: the next scene begins before the pressure can settle
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: {{scene-state-change:revelation-mid}}
+participants: $character-protagonist-001, $character-support-005, $character-support-001, $character-pressure-001
+anchor-object: $plot-element-secondary-004
+support-focus: $character-support-005
+state-change: {{scene-state-change:bridge-mid}}
 
 @action-004-2 place
-action-mode: negotiation
+action-mode: revelation-act
 scene: $scene-004-02
 actor: $character-protagonist-001
-goal: {{action-goal:revelation-1}}
-obstacle: {{action-obstacle:revelation}}
+goal: {{action-goal:bridge-1}}
+obstacle: {{action-obstacle:bridge}}
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-004-2 place
 scope: $scene-004-02
-type: external-society
+type: external-nature
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:identity-dignity-belonging-consequence}}
-escalation: {{conflict-escalation:revelation}}
+escalation: {{conflict-escalation:bridge}}
 
 @event-004-2 trigger
 scope: $scene-004-02
-event-type: loss
-trigger: {{event-trigger:revelation-mid}}
-impact: {{event-impact:revelation}}
-follow-through: {{event-follow-through:revelation-mid}}
+event-type: deadline
+trigger: {{event-trigger:bridge-mid}}
+impact: {{event-impact:bridge}}
+follow-through: {{event-follow-through:bridge-mid}}
 
 @dialogue-turn-004-02-01 line
 scene: $scene-004-02
-speaker: $character-counterpart-001
-intent: name-risk
-subtext: {{dialogue-subtext:name-risk}}
-line-hint: {{dialogue-line-hint:revelation-1-0}}
-reaction-beat: {{dialogue-reaction:name-risk}}
+speaker: $character-support-005
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:bridge-1-0}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @dialogue-turn-004-02-02 line
 scene: $scene-004-02
 speaker: $character-protagonist-001
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:bridge-1-1}}
+reaction-beat: {{dialogue-reaction:challenge}}
+
+@dialogue-turn-004-02-03 line
+scene: $scene-004-02
+speaker: $character-support-001
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:bridge-1-2}}
+reaction-beat: {{dialogue-reaction:commit}}
+
+@dialogue-turn-004-02-04 line
+scene: $scene-004-02
+speaker: $character-pressure-001
 intent: warn
 subtext: {{dialogue-subtext:warn}}
-line-hint: {{dialogue-line-hint:revelation-1-1}}
+line-hint: {{dialogue-line-hint:bridge-1-3}}
 reaction-beat: {{dialogue-reaction:warn}}
 
 @scene-004-03 define
 chapter: $chapter-004
 showing-mode: compressed-showing
 focalization: internal-single
-time-space: $location-primary
-introduction: {{scene-introduction:revelation-2}}
-development: {{scene-development:revelation-2}}
-conflict: {{scene-conflict:revelation}}
-resolution: {{scene-resolution:revelation-final}}
-exit: the chapter hands off to a sharper revelation consequence
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: {{scene-state-change:revelation-final}}
+time-space: $location-tertiary-004
+introduction: {{scene-introduction:bridge-2}}
+development: {{scene-development:bridge-2}}
+conflict: {{scene-conflict:bridge}}
+resolution: {{scene-resolution:bridge-mid}}
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-001
+anchor-object: $plot-element-secondary-003
+support-focus: $character-support-001
+state-change: {{scene-state-change:bridge-mid}}
 
 @action-004-3 place
-action-mode: negotiation
+action-mode: evasion
 scene: $scene-004-03
 actor: $character-protagonist-001
-goal: {{action-goal:revelation-2}}
-obstacle: {{action-obstacle:revelation}}
-result: {{action-result:revelation-final}}
+goal: {{action-goal:bridge-2}}
+obstacle: {{action-obstacle:bridge}}
+result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-004-3 place
 scope: $scene-004-03
-type: external-society
-forces: $character-protagonist-001 versus $character-pressure-001
+type: internal
+forces: $character-protagonist-001 versus $character-support-001
 stakes: {{conflict-stakes:identity-dignity-belonging-consequence}}
-escalation: {{conflict-escalation:revelation}}
+escalation: {{conflict-escalation:bridge}}
 
 @event-004-3 trigger
 scope: $scene-004-03
 event-type: loss
-trigger: {{event-trigger:revelation-final}}
-impact: {{event-impact:revelation}}
-follow-through: {{event-follow-through:revelation-final}}
+trigger: {{event-trigger:bridge-mid}}
+impact: {{event-impact:bridge}}
+follow-through: {{event-follow-through:bridge-mid}}
 
 @dialogue-turn-004-03-01 line
 scene: $scene-004-03
-speaker: $character-counterpart-001
+speaker: $character-support-001
 intent: answer-honestly
 subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:revelation-2-0}}
+line-hint: {{dialogue-line-hint:bridge-2-0}}
 reaction-beat: {{dialogue-reaction:answer-honestly}}
 
 @dialogue-turn-004-03-02 line
 scene: $scene-004-03
 speaker: $character-protagonist-001
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:bridge-2-1}}
+reaction-beat: {{dialogue-reaction:commit}}
+
+@dialogue-turn-004-03-03 line
+scene: $scene-004-03
+speaker: $character-support-004
 intent: warn
 subtext: {{dialogue-subtext:warn}}
-line-hint: {{dialogue-line-hint:revelation-2-1}}
+line-hint: {{dialogue-line-hint:bridge-2-2}}
 reaction-beat: {{dialogue-reaction:warn}}
+
+@dialogue-turn-004-03-04 line
+scene: $scene-004-03
+speaker: $character-pressure-001
+intent: reframe
+subtext: {{dialogue-subtext:reframe}}
+line-hint: {{dialogue-line-hint:bridge-2-3}}
+reaction-beat: {{dialogue-reaction:reframe}}
+
+@scene-004-04 define
+chapter: $chapter-004
+showing-mode: direct-showing
+focalization: internal-single
+time-space: $location-tertiary-002
+introduction: {{scene-introduction:bridge-3}}
+development: {{scene-development:bridge-3}}
+conflict: {{scene-conflict:bridge}}
+resolution: {{scene-resolution:bridge-mid}}
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-support-004, $character-support-005
+anchor-object: $plot-element-secondary-004
+support-focus: $character-support-004
+state-change: {{scene-state-change:bridge-mid}}
+
+@action-004-4 place
+action-mode: pursuit
+scene: $scene-004-04
+actor: $character-protagonist-001
+goal: {{action-goal:bridge-3}}
+obstacle: {{action-obstacle:bridge}}
+result: the attempt reveals only part of the hidden structure and deepens the next demand
+
+@conflict-004-4 place
+scope: $scene-004-04
+type: external-nature
+forces: $character-protagonist-001 versus $character-support-005
+stakes: {{conflict-stakes:identity-dignity-belonging-consequence}}
+escalation: {{conflict-escalation:bridge}}
+
+@event-004-4 trigger
+scope: $scene-004-04
+event-type: revelation
+trigger: {{event-trigger:bridge-mid}}
+impact: {{event-impact:bridge}}
+follow-through: {{event-follow-through:bridge-mid}}
+
+@dialogue-turn-004-04-01 line
+scene: $scene-004-04
+speaker: $character-support-004
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:bridge-3-0}}
+reaction-beat: {{dialogue-reaction:challenge}}
+
+@dialogue-turn-004-04-02 line
+scene: $scene-004-04
+speaker: $character-protagonist-001
+intent: tease-probe
+subtext: {{dialogue-subtext:tease-probe}}
+line-hint: {{dialogue-line-hint:bridge-3-1}}
+reaction-beat: {{dialogue-reaction:tease-probe}}
+
+@dialogue-turn-004-04-03 line
+scene: $scene-004-04
+speaker: $character-support-005
+intent: tease-probe
+subtext: {{dialogue-subtext:tease-probe}}
+line-hint: {{dialogue-line-hint:bridge-3-2}}
+reaction-beat: {{dialogue-reaction:tease-probe}}
+
+@dialogue-turn-004-04-04 line
+scene: $scene-004-04
+speaker: $character-pressure-001
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:bridge-3-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
+
+@scene-004-05 define
+chapter: $chapter-004
+showing-mode: dialogic
+focalization: internal-single
+time-space: $location-tertiary-003
+introduction: {{scene-introduction:bridge-4}}
+development: {{scene-development:bridge-4}}
+conflict: {{scene-conflict:bridge}}
+resolution: {{scene-resolution:bridge-mid}}
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-005, $character-pressure-001
+anchor-object: $plot-element-secondary-003
+support-focus: $character-support-005
+state-change: {{scene-state-change:bridge-mid}}
+
+@action-004-5 place
+action-mode: negotiation
+scene: $scene-004-05
+actor: $character-protagonist-001
+goal: {{action-goal:bridge-4}}
+obstacle: {{action-obstacle:bridge}}
+result: the attempt reveals only part of the hidden structure and deepens the next demand
+
+@conflict-004-5 place
+scope: $scene-004-05
+type: mixed
+forces: $character-protagonist-001 versus $character-pressure-001
+stakes: {{conflict-stakes:identity-dignity-belonging-consequence}}
+escalation: {{conflict-escalation:bridge}}
+
+@event-004-5 trigger
+scope: $scene-004-05
+event-type: revelation
+trigger: {{event-trigger:bridge-mid}}
+impact: {{event-impact:bridge}}
+follow-through: {{event-follow-through:bridge-mid}}
+
+@dialogue-turn-004-05-01 line
+scene: $scene-004-05
+speaker: $character-support-005
+intent: tease-probe
+subtext: {{dialogue-subtext:tease-probe}}
+line-hint: {{dialogue-line-hint:bridge-4-0}}
+reaction-beat: {{dialogue-reaction:tease-probe}}
+
+@dialogue-turn-004-05-02 line
+scene: $scene-004-05
+speaker: $character-protagonist-001
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:bridge-4-1}}
+reaction-beat: {{dialogue-reaction:warn}}
+
+@dialogue-turn-004-05-03 line
+scene: $scene-004-05
+speaker: $character-support-001
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:bridge-4-2}}
+reaction-beat: {{dialogue-reaction:probe}}
+
+@dialogue-turn-004-05-04 line
+scene: $scene-004-05
+speaker: $character-pressure-001
+intent: tease-probe
+subtext: {{dialogue-subtext:tease-probe}}
+line-hint: {{dialogue-line-hint:bridge-4-3}}
+reaction-beat: {{dialogue-reaction:tease-probe}}
+
+@scene-004-06 define
+chapter: $chapter-004
+showing-mode: direct-showing
+focalization: internal-single
+time-space: $location-tertiary-004
+introduction: {{scene-introduction:bridge-5}}
+development: {{scene-development:bridge-5}}
+conflict: {{scene-conflict:bridge}}
+resolution: {{scene-resolution:bridge-final}}
+exit: the chapter hands off to a sharper bridge consequence
+participants: $character-protagonist-001, $character-support-001, $character-support-004, $character-pressure-001
+anchor-object: $plot-element-secondary-004
+support-focus: $character-support-001
+state-change: {{scene-state-change:bridge-final}}
+
+@action-004-6 place
+action-mode: pursuit
+scene: $scene-004-06
+actor: $character-protagonist-001
+goal: {{action-goal:bridge-5}}
+obstacle: {{action-obstacle:bridge}}
+result: {{action-result:bridge-final}}
+
+@conflict-004-6 place
+scope: $scene-004-06
+type: mixed
+forces: $character-protagonist-001 versus $character-pressure-001
+stakes: {{conflict-stakes:identity-dignity-belonging-consequence}}
+escalation: {{conflict-escalation:bridge}}
+
+@event-004-6 trigger
+scope: $scene-004-06
+event-type: crime
+trigger: {{event-trigger:bridge-final}}
+impact: {{event-impact:bridge}}
+follow-through: {{event-follow-through:bridge-final}}
+
+@dialogue-turn-004-06-01 line
+scene: $scene-004-06
+speaker: $character-support-001
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:bridge-5-0}}
+reaction-beat: {{dialogue-reaction:warn}}
+
+@dialogue-turn-004-06-02 line
+scene: $scene-004-06
+speaker: $character-protagonist-001
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:bridge-5-1}}
+reaction-beat: {{dialogue-reaction:challenge}}
+
+@dialogue-turn-004-06-03 line
+scene: $scene-004-06
+speaker: $character-support-004
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:bridge-5-2}}
+reaction-beat: {{dialogue-reaction:challenge}}
+
+@dialogue-turn-004-06-04 line
+scene: $scene-004-06
+speaker: $character-pressure-001
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:bridge-5-3}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @description-004-atmosphere apply
 scope: $chapter-004
 description-type: atmosphere
 focus: {{description-focus:drama}}
 function: atmospheric
-rhythm-effect: frame
+rhythm-effect: hold
 
 @dialogue-004-core apply
 scene: $scene-004-01
-speakers: $character-protagonist-001, $character-counterpart-001
+speakers: $character-protagonist-001, $character-counterpart-001, $character-support-004, $character-support-005
 exchange-type: conflictual
 purpose: tension
 subtext: {{dialogue-core-subtext:drama}}
@@ -219,36 +484,36 @@ function: organizational
 time-handling: mixed
 
 @interior-monologue-004-core apply
-scene: $scene-004-03
+scene: $scene-004-06
 character: $character-protagonist-001
 function: psychological-insight
-trigger: {{monologue-trigger:revelation}}
+trigger: {{monologue-trigger:bridge}}
 texture: reflective
 
 @suspense-004-core build
 scope: $chapter-004
 suspense-type: emotional
-uncertainty: {{suspense-uncertainty:revelation}}
+uncertainty: {{suspense-uncertainty:bridge}}
 delay-technique: mixed
-payoff-zone: event-004-3
+payoff-zone: event-004-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
 
 @pause-004-core hold
 scope: $chapter-004
 pause-function: psychological
-focus: {{pause-focus:revelation}}
+focus: {{pause-focus:bridge}}
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-004-core burst
 scope: $chapter-004
 acceleration-mode: summary-burst
-trigger: {{acceleration-trigger:revelation}}
+trigger: {{acceleration-trigger:bridge}}
 reader-effect: compress time and force the next consequence to land without emotional escape
-target-zone: $scene-004-03
+target-zone: $scene-004-06
 
 @cliffhanger-004-exit cut
 scope: $chapter-004
-cliffhanger-type: danger
-cut-moment: {{cliffhanger-moment:revelation}}
-continuation-pressure: {{cliffhanger-continuation:revelation}}
+cliffhanger-type: interrupted-revelation
+cut-moment: {{cliffhanger-moment:bridge}}
+continuation-pressure: {{cliffhanger-continuation:bridge}}

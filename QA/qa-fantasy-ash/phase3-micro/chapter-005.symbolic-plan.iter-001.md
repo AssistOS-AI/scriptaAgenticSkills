@@ -1,17 +1,21 @@
 @sequence-005-core define
 sequence-type: confrontation-chain
-link-logic: causal
+link-logic: mixed
 chapter: $chapter-005
-objective: {{sequence-objective:culmination}}
-scene-chain: scene-005-01, scene-005-02, scene-005-03
+objective: {{sequence-objective:revelation}}
+scene-chain: scene-005-01, scene-005-02, scene-005-03, scene-005-04, scene-005-05, scene-005-06
 carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
-conflict-line: {{sequence-conflict:culmination}}
-payoff: {{sequence-payoff:culmination}}
+conflict-line: {{sequence-conflict:revelation}}
+supporting-cast: $character-support-005, $character-support-001, $character-support-002
+chapter-object: $plot-element-secondary-004
+payoff: {{sequence-payoff:revelation}}
 
 @location-005-anchor define
 chapter: $chapter-005
-primary-setting: $location-primary
-secondary-setting: $location-secondary
+primary-setting: $location-tertiary-003
+secondary-setting: $location-tertiary-004
+transit-setting: $location-primary
+chapter-object: $plot-element-secondary-004
 sensory-anchor: {{sensory-anchor:location-primary}}
 social-signal: {{social-signal:location-primary}}
 symbolic-charge: {{symbolic-charge:location-primary}}
@@ -20,174 +24,212 @@ conflict-use: {{conflict-use:location-primary}}
 @rule-pressure-005-core apply
 chapter: $chapter-005
 rule-reference: $world-rule-primary
-visible-symptom: {{visible-symptom:culmination}}
-action-limitation: {{action-limitation:culmination}}
-conflict-output: {{conflict-output-rule:culmination}}
+visible-symptom: {{visible-symptom:revelation}}
+action-limitation: {{action-limitation:revelation}}
+conflict-output: {{conflict-output-rule:revelation}}
 reveal-pattern: embed-rule-in-dialogue
 
 @arc-005-protagonist map
 chapter: $chapter-005
-entry-belief: {{entry-belief:protagonist}} at the start of the culmination chapter
-challenge: {{challenge:protagonist-culmination}}
-insight-pressure: {{insight-pressure:protagonist-culmination}}
-exit-belief: {{exit-belief:protagonist}} after the culmination chapter
+entry-belief: {{entry-belief:protagonist}} at the start of the revelation chapter
+challenge: {{challenge:protagonist-revelation}}
+insight-pressure: {{insight-pressure:protagonist-revelation}}
+exit-belief: {{exit-belief:protagonist}} after the revelation chapter
 
 @arc-005-relationship map
 chapter: $chapter-005
-pair: $character-protagonist-001, $character-counterpart-001
-entry-dynamic: oath-bound-cooperation-shadowed-by-allegiance
-stress-line: {{relationship-stress:culmination}}
+pair: $character-protagonist-001, $character-support-005
+entry-dynamic: careful-cooperation-strained-by-withheld-history
+stress-line: {{relationship-stress:revelation}}
 exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
 
 @alternation-005-core arrange
 chapter: $chapter-005
 block-order: description-action-dialogue-suspense-interior-monologue-revelation-pause
-reader-effect: {{reader-effect:culmination}}
+reader-effect: {{reader-effect:revelation}}
 anti-flatness-rule: do not chain action summaries without dialogue, atmosphere, or reflection support
 
 @scene-005-01 define
 chapter: $chapter-005
-showing-mode: introspective
+showing-mode: dialogic
 focalization: internal-shifting
-time-space: $location-primary
-introduction: {{scene-introduction:culmination-0}}
-development: {{scene-development:culmination-0}}
-conflict: {{scene-conflict:culmination}}
-resolution: {{scene-resolution:culmination-mid}}
+time-space: $location-tertiary-003
+introduction: {{scene-introduction:revelation-0}}
+development: {{scene-development:revelation-0}}
+conflict: {{scene-conflict:revelation}}
+resolution: {{scene-resolution:revelation-mid}}
 exit: the next scene begins before the pressure can settle
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: {{scene-state-change:culmination-mid}}
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-005
+anchor-object: $plot-element-secondary-004
+support-focus: $character-support-005
+state-change: {{scene-state-change:revelation-mid}}
 
 @action-005-1 place
-action-mode: revelation-act
+action-mode: sacrifice
 scene: $scene-005-01
 actor: $character-protagonist-001
-goal: {{action-goal:culmination-0}}
-obstacle: {{action-obstacle:culmination}}
+goal: {{action-goal:revelation-0}}
+obstacle: {{action-obstacle:revelation}}
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-005-1 place
 scope: $scene-005-01
-type: mixed
-forces: $character-protagonist-001 versus $character-pressure-001
+type: external-nature
+forces: $character-protagonist-001 versus $character-support-005
 stakes: {{conflict-stakes:lineage-survival-legitimacy-cost}}
-escalation: {{conflict-escalation:culmination}}
+escalation: {{conflict-escalation:revelation}}
 
 @event-005-1 trigger
 scope: $scene-005-01
-event-type: revelation
-trigger: {{event-trigger:culmination-mid}}
-impact: {{event-impact:culmination}}
-follow-through: {{event-follow-through:culmination-mid}}
+event-type: betrayal
+trigger: {{event-trigger:revelation-mid}}
+impact: {{event-impact:revelation}}
+follow-through: {{event-follow-through:revelation-mid}}
 
 @dialogue-turn-005-01-01 line
 scene: $scene-005-01
-speaker: $character-counterpart-001
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:culmination-0-0}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+speaker: $character-support-005
+intent: tease-probe
+subtext: {{dialogue-subtext:tease-probe}}
+line-hint: {{dialogue-line-hint:revelation-0-0}}
+reaction-beat: {{dialogue-reaction:tease-probe}}
 
 @dialogue-turn-005-01-02 line
 scene: $scene-005-01
 speaker: $character-protagonist-001
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:culmination-0-1}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:revelation-0-1}}
+reaction-beat: {{dialogue-reaction:probe}}
+
+@dialogue-turn-005-01-03 line
+scene: $scene-005-01
+speaker: $character-support-001
+intent: answer-honestly
+subtext: {{dialogue-subtext:answer-honestly}}
+line-hint: {{dialogue-line-hint:revelation-0-2}}
+reaction-beat: {{dialogue-reaction:answer-honestly}}
+
+@dialogue-turn-005-01-04 line
+scene: $scene-005-01
+speaker: $character-pressure-001
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:revelation-0-3}}
+reaction-beat: {{dialogue-reaction:warn}}
 
 @scene-005-02 define
 chapter: $chapter-005
-showing-mode: dialogic
+showing-mode: mixed
 focalization: internal-shifting
-time-space: $location-primary
-introduction: {{scene-introduction:culmination-1}}
-development: {{scene-development:culmination-1}}
-conflict: {{scene-conflict:culmination}}
-resolution: {{scene-resolution:culmination-mid}}
+time-space: $location-tertiary-004
+introduction: {{scene-introduction:revelation-1}}
+development: {{scene-development:revelation-1}}
+conflict: {{scene-conflict:revelation}}
+resolution: {{scene-resolution:revelation-mid}}
 exit: the next scene begins before the pressure can settle
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: {{scene-state-change:culmination-mid}}
+participants: $character-protagonist-001, $character-support-001, $character-support-002, $character-pressure-001
+anchor-object: $plot-element-core-object
+support-focus: $character-support-001
+state-change: {{scene-state-change:revelation-mid}}
 
 @action-005-2 place
 action-mode: sacrifice
 scene: $scene-005-02
 actor: $character-protagonist-001
-goal: {{action-goal:culmination-1}}
-obstacle: {{action-obstacle:culmination}}
+goal: {{action-goal:revelation-1}}
+obstacle: {{action-obstacle:revelation}}
 result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-005-2 place
 scope: $scene-005-02
-type: mixed
+type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:lineage-survival-legitimacy-cost}}
-escalation: {{conflict-escalation:culmination}}
+escalation: {{conflict-escalation:revelation}}
 
 @event-005-2 trigger
 scope: $scene-005-02
-event-type: discovery
-trigger: {{event-trigger:culmination-mid}}
-impact: {{event-impact:culmination}}
-follow-through: {{event-follow-through:culmination-mid}}
+event-type: decision
+trigger: {{event-trigger:revelation-mid}}
+impact: {{event-impact:revelation}}
+follow-through: {{event-follow-through:revelation-mid}}
 
 @dialogue-turn-005-02-01 line
 scene: $scene-005-02
-speaker: $character-counterpart-001
+speaker: $character-support-001
 intent: answer-honestly
 subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:culmination-1-0}}
+line-hint: {{dialogue-line-hint:revelation-1-0}}
 reaction-beat: {{dialogue-reaction:answer-honestly}}
 
 @dialogue-turn-005-02-02 line
 scene: $scene-005-02
 speaker: $character-protagonist-001
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:culmination-1-1}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: answer-honestly
+subtext: {{dialogue-subtext:answer-honestly}}
+line-hint: {{dialogue-line-hint:revelation-1-1}}
+reaction-beat: {{dialogue-reaction:answer-honestly}}
+
+@dialogue-turn-005-02-03 line
+scene: $scene-005-02
+speaker: $character-support-002
+intent: tease-probe
+subtext: {{dialogue-subtext:tease-probe}}
+line-hint: {{dialogue-line-hint:revelation-1-2}}
+reaction-beat: {{dialogue-reaction:tease-probe}}
+
+@dialogue-turn-005-02-04 line
+scene: $scene-005-02
+speaker: $character-pressure-001
+intent: answer-honestly
+subtext: {{dialogue-subtext:answer-honestly}}
+line-hint: {{dialogue-line-hint:revelation-1-3}}
+reaction-beat: {{dialogue-reaction:answer-honestly}}
 
 @scene-005-03 define
 chapter: $chapter-005
-showing-mode: direct-showing
+showing-mode: compressed-showing
 focalization: internal-shifting
 time-space: $location-primary
-introduction: {{scene-introduction:culmination-2}}
-development: {{scene-development:culmination-2}}
-conflict: {{scene-conflict:culmination}}
-resolution: {{scene-resolution:culmination-final}}
-exit: the chapter hands off to a sharper culmination consequence
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
-state-change: {{scene-state-change:culmination-final}}
+introduction: {{scene-introduction:revelation-2}}
+development: {{scene-development:revelation-2}}
+conflict: {{scene-conflict:revelation}}
+resolution: {{scene-resolution:revelation-mid}}
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-002
+anchor-object: $plot-element-secondary-004
+support-focus: $character-support-002
+state-change: {{scene-state-change:revelation-mid}}
 
 @action-005-3 place
-action-mode: attempt
+action-mode: revelation-act
 scene: $scene-005-03
 actor: $character-protagonist-001
-goal: {{action-goal:culmination-2}}
-obstacle: {{action-obstacle:culmination}}
-result: {{action-result:culmination-final}}
+goal: {{action-goal:revelation-2}}
+obstacle: {{action-obstacle:revelation}}
+result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-005-3 place
 scope: $scene-005-03
 type: external-supernatural
-forces: $character-protagonist-001 versus $character-pressure-001
+forces: $character-protagonist-001 versus $character-support-002
 stakes: {{conflict-stakes:lineage-survival-legitimacy-cost}}
-escalation: {{conflict-escalation:culmination}}
+escalation: {{conflict-escalation:revelation}}
 
 @event-005-3 trigger
 scope: $scene-005-03
-event-type: reversal
-trigger: {{event-trigger:culmination-final}}
-impact: {{event-impact:culmination}}
-follow-through: {{event-follow-through:culmination-final}}
+event-type: betrayal
+trigger: {{event-trigger:revelation-mid}}
+impact: {{event-impact:revelation}}
+follow-through: {{event-follow-through:revelation-mid}}
 
 @dialogue-turn-005-03-01 line
 scene: $scene-005-03
-speaker: $character-counterpart-001
+speaker: $character-support-002
 intent: name-risk
 subtext: {{dialogue-subtext:name-risk}}
-line-hint: {{dialogue-line-hint:culmination-2-0}}
+line-hint: {{dialogue-line-hint:revelation-2-0}}
 reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-005-03-02 line
@@ -195,8 +237,231 @@ scene: $scene-005-03
 speaker: $character-protagonist-001
 intent: challenge
 subtext: {{dialogue-subtext:challenge}}
-line-hint: {{dialogue-line-hint:culmination-2-1}}
+line-hint: {{dialogue-line-hint:revelation-2-1}}
 reaction-beat: {{dialogue-reaction:challenge}}
+
+@dialogue-turn-005-03-03 line
+scene: $scene-005-03
+speaker: $character-support-005
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:revelation-2-2}}
+reaction-beat: {{dialogue-reaction:warn}}
+
+@dialogue-turn-005-03-04 line
+scene: $scene-005-03
+speaker: $character-pressure-001
+intent: answer-honestly
+subtext: {{dialogue-subtext:answer-honestly}}
+line-hint: {{dialogue-line-hint:revelation-2-3}}
+reaction-beat: {{dialogue-reaction:answer-honestly}}
+
+@scene-005-04 define
+chapter: $chapter-005
+showing-mode: mixed
+focalization: internal-shifting
+time-space: $location-tertiary-003
+introduction: {{scene-introduction:revelation-3}}
+development: {{scene-development:revelation-3}}
+conflict: {{scene-conflict:revelation}}
+resolution: {{scene-resolution:revelation-mid}}
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-support-005, $character-support-001
+anchor-object: $plot-element-core-object
+support-focus: $character-support-005
+state-change: {{scene-state-change:revelation-mid}}
+
+@action-005-4 place
+action-mode: sacrifice
+scene: $scene-005-04
+actor: $character-protagonist-001
+goal: {{action-goal:revelation-3}}
+obstacle: {{action-obstacle:revelation}}
+result: the attempt reveals only part of the hidden structure and deepens the next demand
+
+@conflict-005-4 place
+scope: $scene-005-04
+type: external-nature
+forces: $character-protagonist-001 versus $character-support-001
+stakes: {{conflict-stakes:lineage-survival-legitimacy-cost}}
+escalation: {{conflict-escalation:revelation}}
+
+@event-005-4 trigger
+scope: $scene-005-04
+event-type: betrayal
+trigger: {{event-trigger:revelation-mid}}
+impact: {{event-impact:revelation}}
+follow-through: {{event-follow-through:revelation-mid}}
+
+@dialogue-turn-005-04-01 line
+scene: $scene-005-04
+speaker: $character-support-005
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:revelation-3-0}}
+reaction-beat: {{dialogue-reaction:challenge}}
+
+@dialogue-turn-005-04-02 line
+scene: $scene-005-04
+speaker: $character-protagonist-001
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:revelation-3-1}}
+reaction-beat: {{dialogue-reaction:probe}}
+
+@dialogue-turn-005-04-03 line
+scene: $scene-005-04
+speaker: $character-support-001
+intent: answer-honestly
+subtext: {{dialogue-subtext:answer-honestly}}
+line-hint: {{dialogue-line-hint:revelation-3-2}}
+reaction-beat: {{dialogue-reaction:answer-honestly}}
+
+@dialogue-turn-005-04-04 line
+scene: $scene-005-04
+speaker: $character-pressure-001
+intent: tease-probe
+subtext: {{dialogue-subtext:tease-probe}}
+line-hint: {{dialogue-line-hint:revelation-3-3}}
+reaction-beat: {{dialogue-reaction:tease-probe}}
+
+@scene-005-05 define
+chapter: $chapter-005
+showing-mode: direct-showing
+focalization: internal-shifting
+time-space: $location-tertiary-004
+introduction: {{scene-introduction:revelation-4}}
+development: {{scene-development:revelation-4}}
+conflict: {{scene-conflict:revelation}}
+resolution: {{scene-resolution:revelation-mid}}
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-001, $character-pressure-001
+anchor-object: $plot-element-secondary-004
+support-focus: $character-support-001
+state-change: {{scene-state-change:revelation-mid}}
+
+@action-005-5 place
+action-mode: negotiation
+scene: $scene-005-05
+actor: $character-protagonist-001
+goal: {{action-goal:revelation-4}}
+obstacle: {{action-obstacle:revelation}}
+result: the attempt reveals only part of the hidden structure and deepens the next demand
+
+@conflict-005-5 place
+scope: $scene-005-05
+type: external-society
+forces: $character-protagonist-001 versus $character-pressure-001
+stakes: {{conflict-stakes:lineage-survival-legitimacy-cost}}
+escalation: {{conflict-escalation:revelation}}
+
+@event-005-5 trigger
+scope: $scene-005-05
+event-type: revelation
+trigger: {{event-trigger:revelation-mid}}
+impact: {{event-impact:revelation}}
+follow-through: {{event-follow-through:revelation-mid}}
+
+@dialogue-turn-005-05-01 line
+scene: $scene-005-05
+speaker: $character-support-001
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:revelation-4-0}}
+reaction-beat: {{dialogue-reaction:probe}}
+
+@dialogue-turn-005-05-02 line
+scene: $scene-005-05
+speaker: $character-protagonist-001
+intent: reframe
+subtext: {{dialogue-subtext:reframe}}
+line-hint: {{dialogue-line-hint:revelation-4-1}}
+reaction-beat: {{dialogue-reaction:reframe}}
+
+@dialogue-turn-005-05-03 line
+scene: $scene-005-05
+speaker: $character-support-002
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:revelation-4-2}}
+reaction-beat: {{dialogue-reaction:warn}}
+
+@dialogue-turn-005-05-04 line
+scene: $scene-005-05
+speaker: $character-pressure-001
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:revelation-4-3}}
+reaction-beat: {{dialogue-reaction:probe}}
+
+@scene-005-06 define
+chapter: $chapter-005
+showing-mode: compressed-showing
+focalization: internal-shifting
+time-space: $location-primary
+introduction: {{scene-introduction:revelation-5}}
+development: {{scene-development:revelation-5}}
+conflict: {{scene-conflict:revelation}}
+resolution: {{scene-resolution:revelation-final}}
+exit: the chapter hands off to a sharper revelation consequence
+participants: $character-protagonist-001, $character-support-002, $character-support-005, $character-pressure-001
+anchor-object: $plot-element-core-object
+support-focus: $character-support-002
+state-change: {{scene-state-change:revelation-final}}
+
+@action-005-6 place
+action-mode: sacrifice
+scene: $scene-005-06
+actor: $character-protagonist-001
+goal: {{action-goal:revelation-5}}
+obstacle: {{action-obstacle:revelation}}
+result: {{action-result:revelation-final}}
+
+@conflict-005-6 place
+scope: $scene-005-06
+type: external-supernatural
+forces: $character-protagonist-001 versus $character-pressure-001
+stakes: {{conflict-stakes:lineage-survival-legitimacy-cost}}
+escalation: {{conflict-escalation:revelation}}
+
+@event-005-6 trigger
+scope: $scene-005-06
+event-type: betrayal
+trigger: {{event-trigger:revelation-final}}
+impact: {{event-impact:revelation}}
+follow-through: {{event-follow-through:revelation-final}}
+
+@dialogue-turn-005-06-01 line
+scene: $scene-005-06
+speaker: $character-support-002
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:revelation-5-0}}
+reaction-beat: {{dialogue-reaction:probe}}
+
+@dialogue-turn-005-06-02 line
+scene: $scene-005-06
+speaker: $character-protagonist-001
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:revelation-5-1}}
+reaction-beat: {{dialogue-reaction:commit}}
+
+@dialogue-turn-005-06-03 line
+scene: $scene-005-06
+speaker: $character-support-005
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:revelation-5-2}}
+reaction-beat: {{dialogue-reaction:probe}}
+
+@dialogue-turn-005-06-04 line
+scene: $scene-005-06
+speaker: $character-pressure-001
+intent: reframe
+subtext: {{dialogue-subtext:reframe}}
+line-hint: {{dialogue-line-hint:revelation-5-3}}
+reaction-beat: {{dialogue-reaction:reframe}}
 
 @description-005-atmosphere apply
 scope: $chapter-005
@@ -207,7 +472,7 @@ rhythm-effect: frame
 
 @dialogue-005-core apply
 scene: $scene-005-01
-speakers: $character-protagonist-001, $character-counterpart-001
+speakers: $character-protagonist-001, $character-counterpart-001, $character-support-005, $character-support-001
 exchange-type: conflictual
 purpose: tension
 subtext: {{dialogue-core-subtext:fantasy}}
@@ -219,36 +484,36 @@ function: organizational
 time-handling: mixed
 
 @interior-monologue-005-core apply
-scene: $scene-005-03
+scene: $scene-005-06
 character: $character-protagonist-001
 function: psychological-insight
-trigger: {{monologue-trigger:culmination}}
+trigger: {{monologue-trigger:revelation}}
 texture: reflective
 
 @suspense-005-core build
 scope: $chapter-005
 suspense-type: situational
-uncertainty: {{suspense-uncertainty:culmination}}
+uncertainty: {{suspense-uncertainty:revelation}}
 delay-technique: foreshadowing
-payoff-zone: event-005-3
+payoff-zone: event-005-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
 
 @pause-005-core hold
 scope: $chapter-005
 pause-function: atmospheric
-focus: {{pause-focus:culmination}}
+focus: {{pause-focus:revelation}}
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-005-core burst
 scope: $chapter-005
-acceleration-mode: pursuit-compression
-trigger: {{acceleration-trigger:culmination}}
+acceleration-mode: summary-burst
+trigger: {{acceleration-trigger:revelation}}
 reader-effect: compress time and force the next consequence to land without emotional escape
-target-zone: $scene-005-03
+target-zone: $scene-005-06
 
 @cliffhanger-005-exit cut
 scope: $chapter-005
-cliffhanger-type: unresolved-confrontation
-cut-moment: {{cliffhanger-moment:culmination}}
-continuation-pressure: {{cliffhanger-continuation:culmination}}
+cliffhanger-type: interrupted-revelation
+cut-moment: {{cliffhanger-moment:revelation}}
+continuation-pressure: {{cliffhanger-continuation:revelation}}

@@ -40,15 +40,15 @@ anti-didactic-rule: insight must emerge from consequences, reversals, and confli
 information-order: chronological
 causal-density: tight
 macro-form: linear
-beginning: establish $character-protagonist-001 inside $location-primary and the pressure around House Vale
+beginning: establish $character-protagonist-001 inside $location-primary and the pressure around the oath furnace court
 inciting-incident: the ash names Neris's younger sister, long said to have died of fever
 middle: escalation, pressure, and relational strain expose the cost of learn the true wording of the family vow and sever it before the valley chooses another heir
 plot-point-1: $character-protagonist-001 commits to action instead of withdrawal
-midpoint: the original vow chronicle reveals a hidden layer of the conflict
+midpoint: the hidden chronicle leaf reveals a hidden layer of the conflict
 plot-point-2: $character-pressure-001 turns pressure into direct threat
 climax: Keep the inherited oath that protects the valley through coerced obedience, or break it and let both truth and danger return together.
 resolution: a new equilibrium forms after $character-protagonist-001 accepts irreversible cost
-causal-rule: every-reveal-must-change-the-moral-reading
+causal-rule: every-escalation-must-narrow-the-safe-options
 
 @narrative-model select
 adaptation-strength: adapted
@@ -61,39 +61,40 @@ adaptation-note: the chosen model is bent toward short-form clarity and evidence
 
 @blueprint map
 premise: Exiled heir Neris Vale returns to the ash valley of Drovna when the family oath-fires begin speaking the names of the dead aloud. Guided by oath-keeper Brother Caelan, she learns that her dynasty's power comes from a vow furnace that burns witness memories into political obedience, and breaking it will strip the valley of the same protection that kept the winter spirits out.
-exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around the original vow chronicle
-rising-action: pressure from $character-pressure-001 and House Vale complicates every attempt to act
-midpoint-shift: the original vow chronicle changes what the protagonist understands about the conflict
+exposition: introduce $character-protagonist-001, $location-primary, and the first unstable sign around the hidden chronicle leaf
+rising-action: pressure from $character-pressure-001 and the oath furnace court complicates every attempt to act
+midpoint-shift: the hidden chronicle leaf changes what the protagonist understands about the conflict
 climax: Keep the inherited oath that protects the valley through coerced obedience, or break it and let both truth and danger return together.
-resolution: the core conflict resolves with lasting cost and a redefined relation to House Vale
+resolution: the core conflict resolves with lasting cost and a redefined relation to the oath furnace court
 emotional-layer: curiosity -> anticipation -> tension -> fear -> bittersweet-release
+ensemble-pressure: $character-support-001, $character-support-002, $character-support-003 widen the cost beyond the central trio
 stakes-ladder: private-to-public
 
 @arc-book-main map
 arc-axis: identity-self under reconciliation pressure
-opening-state: visible-curse-protected-by-ritual-silence
+opening-state: unstable-but-socially-protected-equilibrium
 escalation-pattern: each-fix-proves-system-resists-change
-midpoint-recognition: malfunction-is-not-accidental-but-designed
+midpoint-recognition: repair-impossible-without-naming-wound-correctly
 climactic-choice: Keep the inherited oath that protects the valley through coerced obedience, or break it and let both truth and danger return together.
 ending-state: survival-remains-but-innocence-does-not
 
 @arc-protagonist-main map
-entry-belief: the family oath can be repaired without being destroyed inheritance-can-be-redeemed
-core-wound: old-compromise-that-shapes-every-choice
-pressure-line: every-useful-act-asks-whether-care-can-remain-impersonal
-turning-insight: the valley was never protected from cost; it was merely trained to pay it quietly shared-risk-creates-stronger-agency
-exit-belief: some inheritances become just only when they are surrendered shared-risk-creates-stronger-agency
+entry-belief: the family oath can be repaired without being destroyed procedure-ensures-justice
+core-wound: trust-in-managed-systems-over-unstable-testimony
+pressure-line: every-truthful-act-burns-a-layer-of-inherited-shelter
+turning-insight: the valley was never protected from cost; it was merely trained to pay it quietly truth-requires-breaking-procedure
+exit-belief: some inheritances become just only when they are surrendered truth-requires-breaking-procedure
 
 @arc-relationship-main map
 pair: $character-protagonist-001, $character-counterpart-001
-entry-dynamic: oath-bound-cooperation-shadowed-by-allegiance
-stress-pattern: shared-work-keeps-exposing-emotional-imbalance
-repair-condition: repair-requires-shared-risk-rather-than-strategic-distance
-exit-dynamic: altered-but-legible-bond
+entry-dynamic: professional-alliance-with-unequal-risk
+stress-pattern: cooperation-intensifies-rather-than-dissolves-contradiction
+repair-condition: repair-requires-naming-the-most-damaging-truth
+exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
 
 @motif-primary define
 motif: ash carrying unspoken names
-symbolic-function: carry-emotional-history-through-work-objects
+symbolic-function: make-system-control-materially-visible
 recurrence-rule: the motif should recur across opening, midpoint, and late consequence scenes with altered meaning
 
 @central-idea refine

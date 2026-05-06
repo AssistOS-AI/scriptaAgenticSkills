@@ -3,15 +3,19 @@ sequence-type: confrontation-chain
 link-logic: mixed
 chapter: $chapter-001
 objective: verify that the speaking ash is tied to the original family vow
-scene-chain: scene-001-01, scene-001-02, scene-001-03
+scene-chain: scene-001-01, scene-001-02, scene-001-03, scene-001-04, scene-001-05, scene-001-06
 carry-forward-pressure: each scene must inherit and intensify the previous unresolved pressure
 conflict-line: Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.
+supporting-cast: $character-support-001, $character-support-002, $character-support-003
+chapter-object: $plot-element-core-object
 payoff: Neris must face the possibility that exile protected her from knowing the truth
 
 @location-001-anchor define
 chapter: $chapter-001
 primary-setting: $location-primary
 secondary-setting: $location-secondary
+transit-setting: $location-tertiary-001
+chapter-object: $plot-element-core-object
 sensory-anchor: cedar smoke, warm soot under snowlight, bells muffled by volcanic dust
 social-signal: every greeting sounds half like welcome and half like ritual surveillance
 symbolic-charge: a homeland that records lineage in the same ash that settles on the living
@@ -34,7 +38,7 @@ exit-belief: some inheritances become just only when they are surrendered after 
 
 @arc-001-relationship map
 chapter: $chapter-001
-pair: $character-protagonist-001, $character-counterpart-001
+pair: $character-protagonist-001, $character-support-001
 entry-dynamic: productive-partnership-guarded-by-emotional-self-defense
 stress-line: Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.
 exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
@@ -55,7 +59,9 @@ development: Brother Caelan shows her a chronicle leaf spared from the furnace g
 conflict: Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.
 resolution: They descend toward the catacombs before Maeron can bind her publicly at dusk.
 exit: the next scene begins before the pressure can settle
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-001
+anchor-object: $plot-element-core-object
+support-focus: $character-support-001
 state-change: homecoming turns into a race against ritual succession
 
 @action-001-1 place
@@ -69,7 +75,7 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 @conflict-001-1 place
 scope: $scene-001-01
 type: external-society
-forces: $character-protagonist-001 versus $character-pressure-001
+forces: $character-protagonist-001 versus $character-support-001
 stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
 escalation: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
 
@@ -82,7 +88,7 @@ follow-through: Neris must face the possibility that exile protected her from kn
 
 @dialogue-turn-001-01-01 line
 scene: $scene-001-01
-speaker: $character-counterpart-001
+speaker: $character-support-001
 intent: deflect
 subtext: turns confession sideways to protect status and control
 line-hint: the ash names Neris's younger sister, long said to have died of fever
@@ -96,21 +102,39 @@ subtext: tries to protect the bond by narrowing the next available move
 line-hint: the ash names Neris's younger sister, long said to have died of fever
 reaction-beat: The warning narrows what can still be done safely.
 
+@dialogue-turn-001-01-03 line
+scene: $scene-001-01
+speaker: $character-support-002
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: the ash names Neris's younger sister, long said to have died of fever
+reaction-beat: The challenge strips politeness away from the scene.
+
+@dialogue-turn-001-01-04 line
+scene: $scene-001-01
+speaker: $character-pressure-001
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: the ash names Neris's younger sister, long said to have died of fever
+reaction-beat: The challenge strips politeness away from the scene.
+
 @scene-001-02 define
 chapter: $chapter-001
-showing-mode: dialogic
+showing-mode: introspective
 focalization: internal-shifting
-time-space: $location-primary
+time-space: $location-secondary
 introduction: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
 development: Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.
 conflict: Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.
 resolution: They descend toward the catacombs before Maeron can bind her publicly at dusk.
 exit: the next scene begins before the pressure can settle
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
+participants: $character-protagonist-001, $character-support-002, $character-support-003, $character-pressure-001
+anchor-object: $plot-element-secondary-001
+support-focus: $character-support-002
 state-change: homecoming turns into a race against ritual succession
 
 @action-001-2 place
-action-mode: attempt
+action-mode: pursuit
 scene: $scene-001-02
 actor: $character-protagonist-001
 goal: Neris must face the possibility that exile protected her from knowing the truth
@@ -119,72 +143,90 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-001-2 place
 scope: $scene-001-02
-type: external-society
+type: external-supernatural
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
 escalation: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
 
 @event-001-2 trigger
 scope: $scene-001-02
-event-type: discovery
+event-type: revelation
 trigger: the ash names Neris's younger sister, long said to have died of fever
 impact: family legend breaks open into accusation
 follow-through: Neris must face the possibility that exile protected her from knowing the truth
 
 @dialogue-turn-001-02-01 line
 scene: $scene-001-02
-speaker: $character-counterpart-001
-intent: commit
-subtext: makes risk sound practical enough to become a promise
-line-hint: Ash speaks the forbidden name
-reaction-beat: The promise raises the stakes for the next exchange.
-
-@dialogue-turn-001-02-02 line
-scene: $scene-001-02
-speaker: $character-protagonist-001
+speaker: $character-support-002
 intent: probe
 subtext: tests whether the other speaker can bear the unsoftened truth
 line-hint: Ash speaks the forbidden name
 reaction-beat: The question lands harder than either speaker planned.
 
+@dialogue-turn-001-02-02 line
+scene: $scene-001-02
+speaker: $character-protagonist-001
+intent: answer-honestly
+subtext: gives away more vulnerability than strategy intended
+line-hint: Ash speaks the forbidden name
+reaction-beat: The honesty changes the balance of power in the room.
+
+@dialogue-turn-001-02-03 line
+scene: $scene-001-02
+speaker: $character-support-003
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: Ash speaks the forbidden name
+reaction-beat: The question lands harder than either speaker planned.
+
+@dialogue-turn-001-02-04 line
+scene: $scene-001-02
+speaker: $character-pressure-001
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: Ash speaks the forbidden name
+reaction-beat: The warning narrows what can still be done safely.
+
 @scene-001-03 define
 chapter: $chapter-001
-showing-mode: direct-showing
+showing-mode: dialogic
 focalization: internal-shifting
-time-space: $location-primary
+time-space: $location-tertiary-001
 introduction: the ash names Neris's younger sister, long said to have died of fever
 development: family legend breaks open into accusation
 conflict: Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.
 resolution: They descend toward the catacombs before Maeron can bind her publicly at dusk.
-exit: the chapter hands off to a sharper setup consequence
-participants: $character-protagonist-001, $character-counterpart-001, $character-pressure-001
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-003
+anchor-object: $plot-element-core-object
+support-focus: $character-support-003
 state-change: homecoming turns into a race against ritual succession
 
 @action-001-3 place
-action-mode: evasion
+action-mode: pursuit
 scene: $scene-001-03
 actor: $character-protagonist-001
 goal: Ash speaks the forbidden name
 obstacle: the valley treats any doubt about the oath as treason against winter survival
-result: homecoming turns into a race against ritual succession
+result: the attempt reveals only part of the hidden structure and deepens the next demand
 
 @conflict-001-3 place
 scope: $scene-001-03
-type: external-supernatural
-forces: $character-protagonist-001 versus $character-pressure-001
+type: external-nature
+forces: $character-protagonist-001 versus $character-support-003
 stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
 escalation: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
 
 @event-001-3 trigger
 scope: $scene-001-03
-event-type: decision
+event-type: loss
 trigger: the ash names Neris's younger sister, long said to have died of fever
 impact: family legend breaks open into accusation
 follow-through: Neris must face the possibility that exile protected her from knowing the truth
 
 @dialogue-turn-001-03-01 line
 scene: $scene-001-03
-speaker: $character-counterpart-001
+speaker: $character-support-003
 intent: warn
 subtext: tries to protect the bond by narrowing the next available move
 line-hint: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
@@ -193,21 +235,244 @@ reaction-beat: The warning narrows what can still be done safely.
 @dialogue-turn-001-03-02 line
 scene: $scene-001-03
 speaker: $character-protagonist-001
+intent: reframe
+subtext: changes the moral meaning of what was just said
+line-hint: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+reaction-beat: The new framing makes the old position harder to keep.
+
+@dialogue-turn-001-03-03 line
+scene: $scene-001-03
+speaker: $character-support-001
+intent: deflect
+subtext: turns confession sideways to protect status and control
+line-hint: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+reaction-beat: The evasion makes the silence more visible than the answer would have.
+
+@dialogue-turn-001-03-04 line
+scene: $scene-001-03
+speaker: $character-pressure-001
+intent: commit
+subtext: makes risk sound practical enough to become a promise
+line-hint: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+reaction-beat: The promise raises the stakes for the next exchange.
+
+@scene-001-04 define
+chapter: $chapter-001
+showing-mode: direct-showing
+focalization: internal-shifting
+time-space: $location-primary
+introduction: Neris returns to the terrace as the oath-fires begin whispering the names of children no one admits were taken.
+development: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+conflict: Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.
+resolution: They descend toward the catacombs before Maeron can bind her publicly at dusk.
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-support-001, $character-support-002
+anchor-object: $plot-element-secondary-001
+support-focus: $character-support-001
+state-change: homecoming turns into a race against ritual succession
+
+@action-001-4 place
+action-mode: attempt
+scene: $scene-001-04
+actor: $character-protagonist-001
+goal: verify that the speaking ash is tied to the original family vow
+obstacle: the valley treats any doubt about the oath as treason against winter survival
+result: the attempt reveals only part of the hidden structure and deepens the next demand
+
+@conflict-001-4 place
+scope: $scene-001-04
+type: external-supernatural
+forces: $character-protagonist-001 versus $character-support-002
+stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
+escalation: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+
+@event-001-4 trigger
+scope: $scene-001-04
+event-type: betrayal
+trigger: the ash names Neris's younger sister, long said to have died of fever
+impact: family legend breaks open into accusation
+follow-through: Neris must face the possibility that exile protected her from knowing the truth
+
+@dialogue-turn-001-04-01 line
+scene: $scene-001-04
+speaker: $character-support-001
 intent: warn
 subtext: tries to protect the bond by narrowing the next available move
-line-hint: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+line-hint: the ash names Neris's younger sister, long said to have died of fever
 reaction-beat: The warning narrows what can still be done safely.
+
+@dialogue-turn-001-04-02 line
+scene: $scene-001-04
+speaker: $character-protagonist-001
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: the ash names Neris's younger sister, long said to have died of fever
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
+
+@dialogue-turn-001-04-03 line
+scene: $scene-001-04
+speaker: $character-support-002
+intent: answer-honestly
+subtext: gives away more vulnerability than strategy intended
+line-hint: the ash names Neris's younger sister, long said to have died of fever
+reaction-beat: The honesty changes the balance of power in the room.
+
+@dialogue-turn-001-04-04 line
+scene: $scene-001-04
+speaker: $character-pressure-001
+intent: answer-honestly
+subtext: gives away more vulnerability than strategy intended
+line-hint: the ash names Neris's younger sister, long said to have died of fever
+reaction-beat: The honesty changes the balance of power in the room.
+
+@scene-001-05 define
+chapter: $chapter-001
+showing-mode: dialogic
+focalization: internal-shifting
+time-space: $location-secondary
+introduction: Neris returns to the terrace as the oath-fires begin whispering the names of children no one admits were taken.
+development: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+conflict: Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.
+resolution: They descend toward the catacombs before Maeron can bind her publicly at dusk.
+exit: the next scene begins before the pressure can settle
+participants: $character-protagonist-001, $character-counterpart-001, $character-support-002, $character-pressure-001
+anchor-object: $plot-element-core-object
+support-focus: $character-support-002
+state-change: homecoming turns into a race against ritual succession
+
+@action-001-5 place
+action-mode: attempt
+scene: $scene-001-05
+actor: $character-protagonist-001
+goal: verify that the speaking ash is tied to the original family vow
+obstacle: the valley treats any doubt about the oath as treason against winter survival
+result: the attempt reveals only part of the hidden structure and deepens the next demand
+
+@conflict-001-5 place
+scope: $scene-001-05
+type: external-society
+forces: $character-protagonist-001 versus $character-pressure-001
+stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
+escalation: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+
+@event-001-5 trigger
+scope: $scene-001-05
+event-type: discovery
+trigger: the ash names Neris's younger sister, long said to have died of fever
+impact: family legend breaks open into accusation
+follow-through: Neris must face the possibility that exile protected her from knowing the truth
+
+@dialogue-turn-001-05-01 line
+scene: $scene-001-05
+speaker: $character-support-002
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: the ash names Neris's younger sister, long said to have died of fever
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
+
+@dialogue-turn-001-05-02 line
+scene: $scene-001-05
+speaker: $character-protagonist-001
+intent: tease-probe
+subtext: uses wit to test whether the wound can be named safely
+line-hint: the ash names Neris's younger sister, long said to have died of fever
+reaction-beat: The joke opens a bruise neither speaker can ignore now.
+
+@dialogue-turn-001-05-03 line
+scene: $scene-001-05
+speaker: $character-support-003
+intent: deflect
+subtext: turns confession sideways to protect status and control
+line-hint: the ash names Neris's younger sister, long said to have died of fever
+reaction-beat: The evasion makes the silence more visible than the answer would have.
+
+@dialogue-turn-001-05-04 line
+scene: $scene-001-05
+speaker: $character-pressure-001
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: the ash names Neris's younger sister, long said to have died of fever
+reaction-beat: The warning narrows what can still be done safely.
+
+@scene-001-06 define
+chapter: $chapter-001
+showing-mode: mixed
+focalization: internal-shifting
+time-space: $location-tertiary-001
+introduction: Neris returns to the terrace as the oath-fires begin whispering the names of children no one admits were taken.
+development: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+conflict: Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.
+resolution: They descend toward the catacombs before Maeron can bind her publicly at dusk.
+exit: the chapter hands off to a sharper setup consequence
+participants: $character-protagonist-001, $character-support-003, $character-support-001, $character-pressure-001
+anchor-object: $plot-element-secondary-001
+support-focus: $character-support-003
+state-change: homecoming turns into a race against ritual succession
+
+@action-001-6 place
+action-mode: negotiation
+scene: $scene-001-06
+actor: $character-protagonist-001
+goal: verify that the speaking ash is tied to the original family vow
+obstacle: the valley treats any doubt about the oath as treason against winter survival
+result: homecoming turns into a race against ritual succession
+
+@conflict-001-6 place
+scope: $scene-001-06
+type: mixed
+forces: $character-protagonist-001 versus $character-pressure-001
+stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
+escalation: Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+
+@event-001-6 trigger
+scope: $scene-001-06
+event-type: loss
+trigger: the ash names Neris's younger sister, long said to have died of fever
+impact: family legend breaks open into accusation
+follow-through: Neris must face the possibility that exile protected her from knowing the truth
+
+@dialogue-turn-001-06-01 line
+scene: $scene-001-06
+speaker: $character-support-003
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: the ash names Neris's younger sister, long said to have died of fever
+reaction-beat: The challenge strips politeness away from the scene.
+
+@dialogue-turn-001-06-02 line
+scene: $scene-001-06
+speaker: $character-protagonist-001
+intent: deflect
+subtext: turns confession sideways to protect status and control
+line-hint: the ash names Neris's younger sister, long said to have died of fever
+reaction-beat: The evasion makes the silence more visible than the answer would have.
+
+@dialogue-turn-001-06-03 line
+scene: $scene-001-06
+speaker: $character-support-001
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: the ash names Neris's younger sister, long said to have died of fever
+reaction-beat: The warning narrows what can still be done safely.
+
+@dialogue-turn-001-06-04 line
+scene: $scene-001-06
+speaker: $character-pressure-001
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: the ash names Neris's younger sister, long said to have died of fever
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @description-001-atmosphere apply
 scope: $chapter-001
 description-type: symbolic
 focus: a homeland that records lineage in the same ash that settles on the living
 function: symbolic
-rhythm-effect: contrast
+rhythm-effect: frame
 
 @dialogue-001-core apply
 scene: $scene-001-01
-speakers: $character-protagonist-001, $character-counterpart-001
+speakers: $character-protagonist-001, $character-counterpart-001, $character-support-001, $character-support-002
 exchange-type: conflictual
 purpose: tension
 subtext: Neris Vale and Neris Vale keep circling the truth they cannot safely name yet
@@ -219,7 +484,7 @@ function: organizational
 time-handling: mixed
 
 @interior-monologue-001-core apply
-scene: $scene-001-03
+scene: $scene-001-06
 character: $character-protagonist-001
 function: psychological-insight
 trigger: family legend breaks open into accusation
@@ -230,7 +495,7 @@ scope: $chapter-001
 suspense-type: situational
 uncertainty: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
 delay-technique: foreshadowing
-payoff-zone: event-001-3
+payoff-zone: event-001-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
 
 @pause-001-core hold
@@ -245,11 +510,11 @@ scope: $chapter-001
 acceleration-mode: summary-burst
 trigger: the ash names Neris's younger sister, long said to have died of fever
 reader-effect: compress time and force the next consequence to land without emotional escape
-target-zone: $scene-001-03
+target-zone: $scene-001-06
 
 @cliffhanger-001-exit cut
 scope: $chapter-001
-cliffhanger-type: danger
+cliffhanger-type: unresolved-confrontation
 cut-moment: the ash names Neris's younger sister, long said to have died of fever
 continuation-pressure: Neris must face the possibility that exile protected her from knowing the truth
 
@@ -325,6 +590,24 @@ validation-gate: no placeholder tokens may remain after refinement; if any survi
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
+@dialogue-turn-001-01-03 refine
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-line-hint:setup-0-2 -> the ash names Neris's younger sister, long said to have died of fever
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-01-04 refine
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:setup-0-3 -> the ash names Neris's younger sister, long said to have died of fever
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
 @scene-001-02 refine
 ref: scene-conflict:setup -> Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.
 ref: scene-resolution:setup-mid -> They descend toward the catacombs before Maeron can bind her publicly at dusk.
@@ -337,18 +620,36 @@ should: keep the magical cost visible in action and atmosphere
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-001-02-01 refine
-ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
 ref: dialogue-line-hint:setup-1-0 -> Ash speaks the forbidden name
-ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-001-02-02 refine
-ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
 ref: dialogue-line-hint:setup-1-1 -> Ash speaks the forbidden name
+ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-02-03 refine
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
 ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:setup-1-2 -> Ash speaks the forbidden name
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-02-04 refine
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:setup-1-3 -> Ash speaks the forbidden name
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
@@ -356,10 +657,10 @@ The refined artifact preserves identifier continuity so deterministic validation
 
 @scene-001-03 refine
 ref: scene-conflict:setup -> Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.
+ref: scene-resolution:setup-mid -> They descend toward the catacombs before Maeron can bind her publicly at dusk.
+ref: scene-state-change:setup-mid -> homecoming turns into a race against ritual succession
 ref: scene-introduction:setup-2 -> the ash names Neris's younger sister, long said to have died of fever
 ref: scene-development:setup-2 -> family legend breaks open into accusation
-ref: scene-resolution:setup-final -> They descend toward the catacombs before Maeron can bind her publicly at dusk.
-ref: scene-state-change:setup-final -> homecoming turns into a race against ritual succession
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the magical cost visible in action and atmosphere
@@ -375,9 +676,168 @@ should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-001-03-02 refine
+ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
+ref: dialogue-line-hint:setup-2-1 -> Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-03-03 refine
+ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
+ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
+ref: dialogue-line-hint:setup-2-2 -> Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-03-04 refine
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-line-hint:setup-2-3 -> Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@scene-001-04 refine
+ref: scene-conflict:setup -> Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.
+ref: scene-resolution:setup-mid -> They descend toward the catacombs before Maeron can bind her publicly at dusk.
+ref: scene-state-change:setup-mid -> homecoming turns into a race against ritual succession
+ref: scene-introduction:setup-3 -> Neris returns to the terrace as the oath-fires begin whispering the names of children no one admits were taken.
+ref: scene-development:setup-3 -> Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: keep the magical cost visible in action and atmosphere
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-04-01 refine
 ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
 ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
-ref: dialogue-line-hint:setup-2-1 -> Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+ref: dialogue-line-hint:setup-3-0 -> the ash names Neris's younger sister, long said to have died of fever
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-04-02 refine
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-line-hint:setup-3-1 -> the ash names Neris's younger sister, long said to have died of fever
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-04-03 refine
+ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
+ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
+ref: dialogue-line-hint:setup-3-2 -> the ash names Neris's younger sister, long said to have died of fever
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-04-04 refine
+ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
+ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
+ref: dialogue-line-hint:setup-3-3 -> the ash names Neris's younger sister, long said to have died of fever
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@scene-001-05 refine
+ref: scene-conflict:setup -> Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.
+ref: scene-resolution:setup-mid -> They descend toward the catacombs before Maeron can bind her publicly at dusk.
+ref: scene-state-change:setup-mid -> homecoming turns into a race against ritual succession
+ref: scene-introduction:setup-4 -> Neris returns to the terrace as the oath-fires begin whispering the names of children no one admits were taken.
+ref: scene-development:setup-4 -> Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: keep the magical cost visible in action and atmosphere
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-05-01 refine
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:setup-4-0 -> the ash names Neris's younger sister, long said to have died of fever
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-05-02 refine
+ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
+ref: dialogue-line-hint:setup-4-1 -> the ash names Neris's younger sister, long said to have died of fever
+ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-05-03 refine
+ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
+ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
+ref: dialogue-line-hint:setup-4-2 -> the ash names Neris's younger sister, long said to have died of fever
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-05-04 refine
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:setup-4-3 -> the ash names Neris's younger sister, long said to have died of fever
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@scene-001-06 refine
+ref: scene-conflict:setup -> Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.
+ref: scene-introduction:setup-5 -> Neris returns to the terrace as the oath-fires begin whispering the names of children no one admits were taken.
+ref: scene-development:setup-5 -> Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.
+ref: scene-resolution:setup-final -> They descend toward the catacombs before Maeron can bind her publicly at dusk.
+ref: scene-state-change:setup-final -> homecoming turns into a race against ritual succession
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: keep the magical cost visible in action and atmosphere
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-06-01 refine
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:setup-5-0 -> the ash names Neris's younger sister, long said to have died of fever
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-06-02 refine
+ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
+ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
+ref: dialogue-line-hint:setup-5-1 -> the ash names Neris's younger sister, long said to have died of fever
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-06-03 refine
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:setup-5-2 -> the ash names Neris's younger sister, long said to have died of fever
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the speech feel ritual, material, and costly at once
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@dialogue-turn-001-06-04 refine
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:setup-5-3 -> the ash names Neris's younger sister, long said to have died of fever
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once

@@ -1,15 +1,15 @@
 @plot-element-core-object define
-name: the erased council vote archive
+name: the erased vote lattice
 category: physical-object
-subtype: deadline
+subtype: prophecy
 function: revelation
 stakes: the station's political legitimacy, Elian's own complicity, and the residents' right to remember
-holders: Nacre Station Council, $character-pressure-001
-activation: the protagonist decodes the erased council vote archive near the midpoint
+holders: the Nacre station council, $character-pressure-001
+activation: the protagonist decodes the erased vote lattice near the midpoint
 payoff-zone: midpoint and final confrontation
 
 @plot-device-pressure-shift define
-device-type: flash-forward
+device-type: red-herring
 purpose: the narrative purpose of this plot-device chapter
 setup-zone: opening and first chapter
 payoff-zone: midpoint
@@ -62,6 +62,78 @@ social-signal: citizens come here to rehearse approved memories in carefully mod
 symbolic-charge: an engineered garden where recollection has become a civic utility
 conflict-use: intimacy keeps colliding with the fact that every remembered detail may be edited
 
+@location-tertiary-001 define
+name: Dockside Cooling Loop
+role: hidden pressure chamber
+sensory-anchor: magnetic vibration in the floor plates
+social-signal: movement is logged before motive can be stated
+symbolic-charge: public transit shaped like a circulatory lie
+conflict-use: technical access becomes moral trespass
+
+@location-tertiary-002 define
+name: Spoke Nine Transit Vein
+role: public consequence stage
+sensory-anchor: soft lattice hum below civic announcements
+social-signal: citizens speak like witnesses to an edited memory
+symbolic-charge: democracy stripped to a museum fragment
+conflict-use: the architecture converts delay into pacification
+
+@location-tertiary-003 define
+name: Mnemonic Orchard Spine
+role: hidden pressure chamber
+sensory-anchor: dustless seats and archived breath
+social-signal: the room was built to make dissent look accidental
+symbolic-charge: infrastructure carrying the station's hidden panic
+conflict-use: shared memory fails in the exact place everyone trusts most
+
+@location-tertiary-004 define
+name: The Quiet Vote Chamber
+role: public consequence stage
+sensory-anchor: frost against warm conduit glass
+social-signal: comfort has been engineered past the point of honesty
+symbolic-charge: the station trying to route unrest as if it were waste heat
+conflict-use: distance only sharpens the ethical cost
+
+@plot-element-secondary-001 define
+name: Nacre Vote Lattice
+category: document
+subtype: ledger
+function: pressure-amplifier
+stakes: it proves the station automated obedience through memory loss
+holders: the Nacre station council, $character-pressure-001
+activation: it begins broadcasting its own audit trail under load
+payoff-zone: midbook escalation and final exposure
+
+@plot-element-secondary-002 define
+name: Halo Recall Cylinder
+category: artifact
+subtype: seal
+function: proof-carrier
+stakes: it makes civic harmony read like managed coercion
+holders: the Nacre station council, $character-pressure-001
+activation: it ties the memory smoothing protocol to an old authorization signature
+payoff-zone: late revelation and aftermath
+
+@plot-element-secondary-003 define
+name: Dock Nine Archive Key
+category: token
+subtype: key
+function: pressure-amplifier
+stakes: it can restore one erased vote and unravel years of counterfeit consent
+holders: the Nacre station council, $character-pressure-001
+activation: it emerges from maintenance metadata no civilian was meant to inspect
+payoff-zone: midbook escalation and final exposure
+
+@plot-element-secondary-004 define
+name: Pacification Patch Core
+category: device
+subtype: recording
+function: proof-carrier
+stakes: it can return public memory faster than the council can erase it again
+holders: the Nacre station council, $character-pressure-001
+activation: it turns a technical anomaly into a constitutional breach
+payoff-zone: late revelation and aftermath
+
 @world-rule-primary refine
 ref: rule:world-primary -> The station's peace index allows the council to authorize memory smoothing whenever dissent crosses a quantified risk threshold.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
@@ -85,7 +157,6 @@ should: let system rules create action limits, not just background lore
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @location-primary refine
-ref: location:LOCATION_001 -> the mnemonic orchard ring
 ref: sensory-anchor:location-primary -> ionized citrus, coolant mist, glass leaves pulsing with archived light
 ref: social-signal:location-primary -> citizens come here to rehearse approved memories in carefully moderated quiet
 ref: symbolic-charge:location-primary -> an engineered garden where recollection has become a civic utility
@@ -96,11 +167,34 @@ should: make the setting engineered, tactile, and ethically revealing
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @location-secondary refine
-ref: location:LOCATION_002 -> the sealed archive airlock beneath Council Spoke Three
 ref: sensory-anchor:location-secondary -> ionized citrus, coolant mist, glass leaves pulsing with archived light
 ref: social-signal:location-secondary -> citizens come here to rehearse approved memories in carefully moderated quiet
 ref: symbolic-charge:location-secondary -> an engineered garden where recollection has become a civic utility
 ref: conflict-use:location-secondary -> intimacy keeps colliding with the fact that every remembered detail may be edited
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the setting engineered, tactile, and ethically revealing
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@location-tertiary-001 refine
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the setting engineered, tactile, and ethically revealing
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@location-tertiary-002 refine
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the setting engineered, tactile, and ethically revealing
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@location-tertiary-003 refine
+naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
+validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
+should: make the setting engineered, tactile, and ethically revealing
+The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
+
+@location-tertiary-004 refine
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the setting engineered, tactile, and ethically revealing

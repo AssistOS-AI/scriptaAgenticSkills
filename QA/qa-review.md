@@ -1004,7 +1004,7 @@ Consolidated QA review across all canonical books.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=67"
+          "evidence": "OI=66"
         },
         {
           "id": "task-002",
@@ -1036,7 +1036,7 @@ Consolidated QA review across all canonical books.
             "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 67,
+            "OI": 66,
             "EAP": 92
           }
         },
@@ -1052,7 +1052,7 @@ Consolidated QA review across all canonical books.
             "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 67,
+            "OI": 66,
             "EAP": 92
           }
         }
@@ -1189,7 +1189,7 @@ Consolidated QA review across all canonical books.
       "stage": "micro",
       "title": "Increase lexical novelty",
       "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-      "evidence": "OI=67"
+      "evidence": "OI=66"
     },
     {
       "bookId": "qa-scifi-orbit",
