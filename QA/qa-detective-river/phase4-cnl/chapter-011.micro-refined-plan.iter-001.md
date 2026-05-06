@@ -27,7 +27,7 @@ rule-reference: $world-rule-primary
 visible-symptom: logs are complete on paper but physically impossible when matched against the river timing
 action-limitation: Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
 conflict-output: every lawful request alerts the people most interested in erasing the answer
-reveal-pattern: show-consequence-first-explain-cause-later
+reveal-pattern: show-exception-to-reveal-rule
 
 @arc-011-protagonist map
 chapter: $chapter-011
@@ -39,7 +39,7 @@ exit-belief: evidence survives only when someone refuses the procedure designed 
 @arc-011-relationship map
 chapter: $chapter-011
 pair: $character-protagonist-001, $character-support-001
-entry-dynamic: oath-bound-cooperation-shadowed-by-allegiance
+entry-dynamic: professional-alliance-with-unequal-risk
 stress-line: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 exit-dynamic: altered-but-legible-bond
 
@@ -51,7 +51,7 @@ anti-flatness-rule: do not chain action summaries without dialogue, atmosphere, 
 
 @scene-011-01 define
 chapter: $chapter-011
-showing-mode: introspective
+showing-mode: dialogic
 focalization: internal-single
 time-space: $location-tertiary-003
 introduction: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
@@ -65,7 +65,7 @@ support-focus: $character-support-001
 state-change: the case survives because the institution loses control of its own narrative
 
 @action-011-1 place
-action-mode: attempt
+action-mode: revelation-act
 scene: $scene-011-01
 actor: $character-protagonist-001
 goal: move the evidence faster than the suspension order
@@ -74,14 +74,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-011-1 place
 scope: $scene-011-01
-type: external-society
+type: mixed
 forces: $character-protagonist-001 versus $character-support-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 escalation: Theo streams the room live while officers realize the cover-up reaches beyond one report.
 
 @event-011-1 trigger
 scope: $scene-011-01
-event-type: discovery
+event-type: accident
 trigger: the footage freezes on Soren entering the lock corridor minutes after the murder
 impact: command authority becomes visible complicity
 follow-through: the victim finally receives a case worthy of the facts
@@ -91,36 +91,36 @@ scene: $scene-011-01
 speaker: $character-support-001
 intent: probe
 subtext: tests whether the other speaker can bear the unsoftened truth
-line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
+line-hint: a hint for the dialogue line
 reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-011-01-02 line
 scene: $scene-011-01
 speaker: $character-protagonist-001
-intent: probe
-subtext: tests whether the other speaker can bear the unsoftened truth
+intent: commit
+subtext: makes risk sound practical enough to become a promise
 line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
-reaction-beat: The question lands harder than either speaker planned.
+reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-011-01-03 line
 scene: $scene-011-01
 speaker: $character-support-002
 intent: name-risk
 subtext: speaks the consequence both speakers hoped could stay implied
-line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
+line-hint: a hint for the dialogue line
 reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @dialogue-turn-011-01-04 line
 scene: $scene-011-01
 speaker: $character-pressure-001
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
+intent: deflect
+subtext: turns confession sideways to protect status and control
 line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
-reaction-beat: The honesty changes the balance of power in the room.
+reaction-beat: The evasion makes the silence more visible than the answer would have.
 
 @scene-011-02 define
 chapter: $chapter-011
-showing-mode: dialogic
+showing-mode: compressed-showing
 focalization: internal-single
 time-space: $location-tertiary-004
 introduction: Theo streams the room live while officers realize the cover-up reaches beyond one report.
@@ -134,7 +134,7 @@ support-focus: $character-support-002
 state-change: the case survives because the institution loses control of its own narrative
 
 @action-011-2 place
-action-mode: attempt
+action-mode: revelation-act
 scene: $scene-011-02
 actor: $character-protagonist-001
 goal: the victim finally receives a case worthy of the facts
@@ -143,14 +143,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-011-2 place
 scope: $scene-011-02
-type: mixed
+type: external-technology
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 escalation: Theo streams the room live while officers realize the cover-up reaches beyond one report.
 
 @event-011-2 trigger
 scope: $scene-011-02
-event-type: arrival
+event-type: deadline
 trigger: the footage freezes on Soren entering the lock corridor minutes after the murder
 impact: command authority becomes visible complicity
 follow-through: the victim finally receives a case worthy of the facts
@@ -158,10 +158,10 @@ follow-through: the victim finally receives a case worthy of the facts
 @dialogue-turn-011-02-01 line
 scene: $scene-011-02
 speaker: $character-support-002
-intent: commit
-subtext: makes risk sound practical enough to become a promise
-line-hint: Briefing room breach
-reaction-beat: The promise raises the stakes for the next exchange.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-011-02-02 line
 scene: $scene-011-02
@@ -176,20 +176,20 @@ scene: $scene-011-02
 speaker: $character-support-003
 intent: warn
 subtext: tries to protect the bond by narrowing the next available move
-line-hint: Briefing room breach
+line-hint: a hint for the dialogue line
 reaction-beat: The warning narrows what can still be done safely.
 
 @dialogue-turn-011-02-04 line
 scene: $scene-011-02
 speaker: $character-pressure-001
-intent: name-risk
-subtext: speaks the consequence both speakers hoped could stay implied
+intent: deflect
+subtext: turns confession sideways to protect status and control
 line-hint: Briefing room breach
-reaction-beat: Naming the risk turns pressure into irreversible commitment.
+reaction-beat: The evasion makes the silence more visible than the answer would have.
 
 @scene-011-03 define
 chapter: $chapter-011
-showing-mode: dialogic
+showing-mode: compressed-showing
 focalization: internal-single
 time-space: $location-primary
 introduction: the footage freezes on Soren entering the lock corridor minutes after the murder
@@ -203,7 +203,7 @@ support-focus: $character-support-003
 state-change: the case survives because the institution loses control of its own narrative
 
 @action-011-3 place
-action-mode: attempt
+action-mode: pursuit
 scene: $scene-011-03
 actor: $character-protagonist-001
 goal: Briefing room breach
@@ -212,7 +212,7 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-011-3 place
 scope: $scene-011-03
-type: mixed
+type: external-society
 forces: $character-protagonist-001 versus $character-support-003
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 escalation: Theo streams the room live while officers realize the cover-up reaches beyond one report.
@@ -227,38 +227,38 @@ follow-through: the victim finally receives a case worthy of the facts
 @dialogue-turn-011-03-01 line
 scene: $scene-011-03
 speaker: $character-support-003
-intent: tease-probe
-subtext: uses wit to test whether the wound can be named safely
-line-hint: Theo streams the room live while officers realize the cover-up reaches beyond one report.
-reaction-beat: The joke opens a bruise neither speaker can ignore now.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-011-03-02 line
 scene: $scene-011-03
 speaker: $character-protagonist-001
-intent: warn
-subtext: tries to protect the bond by narrowing the next available move
+intent: commit
+subtext: makes risk sound practical enough to become a promise
 line-hint: Theo streams the room live while officers realize the cover-up reaches beyond one report.
-reaction-beat: The warning narrows what can still be done safely.
+reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-011-03-03 line
 scene: $scene-011-03
 speaker: $character-support-001
-intent: warn
-subtext: tries to protect the bond by narrowing the next available move
-line-hint: Theo streams the room live while officers realize the cover-up reaches beyond one report.
-reaction-beat: The warning narrows what can still be done safely.
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: a hint for the dialogue line
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @dialogue-turn-011-03-04 line
 scene: $scene-011-03
 speaker: $character-pressure-001
-intent: name-risk
-subtext: speaks the consequence both speakers hoped could stay implied
+intent: deflect
+subtext: turns confession sideways to protect status and control
 line-hint: Theo streams the room live while officers realize the cover-up reaches beyond one report.
-reaction-beat: Naming the risk turns pressure into irreversible commitment.
+reaction-beat: The evasion makes the silence more visible than the answer would have.
 
 @scene-011-04 define
 chapter: $chapter-011
-showing-mode: mixed
+showing-mode: dialogic
 focalization: internal-single
 time-space: $location-tertiary-003
 introduction: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
@@ -272,7 +272,7 @@ support-focus: $character-support-001
 state-change: the case survives because the institution loses control of its own narrative
 
 @action-011-4 place
-action-mode: pursuit
+action-mode: negotiation
 scene: $scene-011-04
 actor: $character-protagonist-001
 goal: move the evidence faster than the suspension order
@@ -281,14 +281,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-011-4 place
 scope: $scene-011-04
-type: mixed
+type: internal
 forces: $character-protagonist-001 versus $character-support-002
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 escalation: Theo streams the room live while officers realize the cover-up reaches beyond one report.
 
 @event-011-4 trigger
 scope: $scene-011-04
-event-type: loss
+event-type: accident
 trigger: the footage freezes on Soren entering the lock corridor minutes after the murder
 impact: command authority becomes visible complicity
 follow-through: the victim finally receives a case worthy of the facts
@@ -296,26 +296,26 @@ follow-through: the victim finally receives a case worthy of the facts
 @dialogue-turn-011-04-01 line
 scene: $scene-011-04
 speaker: $character-support-001
-intent: deflect
-subtext: turns confession sideways to protect status and control
-line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
-reaction-beat: The evasion makes the silence more visible than the answer would have.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-011-04-02 line
 scene: $scene-011-04
 speaker: $character-protagonist-001
-intent: reframe
-subtext: changes the moral meaning of what was just said
-line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
-reaction-beat: The new framing makes the old position harder to keep.
-
-@dialogue-turn-011-04-03 line
-scene: $scene-011-04
-speaker: $character-support-002
 intent: commit
 subtext: makes risk sound practical enough to become a promise
 line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
 reaction-beat: The promise raises the stakes for the next exchange.
+
+@dialogue-turn-011-04-03 line
+scene: $scene-011-04
+speaker: $character-support-002
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: a hint for the dialogue line
+reaction-beat: The warning narrows what can still be done safely.
 
 @dialogue-turn-011-04-04 line
 scene: $scene-011-04
@@ -327,7 +327,7 @@ reaction-beat: The evasion makes the silence more visible than the answer would 
 
 @scene-011-05 define
 chapter: $chapter-011
-showing-mode: mixed
+showing-mode: direct-showing
 focalization: internal-single
 time-space: $location-tertiary-004
 introduction: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
@@ -341,7 +341,7 @@ support-focus: $character-support-002
 state-change: the case survives because the institution loses control of its own narrative
 
 @action-011-5 place
-action-mode: negotiation
+action-mode: revelation-act
 scene: $scene-011-05
 actor: $character-protagonist-001
 goal: move the evidence faster than the suspension order
@@ -350,14 +350,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-011-5 place
 scope: $scene-011-05
-type: internal
+type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 escalation: Theo streams the room live while officers realize the cover-up reaches beyond one report.
 
 @event-011-5 trigger
 scope: $scene-011-05
-event-type: discovery
+event-type: reversal
 trigger: the footage freezes on Soren entering the lock corridor minutes after the murder
 impact: command authority becomes visible complicity
 follow-through: the victim finally receives a case worthy of the facts
@@ -365,38 +365,38 @@ follow-through: the victim finally receives a case worthy of the facts
 @dialogue-turn-011-05-01 line
 scene: $scene-011-05
 speaker: $character-support-002
-intent: tease-probe
-subtext: uses wit to test whether the wound can be named safely
-line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
-reaction-beat: The joke opens a bruise neither speaker can ignore now.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-011-05-02 line
 scene: $scene-011-05
 speaker: $character-protagonist-001
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
+intent: commit
+subtext: makes risk sound practical enough to become a promise
 line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
-reaction-beat: The honesty changes the balance of power in the room.
+reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-011-05-03 line
 scene: $scene-011-05
 speaker: $character-support-003
-intent: warn
-subtext: tries to protect the bond by narrowing the next available move
-line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
-reaction-beat: The warning narrows what can still be done safely.
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: a hint for the dialogue line
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @dialogue-turn-011-05-04 line
 scene: $scene-011-05
 speaker: $character-pressure-001
-intent: challenge
-subtext: refuses the easier story and forces the pressure into view
+intent: deflect
+subtext: turns confession sideways to protect status and control
 line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
-reaction-beat: The challenge strips politeness away from the scene.
+reaction-beat: The evasion makes the silence more visible than the answer would have.
 
 @scene-011-06 define
 chapter: $chapter-011
-showing-mode: mixed
+showing-mode: introspective
 focalization: internal-single
 time-space: $location-primary
 introduction: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
@@ -410,7 +410,7 @@ support-focus: $character-support-003
 state-change: the case survives because the institution loses control of its own narrative
 
 @action-011-6 place
-action-mode: revelation-act
+action-mode: pursuit
 scene: $scene-011-06
 actor: $character-protagonist-001
 goal: move the evidence faster than the suspension order
@@ -419,14 +419,14 @@ result: the case survives because the institution loses control of its own narra
 
 @conflict-011-6 place
 scope: $scene-011-06
-type: mixed
+type: external-technology
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 escalation: Theo streams the room live while officers realize the cover-up reaches beyond one report.
 
 @event-011-6 trigger
 scope: $scene-011-06
-event-type: reversal
+event-type: accident
 trigger: the footage freezes on Soren entering the lock corridor minutes after the murder
 impact: command authority becomes visible complicity
 follow-through: the victim finally receives a case worthy of the facts
@@ -434,41 +434,41 @@ follow-through: the victim finally receives a case worthy of the facts
 @dialogue-turn-011-06-01 line
 scene: $scene-011-06
 speaker: $character-support-003
-intent: tease-probe
-subtext: uses wit to test whether the wound can be named safely
-line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
-reaction-beat: The joke opens a bruise neither speaker can ignore now.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-011-06-02 line
 scene: $scene-011-06
 speaker: $character-protagonist-001
-intent: deflect
-subtext: turns confession sideways to protect status and control
+intent: commit
+subtext: makes risk sound practical enough to become a promise
 line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
-reaction-beat: The evasion makes the silence more visible than the answer would have.
+reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-011-06-03 line
 scene: $scene-011-06
 speaker: $character-support-001
-intent: deflect
-subtext: turns confession sideways to protect status and control
-line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
-reaction-beat: The evasion makes the silence more visible than the answer would have.
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: a hint for the dialogue line
+reaction-beat: The warning narrows what can still be done safely.
 
 @dialogue-turn-011-06-04 line
 scene: $scene-011-06
 speaker: $character-pressure-001
-intent: challenge
-subtext: refuses the easier story and forces the pressure into view
+intent: deflect
+subtext: turns confession sideways to protect status and control
 line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
-reaction-beat: The challenge strips politeness away from the scene.
+reaction-beat: The evasion makes the silence more visible than the answer would have.
 
 @description-011-atmosphere apply
 scope: $chapter-011
 description-type: setting
 focus: a warehouse where facts are stored just long enough to be reassigned
 function: narrative
-rhythm-effect: slow
+rhythm-effect: hold
 
 @dialogue-011-core apply
 scene: $scene-011-01
@@ -514,7 +514,7 @@ target-zone: $scene-011-06
 
 @cliffhanger-011-exit cut
 scope: $chapter-011
-cliffhanger-type: critical-decision
+cliffhanger-type: danger
 cut-moment: the footage freezes on Soren entering the lock corridor minutes after the murder
 continuation-pressure: the victim finally receives a case worthy of the facts
 
@@ -575,16 +575,16 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-011-01-01 refine
 ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
 ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
-ref: dialogue-line-hint:culmination-0-0 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-line-hint:culmination-support-0-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-01-02 refine
-ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
-ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
-ref: dialogue-line-hint:culmination-0-1 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:culmination-protagonist-0-1 -> the footage freezes on Soren entering the lock corridor minutes after the murder
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -593,16 +593,16 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-011-01-03 refine
 ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
 ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
-ref: dialogue-line-hint:culmination-0-2 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-line-hint:culmination-support-0-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-01-04 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:culmination-0-3 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
+ref: dialogue-line-hint:culmination-pressure-0-3 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -620,9 +620,9 @@ should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-02-01 refine
-ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
-ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:culmination-1-0 -> Briefing room breach
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:culmination-support-1-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -631,7 +631,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-011-02-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:culmination-1-1 -> Briefing room breach
+ref: dialogue-line-hint:culmination-protagonist-1-1 -> Briefing room breach
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -640,16 +640,16 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-011-02-03 refine
 ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
 ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
-ref: dialogue-line-hint:culmination-1-2 -> Briefing room breach
+ref: dialogue-line-hint:culmination-support-1-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-02-04 refine
-ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
-ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
-ref: dialogue-line-hint:culmination-1-3 -> Briefing room breach
+ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
+ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
+ref: dialogue-line-hint:culmination-pressure-1-3 -> Briefing room breach
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -667,36 +667,36 @@ should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-03-01 refine
-ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
-ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:culmination-2-0 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:culmination-support-2-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-03-02 refine
-ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
-ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
-ref: dialogue-line-hint:culmination-2-1 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:culmination-protagonist-2-1 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-03-03 refine
-ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
-ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
-ref: dialogue-line-hint:culmination-2-2 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:culmination-support-2-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-03-04 refine
-ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
-ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
-ref: dialogue-line-hint:culmination-2-3 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
+ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
+ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
+ref: dialogue-line-hint:culmination-pressure-2-3 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -714,27 +714,27 @@ should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-04-01 refine
-ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
-ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:culmination-3-0 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:culmination-support-3-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-04-02 refine
-ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
-ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
-ref: dialogue-line-hint:culmination-3-1 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:culmination-protagonist-3-1 -> the footage freezes on Soren entering the lock corridor minutes after the murder
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-04-03 refine
-ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
-ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:culmination-3-2 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:culmination-support-3-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -743,7 +743,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-011-04-04 refine
 ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
 ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:culmination-3-3 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-line-hint:culmination-pressure-3-3 -> the footage freezes on Soren entering the lock corridor minutes after the murder
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -761,36 +761,36 @@ should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-05-01 refine
-ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
-ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:culmination-4-0 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:culmination-support-4-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-05-02 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:culmination-4-1 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:culmination-protagonist-4-1 -> the footage freezes on Soren entering the lock corridor minutes after the murder
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-05-03 refine
-ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
-ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
-ref: dialogue-line-hint:culmination-4-2 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:culmination-support-4-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-05-04 refine
-ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
-ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:culmination-4-3 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
+ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
+ref: dialogue-line-hint:culmination-pressure-4-3 -> the footage freezes on Soren entering the lock corridor minutes after the murder
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -808,36 +808,36 @@ should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-06-01 refine
-ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
-ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:culmination-5-0 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:culmination-support-5-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-06-02 refine
-ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
-ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:culmination-5-1 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:culmination-protagonist-5-1 -> the footage freezes on Soren entering the lock corridor minutes after the murder
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-06-03 refine
-ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
-ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:culmination-5-2 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:culmination-support-5-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-011-06-04 refine
-ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
-ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:culmination-5-3 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
+ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
+ref: dialogue-line-hint:culmination-pressure-5-3 -> the footage freezes on Soren entering the lock corridor minutes after the murder
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath

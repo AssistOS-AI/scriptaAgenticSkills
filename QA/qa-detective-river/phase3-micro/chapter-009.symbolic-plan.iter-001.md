@@ -39,9 +39,9 @@ exit-belief: {{exit-belief:protagonist}} after the bridge chapter
 @arc-009-relationship map
 chapter: $chapter-009
 pair: $character-protagonist-001, $character-support-004
-entry-dynamic: professional-alliance-with-unequal-risk
+entry-dynamic: careful-cooperation-strained-by-withheld-history
 stress-line: {{relationship-stress:bridge}}
-exit-dynamic: solidarity-forged-through-contested-truth
+exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
 
 @alternation-009-core arrange
 chapter: $chapter-009
@@ -51,7 +51,7 @@ anti-flatness-rule: do not chain action summaries without dialogue, atmosphere, 
 
 @scene-009-01 define
 chapter: $chapter-009
-showing-mode: direct-showing
+showing-mode: compressed-showing
 focalization: internal-single
 time-space: $location-tertiary-001
 introduction: {{scene-introduction:bridge-0}}
@@ -65,7 +65,7 @@ support-focus: $character-support-004
 state-change: {{scene-state-change:bridge-mid}}
 
 @action-009-1 place
-action-mode: evasion
+action-mode: pursuit
 scene: $scene-009-01
 actor: $character-protagonist-001
 goal: {{action-goal:bridge-0}}
@@ -74,14 +74,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-009-1 place
 scope: $scene-009-01
-type: external-character
+type: external-society
 forces: $character-protagonist-001 versus $character-support-004
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:bridge}}
 
 @event-009-1 trigger
 scope: $scene-009-01
-event-type: revelation
+event-type: decision
 trigger: {{event-trigger:bridge-mid}}
 impact: {{event-impact:bridge}}
 follow-through: {{event-follow-through:bridge-mid}}
@@ -89,38 +89,38 @@ follow-through: {{event-follow-through:bridge-mid}}
 @dialogue-turn-009-01-01 line
 scene: $scene-009-01
 speaker: $character-support-004
-intent: challenge
-subtext: {{dialogue-subtext:challenge}}
-line-hint: {{dialogue-line-hint:bridge-0-0}}
-reaction-beat: {{dialogue-reaction:challenge}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:bridge-support-0-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-009-01-02 line
 scene: $scene-009-01
 speaker: $character-protagonist-001
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:bridge-0-1}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:bridge-protagonist-0-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-009-01-03 line
 scene: $scene-009-01
 speaker: $character-support-005
-intent: probe
-subtext: {{dialogue-subtext:probe}}
-line-hint: {{dialogue-line-hint:bridge-0-2}}
-reaction-beat: {{dialogue-reaction:probe}}
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
+line-hint: {{dialogue-line-hint:bridge-support-0-2}}
+reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-009-01-04 line
 scene: $scene-009-01
 speaker: $character-pressure-001
-intent: name-risk
-subtext: {{dialogue-subtext:name-risk}}
-line-hint: {{dialogue-line-hint:bridge-0-3}}
-reaction-beat: {{dialogue-reaction:name-risk}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:bridge-pressure-0-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-009-02 define
 chapter: $chapter-009
-showing-mode: introspective
+showing-mode: dialogic
 focalization: internal-single
 time-space: $location-tertiary-002
 introduction: {{scene-introduction:bridge-1}}
@@ -134,7 +134,7 @@ support-focus: $character-support-005
 state-change: {{scene-state-change:bridge-mid}}
 
 @action-009-2 place
-action-mode: pursuit
+action-mode: sacrifice
 scene: $scene-009-02
 actor: $character-protagonist-001
 goal: {{action-goal:bridge-1}}
@@ -143,14 +143,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-009-2 place
 scope: $scene-009-02
-type: external-society
+type: external-supernatural
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:bridge}}
 
 @event-009-2 trigger
 scope: $scene-009-02
-event-type: revelation
+event-type: discovery
 trigger: {{event-trigger:bridge-mid}}
 impact: {{event-impact:bridge}}
 follow-through: {{event-follow-through:bridge-mid}}
@@ -158,34 +158,34 @@ follow-through: {{event-follow-through:bridge-mid}}
 @dialogue-turn-009-02-01 line
 scene: $scene-009-02
 speaker: $character-support-005
-intent: warn
-subtext: {{dialogue-subtext:warn}}
-line-hint: {{dialogue-line-hint:bridge-1-0}}
-reaction-beat: {{dialogue-reaction:warn}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:bridge-support-1-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-009-02-02 line
 scene: $scene-009-02
 speaker: $character-protagonist-001
-intent: warn
-subtext: {{dialogue-subtext:warn}}
-line-hint: {{dialogue-line-hint:bridge-1-1}}
-reaction-beat: {{dialogue-reaction:warn}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:bridge-protagonist-1-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-009-02-03 line
 scene: $scene-009-02
 speaker: $character-support-001
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:bridge-1-2}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:bridge-support-1-2}}
+reaction-beat: {{dialogue-reaction:warn}}
 
 @dialogue-turn-009-02-04 line
 scene: $scene-009-02
 speaker: $character-pressure-001
-intent: tease-probe
-subtext: {{dialogue-subtext:tease-probe}}
-line-hint: {{dialogue-line-hint:bridge-1-3}}
-reaction-beat: {{dialogue-reaction:tease-probe}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:bridge-pressure-1-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-009-03 define
 chapter: $chapter-009
@@ -203,7 +203,7 @@ support-focus: $character-support-001
 state-change: {{scene-state-change:bridge-mid}}
 
 @action-009-3 place
-action-mode: pursuit
+action-mode: negotiation
 scene: $scene-009-03
 actor: $character-protagonist-001
 goal: {{action-goal:bridge-2}}
@@ -212,14 +212,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-009-3 place
 scope: $scene-009-03
-type: external-supernatural
+type: external-technology
 forces: $character-protagonist-001 versus $character-support-001
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:bridge}}
 
 @event-009-3 trigger
 scope: $scene-009-03
-event-type: deadline
+event-type: crime
 trigger: {{event-trigger:bridge-mid}}
 impact: {{event-impact:bridge}}
 follow-through: {{event-follow-through:bridge-mid}}
@@ -227,38 +227,38 @@ follow-through: {{event-follow-through:bridge-mid}}
 @dialogue-turn-009-03-01 line
 scene: $scene-009-03
 speaker: $character-support-001
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:bridge-2-0}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:bridge-support-2-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-009-03-02 line
 scene: $scene-009-03
 speaker: $character-protagonist-001
-intent: reframe
-subtext: {{dialogue-subtext:reframe}}
-line-hint: {{dialogue-line-hint:bridge-2-1}}
-reaction-beat: {{dialogue-reaction:reframe}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:bridge-protagonist-2-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-009-03-03 line
 scene: $scene-009-03
 speaker: $character-support-004
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:bridge-2-2}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
+line-hint: {{dialogue-line-hint:bridge-support-2-2}}
+reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-009-03-04 line
 scene: $scene-009-03
 speaker: $character-pressure-001
-intent: name-risk
-subtext: {{dialogue-subtext:name-risk}}
-line-hint: {{dialogue-line-hint:bridge-2-3}}
-reaction-beat: {{dialogue-reaction:name-risk}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:bridge-pressure-2-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-009-04 define
 chapter: $chapter-009
-showing-mode: direct-showing
+showing-mode: compressed-showing
 focalization: internal-single
 time-space: $location-tertiary-001
 introduction: {{scene-introduction:bridge-3}}
@@ -272,7 +272,7 @@ support-focus: $character-support-004
 state-change: {{scene-state-change:bridge-mid}}
 
 @action-009-4 place
-action-mode: attempt
+action-mode: negotiation
 scene: $scene-009-04
 actor: $character-protagonist-001
 goal: {{action-goal:bridge-3}}
@@ -281,14 +281,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-009-4 place
 scope: $scene-009-04
-type: external-character
+type: external-supernatural
 forces: $character-protagonist-001 versus $character-support-005
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:bridge}}
 
 @event-009-4 trigger
 scope: $scene-009-04
-event-type: deadline
+event-type: reversal
 trigger: {{event-trigger:bridge-mid}}
 impact: {{event-impact:bridge}}
 follow-through: {{event-follow-through:bridge-mid}}
@@ -296,38 +296,38 @@ follow-through: {{event-follow-through:bridge-mid}}
 @dialogue-turn-009-04-01 line
 scene: $scene-009-04
 speaker: $character-support-004
-intent: name-risk
-subtext: {{dialogue-subtext:name-risk}}
-line-hint: {{dialogue-line-hint:bridge-3-0}}
-reaction-beat: {{dialogue-reaction:name-risk}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:bridge-support-3-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-009-04-02 line
 scene: $scene-009-04
 speaker: $character-protagonist-001
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:bridge-3-1}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:bridge-protagonist-3-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-009-04-03 line
 scene: $scene-009-04
 speaker: $character-support-005
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:bridge-3-2}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:bridge-support-3-2}}
+reaction-beat: {{dialogue-reaction:warn}}
 
 @dialogue-turn-009-04-04 line
 scene: $scene-009-04
 speaker: $character-pressure-001
-intent: tease-probe
-subtext: {{dialogue-subtext:tease-probe}}
-line-hint: {{dialogue-line-hint:bridge-3-3}}
-reaction-beat: {{dialogue-reaction:tease-probe}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:bridge-pressure-3-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-009-05 define
 chapter: $chapter-009
-showing-mode: dialogic
+showing-mode: introspective
 focalization: internal-single
 time-space: $location-tertiary-002
 introduction: {{scene-introduction:bridge-4}}
@@ -341,7 +341,7 @@ support-focus: $character-support-005
 state-change: {{scene-state-change:bridge-mid}}
 
 @action-009-5 place
-action-mode: revelation-act
+action-mode: pursuit
 scene: $scene-009-05
 actor: $character-protagonist-001
 goal: {{action-goal:bridge-4}}
@@ -350,14 +350,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-009-5 place
 scope: $scene-009-05
-type: external-nature
+type: external-character
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:bridge}}
 
 @event-009-5 trigger
 scope: $scene-009-05
-event-type: accident
+event-type: crime
 trigger: {{event-trigger:bridge-mid}}
 impact: {{event-impact:bridge}}
 follow-through: {{event-follow-through:bridge-mid}}
@@ -365,17 +365,17 @@ follow-through: {{event-follow-through:bridge-mid}}
 @dialogue-turn-009-05-01 line
 scene: $scene-009-05
 speaker: $character-support-005
-intent: tease-probe
-subtext: {{dialogue-subtext:tease-probe}}
-line-hint: {{dialogue-line-hint:bridge-4-0}}
-reaction-beat: {{dialogue-reaction:tease-probe}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:bridge-support-4-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-009-05-02 line
 scene: $scene-009-05
 speaker: $character-protagonist-001
 intent: commit
 subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:bridge-4-1}}
+line-hint: {{dialogue-line-hint:bridge-protagonist-4-1}}
 reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-009-05-03 line
@@ -383,20 +383,20 @@ scene: $scene-009-05
 speaker: $character-support-001
 intent: name-risk
 subtext: {{dialogue-subtext:name-risk}}
-line-hint: {{dialogue-line-hint:bridge-4-2}}
+line-hint: {{dialogue-line-hint:bridge-support-4-2}}
 reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-009-05-04 line
 scene: $scene-009-05
 speaker: $character-pressure-001
-intent: probe
-subtext: {{dialogue-subtext:probe}}
-line-hint: {{dialogue-line-hint:bridge-4-3}}
-reaction-beat: {{dialogue-reaction:probe}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:bridge-pressure-4-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-009-06 define
 chapter: $chapter-009
-showing-mode: direct-showing
+showing-mode: dialogic
 focalization: internal-single
 time-space: $location-tertiary-003
 introduction: {{scene-introduction:bridge-5}}
@@ -410,7 +410,7 @@ support-focus: $character-support-001
 state-change: {{scene-state-change:bridge-final}}
 
 @action-009-6 place
-action-mode: evasion
+action-mode: sacrifice
 scene: $scene-009-06
 actor: $character-protagonist-001
 goal: {{action-goal:bridge-5}}
@@ -426,7 +426,7 @@ escalation: {{conflict-escalation:bridge}}
 
 @event-009-6 trigger
 scope: $scene-009-06
-event-type: deadline
+event-type: discovery
 trigger: {{event-trigger:bridge-final}}
 impact: {{event-impact:bridge}}
 follow-through: {{event-follow-through:bridge-final}}
@@ -434,41 +434,41 @@ follow-through: {{event-follow-through:bridge-final}}
 @dialogue-turn-009-06-01 line
 scene: $scene-009-06
 speaker: $character-support-001
-intent: tease-probe
-subtext: {{dialogue-subtext:tease-probe}}
-line-hint: {{dialogue-line-hint:bridge-5-0}}
-reaction-beat: {{dialogue-reaction:tease-probe}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:bridge-support-5-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-009-06-02 line
 scene: $scene-009-06
 speaker: $character-protagonist-001
-intent: warn
-subtext: {{dialogue-subtext:warn}}
-line-hint: {{dialogue-line-hint:bridge-5-1}}
-reaction-beat: {{dialogue-reaction:warn}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:bridge-protagonist-5-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-009-06-03 line
 scene: $scene-009-06
 speaker: $character-support-004
-intent: challenge
-subtext: {{dialogue-subtext:challenge}}
-line-hint: {{dialogue-line-hint:bridge-5-2}}
-reaction-beat: {{dialogue-reaction:challenge}}
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:bridge-support-5-2}}
+reaction-beat: {{dialogue-reaction:warn}}
 
 @dialogue-turn-009-06-04 line
 scene: $scene-009-06
 speaker: $character-pressure-001
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:bridge-5-3}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:bridge-pressure-5-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @description-009-atmosphere apply
 scope: $chapter-009
 description-type: setting
 focus: {{description-focus:detective-police}}
 function: narrative
-rhythm-effect: contrast
+rhythm-effect: hold
 
 @dialogue-009-core apply
 scene: $scene-009-01
@@ -514,6 +514,6 @@ target-zone: $scene-009-06
 
 @cliffhanger-009-exit cut
 scope: $chapter-009
-cliffhanger-type: unresolved-confrontation
+cliffhanger-type: danger
 cut-moment: {{cliffhanger-moment:bridge}}
 continuation-pressure: {{cliffhanger-continuation:bridge}}

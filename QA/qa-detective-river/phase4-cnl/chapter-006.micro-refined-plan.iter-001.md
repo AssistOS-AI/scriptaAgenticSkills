@@ -27,7 +27,7 @@ rule-reference: $world-rule-primary
 visible-symptom: logs are complete on paper but physically impossible when matched against the river timing
 action-limitation: Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
 conflict-output: every lawful request alerts the people most interested in erasing the answer
-reveal-pattern: embed-rule-in-dialogue
+reveal-pattern: show-exception-to-reveal-rule
 
 @arc-006-protagonist map
 chapter: $chapter-006
@@ -39,9 +39,9 @@ exit-belief: evidence survives only when someone refuses the procedure designed 
 @arc-006-relationship map
 chapter: $chapter-006
 pair: $character-protagonist-001, $character-support-001
-entry-dynamic: professional-alliance-with-unequal-risk
+entry-dynamic: careful-cooperation-strained-by-withheld-history
 stress-line: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
-exit-dynamic: altered-but-legible-bond
+exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
 
 @alternation-006-core arrange
 chapter: $chapter-006
@@ -65,7 +65,7 @@ support-focus: $character-support-001
 state-change: the investigation turns from hidden search into institutional showdown
 
 @action-006-1 place
-action-mode: evasion
+action-mode: pursuit
 scene: $scene-006-01
 actor: $character-protagonist-001
 goal: separate proof of murder from the police pathway designed to bury it
@@ -74,14 +74,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-006-1 place
 scope: $scene-006-01
-type: external-society
+type: external-nature
 forces: $character-protagonist-001 versus $character-support-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 escalation: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
 
 @event-006-1 trigger
 scope: $scene-006-01
-event-type: deadline
+event-type: loss
 trigger: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 impact: murder, not drowning, becomes the central fact
 follow-through: Nadia can now accuse the precinct itself of obstruction
@@ -89,34 +89,34 @@ follow-through: Nadia can now accuse the precinct itself of obstruction
 @dialogue-turn-006-01-01 line
 scene: $scene-006-01
 speaker: $character-support-001
-intent: deflect
-subtext: turns confession sideways to protect status and control
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-reaction-beat: The evasion makes the silence more visible than the answer would have.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-006-01-02 line
 scene: $scene-006-01
 speaker: $character-protagonist-001
-intent: reframe
-subtext: changes the moral meaning of what was just said
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-reaction-beat: The new framing makes the old position harder to keep.
-
-@dialogue-turn-006-01-03 line
-scene: $scene-006-01
-speaker: $character-support-002
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-reaction-beat: The honesty changes the balance of power in the room.
-
-@dialogue-turn-006-01-04 line
-scene: $scene-006-01
-speaker: $character-pressure-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
 line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 reaction-beat: The promise raises the stakes for the next exchange.
+
+@dialogue-turn-006-01-03 line
+scene: $scene-006-01
+speaker: $character-support-002
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: a hint for the dialogue line
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
+
+@dialogue-turn-006-01-04 line
+scene: $scene-006-01
+speaker: $character-pressure-001
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-006-02 define
 chapter: $chapter-006
@@ -134,7 +134,7 @@ support-focus: $character-support-002
 state-change: the investigation turns from hidden search into institutional showdown
 
 @action-006-2 place
-action-mode: revelation-act
+action-mode: sacrifice
 scene: $scene-006-02
 actor: $character-protagonist-001
 goal: Nadia can now accuse the precinct itself of obstruction
@@ -143,14 +143,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-006-2 place
 scope: $scene-006-02
-type: internal
+type: mixed
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 escalation: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
 
 @event-006-2 trigger
 scope: $scene-006-02
-event-type: deadline
+event-type: revelation
 trigger: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 impact: murder, not drowning, becomes the central fact
 follow-through: Nadia can now accuse the precinct itself of obstruction
@@ -158,38 +158,38 @@ follow-through: Nadia can now accuse the precinct itself of obstruction
 @dialogue-turn-006-02-01 line
 scene: $scene-006-02
 speaker: $character-support-002
-intent: tease-probe
-subtext: uses wit to test whether the wound can be named safely
-line-hint: Diversion beneath the spillway
-reaction-beat: The joke opens a bruise neither speaker can ignore now.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-006-02-02 line
 scene: $scene-006-02
 speaker: $character-protagonist-001
+intent: commit
+subtext: makes risk sound practical enough to become a promise
+line-hint: Diversion beneath the spillway
+reaction-beat: The promise raises the stakes for the next exchange.
+
+@dialogue-turn-006-02-03 line
+scene: $scene-006-02
+speaker: $character-support-003
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: a hint for the dialogue line
+reaction-beat: The warning narrows what can still be done safely.
+
+@dialogue-turn-006-02-04 line
+scene: $scene-006-02
+speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
 line-hint: Diversion beneath the spillway
 reaction-beat: The challenge strips politeness away from the scene.
 
-@dialogue-turn-006-02-03 line
-scene: $scene-006-02
-speaker: $character-support-003
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: Diversion beneath the spillway
-reaction-beat: The honesty changes the balance of power in the room.
-
-@dialogue-turn-006-02-04 line
-scene: $scene-006-02
-speaker: $character-pressure-001
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: Diversion beneath the spillway
-reaction-beat: The honesty changes the balance of power in the room.
-
 @scene-006-03 define
 chapter: $chapter-006
-showing-mode: dialogic
+showing-mode: compressed-showing
 focalization: internal-single
 time-space: $location-secondary
 introduction: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
@@ -212,14 +212,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-006-3 place
 scope: $scene-006-03
-type: external-nature
+type: mixed
 forces: $character-protagonist-001 versus $character-support-003
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 escalation: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
 
 @event-006-3 trigger
 scope: $scene-006-03
-event-type: reversal
+event-type: crime
 trigger: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 impact: murder, not drowning, becomes the central fact
 follow-through: Nadia can now accuse the precinct itself of obstruction
@@ -227,38 +227,38 @@ follow-through: Nadia can now accuse the precinct itself of obstruction
 @dialogue-turn-006-03-01 line
 scene: $scene-006-03
 speaker: $character-support-003
-intent: deflect
-subtext: turns confession sideways to protect status and control
-line-hint: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
-reaction-beat: The evasion makes the silence more visible than the answer would have.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-006-03-02 line
 scene: $scene-006-03
 speaker: $character-protagonist-001
-intent: probe
-subtext: tests whether the other speaker can bear the unsoftened truth
-line-hint: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
-reaction-beat: The question lands harder than either speaker planned.
-
-@dialogue-turn-006-03-03 line
-scene: $scene-006-03
-speaker: $character-support-001
-intent: reframe
-subtext: changes the moral meaning of what was just said
-line-hint: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
-reaction-beat: The new framing makes the old position harder to keep.
-
-@dialogue-turn-006-03-04 line
-scene: $scene-006-03
-speaker: $character-pressure-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
 line-hint: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
 reaction-beat: The promise raises the stakes for the next exchange.
 
+@dialogue-turn-006-03-03 line
+scene: $scene-006-03
+speaker: $character-support-001
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: a hint for the dialogue line
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
+
+@dialogue-turn-006-03-04 line
+scene: $scene-006-03
+speaker: $character-pressure-001
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+reaction-beat: The challenge strips politeness away from the scene.
+
 @scene-006-04 define
 chapter: $chapter-006
-showing-mode: direct-showing
+showing-mode: dialogic
 focalization: internal-single
 time-space: $location-tertiary-004
 introduction: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
@@ -272,7 +272,7 @@ support-focus: $character-support-001
 state-change: the investigation turns from hidden search into institutional showdown
 
 @action-006-4 place
-action-mode: sacrifice
+action-mode: negotiation
 scene: $scene-006-04
 actor: $character-protagonist-001
 goal: separate proof of murder from the police pathway designed to bury it
@@ -281,14 +281,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-006-4 place
 scope: $scene-006-04
-type: internal
+type: external-character
 forces: $character-protagonist-001 versus $character-support-002
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 escalation: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
 
 @event-006-4 trigger
 scope: $scene-006-04
-event-type: betrayal
+event-type: crime
 trigger: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 impact: murder, not drowning, becomes the central fact
 follow-through: Nadia can now accuse the precinct itself of obstruction
@@ -296,10 +296,10 @@ follow-through: Nadia can now accuse the precinct itself of obstruction
 @dialogue-turn-006-04-01 line
 scene: $scene-006-04
 speaker: $character-support-001
-intent: commit
-subtext: makes risk sound practical enough to become a promise
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-reaction-beat: The promise raises the stakes for the next exchange.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-006-04-02 line
 scene: $scene-006-04
@@ -312,22 +312,22 @@ reaction-beat: The promise raises the stakes for the next exchange.
 @dialogue-turn-006-04-03 line
 scene: $scene-006-04
 speaker: $character-support-002
-intent: reframe
-subtext: changes the moral meaning of what was just said
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-reaction-beat: The new framing makes the old position harder to keep.
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: a hint for the dialogue line
+reaction-beat: The warning narrows what can still be done safely.
 
 @dialogue-turn-006-04-04 line
 scene: $scene-006-04
 speaker: $character-pressure-001
-intent: commit
-subtext: makes risk sound practical enough to become a promise
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
 line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-reaction-beat: The promise raises the stakes for the next exchange.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-006-05 define
 chapter: $chapter-006
-showing-mode: dialogic
+showing-mode: mixed
 focalization: internal-single
 time-space: $location-primary
 introduction: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
@@ -350,14 +350,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-006-5 place
 scope: $scene-006-05
-type: external-society
+type: internal
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 escalation: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
 
 @event-006-5 trigger
 scope: $scene-006-05
-event-type: reversal
+event-type: deadline
 trigger: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 impact: murder, not drowning, becomes the central fact
 follow-through: Nadia can now accuse the precinct itself of obstruction
@@ -365,38 +365,38 @@ follow-through: Nadia can now accuse the precinct itself of obstruction
 @dialogue-turn-006-05-01 line
 scene: $scene-006-05
 speaker: $character-support-002
-intent: name-risk
-subtext: speaks the consequence both speakers hoped could stay implied
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-reaction-beat: Naming the risk turns pressure into irreversible commitment.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-006-05-02 line
 scene: $scene-006-05
 speaker: $character-protagonist-001
-intent: deflect
-subtext: turns confession sideways to protect status and control
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-reaction-beat: The evasion makes the silence more visible than the answer would have.
-
-@dialogue-turn-006-05-03 line
-scene: $scene-006-05
-speaker: $character-support-003
 intent: commit
 subtext: makes risk sound practical enough to become a promise
 line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 reaction-beat: The promise raises the stakes for the next exchange.
 
+@dialogue-turn-006-05-03 line
+scene: $scene-006-05
+speaker: $character-support-003
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: a hint for the dialogue line
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
+
 @dialogue-turn-006-05-04 line
 scene: $scene-006-05
 speaker: $character-pressure-001
-intent: warn
-subtext: tries to protect the bond by narrowing the next available move
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
 line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-reaction-beat: The warning narrows what can still be done safely.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-006-06 define
 chapter: $chapter-006
-showing-mode: compressed-showing
+showing-mode: direct-showing
 focalization: internal-single
 time-space: $location-secondary
 introduction: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
@@ -410,7 +410,7 @@ support-focus: $character-support-003
 state-change: the investigation turns from hidden search into institutional showdown
 
 @action-006-6 place
-action-mode: evasion
+action-mode: pursuit
 scene: $scene-006-06
 actor: $character-protagonist-001
 goal: separate proof of murder from the police pathway designed to bury it
@@ -419,14 +419,14 @@ result: the investigation turns from hidden search into institutional showdown
 
 @conflict-006-6 place
 scope: $scene-006-06
-type: external-character
+type: external-supernatural
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 escalation: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
 
 @event-006-6 trigger
 scope: $scene-006-06
-event-type: deadline
+event-type: crime
 trigger: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 impact: murder, not drowning, becomes the central fact
 follow-through: Nadia can now accuse the precinct itself of obstruction
@@ -434,41 +434,41 @@ follow-through: Nadia can now accuse the precinct itself of obstruction
 @dialogue-turn-006-06-01 line
 scene: $scene-006-06
 speaker: $character-support-003
-intent: challenge
-subtext: refuses the easier story and forces the pressure into view
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-reaction-beat: The challenge strips politeness away from the scene.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-006-06-02 line
 scene: $scene-006-06
 speaker: $character-protagonist-001
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-reaction-beat: The honesty changes the balance of power in the room.
-
-@dialogue-turn-006-06-03 line
-scene: $scene-006-06
-speaker: $character-support-001
-intent: deflect
-subtext: turns confession sideways to protect status and control
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-reaction-beat: The evasion makes the silence more visible than the answer would have.
-
-@dialogue-turn-006-06-04 line
-scene: $scene-006-06
-speaker: $character-pressure-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
 line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 reaction-beat: The promise raises the stakes for the next exchange.
+
+@dialogue-turn-006-06-03 line
+scene: $scene-006-06
+speaker: $character-support-001
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: a hint for the dialogue line
+reaction-beat: The warning narrows what can still be done safely.
+
+@dialogue-turn-006-06-04 line
+scene: $scene-006-06
+speaker: $character-pressure-001
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+reaction-beat: The challenge strips politeness away from the scene.
 
 @description-006-atmosphere apply
 scope: $chapter-006
 description-type: setting
 focus: a warehouse where facts are stored just long enough to be reassigned
 function: narrative
-rhythm-effect: frame
+rhythm-effect: slow
 
 @dialogue-006-core apply
 scene: $scene-006-01
@@ -514,7 +514,7 @@ target-zone: $scene-006-06
 
 @cliffhanger-006-exit cut
 scope: $chapter-006
-cliffhanger-type: critical-decision
+cliffhanger-type: interrupted-revelation
 cut-moment: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 continuation-pressure: Nadia can now accuse the precinct itself of obstruction
 
@@ -573,36 +573,36 @@ should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-01-01 refine
-ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
-ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:reversal-0-0 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:reversal-support-0-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-01-02 refine
-ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
-ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
-ref: dialogue-line-hint:reversal-0-1 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:reversal-protagonist-0-1 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-01-03 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:reversal-0-2 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:reversal-support-0-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-01-04 refine
-ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
-ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:reversal-0-3 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:reversal-pressure-0-3 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -620,36 +620,36 @@ should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-02-01 refine
-ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
-ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:reversal-1-0 -> Diversion beneath the spillway
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:reversal-support-1-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-02-02 refine
-ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
-ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:reversal-1-1 -> Diversion beneath the spillway
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:reversal-protagonist-1-1 -> Diversion beneath the spillway
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-02-03 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:reversal-1-2 -> Diversion beneath the spillway
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:reversal-support-1-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-02-04 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:reversal-1-3 -> Diversion beneath the spillway
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:reversal-pressure-1-3 -> Diversion beneath the spillway
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -667,36 +667,36 @@ should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-03-01 refine
-ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
-ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:reversal-2-0 -> Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:reversal-support-2-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-03-02 refine
-ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
-ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
-ref: dialogue-line-hint:reversal-2-1 -> Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:reversal-protagonist-2-1 -> Theo realizes the victim was killed during a meeting about the lock privatization signatures.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-03-03 refine
-ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
-ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
-ref: dialogue-line-hint:reversal-2-2 -> Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:reversal-support-2-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-03-04 refine
-ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
-ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:reversal-2-3 -> Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:reversal-pressure-2-3 -> Theo realizes the victim was killed during a meeting about the lock privatization signatures.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -714,9 +714,9 @@ should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-04-01 refine
-ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
-ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:reversal-3-0 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:reversal-support-3-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -725,25 +725,25 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-006-04-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:reversal-3-1 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-line-hint:reversal-protagonist-3-1 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-04-03 refine
-ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
-ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
-ref: dialogue-line-hint:reversal-3-2 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:reversal-support-3-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-04-04 refine
-ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
-ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:reversal-3-3 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:reversal-pressure-3-3 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -761,36 +761,36 @@ should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-05-01 refine
-ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
-ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
-ref: dialogue-line-hint:reversal-4-0 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:reversal-support-4-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-05-02 refine
-ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
-ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:reversal-4-1 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:reversal-protagonist-4-1 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-05-03 refine
-ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
-ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:reversal-4-2 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:reversal-support-4-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-05-04 refine
-ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
-ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
-ref: dialogue-line-hint:reversal-4-3 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:reversal-pressure-4-3 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -808,36 +808,36 @@ should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-06-01 refine
-ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
-ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:reversal-5-0 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:reversal-support-5-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-06-02 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:reversal-5-1 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:reversal-protagonist-5-1 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-06-03 refine
-ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
-ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:reversal-5-2 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:reversal-support-5-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-06-04 refine
-ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
-ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:reversal-5-3 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:reversal-pressure-5-3 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath

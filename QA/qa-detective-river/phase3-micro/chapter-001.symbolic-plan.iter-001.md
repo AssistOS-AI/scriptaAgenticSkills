@@ -89,38 +89,38 @@ follow-through: {{event-follow-through:setup-mid}}
 @dialogue-turn-001-01-01 line
 scene: $scene-001-01
 speaker: $character-support-001
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:setup-0-0}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:setup-support-0-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-001-01-02 line
 scene: $scene-001-01
 speaker: $character-protagonist-001
 intent: commit
 subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:setup-0-1}}
+line-hint: {{dialogue-line-hint:setup-protagonist-0-1}}
 reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-001-01-03 line
 scene: $scene-001-01
 speaker: $character-support-002
-intent: probe
-subtext: {{dialogue-subtext:probe}}
-line-hint: {{dialogue-line-hint:setup-0-2}}
-reaction-beat: {{dialogue-reaction:probe}}
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
+line-hint: {{dialogue-line-hint:setup-support-0-2}}
+reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-001-01-04 line
 scene: $scene-001-01
 speaker: $character-pressure-001
 intent: challenge
 subtext: {{dialogue-subtext:challenge}}
-line-hint: {{dialogue-line-hint:setup-0-3}}
+line-hint: {{dialogue-line-hint:setup-pressure-0-3}}
 reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-001-02 define
 chapter: $chapter-001
-showing-mode: introspective
+showing-mode: direct-showing
 focalization: internal-single
 time-space: $location-secondary
 introduction: {{scene-introduction:setup-1}}
@@ -134,7 +134,7 @@ support-focus: $character-support-002
 state-change: {{scene-state-change:setup-mid}}
 
 @action-001-2 place
-action-mode: negotiation
+action-mode: revelation-act
 scene: $scene-001-02
 actor: $character-protagonist-001
 goal: {{action-goal:setup-1}}
@@ -143,14 +143,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-001-2 place
 scope: $scene-001-02
-type: mixed
+type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:setup}}
 
 @event-001-2 trigger
 scope: $scene-001-02
-event-type: reversal
+event-type: deadline
 trigger: {{event-trigger:setup-mid}}
 impact: {{event-impact:setup}}
 follow-through: {{event-follow-through:setup-mid}}
@@ -158,38 +158,38 @@ follow-through: {{event-follow-through:setup-mid}}
 @dialogue-turn-001-02-01 line
 scene: $scene-001-02
 speaker: $character-support-002
-intent: reframe
-subtext: {{dialogue-subtext:reframe}}
-line-hint: {{dialogue-line-hint:setup-1-0}}
-reaction-beat: {{dialogue-reaction:reframe}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:setup-support-1-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-001-02-02 line
 scene: $scene-001-02
 speaker: $character-protagonist-001
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:setup-1-1}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:setup-protagonist-1-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-001-02-03 line
 scene: $scene-001-02
 speaker: $character-support-003
-intent: reframe
-subtext: {{dialogue-subtext:reframe}}
-line-hint: {{dialogue-line-hint:setup-1-2}}
-reaction-beat: {{dialogue-reaction:reframe}}
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:setup-support-1-2}}
+reaction-beat: {{dialogue-reaction:warn}}
 
 @dialogue-turn-001-02-04 line
 scene: $scene-001-02
 speaker: $character-pressure-001
-intent: reframe
-subtext: {{dialogue-subtext:reframe}}
-line-hint: {{dialogue-line-hint:setup-1-3}}
-reaction-beat: {{dialogue-reaction:reframe}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:setup-pressure-1-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-001-03 define
 chapter: $chapter-001
-showing-mode: dialogic
+showing-mode: introspective
 focalization: internal-single
 time-space: $location-tertiary-001
 introduction: {{scene-introduction:setup-2}}
@@ -212,14 +212,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-001-3 place
 scope: $scene-001-03
-type: external-character
+type: mixed
 forces: $character-protagonist-001 versus $character-support-003
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:setup}}
 
 @event-001-3 trigger
 scope: $scene-001-03
-event-type: arrival
+event-type: reversal
 trigger: {{event-trigger:setup-mid}}
 impact: {{event-impact:setup}}
 follow-through: {{event-follow-through:setup-mid}}
@@ -227,38 +227,38 @@ follow-through: {{event-follow-through:setup-mid}}
 @dialogue-turn-001-03-01 line
 scene: $scene-001-03
 speaker: $character-support-003
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:setup-2-0}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:setup-support-2-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-001-03-02 line
 scene: $scene-001-03
 speaker: $character-protagonist-001
-intent: warn
-subtext: {{dialogue-subtext:warn}}
-line-hint: {{dialogue-line-hint:setup-2-1}}
-reaction-beat: {{dialogue-reaction:warn}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:setup-protagonist-2-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-001-03-03 line
 scene: $scene-001-03
 speaker: $character-support-001
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:setup-2-2}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
+line-hint: {{dialogue-line-hint:setup-support-2-2}}
+reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-001-03-04 line
 scene: $scene-001-03
 speaker: $character-pressure-001
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:setup-2-3}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:setup-pressure-2-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-001-04 define
 chapter: $chapter-001
-showing-mode: direct-showing
+showing-mode: dialogic
 focalization: internal-single
 time-space: $location-primary
 introduction: {{scene-introduction:setup-3}}
@@ -272,7 +272,7 @@ support-focus: $character-support-001
 state-change: {{scene-state-change:setup-mid}}
 
 @action-001-4 place
-action-mode: evasion
+action-mode: negotiation
 scene: $scene-001-04
 actor: $character-protagonist-001
 goal: {{action-goal:setup-3}}
@@ -281,14 +281,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-001-4 place
 scope: $scene-001-04
-type: external-technology
+type: external-character
 forces: $character-protagonist-001 versus $character-support-002
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:setup}}
 
 @event-001-4 trigger
 scope: $scene-001-04
-event-type: revelation
+event-type: reversal
 trigger: {{event-trigger:setup-mid}}
 impact: {{event-impact:setup}}
 follow-through: {{event-follow-through:setup-mid}}
@@ -298,36 +298,36 @@ scene: $scene-001-04
 speaker: $character-support-001
 intent: probe
 subtext: {{dialogue-subtext:probe}}
-line-hint: {{dialogue-line-hint:setup-3-0}}
+line-hint: {{dialogue-line-hint:setup-support-3-0}}
 reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-001-04-02 line
 scene: $scene-001-04
 speaker: $character-protagonist-001
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:setup-3-1}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:setup-protagonist-3-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-001-04-03 line
 scene: $scene-001-04
 speaker: $character-support-002
-intent: challenge
-subtext: {{dialogue-subtext:challenge}}
-line-hint: {{dialogue-line-hint:setup-3-2}}
-reaction-beat: {{dialogue-reaction:challenge}}
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:setup-support-3-2}}
+reaction-beat: {{dialogue-reaction:warn}}
 
 @dialogue-turn-001-04-04 line
 scene: $scene-001-04
 speaker: $character-pressure-001
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:setup-3-3}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:setup-pressure-3-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-001-05 define
 chapter: $chapter-001
-showing-mode: compressed-showing
+showing-mode: dialogic
 focalization: internal-single
 time-space: $location-secondary
 introduction: {{scene-introduction:setup-4}}
@@ -341,7 +341,7 @@ support-focus: $character-support-002
 state-change: {{scene-state-change:setup-mid}}
 
 @action-001-5 place
-action-mode: revelation-act
+action-mode: negotiation
 scene: $scene-001-05
 actor: $character-protagonist-001
 goal: {{action-goal:setup-4}}
@@ -350,14 +350,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-001-5 place
 scope: $scene-001-05
-type: external-society
+type: external-character
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:setup}}
 
 @event-001-5 trigger
 scope: $scene-001-05
-event-type: loss
+event-type: arrival
 trigger: {{event-trigger:setup-mid}}
 impact: {{event-impact:setup}}
 follow-through: {{event-follow-through:setup-mid}}
@@ -365,38 +365,38 @@ follow-through: {{event-follow-through:setup-mid}}
 @dialogue-turn-001-05-01 line
 scene: $scene-001-05
 speaker: $character-support-002
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:setup-4-0}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:setup-support-4-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-001-05-02 line
 scene: $scene-001-05
 speaker: $character-protagonist-001
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:setup-4-1}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:setup-protagonist-4-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-001-05-03 line
 scene: $scene-001-05
 speaker: $character-support-003
-intent: reframe
-subtext: {{dialogue-subtext:reframe}}
-line-hint: {{dialogue-line-hint:setup-4-2}}
-reaction-beat: {{dialogue-reaction:reframe}}
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
+line-hint: {{dialogue-line-hint:setup-support-4-2}}
+reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-001-05-04 line
 scene: $scene-001-05
 speaker: $character-pressure-001
-intent: name-risk
-subtext: {{dialogue-subtext:name-risk}}
-line-hint: {{dialogue-line-hint:setup-4-3}}
-reaction-beat: {{dialogue-reaction:name-risk}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:setup-pressure-4-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-001-06 define
 chapter: $chapter-001
-showing-mode: introspective
+showing-mode: compressed-showing
 focalization: internal-single
 time-space: $location-tertiary-001
 introduction: {{scene-introduction:setup-5}}
@@ -410,7 +410,7 @@ support-focus: $character-support-003
 state-change: {{scene-state-change:setup-final}}
 
 @action-001-6 place
-action-mode: revelation-act
+action-mode: pursuit
 scene: $scene-001-06
 actor: $character-protagonist-001
 goal: {{action-goal:setup-5}}
@@ -419,14 +419,14 @@ result: {{action-result:setup-final}}
 
 @conflict-001-6 place
 scope: $scene-001-06
-type: internal
+type: external-nature
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:setup}}
 
 @event-001-6 trigger
 scope: $scene-001-06
-event-type: loss
+event-type: crime
 trigger: {{event-trigger:setup-final}}
 impact: {{event-impact:setup}}
 follow-through: {{event-follow-through:setup-final}}
@@ -434,34 +434,34 @@ follow-through: {{event-follow-through:setup-final}}
 @dialogue-turn-001-06-01 line
 scene: $scene-001-06
 speaker: $character-support-003
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:setup-5-0}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:setup-support-5-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-001-06-02 line
 scene: $scene-001-06
 speaker: $character-protagonist-001
-intent: tease-probe
-subtext: {{dialogue-subtext:tease-probe}}
-line-hint: {{dialogue-line-hint:setup-5-1}}
-reaction-beat: {{dialogue-reaction:tease-probe}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:setup-protagonist-5-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-001-06-03 line
 scene: $scene-001-06
 speaker: $character-support-001
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:setup-5-2}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:setup-support-5-2}}
+reaction-beat: {{dialogue-reaction:warn}}
 
 @dialogue-turn-001-06-04 line
 scene: $scene-001-06
 speaker: $character-pressure-001
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:setup-5-3}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:setup-pressure-5-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @description-001-atmosphere apply
 scope: $chapter-001
@@ -514,6 +514,6 @@ target-zone: $scene-001-06
 
 @cliffhanger-001-exit cut
 scope: $chapter-001
-cliffhanger-type: interrupted-revelation
+cliffhanger-type: critical-decision
 cut-moment: {{cliffhanger-moment:setup}}
 continuation-pressure: {{cliffhanger-continuation:setup}}

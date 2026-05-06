@@ -27,19 +27,19 @@ rule-reference: $world-rule-primary
 visible-symptom: logs are complete on paper but physically impossible when matched against the river timing
 action-limitation: Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
 conflict-output: every lawful request alerts the people most interested in erasing the answer
-reveal-pattern: show-consequence-first-explain-cause-later
+reveal-pattern: embed-rule-in-dialogue
 
 @arc-007-protagonist map
 chapter: $chapter-007
-entry-belief: if she follows procedure closely enough, the truth will eventually surface at the start of the escalation chapter
+entry-belief: if she follows procedure closely enough, the truth will eventually surface at the start of the investigation chapter
 challenge: Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
 insight-pressure: chain-of-custody becomes the crime scene
-exit-belief: evidence survives only when someone refuses the procedure designed to neutralize it after the escalation chapter
+exit-belief: evidence survives only when someone refuses the procedure designed to neutralize it after the investigation chapter
 
 @arc-007-relationship map
 chapter: $chapter-007
 pair: $character-protagonist-001, $character-support-002
-entry-dynamic: productive-partnership-guarded-by-emotional-self-defense
+entry-dynamic: technical-trust-without-moral-agreement
 stress-line: Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
 exit-dynamic: solidarity-forged-through-contested-truth
 
@@ -51,7 +51,7 @@ anti-flatness-rule: do not chain action summaries without dialogue, atmosphere, 
 
 @scene-007-01 define
 chapter: $chapter-007
-showing-mode: dialogic
+showing-mode: mixed
 focalization: internal-single
 time-space: $location-primary
 introduction: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
@@ -65,7 +65,7 @@ support-focus: $character-support-002
 state-change: administrative negligence hardens into coordinated concealment
 
 @action-007-1 place
-action-mode: revelation-act
+action-mode: negotiation
 scene: $scene-007-01
 actor: $character-protagonist-001
 goal: connect the missing footage to a human decision rather than a technical accident
@@ -81,7 +81,7 @@ escalation: The footage gap lines up exactly with a maintenance override signed 
 
 @event-007-1 trigger
 scope: $scene-007-01
-event-type: loss
+event-type: crime
 trigger: a duplicate maintenance form appears with two different timestamps
 impact: chain-of-custody becomes the crime scene
 follow-through: Nadia now knows the cover-up has a clock and a route
@@ -89,38 +89,38 @@ follow-through: Nadia now knows the cover-up has a clock and a route
 @dialogue-turn-007-01-01 line
 scene: $scene-007-01
 speaker: $character-support-002
-intent: commit
-subtext: makes risk sound practical enough to become a promise
-line-hint: a duplicate maintenance form appears with two different timestamps
-reaction-beat: The promise raises the stakes for the next exchange.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-007-01-02 line
 scene: $scene-007-01
 speaker: $character-protagonist-001
-intent: name-risk
-subtext: speaks the consequence both speakers hoped could stay implied
-line-hint: a duplicate maintenance form appears with two different timestamps
-reaction-beat: Naming the risk turns pressure into irreversible commitment.
-
-@dialogue-turn-007-01-03 line
-scene: $scene-007-01
-speaker: $character-support-003
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
 line-hint: a duplicate maintenance form appears with two different timestamps
 reaction-beat: The challenge strips politeness away from the scene.
 
+@dialogue-turn-007-01-03 line
+scene: $scene-007-01
+speaker: $character-support-003
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: a hint for the dialogue line
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
+
 @dialogue-turn-007-01-04 line
 scene: $scene-007-01
 speaker: $character-pressure-001
-intent: probe
-subtext: tests whether the other speaker can bear the unsoftened truth
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
 line-hint: a duplicate maintenance form appears with two different timestamps
-reaction-beat: The question lands harder than either speaker planned.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-007-02 define
 chapter: $chapter-007
-showing-mode: direct-showing
+showing-mode: mixed
 focalization: internal-single
 time-space: $location-secondary
 introduction: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
@@ -134,7 +134,7 @@ support-focus: $character-support-003
 state-change: administrative negligence hardens into coordinated concealment
 
 @action-007-2 place
-action-mode: attempt
+action-mode: pursuit
 scene: $scene-007-02
 actor: $character-protagonist-001
 goal: Nadia now knows the cover-up has a clock and a route
@@ -150,7 +150,7 @@ escalation: The footage gap lines up exactly with a maintenance override signed 
 
 @event-007-2 trigger
 scope: $scene-007-02
-event-type: betrayal
+event-type: deadline
 trigger: a duplicate maintenance form appears with two different timestamps
 impact: chain-of-custody becomes the crime scene
 follow-through: Nadia now knows the cover-up has a clock and a route
@@ -158,38 +158,38 @@ follow-through: Nadia now knows the cover-up has a clock and a route
 @dialogue-turn-007-02-01 line
 scene: $scene-007-02
 speaker: $character-support-003
-intent: warn
-subtext: tries to protect the bond by narrowing the next available move
-line-hint: Camera gap at Lock Six
-reaction-beat: The warning narrows what can still be done safely.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-007-02-02 line
 scene: $scene-007-02
 speaker: $character-protagonist-001
-intent: deflect
-subtext: turns confession sideways to protect status and control
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
 line-hint: Camera gap at Lock Six
-reaction-beat: The evasion makes the silence more visible than the answer would have.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @dialogue-turn-007-02-03 line
 scene: $scene-007-02
 speaker: $character-support-004
-intent: probe
-subtext: tests whether the other speaker can bear the unsoftened truth
-line-hint: Camera gap at Lock Six
-reaction-beat: The question lands harder than either speaker planned.
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: a hint for the dialogue line
+reaction-beat: The warning narrows what can still be done safely.
 
 @dialogue-turn-007-02-04 line
 scene: $scene-007-02
 speaker: $character-pressure-001
-intent: name-risk
-subtext: speaks the consequence both speakers hoped could stay implied
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
 line-hint: Camera gap at Lock Six
-reaction-beat: Naming the risk turns pressure into irreversible commitment.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-007-03 define
 chapter: $chapter-007
-showing-mode: compressed-showing
+showing-mode: direct-showing
 focalization: internal-single
 time-space: $location-tertiary-001
 introduction: a duplicate maintenance form appears with two different timestamps
@@ -203,7 +203,7 @@ support-focus: $character-support-004
 state-change: administrative negligence hardens into coordinated concealment
 
 @action-007-3 place
-action-mode: revelation-act
+action-mode: pursuit
 scene: $scene-007-03
 actor: $character-protagonist-001
 goal: Camera gap at Lock Six
@@ -212,14 +212,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-007-3 place
 scope: $scene-007-03
-type: mixed
+type: external-character
 forces: $character-protagonist-001 versus $character-support-004
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 escalation: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
 
 @event-007-3 trigger
 scope: $scene-007-03
-event-type: accident
+event-type: reversal
 trigger: a duplicate maintenance form appears with two different timestamps
 impact: chain-of-custody becomes the crime scene
 follow-through: Nadia now knows the cover-up has a clock and a route
@@ -227,34 +227,34 @@ follow-through: Nadia now knows the cover-up has a clock and a route
 @dialogue-turn-007-03-01 line
 scene: $scene-007-03
 speaker: $character-support-004
-intent: reframe
-subtext: changes the moral meaning of what was just said
-line-hint: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
-reaction-beat: The new framing makes the old position harder to keep.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-007-03-02 line
 scene: $scene-007-03
 speaker: $character-protagonist-001
-intent: deflect
-subtext: turns confession sideways to protect status and control
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
 line-hint: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
-reaction-beat: The evasion makes the silence more visible than the answer would have.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @dialogue-turn-007-03-03 line
 scene: $scene-007-03
 speaker: $character-support-002
-intent: deflect
-subtext: turns confession sideways to protect status and control
-line-hint: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
-reaction-beat: The evasion makes the silence more visible than the answer would have.
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: a hint for the dialogue line
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @dialogue-turn-007-03-04 line
 scene: $scene-007-03
 speaker: $character-pressure-001
-intent: commit
-subtext: makes risk sound practical enough to become a promise
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
 line-hint: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
-reaction-beat: The promise raises the stakes for the next exchange.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-007-04 define
 chapter: $chapter-007
@@ -272,7 +272,7 @@ support-focus: $character-support-002
 state-change: administrative negligence hardens into coordinated concealment
 
 @action-007-4 place
-action-mode: attempt
+action-mode: evasion
 scene: $scene-007-04
 actor: $character-protagonist-001
 goal: connect the missing footage to a human decision rather than a technical accident
@@ -281,14 +281,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-007-4 place
 scope: $scene-007-04
-type: external-nature
+type: external-society
 forces: $character-protagonist-001 versus $character-support-003
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 escalation: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
 
 @event-007-4 trigger
 scope: $scene-007-04
-event-type: betrayal
+event-type: revelation
 trigger: a duplicate maintenance form appears with two different timestamps
 impact: chain-of-custody becomes the crime scene
 follow-through: Nadia now knows the cover-up has a clock and a route
@@ -296,38 +296,38 @@ follow-through: Nadia now knows the cover-up has a clock and a route
 @dialogue-turn-007-04-01 line
 scene: $scene-007-04
 speaker: $character-support-002
-intent: reframe
-subtext: changes the moral meaning of what was just said
-line-hint: a duplicate maintenance form appears with two different timestamps
-reaction-beat: The new framing makes the old position harder to keep.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-007-04-02 line
 scene: $scene-007-04
 speaker: $character-protagonist-001
-intent: probe
-subtext: tests whether the other speaker can bear the unsoftened truth
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
 line-hint: a duplicate maintenance form appears with two different timestamps
-reaction-beat: The question lands harder than either speaker planned.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @dialogue-turn-007-04-03 line
 scene: $scene-007-04
 speaker: $character-support-003
-intent: tease-probe
-subtext: uses wit to test whether the wound can be named safely
-line-hint: a duplicate maintenance form appears with two different timestamps
-reaction-beat: The joke opens a bruise neither speaker can ignore now.
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: a hint for the dialogue line
+reaction-beat: The warning narrows what can still be done safely.
 
 @dialogue-turn-007-04-04 line
 scene: $scene-007-04
 speaker: $character-pressure-001
-intent: tease-probe
-subtext: uses wit to test whether the wound can be named safely
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
 line-hint: a duplicate maintenance form appears with two different timestamps
-reaction-beat: The joke opens a bruise neither speaker can ignore now.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-007-05 define
 chapter: $chapter-007
-showing-mode: introspective
+showing-mode: mixed
 focalization: internal-single
 time-space: $location-secondary
 introduction: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
@@ -341,7 +341,7 @@ support-focus: $character-support-003
 state-change: administrative negligence hardens into coordinated concealment
 
 @action-007-5 place
-action-mode: attempt
+action-mode: sacrifice
 scene: $scene-007-05
 actor: $character-protagonist-001
 goal: connect the missing footage to a human decision rather than a technical accident
@@ -350,14 +350,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-007-5 place
 scope: $scene-007-05
-type: external-society
+type: external-character
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 escalation: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
 
 @event-007-5 trigger
 scope: $scene-007-05
-event-type: loss
+event-type: crime
 trigger: a duplicate maintenance form appears with two different timestamps
 impact: chain-of-custody becomes the crime scene
 follow-through: Nadia now knows the cover-up has a clock and a route
@@ -365,52 +365,52 @@ follow-through: Nadia now knows the cover-up has a clock and a route
 @dialogue-turn-007-05-01 line
 scene: $scene-007-05
 speaker: $character-support-003
-intent: name-risk
-subtext: speaks the consequence both speakers hoped could stay implied
-line-hint: a duplicate maintenance form appears with two different timestamps
-reaction-beat: Naming the risk turns pressure into irreversible commitment.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-007-05-02 line
 scene: $scene-007-05
 speaker: $character-protagonist-001
-intent: reframe
-subtext: changes the moral meaning of what was just said
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
 line-hint: a duplicate maintenance form appears with two different timestamps
-reaction-beat: The new framing makes the old position harder to keep.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @dialogue-turn-007-05-03 line
 scene: $scene-007-05
 speaker: $character-support-004
-intent: probe
-subtext: tests whether the other speaker can bear the unsoftened truth
-line-hint: a duplicate maintenance form appears with two different timestamps
-reaction-beat: The question lands harder than either speaker planned.
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: a hint for the dialogue line
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @dialogue-turn-007-05-04 line
 scene: $scene-007-05
 speaker: $character-pressure-001
-intent: warn
-subtext: tries to protect the bond by narrowing the next available move
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
 line-hint: a duplicate maintenance form appears with two different timestamps
-reaction-beat: The warning narrows what can still be done safely.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-007-06 define
 chapter: $chapter-007
-showing-mode: introspective
+showing-mode: direct-showing
 focalization: internal-single
 time-space: $location-tertiary-001
 introduction: In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
 development: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
 conflict: Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
 resolution: They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
-exit: the chapter hands off to a sharper escalation consequence
+exit: the chapter hands off to a sharper investigation consequence
 participants: $character-protagonist-001, $character-support-004, $character-support-002, $character-pressure-001
 anchor-object: $plot-element-secondary-002
 support-focus: $character-support-004
 state-change: administrative negligence hardens into coordinated concealment
 
 @action-007-6 place
-action-mode: pursuit
+action-mode: sacrifice
 scene: $scene-007-06
 actor: $character-protagonist-001
 goal: connect the missing footage to a human decision rather than a technical accident
@@ -419,14 +419,14 @@ result: administrative negligence hardens into coordinated concealment
 
 @conflict-007-6 place
 scope: $scene-007-06
-type: external-character
+type: mixed
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
 escalation: The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
 
 @event-007-6 trigger
 scope: $scene-007-06
-event-type: revelation
+event-type: discovery
 trigger: a duplicate maintenance form appears with two different timestamps
 impact: chain-of-custody becomes the crime scene
 follow-through: Nadia now knows the cover-up has a clock and a route
@@ -434,34 +434,34 @@ follow-through: Nadia now knows the cover-up has a clock and a route
 @dialogue-turn-007-06-01 line
 scene: $scene-007-06
 speaker: $character-support-004
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: a duplicate maintenance form appears with two different timestamps
-reaction-beat: The honesty changes the balance of power in the room.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-007-06-02 line
 scene: $scene-007-06
 speaker: $character-protagonist-001
-intent: tease-probe
-subtext: uses wit to test whether the wound can be named safely
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
 line-hint: a duplicate maintenance form appears with two different timestamps
-reaction-beat: The joke opens a bruise neither speaker can ignore now.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @dialogue-turn-007-06-03 line
 scene: $scene-007-06
 speaker: $character-support-002
-intent: tease-probe
-subtext: uses wit to test whether the wound can be named safely
-line-hint: a duplicate maintenance form appears with two different timestamps
-reaction-beat: The joke opens a bruise neither speaker can ignore now.
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: a hint for the dialogue line
+reaction-beat: The warning narrows what can still be done safely.
 
 @dialogue-turn-007-06-04 line
 scene: $scene-007-06
 speaker: $character-pressure-001
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
 line-hint: a duplicate maintenance form appears with two different timestamps
-reaction-beat: The honesty changes the balance of power in the room.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @description-007-atmosphere apply
 scope: $chapter-007
@@ -529,9 +529,9 @@ should: make the place feel procedural, political, and materially specific
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @rule-pressure-007-core refine
-ref: visible-symptom:escalation -> logs are complete on paper but physically impossible when matched against the river timing
-ref: action-limitation:escalation -> Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
-ref: conflict-output-rule:escalation -> every lawful request alerts the people most interested in erasing the answer
+ref: visible-symptom:investigation -> logs are complete on paper but physically impossible when matched against the river timing
+ref: action-limitation:investigation -> Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
+ref: conflict-output-rule:investigation -> every lawful request alerts the people most interested in erasing the answer
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make rules generate clue pressure and institutional obstruction
@@ -540,304 +540,304 @@ The refined artifact preserves identifier continuity so deterministic validation
 @arc-007-protagonist refine
 ref: entry-belief:protagonist -> if she follows procedure closely enough, the truth will eventually surface
 ref: exit-belief:protagonist -> evidence survives only when someone refuses the procedure designed to neutralize it
-ref: challenge:protagonist-escalation -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
-ref: insight-pressure:protagonist-escalation -> chain-of-custody becomes the crime scene
+ref: challenge:protagonist-investigation -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+ref: insight-pressure:protagonist-investigation -> chain-of-custody becomes the crime scene
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the arc track moral courage as much as clue discovery
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @arc-007-relationship refine
-ref: relationship-stress:escalation -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+ref: relationship-stress:investigation -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the arc track moral courage as much as clue discovery
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @alternation-007-core refine
-ref: reader-effect:escalation -> What remains of justice when institutions become experts at making truth look administrative?
+ref: reader-effect:investigation -> What remains of justice when institutions become experts at making truth look administrative?
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pacing to alternate clue logic, danger, and institutional tension
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-007-01 refine
-ref: scene-introduction:escalation-0 -> In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
-ref: scene-development:escalation-0 -> The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
-ref: scene-conflict:escalation -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
-ref: scene-resolution:escalation-mid -> They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
-ref: scene-state-change:escalation-mid -> administrative negligence hardens into coordinated concealment
+ref: scene-introduction:investigation-0 -> In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+ref: scene-development:investigation-0 -> The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+ref: scene-conflict:investigation -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+ref: scene-resolution:investigation-mid -> They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
+ref: scene-state-change:investigation-mid -> administrative negligence hardens into coordinated concealment
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-01-01 refine
-ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
-ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:escalation-0-0 -> a duplicate maintenance form appears with two different timestamps
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:investigation-support-0-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-01-02 refine
-ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
-ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
-ref: dialogue-line-hint:escalation-0-1 -> a duplicate maintenance form appears with two different timestamps
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:investigation-protagonist-0-1 -> a duplicate maintenance form appears with two different timestamps
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-01-03 refine
-ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
-ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:escalation-0-2 -> a duplicate maintenance form appears with two different timestamps
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:investigation-support-0-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-01-04 refine
-ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
-ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
-ref: dialogue-line-hint:escalation-0-3 -> a duplicate maintenance form appears with two different timestamps
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:investigation-pressure-0-3 -> a duplicate maintenance form appears with two different timestamps
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-007-02 refine
-ref: scene-conflict:escalation -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
-ref: scene-resolution:escalation-mid -> They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
-ref: scene-state-change:escalation-mid -> administrative negligence hardens into coordinated concealment
-ref: scene-introduction:escalation-1 -> The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
-ref: scene-development:escalation-1 -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+ref: scene-conflict:investigation -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+ref: scene-resolution:investigation-mid -> They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
+ref: scene-state-change:investigation-mid -> administrative negligence hardens into coordinated concealment
+ref: scene-introduction:investigation-1 -> The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+ref: scene-development:investigation-1 -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-02-01 refine
-ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
-ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
-ref: dialogue-line-hint:escalation-1-0 -> Camera gap at Lock Six
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:investigation-support-1-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-02-02 refine
-ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
-ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:escalation-1-1 -> Camera gap at Lock Six
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:investigation-protagonist-1-1 -> Camera gap at Lock Six
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-02-03 refine
-ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
-ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
-ref: dialogue-line-hint:escalation-1-2 -> Camera gap at Lock Six
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:investigation-support-1-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-02-04 refine
-ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
-ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
-ref: dialogue-line-hint:escalation-1-3 -> Camera gap at Lock Six
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:investigation-pressure-1-3 -> Camera gap at Lock Six
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-007-03 refine
-ref: scene-conflict:escalation -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
-ref: scene-resolution:escalation-mid -> They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
-ref: scene-state-change:escalation-mid -> administrative negligence hardens into coordinated concealment
-ref: scene-introduction:escalation-2 -> a duplicate maintenance form appears with two different timestamps
-ref: scene-development:escalation-2 -> chain-of-custody becomes the crime scene
+ref: scene-conflict:investigation -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+ref: scene-resolution:investigation-mid -> They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
+ref: scene-state-change:investigation-mid -> administrative negligence hardens into coordinated concealment
+ref: scene-introduction:investigation-2 -> a duplicate maintenance form appears with two different timestamps
+ref: scene-development:investigation-2 -> chain-of-custody becomes the crime scene
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-03-01 refine
-ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
-ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
-ref: dialogue-line-hint:escalation-2-0 -> The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:investigation-support-2-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-03-02 refine
-ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
-ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:escalation-2-1 -> The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:investigation-protagonist-2-1 -> The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-03-03 refine
-ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
-ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:escalation-2-2 -> The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:investigation-support-2-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-03-04 refine
-ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
-ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:escalation-2-3 -> The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:investigation-pressure-2-3 -> The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-007-04 refine
-ref: scene-conflict:escalation -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
-ref: scene-resolution:escalation-mid -> They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
-ref: scene-state-change:escalation-mid -> administrative negligence hardens into coordinated concealment
-ref: scene-introduction:escalation-3 -> In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
-ref: scene-development:escalation-3 -> The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+ref: scene-conflict:investigation -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+ref: scene-resolution:investigation-mid -> They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
+ref: scene-state-change:investigation-mid -> administrative negligence hardens into coordinated concealment
+ref: scene-introduction:investigation-3 -> In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+ref: scene-development:investigation-3 -> The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-04-01 refine
-ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
-ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
-ref: dialogue-line-hint:escalation-3-0 -> a duplicate maintenance form appears with two different timestamps
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:investigation-support-3-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-04-02 refine
-ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
-ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
-ref: dialogue-line-hint:escalation-3-1 -> a duplicate maintenance form appears with two different timestamps
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:investigation-protagonist-3-1 -> a duplicate maintenance form appears with two different timestamps
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-04-03 refine
-ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
-ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:escalation-3-2 -> a duplicate maintenance form appears with two different timestamps
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:investigation-support-3-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-04-04 refine
-ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
-ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:escalation-3-3 -> a duplicate maintenance form appears with two different timestamps
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:investigation-pressure-3-3 -> a duplicate maintenance form appears with two different timestamps
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-007-05 refine
-ref: scene-conflict:escalation -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
-ref: scene-resolution:escalation-mid -> They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
-ref: scene-state-change:escalation-mid -> administrative negligence hardens into coordinated concealment
-ref: scene-introduction:escalation-4 -> In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
-ref: scene-development:escalation-4 -> The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+ref: scene-conflict:investigation -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+ref: scene-resolution:investigation-mid -> They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
+ref: scene-state-change:investigation-mid -> administrative negligence hardens into coordinated concealment
+ref: scene-introduction:investigation-4 -> In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+ref: scene-development:investigation-4 -> The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-05-01 refine
-ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
-ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
-ref: dialogue-line-hint:escalation-4-0 -> a duplicate maintenance form appears with two different timestamps
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:investigation-support-4-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-05-02 refine
-ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
-ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
-ref: dialogue-line-hint:escalation-4-1 -> a duplicate maintenance form appears with two different timestamps
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:investigation-protagonist-4-1 -> a duplicate maintenance form appears with two different timestamps
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-05-03 refine
-ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
-ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
-ref: dialogue-line-hint:escalation-4-2 -> a duplicate maintenance form appears with two different timestamps
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:investigation-support-4-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-05-04 refine
-ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
-ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
-ref: dialogue-line-hint:escalation-4-3 -> a duplicate maintenance form appears with two different timestamps
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:investigation-pressure-4-3 -> a duplicate maintenance form appears with two different timestamps
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-007-06 refine
-ref: scene-conflict:escalation -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
-ref: scene-introduction:escalation-5 -> In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
-ref: scene-development:escalation-5 -> The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
-ref: scene-resolution:escalation-final -> They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
-ref: scene-state-change:escalation-final -> administrative negligence hardens into coordinated concealment
+ref: scene-conflict:investigation -> Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+ref: scene-introduction:investigation-5 -> In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+ref: scene-development:investigation-5 -> The footage gap lines up exactly with a maintenance override signed by Soren's deputy.
+ref: scene-resolution:investigation-final -> They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
+ref: scene-state-change:investigation-final -> administrative negligence hardens into coordinated concealment
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-06-01 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:escalation-5-0 -> a duplicate maintenance form appears with two different timestamps
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:investigation-support-5-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-06-02 refine
-ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
-ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:escalation-5-1 -> a duplicate maintenance form appears with two different timestamps
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:investigation-protagonist-5-1 -> a duplicate maintenance form appears with two different timestamps
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-06-03 refine
-ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
-ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:escalation-5-2 -> a duplicate maintenance form appears with two different timestamps
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:investigation-support-5-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-007-06-04 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:escalation-5-3 -> a duplicate maintenance form appears with two different timestamps
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:investigation-pressure-5-3 -> a duplicate maintenance form appears with two different timestamps
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -851,21 +851,21 @@ should: prefer clean procedural detail over melodramatic explanation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @suspense-007-core refine
-ref: suspense-uncertainty:escalation -> Can Nadia prove murder before procedure itself is used to wash the evidence clean?
+ref: suspense-uncertainty:investigation -> Can Nadia prove murder before procedure itself is used to wash the evidence clean?
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: prefer clean procedural detail over melodramatic explanation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @pause-007-core refine
-ref: pause-focus:escalation -> administrative negligence hardens into coordinated concealment
+ref: pause-focus:investigation -> administrative negligence hardens into coordinated concealment
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pacing to alternate clue logic, danger, and institutional tension
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @acceleration-007-core refine
-ref: acceleration-trigger:escalation -> a duplicate maintenance form appears with two different timestamps
+ref: acceleration-trigger:investigation -> a duplicate maintenance form appears with two different timestamps
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pacing to alternate clue logic, danger, and institutional tension

@@ -615,7 +615,7 @@ function buildSceneConsequenceParagraph({ scene, index, sceneCount, languageCode
   if (languageCode === 'ro') {
     const variants = {
       0: [
-        goal ? `${focal} merge mai departe hotarat sa ${lowerFirst(stripTerminalPunctuation(goal))}, dar ${lowerFirst(stripTerminalPunctuation(obstacle || 'presiunea se adapteaza mai repede decat ar vrea cineva sa recunoasca'))}.` : '',
+        goal ? `${focal} merge mai departe hotarat sa ${narrativeInfinitive(goal, languageCode)}, dar ${lowerFirst(stripTerminalPunctuation(obstacle || 'presiunea se adapteaza mai repede decat ar vrea cineva sa recunoasca'))}.` : '',
         stateChange ? `Din punctul acesta, ${lowerFirst(stripTerminalPunctuation(stateChange))}.` : ''
       ],
       1: [
@@ -623,11 +623,11 @@ function buildSceneConsequenceParagraph({ scene, index, sceneCount, languageCode
         stakes ? `Brusc, conflictul apasa peste ${lowerFirst(stripTerminalPunctuation(stakes))}.` : ''
       ],
       2: [
-        goal ? `${focal} nu mai incearca doar sa actioneze; incearca sa obtina timp pentru a ${lowerFirst(stripTerminalPunctuation(goal))}.` : '',
+        goal ? `${focal} nu mai incearca doar sa actioneze; incearca sa obtina timp pentru a ${narrativeInfinitive(goal, languageCode)}.` : '',
         stakes ? `Asta impinge in fata exact ${lowerFirst(stripTerminalPunctuation(stakes))}.` : ''
       ],
       final: [
-        goal ? `${focal} intelege ca urmatorul pas cere sa ${lowerFirst(stripTerminalPunctuation(goal))}.` : '',
+        goal ? `${focal} intelege ca urmatorul pas cere sa ${narrativeInfinitive(goal, languageCode)}.` : '',
         followThrough ? `${followThrough}.` : '',
         stateChange ? `La capatul schimbului, ${lowerFirst(stripTerminalPunctuation(stateChange))}.` : ''
       ]
@@ -637,7 +637,7 @@ function buildSceneConsequenceParagraph({ scene, index, sceneCount, languageCode
 
   const variants = {
     0: [
-      goal ? `${focal} keeps moving with the intention to ${lowerFirst(stripTerminalPunctuation(goal))}, but ${lowerFirst(stripTerminalPunctuation(obstacle || 'the pressure adapts faster than anyone wants to admit'))}.` : '',
+      goal ? `${focal} keeps moving with the intention to ${narrativeInfinitive(goal, languageCode)}, but ${lowerFirst(stripTerminalPunctuation(obstacle || 'the pressure adapts faster than anyone wants to admit'))}.` : '',
       stateChange ? `From this point onward, ${lowerFirst(stripTerminalPunctuation(stateChange))}.` : ''
     ],
     1: [
@@ -645,11 +645,11 @@ function buildSceneConsequenceParagraph({ scene, index, sceneCount, languageCode
       stakes ? `The conflict now presses directly against ${lowerFirst(stripTerminalPunctuation(stakes))}.` : ''
     ],
     2: [
-      goal ? `${focal} is no longer trying merely to act; ${lowerFirst(stripTerminalPunctuation(goal))} becomes the only way to buy time.` : '',
+      goal ? `${focal} is no longer trying merely to act; ${narrativeInfinitive(goal, languageCode)} becomes the only way to buy time.` : '',
       stakes ? `That pushes ${lowerFirst(stripTerminalPunctuation(stakes))} into the open.` : ''
     ],
     final: [
-      goal ? `${focal} understands that the next move now requires ${lowerFirst(stripTerminalPunctuation(goal))}.` : '',
+      goal ? `${focal} understands that the next move now requires ${narrativeInfinitive(goal, languageCode)}.` : '',
       followThrough ? `${followThrough}.` : '',
       stateChange ? `By the end of the exchange, ${lowerFirst(stripTerminalPunctuation(stateChange))}.` : ''
     ]
@@ -1220,6 +1220,19 @@ function normalizeNarrativePhrase(value, languageCode) {
   }
 
   return text.replace(/\s+/g, ' ').trim();
+}
+
+function narrativeInfinitive(value, languageCode) {
+  const text = lowerFirst(stripTerminalPunctuation(value));
+  if (!text) {
+    return '';
+  }
+
+  if (languageCode === 'ro') {
+    return text.replace(/^sa\s+/i, '');
+  }
+
+  return text.replace(/^to\s+/i, '');
 }
 
 function renderOutputState(chapter, languageCode) {

@@ -39,9 +39,9 @@ exit-belief: {{exit-belief:protagonist}} after the investigation chapter
 @arc-003-relationship map
 chapter: $chapter-003
 pair: $character-protagonist-001, $character-support-003
-entry-dynamic: careful-cooperation-strained-by-withheld-history
+entry-dynamic: professional-alliance-with-unequal-risk
 stress-line: {{relationship-stress:investigation}}
-exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
+exit-dynamic: altered-but-legible-bond
 
 @alternation-003-core arrange
 chapter: $chapter-003
@@ -51,7 +51,7 @@ anti-flatness-rule: do not chain action summaries without dialogue, atmosphere, 
 
 @scene-003-01 define
 chapter: $chapter-003
-showing-mode: introspective
+showing-mode: compressed-showing
 focalization: internal-single
 time-space: $location-tertiary-001
 introduction: {{scene-introduction:investigation-0}}
@@ -65,7 +65,7 @@ support-focus: $character-support-003
 state-change: {{scene-state-change:investigation-mid}}
 
 @action-003-1 place
-action-mode: negotiation
+action-mode: sacrifice
 scene: $scene-003-01
 actor: $character-protagonist-001
 goal: {{action-goal:investigation-0}}
@@ -74,14 +74,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-003-1 place
 scope: $scene-003-01
-type: external-society
+type: external-supernatural
 forces: $character-protagonist-001 versus $character-support-003
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:investigation}}
 
 @event-003-1 trigger
 scope: $scene-003-01
-event-type: betrayal
+event-type: decision
 trigger: {{event-trigger:investigation-mid}}
 impact: {{event-impact:investigation}}
 follow-through: {{event-follow-through:investigation-mid}}
@@ -89,34 +89,34 @@ follow-through: {{event-follow-through:investigation-mid}}
 @dialogue-turn-003-01-01 line
 scene: $scene-003-01
 speaker: $character-support-003
-intent: warn
-subtext: {{dialogue-subtext:warn}}
-line-hint: {{dialogue-line-hint:investigation-0-0}}
-reaction-beat: {{dialogue-reaction:warn}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:investigation-support-0-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-003-01-02 line
 scene: $scene-003-01
 speaker: $character-protagonist-001
-intent: name-risk
-subtext: {{dialogue-subtext:name-risk}}
-line-hint: {{dialogue-line-hint:investigation-0-1}}
-reaction-beat: {{dialogue-reaction:name-risk}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:investigation-protagonist-0-1}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @dialogue-turn-003-01-03 line
 scene: $scene-003-01
 speaker: $character-support-004
-intent: warn
-subtext: {{dialogue-subtext:warn}}
-line-hint: {{dialogue-line-hint:investigation-0-2}}
-reaction-beat: {{dialogue-reaction:warn}}
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
+line-hint: {{dialogue-line-hint:investigation-support-0-2}}
+reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-003-01-04 line
 scene: $scene-003-01
 speaker: $character-pressure-001
-intent: tease-probe
-subtext: {{dialogue-subtext:tease-probe}}
-line-hint: {{dialogue-line-hint:investigation-0-3}}
-reaction-beat: {{dialogue-reaction:tease-probe}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:investigation-pressure-0-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-003-02 define
 chapter: $chapter-003
@@ -134,7 +134,7 @@ support-focus: $character-support-004
 state-change: {{scene-state-change:investigation-mid}}
 
 @action-003-2 place
-action-mode: revelation-act
+action-mode: sacrifice
 scene: $scene-003-02
 actor: $character-protagonist-001
 goal: {{action-goal:investigation-1}}
@@ -143,14 +143,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-003-2 place
 scope: $scene-003-02
-type: mixed
+type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:investigation}}
 
 @event-003-2 trigger
 scope: $scene-003-02
-event-type: reversal
+event-type: revelation
 trigger: {{event-trigger:investigation-mid}}
 impact: {{event-impact:investigation}}
 follow-through: {{event-follow-through:investigation-mid}}
@@ -160,36 +160,36 @@ scene: $scene-003-02
 speaker: $character-support-004
 intent: probe
 subtext: {{dialogue-subtext:probe}}
-line-hint: {{dialogue-line-hint:investigation-1-0}}
+line-hint: {{dialogue-line-hint:investigation-support-1-0}}
 reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-003-02-02 line
 scene: $scene-003-02
 speaker: $character-protagonist-001
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:investigation-1-1}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:investigation-protagonist-1-1}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @dialogue-turn-003-02-03 line
 scene: $scene-003-02
 speaker: $character-support-005
-intent: name-risk
-subtext: {{dialogue-subtext:name-risk}}
-line-hint: {{dialogue-line-hint:investigation-1-2}}
-reaction-beat: {{dialogue-reaction:name-risk}}
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:investigation-support-1-2}}
+reaction-beat: {{dialogue-reaction:warn}}
 
 @dialogue-turn-003-02-04 line
 scene: $scene-003-02
 speaker: $character-pressure-001
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:investigation-1-3}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:investigation-pressure-1-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-003-03 define
 chapter: $chapter-003
-showing-mode: introspective
+showing-mode: compressed-showing
 focalization: internal-single
 time-space: $location-tertiary-003
 introduction: {{scene-introduction:investigation-2}}
@@ -212,14 +212,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-003-3 place
 scope: $scene-003-03
-type: external-character
+type: mixed
 forces: $character-protagonist-001 versus $character-support-005
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:investigation}}
 
 @event-003-3 trigger
 scope: $scene-003-03
-event-type: reversal
+event-type: crime
 trigger: {{event-trigger:investigation-mid}}
 impact: {{event-impact:investigation}}
 follow-through: {{event-follow-through:investigation-mid}}
@@ -227,38 +227,38 @@ follow-through: {{event-follow-through:investigation-mid}}
 @dialogue-turn-003-03-01 line
 scene: $scene-003-03
 speaker: $character-support-005
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:investigation-2-0}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:investigation-support-2-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-003-03-02 line
 scene: $scene-003-03
 speaker: $character-protagonist-001
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:investigation-2-1}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:investigation-protagonist-2-1}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @dialogue-turn-003-03-03 line
 scene: $scene-003-03
 speaker: $character-support-003
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:investigation-2-2}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
+line-hint: {{dialogue-line-hint:investigation-support-2-2}}
+reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-003-03-04 line
 scene: $scene-003-03
 speaker: $character-pressure-001
-intent: warn
-subtext: {{dialogue-subtext:warn}}
-line-hint: {{dialogue-line-hint:investigation-2-3}}
-reaction-beat: {{dialogue-reaction:warn}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:investigation-pressure-2-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-003-04 define
 chapter: $chapter-003
-showing-mode: introspective
+showing-mode: direct-showing
 focalization: internal-single
 time-space: $location-tertiary-001
 introduction: {{scene-introduction:investigation-3}}
@@ -272,7 +272,7 @@ support-focus: $character-support-003
 state-change: {{scene-state-change:investigation-mid}}
 
 @action-003-4 place
-action-mode: negotiation
+action-mode: pursuit
 scene: $scene-003-04
 actor: $character-protagonist-001
 goal: {{action-goal:investigation-3}}
@@ -288,7 +288,7 @@ escalation: {{conflict-escalation:investigation}}
 
 @event-003-4 trigger
 scope: $scene-003-04
-event-type: revelation
+event-type: discovery
 trigger: {{event-trigger:investigation-mid}}
 impact: {{event-impact:investigation}}
 follow-through: {{event-follow-through:investigation-mid}}
@@ -296,38 +296,38 @@ follow-through: {{event-follow-through:investigation-mid}}
 @dialogue-turn-003-04-01 line
 scene: $scene-003-04
 speaker: $character-support-003
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:investigation-3-0}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:investigation-support-3-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-003-04-02 line
 scene: $scene-003-04
 speaker: $character-protagonist-001
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:investigation-3-1}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:investigation-protagonist-3-1}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @dialogue-turn-003-04-03 line
 scene: $scene-003-04
 speaker: $character-support-004
-intent: challenge
-subtext: {{dialogue-subtext:challenge}}
-line-hint: {{dialogue-line-hint:investigation-3-2}}
-reaction-beat: {{dialogue-reaction:challenge}}
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:investigation-support-3-2}}
+reaction-beat: {{dialogue-reaction:warn}}
 
 @dialogue-turn-003-04-04 line
 scene: $scene-003-04
 speaker: $character-pressure-001
-intent: probe
-subtext: {{dialogue-subtext:probe}}
-line-hint: {{dialogue-line-hint:investigation-3-3}}
-reaction-beat: {{dialogue-reaction:probe}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:investigation-pressure-3-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-003-05 define
 chapter: $chapter-003
-showing-mode: compressed-showing
+showing-mode: mixed
 focalization: internal-single
 time-space: $location-tertiary-002
 introduction: {{scene-introduction:investigation-4}}
@@ -341,7 +341,7 @@ support-focus: $character-support-004
 state-change: {{scene-state-change:investigation-mid}}
 
 @action-003-5 place
-action-mode: pursuit
+action-mode: evasion
 scene: $scene-003-05
 actor: $character-protagonist-001
 goal: {{action-goal:investigation-4}}
@@ -350,14 +350,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-003-5 place
 scope: $scene-003-05
-type: mixed
+type: external-character
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:investigation}}
 
 @event-003-5 trigger
 scope: $scene-003-05
-event-type: loss
+event-type: deadline
 trigger: {{event-trigger:investigation-mid}}
 impact: {{event-impact:investigation}}
 follow-through: {{event-follow-through:investigation-mid}}
@@ -365,38 +365,38 @@ follow-through: {{event-follow-through:investigation-mid}}
 @dialogue-turn-003-05-01 line
 scene: $scene-003-05
 speaker: $character-support-004
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:investigation-4-0}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:investigation-support-4-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-003-05-02 line
 scene: $scene-003-05
 speaker: $character-protagonist-001
-intent: warn
-subtext: {{dialogue-subtext:warn}}
-line-hint: {{dialogue-line-hint:investigation-4-1}}
-reaction-beat: {{dialogue-reaction:warn}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:investigation-protagonist-4-1}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @dialogue-turn-003-05-03 line
 scene: $scene-003-05
 speaker: $character-support-005
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:investigation-4-2}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
+line-hint: {{dialogue-line-hint:investigation-support-4-2}}
+reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-003-05-04 line
 scene: $scene-003-05
 speaker: $character-pressure-001
-intent: name-risk
-subtext: {{dialogue-subtext:name-risk}}
-line-hint: {{dialogue-line-hint:investigation-4-3}}
-reaction-beat: {{dialogue-reaction:name-risk}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:investigation-pressure-4-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-003-06 define
 chapter: $chapter-003
-showing-mode: compressed-showing
+showing-mode: dialogic
 focalization: internal-single
 time-space: $location-tertiary-003
 introduction: {{scene-introduction:investigation-5}}
@@ -410,7 +410,7 @@ support-focus: $character-support-005
 state-change: {{scene-state-change:investigation-final}}
 
 @action-003-6 place
-action-mode: negotiation
+action-mode: pursuit
 scene: $scene-003-06
 actor: $character-protagonist-001
 goal: {{action-goal:investigation-5}}
@@ -426,7 +426,7 @@ escalation: {{conflict-escalation:investigation}}
 
 @event-003-6 trigger
 scope: $scene-003-06
-event-type: revelation
+event-type: accident
 trigger: {{event-trigger:investigation-final}}
 impact: {{event-impact:investigation}}
 follow-through: {{event-follow-through:investigation-final}}
@@ -434,41 +434,41 @@ follow-through: {{event-follow-through:investigation-final}}
 @dialogue-turn-003-06-01 line
 scene: $scene-003-06
 speaker: $character-support-005
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:investigation-5-0}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:investigation-support-5-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-003-06-02 line
 scene: $scene-003-06
 speaker: $character-protagonist-001
-intent: tease-probe
-subtext: {{dialogue-subtext:tease-probe}}
-line-hint: {{dialogue-line-hint:investigation-5-1}}
-reaction-beat: {{dialogue-reaction:tease-probe}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:investigation-protagonist-5-1}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @dialogue-turn-003-06-03 line
 scene: $scene-003-06
 speaker: $character-support-003
-intent: challenge
-subtext: {{dialogue-subtext:challenge}}
-line-hint: {{dialogue-line-hint:investigation-5-2}}
-reaction-beat: {{dialogue-reaction:challenge}}
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:investigation-support-5-2}}
+reaction-beat: {{dialogue-reaction:warn}}
 
 @dialogue-turn-003-06-04 line
 scene: $scene-003-06
 speaker: $character-pressure-001
-intent: name-risk
-subtext: {{dialogue-subtext:name-risk}}
-line-hint: {{dialogue-line-hint:investigation-5-3}}
-reaction-beat: {{dialogue-reaction:name-risk}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:investigation-pressure-5-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @description-003-atmosphere apply
 scope: $chapter-003
 description-type: setting
 focus: {{description-focus:detective-police}}
 function: narrative
-rhythm-effect: slow
+rhythm-effect: contrast
 
 @dialogue-003-core apply
 scene: $scene-003-01
@@ -514,6 +514,6 @@ target-zone: $scene-003-06
 
 @cliffhanger-003-exit cut
 scope: $chapter-003
-cliffhanger-type: interrupted-revelation
+cliffhanger-type: danger
 cut-moment: {{cliffhanger-moment:investigation}}
 continuation-pressure: {{cliffhanger-continuation:investigation}}

@@ -27,7 +27,7 @@ rule-reference: $world-rule-primary
 visible-symptom: {{visible-symptom:escalation}}
 action-limitation: {{action-limitation:escalation}}
 conflict-output: {{conflict-output-rule:escalation}}
-reveal-pattern: show-exception-to-reveal-rule
+reveal-pattern: show-consequence-first-explain-cause-later
 
 @arc-002-protagonist map
 chapter: $chapter-002
@@ -41,7 +41,7 @@ chapter: $chapter-002
 pair: $character-protagonist-001, $character-support-002
 entry-dynamic: professional-alliance-with-unequal-risk
 stress-line: {{relationship-stress:escalation}}
-exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
+exit-dynamic: solidarity-forged-through-contested-truth
 
 @alternation-002-core arrange
 chapter: $chapter-002
@@ -51,7 +51,7 @@ anti-flatness-rule: do not chain action summaries without dialogue, atmosphere, 
 
 @scene-002-01 define
 chapter: $chapter-002
-showing-mode: direct-showing
+showing-mode: compressed-showing
 focalization: internal-single
 time-space: $location-secondary
 introduction: {{scene-introduction:escalation-0}}
@@ -65,7 +65,7 @@ support-focus: $character-support-002
 state-change: {{scene-state-change:escalation-mid}}
 
 @action-002-1 place
-action-mode: pursuit
+action-mode: negotiation
 scene: $scene-002-01
 actor: $character-protagonist-001
 goal: {{action-goal:escalation-0}}
@@ -74,14 +74,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-002-1 place
 scope: $scene-002-01
-type: internal
+type: external-society
 forces: $character-protagonist-001 versus $character-support-002
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:escalation}}
 
 @event-002-1 trigger
 scope: $scene-002-01
-event-type: deadline
+event-type: reversal
 trigger: {{event-trigger:escalation-mid}}
 impact: {{event-impact:escalation}}
 follow-through: {{event-follow-through:escalation-mid}}
@@ -89,38 +89,38 @@ follow-through: {{event-follow-through:escalation-mid}}
 @dialogue-turn-002-01-01 line
 scene: $scene-002-01
 speaker: $character-support-002
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:escalation-0-0}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:escalation-support-0-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-002-01-02 line
 scene: $scene-002-01
 speaker: $character-protagonist-001
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:escalation-0-1}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:escalation-protagonist-0-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-002-01-03 line
 scene: $scene-002-01
 speaker: $character-support-003
-intent: warn
-subtext: {{dialogue-subtext:warn}}
-line-hint: {{dialogue-line-hint:escalation-0-2}}
-reaction-beat: {{dialogue-reaction:warn}}
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
+line-hint: {{dialogue-line-hint:escalation-support-0-2}}
+reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-002-01-04 line
 scene: $scene-002-01
 speaker: $character-pressure-001
-intent: name-risk
-subtext: {{dialogue-subtext:name-risk}}
-line-hint: {{dialogue-line-hint:escalation-0-3}}
-reaction-beat: {{dialogue-reaction:name-risk}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:escalation-pressure-0-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-002-02 define
 chapter: $chapter-002
-showing-mode: mixed
+showing-mode: direct-showing
 focalization: internal-single
 time-space: $location-tertiary-001
 introduction: {{scene-introduction:escalation-1}}
@@ -134,7 +134,7 @@ support-focus: $character-support-003
 state-change: {{scene-state-change:escalation-mid}}
 
 @action-002-2 place
-action-mode: sacrifice
+action-mode: evasion
 scene: $scene-002-02
 actor: $character-protagonist-001
 goal: {{action-goal:escalation-1}}
@@ -150,7 +150,7 @@ escalation: {{conflict-escalation:escalation}}
 
 @event-002-2 trigger
 scope: $scene-002-02
-event-type: arrival
+event-type: deadline
 trigger: {{event-trigger:escalation-mid}}
 impact: {{event-impact:escalation}}
 follow-through: {{event-follow-through:escalation-mid}}
@@ -160,36 +160,36 @@ scene: $scene-002-02
 speaker: $character-support-003
 intent: probe
 subtext: {{dialogue-subtext:probe}}
-line-hint: {{dialogue-line-hint:escalation-1-0}}
+line-hint: {{dialogue-line-hint:escalation-support-1-0}}
 reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-002-02-02 line
 scene: $scene-002-02
 speaker: $character-protagonist-001
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:escalation-1-1}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:escalation-protagonist-1-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-002-02-03 line
 scene: $scene-002-02
 speaker: $character-support-004
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:escalation-1-2}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:escalation-support-1-2}}
+reaction-beat: {{dialogue-reaction:warn}}
 
 @dialogue-turn-002-02-04 line
 scene: $scene-002-02
 speaker: $character-pressure-001
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:escalation-1-3}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:escalation-pressure-1-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-002-03 define
 chapter: $chapter-002
-showing-mode: direct-showing
+showing-mode: introspective
 focalization: internal-single
 time-space: $location-tertiary-002
 introduction: {{scene-introduction:escalation-2}}
@@ -203,7 +203,7 @@ support-focus: $character-support-004
 state-change: {{scene-state-change:escalation-mid}}
 
 @action-002-3 place
-action-mode: negotiation
+action-mode: sacrifice
 scene: $scene-002-03
 actor: $character-protagonist-001
 goal: {{action-goal:escalation-2}}
@@ -212,14 +212,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-002-3 place
 scope: $scene-002-03
-type: mixed
+type: external-character
 forces: $character-protagonist-001 versus $character-support-004
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:escalation}}
 
 @event-002-3 trigger
 scope: $scene-002-03
-event-type: discovery
+event-type: reversal
 trigger: {{event-trigger:escalation-mid}}
 impact: {{event-impact:escalation}}
 follow-through: {{event-follow-through:escalation-mid}}
@@ -227,38 +227,38 @@ follow-through: {{event-follow-through:escalation-mid}}
 @dialogue-turn-002-03-01 line
 scene: $scene-002-03
 speaker: $character-support-004
-intent: reframe
-subtext: {{dialogue-subtext:reframe}}
-line-hint: {{dialogue-line-hint:escalation-2-0}}
-reaction-beat: {{dialogue-reaction:reframe}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:escalation-support-2-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-002-03-02 line
 scene: $scene-002-03
 speaker: $character-protagonist-001
-intent: probe
-subtext: {{dialogue-subtext:probe}}
-line-hint: {{dialogue-line-hint:escalation-2-1}}
-reaction-beat: {{dialogue-reaction:probe}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:escalation-protagonist-2-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-002-03-03 line
 scene: $scene-002-03
 speaker: $character-support-002
-intent: tease-probe
-subtext: {{dialogue-subtext:tease-probe}}
-line-hint: {{dialogue-line-hint:escalation-2-2}}
-reaction-beat: {{dialogue-reaction:tease-probe}}
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
+line-hint: {{dialogue-line-hint:escalation-support-2-2}}
+reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-002-03-04 line
 scene: $scene-002-03
 speaker: $character-pressure-001
-intent: tease-probe
-subtext: {{dialogue-subtext:tease-probe}}
-line-hint: {{dialogue-line-hint:escalation-2-3}}
-reaction-beat: {{dialogue-reaction:tease-probe}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:escalation-pressure-2-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-002-04 define
 chapter: $chapter-002
-showing-mode: introspective
+showing-mode: dialogic
 focalization: internal-single
 time-space: $location-secondary
 introduction: {{scene-introduction:escalation-3}}
@@ -272,7 +272,7 @@ support-focus: $character-support-002
 state-change: {{scene-state-change:escalation-mid}}
 
 @action-002-4 place
-action-mode: negotiation
+action-mode: evasion
 scene: $scene-002-04
 actor: $character-protagonist-001
 goal: {{action-goal:escalation-3}}
@@ -281,14 +281,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-002-4 place
 scope: $scene-002-04
-type: internal
+type: external-nature
 forces: $character-protagonist-001 versus $character-support-003
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:escalation}}
 
 @event-002-4 trigger
 scope: $scene-002-04
-event-type: discovery
+event-type: loss
 trigger: {{event-trigger:escalation-mid}}
 impact: {{event-impact:escalation}}
 follow-through: {{event-follow-through:escalation-mid}}
@@ -296,38 +296,38 @@ follow-through: {{event-follow-through:escalation-mid}}
 @dialogue-turn-002-04-01 line
 scene: $scene-002-04
 speaker: $character-support-002
-intent: tease-probe
-subtext: {{dialogue-subtext:tease-probe}}
-line-hint: {{dialogue-line-hint:escalation-3-0}}
-reaction-beat: {{dialogue-reaction:tease-probe}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:escalation-support-3-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-002-04-02 line
 scene: $scene-002-04
 speaker: $character-protagonist-001
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:escalation-3-1}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:escalation-protagonist-3-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-002-04-03 line
 scene: $scene-002-04
 speaker: $character-support-003
-intent: name-risk
-subtext: {{dialogue-subtext:name-risk}}
-line-hint: {{dialogue-line-hint:escalation-3-2}}
-reaction-beat: {{dialogue-reaction:name-risk}}
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:escalation-support-3-2}}
+reaction-beat: {{dialogue-reaction:warn}}
 
 @dialogue-turn-002-04-04 line
 scene: $scene-002-04
 speaker: $character-pressure-001
 intent: challenge
 subtext: {{dialogue-subtext:challenge}}
-line-hint: {{dialogue-line-hint:escalation-3-3}}
+line-hint: {{dialogue-line-hint:escalation-pressure-3-3}}
 reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-002-05 define
 chapter: $chapter-002
-showing-mode: dialogic
+showing-mode: compressed-showing
 focalization: internal-single
 time-space: $location-tertiary-001
 introduction: {{scene-introduction:escalation-4}}
@@ -341,7 +341,7 @@ support-focus: $character-support-003
 state-change: {{scene-state-change:escalation-mid}}
 
 @action-002-5 place
-action-mode: revelation-act
+action-mode: negotiation
 scene: $scene-002-05
 actor: $character-protagonist-001
 goal: {{action-goal:escalation-4}}
@@ -350,14 +350,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-002-5 place
 scope: $scene-002-05
-type: external-technology
+type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:escalation}}
 
 @event-002-5 trigger
 scope: $scene-002-05
-event-type: revelation
+event-type: discovery
 trigger: {{event-trigger:escalation-mid}}
 impact: {{event-impact:escalation}}
 follow-through: {{event-follow-through:escalation-mid}}
@@ -365,38 +365,38 @@ follow-through: {{event-follow-through:escalation-mid}}
 @dialogue-turn-002-05-01 line
 scene: $scene-002-05
 speaker: $character-support-003
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:escalation-4-0}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:escalation-support-4-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-002-05-02 line
 scene: $scene-002-05
 speaker: $character-protagonist-001
-intent: warn
-subtext: {{dialogue-subtext:warn}}
-line-hint: {{dialogue-line-hint:escalation-4-1}}
-reaction-beat: {{dialogue-reaction:warn}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:escalation-protagonist-4-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-002-05-03 line
 scene: $scene-002-05
 speaker: $character-support-004
-intent: warn
-subtext: {{dialogue-subtext:warn}}
-line-hint: {{dialogue-line-hint:escalation-4-2}}
-reaction-beat: {{dialogue-reaction:warn}}
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
+line-hint: {{dialogue-line-hint:escalation-support-4-2}}
+reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-002-05-04 line
 scene: $scene-002-05
 speaker: $character-pressure-001
-intent: warn
-subtext: {{dialogue-subtext:warn}}
-line-hint: {{dialogue-line-hint:escalation-4-3}}
-reaction-beat: {{dialogue-reaction:warn}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:escalation-pressure-4-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-002-06 define
 chapter: $chapter-002
-showing-mode: direct-showing
+showing-mode: compressed-showing
 focalization: internal-single
 time-space: $location-tertiary-002
 introduction: {{scene-introduction:escalation-5}}
@@ -410,7 +410,7 @@ support-focus: $character-support-004
 state-change: {{scene-state-change:escalation-final}}
 
 @action-002-6 place
-action-mode: sacrifice
+action-mode: attempt
 scene: $scene-002-06
 actor: $character-protagonist-001
 goal: {{action-goal:escalation-5}}
@@ -419,7 +419,7 @@ result: {{action-result:escalation-final}}
 
 @conflict-002-6 place
 scope: $scene-002-06
-type: mixed
+type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:escalation}}
@@ -434,41 +434,41 @@ follow-through: {{event-follow-through:escalation-final}}
 @dialogue-turn-002-06-01 line
 scene: $scene-002-06
 speaker: $character-support-004
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:escalation-5-0}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:escalation-support-5-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-002-06-02 line
 scene: $scene-002-06
 speaker: $character-protagonist-001
-intent: warn
-subtext: {{dialogue-subtext:warn}}
-line-hint: {{dialogue-line-hint:escalation-5-1}}
-reaction-beat: {{dialogue-reaction:warn}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:escalation-protagonist-5-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-002-06-03 line
 scene: $scene-002-06
 speaker: $character-support-002
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:escalation-5-2}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:escalation-support-5-2}}
+reaction-beat: {{dialogue-reaction:warn}}
 
 @dialogue-turn-002-06-04 line
 scene: $scene-002-06
 speaker: $character-pressure-001
-intent: name-risk
-subtext: {{dialogue-subtext:name-risk}}
-line-hint: {{dialogue-line-hint:escalation-5-3}}
-reaction-beat: {{dialogue-reaction:name-risk}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:escalation-pressure-5-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @description-002-atmosphere apply
 scope: $chapter-002
 description-type: setting
 focus: {{description-focus:detective-police}}
 function: narrative
-rhythm-effect: contrast
+rhythm-effect: slow
 
 @dialogue-002-core apply
 scene: $scene-002-01
@@ -514,6 +514,6 @@ target-zone: $scene-002-06
 
 @cliffhanger-002-exit cut
 scope: $chapter-002
-cliffhanger-type: danger
+cliffhanger-type: interrupted-revelation
 cut-moment: {{cliffhanger-moment:escalation}}
 continuation-pressure: {{cliffhanger-continuation:escalation}}

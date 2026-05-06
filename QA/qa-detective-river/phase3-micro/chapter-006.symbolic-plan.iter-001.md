@@ -27,7 +27,7 @@ rule-reference: $world-rule-primary
 visible-symptom: {{visible-symptom:reversal}}
 action-limitation: {{action-limitation:reversal}}
 conflict-output: {{conflict-output-rule:reversal}}
-reveal-pattern: embed-rule-in-dialogue
+reveal-pattern: show-exception-to-reveal-rule
 
 @arc-006-protagonist map
 chapter: $chapter-006
@@ -39,9 +39,9 @@ exit-belief: {{exit-belief:protagonist}} after the reversal chapter
 @arc-006-relationship map
 chapter: $chapter-006
 pair: $character-protagonist-001, $character-support-001
-entry-dynamic: professional-alliance-with-unequal-risk
+entry-dynamic: careful-cooperation-strained-by-withheld-history
 stress-line: {{relationship-stress:reversal}}
-exit-dynamic: altered-but-legible-bond
+exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
 
 @alternation-006-core arrange
 chapter: $chapter-006
@@ -65,7 +65,7 @@ support-focus: $character-support-001
 state-change: {{scene-state-change:reversal-mid}}
 
 @action-006-1 place
-action-mode: evasion
+action-mode: pursuit
 scene: $scene-006-01
 actor: $character-protagonist-001
 goal: {{action-goal:reversal-0}}
@@ -74,14 +74,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-006-1 place
 scope: $scene-006-01
-type: external-society
+type: external-nature
 forces: $character-protagonist-001 versus $character-support-001
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:reversal}}
 
 @event-006-1 trigger
 scope: $scene-006-01
-event-type: deadline
+event-type: loss
 trigger: {{event-trigger:reversal-mid}}
 impact: {{event-impact:reversal}}
 follow-through: {{event-follow-through:reversal-mid}}
@@ -89,34 +89,34 @@ follow-through: {{event-follow-through:reversal-mid}}
 @dialogue-turn-006-01-01 line
 scene: $scene-006-01
 speaker: $character-support-001
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:reversal-0-0}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:reversal-support-0-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-006-01-02 line
 scene: $scene-006-01
 speaker: $character-protagonist-001
-intent: reframe
-subtext: {{dialogue-subtext:reframe}}
-line-hint: {{dialogue-line-hint:reversal-0-1}}
-reaction-beat: {{dialogue-reaction:reframe}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:reversal-protagonist-0-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-006-01-03 line
 scene: $scene-006-01
 speaker: $character-support-002
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:reversal-0-2}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
+line-hint: {{dialogue-line-hint:reversal-support-0-2}}
+reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-006-01-04 line
 scene: $scene-006-01
 speaker: $character-pressure-001
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:reversal-0-3}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:reversal-pressure-0-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-006-02 define
 chapter: $chapter-006
@@ -134,7 +134,7 @@ support-focus: $character-support-002
 state-change: {{scene-state-change:reversal-mid}}
 
 @action-006-2 place
-action-mode: revelation-act
+action-mode: sacrifice
 scene: $scene-006-02
 actor: $character-protagonist-001
 goal: {{action-goal:reversal-1}}
@@ -143,14 +143,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-006-2 place
 scope: $scene-006-02
-type: internal
+type: mixed
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:reversal}}
 
 @event-006-2 trigger
 scope: $scene-006-02
-event-type: deadline
+event-type: revelation
 trigger: {{event-trigger:reversal-mid}}
 impact: {{event-impact:reversal}}
 follow-through: {{event-follow-through:reversal-mid}}
@@ -158,38 +158,38 @@ follow-through: {{event-follow-through:reversal-mid}}
 @dialogue-turn-006-02-01 line
 scene: $scene-006-02
 speaker: $character-support-002
-intent: tease-probe
-subtext: {{dialogue-subtext:tease-probe}}
-line-hint: {{dialogue-line-hint:reversal-1-0}}
-reaction-beat: {{dialogue-reaction:tease-probe}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:reversal-support-1-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-006-02-02 line
 scene: $scene-006-02
 speaker: $character-protagonist-001
-intent: challenge
-subtext: {{dialogue-subtext:challenge}}
-line-hint: {{dialogue-line-hint:reversal-1-1}}
-reaction-beat: {{dialogue-reaction:challenge}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:reversal-protagonist-1-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-006-02-03 line
 scene: $scene-006-02
 speaker: $character-support-003
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:reversal-1-2}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:reversal-support-1-2}}
+reaction-beat: {{dialogue-reaction:warn}}
 
 @dialogue-turn-006-02-04 line
 scene: $scene-006-02
 speaker: $character-pressure-001
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:reversal-1-3}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:reversal-pressure-1-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-006-03 define
 chapter: $chapter-006
-showing-mode: dialogic
+showing-mode: compressed-showing
 focalization: internal-single
 time-space: $location-secondary
 introduction: {{scene-introduction:reversal-2}}
@@ -212,14 +212,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-006-3 place
 scope: $scene-006-03
-type: external-nature
+type: mixed
 forces: $character-protagonist-001 versus $character-support-003
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:reversal}}
 
 @event-006-3 trigger
 scope: $scene-006-03
-event-type: reversal
+event-type: crime
 trigger: {{event-trigger:reversal-mid}}
 impact: {{event-impact:reversal}}
 follow-through: {{event-follow-through:reversal-mid}}
@@ -227,38 +227,38 @@ follow-through: {{event-follow-through:reversal-mid}}
 @dialogue-turn-006-03-01 line
 scene: $scene-006-03
 speaker: $character-support-003
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:reversal-2-0}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:reversal-support-2-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-006-03-02 line
 scene: $scene-006-03
 speaker: $character-protagonist-001
-intent: probe
-subtext: {{dialogue-subtext:probe}}
-line-hint: {{dialogue-line-hint:reversal-2-1}}
-reaction-beat: {{dialogue-reaction:probe}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:reversal-protagonist-2-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-006-03-03 line
 scene: $scene-006-03
 speaker: $character-support-001
-intent: reframe
-subtext: {{dialogue-subtext:reframe}}
-line-hint: {{dialogue-line-hint:reversal-2-2}}
-reaction-beat: {{dialogue-reaction:reframe}}
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
+line-hint: {{dialogue-line-hint:reversal-support-2-2}}
+reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-006-03-04 line
 scene: $scene-006-03
 speaker: $character-pressure-001
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:reversal-2-3}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:reversal-pressure-2-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-006-04 define
 chapter: $chapter-006
-showing-mode: direct-showing
+showing-mode: dialogic
 focalization: internal-single
 time-space: $location-tertiary-004
 introduction: {{scene-introduction:reversal-3}}
@@ -272,7 +272,7 @@ support-focus: $character-support-001
 state-change: {{scene-state-change:reversal-mid}}
 
 @action-006-4 place
-action-mode: sacrifice
+action-mode: negotiation
 scene: $scene-006-04
 actor: $character-protagonist-001
 goal: {{action-goal:reversal-3}}
@@ -281,14 +281,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-006-4 place
 scope: $scene-006-04
-type: internal
+type: external-character
 forces: $character-protagonist-001 versus $character-support-002
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:reversal}}
 
 @event-006-4 trigger
 scope: $scene-006-04
-event-type: betrayal
+event-type: crime
 trigger: {{event-trigger:reversal-mid}}
 impact: {{event-impact:reversal}}
 follow-through: {{event-follow-through:reversal-mid}}
@@ -296,38 +296,38 @@ follow-through: {{event-follow-through:reversal-mid}}
 @dialogue-turn-006-04-01 line
 scene: $scene-006-04
 speaker: $character-support-001
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:reversal-3-0}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:reversal-support-3-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-006-04-02 line
 scene: $scene-006-04
 speaker: $character-protagonist-001
 intent: commit
 subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:reversal-3-1}}
+line-hint: {{dialogue-line-hint:reversal-protagonist-3-1}}
 reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-006-04-03 line
 scene: $scene-006-04
 speaker: $character-support-002
-intent: reframe
-subtext: {{dialogue-subtext:reframe}}
-line-hint: {{dialogue-line-hint:reversal-3-2}}
-reaction-beat: {{dialogue-reaction:reframe}}
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:reversal-support-3-2}}
+reaction-beat: {{dialogue-reaction:warn}}
 
 @dialogue-turn-006-04-04 line
 scene: $scene-006-04
 speaker: $character-pressure-001
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:reversal-3-3}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:reversal-pressure-3-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-006-05 define
 chapter: $chapter-006
-showing-mode: dialogic
+showing-mode: mixed
 focalization: internal-single
 time-space: $location-primary
 introduction: {{scene-introduction:reversal-4}}
@@ -350,14 +350,14 @@ result: the attempt reveals only part of the hidden structure and deepens the ne
 
 @conflict-006-5 place
 scope: $scene-006-05
-type: external-society
+type: internal
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:reversal}}
 
 @event-006-5 trigger
 scope: $scene-006-05
-event-type: reversal
+event-type: deadline
 trigger: {{event-trigger:reversal-mid}}
 impact: {{event-impact:reversal}}
 follow-through: {{event-follow-through:reversal-mid}}
@@ -365,38 +365,38 @@ follow-through: {{event-follow-through:reversal-mid}}
 @dialogue-turn-006-05-01 line
 scene: $scene-006-05
 speaker: $character-support-002
-intent: name-risk
-subtext: {{dialogue-subtext:name-risk}}
-line-hint: {{dialogue-line-hint:reversal-4-0}}
-reaction-beat: {{dialogue-reaction:name-risk}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:reversal-support-4-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-006-05-02 line
 scene: $scene-006-05
 speaker: $character-protagonist-001
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:reversal-4-1}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:reversal-protagonist-4-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-006-05-03 line
 scene: $scene-006-05
 speaker: $character-support-003
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:reversal-4-2}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: name-risk
+subtext: {{dialogue-subtext:name-risk}}
+line-hint: {{dialogue-line-hint:reversal-support-4-2}}
+reaction-beat: {{dialogue-reaction:name-risk}}
 
 @dialogue-turn-006-05-04 line
 scene: $scene-006-05
 speaker: $character-pressure-001
-intent: warn
-subtext: {{dialogue-subtext:warn}}
-line-hint: {{dialogue-line-hint:reversal-4-3}}
-reaction-beat: {{dialogue-reaction:warn}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:reversal-pressure-4-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @scene-006-06 define
 chapter: $chapter-006
-showing-mode: compressed-showing
+showing-mode: direct-showing
 focalization: internal-single
 time-space: $location-secondary
 introduction: {{scene-introduction:reversal-5}}
@@ -410,7 +410,7 @@ support-focus: $character-support-003
 state-change: {{scene-state-change:reversal-final}}
 
 @action-006-6 place
-action-mode: evasion
+action-mode: pursuit
 scene: $scene-006-06
 actor: $character-protagonist-001
 goal: {{action-goal:reversal-5}}
@@ -419,14 +419,14 @@ result: {{action-result:reversal-final}}
 
 @conflict-006-6 place
 scope: $scene-006-06
-type: external-character
+type: external-supernatural
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
 escalation: {{conflict-escalation:reversal}}
 
 @event-006-6 trigger
 scope: $scene-006-06
-event-type: deadline
+event-type: crime
 trigger: {{event-trigger:reversal-final}}
 impact: {{event-impact:reversal}}
 follow-through: {{event-follow-through:reversal-final}}
@@ -434,41 +434,41 @@ follow-through: {{event-follow-through:reversal-final}}
 @dialogue-turn-006-06-01 line
 scene: $scene-006-06
 speaker: $character-support-003
-intent: challenge
-subtext: {{dialogue-subtext:challenge}}
-line-hint: {{dialogue-line-hint:reversal-5-0}}
-reaction-beat: {{dialogue-reaction:challenge}}
+intent: probe
+subtext: {{dialogue-subtext:probe}}
+line-hint: {{dialogue-line-hint:reversal-support-5-0}}
+reaction-beat: {{dialogue-reaction:probe}}
 
 @dialogue-turn-006-06-02 line
 scene: $scene-006-06
 speaker: $character-protagonist-001
-intent: answer-honestly
-subtext: {{dialogue-subtext:answer-honestly}}
-line-hint: {{dialogue-line-hint:reversal-5-1}}
-reaction-beat: {{dialogue-reaction:answer-honestly}}
+intent: commit
+subtext: {{dialogue-subtext:commit}}
+line-hint: {{dialogue-line-hint:reversal-protagonist-5-1}}
+reaction-beat: {{dialogue-reaction:commit}}
 
 @dialogue-turn-006-06-03 line
 scene: $scene-006-06
 speaker: $character-support-001
-intent: deflect
-subtext: {{dialogue-subtext:deflect}}
-line-hint: {{dialogue-line-hint:reversal-5-2}}
-reaction-beat: {{dialogue-reaction:deflect}}
+intent: warn
+subtext: {{dialogue-subtext:warn}}
+line-hint: {{dialogue-line-hint:reversal-support-5-2}}
+reaction-beat: {{dialogue-reaction:warn}}
 
 @dialogue-turn-006-06-04 line
 scene: $scene-006-06
 speaker: $character-pressure-001
-intent: commit
-subtext: {{dialogue-subtext:commit}}
-line-hint: {{dialogue-line-hint:reversal-5-3}}
-reaction-beat: {{dialogue-reaction:commit}}
+intent: challenge
+subtext: {{dialogue-subtext:challenge}}
+line-hint: {{dialogue-line-hint:reversal-pressure-5-3}}
+reaction-beat: {{dialogue-reaction:challenge}}
 
 @description-006-atmosphere apply
 scope: $chapter-006
 description-type: setting
 focus: {{description-focus:detective-police}}
 function: narrative
-rhythm-effect: frame
+rhythm-effect: slow
 
 @dialogue-006-core apply
 scene: $scene-006-01
@@ -514,6 +514,6 @@ target-zone: $scene-006-06
 
 @cliffhanger-006-exit cut
 scope: $chapter-006
-cliffhanger-type: critical-decision
+cliffhanger-type: interrupted-revelation
 cut-moment: {{cliffhanger-moment:reversal}}
 continuation-pressure: {{cliffhanger-continuation:reversal}}
