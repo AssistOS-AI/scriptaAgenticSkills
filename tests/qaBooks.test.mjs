@@ -19,6 +19,8 @@ test('QA generation emits consolidated review and task artifacts', async () => {
       const libraryIndex = await readFile(`${qaRoot}/books/index.html`, 'utf8');
       const englishBook = await readFile(`${qaRoot}/books/en/qa-drama-silence.html`, 'utf8');
       const romanianBook = await readFile(`${qaRoot}/books/ro/qa-drama-silence.html`, 'utf8');
+      const englishDetectiveBook = await readFile(`${qaRoot}/books/en/qa-detective-river.html`, 'utf8');
+      const romanianDetectiveBook = await readFile(`${qaRoot}/books/ro/qa-detective-river.html`, 'utf8');
       const metricsIndex = await readFile(`${qaRoot}/books/metrics/index.html`, 'utf8');
       const metricsPage = await readFile(`${qaRoot}/books/metrics/qa-drama-silence.html`, 'utf8');
       const preservedVision = await readFile(`${qaRoot}/qa-drama-silence/book-vision.md`, 'utf8');
@@ -41,6 +43,12 @@ test('QA generation emits consolidated review and task artifacts', async () => {
       assert.ok((romanianBook.match(/<p>/g) ?? []).length >= 140);
       assert.match(englishBook, /\b(says|asks|replies|warns|admits|teases|cuts in)\b/);
       assert.match(romanianBook, /\b(spune|replica|raspunde|avertizeaza|murmura|adauga|marturiseste|rosteste)\b/);
+      const detectiveRoTitles = [...romanianDetectiveBook.matchAll(/<li><a href="#chapter-\d+">Capitolul \d+ — ([^<]+)<\/a>/g)].map((match) => match[1]);
+      const detectiveEnTitles = [...englishDetectiveBook.matchAll(/<li><a href="#chapter-\d+">Chapter \d+ — ([^<]+)<\/a>/g)].map((match) => match[1]);
+      assert.equal(new Set(detectiveRoTitles).size, detectiveRoTitles.length);
+      assert.equal(new Set(detectiveEnTitles).size, detectiveEnTitles.length);
+      assert.ok((romanianDetectiveBook.match(/Nu ocoli asta|Asculta:|Daca rostim asta|Asta e marginea de care ne apropiem/g) ?? []).length <= 1);
+      assert.ok((englishDetectiveBook.match(/Do not sidestep this|Listen:|If we say it aloud|This is the edge we are walking toward/g) ?? []).length <= 1);
       assert.match(metricsIndex, /SCRIPTA QA Metrics Library/);
       assert.match(metricsPage, /Localized issues/);
       assert.match(preservedVision, /qa-drama-silence/);

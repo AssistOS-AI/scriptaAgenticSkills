@@ -305,6 +305,11 @@ export function buildLocalizedEditionFromModel(model, {
   const contentLanguage = isBuiltInBookLanguage(requestedLanguage) ? requestedLanguage : 'en';
   const languagePack = getLanguagePack(contentLanguage);
   const profileFlavor = getProfileFlavor(model.profileId, contentLanguage);
+  const chapters = ensureDistinctChapterTitles(
+    model.chapters.map((chapter) => buildEditionChapter(model, chapter, contentLanguage)),
+    model,
+    contentLanguage
+  );
 
   return {
     requestedLanguage,
@@ -326,7 +331,7 @@ export function buildLocalizedEditionFromModel(model, {
     workForm: localizeWorkForm(model.workForm, contentLanguage),
     editorialProfile: model.editorialProfile,
     validationSummary: model.validationSummary?.metrics ?? null,
-    chapters: model.chapters.map((chapter) => buildEditionChapter(model, chapter, contentLanguage)),
+    chapters,
     coverPalette: buildCoverPalette(model.profileId),
     unsupportedNote: contentLanguage === requestedLanguage
       ? null
@@ -354,6 +359,7 @@ function buildEditionChapter(model, chapter, languageCode) {
 
   if (firstScene) {
     pushUniqueParagraph(paragraphs, buildChapterOpeningParagraph({
+      chapter,
       firstScene,
       chapterLocationSignal,
       chapterLocationSymbol,
@@ -377,7 +383,13 @@ function buildEditionChapter(model, chapter, languageCode) {
       languageCode
     }));
 
-    const renderedDialogue = renderEditionDialogue(scene.dialogueTurns.slice(0, dialogueLimit), languageCode);
+    const renderedDialogue = renderEditionDialogue({
+      model,
+      chapter,
+      scene,
+      turns: scene.dialogueTurns.slice(0, dialogueLimit),
+      languageCode
+    });
     if (renderedDialogue) {
       pushUniqueParagraph(paragraphs, renderedDialogue);
     }
@@ -385,6 +397,7 @@ function buildEditionChapter(model, chapter, languageCode) {
     pushUniqueParagraph(paragraphs, buildSceneConsequenceParagraph({
       scene,
       index,
+      sceneCount: chapter.scenes.length,
       languageCode
     }));
   });
@@ -392,6 +405,9 @@ function buildEditionChapter(model, chapter, languageCode) {
   pushUniqueParagraph(paragraphs, buildChapterClosingParagraph({
     chapter,
     lastScene,
+    outputState: renderOutputState(chapter, languageCode),
+    answerShift: localizeBookText(chapter.answerShift ?? '', languageCode),
+    chapterQuestion: localizeBookText(chapter.chapterQuestion ?? '', languageCode),
     finalBelief,
     finalRelationship,
     uncertainty,
@@ -412,27 +428,87 @@ function buildEditionChapter(model, chapter, languageCode) {
   };
 }
 
-function buildChapterOpeningParagraph({ firstScene, chapterLocationSignal, chapterLocationSymbol, profileFlavor, languageCode }) {
+function ensureDistinctChapterTitles(chapters, model, languageCode) {
+  if (model.chapters.length <= 5) {
+    return chapters;
+  }
+
+  return chapters.map((chapter, index) => {
+    const focus = buildChapterFocusLabel(model.chapters[index], languageCode);
+    if (!focus) {
+      return chapter;
+    }
+
+    return {
+      ...chapter,
+      displayTitle: `${chapter.displayTitle} / ${focus}`
+    };
+  });
+}
+
+function buildChapterFocusLabel(chapter, languageCode) {
+  const candidates = [
+    chapter.scenes[0]?.['anchor-object'],
+    chapter.scenes[0]?.['time-space'],
+    chapter.scenes.at(-1)?.['anchor-object'],
+    chapter.scenes.at(-1)?.['time-space']
+  ];
+
+  return candidates
+    .map((value) => compactFocusLabel(localizeBookText(value ?? '', languageCode), languageCode))
+    .find(Boolean) ?? '';
+}
+
+function compactFocusLabel(value, languageCode) {
+  let text = stripTerminalPunctuation(String(value ?? '').trim())
+    .replace(/^(the|a|an)\s+/i, '')
+    .replace(/^(o|un)\s+/i, '');
+
+  if (!text) {
+    return '';
+  }
+
+  const maxWords = languageCode === 'ro' ? 7 : 6;
+  const words = text.split(/\s+/);
+  if (words.length > maxWords) {
+    text = `${words.slice(0, maxWords).join(' ')}...`;
+  }
+
+  return sentenceCase(text);
+}
+
+function buildChapterOpeningParagraph({ chapter, firstScene, chapterLocationSignal, chapterLocationSymbol, profileFlavor, languageCode }) {
   const location = localizeBookText(firstScene['time-space'], languageCode);
   const placeSignal = stripTerminalPunctuation(sentenceCase(chapterLocationSignal || chapterLocationSymbol));
   const secondary = firstScene.participants[1];
   const pressure = firstScene.participants[2];
   const widenedCast = firstScene.participants.slice(3);
+  const variant = chapter.number % 3;
 
   if (languageCode === 'ro') {
-    return [
+    const openings = [
       `${firstScene.participants[0]} ajunge ${locationPhrase(location, languageCode)}, unde ${profileFlavor.atmosphere}.`,
+      `Cand ${firstScene.participants[0]} revine ${locationPhrase(location, languageCode)}, devine limpede ca ${profileFlavor.atmosphere}.`,
+      `${locationPhrase(location, languageCode)} ${firstScene.participants[0]} gaseste din nou acel loc in care ${profileFlavor.atmosphere}.`
+    ];
+    return [
+      openings[variant],
       placeSignal ? `${placeSignal}.` : '',
-      secondary ? `${secondary} citeste prea atent incaperea, iar ${pressure ?? 'presiunea locului'} tine in viata versiunea de evenimente pe care ceilalti ar prefera sa o creada.` : '',
-      widenedCast.length > 0 ? `${formatNameList(widenedCast, languageCode)} largesc imediat costul scenei, pentru ca nimic din ce se petrece aici nu mai apartine doar unui singur conflict.` : ''
+      secondary ? `${secondary} citeste incaperea altfel decat restul, iar ${pressure ?? 'presiunea locului'} lasa in viata exact versiunea de evenimente de care ceilalti ar avea nevoie.` : '',
+      widenedCast.length > 0 ? `${formatNameList(widenedCast, languageCode)} ridica imediat costul scenei, astfel incat nimic din ce se petrece aici nu mai poate fi pastrat drept un simplu incident local.` : ''
     ].filter(Boolean).join(' ').replace(/\s+/g, ' ').trim();
   }
 
-  return [
+  const openings = [
     `${firstScene.participants[0]} reaches ${location}, where ${profileFlavor.atmosphere}.`,
+    `When ${firstScene.participants[0]} returns to ${location}, it becomes obvious that ${profileFlavor.atmosphere}.`,
+    `Back in ${location}, ${firstScene.participants[0]} finds the kind of room where ${profileFlavor.atmosphere}.`
+  ];
+  return [
+    openings[variant],
     placeSignal ? `${placeSignal}.` : '',
-    secondary ? `${secondary} reads the room too carefully, while ${pressure ?? 'the pressure in the room'} keeps alive the version of events other people would rather believe.` : '',
-    widenedCast.length > 0 ? `${formatNameList(widenedCast, languageCode)} widen the cost at once, making it clear that the scene will not stay contained inside a single private wound.` : ''
+    secondary ? `${secondary} reads the room differently from everyone else, while ${pressure ?? 'the pressure in the room'} preserves the version of events other people need kept alive.` : '',
+    widenedCast.length > 0 ? `${formatNameList(widenedCast, languageCode)} widen the cost at once, so nothing happening here can stay contained inside a single private wound.` : ''
   ].filter(Boolean).join(' ').replace(/\s+/g, ' ').trim();
 }
 
@@ -467,48 +543,119 @@ function buildSceneTextureParagraph({ model, chapter, scene, index, languageCode
   const anchorObject = localizeBookText(scene['anchor-object'] ?? chapter.location['chapter-object'] ?? model.specialObjects[index % Math.max(model.specialObjects.length, 1)]?.name ?? model.plotElement.name ?? '', languageCode);
   const supportFocus = localizeBookText(scene['support-focus'] ?? '', languageCode);
   const sideParticipants = uniqueNames(scene.participants.slice(1));
+  const locationProfile = resolveLocationProfile(model, scene['time-space']);
+  const sensory = localizeBookText(locationProfile?.sensoryAnchor ?? '', languageCode);
+  const socialSignal = localizeBookText(locationProfile?.socialSignal ?? '', languageCode);
+  const conflictUse = localizeBookText(locationProfile?.conflictUse ?? '', languageCode);
+  const variant = index % 4;
 
   if (languageCode === 'ro') {
-    return buildNarrativeParagraph([
-      location ? `In ${location}, ${sideParticipants.length > 0 ? `${formatNameList(sideParticipants, languageCode)} impiedica scena sa se stranga intr-un duel curat.` : 'incaperea refuza sa lase conflictul sa para abstract.'}` : '',
-      anchorObject ? `${anchorObject} tot reapare in maini, pe masa ori sub lumina, facand presiunea tangibila.` : '',
-      supportFocus ? `${supportFocus} muta discret centrul de greutate al schimbului, astfel incat cine priveste devine la fel de important ca cine vorbeste.` : ''
-    ]);
+    const variants = [
+      [
+        location ? `In ${location}, ${sideParticipants.length > 0 ? `${formatNameList(sideParticipants, languageCode)} impiedica scena sa se stranga intr-un duel simplu.` : 'incaperea refuza sa lase conflictul sa para abstract.'}` : '',
+        sensory ? `${sentenceCase(sensory)} sta in aer ca o dovada care nu mai poate fi spalata.` : '',
+        anchorObject ? `${anchorObject} reapare dintr-o mana in alta si obliga pe toata lumea sa vorbeasca despre ceva material.` : ''
+      ],
+      [
+        socialSignal ? `${sentenceCase(socialSignal)}.` : '',
+        location ? `Tocmai de aceea, in ${location}, ${sideParticipants.length > 0 ? `${formatNameList(sideParticipants, languageCode)} se aud ca si cum ar masura fiecare cuvant la gram.` : 'fiecare gest pare deja trecut intr-un registru invizibil.'}` : '',
+        supportFocus ? `${supportFocus} schimba discret centrul de greutate al schimbului, fara sa para ca a cerut asta cu voce tare.` : ''
+      ],
+      [
+        anchorObject ? `${anchorObject} nu sta niciodata unde ar trebui sa stea; cand il atinge cineva, presiunea devine imediat vizibila.` : '',
+        conflictUse ? `${sentenceCase(conflictUse)}.` : '',
+        location ? `La ${location.replace(/^the\s+/i, '')}, nimeni nu mai poate pretinde ca discuta doar o abstractie.` : ''
+      ],
+      [
+        location ? `In ${location}, locul insusi pare sa tina minte cine a mutat primul proba si cine a intarziat deliberat raportul.` : '',
+        sensory ? `${sentenceCase(sensory)} face incaperea prea concreta pentru confortul birocratic al celor prezenti.` : '',
+        supportFocus ? `${supportFocus} ramane suficient de aproape de miezul scenei incat cine priveste conteaza aproape la fel de mult ca cine vorbeste.` : ''
+      ]
+    ];
+    return buildNarrativeParagraph(variants[variant]);
   }
 
-  return buildNarrativeParagraph([
-    location ? `In ${location}, ${sideParticipants.length > 0 ? `${formatNameList(sideParticipants, languageCode)} keep the scene from collapsing into a clean duel.` : 'the room refuses to let the conflict stay abstract.'}` : '',
-    anchorObject ? `${anchorObject} keeps resurfacing in hands, on tables, or under the light, turning pressure into something material.` : '',
-    supportFocus ? `${supportFocus} subtly shifts the center of gravity, so the watcher matters as much as the speaker.` : ''
-  ]);
+  const variants = [
+    [
+      location ? `In ${location}, ${sideParticipants.length > 0 ? `${formatNameList(sideParticipants, languageCode)} keep the scene from flattening into a simple duel.` : 'the room refuses to let the conflict stay abstract.'}` : '',
+      sensory ? `${sentenceCase(sensory)} hangs in the air like evidence no one can cleanly reinterpret.` : '',
+      anchorObject ? `${anchorObject} keeps changing hands and forces everyone back toward something physical.` : ''
+    ],
+    [
+      socialSignal ? `${sentenceCase(socialSignal)}.` : '',
+      location ? `That is why, in ${location}, ${sideParticipants.length > 0 ? `${formatNameList(sideParticipants, languageCode)} sound as if each word might be entered into a report.` : 'every movement already feels pre-recorded.'}` : '',
+      supportFocus ? `${supportFocus} subtly moves the center of gravity without ever asking for it outright.` : ''
+    ],
+    [
+      anchorObject ? `${anchorObject} never stays where it should; the moment someone touches it, the pressure becomes visible.` : '',
+      conflictUse ? `${sentenceCase(conflictUse)}.` : '',
+      location ? `At ${location}, no one can keep pretending the argument is only theoretical.` : ''
+    ],
+    [
+      location ? `In ${location}, the place itself seems to remember who moved the evidence first and who delayed the report on purpose.` : '',
+      sensory ? `${sentenceCase(sensory)} makes the room too concrete for bureaucratic comfort.` : '',
+      supportFocus ? `${supportFocus} stays close enough to the center that the watcher matters almost as much as the speaker.` : ''
+    ]
+  ];
+  return buildNarrativeParagraph(variants[variant]);
 }
 
-function buildSceneConsequenceParagraph({ scene, index, languageCode }) {
+function buildSceneConsequenceParagraph({ scene, index, sceneCount, languageCode }) {
   const goal = normalizeNarrativePhrase(scene.action.goal ?? '', languageCode);
   const obstacle = normalizeNarrativePhrase(scene.action.obstacle ?? '', languageCode);
   const stakes = normalizeNarrativePhrase(scene.conflictPacket.stakes ?? '', languageCode);
   const followThrough = normalizeNarrativePhrase(scene.event['follow-through'] ?? '', languageCode);
   const stateChange = normalizeNarrativePhrase(scene['state-change'] ?? '', languageCode);
   const focal = scene.participants[0] ?? (languageCode === 'ro' ? 'protagonistul' : 'the protagonist');
+  const isFinalScene = index === sceneCount - 1;
+  const variant = isFinalScene ? 'final' : index % 3;
 
   if (languageCode === 'ro') {
-    return buildNarrativeParagraph([
-      goal ? `${focal} continua sa urmareasca ${lowerFirst(stripTerminalPunctuation(goal))}, dar ${lowerFirst(stripTerminalPunctuation(obstacle || 'presiunea se adapteaza mai repede decat oricine ar vrea sa admita'))}.` : '',
-      stakes ? `Miza nu mai incape doar in intentie, fiindca ${lowerFirst(stripTerminalPunctuation(stakes))}.` : '',
-      followThrough ? `${followThrough}.` : '',
-      stateChange ? `La capatul schimbului, ${lowerFirst(stripTerminalPunctuation(stateChange))}.` : ''
-    ]);
+    const variants = {
+      0: [
+        goal ? `${focal} merge mai departe hotarat sa ${lowerFirst(stripTerminalPunctuation(goal))}, dar ${lowerFirst(stripTerminalPunctuation(obstacle || 'presiunea se adapteaza mai repede decat ar vrea cineva sa recunoasca'))}.` : '',
+        stateChange ? `Din punctul acesta, ${lowerFirst(stripTerminalPunctuation(stateChange))}.` : ''
+      ],
+      1: [
+        followThrough ? `${followThrough}.` : '',
+        stakes ? `Brusc, conflictul apasa peste ${lowerFirst(stripTerminalPunctuation(stakes))}.` : ''
+      ],
+      2: [
+        goal ? `${focal} nu mai incearca doar sa actioneze; incearca sa obtina timp pentru a ${lowerFirst(stripTerminalPunctuation(goal))}.` : '',
+        stakes ? `Asta impinge in fata exact ${lowerFirst(stripTerminalPunctuation(stakes))}.` : ''
+      ],
+      final: [
+        goal ? `${focal} intelege ca urmatorul pas cere sa ${lowerFirst(stripTerminalPunctuation(goal))}.` : '',
+        followThrough ? `${followThrough}.` : '',
+        stateChange ? `La capatul schimbului, ${lowerFirst(stripTerminalPunctuation(stateChange))}.` : ''
+      ]
+    };
+    return buildNarrativeParagraph(variants[variant]);
   }
 
-  return buildNarrativeParagraph([
-    goal ? `${focal} keeps working toward ${lowerFirst(stripTerminalPunctuation(goal))}, but ${lowerFirst(stripTerminalPunctuation(obstacle || 'the pressure adapts faster than anyone admits'))}.` : '',
-    stakes ? `The stakes no longer fit inside intention alone, because ${lowerFirst(stripTerminalPunctuation(stakes))}.` : '',
-    followThrough ? `${followThrough}.` : '',
-    stateChange ? `By the end of the exchange, ${lowerFirst(stripTerminalPunctuation(stateChange))}.` : ''
-  ]);
+  const variants = {
+    0: [
+      goal ? `${focal} keeps moving with the intention to ${lowerFirst(stripTerminalPunctuation(goal))}, but ${lowerFirst(stripTerminalPunctuation(obstacle || 'the pressure adapts faster than anyone wants to admit'))}.` : '',
+      stateChange ? `From this point onward, ${lowerFirst(stripTerminalPunctuation(stateChange))}.` : ''
+    ],
+    1: [
+      followThrough ? `${followThrough}.` : '',
+      stakes ? `The conflict now presses directly against ${lowerFirst(stripTerminalPunctuation(stakes))}.` : ''
+    ],
+    2: [
+      goal ? `${focal} is no longer trying merely to act; ${lowerFirst(stripTerminalPunctuation(goal))} becomes the only way to buy time.` : '',
+      stakes ? `That pushes ${lowerFirst(stripTerminalPunctuation(stakes))} into the open.` : ''
+    ],
+    final: [
+      goal ? `${focal} understands that the next move now requires ${lowerFirst(stripTerminalPunctuation(goal))}.` : '',
+      followThrough ? `${followThrough}.` : '',
+      stateChange ? `By the end of the exchange, ${lowerFirst(stripTerminalPunctuation(stateChange))}.` : ''
+    ]
+  };
+  return buildNarrativeParagraph(variants[variant]);
 }
 
-function buildChapterClosingParagraph({ lastScene, finalBelief, finalRelationship, uncertainty, isFinalChapter, languageCode }) {
+function buildChapterClosingParagraph({ chapter, lastScene, outputState, answerShift, chapterQuestion, finalBelief, finalRelationship, uncertainty, isFinalChapter, languageCode }) {
   const focalCharacter = lastScene?.participants?.[0] ?? 'the protagonist';
   const renderedUncertainty = finalizeNarrativeSentence(uncertainty);
 
@@ -520,7 +667,12 @@ function buildChapterClosingParagraph({ lastScene, finalBelief, finalRelationshi
       ].filter(Boolean).join(' ');
     }
 
-    return `Nimic din ceea ce tocmai s-a deschis nu se mai inchide usor.${renderedUncertainty ? ` ${renderedUncertainty}` : ''}`;
+    return buildNarrativeParagraph([
+      outputState ? `${sentenceCase(stripTerminalPunctuation(outputState))}.` : 'Nimic din ceea ce tocmai s-a deschis nu se mai inchide usor.',
+      answerShift ? `${sentenceCase(stripTerminalPunctuation(answerShift))}.` : '',
+      chapterQuestion ? `Intrebarea ramasa in aer se strange acum in jurul a ceea ce inca nu poate fi spus limpede: ${lowerFirst(stripTerminalPunctuation(chapterQuestion))}.` : '',
+      renderedUncertainty
+    ]);
   }
 
   if (isFinalChapter) {
@@ -530,7 +682,12 @@ function buildChapterClosingParagraph({ lastScene, finalBelief, finalRelationshi
     ].filter(Boolean).join(' ');
   }
 
-  return `Nothing that has opened here will close easily.${renderedUncertainty ? ` ${renderedUncertainty}` : ''}`;
+  return buildNarrativeParagraph([
+    outputState ? `${sentenceCase(stripTerminalPunctuation(outputState))}.` : 'Nothing that has opened here will close easily.',
+    answerShift ? `${sentenceCase(stripTerminalPunctuation(answerShift))}.` : '',
+    chapterQuestion ? `The live question now tightens around what still refuses a clean answer: ${lowerFirst(stripTerminalPunctuation(chapterQuestion))}.` : '',
+    renderedUncertainty
+  ]);
 }
 
 function roleLead(role, languageCode) {
@@ -668,12 +825,22 @@ function normalizeSentence(sentence) {
   return `${text.replace(/[.?!]+$/g, '')}.`;
 }
 
-function renderEditionDialogue(turns, languageCode) {
+function renderEditionDialogue({ model, chapter, scene, turns, languageCode }) {
   if (!turns?.length) {
     return '';
   }
 
-  return turns.map((turn, index) => renderDialogueTurn(turn, index, languageCode)).join(' ');
+  const cuePool = buildDialogueCuePool(scene, languageCode);
+  return turns
+    .map((turn, index) => renderDialogueTurn({
+      turn,
+      index,
+      languageCode,
+      speakerVoice: resolveSpeakerVoice(model, turn.speaker),
+      cue: cuePool[index % Math.max(cuePool.length, 1)] ?? cuePool.at(-1) ?? '',
+      hasPriorTurn: index > 0
+    }))
+    .join(' ');
 }
 
 function dialogueTurnLimit(dialogueDensity) {
@@ -686,116 +853,174 @@ function dialogueTurnLimit(dialogueDensity) {
   return 2;
 }
 
-function renderDialogueTurn(turn, index, languageCode) {
-  const line = buildDialogueSurface(turn, index, languageCode);
-  const verb = dialogueVerb(turn.intent, languageCode, index);
+function renderDialogueTurn({ turn, index, languageCode, speakerVoice, cue, hasPriorTurn }) {
+  const line = buildDialogueSurface({ turn, cue, speakerVoice, index, languageCode });
+  const verb = dialogueVerb(turn.intent, languageCode, index, speakerVoice);
+  const beatPhrase = dialogueBeatPhrase(speakerVoice, languageCode, index);
+  const beatSentence = `${turn.speaker} ${beatPhrase}.`;
 
   if (languageCode === 'ro') {
     const templates = [
+      `${turn.speaker} ${beatPhrase}: "${line}"`,
+      `${hasPriorTurn ? 'Fara sa lase replica precedenta sa se aseze, ' : ''}${turn.speaker} ${verb}: "${line}"`,
       `"${line}" ${turn.speaker} ${verb}.`,
-      `${turn.speaker} ${verb}: "${line}".`,
-      `"${line}", ${turn.speaker} ${verb}.`,
-      `${turn.speaker} ${verb} mai jos, aproape pentru sine: "${line}".`
+      `${beatSentence} "${line}"`
     ];
     return templates[index % templates.length];
   }
 
   const templates = [
+    `${turn.speaker} ${beatPhrase}: "${line}"`,
+    `${hasPriorTurn ? 'Without letting the previous line settle, ' : ''}${turn.speaker} ${verb}: "${line}"`,
     `"${line}" ${turn.speaker} ${verb}.`,
-    `${turn.speaker} ${verb}, "${line}."`,
-    `"${line}," ${turn.speaker} ${verb}.`,
-    `${turn.speaker} ${verb} more quietly, "${line}."`
+    `${beatSentence} "${line}"`
   ];
   return templates[index % templates.length];
 }
 
-function buildDialogueSurface(turn, index, languageCode) {
-  const cue = stripTerminalPunctuation(sentenceCase(localizeBookText(turn['line-hint'] ?? '', languageCode)));
+function buildDialogueSurface({ turn, cue, speakerVoice, index, languageCode }) {
+  const cleanCue = stripTerminalPunctuation(sentenceCase(cue || localizeBookText(turn['line-hint'] ?? '', languageCode)));
+  const loweredCue = lowerFirst(cleanCue);
   const templates = languageCode === 'ro'
     ? {
-      probe: [
-        `Asculta: ${lowerFirst(cue)}`,
-        `Atunci spune-mi asta limpede: ${lowerFirst(cue)}`
-      ],
-      deflect: [
-        `Nu ocoli asta: ${lowerFirst(cue)}`,
-        `Stii bine la ce ne intoarcem: ${lowerFirst(cue)}`
-      ],
-      commit: [
-        `Bine, mergem pana la capat cu asta: ${lowerFirst(cue)}`,
-        `Atunci ramai cu mine aici: ${lowerFirst(cue)}`
-      ],
-      warn: [
-        `Atentie la pasul urmator: ${lowerFirst(cue)}`,
-        `Daca rostim asta, nu mai putem da inapoi: ${lowerFirst(cue)}`
-      ],
-      challenge: [
-        `Atunci raspunde la asta: ${lowerFirst(cue)}`,
-        `Nu-mi cere sa ignor asta: ${lowerFirst(cue)}`
-      ],
-      reframe: [
-        `Priveste altfel lucrurile: ${lowerFirst(cue)}`,
-        `Nu asta e cheia, ci asta: ${lowerFirst(cue)}`
-      ],
-      'answer-honestly': [
-        `Bine, adevarul e acesta: ${lowerFirst(cue)}`,
-        `Daca vrei raspunsul curat, e acesta: ${lowerFirst(cue)}`
-      ],
-      'tease-probe': [
-        `Ironic, nu? ${cue}`,
-        `Uite ce continuam sa ocolim: ${lowerFirst(cue)}`
-      ],
-      'name-risk': [
-        `Hai sa numim riscul pe sleau: ${lowerFirst(cue)}`,
-        `Asta e marginea de care ne apropiem: ${lowerFirst(cue)}`
-      ],
-      default: [cue]
+      protagonist: {
+        probe: [
+          `Pornim de la faptul simplu ca ${loweredCue}`,
+          `Eu raman la proba asta: ${loweredCue}`
+        ],
+        challenge: [
+          `Nu-mi cere sa trec mai departe pana nu lamurim asta: ${loweredCue}`,
+          `Daca vrei semnatura mea, explica-mi asta: ${loweredCue}`
+        ],
+        commit: [
+          `Atunci merg cu asta pana la capat: ${loweredCue}`,
+          `Bine, duc concluzia pana unde trebuie: ${loweredCue}`
+        ],
+        default: [
+          cleanCue,
+          `Pentru mine asta schimba tot: ${loweredCue}`,
+          `Aici se rupe povestea oficiala: ${loweredCue}`
+        ]
+      },
+      counterpart: {
+        probe: [
+          `Pe teren lucrurile arata asa: ${loweredCue}`,
+          `Tot aici ne aduce si apa: ${loweredCue}`
+        ],
+        warn: [
+          `Daca iesim cu asta afara, nu mai exista drum scurt inapoi: ${loweredCue}`,
+          `Stii ce inseamna pentru oras daca ramane asa: ${loweredCue}`
+        ],
+        default: [
+          `Nu-mi suna a coincidenta: ${loweredCue}`,
+          `De aici incolo nu mai vorbim doar despre un detaliu: ${loweredCue}`,
+          cleanCue
+        ]
+      },
+      pressure: {
+        deflect: [
+          `Biroul nu poate merge pe formula asta: ${loweredCue}`,
+          `Transformati prea repede un detaliu in verdict: ${loweredCue}`
+        ],
+        warn: [
+          `Daca puneti asta in procesul-verbal, aprindeti tot dosarul: ${loweredCue}`,
+          `Ati trecut deja pragul sigur daca sustineti asta: ${loweredCue}`
+        ],
+        default: [
+          `Exagerati amploarea consecintei: ${loweredCue}`,
+          `Nu confundati presiunea cu dovada: ${loweredCue}`,
+          cleanCue
+        ]
+      },
+      support: {
+        probe: [
+          `Detaliul care nu ma lasa in pace e acesta: ${loweredCue}`,
+          `Dosarul se rupe exact aici: ${loweredCue}`
+        ],
+        reframe: [
+          `Nu asta trebuie privit intai, ci restul pe care il trage dupa el: ${loweredCue}`,
+          `Daca mutam accentul putin, se vede altceva: ${loweredCue}`
+        ],
+        default: [
+          `Asta e partea pe care nimeni nu vrea s-o scrie curat: ${loweredCue}`,
+          `Tocmai aici incepe sa miroasa a musamalizare: ${loweredCue}`,
+          cleanCue
+        ]
+      }
     }
     : {
-      probe: [
-        `Listen: ${lowerFirst(cue)}`,
-        `Then answer me this plainly: ${lowerFirst(cue)}`
-      ],
-      deflect: [
-        `Do not sidestep this: ${lowerFirst(cue)}`,
-        `You know what this keeps returning to: ${lowerFirst(cue)}`
-      ],
-      commit: [
-        `Fine, then we carry this through: ${lowerFirst(cue)}`,
-        `Stay with me on this: ${lowerFirst(cue)}`
-      ],
-      warn: [
-        `Watch the next step: ${lowerFirst(cue)}`,
-        `If we say it aloud, there is no easy retreat: ${lowerFirst(cue)}`
-      ],
-      challenge: [
-        `Then answer this: ${lowerFirst(cue)}`,
-        `Do not ask me to ignore this: ${lowerFirst(cue)}`
-      ],
-      reframe: [
-        `Look at it another way: ${lowerFirst(cue)}`,
-        `That is not the center of it; this is: ${lowerFirst(cue)}`
-      ],
-      'answer-honestly': [
-        `All right, the truth is this: ${lowerFirst(cue)}`,
-        `If you want the clean answer, it is this: ${lowerFirst(cue)}`
-      ],
-      'tease-probe': [
-        `Funny, isn't it? ${cue}`,
-        `Here is what we keep circling: ${lowerFirst(cue)}`
-      ],
-      'name-risk': [
-        `Let us name the risk plainly: ${lowerFirst(cue)}`,
-        `This is the edge we are walking toward: ${lowerFirst(cue)}`
-      ],
-      default: [cue]
+      protagonist: {
+        probe: [
+          `We start from one simple fact: ${loweredCue}`,
+          `This is the evidence I am staying with: ${loweredCue}`
+        ],
+        challenge: [
+          `Do not ask me to move past this before it is explained: ${loweredCue}`,
+          `If you want my signature, explain this to me: ${loweredCue}`
+        ],
+        commit: [
+          `Then I carry this all the way through: ${loweredCue}`,
+          `Fine, I take the conclusion where it has to go: ${loweredCue}`
+        ],
+        default: [
+          cleanCue,
+          `For me, this changes everything: ${loweredCue}`,
+          `This is where the official story breaks apart: ${loweredCue}`
+        ]
+      },
+      counterpart: {
+        probe: [
+          `Out in the field, it looks like this: ${loweredCue}`,
+          `The river keeps bringing us back to the same thing: ${loweredCue}`
+        ],
+        warn: [
+          `If we take this outside, there is no short path back: ${loweredCue}`,
+          `You know what this means for the city if it holds: ${loweredCue}`
+        ],
+        default: [
+          `That does not read as coincidence to me: ${loweredCue}`,
+          `From here on, we are no longer talking about a detail: ${loweredCue}`,
+          cleanCue
+        ]
+      },
+      pressure: {
+        deflect: [
+          `The office cannot move on that formulation: ${loweredCue}`,
+          `You are turning a detail into a verdict too quickly: ${loweredCue}`
+        ],
+        warn: [
+          `Put that in the record and you set the whole file on fire: ${loweredCue}`,
+          `You are already past the safe threshold if you insist on this: ${loweredCue}`
+        ],
+        default: [
+          `You are overstating the consequence: ${loweredCue}`,
+          `Do not mistake pressure for proof: ${loweredCue}`,
+          cleanCue
+        ]
+      },
+      support: {
+        probe: [
+          `This is the detail I cannot make leave me alone: ${loweredCue}`,
+          `The file tears open exactly here: ${loweredCue}`
+        ],
+        reframe: [
+          `That is not the first thing to look at; look at what it drags behind it: ${loweredCue}`,
+          `Shift the emphasis a little and something else appears: ${loweredCue}`
+        ],
+        default: [
+          `This is the part no one wants written cleanly: ${loweredCue}`,
+          `This is where it starts smelling like a cover-up: ${loweredCue}`,
+          cleanCue
+        ]
+      }
     };
 
-  const variants = templates[turn.intent] ?? templates.default;
+  const voiceTemplates = templates[speakerVoice] ?? templates.support;
+  const variants = voiceTemplates[turn.intent] ?? voiceTemplates.default;
   return variants[index % variants.length];
 }
 
-function dialogueVerb(intent, languageCode, index) {
+function dialogueVerb(intent, languageCode, index, speakerVoice) {
   const ro = {
     probe: ['spune', 'intreaba', 'insista'],
     deflect: ['replica', 'murmura', 'adauga'],
@@ -818,7 +1043,85 @@ function dialogueVerb(intent, languageCode, index) {
     'tease-probe': ['says with a thin smile', 'teases', 'says'],
     'name-risk': ['says flatly', 'names outright', 'says']
   };
-  const pool = (languageCode === 'ro' ? ro : en)[intent] ?? (languageCode === 'ro' ? ['spune'] : ['says']);
+  const voiceFallback = languageCode === 'ro'
+    ? speakerVoice === 'pressure'
+      ? ['spune rece', 'replica scurt', 'adauga']
+      : speakerVoice === 'protagonist'
+        ? ['spune', 'taie scurt', 'insista']
+        : ['spune']
+    : speakerVoice === 'pressure'
+      ? ['says flatly', 'cuts in', 'adds']
+      : speakerVoice === 'protagonist'
+        ? ['says', 'cuts in', 'insists']
+        : ['says'];
+  const pool = (languageCode === 'ro' ? ro : en)[intent] ?? voiceFallback;
+  return pool[index % pool.length];
+}
+
+function buildDialogueCuePool(scene, languageCode) {
+  const candidates = [
+    scene.event.trigger,
+    scene.event.impact,
+    scene.conflict,
+    scene.development,
+    scene.resolution,
+    scene.event['follow-through'],
+    scene['state-change']
+  ];
+
+  const cleaned = candidates
+    .map((value) => condenseDialogueCue(localizeBookText(value ?? '', languageCode), languageCode))
+    .filter(Boolean);
+
+  return [...new Set(cleaned)];
+}
+
+function condenseDialogueCue(value, languageCode) {
+  let text = stripTerminalPunctuation(sentenceCase(String(value ?? '').replace(/\s+/g, ' ').trim()));
+  if (!text) {
+    return '';
+  }
+
+  const clauseBreak = languageCode === 'ro'
+    ? /\s+(?:in timp ce|fiindca|pentru ca|dar)\s+/i
+    : /\s+(?:while|because|but)\s+/i;
+  text = text.split(clauseBreak)[0]?.trim() ?? text;
+
+  const words = text.split(/\s+/);
+  if (words.length > 18) {
+    text = words.slice(0, 18).join(' ');
+  }
+
+  return text;
+}
+
+function resolveSpeakerVoice(model, speaker) {
+  if (speaker === model.characters.protagonist.name) {
+    return 'protagonist';
+  }
+  if (speaker === model.characters.counterpart.name) {
+    return 'counterpart';
+  }
+  if (speaker === model.characters.pressure.name) {
+    return 'pressure';
+  }
+  return 'support';
+}
+
+function dialogueBeatPhrase(speakerVoice, languageCode, index) {
+  const ro = {
+    protagonist: ['nu ridica deloc vocea', 'tine dosarul inchis in palma', 'vorbeste ca si cum ar dicta un proces-verbal'],
+    counterpart: ['arunca o privire spre usa', 'ramane cu umerii sprijiniti de masa', 'isi alege vorbele ca pe niste unelte ude'],
+    pressure: ['face din calm o forma de ordin', 'ramane perfect drept', 'isi masoara tonul ca pentru minuta'],
+    support: ['se uita intai la ceilalti', 'rasuceste eticheta dintre degete', 'vorbeste ca si cum ar risca prea mult']
+  };
+  const en = {
+    protagonist: ['does not raise a voice at all', 'keeps the file closed in one hand', 'speaks as if dictating a report'],
+    counterpart: ['glances once toward the door', 'keeps a shoulder against the table', 'chooses each word like a wet tool'],
+    pressure: ['turns calm into a form of command', 'stands perfectly upright', 'measures the tone as if for a minute sheet'],
+    support: ['looks at the others first', 'rolls a tag between two fingers', 'speaks as if risking too much']
+  };
+  const pool = (languageCode === 'ro' ? ro : en)[speakerVoice] ?? (languageCode === 'ro' ? ro.support : en.support);
   return pool[index % pool.length];
 }
 
@@ -851,6 +1154,19 @@ function formatNameList(names, languageCode) {
 
 function uniqueNames(names) {
   return [...new Set((names ?? []).filter(Boolean))];
+}
+
+function resolveLocationProfile(model, locationName) {
+  const target = String(locationName ?? '').trim();
+  if (!target) {
+    return null;
+  }
+
+  return [
+    model.primaryLocation,
+    model.secondaryLocation,
+    ...(model.supportingLocations ?? [])
+  ].find((entry) => entry?.name === target) ?? null;
 }
 
 function normalizeNarrativePhrase(value, languageCode) {

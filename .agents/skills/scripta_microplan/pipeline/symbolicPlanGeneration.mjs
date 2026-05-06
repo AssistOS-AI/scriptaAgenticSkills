@@ -671,8 +671,8 @@ function buildChapterRoleSequence(chapterCount, profile, chapterConfig) {
     'bridge',
     'revelation',
     'reversal',
-    'escalation',
     'investigation',
+    'escalation',
     'bridge',
     'revelation',
     'culmination',
@@ -744,7 +744,17 @@ function dialogueTurnBlueprints({
   });
 
   return speakerOrder.map((speaker, turnIndex) => {
-    const intent = random.pick(intentTypes);
+    const intent = resolveDialogueIntent({
+      speaker,
+      protagonistRef,
+      counterpartRef,
+      pressureRef,
+      turnIndex,
+      role,
+      sceneIndex,
+      random,
+      intentTypes
+    });
     return {
       speaker,
       intent,
@@ -752,13 +762,52 @@ function dialogueTurnBlueprints({
         ? 'tests the visible argument for its hidden weakness'
         : turnIndex === speakerOrder.length - 1
           ? 'forces the scene to expose its hidden cost before retreat is possible'
-          : 'changes the balance of power by naming what the room wanted left implied',
-      lineHint: `{{dialogue-line-hint:${role}-${sceneIndex}-${turnIndex}}}`,
+        : 'changes the balance of power by naming what the room wanted left implied',
+      lineHint: `{{dialogue-line-hint:${role}-${speakerRoleToken(speaker, protagonistRef, counterpartRef, pressureRef)}-${sceneIndex}-${turnIndex}}}`,
       reactionBeat: turnIndex === speakerOrder.length - 1
         ? 'the last line leaves no one able to return to the safer version of events'
         : 'the exchange strips another layer of safety from the scene'
     };
   });
+}
+
+function resolveDialogueIntent({
+  speaker,
+  protagonistRef,
+  counterpartRef,
+  pressureRef,
+  turnIndex,
+  role,
+  sceneIndex,
+  random,
+  intentTypes
+}) {
+  const speakerRole = speakerRoleToken(speaker, protagonistRef, counterpartRef, pressureRef);
+  const rolePools = {
+    protagonist: role === 'culmination' || role === 'reversal'
+      ? ['challenge', 'commit', 'answer-honestly']
+      : role === 'investigation'
+        ? ['probe', 'challenge', 'answer-honestly']
+        : ['probe', 'commit', 'challenge'],
+    counterpart: sceneIndex % 2 === 0
+      ? ['probe', 'reframe', 'warn']
+      : ['probe', 'tease-probe', 'name-risk'],
+    pressure: role === 'culmination'
+      ? ['warn', 'challenge', 'deflect']
+      : ['deflect', 'warn', 'challenge'],
+    support: sceneIndex % 2 === 0
+      ? ['probe', 'reframe', 'name-risk']
+      : ['probe', 'tease-probe', 'warn']
+  };
+  const pool = rolePools[speakerRole] ?? intentTypes;
+  return pool[Math.min(turnIndex, pool.length - 1)] ?? random.pick(pool);
+}
+
+function speakerRoleToken(speaker, protagonistRef, counterpartRef, pressureRef) {
+  if (speaker === protagonistRef) return 'protagonist';
+  if (speaker === counterpartRef) return 'counterpart';
+  if (speaker === pressureRef) return 'pressure';
+  return 'support';
 }
 
 function deriveNarrativeScale(options) {
