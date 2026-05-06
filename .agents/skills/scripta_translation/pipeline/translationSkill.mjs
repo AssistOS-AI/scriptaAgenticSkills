@@ -3,6 +3,7 @@ import { normalizePipelineOptions } from './options.mjs';
 import { renderBookHtml } from './editionRenderer.mjs';
 import { writeStageArtifact, writeStageDataArtifact } from './exportArtifacts.mjs';
 import { createChunkTranslationTool } from '../tools/chunkTranslationTool.mjs';
+import { buildLocalizedEditionFromModel } from './bookWriter.mjs';
 import {
   buildChapterDisplayTitle,
   getLanguagePack,
@@ -27,6 +28,7 @@ export async function runTranslationSkill(input = {}) {
 
   const sourceBundle = await readStructuredMarkdown(sourceBundleArtifact.filePath, null);
   const sourceEdition = sourceBundle?.sourceEdition;
+  const translationModel = sourceBundle?.translationModel;
 
   if (!sourceEdition) {
     throw new Error(`The translation source bundle in ${options.workspaceRoot} is missing the source edition payload.`);
@@ -57,6 +59,7 @@ export async function runTranslationSkill(input = {}) {
     });
     const edition = await buildTranslatedEdition({
       sourceEdition,
+      translationModel,
       targetLanguage,
       translationInstructions,
       translationTool
@@ -120,10 +123,25 @@ export async function runTranslationSkill(input = {}) {
   };
 }
 
-async function buildTranslatedEdition({ sourceEdition, targetLanguage, translationInstructions, translationTool }) {
+async function buildTranslatedEdition({ sourceEdition, translationModel, targetLanguage, translationInstructions, translationTool }) {
   const builtIn = isBuiltInBookLanguage(targetLanguage);
   const translationInstruction = resolveTranslationInstruction(translationInstructions, targetLanguage);
   const contentLanguage = builtIn ? targetLanguage : sourceEdition.contentLanguage;
+  if (builtIn && translationModel) {
+    const renderedEdition = buildLocalizedEditionFromModel(translationModel, {
+      requestedLanguage: targetLanguage,
+      mode: 'chunk-translation',
+      translationInstruction,
+      generatedWith: 'SCRIPTA Translation Skill'
+    });
+    await recordEditionTrace({
+      translationTool,
+      sourceEdition,
+      renderedEdition
+    });
+    return renderedEdition;
+  }
+
   const translated = builtIn
     ? {
         title: localizeScenarioTitle(sourceEdition.title, sourceEdition.profileId, targetLanguage),
@@ -182,6 +200,54 @@ async function buildTranslatedEdition({ sourceEdition, targetLanguage, translati
       : `Requested target language "${targetLanguage}" was recorded, but the translation stage only ships fluent packs for English and Romanian. This edition preserves the source-language narrative while keeping the translation instruction in metadata.`,
     generatedWith: 'SCRIPTA Translation Skill'
   };
+}
+
+async function recordEditionTrace({ translationTool, sourceEdition, renderedEdition }) {
+  await translationTool.recordSection({
+    path: 'front.title',
+    source: sourceEdition.title,
+    translated: renderedEdition.title,
+    metadata: { granularity: 'section' }
+  });
+  await translationTool.recordSection({
+    path: 'front.subtitle',
+    source: sourceEdition.subtitle,
+    translated: renderedEdition.subtitle,
+    metadata: { granularity: 'section' }
+  });
+  await translationTool.recordSection({
+    path: 'front.premise',
+    source: sourceEdition.premise,
+    translated: renderedEdition.premise,
+    metadata: { granularity: 'section' }
+  });
+  await translationTool.recordSection({
+    path: 'front.thematic-statement',
+    source: sourceEdition.thematicStatement,
+    translated: renderedEdition.thematicStatement,
+    metadata: { granularity: 'section' }
+  });
+  await translationTool.recordSection({
+    path: 'front.world-rule',
+    source: sourceEdition.worldRule,
+    translated: renderedEdition.worldRule,
+    metadata: { granularity: 'section' }
+  });
+
+  for (const [index, chapter] of renderedEdition.chapters.entries()) {
+    const sourceChapter = sourceEdition.chapters[index];
+    await translationTool.recordSection({
+      path: `chapter.${chapter.id}`,
+      source: sourceChapter.paragraphs.join('\n\n'),
+      translated: chapter.paragraphs.join('\n\n'),
+      metadata: {
+        granularity: 'chapter',
+        chapterNumber: chapter.number,
+        paragraphCount: chapter.paragraphs.length,
+        displayTitle: chapter.displayTitle
+      }
+    });
+  }
 }
 
 function resolveTranslationInstruction(instructions, languageCode) {

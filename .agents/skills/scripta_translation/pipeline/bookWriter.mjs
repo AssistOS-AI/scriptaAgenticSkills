@@ -55,7 +55,9 @@ export async function runBookWriter(input = {}) {
     ...macroArtifacts.map((entry) => entry.artifact.relativePath)
   ];
 
-  const sourceEdition = buildSourceEdition(manuscriptModel, options);
+  const sourceEdition = buildLocalizedEditionFromModel(manuscriptModel, {
+    requestedLanguage: options.sourceLanguage
+  });
   const manuscriptArtifact = await writeStageArtifact({
     workspaceRoot: options.workspaceRoot,
     stage: 'exports',
@@ -277,8 +279,12 @@ function buildManuscriptModel({
   };
 }
 
-function buildSourceEdition(model, options) {
-  const requestedLanguage = options.sourceLanguage;
+export function buildLocalizedEditionFromModel(model, {
+  requestedLanguage = 'en',
+  mode = 'source-renderer',
+  translationInstruction = '',
+  generatedWith = 'SCRIPTA BookWriter'
+} = {}) {
   const contentLanguage = isBuiltInBookLanguage(requestedLanguage) ? requestedLanguage : 'en';
   const languagePack = getLanguagePack(contentLanguage);
   const profileFlavor = getProfileFlavor(model.profileId, contentLanguage);
@@ -286,11 +292,11 @@ function buildSourceEdition(model, options) {
   return {
     requestedLanguage,
     contentLanguage,
-    mode: 'source-renderer',
-    translationInstruction: '',
+    mode,
+    translationInstruction,
     languagePack,
     profileFlavor,
-    generatedWith: 'SCRIPTA BookWriter',
+    generatedWith,
     title: localizeScenarioTitle(model.title, model.profileId, contentLanguage),
     subtitle: localizeBookText(model.centralIdea['story-question'], contentLanguage),
     premise: localizeBookText(model.blueprint.premise, contentLanguage),

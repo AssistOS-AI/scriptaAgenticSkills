@@ -2,7 +2,19 @@ import { appendFile } from 'node:fs/promises';
 import { allocateArtifactPath, writeText } from '../core/workspace.mjs';
 import { localizeBookText, normalizeLanguageCode } from '../pipeline/bookWriterLanguage.mjs';
 
-const MAX_TRANSLATION_CHUNK_LENGTH = 220;
+const MAX_TRANSLATION_CHUNK_LENGTH = 4200;
+const ENGLISH_MARKERS = [
+  /\bthe\b/gi,
+  /\bwhen\b/gi,
+  /\blater\b/gi,
+  /\bthey\b/gi,
+  /\bwith\b/gi,
+  /\bduring\b/gi,
+  /\bwhile\b/gi,
+  /\bthrough\b/gi,
+  /\bbefore\b/gi,
+  /\bafter\b/gi
+];
 const ROMANIAN_RESIDUE_PATTERNS = [
   /Later, in /i,
   /tries to /i,
@@ -35,6 +47,19 @@ export async function createChunkTranslationTool({ workspaceRoot, bookId, source
   );
 
   return {
+    async recordSection({ path, source, translated, metadata = null }) {
+      const entry = {
+        path,
+        chunkIndex: chunks.length + 1,
+        source: String(source ?? '').trim(),
+        translated: String(translated ?? '').trim(),
+        metadata
+      };
+
+      chunks.push(entry);
+      await appendChunk(artifactPath.filePath, entry);
+      return entry.translated;
+    },
     async translateText(text, path) {
       const value = String(text ?? '').trim();
       if (!value) {
@@ -49,7 +74,8 @@ export async function createChunkTranslationTool({ workspaceRoot, bookId, source
           path,
           chunkIndex: index + 1,
           source: chunk,
-          translated
+          translated,
+          metadata: { granularity: 'block' }
         };
 
         chunks.push(entry);
@@ -107,35 +133,28 @@ async function appendChunk(filePath, entry) {
       '',
       `## ${entry.path} — chunk ${entry.chunkIndex}`,
       `- Source: ${entry.source}`,
-      `- Translated: ${entry.translated}`
+      `- Translated: ${entry.translated}`,
+      ...(entry.metadata
+        ? [`- Metadata: ${JSON.stringify(entry.metadata)}`]
+        : [])
     ].join('\n') + '\n',
     'utf8'
   );
 }
 
 function chunkText(text) {
-  const normalized = String(text ?? '').replace(/\s+/g, ' ').trim();
+  const normalized = String(text ?? '').trim();
   if (!normalized) {
     return [];
   }
-
-  const sentences = normalized.match(/"[^"]+" [^.?!]+ says\.|[^.!?]+(?:[.!?]+|$)/g)?.map((entry) => entry.trim()).filter(Boolean) ?? [normalized];
-  return sentences.flatMap((sentence) => splitLongSentence(sentence));
-}
-
-function splitLongSentence(sentence) {
-  if (sentence.length <= MAX_TRANSLATION_CHUNK_LENGTH) {
-    return [sentence];
-  }
-
   const chunks = [];
   let current = '';
 
-  for (const fragment of sentence.split(/,\s+/)) {
-    const next = current ? `${current}, ${fragment}` : fragment;
+  for (const paragraph of normalized.split(/\n{2,}/).map((entry) => entry.replace(/\s+/g, ' ').trim()).filter(Boolean)) {
+    const next = current ? `${current}\n\n${paragraph}` : paragraph;
     if (next.length > MAX_TRANSLATION_CHUNK_LENGTH && current) {
       chunks.push(current);
-      current = fragment;
+      current = paragraph;
       continue;
     }
 
@@ -182,6 +201,10 @@ function assertNoRomanianResidue(text) {
     if (pattern.test(resolved)) {
       throw new Error(`Romanian translation residue remained visible in chunk "${resolved}".`);
     }
+  }
+
+  if (countEnglishMarkers(resolved) >= 2) {
+    throw new Error(`Romanian translation chunk still reads as English: "${resolved}".`);
   }
 
   return resolved;
@@ -258,6 +281,11 @@ function locationPhrase(location, languageCode) {
 function sentenceCase(value) {
   const text = String(value ?? '').trim();
   return text ? text.charAt(0).toUpperCase() + text.slice(1) : text;
+}
+
+function countEnglishMarkers(text) {
+  const value = String(text ?? '');
+  return ENGLISH_MARKERS.reduce((count, pattern) => count + (value.match(pattern)?.length ?? 0), 0);
 }
 
 function lowerFirst(value) {

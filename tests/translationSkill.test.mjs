@@ -25,14 +25,18 @@ test('translation stage emits Romanian editions from the source bundle', async (
 
     assert.match(romanianHtml, /Cuprins/);
     assert.match(romanianHtml, /Pagina de titlu/);
-    assert.match(romanianHtml, /Nimic din ceea ce s-a deschis aici nu se va inchide usor\./);
+    assert.match(romanianHtml, /Nimic din ceea ce tocmai s-a deschis nu se mai inchide usor\./);
     assert.match(romanianHtml, /Generat cu/);
     assert.doesNotMatch(romanianHtml, /in the /i);
     assert.doesNotMatch(romanianHtml, /Later, in /);
     assert.doesNotMatch(romanianHtml, /tries to /);
+    assert.doesNotMatch(romanianHtml, /\bWhen\b/);
+    assert.doesNotMatch(romanianHtml, /\bLater,\b/);
     assert.doesNotMatch(romanianHtml, /\{\{/);
     assert.doesNotMatch(romanianHtml, /\$[A-Za-z][A-Za-z0-9_-]*/);
     assert.ok(trace.chunkCount > 0);
+    assert.ok(trace.chunkCount <= 8);
+    assert.ok(trace.chunks.some((chunk) => chunk.path === 'chapter.chapter-001'));
     assert.deepEqual(bundle.targetLanguages, ['en', 'ro']);
     assert.equal(bundle.editions.length, 2);
   } finally {
