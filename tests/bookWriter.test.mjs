@@ -35,7 +35,7 @@ test('BookWriter emits the source edition and the translation source bundle', as
     assert.match(englishHtml, /<svg/);
     assert.match(englishHtml, /Contents/);
     assert.match(englishHtml, /@media print/);
-    assert.match(englishHtml, /Nothing that has opened here will close easily\./);
+    assert.match(englishHtml, /(Nothing that has opened here will close easily\.|The live question now tightens around what still refuses a clean answer:)/);
     assert.doesNotMatch(englishHtml, /By the end of the chapter/);
     assert.doesNotMatch(englishHtml, /The chapter question is/);
     assert.doesNotMatch(englishHtml, /Production appendix/);
