@@ -1183,7 +1183,16 @@ function suppressEnglishResidue(value, languageCode) {
     /reads the room too carefully/i,
     /keeps alive the version of events/i,
     /Nothing that has opened here will close easily/i,
-    /understands now that/i
+    /understands now that/i,
+    /^The state leaving this /i,
+    /^How the answer shifts across this chapter/i,
+    /^the question this chapter asks$/i,
+    /^How this scene opens$/i,
+    /^How this scene develops$/i,
+    /^The conflict in this scene$/i,
+    /^What triggers this event$/i,
+    /^the impact of this event$/i,
+    /^How this scene resolves$/i
   ];
 
   if (residuePatterns.some((pattern) => pattern.test(text))) {
