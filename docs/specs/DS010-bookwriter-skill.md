@@ -31,9 +31,11 @@ The current reference implementation embeds manuscript assembly, editorial smoot
 
 BookWriter must remain upstream of translation. It may prepare the source edition and the structured publication payload before validation runs, but it must not silently emit translated editions that bypass the dedicated translation stage.
 
+When ChapGen has already produced a chapter draft, BookWriter must treat that draft as the canonical prose source. It may smooth or lightly restructure that draft, and it may consult hidden draft payloads for localization or finishing, but it must not regenerate the visible chapter mainly from raw scene-plan fields as if ChapGen had not happened.
+
 Every export must record its provenance. At minimum, the output must identify the source manuscript version, target language, content language, editorial profile, translation instruction if any, and creation order relative to the validated draft.
 
-Final reader editions must remain single-file artifacts. They must not depend on external CSS, JavaScript, image files, or runtime services. Cover imagery, screen styling, print styling, and machine-readable metadata must all live inside the exported HTML file. Human-visible provenance inside the appendix must be rendered as readable stage lists or notes, not leaked raw JSON blobs.
+Final reader editions must remain single-file artifacts. They must not depend on external CSS, JavaScript, image files, or runtime services. Cover imagery, screen styling, print styling, and machine-readable metadata must all live inside the exported HTML file. Human-visible edition notes must stay reader-facing; raw tool names, chunk labels, translation traces, and operational instructions belong only in machine-readable metadata or stage artifacts, not in visible front matter.
 
 When the workspace belongs to the canonical QA campaign, BookWriter must cooperate with the publication surface so the latest source edition can be paired with translated editions downstream and mirrored into `QA/books/<lang>/` together with the matching `QA/books/metrics/<book-id>.html` dashboard.
 
@@ -60,6 +62,14 @@ Response: The user explicitly asked for translation to be disciplined, chunked, 
 ### Question #5: Why must BookWriter emit a structured source bundle instead of only the source HTML?
 
 Response: The Translation Skill needs more than rendered HTML. It needs stable chapter metadata, source paragraphs, and publication fields so translated editions can reproduce the same DS030 publication contract without scraping HTML back into structure.
+
+### Question #6: Why is BookWriter now forbidden from bypassing ChapGen when a draft exists?
+
+Response: The recent failure mode came from the final edition sounding like a re-rendered plan summary instead of an edited draft. If BookWriter is allowed to ignore the draft and recompute the chapter from structural fields, the pipeline collapses back into templated exposition.
+
+### Question #7: Why are visible edition notes now more restrictive?
+
+Response: Readers need contextual publishing notes, not internal tool telemetry. The contract therefore keeps technical provenance available in metadata while preventing visible clutter such as generator names, chunk-mode labels, or raw translation instructions from becoming part of the reading experience.
 
 ## Conclusion
 

@@ -22,7 +22,7 @@ Each edition must include at least the following structural sections in a normal
 | --- | --- |
 | Cover | Title, profile-facing cover line, and embedded cover artwork |
 | Title page | Title, subtitle or story question, and premise |
-| Edition notes | Target language, content language, editorial profile, translation instruction, provenance fields |
+| Edition notes | Reader-facing edition context without raw operational telemetry |
 | Table of contents | Chapter links anchored inside the same file |
 | Story body | Chapter sections with stable anchor identifiers |
 | Production appendix | Provenance notes and machine-readable metadata access |
@@ -30,6 +30,8 @@ Each edition must include at least the following structural sections in a normal
 The cover artwork must be embedded directly in the HTML, typically as inline SVG. The export must remain printable without downloading additional files.
 
 The edition must expose machine-readable metadata in a non-executable payload embedded in the same file. This metadata must record at least the requested target language, the actual content language, the rendering mode, and any translation instruction captured by the pipeline.
+
+Visible edition notes and front matter must stay reader-facing. Generator names, chunk-processing labels, raw translation instructions, stage-source inventories, and other operational telemetry belong in machine-readable metadata or workspace artifacts rather than in the visible reading surface.
 
 The export must include print styling. A consumer must be able to print the file directly while preserving cover separation, chapter breaks, and readable typography without loading any external asset.
 
@@ -48,6 +50,10 @@ Response: The user asked for a self-contained final book reader. Embedding the m
 ### Question #3: Why does the HTML export include both target language and content language?
 
 Response: Once instruction-backed fallbacks are allowed for unsupported languages, the pipeline must distinguish what the user asked for from what language is visibly rendered. Without both fields, the export would blur capability limits and provenance.
+
+### Question #4: Why are tool labels and raw operational instructions banned from visible edition notes?
+
+Response: The final edition is a reading surface, not a pipeline console. Technical provenance still matters, but keeping it in hidden metadata preserves auditability without breaking the literary presentation.
 
 ## Conclusion
 

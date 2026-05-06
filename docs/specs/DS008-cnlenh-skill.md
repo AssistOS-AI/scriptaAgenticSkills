@@ -24,6 +24,10 @@ CNLEnh is the first stage that must normally resolve symbolic placeholders into 
 
 CNLEnh must write new refinement artifacts and must not mutate the seed files it consumed. A valid run therefore leaves both the symbolic seed and the enriched successor available for validation and comparison.
 
+CNLEnh must enrich scenes as distinct drafting surfaces, not as role-level boilerplate. When two scenes have different scene identifiers, local pressures, support focus, or event triggers, the refinement stage must avoid resolving them into the same fallback packet unless the authored source explicitly says the scenes should mirror each other. Reusing one alias or one stock refinement across multiple later scenes is a contract failure, not an acceptable convenience.
+
+The stage may emit internal drafting aids such as voice notes, anti-repetition guards, fallback provenance, or scene-delta ledgers, but those aids remain hidden operational context. They are allowed in successor artifacts or structured side data only if they stay attached to scene and block identifiers and are never mistaken for reader-facing prose.
+
 The current reference implementation fulfills this stage through a deterministic refinement adapter embedded inside the self-contained `scripta_cnlenh` skill folder. It resolves placeholders from authored vision packets plus the symbolic entity map and appends refinement hints. When names become concrete, they must remain internationally portable proper names rather than locale-locked defaults or role-bearing pseudo-names. Future remote LLM adapters must preserve the same successor-artifact contract.
 
 The enhancement vocabulary must cover:
@@ -54,6 +58,10 @@ Response: SCRIPTA needs a separable enrichment stage so planning and drafting do
 ### Question #3: Why is placeholder resolution explicitly part of CNLEnh?
 
 Response: The user wants names, places, and other concrete NL details to be introduced after the symbolic pass, not mixed into the seed-generation phase. CNLEnh is therefore the natural gate where typed placeholders must normally disappear from plan artifacts.
+
+### Question #4: Why does the DS now forbid role-level fallback reuse across distinct scenes?
+
+Response: The strongest repetition problems were being introduced before drafting, when multiple scenes inherited nearly the same resolved packet because fallback resolution collapsed to one alias. If the contract does not forbid that behavior explicitly, later prose stages keep inheriting sameness that should have been stopped earlier.
 
 ## Conclusion
 

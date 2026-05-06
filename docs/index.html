@@ -78,14 +78,20 @@
       <p>
         BookWriter now emits the canonical source edition and a structured translation-source bundle, while
         the independent Translation Skill rebuilds Romanian reader editions with its own chunk-processing
-        tool and a skill-local renderer that still matches the DS030 publication contract. The QA root also
-        exposes consolidated review artifacts such as <code>qa-review.md</code> and <code>qa-tasks.md</code>,
-        plus directly browsable final books under <code>QA/books/en/</code> and <code>QA/books/ro/</code>.
-        The same publication surface now includes per-book HTML dashboards under
-        <code>QA/books/metrics/</code>, refreshed on each QA regeneration after
-        <code>QA/clean.js</code> removes generated QA output while preserving
-        <code>QA/specs/</code> and the cleanup script itself, so the canonical ten-chapter QA novels
-        are always rebuilt from authored sources.
+        tool and a skill-local renderer that still matches the DS030 publication contract. The generation
+        stack is now explicitly draft-first: ChapGen must produce scene-level draft material and hidden
+        operational payloads for finishing, while BookWriter must finish that draft instead of recomposing
+        the novel from raw plan summaries.
+      </p>
+
+      <p>
+        Hidden operational context such as chunk traces, translation instructions, stage-source ledgers, and
+        dialogue-voice packets remains available in stage artifacts and machine-readable metadata, but it is
+        no longer part of the visible reading surface. The QA root exposes consolidated review artifacts such
+        as <code>qa-review.md</code> and <code>qa-tasks.md</code>, directly browsable final books under
+        <code>QA/books/en/</code> and <code>QA/books/ro/</code>, and per-book HTML dashboards under
+        <code>QA/books/metrics/</code>, refreshed on each regeneration after <code>QA/clean.js</code>
+        removes generated QA output while preserving <code>QA/specs/</code> and the cleanup script itself.
       </p>
 
       <h2>Core subsystems</h2>

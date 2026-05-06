@@ -67,6 +67,8 @@ The first iteration must be symbolic, not empty. It must already contain:
 
 When the symbolic generator introduces a character, location, or comparable entity block, later blocks should refer back to that block through `$<identifier>` rather than duplicating its role in free prose. `{{...}}` placeholders remain appropriate only where a surface detail such as a proper name, institution label, or object label is intentionally unresolved. The same run must also emit a structured symbolic-entity map so later stages know which generic id corresponds to protagonist, counterpart, pressure figure, primary location, secondary location, institution, or plot object.
 
+The symbolic generator must actively discourage flat repetition. Scene seeds, dialogue-turn seeds, support-focus assignments, tertiary locations, and anchor objects should be distributed so later stages receive materially different local packets whenever the requested work form implies long-form narration. Long-form generation may still repeat motifs deliberately, but it must not produce chapter after chapter whose scene packets differ only by identifier.
+
 The generator must create new artifacts rather than mutate previous ones. A repeated seed run must produce a new iteration artifact under the same stage family so that validators can compare runs and detect whether refinement or correction actually occurred.
 
 Skills are expected to call this tooling rather than bypass it. MacroPlan, ChapPlan, and MicroPlan must therefore be able to invoke symbolic generation with stage-specific parameters before any LLM refinement step is attempted.
@@ -84,6 +86,10 @@ Response: The user wants random generation that remains constrained by the plan 
 ### Question #3: Why are placeholders part of the symbolic generator instead of being forbidden immediately?
 
 Response: The user wants concrete names and nuances to be added in a later LLM-mediated phase without inventing fake local defaults too early. Generic typed placeholders plus a separate entity map let the symbolic pass remain precise about structure while postponing surface realization to the appropriate stage.
+
+### Question #4: Why does symbolic generation now need an anti-flatness obligation?
+
+Response: Downstream prose cannot grow if the initial scene packets already collapse into the same small set of role-level patterns. The generator therefore has to distribute seeds, support cast, and scene pressures in a way that gives later stages something genuinely distinct to elaborate.
 
 ## Conclusion
 

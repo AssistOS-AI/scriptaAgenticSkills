@@ -25,6 +25,8 @@ The suite must cover the following automated checks:
 | Compliance Adherence Rate support checks | Track legal and policy robustness | policy hits, privacy risks, rule violations |
 | Textual Overlap Percentage (TOP) | Detect contamination and copyright overlap | matched spans and overlap sources |
 | Placeholder residue check (PRC) | Detect unresolved symbolic placeholders after the permitted stages | placeholder token scans and provenance checks |
+| Repetition pressure audit (RPA) | Detect repeated scaffolds, repeated sentence kernels, and scene-level reuse that flattens narrative growth | duplicate paragraph signals, normalized sentence reuse, formulaic scaffolds |
+| Draft surface integrity audit (DSI) | Detect broken draft assembly, dialogue scaffold leakage, and visible technical metadata leaks | malformed dialogue traces, leaked internal labels, sentence-fragment patterns |
 | STG-Constrained Short Story Generation (STG-CSG) | Verify that constrained generation still follows STG principles | brief-to-output structural correspondence |
 | Specification Following Story Generation (SFSG) | Measure adherence to explicit planning constraints | chapter-plan compliance and unmet obligations |
 | Continuity Control Indicator (CCI) | Measure continuity preservation across chapters | refined chapter state fields, carry-forward pressure, contradiction detection |
@@ -38,7 +40,7 @@ Validation must parse the CNL planning language directly. Missing command famili
 
 Validation must enforce stage discipline. At minimum, it must be able to detect overwritten upstream artifacts, missing successor provenance, and unresolved placeholders that survive into stages where they are forbidden.
 
-Validation must also audit the publication surface. When final reader editions exist, the suite must verify requested language coverage across both source and translation stages, embedded-cover presence, table of contents structure, chapter anchoring, print styling, dependency-free packaging, and visible localization leaks in final HTML editions.
+Validation must also audit the publication surface. When final reader editions exist, the suite must verify requested language coverage across both source and translation stages, embedded-cover presence, table of contents structure, chapter anchoring, print styling, dependency-free packaging, visible localization leaks in final HTML editions, and the absence of reader-visible operational telemetry such as tool labels, chunking jargon, or raw translation instructions.
 
 When the validated workspace belongs to the canonical QA campaign, the suite must also refresh the published QA metrics surface so the latest normalized indicators, stage audit, localized issues, and revision tasks are visible under `QA/books/metrics/`.
 
@@ -81,6 +83,10 @@ Response: The user asked for generated tasks that can drive the next remediation
 ### Question #6: Why is the QA metrics surface part of the validation contract instead of a separate reporting afterthought?
 
 Response: The user explicitly wants per-book HTML dashboards that stay current after each run or regeneration. Because those dashboards are built from validation results, keeping them current is part of validation completion rather than optional post-processing.
+
+### Question #7: Why are repetition and draft-surface checks now first-class validation concerns?
+
+Response: The latest manual reviews showed that a pipeline can pass structural checks and still fail as literature because repeated scaffolds and leaked drafting artifacts make the text unreadable. Validation therefore has to measure those failures explicitly instead of pretending they are only subjective editorial complaints.
 
 ## Conclusion
 
