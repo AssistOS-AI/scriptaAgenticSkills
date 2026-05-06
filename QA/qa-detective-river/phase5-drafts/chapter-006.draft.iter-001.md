@@ -1,47 +1,417 @@
 # Chapter 006
 
-Nadia Voss enters Lock Six Camera Deck while at the abandoned control room, they recover the drive case and a blood-marked retaining bolt. In this detective / police chapter, revelation movement anchored by diversion beneath the spillway, so choices around identity-self under resistance pressure carry tension and shock. Theo Mercer keeps searching for a path toward relief, while Galen Pryce works to keep the conflict inside a safer official story. The central question here is nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first. The conflict thread is nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first. The procedural environment is anchored by diesel sheen, wet rope, fluorescent glare on metal trays and keeps a warehouse where facts are stored just long enough to be reassigned in view. The governing constraint is still active: nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish. At the start, Nadia Voss believes if she follows procedure closely enough, the truth will eventually surface at the start of the reversal chapter. Its rhythm leans on action-dialogue-description-conflict-revelation-suspense-cliffhanger.
+Nadia Voss steps into lock Six Camera Deck carrying at the abandoned control room, they recover the drive case and a blood-marked retaining bolt. Diesel sheen, wet rope, fluorescent glare on metal trays hangs over the room before anyone speaks. Everyone speaks in clipped inventory terms because the room only respects what can be tagged keeps trying to pass for order. Galen Pryce reads the first disturbance faster than the rest of the room. Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first is no longer theoretical once the first exchange begins to tilt.
 
-The case narrows as procedure loses its protective distance. The emotional balance is about to flip. At the abandoned control room, they recover the drive case and a blood-marked retaining bolt. Nadia Voss tries to separate proof of murder from the police pathway designed to bury it, but the only lawful reporting channel leads back to Soren's office. Theo realizes the victim was killed during a meeting about the lock privatization signatures. Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first. Galen Pryce senses that the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront now hang inside the same exchange. The procedural environment mirrors a warehouse where facts are stored just long enough to be reassigned. When the recovered drive contains muted footage of the victim arriving with the deputy mayor alive, the local pressure tips from tension toward shock. She copies the drive, then files the bolt officially so the precinct cannot deny it existed. The unresolved line remains active through murder, not drowning, becomes the central fact, which keeps fear and anticipation braided together. The immediate result is the investigation turns from hidden search into institutional showdown.
+After at the abandoned control room, they recover the drive case and a blood-marked retaining bolt, Nadia Voss moves first. At the abandoned control room, they recover the drive case and a blood-marked retaining bolt. Theo realizes the victim was killed during a meeting about the lock privatization signatures. Nadia Voss wants to separate proof of murder from the police pathway designed to bury it. but the only lawful reporting channel leads back to Soren's office keeps folding the scene back toward danger.
 
-Their dialogue sounds procedural, yet every answer carries tension and concealed fear. Subtext matters as much as the explicit claim. Nadia Voss, Theo Mercer, Galen Pryce, Denton Fiske keep circling nadia Voss and Nadia Voss keep circling the truth they cannot safely name yet. "A hint for the dialogue line" Galen Pryce says. The question lands harder than either speaker planned. "Separate proof of murder from the police pathway designed to bury it" Nadia Voss replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Denton Fiske adds. Naming the risk turns pressure into irreversible commitment. "The only lawful reporting channel leads back to Soren's office" Soren Arden says. The challenge strips politeness away from the scene.
+Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first. Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish turns hesitation into a deadline. The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront stop sounding abstract once nadia Voss realizes who will be blamed first. Logs are complete on paper but physically impossible when matched against the river timing stays visible in every small reaction around them.
 
-At the level of place, everyone speaks in clipped inventory terms because the room only respects what can be tagged; physical traces keep resisting the official story each time they are catalogued. The chapter rule keeps shaping possibility: logs are complete on paper but physically impossible when matched against the river timing, and the only lawful reporting channel leads back to Soren's office.
+"If the recovered drive contains muted footage of the victim arriving with the deputy mayor alive, who decided the station was allowed to forget it," asks Galen Pryce. The question lands harder than either speaker planned. Nadia Voss insists, "Then we keep separate proof of murder from the police pathway designed to bury it alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront," adds Denton Fiske. Naming the risk turns pressure into irreversible commitment. Soren Arden cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-The first deceleration is deliberate: the investigation turns from hidden search into institutional showdown.
+The recovered drive contains muted footage of the victim arriving with the deputy mayor alive lands with more force than the room can absorb politely. Murder, not drowning, becomes the central fact. She copies the drive, then files the bolt officially so the precinct cannot deny it existed. The investigation turns from hidden search into institutional showdown and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-A cleaner fact enters the frame and makes every prior statement unstable. The emotional balance is about to flip. Theo realizes the victim was killed during a meeting about the lock privatization signatures. Nadia Voss tries to nadia can now accuse the precinct itself of obstruction, but nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first. Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first. The only lawful reporting channel leads back to Soren's office. Galen Pryce senses that the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront now hang inside the same exchange. The procedural environment mirrors a warehouse where facts are stored just long enough to be reassigned. When diversion beneath the spillway, the local pressure tips from tension toward shock. Nadia can now accuse the precinct itself of obstruction. The unresolved line remains active through murder, not drowning, becomes the central fact, which keeps fear and anticipation braided together. The immediate result is nadia can now accuse the precinct itself of obstruction.
+At the river evidence hangar beside Lock Six, Nadia Voss has no room left for delay. Theo realizes the victim was killed during a meeting about the lock privatization signatures. Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first. Nadia Voss wants to nadia can now accuse the precinct itself of obstruction. but nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Denton Fiske says. The question lands harder than either speaker planned. "Nadia can now accuse the precinct itself of obstruction" Nadia Voss replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Iris Vale adds. The warning narrows what can still be done safely. "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first" Soren Arden says. The challenge strips politeness away from the scene.
+The only lawful reporting channel leads back to Soren's office. Diversion beneath the spillway turns hesitation into a deadline. The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront stop sounding abstract once nadia Voss realizes who will be blamed first. Logs are complete on paper but physically impossible when matched against the river timing stays visible in every small reaction around them.
 
-At the level of place, everyone speaks in clipped inventory terms because the room only respects what can be tagged; physical traces keep resisting the official story each time they are catalogued. The chapter rule keeps shaping possibility: logs are complete on paper but physically impossible when matched against the river timing, and the only lawful reporting channel leads back to Soren's office.
+"If diversion beneath the spillway, who decided the station was allowed to forget it," asks Denton Fiske. The question lands harder than either speaker planned. Nadia Voss insists, "Then we keep nadia can now accuse the precinct itself of obstruction alive long enough to make it count." The promise raises the stakes for the next exchange. "If nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first, the room will close around us before anyone else sees the truth," warns Iris Vale. The warning narrows what can still be done safely. Soren Arden cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-What looked manageable starts reading like a system instead of an incident. The emotional balance is about to flip. The recovered drive contains muted footage of the victim arriving with the deputy mayor alive. Nadia Voss tries to diversion beneath the spillway, but the recovered drive contains muted footage of the victim arriving with the deputy mayor alive. Murder, not drowning, becomes the central fact. Murder, not drowning, becomes the central fact. Galen Pryce senses that the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront now hang inside the same exchange. The procedural environment mirrors a warehouse where facts are stored just long enough to be reassigned. When theo realizes the victim was killed during a meeting about the lock privatization signatures, the local pressure tips from tension toward shock. The investigation turns from hidden search into institutional showdown. The unresolved line remains active through murder, not drowning, becomes the central fact, which keeps fear and anticipation braided together. The immediate result is she copies the drive, then files the bolt officially so the precinct cannot deny it existed.
+Diversion beneath the spillway lands with more force than the room can absorb politely. The investigation turns from hidden search into institutional showdown. Nadia can now accuse the precinct itself of obstruction. Nadia can now accuse the precinct itself of obstruction and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
- "A hint for the dialogue line" Iris Vale says. The question lands harder than either speaker planned. "Diversion beneath the spillway" Nadia Voss replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Galen Pryce adds. Naming the risk turns pressure into irreversible commitment. "The recovered drive contains muted footage of the victim arriving with the deputy mayor alive" Soren Arden says. The challenge strips politeness away from the scene.
+Nadia Voss reaches for the stolen drive case before the room can decide who is allowed to touch it. The recovered drive contains muted footage of the victim arriving with the deputy mayor alive. Murder, not drowning, becomes the central fact. Nadia Voss wants to diversion beneath the spillway. but the recovered drive contains muted footage of the victim arriving with the deputy mayor alive keeps folding the scene back toward danger.
 
-At the level of place, everyone speaks in clipped inventory terms because the room only respects what can be tagged; physical traces keep resisting the official story each time they are catalogued. The chapter rule keeps shaping possibility: logs are complete on paper but physically impossible when matched against the river timing, and the only lawful reporting channel leads back to Soren's office.
+Murder, not drowning, becomes the central fact. Theo realizes the victim was killed during a meeting about the lock privatization signatures turns hesitation into a deadline. The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront stop sounding abstract once nadia Voss realizes who will be blamed first. Logs are complete on paper but physically impossible when matched against the river timing stays visible in every small reaction around them.
 
-The case narrows as procedure loses its protective distance. The emotional balance is about to flip. She copies the drive, then files the bolt officially so the precinct cannot deny it existed. Nadia Voss tries to she copies the drive, then files the bolt officially so the precinct cannot deny it existed, but murder, not drowning, becomes the central fact. Separate proof of murder from the police pathway designed to bury it. Separate proof of murder from the police pathway designed to bury it. Galen Pryce senses that the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront now hang inside the same exchange. The procedural environment mirrors a warehouse where facts are stored just long enough to be reassigned. When at the abandoned control room, they recover the drive case and a blood-marked retaining bolt, the local pressure tips from tension toward shock. Murder, not drowning, becomes the central fact. The unresolved line remains active through murder, not drowning, becomes the central fact, which keeps fear and anticipation braided together. The immediate result is murder, not drowning, becomes the central fact.
+"If theo realizes the victim was killed during a meeting about the lock privatization signatures, who decided the station was allowed to forget it," asks Iris Vale. The question lands harder than either speaker planned. Nadia Voss insists, "Then we keep diversion beneath the spillway alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront," adds Galen Pryce. Naming the risk turns pressure into irreversible commitment. Soren Arden cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
- "A hint for the dialogue line" Galen Pryce says. The question lands harder than either speaker planned. "She copies the drive, then files the bolt officially so the precinct cannot deny it existed" Nadia Voss replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Denton Fiske adds. The warning narrows what can still be done safely. "Murder, not drowning, becomes the central fact" Soren Arden says. The challenge strips politeness away from the scene.
+Theo realizes the victim was killed during a meeting about the lock privatization signatures lands with more force than the room can absorb politely. Nadia can now accuse the precinct itself of obstruction. The investigation turns from hidden search into institutional showdown. She copies the drive, then files the bolt officially so the precinct cannot deny it existed and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-At the level of place, everyone speaks in clipped inventory terms because the room only respects what can be tagged; physical traces keep resisting the official story each time they are catalogued. The chapter rule keeps shaping possibility: logs are complete on paper but physically impossible when matched against the river timing, and the only lawful reporting channel leads back to Soren's office.
+What begins in lock Six Camera Deck stops looking procedural the moment she copies the drive, then files the bolt officially so the precinct cannot deny it existed. She copies the drive, then files the bolt officially so the precinct cannot deny it existed. Separate proof of murder from the police pathway designed to bury it. Nadia Voss wants to she copies the drive, then files the bolt officially so the precinct cannot deny it existed. but murder, not drowning, becomes the central fact keeps folding the scene back toward danger.
 
-A cleaner fact enters the frame and makes every prior statement unstable. The emotional balance is about to flip. Diversion beneath the spillway. Nadia Voss tries to at the abandoned control room, they recover the drive case and a blood-marked retaining bolt, but theo realizes the victim was killed during a meeting about the lock privatization signatures. Nadia can now accuse the precinct itself of obstruction. The recovered drive contains muted footage of the victim arriving with the deputy mayor alive. Galen Pryce senses that the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront now hang inside the same exchange. The procedural environment mirrors a warehouse where facts are stored just long enough to be reassigned. When the only lawful reporting channel leads back to Soren's office, the local pressure tips from tension toward shock. Theo realizes the victim was killed during a meeting about the lock privatization signatures. The unresolved line remains active through murder, not drowning, becomes the central fact, which keeps fear and anticipation braided together. The immediate result is nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+Separate proof of murder from the police pathway designed to bury it. At the abandoned control room, they recover the drive case and a blood-marked retaining bolt turns hesitation into a deadline. The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront stop sounding abstract once nadia Voss realizes who will be blamed first. Logs are complete on paper but physically impossible when matched against the river timing stays visible in every small reaction around them.
 
- "A hint for the dialogue line" Denton Fiske says. The question lands harder than either speaker planned. "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt" Nadia Voss replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Iris Vale adds. Naming the risk turns pressure into irreversible commitment. "Theo realizes the victim was killed during a meeting about the lock privatization signatures" Soren Arden says. The challenge strips politeness away from the scene.
+"If at the abandoned control room, they recover the drive case and a blood-marked retaining bolt, who decided the station was allowed to forget it," asks Galen Pryce. The question lands harder than either speaker planned. Nadia Voss insists, "Then we keep she copies the drive, then files the bolt officially so the precinct cannot deny it existed alive long enough to make it count." The promise raises the stakes for the next exchange. "If murder, not drowning, becomes the central fact, the room will close around us before anyone else sees the truth," warns Denton Fiske. The warning narrows what can still be done safely. Soren Arden cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-At the level of place, everyone speaks in clipped inventory terms because the room only respects what can be tagged; physical traces keep resisting the official story each time they are catalogued. The chapter rule keeps shaping possibility: logs are complete on paper but physically impossible when matched against the river timing, and the only lawful reporting channel leads back to Soren's office.
+At the abandoned control room, they recover the drive case and a blood-marked retaining bolt lands with more force than the room can absorb politely. Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first. Murder, not drowning, becomes the central fact. Murder, not drowning, becomes the central fact and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-What looked manageable starts reading like a system instead of an incident. The emotional balance is about to flip. At the abandoned control room, they recover the drive case and a blood-marked retaining bolt. Nadia Voss tries to separate proof of murder from the police pathway designed to bury it, but the only lawful reporting channel leads back to Soren's office. Theo realizes the victim was killed during a meeting about the lock privatization signatures. Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first. Galen Pryce senses that the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront now hang inside the same exchange. The procedural environment mirrors a warehouse where facts are stored just long enough to be reassigned. When the recovered drive contains muted footage of the victim arriving with the deputy mayor alive, the local pressure tips from tension toward shock. She copies the drive, then files the bolt officially so the precinct cannot deny it existed. The unresolved line remains active through murder, not drowning, becomes the central fact, which keeps fear and anticipation braided together. The immediate result is the investigation turns from hidden search into institutional showdown.
+After at the abandoned control room, they recover the drive case and a blood-marked retaining bolt, Nadia Voss moves first. Diversion beneath the spillway. Nadia can now accuse the precinct itself of obstruction. Nadia Voss wants to at the abandoned control room, they recover the drive case and a blood-marked retaining bolt. but theo realizes the victim was killed during a meeting about the lock privatization signatures keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Iris Vale says. The question lands harder than either speaker planned. "Separate proof of murder from the police pathway designed to bury it" Nadia Voss replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Galen Pryce adds. The warning narrows what can still be done safely. "The only lawful reporting channel leads back to Soren's office" Soren Arden says. The challenge strips politeness away from the scene.
+The recovered drive contains muted footage of the victim arriving with the deputy mayor alive. The only lawful reporting channel leads back to Soren's office turns hesitation into a deadline. The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront stop sounding abstract once nadia Voss realizes who will be blamed first. Logs are complete on paper but physically impossible when matched against the river timing stays visible in every small reaction around them.
 
-At the level of place, everyone speaks in clipped inventory terms because the room only respects what can be tagged; physical traces keep resisting the official story each time they are catalogued. The chapter rule keeps shaping possibility: logs are complete on paper but physically impossible when matched against the river timing, and the only lawful reporting channel leads back to Soren's office.
+"If the only lawful reporting channel leads back to Soren's office, who decided the station was allowed to forget it," asks Denton Fiske. The question lands harder than either speaker planned. Nadia Voss insists, "Then we keep at the abandoned control room, they recover the drive case and a blood-marked retaining bolt alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront," adds Iris Vale. Naming the risk turns pressure into irreversible commitment. Soren Arden cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-Then the pace compresses: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive.
+The only lawful reporting channel leads back to Soren's office lands with more force than the room can absorb politely. She copies the drive, then files the bolt officially so the precinct cannot deny it existed. Theo realizes the victim was killed during a meeting about the lock privatization signatures. Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-Nadia Voss feels murder, not drowning, becomes the central fact, a mix of tension and shock that will not settle into easy relief. The chapter therefore pushes the inner line from if she follows procedure closely enough, the truth will eventually surface at the start of the reversal chapter toward evidence survives only when someone refuses the procedure designed to neutralize it after the reversal chapter.
+At the abandoned sluice control room above the spillway, Nadia Voss has no room left for delay. At the abandoned control room, they recover the drive case and a blood-marked retaining bolt. Theo realizes the victim was killed during a meeting about the lock privatization signatures. Nadia Voss wants to separate proof of murder from the police pathway designed to bury it. but the only lawful reporting channel leads back to Soren's office keeps folding the scene back toward danger.
 
-By the end of chapter-006, the investigation turns from hidden search into institutional showdown. The chapter keeps faith with identity-self under resistance pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: the cover-up is not separate from the institution; it is how the institution currently functions. Between Nadia Voss and Theo Mercer, the relational line moves from careful-cooperation-strained-by-withheld-history toward scarred-trust-rebuilt-on-painful-clarity. The closing pressure is therefore both tension and shock, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Nadia prove murder before procedure itself is used to wash the evidence clean?.
+Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first. The recovered drive contains muted footage of the victim arriving with the deputy mayor alive turns hesitation into a deadline. The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront stop sounding abstract once nadia Voss realizes who will be blamed first. Logs are complete on paper but physically impossible when matched against the river timing stays visible in every small reaction around them.
+
+"If the recovered drive contains muted footage of the victim arriving with the deputy mayor alive, who decided the station was allowed to forget it," asks Iris Vale. The question lands harder than either speaker planned. Nadia Voss insists, "Then we keep separate proof of murder from the police pathway designed to bury it alive long enough to make it count." The promise raises the stakes for the next exchange. "If the only lawful reporting channel leads back to Soren's office, the room will close around us before anyone else sees the truth," warns Galen Pryce. The warning narrows what can still be done safely. Soren Arden cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
+
+The recovered drive contains muted footage of the victim arriving with the deputy mayor alive lands with more force than the room can absorb politely. Murder, not drowning, becomes the central fact. She copies the drive, then files the bolt officially so the precinct cannot deny it existed. Nadia Voss leaves the abandoned sluice control room above the spillway without the shelter they had at the start. The chapter hands off to a sharper reversal consequence.
+
+Nadia Voss carries the investigation turns from hidden search into institutional showdown out of the abandoned sluice control room above the spillway. The cover-up is not separate from the institution; it is how the institution currently functions. Between Nadia Voss and Theo Mercer, the bond now looks closer to scarred-trust-rebuilt-on-painful-clarity. Evidence survives only when someone refuses the procedure designed to neutralize it after the reversal chapter is no longer something Nadia Voss can postpone. Can Nadia prove murder before procedure itself is used to wash the evidence clean.
+
+<!-- scripta-draft-data
+{
+  "version": 1,
+  "chapterId": "chapter-006",
+  "chapterNumber": "006",
+  "profileId": "detective-police",
+  "protagonist": "Nadia Voss",
+  "counterpart": "Theo Mercer",
+  "chapterRole": "reversal",
+  "scenes": [
+    {
+      "sceneId": "scene-006-01",
+      "index": 0,
+      "location": "Lock Six Camera Deck",
+      "anchorObject": "The stolen drive case",
+      "supportFocus": "Galen Pryce",
+      "participants": [
+        "Nadia Voss",
+        "Theo Mercer",
+        "Galen Pryce"
+      ],
+      "focusCharacter": "Nadia Voss",
+      "supportCharacter": "Galen Pryce",
+      "pressureFigure": "Galen Pryce",
+      "carriedPressure": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt",
+      "introduction": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt",
+      "development": "Theo realizes the victim was killed during a meeting about the lock privatization signatures",
+      "conflict": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first",
+      "resolution": "She copies the drive, then files the bolt officially so the precinct cannot deny it existed",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "The investigation turns from hidden search into institutional showdown",
+      "goal": "Separate proof of murder from the police pathway designed to bury it",
+      "obstacle": "The only lawful reporting channel leads back to Soren's office",
+      "result": "The investigation turns from hidden search into institutional showdown",
+      "stakes": "The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+      "escalation": "Theo realizes the victim was killed during a meeting about the lock privatization signatures",
+      "trigger": "The recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+      "impact": "Murder, not drowning, becomes the central fact",
+      "followThrough": "Nadia can now accuse the precinct itself of obstruction",
+      "dialogueTurns": [
+        {
+          "speaker": "Galen Pryce",
+          "verb": "asks",
+          "line": "If the recovered drive contains muted footage of the victim arriving with the deputy mayor alive, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Nadia Voss",
+          "verb": "insists",
+          "line": "Then we keep separate proof of murder from the police pathway designed to bury it alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Denton Fiske",
+          "verb": "adds",
+          "line": "Once this reaches open air, the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Soren Arden",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-006-02",
+      "index": 1,
+      "location": "The river evidence hangar beside Lock Six",
+      "anchorObject": "Dock Chain Custody Tag",
+      "supportFocus": "Denton Fiske",
+      "participants": [
+        "Nadia Voss",
+        "Denton Fiske",
+        "Iris Vale",
+        "Soren Arden"
+      ],
+      "focusCharacter": "Nadia Voss",
+      "supportCharacter": "Denton Fiske",
+      "pressureFigure": "Soren Arden",
+      "carriedPressure": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt",
+      "introduction": "Theo realizes the victim was killed during a meeting about the lock privatization signatures",
+      "development": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first",
+      "conflict": "The only lawful reporting channel leads back to Soren's office",
+      "resolution": "Nadia can now accuse the precinct itself of obstruction",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Nadia can now accuse the precinct itself of obstruction",
+      "goal": "Nadia can now accuse the precinct itself of obstruction",
+      "obstacle": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first",
+      "result": "Nadia can now accuse the precinct itself of obstruction",
+      "stakes": "The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+      "escalation": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first",
+      "trigger": "Diversion beneath the spillway",
+      "impact": "The investigation turns from hidden search into institutional showdown",
+      "followThrough": "The investigation turns from hidden search into institutional showdown",
+      "dialogueTurns": [
+        {
+          "speaker": "Denton Fiske",
+          "verb": "asks",
+          "line": "If diversion beneath the spillway, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Nadia Voss",
+          "verb": "insists",
+          "line": "Then we keep nadia can now accuse the precinct itself of obstruction alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Iris Vale",
+          "verb": "warns",
+          "line": "If nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Soren Arden",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-006-03",
+      "index": 2,
+      "location": "The abandoned sluice control room above the spillway",
+      "anchorObject": "The stolen drive case",
+      "supportFocus": "Iris Vale",
+      "participants": [
+        "Nadia Voss",
+        "Theo Mercer",
+        "Iris Vale"
+      ],
+      "focusCharacter": "Nadia Voss",
+      "supportCharacter": "Iris Vale",
+      "pressureFigure": "Iris Vale",
+      "carriedPressure": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt",
+      "introduction": "The recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+      "development": "Murder, not drowning, becomes the central fact",
+      "conflict": "Murder, not drowning, becomes the central fact",
+      "resolution": "The investigation turns from hidden search into institutional showdown",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "She copies the drive, then files the bolt officially so the precinct cannot deny it existed",
+      "goal": "Diversion beneath the spillway",
+      "obstacle": "The recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+      "result": "She copies the drive, then files the bolt officially so the precinct cannot deny it existed",
+      "stakes": "The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+      "escalation": "Murder, not drowning, becomes the central fact",
+      "trigger": "Theo realizes the victim was killed during a meeting about the lock privatization signatures",
+      "impact": "Nadia can now accuse the precinct itself of obstruction",
+      "followThrough": "She copies the drive, then files the bolt officially so the precinct cannot deny it existed",
+      "dialogueTurns": [
+        {
+          "speaker": "Iris Vale",
+          "verb": "asks",
+          "line": "If theo realizes the victim was killed during a meeting about the lock privatization signatures, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Nadia Voss",
+          "verb": "insists",
+          "line": "Then we keep diversion beneath the spillway alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Galen Pryce",
+          "verb": "adds",
+          "line": "Once this reaches open air, the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Soren Arden",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-006-04",
+      "index": 3,
+      "location": "Lock Six Camera Deck",
+      "anchorObject": "Dock Chain Custody Tag",
+      "supportFocus": "Galen Pryce",
+      "participants": [
+        "Nadia Voss",
+        "Galen Pryce",
+        "Denton Fiske"
+      ],
+      "focusCharacter": "Nadia Voss",
+      "supportCharacter": "Galen Pryce",
+      "pressureFigure": "Denton Fiske",
+      "carriedPressure": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt",
+      "introduction": "She copies the drive, then files the bolt officially so the precinct cannot deny it existed",
+      "development": "Separate proof of murder from the police pathway designed to bury it",
+      "conflict": "Separate proof of murder from the police pathway designed to bury it",
+      "resolution": "Murder, not drowning, becomes the central fact",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Murder, not drowning, becomes the central fact",
+      "goal": "She copies the drive, then files the bolt officially so the precinct cannot deny it existed",
+      "obstacle": "Murder, not drowning, becomes the central fact",
+      "result": "Murder, not drowning, becomes the central fact",
+      "stakes": "The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+      "escalation": "Separate proof of murder from the police pathway designed to bury it",
+      "trigger": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt",
+      "impact": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first",
+      "followThrough": "Murder, not drowning, becomes the central fact",
+      "dialogueTurns": [
+        {
+          "speaker": "Galen Pryce",
+          "verb": "asks",
+          "line": "If at the abandoned control room, they recover the drive case and a blood-marked retaining bolt, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Nadia Voss",
+          "verb": "insists",
+          "line": "Then we keep she copies the drive, then files the bolt officially so the precinct cannot deny it existed alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Denton Fiske",
+          "verb": "warns",
+          "line": "If murder, not drowning, becomes the central fact, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Soren Arden",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-006-05",
+      "index": 4,
+      "location": "The river evidence hangar beside Lock Six",
+      "anchorObject": "The stolen drive case",
+      "supportFocus": "Denton Fiske",
+      "participants": [
+        "Nadia Voss",
+        "Theo Mercer",
+        "Denton Fiske",
+        "Soren Arden"
+      ],
+      "focusCharacter": "Nadia Voss",
+      "supportCharacter": "Denton Fiske",
+      "pressureFigure": "Soren Arden",
+      "carriedPressure": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt",
+      "introduction": "Diversion beneath the spillway",
+      "development": "Nadia can now accuse the precinct itself of obstruction",
+      "conflict": "The recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+      "resolution": "Theo realizes the victim was killed during a meeting about the lock privatization signatures",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first",
+      "goal": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt",
+      "obstacle": "Theo realizes the victim was killed during a meeting about the lock privatization signatures",
+      "result": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first",
+      "stakes": "The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+      "escalation": "Nadia can now accuse the precinct itself of obstruction",
+      "trigger": "The only lawful reporting channel leads back to Soren's office",
+      "impact": "She copies the drive, then files the bolt officially so the precinct cannot deny it existed",
+      "followThrough": "Separate proof of murder from the police pathway designed to bury it",
+      "dialogueTurns": [
+        {
+          "speaker": "Denton Fiske",
+          "verb": "asks",
+          "line": "If the only lawful reporting channel leads back to Soren's office, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Nadia Voss",
+          "verb": "insists",
+          "line": "Then we keep at the abandoned control room, they recover the drive case and a blood-marked retaining bolt alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Iris Vale",
+          "verb": "adds",
+          "line": "Once this reaches open air, the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Soren Arden",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-006-06",
+      "index": 5,
+      "location": "The abandoned sluice control room above the spillway",
+      "anchorObject": "Dock Chain Custody Tag",
+      "supportFocus": "Iris Vale",
+      "participants": [
+        "Nadia Voss",
+        "Iris Vale",
+        "Galen Pryce",
+        "Soren Arden"
+      ],
+      "focusCharacter": "Nadia Voss",
+      "supportCharacter": "Iris Vale",
+      "pressureFigure": "Soren Arden",
+      "carriedPressure": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt",
+      "introduction": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt",
+      "development": "Theo realizes the victim was killed during a meeting about the lock privatization signatures",
+      "conflict": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first",
+      "resolution": "She copies the drive, then files the bolt officially so the precinct cannot deny it existed",
+      "exit": "The chapter hands off to a sharper reversal consequence",
+      "stateChange": "The investigation turns from hidden search into institutional showdown",
+      "goal": "Separate proof of murder from the police pathway designed to bury it",
+      "obstacle": "The only lawful reporting channel leads back to Soren's office",
+      "result": "The investigation turns from hidden search into institutional showdown",
+      "stakes": "The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+      "escalation": "Theo realizes the victim was killed during a meeting about the lock privatization signatures",
+      "trigger": "The recovered drive contains muted footage of the victim arriving with the deputy mayor alive",
+      "impact": "Murder, not drowning, becomes the central fact",
+      "followThrough": "Nadia can now accuse the precinct itself of obstruction",
+      "dialogueTurns": [
+        {
+          "speaker": "Iris Vale",
+          "verb": "asks",
+          "line": "If the recovered drive contains muted footage of the victim arriving with the deputy mayor alive, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Nadia Voss",
+          "verb": "insists",
+          "line": "Then we keep separate proof of murder from the police pathway designed to bury it alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Galen Pryce",
+          "verb": "warns",
+          "line": "If the only lawful reporting channel leads back to Soren's office, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Soren Arden",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    }
+  ],
+  "opening": {
+    "inputState": "At the abandoned control room, they recover the drive case and a blood-marked retaining bolt",
+    "chapterQuestion": "Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first",
+    "sensoryAnchor": "Diesel sheen, wet rope, fluorescent glare on metal trays",
+    "socialSignal": "Everyone speaks in clipped inventory terms because the room only respects what can be tagged"
+  },
+  "closing": {
+    "outputState": "The investigation turns from hidden search into institutional showdown",
+    "answerShift": "The cover-up is not separate from the institution; it is how the institution currently functions",
+    "macroEcho": "Can Nadia prove murder before procedure itself is used to wash the evidence clean"
+  }
+}
+-->

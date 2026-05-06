@@ -1,5 +1,5 @@
 import { escapeHtml } from '../core/text.mjs';
-import { localizeEditionMode, localizeEditorialProfile } from './bookWriterLanguage.mjs';
+import { localizeEditorialProfile } from './bookWriterLanguage.mjs';
 
 export function renderPlainManuscript(edition) {
   return [
@@ -118,13 +118,9 @@ export function renderBookHtml(edition) {
           <dl class="imprint-grid">
             <div><dt>${escapeHtml(pack.ui.profile)}</dt><dd>${escapeHtml(edition.profileLabel)}</dd></div>
             <div><dt>${escapeHtml(pack.ui.workForm)}</dt><dd>${escapeHtml(edition.workForm)}</dd></div>
-            <div><dt>${escapeHtml(pack.ui.bookId)}</dt><dd>${escapeHtml(edition.bookId)}</dd></div>
-            <div><dt>${escapeHtml(pack.ui.edition)}</dt><dd>${escapeHtml(localizeEditionMode(edition.mode, edition.contentLanguage))}</dd></div>
-            <div><dt>${escapeHtml(pack.ui.targetLanguage)}</dt><dd>${escapeHtml(edition.requestedLanguage)}</dd></div>
             <div><dt>${escapeHtml(pack.ui.editorialProfile)}</dt><dd>${escapeHtml(localizeEditorialProfile(edition.editorialProfile, edition.contentLanguage))}</dd></div>
-            <div><dt>${escapeHtml(pack.ui.translationInstruction)}</dt><dd>${escapeHtml(edition.translationInstruction || (edition.contentLanguage === 'ro' ? 'implicit' : 'default'))}</dd></div>
-            <div><dt>${escapeHtml(pack.ui.generatedWith)}</dt><dd>${escapeHtml(edition.generatedWith ?? 'SCRIPTA')}</dd></div>
           </dl>
+          <p>${escapeHtml(pack.ui.colophon)}</p>
         </section>
         <nav class="page-break">
           <p class="eyebrow">${escapeHtml(pack.ui.contents)}</p>

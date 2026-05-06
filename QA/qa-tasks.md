@@ -5,7 +5,14 @@
 - Priority: medium
 - Stage: micro
 - Action: Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.
-- Evidence: OI=66
+- Evidence: OI=65
+
+## qa-detective-river — Sharpen emotional progression
+- Profile: detective-police
+- Priority: medium
+- Stage: drafts
+- Action: Strengthen chapter-to-chapter emotional contrast so the emotional arc is easier to perceive in the final manuscript.
+- Evidence: EAP=76
 
 ## qa-detective-river — Reinforce character continuity
 - Profile: detective-police
@@ -19,14 +26,14 @@
 - Priority: high
 - Stage: bookwriter
 - Action: Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.
-- Evidence: NQS=87
+- Evidence: NQS=84
 
 ## qa-drama-silence — Increase lexical novelty
 - Profile: drama
 - Priority: medium
 - Stage: micro
 - Action: Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.
-- Evidence: OI=66
+- Evidence: OI=65
 
 ## qa-drama-silence — Reinforce character continuity
 - Profile: drama
@@ -47,7 +54,7 @@
 - Priority: medium
 - Stage: micro
 - Action: Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.
-- Evidence: OI=66
+- Evidence: OI=65
 
 ## qa-fantasy-ash — Reinforce character continuity
 - Profile: fantasy
@@ -61,14 +68,14 @@
 - Priority: high
 - Stage: bookwriter
 - Action: Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.
-- Evidence: NQS=87
+- Evidence: NQS=85
 
 ## qa-romance-margins — Increase lexical novelty
 - Profile: romance-relational
 - Priority: medium
 - Stage: micro
 - Action: Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.
-- Evidence: OI=66
+- Evidence: OI=65
 
 ## qa-romance-margins — Reinforce character continuity
 - Profile: romance-relational
@@ -82,14 +89,21 @@
 - Priority: high
 - Stage: bookwriter
 - Action: Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.
-- Evidence: NQS=87
+- Evidence: NQS=85
 
 ## qa-scifi-orbit — Increase lexical novelty
 - Profile: science-fiction
 - Priority: medium
 - Stage: micro
 - Action: Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.
-- Evidence: OI=66
+- Evidence: OI=65
+
+## qa-scifi-orbit — Sharpen emotional progression
+- Profile: science-fiction
+- Priority: medium
+- Stage: drafts
+- Action: Strengthen chapter-to-chapter emotional contrast so the emotional arc is easier to perceive in the final manuscript.
+- Evidence: EAP=76
 
 ## qa-scifi-orbit — Reinforce character continuity
 - Profile: science-fiction
@@ -103,4 +117,4 @@
 - Priority: high
 - Stage: bookwriter
 - Action: Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.
-- Evidence: NQS=87
+- Evidence: NQS=82

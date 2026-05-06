@@ -590,7 +590,12 @@ function detectDraftSurfaceLeaks(draft) {
     /a hint for the dialogue line/i,
     /\bthe immediate result is\b/i,
     /\bthe central question here is\b/i,
-    /\bby the end of (?:the )?chapter\b/i
+    /\bby the end of (?:the )?chapter\b/i,
+    /\bhow this scene opens\b/i,
+    /\bhow this scene develops\b/i,
+    /\bwhat the protagonist tries to accomplish\b/i,
+    /\bwhat prevents easy success\b/i,
+    /\bwhat triggers this event\b/i
   ];
 
   for (let index = 0; index < paragraphs.length; index += 1) {

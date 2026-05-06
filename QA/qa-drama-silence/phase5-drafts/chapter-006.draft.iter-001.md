@@ -1,47 +1,417 @@
 # Chapter 006
 
-Mira Solari enters Greymarket Steps while in the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration. In this drama chapter, revelation movement anchored by names beneath the memorial varnish, so choices around identity-self under reconciliation pressure carry grief and tension. Vera Quinn keeps searching for a path toward relief, while Rufus Dene works to keep the conflict inside a safer official story. The central question here is mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. The conflict thread is mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. The setting is anchored by wet wool, radiator hiss, mildew trapped in paper bindings and keeps a civic room designed to soften language until responsibility disappears in view. The governing constraint is still active: mira cannot accuse the town hall without exposing her mother and Vera to the same hearing. At the start, Mira Solari believes keeping a family safe matters more than forcing a public reckoning at the start of the reversal chapter. Its rhythm leans on description-action-dialogue-pause-event-monologue.
+Mira Solari steps into greymarket Steps carrying in the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration. Wet wool, radiator hiss, mildew trapped in paper bindings hangs over the room before anyone speaks. Every conversation sounds temporary because the office trained people to trade truth for calm keeps trying to pass for order. Rufus Dene reads the first disturbance faster than the rest of the room. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely is no longer theoretical once the first exchange begins to tilt.
 
-The room tightens before anyone can pretend calm is enough. The emotional balance is about to flip. In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration. Mira Solari tries to find a form of testimony that cannot be dismissed as private grief, but every valid witness is tied to the town through debt, salary, or kinship. The plaques show corrected dates that match the forged ledger rather than the actual deaths. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. Rufus Dene senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When the memorial plaque for Mira's brother lists a death date that predates the night he called her, the local pressure tips from grief toward tension. She asks Vera to stand beside her publicly, even if it means both families lose protection. The unresolved line remains active through forgery turns from suspicion into undeniable chronology, which keeps fear and anticipation braided together. The immediate result is the truth stops being archival and becomes a shared moral choice.
+After in the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration, Mira Solari moves first. In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration. The plaques show corrected dates that match the forged ledger rather than the actual deaths. Mira Solari wants to find a form of testimony that cannot be dismissed as private grief. but every valid witness is tied to the town through debt, salary, or kinship keeps folding the scene back toward danger.
 
-Their speech stays careful, but grief keeps roughening the edges of each sentence. Subtext matters as much as the explicit claim. Mira Solari, Vera Quinn, Rufus Dene, Sabine Arlo keep circling mira Solari and Mira Solari keep circling the truth they cannot safely name yet. "A hint for the dialogue line" Rufus Dene says. The question lands harder than either speaker planned. "Find a form of testimony that cannot be dismissed as private grief" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Sabine Arlo adds. Naming the risk turns pressure into irreversible commitment. "Every valid witness is tied to the town through debt, salary, or kinship" Corin Voss says. The challenge strips politeness away from the scene.
+Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and every valid witness is tied to the town through debt, salary, or kinship.
+"If the memorial plaque for Mira's brother lists a death date that predates the night he called her, who decided the station was allowed to forget it," asks Rufus Dene. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep find a form of testimony that cannot be dismissed as private grief alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence," adds Sabine Arlo. Naming the risk turns pressure into irreversible commitment. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-The first deceleration is deliberate: the truth stops being archival and becomes a shared moral choice.
+The memorial plaque for Mira's brother lists a death date that predates the night he called her lands with more force than the room can absorb politely. Forgery turns from suspicion into undeniable chronology. She asks Vera to stand beside her publicly, even if it means both families lose protection. The truth stops being archival and becomes a shared moral choice and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-The silence breaks in smaller, sharper motions. The emotional balance is about to flip. The plaques show corrected dates that match the forged ledger rather than the actual deaths. Mira Solari tries to the case becomes inseparable from the commemoration ceremony, but mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. Every valid witness is tied to the town through debt, salary, or kinship. Rufus Dene senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When names beneath the memorial varnish, the local pressure tips from grief toward tension. The case becomes inseparable from the commemoration ceremony. The unresolved line remains active through forgery turns from suspicion into undeniable chronology, which keeps fear and anticipation braided together. The immediate result is the case becomes inseparable from the commemoration ceremony.
+At the shuttered mediation office above the old customs hall, Mira Solari has no room left for delay. The plaques show corrected dates that match the forged ledger rather than the actual deaths. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. Mira Solari wants to the case becomes inseparable from the commemoration ceremony. but mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Sabine Arlo says. The question lands harder than either speaker planned. "The case becomes inseparable from the commemoration ceremony" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Corin Hale adds. The warning narrows what can still be done safely. "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely" Corin Voss says. The challenge strips politeness away from the scene.
+Every valid witness is tied to the town through debt, salary, or kinship. Names beneath the memorial varnish turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and every valid witness is tied to the town through debt, salary, or kinship.
+"If names beneath the memorial varnish, who decided the station was allowed to forget it," asks Sabine Arlo. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep the case becomes inseparable from the commemoration ceremony alive long enough to make it count." The promise raises the stakes for the next exchange. "If mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely, the room will close around us before anyone else sees the truth," warns Corin Hale. The warning narrows what can still be done safely. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-The private wound becomes public at last. The emotional balance is about to flip. The memorial plaque for Mira's brother lists a death date that predates the night he called her. Mira Solari tries to names beneath the memorial varnish, but the memorial plaque for Mira's brother lists a death date that predates the night he called her. Forgery turns from suspicion into undeniable chronology. Forgery turns from suspicion into undeniable chronology. Rufus Dene senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When the plaques show corrected dates that match the forged ledger rather than the actual deaths, the local pressure tips from grief toward tension. The truth stops being archival and becomes a shared moral choice. The unresolved line remains active through forgery turns from suspicion into undeniable chronology, which keeps fear and anticipation braided together. The immediate result is she asks Vera to stand beside her publicly, even if it means both families lose protection.
+Names beneath the memorial varnish lands with more force than the room can absorb politely. The truth stops being archival and becomes a shared moral choice. The case becomes inseparable from the commemoration ceremony. The case becomes inseparable from the commemoration ceremony and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
- "A hint for the dialogue line" Corin Hale says. The question lands harder than either speaker planned. "Names beneath the memorial varnish" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Rufus Dene adds. Naming the risk turns pressure into irreversible commitment. "The memorial plaque for Mira's brother lists a death date that predates the night he called her" Corin Voss says. The challenge strips politeness away from the scene.
+Mira Solari reaches for the flood compensation ledger before the room can decide who is allowed to touch it. The memorial plaque for Mira's brother lists a death date that predates the night he called her. Forgery turns from suspicion into undeniable chronology. Mira Solari wants to names beneath the memorial varnish. but the memorial plaque for Mira's brother lists a death date that predates the night he called her keeps folding the scene back toward danger.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and every valid witness is tied to the town through debt, salary, or kinship.
+Forgery turns from suspicion into undeniable chronology. The plaques show corrected dates that match the forged ledger rather than the actual deaths turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
-The room tightens before anyone can pretend calm is enough. The emotional balance is about to flip. She asks Vera to stand beside her publicly, even if it means both families lose protection. Mira Solari tries to she asks Vera to stand beside her publicly, even if it means both families lose protection, but forgery turns from suspicion into undeniable chronology. Find a form of testimony that cannot be dismissed as private grief. Find a form of testimony that cannot be dismissed as private grief. Rufus Dene senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When in the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration, the local pressure tips from grief toward tension. Forgery turns from suspicion into undeniable chronology. The unresolved line remains active through forgery turns from suspicion into undeniable chronology, which keeps fear and anticipation braided together. The immediate result is forgery turns from suspicion into undeniable chronology.
+"If the plaques show corrected dates that match the forged ledger rather than the actual deaths, who decided the station was allowed to forget it," asks Corin Hale. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep names beneath the memorial varnish alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence," adds Rufus Dene. Naming the risk turns pressure into irreversible commitment. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
- "A hint for the dialogue line" Rufus Dene says. The question lands harder than either speaker planned. "She asks Vera to stand beside her publicly, even if it means both families lose protection" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Sabine Arlo adds. The warning narrows what can still be done safely. "Forgery turns from suspicion into undeniable chronology" Corin Voss says. The challenge strips politeness away from the scene.
+The plaques show corrected dates that match the forged ledger rather than the actual deaths lands with more force than the room can absorb politely. The case becomes inseparable from the commemoration ceremony. The truth stops being archival and becomes a shared moral choice. She asks Vera to stand beside her publicly, even if it means both families lose protection and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and every valid witness is tied to the town through debt, salary, or kinship.
+What begins in greymarket Steps stops looking procedural the moment she asks Vera to stand beside her publicly, even if it means both families lose protection. She asks Vera to stand beside her publicly, even if it means both families lose protection. Find a form of testimony that cannot be dismissed as private grief. Mira Solari wants to she asks Vera to stand beside her publicly, even if it means both families lose protection. but forgery turns from suspicion into undeniable chronology keeps folding the scene back toward danger.
 
-The silence breaks in smaller, sharper motions. The emotional balance is about to flip. Names beneath the memorial varnish. Mira Solari tries to in the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration, but the plaques show corrected dates that match the forged ledger rather than the actual deaths. The case becomes inseparable from the commemoration ceremony. The memorial plaque for Mira's brother lists a death date that predates the night he called her. Rufus Dene senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When every valid witness is tied to the town through debt, salary, or kinship, the local pressure tips from grief toward tension. The plaques show corrected dates that match the forged ledger rather than the actual deaths. The unresolved line remains active through forgery turns from suspicion into undeniable chronology, which keeps fear and anticipation braided together. The immediate result is mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.
+Find a form of testimony that cannot be dismissed as private grief. In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
- "A hint for the dialogue line" Sabine Arlo says. The question lands harder than either speaker planned. "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Corin Hale adds. Naming the risk turns pressure into irreversible commitment. "The plaques show corrected dates that match the forged ledger rather than the actual deaths" Corin Voss says. The challenge strips politeness away from the scene.
+"If in the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration, who decided the station was allowed to forget it," asks Rufus Dene. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep she asks Vera to stand beside her publicly, even if it means both families lose protection alive long enough to make it count." The promise raises the stakes for the next exchange. "If forgery turns from suspicion into undeniable chronology, the room will close around us before anyone else sees the truth," warns Sabine Arlo. The warning narrows what can still be done safely. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and every valid witness is tied to the town through debt, salary, or kinship.
+In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration lands with more force than the room can absorb politely. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. Forgery turns from suspicion into undeniable chronology. Forgery turns from suspicion into undeniable chronology and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-The private wound becomes public at last. The emotional balance is about to flip. In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration. Mira Solari tries to find a form of testimony that cannot be dismissed as private grief, but every valid witness is tied to the town through debt, salary, or kinship. The plaques show corrected dates that match the forged ledger rather than the actual deaths. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. Rufus Dene senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When the memorial plaque for Mira's brother lists a death date that predates the night he called her, the local pressure tips from grief toward tension. She asks Vera to stand beside her publicly, even if it means both families lose protection. The unresolved line remains active through forgery turns from suspicion into undeniable chronology, which keeps fear and anticipation braided together. The immediate result is the truth stops being archival and becomes a shared moral choice.
+After in the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration, Mira Solari moves first. Names beneath the memorial varnish. The case becomes inseparable from the commemoration ceremony. Mira Solari wants to in the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration. but the plaques show corrected dates that match the forged ledger rather than the actual deaths keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Corin Hale says. The question lands harder than either speaker planned. "Find a form of testimony that cannot be dismissed as private grief" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Rufus Dene adds. The warning narrows what can still be done safely. "Every valid witness is tied to the town through debt, salary, or kinship" Corin Voss says. The challenge strips politeness away from the scene.
+The memorial plaque for Mira's brother lists a death date that predates the night he called her. Every valid witness is tied to the town through debt, salary, or kinship turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and every valid witness is tied to the town through debt, salary, or kinship.
+"If every valid witness is tied to the town through debt, salary, or kinship, who decided the station was allowed to forget it," asks Sabine Arlo. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep in the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence," adds Corin Hale. Naming the risk turns pressure into irreversible commitment. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-Then the pace compresses: the memorial plaque for Mira's brother lists a death date that predates the night he called her.
+Every valid witness is tied to the town through debt, salary, or kinship lands with more force than the room can absorb politely. She asks Vera to stand beside her publicly, even if it means both families lose protection. The plaques show corrected dates that match the forged ledger rather than the actual deaths. Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-Mira Solari feels forgery turns from suspicion into undeniable chronology, a mix of grief and tension that will not settle into easy relief. The chapter therefore pushes the inner line from keeping a family safe matters more than forcing a public reckoning at the start of the reversal chapter toward care without truth only prolongs the violence of the original wound after the reversal chapter.
+At the flood memorial crypt beneath Saint Rowan chapel, Mira Solari has no room left for delay. In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration. The plaques show corrected dates that match the forged ledger rather than the actual deaths. Mira Solari wants to find a form of testimony that cannot be dismissed as private grief. but every valid witness is tied to the town through debt, salary, or kinship keeps folding the scene back toward danger.
 
-By the end of chapter-006, the truth stops being archival and becomes a shared moral choice. The chapter keeps faith with identity-self under reconciliation pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: the dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the relational line moves from oath-bound-cooperation-shadowed-by-allegiance toward scarred-trust-rebuilt-on-painful-clarity. The closing pressure is therefore both grief and tension, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?.
+Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely. The memorial plaque for Mira's brother lists a death date that predates the night he called her turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
+
+"If the memorial plaque for Mira's brother lists a death date that predates the night he called her, who decided the station was allowed to forget it," asks Corin Hale. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep find a form of testimony that cannot be dismissed as private grief alive long enough to make it count." The promise raises the stakes for the next exchange. "If every valid witness is tied to the town through debt, salary, or kinship, the room will close around us before anyone else sees the truth," warns Rufus Dene. The warning narrows what can still be done safely. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
+
+The memorial plaque for Mira's brother lists a death date that predates the night he called her lands with more force than the room can absorb politely. Forgery turns from suspicion into undeniable chronology. She asks Vera to stand beside her publicly, even if it means both families lose protection. Mira Solari leaves the flood memorial crypt beneath Saint Rowan chapel without the shelter they had at the start. The chapter hands off to a sharper reversal consequence.
+
+Mira Solari carries the truth stops being archival and becomes a shared moral choice out of the flood memorial crypt beneath Saint Rowan chapel. The dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the bond now looks closer to scarred-trust-rebuilt-on-painful-clarity. Care without truth only prolongs the violence of the original wound after the reversal chapter is no longer something Mira Solari can postpone. Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence.
+
+<!-- scripta-draft-data
+{
+  "version": 1,
+  "chapterId": "chapter-006",
+  "chapterNumber": "006",
+  "profileId": "drama",
+  "protagonist": "Mira Solari",
+  "counterpart": "Vera Quinn",
+  "chapterRole": "reversal",
+  "scenes": [
+    {
+      "sceneId": "scene-006-01",
+      "index": 0,
+      "location": "Greymarket Steps",
+      "anchorObject": "The flood compensation ledger",
+      "supportFocus": "Rufus Dene",
+      "participants": [
+        "Mira Solari",
+        "Vera Quinn",
+        "Rufus Dene"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Rufus Dene",
+      "pressureFigure": "Rufus Dene",
+      "carriedPressure": "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration",
+      "introduction": "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration",
+      "development": "The plaques show corrected dates that match the forged ledger rather than the actual deaths",
+      "conflict": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely",
+      "resolution": "She asks Vera to stand beside her publicly, even if it means both families lose protection",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "The truth stops being archival and becomes a shared moral choice",
+      "goal": "Find a form of testimony that cannot be dismissed as private grief",
+      "obstacle": "Every valid witness is tied to the town through debt, salary, or kinship",
+      "result": "The truth stops being archival and becomes a shared moral choice",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "The plaques show corrected dates that match the forged ledger rather than the actual deaths",
+      "trigger": "The memorial plaque for Mira's brother lists a death date that predates the night he called her",
+      "impact": "Forgery turns from suspicion into undeniable chronology",
+      "followThrough": "The case becomes inseparable from the commemoration ceremony",
+      "dialogueTurns": [
+        {
+          "speaker": "Rufus Dene",
+          "verb": "asks",
+          "line": "If the memorial plaque for Mira's brother lists a death date that predates the night he called her, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep find a form of testimony that cannot be dismissed as private grief alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Sabine Arlo",
+          "verb": "adds",
+          "line": "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-006-02",
+      "index": 1,
+      "location": "The shuttered mediation office above the old customs hall",
+      "anchorObject": "Black Ribbon Register",
+      "supportFocus": "Sabine Arlo",
+      "participants": [
+        "Mira Solari",
+        "Sabine Arlo",
+        "Corin Hale",
+        "Corin Voss"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Sabine Arlo",
+      "pressureFigure": "Corin Voss",
+      "carriedPressure": "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration",
+      "introduction": "The plaques show corrected dates that match the forged ledger rather than the actual deaths",
+      "development": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely",
+      "conflict": "Every valid witness is tied to the town through debt, salary, or kinship",
+      "resolution": "The case becomes inseparable from the commemoration ceremony",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "The case becomes inseparable from the commemoration ceremony",
+      "goal": "The case becomes inseparable from the commemoration ceremony",
+      "obstacle": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely",
+      "result": "The case becomes inseparable from the commemoration ceremony",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely",
+      "trigger": "Names beneath the memorial varnish",
+      "impact": "The truth stops being archival and becomes a shared moral choice",
+      "followThrough": "The truth stops being archival and becomes a shared moral choice",
+      "dialogueTurns": [
+        {
+          "speaker": "Sabine Arlo",
+          "verb": "asks",
+          "line": "If names beneath the memorial varnish, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep the case becomes inseparable from the commemoration ceremony alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Corin Hale",
+          "verb": "warns",
+          "line": "If mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-006-03",
+      "index": 2,
+      "location": "The flood memorial crypt beneath Saint Rowan chapel",
+      "anchorObject": "The flood compensation ledger",
+      "supportFocus": "Corin Hale",
+      "participants": [
+        "Mira Solari",
+        "Vera Quinn",
+        "Corin Hale"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Corin Hale",
+      "pressureFigure": "Corin Hale",
+      "carriedPressure": "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration",
+      "introduction": "The memorial plaque for Mira's brother lists a death date that predates the night he called her",
+      "development": "Forgery turns from suspicion into undeniable chronology",
+      "conflict": "Forgery turns from suspicion into undeniable chronology",
+      "resolution": "The truth stops being archival and becomes a shared moral choice",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "She asks Vera to stand beside her publicly, even if it means both families lose protection",
+      "goal": "Names beneath the memorial varnish",
+      "obstacle": "The memorial plaque for Mira's brother lists a death date that predates the night he called her",
+      "result": "She asks Vera to stand beside her publicly, even if it means both families lose protection",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "Forgery turns from suspicion into undeniable chronology",
+      "trigger": "The plaques show corrected dates that match the forged ledger rather than the actual deaths",
+      "impact": "The case becomes inseparable from the commemoration ceremony",
+      "followThrough": "She asks Vera to stand beside her publicly, even if it means both families lose protection",
+      "dialogueTurns": [
+        {
+          "speaker": "Corin Hale",
+          "verb": "asks",
+          "line": "If the plaques show corrected dates that match the forged ledger rather than the actual deaths, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep names beneath the memorial varnish alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Rufus Dene",
+          "verb": "adds",
+          "line": "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-006-04",
+      "index": 3,
+      "location": "Greymarket Steps",
+      "anchorObject": "Black Ribbon Register",
+      "supportFocus": "Rufus Dene",
+      "participants": [
+        "Mira Solari",
+        "Rufus Dene",
+        "Sabine Arlo"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Rufus Dene",
+      "pressureFigure": "Sabine Arlo",
+      "carriedPressure": "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration",
+      "introduction": "She asks Vera to stand beside her publicly, even if it means both families lose protection",
+      "development": "Find a form of testimony that cannot be dismissed as private grief",
+      "conflict": "Find a form of testimony that cannot be dismissed as private grief",
+      "resolution": "Forgery turns from suspicion into undeniable chronology",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Forgery turns from suspicion into undeniable chronology",
+      "goal": "She asks Vera to stand beside her publicly, even if it means both families lose protection",
+      "obstacle": "Forgery turns from suspicion into undeniable chronology",
+      "result": "Forgery turns from suspicion into undeniable chronology",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "Find a form of testimony that cannot be dismissed as private grief",
+      "trigger": "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration",
+      "impact": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely",
+      "followThrough": "Forgery turns from suspicion into undeniable chronology",
+      "dialogueTurns": [
+        {
+          "speaker": "Rufus Dene",
+          "verb": "asks",
+          "line": "If in the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep she asks Vera to stand beside her publicly, even if it means both families lose protection alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Sabine Arlo",
+          "verb": "warns",
+          "line": "If forgery turns from suspicion into undeniable chronology, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-006-05",
+      "index": 4,
+      "location": "The shuttered mediation office above the old customs hall",
+      "anchorObject": "The flood compensation ledger",
+      "supportFocus": "Sabine Arlo",
+      "participants": [
+        "Mira Solari",
+        "Vera Quinn",
+        "Sabine Arlo",
+        "Corin Voss"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Sabine Arlo",
+      "pressureFigure": "Corin Voss",
+      "carriedPressure": "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration",
+      "introduction": "Names beneath the memorial varnish",
+      "development": "The case becomes inseparable from the commemoration ceremony",
+      "conflict": "The memorial plaque for Mira's brother lists a death date that predates the night he called her",
+      "resolution": "The plaques show corrected dates that match the forged ledger rather than the actual deaths",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely",
+      "goal": "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration",
+      "obstacle": "The plaques show corrected dates that match the forged ledger rather than the actual deaths",
+      "result": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "The case becomes inseparable from the commemoration ceremony",
+      "trigger": "Every valid witness is tied to the town through debt, salary, or kinship",
+      "impact": "She asks Vera to stand beside her publicly, even if it means both families lose protection",
+      "followThrough": "Find a form of testimony that cannot be dismissed as private grief",
+      "dialogueTurns": [
+        {
+          "speaker": "Sabine Arlo",
+          "verb": "asks",
+          "line": "If every valid witness is tied to the town through debt, salary, or kinship, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep in the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Corin Hale",
+          "verb": "adds",
+          "line": "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-006-06",
+      "index": 5,
+      "location": "The flood memorial crypt beneath Saint Rowan chapel",
+      "anchorObject": "Black Ribbon Register",
+      "supportFocus": "Corin Hale",
+      "participants": [
+        "Mira Solari",
+        "Corin Hale",
+        "Rufus Dene",
+        "Corin Voss"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Corin Hale",
+      "pressureFigure": "Corin Voss",
+      "carriedPressure": "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration",
+      "introduction": "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration",
+      "development": "The plaques show corrected dates that match the forged ledger rather than the actual deaths",
+      "conflict": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely",
+      "resolution": "She asks Vera to stand beside her publicly, even if it means both families lose protection",
+      "exit": "The chapter hands off to a sharper reversal consequence",
+      "stateChange": "The truth stops being archival and becomes a shared moral choice",
+      "goal": "Find a form of testimony that cannot be dismissed as private grief",
+      "obstacle": "Every valid witness is tied to the town through debt, salary, or kinship",
+      "result": "The truth stops being archival and becomes a shared moral choice",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "The plaques show corrected dates that match the forged ledger rather than the actual deaths",
+      "trigger": "The memorial plaque for Mira's brother lists a death date that predates the night he called her",
+      "impact": "Forgery turns from suspicion into undeniable chronology",
+      "followThrough": "The case becomes inseparable from the commemoration ceremony",
+      "dialogueTurns": [
+        {
+          "speaker": "Corin Hale",
+          "verb": "asks",
+          "line": "If the memorial plaque for Mira's brother lists a death date that predates the night he called her, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep find a form of testimony that cannot be dismissed as private grief alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Rufus Dene",
+          "verb": "warns",
+          "line": "If every valid witness is tied to the town through debt, salary, or kinship, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    }
+  ],
+  "opening": {
+    "inputState": "In the church crypt, Vera reveals that Mira's brother planned to testify during the annual flood commemoration",
+    "chapterQuestion": "Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely",
+    "sensoryAnchor": "Wet wool, radiator hiss, mildew trapped in paper bindings",
+    "socialSignal": "Every conversation sounds temporary because the office trained people to trade truth for calm"
+  },
+  "closing": {
+    "outputState": "The truth stops being archival and becomes a shared moral choice",
+    "answerShift": "The dead are betrayed again whenever the living turn grief into paperwork",
+    "macroEcho": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence"
+  }
+}
+-->

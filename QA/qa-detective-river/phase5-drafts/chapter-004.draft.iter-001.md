@@ -1,47 +1,417 @@
 # Chapter 004
 
-Nadia Voss enters Brine Tunnel Records Cage while they identify a stolen drive case tagged as scrap and follow it toward the abandoned control room. In this detective / police chapter, escalation movement anchored by camera gap at lock six, so choices around identity-self under resistance pressure carry tension and shock. Theo Mercer keeps searching for a path toward relief, while Mara Quill works to keep the conflict inside a safer official story. The central question here is connect the missing footage to a human decision rather than a technical accident. The conflict thread is theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone. The procedural environment is anchored by diesel sheen, wet rope, fluorescent glare on metal trays and keeps a warehouse where facts are stored just long enough to be reassigned in view. The governing constraint is still active: nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish. At the start, Nadia Voss believes if she follows procedure closely enough, the truth will eventually surface at the start of the bridge chapter. Its rhythm leans on action-dialogue-description-conflict-revelation-suspense-cliffhanger.
+Nadia Voss steps into brine Tunnel Records Cage carrying they identify a stolen drive case tagged as scrap and follow it toward the abandoned control room. Diesel sheen, wet rope, fluorescent glare on metal trays hangs over the room before anyone speaks. Everyone speaks in clipped inventory terms because the room only respects what can be tagged keeps trying to pass for order. Mara Quill reads the first disturbance faster than the rest of the room. Connect the missing footage to a human decision rather than a technical accident is no longer theoretical once the first exchange begins to tilt.
 
-The case narrows as procedure loses its protective distance. The chapter crosses a threshold without releasing pressure. In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps. Nadia Voss tries to connect the missing footage to a human decision rather than a technical accident, but every request for the raw server logs pings Soren before it reaches records. The footage gap lines up exactly with a maintenance override signed by Soren's deputy. Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone. Mara Quill senses that the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront now hang inside the same exchange. The procedural environment mirrors a warehouse where facts are stored just long enough to be reassigned. When a duplicate maintenance form appears with two different timestamps, the local pressure tips from tension toward shock. They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room. The unresolved line remains active through theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone, which keeps fear and anticipation braided together. The immediate result is administrative negligence hardens into coordinated concealment.
+After they identify a stolen drive case tagged as scrap and follow it toward the abandoned control room, Nadia Voss moves first. In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps. The footage gap lines up exactly with a maintenance override signed by Soren's deputy. Nadia Voss wants to connect the missing footage to a human decision rather than a technical accident. but every request for the raw server logs pings Soren before it reaches records keeps folding the scene back toward danger.
 
-Their dialogue sounds procedural, yet every answer carries tension and concealed fear. Subtext matters as much as the explicit claim. Nadia Voss, Theo Mercer, Mara Quill, Orla Keen keep circling nadia Voss and Nadia Voss keep circling the truth they cannot safely name yet. "A hint for the dialogue line" Mara Quill says. The question lands harder than either speaker planned. "Connect the missing footage to a human decision rather than a technical accident" Nadia Voss replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Orla Keen adds. Naming the risk turns pressure into irreversible commitment. "Every request for the raw server logs pings Soren before it reaches records" Soren Arden says. The challenge strips politeness away from the scene.
+Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone. Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish turns hesitation into a deadline. The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront stop sounding abstract once nadia Voss realizes who will be blamed first. Logs are complete on paper but physically impossible when matched against the river timing stays visible in every small reaction around them.
 
-At the level of place, everyone speaks in clipped inventory terms because the room only respects what can be tagged; physical traces keep resisting the official story each time they are catalogued. The chapter rule keeps shaping possibility: logs are complete on paper but physically impossible when matched against the river timing, and every request for the raw server logs pings Soren before it reaches records.
+"If a duplicate maintenance form appears with two different timestamps, who decided the station was allowed to forget it," asks Mara Quill. The question lands harder than either speaker planned. Nadia Voss insists, "Then we keep connect the missing footage to a human decision rather than a technical accident alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront," adds Orla Keen. Naming the risk turns pressure into irreversible commitment. Soren Arden cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-The first deceleration is deliberate: chain-of-custody becomes the crime scene.
+A duplicate maintenance form appears with two different timestamps lands with more force than the room can absorb politely. Chain-of-custody becomes the crime scene. They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room. Administrative negligence hardens into coordinated concealment and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-A cleaner fact enters the frame and makes every prior statement unstable. The chapter crosses a threshold without releasing pressure. The footage gap lines up exactly with a maintenance override signed by Soren's deputy. Nadia Voss tries to nadia now knows the cover-up has a clock and a route, but theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone. Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone. Every request for the raw server logs pings Soren before it reaches records. Mara Quill senses that the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront now hang inside the same exchange. The procedural environment mirrors a warehouse where facts are stored just long enough to be reassigned. When camera gap at Lock Six, the local pressure tips from tension toward shock. Nadia now knows the cover-up has a clock and a route. The unresolved line remains active through theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone, which keeps fear and anticipation braided together. The immediate result is nadia now knows the cover-up has a clock and a route.
+At coffer Slip Warehouse, Nadia Voss has no room left for delay. The footage gap lines up exactly with a maintenance override signed by Soren's deputy. Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone. Nadia Voss wants to nadia now knows the cover-up has a clock and a route. but theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Orla Keen says. The question lands harder than either speaker planned. "Nadia now knows the cover-up has a clock and a route" Nadia Voss replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Galen Pryce adds. The warning narrows what can still be done safely. "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone" Soren Arden says. The challenge strips politeness away from the scene.
+Every request for the raw server logs pings Soren before it reaches records. Camera gap at Lock Six turns hesitation into a deadline. The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront stop sounding abstract once nadia Voss realizes who will be blamed first. Logs are complete on paper but physically impossible when matched against the river timing stays visible in every small reaction around them.
 
-At the level of place, everyone speaks in clipped inventory terms because the room only respects what can be tagged; physical traces keep resisting the official story each time they are catalogued. The chapter rule keeps shaping possibility: logs are complete on paper but physically impossible when matched against the river timing, and every request for the raw server logs pings Soren before it reaches records.
+"If camera gap at Lock Six, who decided the station was allowed to forget it," asks Orla Keen. The question lands harder than either speaker planned. Nadia Voss insists, "Then we keep nadia now knows the cover-up has a clock and a route alive long enough to make it count." The promise raises the stakes for the next exchange. "If theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone, the room will close around us before anyone else sees the truth," warns Galen Pryce. The warning narrows what can still be done safely. Soren Arden cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-What looked manageable starts reading like a system instead of an incident. The chapter crosses a threshold without releasing pressure. A duplicate maintenance form appears with two different timestamps. Nadia Voss tries to camera gap at Lock Six, but a duplicate maintenance form appears with two different timestamps. Chain-of-custody becomes the crime scene. Chain-of-custody becomes the crime scene. Mara Quill senses that the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront now hang inside the same exchange. The procedural environment mirrors a warehouse where facts are stored just long enough to be reassigned. When the footage gap lines up exactly with a maintenance override signed by Soren's deputy, the local pressure tips from tension toward shock. Administrative negligence hardens into coordinated concealment. The unresolved line remains active through theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone, which keeps fear and anticipation braided together. The immediate result is they identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
+Camera gap at Lock Six lands with more force than the room can absorb politely. Administrative negligence hardens into coordinated concealment. Nadia now knows the cover-up has a clock and a route. Nadia now knows the cover-up has a clock and a route and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
- "A hint for the dialogue line" Galen Pryce says. The question lands harder than either speaker planned. "Camera gap at Lock Six" Nadia Voss replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Mara Quill adds. Naming the risk turns pressure into irreversible commitment. "A duplicate maintenance form appears with two different timestamps" Soren Arden says. The challenge strips politeness away from the scene.
+Nadia Voss reaches for harbor Camera Spindle before the room can decide who is allowed to touch it. A duplicate maintenance form appears with two different timestamps. Chain-of-custody becomes the crime scene. Nadia Voss wants to camera gap at Lock Six. but a duplicate maintenance form appears with two different timestamps keeps folding the scene back toward danger.
 
-At the level of place, everyone speaks in clipped inventory terms because the room only respects what can be tagged; physical traces keep resisting the official story each time they are catalogued. The chapter rule keeps shaping possibility: logs are complete on paper but physically impossible when matched against the river timing, and every request for the raw server logs pings Soren before it reaches records.
+Chain-of-custody becomes the crime scene. The footage gap lines up exactly with a maintenance override signed by Soren's deputy turns hesitation into a deadline. The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront stop sounding abstract once nadia Voss realizes who will be blamed first. Logs are complete on paper but physically impossible when matched against the river timing stays visible in every small reaction around them.
 
-The case narrows as procedure loses its protective distance. The chapter crosses a threshold without releasing pressure. They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room. Nadia Voss tries to they identify a stolen drive case tagged as scrap and follow it toward the abandoned control room, but chain-of-custody becomes the crime scene. Connect the missing footage to a human decision rather than a technical accident. Connect the missing footage to a human decision rather than a technical accident. Mara Quill senses that the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront now hang inside the same exchange. The procedural environment mirrors a warehouse where facts are stored just long enough to be reassigned. When in the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps, the local pressure tips from tension toward shock. Chain-of-custody becomes the crime scene. The unresolved line remains active through theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone, which keeps fear and anticipation braided together. The immediate result is chain-of-custody becomes the crime scene.
+"If the footage gap lines up exactly with a maintenance override signed by Soren's deputy, who decided the station was allowed to forget it," asks Galen Pryce. The question lands harder than either speaker planned. Nadia Voss insists, "Then we keep camera gap at Lock Six alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront," adds Mara Quill. Naming the risk turns pressure into irreversible commitment. Soren Arden cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
- "A hint for the dialogue line" Mara Quill says. The question lands harder than either speaker planned. "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room" Nadia Voss replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Orla Keen adds. The warning narrows what can still be done safely. "Chain-of-custody becomes the crime scene" Soren Arden says. The challenge strips politeness away from the scene.
+The footage gap lines up exactly with a maintenance override signed by Soren's deputy lands with more force than the room can absorb politely. Nadia now knows the cover-up has a clock and a route. Administrative negligence hardens into coordinated concealment. They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-At the level of place, everyone speaks in clipped inventory terms because the room only respects what can be tagged; physical traces keep resisting the official story each time they are catalogued. The chapter rule keeps shaping possibility: logs are complete on paper but physically impossible when matched against the river timing, and every request for the raw server logs pings Soren before it reaches records.
+What begins in brine Tunnel Records Cage stops looking procedural the moment they identify a stolen drive case tagged as scrap and follow it toward the abandoned control room. They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room. Connect the missing footage to a human decision rather than a technical accident. Nadia Voss wants to they identify a stolen drive case tagged as scrap and follow it toward the abandoned control room. but chain-of-custody becomes the crime scene keeps folding the scene back toward danger.
 
-A cleaner fact enters the frame and makes every prior statement unstable. The chapter crosses a threshold without releasing pressure. Camera gap at Lock Six. Nadia Voss tries to in the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps, but the footage gap lines up exactly with a maintenance override signed by Soren's deputy. Nadia now knows the cover-up has a clock and a route. A duplicate maintenance form appears with two different timestamps. Mara Quill senses that the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront now hang inside the same exchange. The procedural environment mirrors a warehouse where facts are stored just long enough to be reassigned. When every request for the raw server logs pings Soren before it reaches records, the local pressure tips from tension toward shock. The footage gap lines up exactly with a maintenance override signed by Soren's deputy. The unresolved line remains active through theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone, which keeps fear and anticipation braided together. The immediate result is theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+Connect the missing footage to a human decision rather than a technical accident. In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps turns hesitation into a deadline. The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront stop sounding abstract once nadia Voss realizes who will be blamed first. Logs are complete on paper but physically impossible when matched against the river timing stays visible in every small reaction around them.
 
- "A hint for the dialogue line" Orla Keen says. The question lands harder than either speaker planned. "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps" Nadia Voss replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Galen Pryce adds. Naming the risk turns pressure into irreversible commitment. "The footage gap lines up exactly with a maintenance override signed by Soren's deputy" Soren Arden says. The challenge strips politeness away from the scene.
+"If in the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps, who decided the station was allowed to forget it," asks Mara Quill. The question lands harder than either speaker planned. Nadia Voss insists, "Then we keep they identify a stolen drive case tagged as scrap and follow it toward the abandoned control room alive long enough to make it count." The promise raises the stakes for the next exchange. "If chain-of-custody becomes the crime scene, the room will close around us before anyone else sees the truth," warns Orla Keen. The warning narrows what can still be done safely. Soren Arden cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-At the level of place, everyone speaks in clipped inventory terms because the room only respects what can be tagged; physical traces keep resisting the official story each time they are catalogued. The chapter rule keeps shaping possibility: logs are complete on paper but physically impossible when matched against the river timing, and every request for the raw server logs pings Soren before it reaches records.
+In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps lands with more force than the room can absorb politely. Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone. Chain-of-custody becomes the crime scene. Chain-of-custody becomes the crime scene and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-What looked manageable starts reading like a system instead of an incident. The chapter crosses a threshold without releasing pressure. In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps. Nadia Voss tries to connect the missing footage to a human decision rather than a technical accident, but every request for the raw server logs pings Soren before it reaches records. The footage gap lines up exactly with a maintenance override signed by Soren's deputy. Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone. Mara Quill senses that the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront now hang inside the same exchange. The procedural environment mirrors a warehouse where facts are stored just long enough to be reassigned. When a duplicate maintenance form appears with two different timestamps, the local pressure tips from tension toward shock. They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room. The unresolved line remains active through theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone, which keeps fear and anticipation braided together. The immediate result is administrative negligence hardens into coordinated concealment.
+After they identify a stolen drive case tagged as scrap and follow it toward the abandoned control room, Nadia Voss moves first. Camera gap at Lock Six. Nadia now knows the cover-up has a clock and a route. Nadia Voss wants to in the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps. but the footage gap lines up exactly with a maintenance override signed by Soren's deputy keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Galen Pryce says. The question lands harder than either speaker planned. "Connect the missing footage to a human decision rather than a technical accident" Nadia Voss replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Mara Quill adds. The warning narrows what can still be done safely. "Every request for the raw server logs pings Soren before it reaches records" Soren Arden says. The challenge strips politeness away from the scene.
+A duplicate maintenance form appears with two different timestamps. Every request for the raw server logs pings Soren before it reaches records turns hesitation into a deadline. The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront stop sounding abstract once nadia Voss realizes who will be blamed first. Logs are complete on paper but physically impossible when matched against the river timing stays visible in every small reaction around them.
 
-At the level of place, everyone speaks in clipped inventory terms because the room only respects what can be tagged; physical traces keep resisting the official story each time they are catalogued. The chapter rule keeps shaping possibility: logs are complete on paper but physically impossible when matched against the river timing, and every request for the raw server logs pings Soren before it reaches records.
+"If every request for the raw server logs pings Soren before it reaches records, who decided the station was allowed to forget it," asks Orla Keen. The question lands harder than either speaker planned. Nadia Voss insists, "Then we keep in the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront," adds Galen Pryce. Naming the risk turns pressure into irreversible commitment. Soren Arden cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-Then the pace compresses: in the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps.
+Every request for the raw server logs pings Soren before it reaches records lands with more force than the room can absorb politely. They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room. The footage gap lines up exactly with a maintenance override signed by Soren's deputy. Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-Nadia Voss feels chain-of-custody becomes the crime scene, a mix of tension and shock that will not settle into easy relief. The chapter therefore pushes the inner line from if she follows procedure closely enough, the truth will eventually surface at the start of the bridge chapter toward evidence survives only when someone refuses the procedure designed to neutralize it after the bridge chapter.
+At lock Six Camera Deck, Nadia Voss has no room left for delay. In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps. The footage gap lines up exactly with a maintenance override signed by Soren's deputy. Nadia Voss wants to connect the missing footage to a human decision rather than a technical accident. but every request for the raw server logs pings Soren before it reaches records keeps folding the scene back toward danger.
 
-By the end of chapter-004, chain-of-custody becomes the crime scene. The chapter keeps faith with identity-self under resistance pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: the cover-up is not separate from the institution; it is how the institution currently functions. Between Nadia Voss and Theo Mercer, the relational line moves from productive-partnership-guarded-by-emotional-self-defense toward altered-but-legible-bond. The closing pressure is therefore both tension and shock, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Nadia prove murder before procedure itself is used to wash the evidence clean?.
+Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone. A duplicate maintenance form appears with two different timestamps turns hesitation into a deadline. The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront stop sounding abstract once nadia Voss realizes who will be blamed first. Logs are complete on paper but physically impossible when matched against the river timing stays visible in every small reaction around them.
+
+"If a duplicate maintenance form appears with two different timestamps, who decided the station was allowed to forget it," asks Galen Pryce. The question lands harder than either speaker planned. Nadia Voss insists, "Then we keep connect the missing footage to a human decision rather than a technical accident alive long enough to make it count." The promise raises the stakes for the next exchange. "If every request for the raw server logs pings Soren before it reaches records, the room will close around us before anyone else sees the truth," warns Mara Quill. The warning narrows what can still be done safely. Soren Arden cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
+
+A duplicate maintenance form appears with two different timestamps lands with more force than the room can absorb politely. Chain-of-custody becomes the crime scene. They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room. Nadia Voss leaves lock Six Camera Deck without the shelter they had at the start. The chapter hands off to a sharper bridge consequence.
+
+Nadia Voss carries chain-of-custody becomes the crime scene out of lock Six Camera Deck. The cover-up is not separate from the institution; it is how the institution currently functions. Between Nadia Voss and Theo Mercer, the bond now looks closer to altered-but-legible-bond. Evidence survives only when someone refuses the procedure designed to neutralize it after the bridge chapter is no longer something Nadia Voss can postpone. Can Nadia prove murder before procedure itself is used to wash the evidence clean.
+
+<!-- scripta-draft-data
+{
+  "version": 1,
+  "chapterId": "chapter-004",
+  "chapterNumber": "004",
+  "profileId": "detective-police",
+  "protagonist": "Nadia Voss",
+  "counterpart": "Theo Mercer",
+  "chapterRole": "bridge",
+  "scenes": [
+    {
+      "sceneId": "scene-004-01",
+      "index": 0,
+      "location": "Brine Tunnel Records Cage",
+      "anchorObject": "Harbor Camera Spindle",
+      "supportFocus": "Mara Quill",
+      "participants": [
+        "Nadia Voss",
+        "Theo Mercer",
+        "Mara Quill"
+      ],
+      "focusCharacter": "Nadia Voss",
+      "supportCharacter": "Mara Quill",
+      "pressureFigure": "Mara Quill",
+      "carriedPressure": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room",
+      "introduction": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps",
+      "development": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy",
+      "conflict": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone",
+      "resolution": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Administrative negligence hardens into coordinated concealment",
+      "goal": "Connect the missing footage to a human decision rather than a technical accident",
+      "obstacle": "Every request for the raw server logs pings Soren before it reaches records",
+      "result": "Administrative negligence hardens into coordinated concealment",
+      "stakes": "The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+      "escalation": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy",
+      "trigger": "A duplicate maintenance form appears with two different timestamps",
+      "impact": "Chain-of-custody becomes the crime scene",
+      "followThrough": "Nadia now knows the cover-up has a clock and a route",
+      "dialogueTurns": [
+        {
+          "speaker": "Mara Quill",
+          "verb": "asks",
+          "line": "If a duplicate maintenance form appears with two different timestamps, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Nadia Voss",
+          "verb": "insists",
+          "line": "Then we keep connect the missing footage to a human decision rather than a technical accident alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Orla Keen",
+          "verb": "adds",
+          "line": "Once this reaches open air, the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Soren Arden",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-004-02",
+      "index": 1,
+      "location": "Coffer Slip Warehouse",
+      "anchorObject": "Cold Room Bolt Packet",
+      "supportFocus": "Orla Keen",
+      "participants": [
+        "Nadia Voss",
+        "Orla Keen",
+        "Galen Pryce",
+        "Soren Arden"
+      ],
+      "focusCharacter": "Nadia Voss",
+      "supportCharacter": "Orla Keen",
+      "pressureFigure": "Soren Arden",
+      "carriedPressure": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room",
+      "introduction": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy",
+      "development": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone",
+      "conflict": "Every request for the raw server logs pings Soren before it reaches records",
+      "resolution": "Nadia now knows the cover-up has a clock and a route",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Nadia now knows the cover-up has a clock and a route",
+      "goal": "Nadia now knows the cover-up has a clock and a route",
+      "obstacle": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone",
+      "result": "Nadia now knows the cover-up has a clock and a route",
+      "stakes": "The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+      "escalation": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone",
+      "trigger": "Camera gap at Lock Six",
+      "impact": "Administrative negligence hardens into coordinated concealment",
+      "followThrough": "Administrative negligence hardens into coordinated concealment",
+      "dialogueTurns": [
+        {
+          "speaker": "Orla Keen",
+          "verb": "asks",
+          "line": "If camera gap at Lock Six, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Nadia Voss",
+          "verb": "insists",
+          "line": "Then we keep nadia now knows the cover-up has a clock and a route alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Galen Pryce",
+          "verb": "warns",
+          "line": "If theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Soren Arden",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-004-03",
+      "index": 2,
+      "location": "Lock Six Camera Deck",
+      "anchorObject": "Harbor Camera Spindle",
+      "supportFocus": "Galen Pryce",
+      "participants": [
+        "Nadia Voss",
+        "Theo Mercer",
+        "Galen Pryce"
+      ],
+      "focusCharacter": "Nadia Voss",
+      "supportCharacter": "Galen Pryce",
+      "pressureFigure": "Galen Pryce",
+      "carriedPressure": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room",
+      "introduction": "A duplicate maintenance form appears with two different timestamps",
+      "development": "Chain-of-custody becomes the crime scene",
+      "conflict": "Chain-of-custody becomes the crime scene",
+      "resolution": "Administrative negligence hardens into coordinated concealment",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room",
+      "goal": "Camera gap at Lock Six",
+      "obstacle": "A duplicate maintenance form appears with two different timestamps",
+      "result": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room",
+      "stakes": "The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+      "escalation": "Chain-of-custody becomes the crime scene",
+      "trigger": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy",
+      "impact": "Nadia now knows the cover-up has a clock and a route",
+      "followThrough": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room",
+      "dialogueTurns": [
+        {
+          "speaker": "Galen Pryce",
+          "verb": "asks",
+          "line": "If the footage gap lines up exactly with a maintenance override signed by Soren's deputy, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Nadia Voss",
+          "verb": "insists",
+          "line": "Then we keep camera gap at Lock Six alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Mara Quill",
+          "verb": "adds",
+          "line": "Once this reaches open air, the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Soren Arden",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-004-04",
+      "index": 3,
+      "location": "Brine Tunnel Records Cage",
+      "anchorObject": "Cold Room Bolt Packet",
+      "supportFocus": "Mara Quill",
+      "participants": [
+        "Nadia Voss",
+        "Mara Quill",
+        "Orla Keen"
+      ],
+      "focusCharacter": "Nadia Voss",
+      "supportCharacter": "Mara Quill",
+      "pressureFigure": "Orla Keen",
+      "carriedPressure": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room",
+      "introduction": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room",
+      "development": "Connect the missing footage to a human decision rather than a technical accident",
+      "conflict": "Connect the missing footage to a human decision rather than a technical accident",
+      "resolution": "Chain-of-custody becomes the crime scene",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Chain-of-custody becomes the crime scene",
+      "goal": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room",
+      "obstacle": "Chain-of-custody becomes the crime scene",
+      "result": "Chain-of-custody becomes the crime scene",
+      "stakes": "The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+      "escalation": "Connect the missing footage to a human decision rather than a technical accident",
+      "trigger": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps",
+      "impact": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone",
+      "followThrough": "Chain-of-custody becomes the crime scene",
+      "dialogueTurns": [
+        {
+          "speaker": "Mara Quill",
+          "verb": "asks",
+          "line": "If in the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Nadia Voss",
+          "verb": "insists",
+          "line": "Then we keep they identify a stolen drive case tagged as scrap and follow it toward the abandoned control room alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Orla Keen",
+          "verb": "warns",
+          "line": "If chain-of-custody becomes the crime scene, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Soren Arden",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-004-05",
+      "index": 4,
+      "location": "Coffer Slip Warehouse",
+      "anchorObject": "Harbor Camera Spindle",
+      "supportFocus": "Orla Keen",
+      "participants": [
+        "Nadia Voss",
+        "Theo Mercer",
+        "Orla Keen",
+        "Soren Arden"
+      ],
+      "focusCharacter": "Nadia Voss",
+      "supportCharacter": "Orla Keen",
+      "pressureFigure": "Soren Arden",
+      "carriedPressure": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room",
+      "introduction": "Camera gap at Lock Six",
+      "development": "Nadia now knows the cover-up has a clock and a route",
+      "conflict": "A duplicate maintenance form appears with two different timestamps",
+      "resolution": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone",
+      "goal": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps",
+      "obstacle": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy",
+      "result": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone",
+      "stakes": "The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+      "escalation": "Nadia now knows the cover-up has a clock and a route",
+      "trigger": "Every request for the raw server logs pings Soren before it reaches records",
+      "impact": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room",
+      "followThrough": "Connect the missing footage to a human decision rather than a technical accident",
+      "dialogueTurns": [
+        {
+          "speaker": "Orla Keen",
+          "verb": "asks",
+          "line": "If every request for the raw server logs pings Soren before it reaches records, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Nadia Voss",
+          "verb": "insists",
+          "line": "Then we keep in the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Galen Pryce",
+          "verb": "adds",
+          "line": "Once this reaches open air, the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Soren Arden",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-004-06",
+      "index": 5,
+      "location": "Lock Six Camera Deck",
+      "anchorObject": "Cold Room Bolt Packet",
+      "supportFocus": "Galen Pryce",
+      "participants": [
+        "Nadia Voss",
+        "Galen Pryce",
+        "Mara Quill",
+        "Soren Arden"
+      ],
+      "focusCharacter": "Nadia Voss",
+      "supportCharacter": "Galen Pryce",
+      "pressureFigure": "Soren Arden",
+      "carriedPressure": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room",
+      "introduction": "In the evidence hangar, Nadia and Theo trace the victim's last route through broken camera timestamps",
+      "development": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy",
+      "conflict": "Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone",
+      "resolution": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room",
+      "exit": "The chapter hands off to a sharper bridge consequence",
+      "stateChange": "Administrative negligence hardens into coordinated concealment",
+      "goal": "Connect the missing footage to a human decision rather than a technical accident",
+      "obstacle": "Every request for the raw server logs pings Soren before it reaches records",
+      "result": "Administrative negligence hardens into coordinated concealment",
+      "stakes": "The victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront",
+      "escalation": "The footage gap lines up exactly with a maintenance override signed by Soren's deputy",
+      "trigger": "A duplicate maintenance form appears with two different timestamps",
+      "impact": "Chain-of-custody becomes the crime scene",
+      "followThrough": "Nadia now knows the cover-up has a clock and a route",
+      "dialogueTurns": [
+        {
+          "speaker": "Galen Pryce",
+          "verb": "asks",
+          "line": "If a duplicate maintenance form appears with two different timestamps, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Nadia Voss",
+          "verb": "insists",
+          "line": "Then we keep connect the missing footage to a human decision rather than a technical accident alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Mara Quill",
+          "verb": "warns",
+          "line": "If every request for the raw server logs pings Soren before it reaches records, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Soren Arden",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    }
+  ],
+  "opening": {
+    "inputState": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room",
+    "chapterQuestion": "Connect the missing footage to a human decision rather than a technical accident",
+    "sensoryAnchor": "Diesel sheen, wet rope, fluorescent glare on metal trays",
+    "socialSignal": "Everyone speaks in clipped inventory terms because the room only respects what can be tagged"
+  },
+  "closing": {
+    "outputState": "Chain-of-custody becomes the crime scene",
+    "answerShift": "The cover-up is not separate from the institution; it is how the institution currently functions",
+    "macroEcho": "Can Nadia prove murder before procedure itself is used to wash the evidence clean"
+  }
+}
+-->

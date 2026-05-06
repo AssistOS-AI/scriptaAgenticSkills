@@ -1,47 +1,417 @@
 # Chapter 003
 
-Leora Kestrel enters Museum Crate Hall while the misprint mirrors the exact margin shift from the night Talia left. In this romance / relational chapter, escalation movement anchored by the misprinted folio night, so choices around love-connection under transformation pressure carry tender and tension. Talia Voss keeps searching for a path toward relief, while Imogen Pike works to keep the conflict inside a safer official story. The central question here is the studio forces the past into the present workload. The conflict thread is leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission. The working space is anchored by ink oil, paper dust, hot metal type, winter air trapped in skylight glass and keeps a place where touch leaves visible marks and every correction shows in view. The governing constraint is still active: leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure. At the start, Leora Kestrel believes competence is safer than emotional dependence at the start of the investigation chapter. Its rhythm leans on dialogue-description-interior-monologue-action-pause-dialogue-cliffhanger.
+Leora Kestrel steps into museum Crate Hall carrying the misprint mirrors the exact margin shift from the night Talia left. Ink oil, paper dust, hot metal type, winter air trapped in skylight glass hangs over the room before anyone speaks. Work replaces confession here because every surface carries the memory of collaboration keeps trying to pass for order. Imogen Pike reads the first disturbance faster than the rest of the room. The studio forces the past into the present workload is no longer theoretical once the first exchange begins to tilt.
 
-Routine offers cover, but not safety. The movement now favors evidence over comfort. A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift. Leora Kestrel tries to save the damaged folios without destroying the schedule, but fatigue makes every careful sentence sound either too sharp or too intimate. Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for. Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission. Imogen Pike senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When the misprint mirrors the exact margin shift from the night Talia left, the local pressure tips from tender toward tension. They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep. The unresolved line remains active through repair becomes emotionally riskier than failure, which keeps fear and anticipation braided together. The immediate result is the work begins storing their conflict instead of hiding it.
+After the misprint mirrors the exact margin shift from the night Talia left, Leora Kestrel moves first. A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift. Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for. Leora Kestrel wants to save the damaged folios without destroying the schedule. but fatigue makes every careful sentence sound either too sharp or too intimate keeps folding the scene back toward danger.
 
-They keep the talk practical even while tender hesitation keeps undoing the surface. Subtext matters as much as the explicit claim. Leora Kestrel, Talia Voss, Imogen Pike, Selene Ward keep circling leora Kestrel and Leora Kestrel keep circling the truth they cannot safely name yet. "A hint for the dialogue line" Imogen Pike says. The question lands harder than either speaker planned. "Save the damaged folios without destroying the schedule" Leora Kestrel replies. The challenge strips politeness away from the scene. "A hint for the dialogue line" Selene Ward adds. Naming the risk turns pressure into irreversible commitment. "Fatigue makes every careful sentence sound either too sharp or too intimate" Cassia Mercer says. The challenge strips politeness away from the scene.
+Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission. Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and fatigue makes every careful sentence sound either too sharp or too intimate.
+"If the misprint mirrors the exact margin shift from the night Talia left, who decided the station was allowed to forget it," asks Imogen Pike. The question lands harder than either speaker planned. Leora Kestrel fires back, "Order is not innocence when the studio forces the past into the present workload." The challenge strips politeness away from the scene. "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again," adds Selene Ward. Naming the risk turns pressure into irreversible commitment. Cassia Mercer cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-The first deceleration is deliberate: they salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+The misprint mirrors the exact margin shift from the night Talia left lands with more force than the room can absorb politely. The studio forces the past into the present workload. They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep. The work begins storing their conflict instead of hiding it and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-Practical collaboration starts exposing what private caution cannot hide. The movement now favors evidence over comfort. Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for. Leora Kestrel tries to repair becomes emotionally riskier than failure, but leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission. Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission. Fatigue makes every careful sentence sound either too sharp or too intimate. Imogen Pike senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When the misprinted folio night, the local pressure tips from tender toward tension. Repair becomes emotionally riskier than failure. The unresolved line remains active through repair becomes emotionally riskier than failure, which keeps fear and anticipation braided together. The immediate result is repair becomes emotionally riskier than failure.
+At wick Market Arcade, Leora Kestrel has no room left for delay. Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for. Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission. Leora Kestrel wants to repair becomes emotionally riskier than failure. but leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Selene Ward says. The question lands harder than either speaker planned. "Repair becomes emotionally riskier than failure" Leora Kestrel replies. The challenge strips politeness away from the scene. "A hint for the dialogue line" Noah Quill adds. The warning narrows what can still be done safely. "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission" Cassia Mercer says. The challenge strips politeness away from the scene.
+Fatigue makes every careful sentence sound either too sharp or too intimate. The misprinted folio night turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and fatigue makes every careful sentence sound either too sharp or too intimate.
+"If the misprinted folio night, who decided the station was allowed to forget it," asks Selene Ward. The question lands harder than either speaker planned. Leora Kestrel fires back, "Order is not innocence when the work begins storing their conflict instead of hiding it." The challenge strips politeness away from the scene. "If leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission, the room will close around us before anyone else sees the truth," warns Noah Quill. The warning narrows what can still be done safely. Cassia Mercer cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-Tenderness appears in the same breath as fresh defensiveness. The movement now favors evidence over comfort. The misprint mirrors the exact margin shift from the night Talia left. Leora Kestrel tries to the misprinted folio night, but the misprint mirrors the exact margin shift from the night Talia left. The studio forces the past into the present workload. The studio forces the past into the present workload. Imogen Pike senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for, the local pressure tips from tender toward tension. The work begins storing their conflict instead of hiding it. The unresolved line remains active through repair becomes emotionally riskier than failure, which keeps fear and anticipation braided together. The immediate result is they salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+The misprinted folio night lands with more force than the room can absorb politely. The work begins storing their conflict instead of hiding it. Repair becomes emotionally riskier than failure. Repair becomes emotionally riskier than failure and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
- "A hint for the dialogue line" Noah Quill says. The question lands harder than either speaker planned. "The misprinted folio night" Leora Kestrel replies. The challenge strips politeness away from the scene. "A hint for the dialogue line" Imogen Pike adds. Naming the risk turns pressure into irreversible commitment. "The misprint mirrors the exact margin shift from the night Talia left" Cassia Mercer says. The challenge strips politeness away from the scene.
+Leora Kestrel reaches for museum Dummy Spine before the room can decide who is allowed to touch it. The misprint mirrors the exact margin shift from the night Talia left. The studio forces the past into the present workload. Leora Kestrel wants to the misprinted folio night. but the misprint mirrors the exact margin shift from the night Talia left keeps folding the scene back toward danger.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and fatigue makes every careful sentence sound either too sharp or too intimate.
+The studio forces the past into the present workload. Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
 
-Routine offers cover, but not safety. The movement now favors evidence over comfort. They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep. Leora Kestrel tries to they salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep, but the studio forces the past into the present workload. Save the damaged folios without destroying the schedule. Save the damaged folios without destroying the schedule. Imogen Pike senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When a batch of folios misprints during an overnight press run, forcing them into the same exhausted shift, the local pressure tips from tender toward tension. The studio forces the past into the present workload. The unresolved line remains active through repair becomes emotionally riskier than failure, which keeps fear and anticipation braided together. The immediate result is the studio forces the past into the present workload.
+"If talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for, who decided the station was allowed to forget it," asks Noah Quill. The question lands harder than either speaker planned. Leora Kestrel fires back, "Order is not innocence when repair becomes emotionally riskier than failure." The challenge strips politeness away from the scene. "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again," adds Imogen Pike. Naming the risk turns pressure into irreversible commitment. Cassia Mercer cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
- "A hint for the dialogue line" Imogen Pike says. The question lands harder than either speaker planned. "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep" Leora Kestrel replies. The challenge strips politeness away from the scene. "A hint for the dialogue line" Selene Ward adds. The warning narrows what can still be done safely. "The studio forces the past into the present workload" Cassia Mercer says. The challenge strips politeness away from the scene.
+Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for lands with more force than the room can absorb politely. Repair becomes emotionally riskier than failure. The work begins storing their conflict instead of hiding it. They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and fatigue makes every careful sentence sound either too sharp or too intimate.
+What begins in museum Crate Hall stops looking procedural the moment they salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep. They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep. Save the damaged folios without destroying the schedule. Leora Kestrel wants to they salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep. but the studio forces the past into the present workload keeps folding the scene back toward danger.
 
-Practical collaboration starts exposing what private caution cannot hide. The movement now favors evidence over comfort. The misprinted folio night. Leora Kestrel tries to a batch of folios misprints during an overnight press run, forcing them into the same exhausted shift, but talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for. Repair becomes emotionally riskier than failure. The misprint mirrors the exact margin shift from the night Talia left. Imogen Pike senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When fatigue makes every careful sentence sound either too sharp or too intimate, the local pressure tips from tender toward tension. Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for. The unresolved line remains active through repair becomes emotionally riskier than failure, which keeps fear and anticipation braided together. The immediate result is leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
+Save the damaged folios without destroying the schedule. A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
 
- "A hint for the dialogue line" Selene Ward says. The question lands harder than either speaker planned. "A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift" Leora Kestrel replies. The challenge strips politeness away from the scene. "A hint for the dialogue line" Noah Quill adds. Naming the risk turns pressure into irreversible commitment. "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for" Cassia Mercer says. The challenge strips politeness away from the scene.
+"If a batch of folios misprints during an overnight press run, forcing them into the same exhausted shift, who decided the station was allowed to forget it," asks Imogen Pike. The question lands harder than either speaker planned. Leora Kestrel fires back, "Order is not innocence when leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission." The challenge strips politeness away from the scene. "If the studio forces the past into the present workload, the room will close around us before anyone else sees the truth," warns Selene Ward. The warning narrows what can still be done safely. Cassia Mercer cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and fatigue makes every careful sentence sound either too sharp or too intimate.
+A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift lands with more force than the room can absorb politely. Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission. The studio forces the past into the present workload. The studio forces the past into the present workload and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-Tenderness appears in the same breath as fresh defensiveness. The movement now favors evidence over comfort. A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift. Leora Kestrel tries to save the damaged folios without destroying the schedule, but fatigue makes every careful sentence sound either too sharp or too intimate. Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for. Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission. Imogen Pike senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When the misprint mirrors the exact margin shift from the night Talia left, the local pressure tips from tender toward tension. They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep. The unresolved line remains active through repair becomes emotionally riskier than failure, which keeps fear and anticipation braided together. The immediate result is the work begins storing their conflict instead of hiding it.
+After the misprint mirrors the exact margin shift from the night Talia left, Leora Kestrel moves first. The misprinted folio night. Repair becomes emotionally riskier than failure. Leora Kestrel wants to a batch of folios misprints during an overnight press run, forcing them into the same exhausted shift. but talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Noah Quill says. The question lands harder than either speaker planned. "Save the damaged folios without destroying the schedule" Leora Kestrel replies. The challenge strips politeness away from the scene. "A hint for the dialogue line" Imogen Pike adds. The warning narrows what can still be done safely. "Fatigue makes every careful sentence sound either too sharp or too intimate" Cassia Mercer says. The challenge strips politeness away from the scene.
+The misprint mirrors the exact margin shift from the night Talia left. Fatigue makes every careful sentence sound either too sharp or too intimate turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and fatigue makes every careful sentence sound either too sharp or too intimate.
+"If fatigue makes every careful sentence sound either too sharp or too intimate, who decided the station was allowed to forget it," asks Selene Ward. The question lands harder than either speaker planned. Leora Kestrel fires back, "Order is not innocence when they salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep." The challenge strips politeness away from the scene. "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again," adds Noah Quill. Naming the risk turns pressure into irreversible commitment. Cassia Mercer cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-Then the pace compresses: talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.
+Fatigue makes every careful sentence sound either too sharp or too intimate lands with more force than the room can absorb politely. They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep. Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for. Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-Leora Kestrel feels the studio forces the past into the present workload, a mix of tender and tension that will not settle into easy relief. The chapter therefore pushes the inner line from competence is safer than emotional dependence at the start of the investigation chapter toward shared risk creates a truer form of security than controlled distance after the investigation chapter.
+At ink Room Mezzanine, Leora Kestrel has no room left for delay. A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift. Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for. Leora Kestrel wants to save the damaged folios without destroying the schedule. but fatigue makes every careful sentence sound either too sharp or too intimate keeps folding the scene back toward danger.
 
-By the end of chapter-003, they salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep. The chapter keeps faith with love-connection under transformation pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: the studio survives only if the people inside it stop pretending usefulness is neutral. Between Leora Kestrel and Talia Voss, the relational line moves from professional-alliance-with-unequal-risk toward solidarity-forged-through-contested-truth. The closing pressure is therefore both tender and tension, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?.
+Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission. The misprint mirrors the exact margin shift from the night Talia left turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
+
+"If the misprint mirrors the exact margin shift from the night Talia left, who decided the station was allowed to forget it," asks Noah Quill. The question lands harder than either speaker planned. Leora Kestrel fires back, "Order is not innocence when the studio forces the past into the present workload." The challenge strips politeness away from the scene. "If fatigue makes every careful sentence sound either too sharp or too intimate, the room will close around us before anyone else sees the truth," warns Imogen Pike. The warning narrows what can still be done safely. Cassia Mercer cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
+
+The misprint mirrors the exact margin shift from the night Talia left lands with more force than the room can absorb politely. The studio forces the past into the present workload. They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep. Leora Kestrel leaves ink Room Mezzanine without the shelter they had at the start. The chapter hands off to a sharper investigation consequence.
+
+Leora Kestrel carries they salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep out of ink Room Mezzanine. The studio survives only if the people inside it stop pretending usefulness is neutral. Between Leora Kestrel and Talia Voss, the bond now looks closer to solidarity-forged-through-contested-truth. Shared risk creates a truer form of security than controlled distance after the investigation chapter is no longer something Leora Kestrel can postpone. Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them.
+
+<!-- scripta-draft-data
+{
+  "version": 1,
+  "chapterId": "chapter-003",
+  "chapterNumber": "003",
+  "profileId": "romance-relational",
+  "protagonist": "Leora Kestrel",
+  "counterpart": "Talia Voss",
+  "chapterRole": "investigation",
+  "scenes": [
+    {
+      "sceneId": "scene-003-01",
+      "index": 0,
+      "location": "Museum Crate Hall",
+      "anchorObject": "Museum Dummy Spine",
+      "supportFocus": "Imogen Pike",
+      "participants": [
+        "Leora Kestrel",
+        "Talia Voss",
+        "Imogen Pike"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Imogen Pike",
+      "pressureFigure": "Imogen Pike",
+      "carriedPressure": "The misprint mirrors the exact margin shift from the night Talia left",
+      "introduction": "A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift",
+      "development": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for",
+      "conflict": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission",
+      "resolution": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "The work begins storing their conflict instead of hiding it",
+      "goal": "Save the damaged folios without destroying the schedule",
+      "obstacle": "Fatigue makes every careful sentence sound either too sharp or too intimate",
+      "result": "The work begins storing their conflict instead of hiding it",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for",
+      "trigger": "The misprint mirrors the exact margin shift from the night Talia left",
+      "impact": "The studio forces the past into the present workload",
+      "followThrough": "Repair becomes emotionally riskier than failure",
+      "dialogueTurns": [
+        {
+          "speaker": "Imogen Pike",
+          "verb": "asks",
+          "line": "If the misprint mirrors the exact margin shift from the night Talia left, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "fires back",
+          "line": "Order is not innocence when the studio forces the past into the present workload",
+          "reaction": "The challenge strips politeness away from the scene."
+        },
+        {
+          "speaker": "Selene Ward",
+          "verb": "adds",
+          "line": "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-003-02",
+      "index": 1,
+      "location": "Wick Market Arcade",
+      "anchorObject": "Ink Ledger of Corrections",
+      "supportFocus": "Selene Ward",
+      "participants": [
+        "Leora Kestrel",
+        "Selene Ward",
+        "Noah Quill",
+        "Cassia Mercer"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Selene Ward",
+      "pressureFigure": "Cassia Mercer",
+      "carriedPressure": "The misprint mirrors the exact margin shift from the night Talia left",
+      "introduction": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for",
+      "development": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission",
+      "conflict": "Fatigue makes every careful sentence sound either too sharp or too intimate",
+      "resolution": "Repair becomes emotionally riskier than failure",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Repair becomes emotionally riskier than failure",
+      "goal": "Repair becomes emotionally riskier than failure",
+      "obstacle": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission",
+      "result": "Repair becomes emotionally riskier than failure",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission",
+      "trigger": "The misprinted folio night",
+      "impact": "The work begins storing their conflict instead of hiding it",
+      "followThrough": "The work begins storing their conflict instead of hiding it",
+      "dialogueTurns": [
+        {
+          "speaker": "Selene Ward",
+          "verb": "asks",
+          "line": "If the misprinted folio night, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "fires back",
+          "line": "Order is not innocence when the work begins storing their conflict instead of hiding it",
+          "reaction": "The challenge strips politeness away from the scene."
+        },
+        {
+          "speaker": "Noah Quill",
+          "verb": "warns",
+          "line": "If leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-003-03",
+      "index": 2,
+      "location": "Ink Room Mezzanine",
+      "anchorObject": "Museum Dummy Spine",
+      "supportFocus": "Noah Quill",
+      "participants": [
+        "Leora Kestrel",
+        "Talia Voss",
+        "Noah Quill"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Noah Quill",
+      "pressureFigure": "Noah Quill",
+      "carriedPressure": "The misprint mirrors the exact margin shift from the night Talia left",
+      "introduction": "The misprint mirrors the exact margin shift from the night Talia left",
+      "development": "The studio forces the past into the present workload",
+      "conflict": "The studio forces the past into the present workload",
+      "resolution": "The work begins storing their conflict instead of hiding it",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep",
+      "goal": "The misprinted folio night",
+      "obstacle": "The misprint mirrors the exact margin shift from the night Talia left",
+      "result": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "The studio forces the past into the present workload",
+      "trigger": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for",
+      "impact": "Repair becomes emotionally riskier than failure",
+      "followThrough": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep",
+      "dialogueTurns": [
+        {
+          "speaker": "Noah Quill",
+          "verb": "asks",
+          "line": "If talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "fires back",
+          "line": "Order is not innocence when repair becomes emotionally riskier than failure",
+          "reaction": "The challenge strips politeness away from the scene."
+        },
+        {
+          "speaker": "Imogen Pike",
+          "verb": "adds",
+          "line": "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-003-04",
+      "index": 3,
+      "location": "Museum Crate Hall",
+      "anchorObject": "Ink Ledger of Corrections",
+      "supportFocus": "Imogen Pike",
+      "participants": [
+        "Leora Kestrel",
+        "Imogen Pike",
+        "Selene Ward"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Imogen Pike",
+      "pressureFigure": "Selene Ward",
+      "carriedPressure": "The misprint mirrors the exact margin shift from the night Talia left",
+      "introduction": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep",
+      "development": "Save the damaged folios without destroying the schedule",
+      "conflict": "Save the damaged folios without destroying the schedule",
+      "resolution": "The studio forces the past into the present workload",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "The studio forces the past into the present workload",
+      "goal": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep",
+      "obstacle": "The studio forces the past into the present workload",
+      "result": "The studio forces the past into the present workload",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "Save the damaged folios without destroying the schedule",
+      "trigger": "A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift",
+      "impact": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission",
+      "followThrough": "The studio forces the past into the present workload",
+      "dialogueTurns": [
+        {
+          "speaker": "Imogen Pike",
+          "verb": "asks",
+          "line": "If a batch of folios misprints during an overnight press run, forcing them into the same exhausted shift, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "fires back",
+          "line": "Order is not innocence when leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission",
+          "reaction": "The challenge strips politeness away from the scene."
+        },
+        {
+          "speaker": "Selene Ward",
+          "verb": "warns",
+          "line": "If the studio forces the past into the present workload, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-003-05",
+      "index": 4,
+      "location": "Wick Market Arcade",
+      "anchorObject": "Museum Dummy Spine",
+      "supportFocus": "Selene Ward",
+      "participants": [
+        "Leora Kestrel",
+        "Talia Voss",
+        "Selene Ward",
+        "Cassia Mercer"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Selene Ward",
+      "pressureFigure": "Cassia Mercer",
+      "carriedPressure": "The misprint mirrors the exact margin shift from the night Talia left",
+      "introduction": "The misprinted folio night",
+      "development": "Repair becomes emotionally riskier than failure",
+      "conflict": "The misprint mirrors the exact margin shift from the night Talia left",
+      "resolution": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission",
+      "goal": "A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift",
+      "obstacle": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for",
+      "result": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "Repair becomes emotionally riskier than failure",
+      "trigger": "Fatigue makes every careful sentence sound either too sharp or too intimate",
+      "impact": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep",
+      "followThrough": "Save the damaged folios without destroying the schedule",
+      "dialogueTurns": [
+        {
+          "speaker": "Selene Ward",
+          "verb": "asks",
+          "line": "If fatigue makes every careful sentence sound either too sharp or too intimate, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "fires back",
+          "line": "Order is not innocence when they salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep",
+          "reaction": "The challenge strips politeness away from the scene."
+        },
+        {
+          "speaker": "Noah Quill",
+          "verb": "adds",
+          "line": "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-003-06",
+      "index": 5,
+      "location": "Ink Room Mezzanine",
+      "anchorObject": "Ink Ledger of Corrections",
+      "supportFocus": "Noah Quill",
+      "participants": [
+        "Leora Kestrel",
+        "Noah Quill",
+        "Imogen Pike",
+        "Cassia Mercer"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Noah Quill",
+      "pressureFigure": "Cassia Mercer",
+      "carriedPressure": "The misprint mirrors the exact margin shift from the night Talia left",
+      "introduction": "A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift",
+      "development": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for",
+      "conflict": "Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission",
+      "resolution": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep",
+      "exit": "The chapter hands off to a sharper investigation consequence",
+      "stateChange": "The work begins storing their conflict instead of hiding it",
+      "goal": "Save the damaged folios without destroying the schedule",
+      "obstacle": "Fatigue makes every careful sentence sound either too sharp or too intimate",
+      "result": "The work begins storing their conflict instead of hiding it",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for",
+      "trigger": "The misprint mirrors the exact margin shift from the night Talia left",
+      "impact": "The studio forces the past into the present workload",
+      "followThrough": "Repair becomes emotionally riskier than failure",
+      "dialogueTurns": [
+        {
+          "speaker": "Noah Quill",
+          "verb": "asks",
+          "line": "If the misprint mirrors the exact margin shift from the night Talia left, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "fires back",
+          "line": "Order is not innocence when the studio forces the past into the present workload",
+          "reaction": "The challenge strips politeness away from the scene."
+        },
+        {
+          "speaker": "Imogen Pike",
+          "verb": "warns",
+          "line": "If fatigue makes every careful sentence sound either too sharp or too intimate, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    }
+  ],
+  "opening": {
+    "inputState": "The misprint mirrors the exact margin shift from the night Talia left",
+    "chapterQuestion": "The studio forces the past into the present workload",
+    "sensoryAnchor": "Ink oil, paper dust, hot metal type, winter air trapped in skylight glass",
+    "socialSignal": "Work replaces confession here because every surface carries the memory of collaboration"
+  },
+  "closing": {
+    "outputState": "They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep",
+    "answerShift": "The studio survives only if the people inside it stop pretending usefulness is neutral",
+    "macroEcho": "Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them"
+  }
+}
+-->

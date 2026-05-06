@@ -2,19 +2,18 @@ import { ensureWorkspace, listLatestStageArtifacts, readStructuredMarkdown, regi
 import { normalizePipelineOptions } from './options.mjs';
 import { renderBookHtml } from './editionRenderer.mjs';
 import { writeStageArtifact, writeStageDataArtifact } from './exportArtifacts.mjs';
+import { createChunkTranslationTool } from '../tools/chunkTranslationTool.mjs';
+import { buildLocalizedEditionFromModel } from './bookWriter.mjs';
 import {
   buildChapterDisplayTitle,
   getLanguagePack,
   getProfileFlavor,
   isBuiltInBookLanguage,
-  localizeBookText,
   localizeProfileLabel,
   localizeScenarioTitle,
   localizeWorkForm,
   normalizeLanguageCode
 } from './bookWriterLanguage.mjs';
-
-const MAX_TRANSLATION_CHUNK_LENGTH = 220;
 
 export async function runTranslationSkill(input = {}) {
   const options = normalizePipelineOptions(input);
@@ -29,6 +28,7 @@ export async function runTranslationSkill(input = {}) {
 
   const sourceBundle = await readStructuredMarkdown(sourceBundleArtifact.filePath, null);
   const sourceEdition = sourceBundle?.sourceEdition;
+  const translationModel = sourceBundle?.translationModel;
 
   if (!sourceEdition) {
     throw new Error(`The translation source bundle in ${options.workspaceRoot} is missing the source edition payload.`);
@@ -51,12 +51,18 @@ export async function runTranslationSkill(input = {}) {
   ];
 
   for (const targetLanguage of targetLanguages) {
-    const trace = [];
-    const edition = buildTranslatedEdition({
+    const translationTool = await createChunkTranslationTool({
+      workspaceRoot: options.workspaceRoot,
+      bookId: options.bookId,
+      sourceLanguage,
+      targetLanguage
+    });
+    const edition = await buildTranslatedEdition({
       sourceEdition,
+      translationModel,
       targetLanguage,
       translationInstructions,
-      trace
+      translationTool
     });
     const readerArtifact = await writeStageArtifact({
       workspaceRoot: options.workspaceRoot,
@@ -66,21 +72,7 @@ export async function runTranslationSkill(input = {}) {
       content: renderBookHtml(edition),
       extension: '.html'
     });
-    const traceArtifact = await writeStageDataArtifact({
-      workspaceRoot: options.workspaceRoot,
-      stage: 'translations',
-      baseName: `edition-${targetLanguage}`,
-      label: 'translation-trace',
-      value: {
-        bookId: options.bookId,
-        sourceLanguage,
-        targetLanguage,
-        chunkCount: trace.length,
-        chunks: trace
-      },
-      title: `${targetLanguage} translation trace`,
-      lead: 'Sequential chunk translation trace for the translated reader edition.'
-    });
+    const traceArtifact = await translationTool.finalize();
 
     produced.push(readerArtifact, traceArtifact);
     editions.push({
@@ -131,26 +123,43 @@ export async function runTranslationSkill(input = {}) {
   };
 }
 
-function buildTranslatedEdition({ sourceEdition, targetLanguage, translationInstructions, trace }) {
+async function buildTranslatedEdition({ sourceEdition, translationModel, targetLanguage, translationInstructions, translationTool }) {
   const builtIn = isBuiltInBookLanguage(targetLanguage);
   const translationInstruction = resolveTranslationInstruction(translationInstructions, targetLanguage);
   const contentLanguage = builtIn ? targetLanguage : sourceEdition.contentLanguage;
+  if (builtIn && translationModel) {
+    const renderedEdition = buildLocalizedEditionFromModel(translationModel, {
+      requestedLanguage: targetLanguage,
+      mode: 'chunk-translation',
+      translationInstruction,
+      generatedWith: 'SCRIPTA Translation Skill'
+    });
+    await recordEditionTrace({
+      translationTool,
+      sourceEdition,
+      renderedEdition
+    });
+    return renderedEdition;
+  }
+
   const translated = builtIn
     ? {
         title: localizeScenarioTitle(sourceEdition.title, sourceEdition.profileId, targetLanguage),
-        subtitle: translateText(sourceEdition.subtitle, targetLanguage, 'front.subtitle', trace),
-        premise: translateText(sourceEdition.premise, targetLanguage, 'front.premise', trace),
-        thematicStatement: translateText(sourceEdition.thematicStatement, targetLanguage, 'front.thematic-statement', trace),
-        worldRule: translateText(sourceEdition.worldRule, targetLanguage, 'front.world-rule', trace),
-        chapters: sourceEdition.chapters.map((chapter) => ({
+        subtitle: await translationTool.translateText(sourceEdition.subtitle, 'front.subtitle'),
+        premise: await translationTool.translateText(sourceEdition.premise, 'front.premise'),
+        thematicStatement: await translationTool.translateText(sourceEdition.thematicStatement, 'front.thematic-statement'),
+        worldRule: await translationTool.translateText(sourceEdition.worldRule, 'front.world-rule'),
+        chapters: await Promise.all(sourceEdition.chapters.map(async (chapter) => ({
           ...chapter,
           displayTitle: buildChapterDisplayTitle({
             chapterNumber: String(chapter.number).padStart(2, '0'),
             role: chapter.role,
             languageCode: targetLanguage
           }),
-          paragraphs: chapter.paragraphs.map((paragraph, index) => translateText(paragraph, targetLanguage, `chapter.${chapter.id}.paragraph.${index + 1}`, trace))
-        }))
+          paragraphs: await Promise.all(
+            chapter.paragraphs.map((paragraph, index) => translationTool.translateText(paragraph, `chapter.${chapter.id}.paragraph.${index + 1}`))
+          )
+        })))
       }
     : {
         title: sourceEdition.title,
@@ -188,173 +197,60 @@ function buildTranslatedEdition({ sourceEdition, targetLanguage, translationInst
     coverPalette: sourceEdition.coverPalette,
     unsupportedNote: builtIn
       ? null
-      : `Requested target language "${targetLanguage}" was recorded, but the translation stage only ships fluent packs for English and Romanian. This edition preserves the source-language narrative while keeping the translation instruction in metadata.`,
+      : `A fluent built-in translation for "${targetLanguage}" is not available yet, so this edition preserves the source-language narrative while recording the translation intent in metadata.`,
     generatedWith: 'SCRIPTA Translation Skill'
   };
 }
 
-function translateText(text, targetLanguage, path, trace) {
-  const value = String(text ?? '').trim();
-  if (!value) {
-    return '';
-  }
-
-  const chunks = chunkText(value);
-  const translatedChunks = chunks.map((chunk, index) => {
-    const translated = translateChunk(chunk, targetLanguage);
-    trace.push({
-      path,
-      chunkIndex: index + 1,
-      source: chunk,
-      translated
-    });
-    return translated;
+async function recordEditionTrace({ translationTool, sourceEdition, renderedEdition }) {
+  await translationTool.recordSection({
+    path: 'front.title',
+    source: sourceEdition.title,
+    translated: renderedEdition.title,
+    metadata: { granularity: 'section' },
+    validate: false
+  });
+  await translationTool.recordSection({
+    path: 'front.subtitle',
+    source: sourceEdition.subtitle,
+    translated: renderedEdition.subtitle,
+    metadata: { granularity: 'section' }
+  });
+  await translationTool.recordSection({
+    path: 'front.premise',
+    source: sourceEdition.premise,
+    translated: renderedEdition.premise,
+    metadata: { granularity: 'section' }
+  });
+  await translationTool.recordSection({
+    path: 'front.thematic-statement',
+    source: sourceEdition.thematicStatement,
+    translated: renderedEdition.thematicStatement,
+    metadata: { granularity: 'section' }
+  });
+  await translationTool.recordSection({
+    path: 'front.world-rule',
+    source: sourceEdition.worldRule,
+    translated: renderedEdition.worldRule,
+    metadata: { granularity: 'section' }
   });
 
-  return translatedChunks.join(' ').replace(/\s+/g, ' ').trim();
-}
-
-function chunkText(text) {
-  const normalized = String(text ?? '').replace(/\s+/g, ' ').trim();
-  if (!normalized) {
-    return [];
+  for (const [index, chapter] of renderedEdition.chapters.entries()) {
+    const sourceChapter = sourceEdition.chapters[index];
+    await translationTool.recordSection({
+      path: `chapter.${chapter.id}`,
+      source: sourceChapter.paragraphs.join('\n\n'),
+      translated: chapter.paragraphs.join('\n\n'),
+      metadata: {
+        granularity: 'chapter',
+        chapterNumber: chapter.number,
+        paragraphCount: chapter.paragraphs.length,
+        displayTitle: chapter.displayTitle
+      }
+    });
   }
-
-  const sentences = normalized.match(/"[^"]+" [^.?!]+ says\.|[^.!?]+(?:[.!?]+|$)/g)?.map((entry) => entry.trim()).filter(Boolean) ?? [normalized];
-  return sentences.flatMap((sentence) => splitLongSentence(sentence));
-}
-
-function translateChunk(chunk, targetLanguage) {
-  if (normalizeLanguageCode(targetLanguage) !== 'ro') {
-    return chunk;
-  }
-
-  return translateRomanianSegment(chunk);
-}
-
-function translateRomanianSegment(segment) {
-  const trimmed = String(segment ?? '').replace(/\s+/g, ' ').trim();
-  if (!trimmed) {
-    return '';
-  }
-
-  const direct = localizeBookText(trimmed, 'ro');
-  const transformed = applyRomanianTemplateTransforms(direct);
-  return transformed.replace(/\s+/g, ' ').trim();
-}
-
-function applyRomanianTemplateTransforms(text) {
-  const reachesMatch = text.match(/^(.+?) reaches (.+?), where (.+?)\.$/i);
-  if (reachesMatch) {
-    const [, subject, location, clause] = reachesMatch;
-    return `${subject} ajunge ${locationPhrase(translateRomanianSegment(location), 'ro')}, unde ${lowerFirst(translateRomanianSegment(clause))}.`;
-  }
-
-  const readsRoomMatch = text.match(/^(.+?) reads the room too carefully, while (.+?) keeps alive the version of events other people would rather believe\.$/i);
-  if (readsRoomMatch) {
-    const [, observer, keeper] = readsRoomMatch;
-    return `${observer} citeste prea atent incaperea, iar ${keeper} mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada.`;
-  }
-
-  const inLocationMatch = text.match(/^In (.+?), (.+?)\.$/i);
-  if (inLocationMatch) {
-    const [, location, clause] = inLocationMatch;
-    return `${sentenceCase(locationPhrase(translateRomanianSegment(location), 'ro'))}, ${lowerFirst(translateRomanianSegment(clause))}.`;
-  }
-
-  const laterLocationMatch = text.match(/^Later, in (.+?), (.+?)\.$/i);
-  if (laterLocationMatch) {
-    const [, location, clause] = laterLocationMatch;
-    return `Mai tarziu, ${locationPhrase(translateRomanianSegment(location), 'ro')}, ${lowerFirst(translateRomanianSegment(clause))}.`;
-  }
-
-  const triesMatch = text.match(/^(.+?) tries to (.+?), but (.+?)\.$/i);
-  if (triesMatch) {
-    const [, subject, goal, obstacle] = triesMatch;
-    return `${subject} incearca sa ${lowerFirst(translateRomanianSegment(goal))}, dar ${lowerFirst(translateRomanianSegment(obstacle))}.`;
-  }
-
-  const dialogueMatch = text.match(/^"(.+)" (.+?) says\.$/i);
-  if (dialogueMatch) {
-    const [, line, speaker] = dialogueMatch;
-    return `"${sentenceCase(stripTerminalPunctuation(translateRomanianSegment(line)))}" spune ${speaker}.`;
-  }
-
-  const closingMatch = text.match(/^Nothing that has opened here will close easily\.(?: (.+))?$/i);
-  if (closingMatch) {
-    const [, remainder] = closingMatch;
-    if (!remainder) {
-      return 'Nimic din ceea ce s-a deschis aici nu se va inchide usor.';
-    }
-
-    return `Nimic din ceea ce s-a deschis aici nu se va inchide usor. ${sentenceCase(stripTerminalPunctuation(translateRomanianSegment(remainder)))}.`;
-  }
-
-  const understandsMatch = text.match(/^(.+?) understands now that (.+?)\.$/i);
-  if (understandsMatch) {
-    const [, subject, clause] = understandsMatch;
-    return `${subject} intelege acum ca ${lowerFirst(stripTerminalPunctuation(translateRomanianSegment(clause)))}.`;
-  }
-
-  return text;
 }
 
 function resolveTranslationInstruction(instructions, languageCode) {
   return instructions?.[languageCode] ?? instructions?.['*'] ?? '';
-}
-
-function locationPhrase(location, languageCode) {
-  if (languageCode !== 'ro') {
-    return `in ${location}`;
-  }
-
-  if (location.startsWith('un ')) {
-    return `intr-${location}`;
-  }
-
-  if (location.startsWith('o ')) {
-    return `intr-${location}`;
-  }
-
-  return `in ${location}`;
-}
-
-function sentenceCase(value) {
-  const text = String(value ?? '').trim();
-  return text ? text.charAt(0).toUpperCase() + text.slice(1) : text;
-}
-
-function lowerFirst(value) {
-  const text = String(value ?? '').trim();
-  return text ? text.charAt(0).toLowerCase() + text.slice(1) : text;
-}
-
-function stripTerminalPunctuation(value) {
-  return String(value ?? '').trim().replace(/[.!?]+$/g, '');
-}
-
-function splitLongSentence(sentence) {
-  if (sentence.length <= MAX_TRANSLATION_CHUNK_LENGTH) {
-    return [sentence];
-  }
-
-  const chunks = [];
-  let current = '';
-
-  for (const fragment of sentence.split(/,\s+/)) {
-    const next = current ? `${current}, ${fragment}` : fragment;
-    if (next.length > MAX_TRANSLATION_CHUNK_LENGTH && current) {
-      chunks.push(current);
-      current = fragment;
-      continue;
-    }
-
-    current = next;
-  }
-
-  if (current) {
-    chunks.push(current);
-  }
-
-  return chunks;
 }

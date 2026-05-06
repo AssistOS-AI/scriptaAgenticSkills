@@ -1,47 +1,417 @@
 # Chapter 001
 
-Leora Kestrel enters the inherited letterpress studio on Brindle Lane while on the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes. In this romance / relational chapter, setup movement anchored by inventory with old annotations, so choices around love-connection under transformation pressure carry tender and tension. Talia Voss keeps searching for a path toward relief, while Owen Crest works to keep the conflict inside a safer official story. The central question here is leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived. The conflict thread is leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived. The working space is anchored by ink oil, paper dust, hot metal type, winter air trapped in skylight glass and keeps a place where touch leaves visible marks and every correction shows in view. The governing constraint is still active: leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure. At the start, Leora Kestrel believes competence is safer than emotional dependence at the start of the setup chapter. Its rhythm leans on dialogue-description-interior-monologue-action-pause-dialogue-cliffhanger.
+Leora Kestrel steps into the inherited letterpress studio on Brindle Lane carrying on the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes. Ink oil, paper dust, hot metal type, winter air trapped in skylight glass hangs over the room before anyone speaks. Work replaces confession here because every surface carries the memory of collaboration keeps trying to pass for order. Owen Crest reads the first disturbance faster than the rest of the room. Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived is no longer theoretical once the first exchange begins to tilt.
 
-Routine offers cover, but not safety. This is still the first readable crack in the promise of the chapter. On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes. Leora Kestrel tries to stabilize the commission schedule before old hurt destabilizes the work, but every useful object in the room still belongs to their unfinished history. Cassia announces the launch deadline and makes their joint contract unavoidable. Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived. Owen Crest senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the local pressure tips from tender toward tension. They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved. The unresolved line remains active through the job starts carrying evidence of love rather than just shared labor, which keeps fear and anticipation braided together. The immediate result is the studio moves from inheritance problem to emotional workplace.
+After on the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes, Leora Kestrel moves first. On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes. Cassia announces the launch deadline and makes their joint contract unavoidable. Leora Kestrel wants to stabilize the commission schedule before old hurt destabilizes the work. but every useful object in the room still belongs to their unfinished history keeps folding the scene back toward danger.
 
-They keep the talk practical even while tender hesitation keeps undoing the surface. Subtext matters as much as the explicit claim. Leora Kestrel, Talia Voss, Owen Crest, Juniper Hale keep circling leora Kestrel and Leora Kestrel keep circling the truth they cannot safely name yet. "A hint for the dialogue line" Owen Crest says. The question lands harder than either speaker planned. "Stabilize the commission schedule before old hurt destabilizes the work" Leora Kestrel replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Juniper Hale adds. Naming the risk turns pressure into irreversible commitment. "Every useful object in the room still belongs to their unfinished history" Cassia Mercer says. The challenge strips politeness away from the scene.
+Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived. Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and every useful object in the room still belongs to their unfinished history.
+"If the annotated proof reveals a page Talia once designed around Leora's private dedication line, who decided the station was allowed to forget it," asks Owen Crest. The question lands harder than either speaker planned. Leora Kestrel insists, "Then we keep stabilize the commission schedule before old hurt destabilizes the work alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again," adds Juniper Hale. Naming the risk turns pressure into irreversible commitment. Cassia Mercer cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-The first deceleration is deliberate: the studio moves from inheritance problem to emotional workplace.
+The annotated proof reveals a page Talia once designed around Leora's private dedication line lands with more force than the room can absorb politely. The job starts carrying evidence of love rather than just shared labor. They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved. The studio moves from inheritance problem to emotional workplace and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-Practical collaboration starts exposing what private caution cannot hide. This is still the first readable crack in the promise of the chapter. Cassia announces the launch deadline and makes their joint contract unavoidable. Leora Kestrel tries to professional collaboration becomes impossible to keep emotionally neutral, but leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived. Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived. Every useful object in the room still belongs to their unfinished history. Owen Crest senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When inventory with old annotations, the local pressure tips from tender toward tension. Professional collaboration becomes impossible to keep emotionally neutral. The unresolved line remains active through the job starts carrying evidence of love rather than just shared labor, which keeps fear and anticipation braided together. The immediate result is professional collaboration becomes impossible to keep emotionally neutral.
+At the riverside paper warehouse leased for the launch, Leora Kestrel has no room left for delay. Cassia announces the launch deadline and makes their joint contract unavoidable. Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived. Leora Kestrel wants to professional collaboration becomes impossible to keep emotionally neutral. but leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Juniper Hale says. The question lands harder than either speaker planned. "Professional collaboration becomes impossible to keep emotionally neutral" Leora Kestrel replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Imogen Pike adds. The warning narrows what can still be done safely. "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived" Cassia Mercer says. The challenge strips politeness away from the scene.
+Every useful object in the room still belongs to their unfinished history. Inventory with old annotations turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and every useful object in the room still belongs to their unfinished history.
+"If inventory with old annotations, who decided the station was allowed to forget it," asks Juniper Hale. The question lands harder than either speaker planned. Leora Kestrel insists, "Then we keep professional collaboration becomes impossible to keep emotionally neutral alive long enough to make it count." The promise raises the stakes for the next exchange. "If leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived, the room will close around us before anyone else sees the truth," warns Imogen Pike. The warning narrows what can still be done safely. Cassia Mercer cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-Tenderness appears in the same breath as fresh defensiveness. This is still the first readable crack in the promise of the chapter. The annotated proof reveals a page Talia once designed around Leora's private dedication line. Leora Kestrel tries to inventory with old annotations, but the annotated proof reveals a page Talia once designed around Leora's private dedication line. The job starts carrying evidence of love rather than just shared labor. The job starts carrying evidence of love rather than just shared labor. Owen Crest senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When cassia announces the launch deadline and makes their joint contract unavoidable, the local pressure tips from tender toward tension. The studio moves from inheritance problem to emotional workplace. The unresolved line remains active through the job starts carrying evidence of love rather than just shared labor, which keeps fear and anticipation braided together. The immediate result is they agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.
+Inventory with old annotations lands with more force than the room can absorb politely. The studio moves from inheritance problem to emotional workplace. Professional collaboration becomes impossible to keep emotionally neutral. Professional collaboration becomes impossible to keep emotionally neutral and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
- "A hint for the dialogue line" Imogen Pike says. The question lands harder than either speaker planned. "Inventory with old annotations" Leora Kestrel replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Owen Crest adds. Naming the risk turns pressure into irreversible commitment. "The annotated proof reveals a page Talia once designed around Leora's private dedication line" Cassia Mercer says. The challenge strips politeness away from the scene.
+Leora Kestrel reaches for the doubled-margin proof set before the room can decide who is allowed to touch it. The annotated proof reveals a page Talia once designed around Leora's private dedication line. The job starts carrying evidence of love rather than just shared labor. Leora Kestrel wants to inventory with old annotations. but the annotated proof reveals a page Talia once designed around Leora's private dedication line keeps folding the scene back toward danger.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and every useful object in the room still belongs to their unfinished history.
+The job starts carrying evidence of love rather than just shared labor. Cassia announces the launch deadline and makes their joint contract unavoidable turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
 
-Routine offers cover, but not safety. This is still the first readable crack in the promise of the chapter. They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved. Leora Kestrel tries to they agree to share the commission room but not discuss why Talia left until after the first dummy book is approved, but the job starts carrying evidence of love rather than just shared labor. Stabilize the commission schedule before old hurt destabilizes the work. Stabilize the commission schedule before old hurt destabilizes the work. Owen Crest senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When on the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes, the local pressure tips from tender toward tension. The job starts carrying evidence of love rather than just shared labor. The unresolved line remains active through the job starts carrying evidence of love rather than just shared labor, which keeps fear and anticipation braided together. The immediate result is the job starts carrying evidence of love rather than just shared labor.
+"If cassia announces the launch deadline and makes their joint contract unavoidable, who decided the station was allowed to forget it," asks Imogen Pike. The question lands harder than either speaker planned. Leora Kestrel insists, "Then we keep inventory with old annotations alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again," adds Owen Crest. Naming the risk turns pressure into irreversible commitment. Cassia Mercer cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
- "A hint for the dialogue line" Owen Crest says. The question lands harder than either speaker planned. "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved" Leora Kestrel replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Juniper Hale adds. The warning narrows what can still be done safely. "The job starts carrying evidence of love rather than just shared labor" Cassia Mercer says. The challenge strips politeness away from the scene.
+Cassia announces the launch deadline and makes their joint contract unavoidable lands with more force than the room can absorb politely. Professional collaboration becomes impossible to keep emotionally neutral. The studio moves from inheritance problem to emotional workplace. They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and every useful object in the room still belongs to their unfinished history.
+What begins in the inherited letterpress studio on Brindle Lane stops looking procedural the moment they agree to share the commission room but not discuss why Talia left until after the first dummy book is approved. They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved. Stabilize the commission schedule before old hurt destabilizes the work. Leora Kestrel wants to they agree to share the commission room but not discuss why Talia left until after the first dummy book is approved. but the job starts carrying evidence of love rather than just shared labor keeps folding the scene back toward danger.
 
-Practical collaboration starts exposing what private caution cannot hide. This is still the first readable crack in the promise of the chapter. Inventory with old annotations. Leora Kestrel tries to on the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes, but cassia announces the launch deadline and makes their joint contract unavoidable. Professional collaboration becomes impossible to keep emotionally neutral. The annotated proof reveals a page Talia once designed around Leora's private dedication line. Owen Crest senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When every useful object in the room still belongs to their unfinished history, the local pressure tips from tender toward tension. Cassia announces the launch deadline and makes their joint contract unavoidable. The unresolved line remains active through the job starts carrying evidence of love rather than just shared labor, which keeps fear and anticipation braided together. The immediate result is leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.
+Stabilize the commission schedule before old hurt destabilizes the work. On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
 
- "A hint for the dialogue line" Juniper Hale says. The question lands harder than either speaker planned. "On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes" Leora Kestrel replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Imogen Pike adds. Naming the risk turns pressure into irreversible commitment. "Cassia announces the launch deadline and makes their joint contract unavoidable" Cassia Mercer says. The challenge strips politeness away from the scene.
+"If on the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes, who decided the station was allowed to forget it," asks Owen Crest. The question lands harder than either speaker planned. Leora Kestrel insists, "Then we keep they agree to share the commission room but not discuss why Talia left until after the first dummy book is approved alive long enough to make it count." The promise raises the stakes for the next exchange. "If the job starts carrying evidence of love rather than just shared labor, the room will close around us before anyone else sees the truth," warns Juniper Hale. The warning narrows what can still be done safely. Cassia Mercer cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and every useful object in the room still belongs to their unfinished history.
+On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes lands with more force than the room can absorb politely. Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived. The job starts carrying evidence of love rather than just shared labor. The job starts carrying evidence of love rather than just shared labor and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-Tenderness appears in the same breath as fresh defensiveness. This is still the first readable crack in the promise of the chapter. On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes. Leora Kestrel tries to stabilize the commission schedule before old hurt destabilizes the work, but every useful object in the room still belongs to their unfinished history. Cassia announces the launch deadline and makes their joint contract unavoidable. Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived. Owen Crest senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the local pressure tips from tender toward tension. They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved. The unresolved line remains active through the job starts carrying evidence of love rather than just shared labor, which keeps fear and anticipation braided together. The immediate result is the studio moves from inheritance problem to emotional workplace.
+After on the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes, Leora Kestrel moves first. Inventory with old annotations. Professional collaboration becomes impossible to keep emotionally neutral. Leora Kestrel wants to on the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes. but cassia announces the launch deadline and makes their joint contract unavoidable keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Imogen Pike says. The question lands harder than either speaker planned. "Stabilize the commission schedule before old hurt destabilizes the work" Leora Kestrel replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Owen Crest adds. The warning narrows what can still be done safely. "Every useful object in the room still belongs to their unfinished history" Cassia Mercer says. The challenge strips politeness away from the scene.
+The annotated proof reveals a page Talia once designed around Leora's private dedication line. Every useful object in the room still belongs to their unfinished history turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and every useful object in the room still belongs to their unfinished history.
+"If every useful object in the room still belongs to their unfinished history, who decided the station was allowed to forget it," asks Juniper Hale. The question lands harder than either speaker planned. Leora Kestrel insists, "Then we keep on the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again," adds Imogen Pike. Naming the risk turns pressure into irreversible commitment. Cassia Mercer cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-Then the pace compresses: the annotated proof reveals a page Talia once designed around Leora's private dedication line.
+Every useful object in the room still belongs to their unfinished history lands with more force than the room can absorb politely. They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved. Cassia announces the launch deadline and makes their joint contract unavoidable. Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-Leora Kestrel feels the job starts carrying evidence of love rather than just shared labor, a mix of tender and tension that will not settle into easy relief. The chapter therefore pushes the inner line from competence is safer than emotional dependence at the start of the setup chapter toward shared risk creates a truer form of security than controlled distance after the setup chapter.
+At museum Crate Hall, Leora Kestrel has no room left for delay. On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes. Cassia announces the launch deadline and makes their joint contract unavoidable. Leora Kestrel wants to stabilize the commission schedule before old hurt destabilizes the work. but every useful object in the room still belongs to their unfinished history keeps folding the scene back toward danger.
 
-By the end of chapter-001, the studio moves from inheritance problem to emotional workplace. The chapter keeps faith with love-connection under transformation pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: the studio survives only if the people inside it stop pretending usefulness is neutral. Between Leora Kestrel and Talia Voss, the relational line moves from productive-partnership-guarded-by-emotional-self-defense toward scarred-trust-rebuilt-on-painful-clarity. The closing pressure is therefore both tender and tension, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?.
+Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived. The annotated proof reveals a page Talia once designed around Leora's private dedication line turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
+
+"If the annotated proof reveals a page Talia once designed around Leora's private dedication line, who decided the station was allowed to forget it," asks Imogen Pike. The question lands harder than either speaker planned. Leora Kestrel insists, "Then we keep stabilize the commission schedule before old hurt destabilizes the work alive long enough to make it count." The promise raises the stakes for the next exchange. "If every useful object in the room still belongs to their unfinished history, the room will close around us before anyone else sees the truth," warns Owen Crest. The warning narrows what can still be done safely. Cassia Mercer cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
+
+The annotated proof reveals a page Talia once designed around Leora's private dedication line lands with more force than the room can absorb politely. The job starts carrying evidence of love rather than just shared labor. They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved. Leora Kestrel leaves museum Crate Hall without the shelter they had at the start. The chapter hands off to a sharper setup consequence.
+
+Leora Kestrel carries the studio moves from inheritance problem to emotional workplace out of museum Crate Hall. The studio survives only if the people inside it stop pretending usefulness is neutral. Between Leora Kestrel and Talia Voss, the bond now looks closer to scarred-trust-rebuilt-on-painful-clarity. Shared risk creates a truer form of security than controlled distance after the setup chapter is no longer something Leora Kestrel can postpone. Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them.
+
+<!-- scripta-draft-data
+{
+  "version": 1,
+  "chapterId": "chapter-001",
+  "chapterNumber": "001",
+  "profileId": "romance-relational",
+  "protagonist": "Leora Kestrel",
+  "counterpart": "Talia Voss",
+  "chapterRole": "setup",
+  "scenes": [
+    {
+      "sceneId": "scene-001-01",
+      "index": 0,
+      "location": "The inherited letterpress studio on Brindle Lane",
+      "anchorObject": "The doubled-margin proof set",
+      "supportFocus": "Owen Crest",
+      "participants": [
+        "Leora Kestrel",
+        "Talia Voss",
+        "Owen Crest"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Owen Crest",
+      "pressureFigure": "Owen Crest",
+      "carriedPressure": "On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes",
+      "introduction": "On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes",
+      "development": "Cassia announces the launch deadline and makes their joint contract unavoidable",
+      "conflict": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived",
+      "resolution": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "The studio moves from inheritance problem to emotional workplace",
+      "goal": "Stabilize the commission schedule before old hurt destabilizes the work",
+      "obstacle": "Every useful object in the room still belongs to their unfinished history",
+      "result": "The studio moves from inheritance problem to emotional workplace",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "Cassia announces the launch deadline and makes their joint contract unavoidable",
+      "trigger": "The annotated proof reveals a page Talia once designed around Leora's private dedication line",
+      "impact": "The job starts carrying evidence of love rather than just shared labor",
+      "followThrough": "Professional collaboration becomes impossible to keep emotionally neutral",
+      "dialogueTurns": [
+        {
+          "speaker": "Owen Crest",
+          "verb": "asks",
+          "line": "If the annotated proof reveals a page Talia once designed around Leora's private dedication line, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "insists",
+          "line": "Then we keep stabilize the commission schedule before old hurt destabilizes the work alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Juniper Hale",
+          "verb": "adds",
+          "line": "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-001-02",
+      "index": 1,
+      "location": "The riverside paper warehouse leased for the launch",
+      "anchorObject": "Letterpress Dedication Slip",
+      "supportFocus": "Juniper Hale",
+      "participants": [
+        "Leora Kestrel",
+        "Juniper Hale",
+        "Imogen Pike",
+        "Cassia Mercer"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Juniper Hale",
+      "pressureFigure": "Cassia Mercer",
+      "carriedPressure": "On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes",
+      "introduction": "Cassia announces the launch deadline and makes their joint contract unavoidable",
+      "development": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived",
+      "conflict": "Every useful object in the room still belongs to their unfinished history",
+      "resolution": "Professional collaboration becomes impossible to keep emotionally neutral",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Professional collaboration becomes impossible to keep emotionally neutral",
+      "goal": "Professional collaboration becomes impossible to keep emotionally neutral",
+      "obstacle": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived",
+      "result": "Professional collaboration becomes impossible to keep emotionally neutral",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived",
+      "trigger": "Inventory with old annotations",
+      "impact": "The studio moves from inheritance problem to emotional workplace",
+      "followThrough": "The studio moves from inheritance problem to emotional workplace",
+      "dialogueTurns": [
+        {
+          "speaker": "Juniper Hale",
+          "verb": "asks",
+          "line": "If inventory with old annotations, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "insists",
+          "line": "Then we keep professional collaboration becomes impossible to keep emotionally neutral alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Imogen Pike",
+          "verb": "warns",
+          "line": "If leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-001-03",
+      "index": 2,
+      "location": "Museum Crate Hall",
+      "anchorObject": "The doubled-margin proof set",
+      "supportFocus": "Imogen Pike",
+      "participants": [
+        "Leora Kestrel",
+        "Talia Voss",
+        "Imogen Pike"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Imogen Pike",
+      "pressureFigure": "Imogen Pike",
+      "carriedPressure": "On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes",
+      "introduction": "The annotated proof reveals a page Talia once designed around Leora's private dedication line",
+      "development": "The job starts carrying evidence of love rather than just shared labor",
+      "conflict": "The job starts carrying evidence of love rather than just shared labor",
+      "resolution": "The studio moves from inheritance problem to emotional workplace",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved",
+      "goal": "Inventory with old annotations",
+      "obstacle": "The annotated proof reveals a page Talia once designed around Leora's private dedication line",
+      "result": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "The job starts carrying evidence of love rather than just shared labor",
+      "trigger": "Cassia announces the launch deadline and makes their joint contract unavoidable",
+      "impact": "Professional collaboration becomes impossible to keep emotionally neutral",
+      "followThrough": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved",
+      "dialogueTurns": [
+        {
+          "speaker": "Imogen Pike",
+          "verb": "asks",
+          "line": "If cassia announces the launch deadline and makes their joint contract unavoidable, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "insists",
+          "line": "Then we keep inventory with old annotations alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Owen Crest",
+          "verb": "adds",
+          "line": "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-001-04",
+      "index": 3,
+      "location": "The inherited letterpress studio on Brindle Lane",
+      "anchorObject": "Letterpress Dedication Slip",
+      "supportFocus": "Owen Crest",
+      "participants": [
+        "Leora Kestrel",
+        "Owen Crest",
+        "Juniper Hale"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Owen Crest",
+      "pressureFigure": "Juniper Hale",
+      "carriedPressure": "On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes",
+      "introduction": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved",
+      "development": "Stabilize the commission schedule before old hurt destabilizes the work",
+      "conflict": "Stabilize the commission schedule before old hurt destabilizes the work",
+      "resolution": "The job starts carrying evidence of love rather than just shared labor",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "The job starts carrying evidence of love rather than just shared labor",
+      "goal": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved",
+      "obstacle": "The job starts carrying evidence of love rather than just shared labor",
+      "result": "The job starts carrying evidence of love rather than just shared labor",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "Stabilize the commission schedule before old hurt destabilizes the work",
+      "trigger": "On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes",
+      "impact": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived",
+      "followThrough": "The job starts carrying evidence of love rather than just shared labor",
+      "dialogueTurns": [
+        {
+          "speaker": "Owen Crest",
+          "verb": "asks",
+          "line": "If on the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "insists",
+          "line": "Then we keep they agree to share the commission room but not discuss why Talia left until after the first dummy book is approved alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Juniper Hale",
+          "verb": "warns",
+          "line": "If the job starts carrying evidence of love rather than just shared labor, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-001-05",
+      "index": 4,
+      "location": "The riverside paper warehouse leased for the launch",
+      "anchorObject": "The doubled-margin proof set",
+      "supportFocus": "Juniper Hale",
+      "participants": [
+        "Leora Kestrel",
+        "Talia Voss",
+        "Juniper Hale",
+        "Cassia Mercer"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Juniper Hale",
+      "pressureFigure": "Cassia Mercer",
+      "carriedPressure": "On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes",
+      "introduction": "Inventory with old annotations",
+      "development": "Professional collaboration becomes impossible to keep emotionally neutral",
+      "conflict": "The annotated proof reveals a page Talia once designed around Leora's private dedication line",
+      "resolution": "Cassia announces the launch deadline and makes their joint contract unavoidable",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived",
+      "goal": "On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes",
+      "obstacle": "Cassia announces the launch deadline and makes their joint contract unavoidable",
+      "result": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "Professional collaboration becomes impossible to keep emotionally neutral",
+      "trigger": "Every useful object in the room still belongs to their unfinished history",
+      "impact": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved",
+      "followThrough": "Stabilize the commission schedule before old hurt destabilizes the work",
+      "dialogueTurns": [
+        {
+          "speaker": "Juniper Hale",
+          "verb": "asks",
+          "line": "If every useful object in the room still belongs to their unfinished history, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "insists",
+          "line": "Then we keep on the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Imogen Pike",
+          "verb": "adds",
+          "line": "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-001-06",
+      "index": 5,
+      "location": "Museum Crate Hall",
+      "anchorObject": "Letterpress Dedication Slip",
+      "supportFocus": "Imogen Pike",
+      "participants": [
+        "Leora Kestrel",
+        "Imogen Pike",
+        "Owen Crest",
+        "Cassia Mercer"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Imogen Pike",
+      "pressureFigure": "Cassia Mercer",
+      "carriedPressure": "On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes",
+      "introduction": "On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes",
+      "development": "Cassia announces the launch deadline and makes their joint contract unavoidable",
+      "conflict": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived",
+      "resolution": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved",
+      "exit": "The chapter hands off to a sharper setup consequence",
+      "stateChange": "The studio moves from inheritance problem to emotional workplace",
+      "goal": "Stabilize the commission schedule before old hurt destabilizes the work",
+      "obstacle": "Every useful object in the room still belongs to their unfinished history",
+      "result": "The studio moves from inheritance problem to emotional workplace",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "Cassia announces the launch deadline and makes their joint contract unavoidable",
+      "trigger": "The annotated proof reveals a page Talia once designed around Leora's private dedication line",
+      "impact": "The job starts carrying evidence of love rather than just shared labor",
+      "followThrough": "Professional collaboration becomes impossible to keep emotionally neutral",
+      "dialogueTurns": [
+        {
+          "speaker": "Imogen Pike",
+          "verb": "asks",
+          "line": "If the annotated proof reveals a page Talia once designed around Leora's private dedication line, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "insists",
+          "line": "Then we keep stabilize the commission schedule before old hurt destabilizes the work alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Owen Crest",
+          "verb": "warns",
+          "line": "If every useful object in the room still belongs to their unfinished history, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    }
+  ],
+  "opening": {
+    "inputState": "On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes",
+    "chapterQuestion": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived",
+    "sensoryAnchor": "Ink oil, paper dust, hot metal type, winter air trapped in skylight glass",
+    "socialSignal": "Work replaces confession here because every surface carries the memory of collaboration"
+  },
+  "closing": {
+    "outputState": "The studio moves from inheritance problem to emotional workplace",
+    "answerShift": "The studio survives only if the people inside it stop pretending usefulness is neutral",
+    "macroEcho": "Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them"
+  }
+}
+-->

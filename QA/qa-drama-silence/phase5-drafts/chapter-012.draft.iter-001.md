@@ -1,47 +1,417 @@
 # Chapter 012
 
-Mira Solari enters Greymarket Steps while corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. In this drama chapter, culmination movement anchored by commemoration ledger reading, so choices around identity-self under reconciliation pressure carry grief and relief. Vera Quinn keeps searching for a path toward relief, while Sabine Arlo works to keep the conflict inside a safer official story. The central question here is the ceremony is choreographed to make dissent look like sacrilege. The conflict thread is mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. The setting is anchored by wet wool, radiator hiss, mildew trapped in paper bindings and keeps a civic room designed to soften language until responsibility disappears in view. The governing constraint is still active: mira cannot accuse the town hall without exposing her mother and Vera to the same hearing. At the start, Mira Solari believes keeping a family safe matters more than forcing a public reckoning at the start of the aftermath chapter. Its rhythm leans on description-action-dialogue-pause-event-monologue.
+Mira Solari steps into greymarket Steps carrying corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Wet wool, radiator hiss, mildew trapped in paper bindings hangs over the room before anyone speaks. Every conversation sounds temporary because the office trained people to trade truth for calm keeps trying to pass for order. Sabine Arlo reads the first disturbance faster than the rest of the room. The ceremony is choreographed to make dissent look like sacrilege is no longer theoretical once the first exchange begins to tilt.
 
-The room tightens before anyone can pretend calm is enough. Consequences arrive before explanation. During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Mira Solari tries to force the lie into a setting where it cannot be quietly revised afterward, but the ceremony is choreographed to make dissent look like sacrilege. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Sabine Arlo senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from grief toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through the town loses its protective story even though no immediate justice follows, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.
+After corin orders the microphone cut, but Vera starts naming the missing witnesses from memory, Mira Solari moves first. During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira Solari wants to force the lie into a setting where it cannot be quietly revised afterward. but the ceremony is choreographed to make dissent look like sacrilege keeps folding the scene back toward danger.
 
-Their speech stays careful, but grief keeps roughening the edges of each sentence. Subtext matters as much as the explicit claim. Mira Solari, Vera Quinn, Sabine Arlo, Corin Hale keep circling mira Solari and Mira Solari keep circling the truth they cannot safely name yet. "A hint for the dialogue line" Sabine Arlo says. The question lands harder than either speaker planned. "Force the lie into a setting where it cannot be quietly revised afterward" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Corin Hale adds. Naming the risk turns pressure into irreversible commitment. "The ceremony is choreographed to make dissent look like sacrilege" Corin Voss says. The challenge strips politeness away from the scene.
+Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and the ceremony is choreographed to make dissent look like sacrilege.
+"If mira reaches the line proving that relief money was routed through Corin's family company, who decided the station was allowed to forget it," asks Sabine Arlo. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep force the lie into a setting where it cannot be quietly revised afterward alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence," adds Corin Hale. Naming the risk turns pressure into irreversible commitment. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-The first deceleration is deliberate: the truth survives, but so does the cost of having spoken it.
+Mira reaches the line proving that relief money was routed through Corin's family company lands with more force than the room can absorb politely. Grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room. The town loses its protective story even though no immediate justice follows and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-The silence breaks in smaller, sharper motions. Consequences arrive before explanation. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira Solari tries to the truth survives, but so does the cost of having spoken it, but mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. The ceremony is choreographed to make dissent look like sacrilege. Sabine Arlo senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When commemoration ledger reading, the local pressure tips from grief toward relief. The truth survives, but so does the cost of having spoken it. The unresolved line remains active through the town loses its protective story even though no immediate justice follows, which keeps fear and anticipation braided together. The immediate result is the truth survives, but so does the cost of having spoken it.
+At the shuttered mediation office above the old customs hall, Mira Solari has no room left for delay. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Mira Solari wants to the truth survives, but so does the cost of having spoken it. but mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Corin Hale says. The question lands harder than either speaker planned. "The truth survives, but so does the cost of having spoken it" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Alma Crest adds. The warning narrows what can still be done safely. "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town" Corin Voss says. The challenge strips politeness away from the scene.
+The ceremony is choreographed to make dissent look like sacrilege. Commemoration ledger reading turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and the ceremony is choreographed to make dissent look like sacrilege.
+"If commemoration ledger reading, who decided the station was allowed to forget it," asks Corin Hale. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep the truth survives, but so does the cost of having spoken it alive long enough to make it count." The promise raises the stakes for the next exchange. "If mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town, the room will close around us before anyone else sees the truth," warns Alma Crest. The warning narrows what can still be done safely. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-The private wound becomes public at last. Consequences arrive before explanation. Mira reaches the line proving that relief money was routed through Corin's family company. Mira Solari tries to commemoration ledger reading, but mira reaches the line proving that relief money was routed through Corin's family company. Grief becomes accusation before the whole town. Grief becomes accusation before the whole town. Sabine Arlo senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When corin orders the microphone cut, but Vera starts naming the missing witnesses from memory, the local pressure tips from grief toward relief. The town loses its protective story even though no immediate justice follows. The unresolved line remains active through the town loses its protective story even though no immediate justice follows, which keeps fear and anticipation braided together. The immediate result is she finishes reading and lets the silence after the final name condemn the room.
+Commemoration ledger reading lands with more force than the room can absorb politely. The town loses its protective story even though no immediate justice follows. The truth survives, but so does the cost of having spoken it. The truth survives, but so does the cost of having spoken it and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
- "A hint for the dialogue line" Alma Crest says. The question lands harder than either speaker planned. "Commemoration ledger reading" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Sabine Arlo adds. Naming the risk turns pressure into irreversible commitment. "Mira reaches the line proving that relief money was routed through Corin's family company" Corin Voss says. The challenge strips politeness away from the scene.
+Mira Solari reaches for black Ribbon Register before the room can decide who is allowed to touch it. Mira reaches the line proving that relief money was routed through Corin's family company. Grief becomes accusation before the whole town. Mira Solari wants to commemoration ledger reading. but mira reaches the line proving that relief money was routed through Corin's family company keeps folding the scene back toward danger.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and the ceremony is choreographed to make dissent look like sacrilege.
+Grief becomes accusation before the whole town. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
-The room tightens before anyone can pretend calm is enough. Consequences arrive before explanation. She finishes reading and lets the silence after the final name condemn the room. Mira Solari tries to she finishes reading and lets the silence after the final name condemn the room, but grief becomes accusation before the whole town. Force the lie into a setting where it cannot be quietly revised afterward. Force the lie into a setting where it cannot be quietly revised afterward. Sabine Arlo senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When during the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages, the local pressure tips from grief toward relief. Grief becomes accusation before the whole town. The unresolved line remains active through the town loses its protective story even though no immediate justice follows, which keeps fear and anticipation braided together. The immediate result is grief becomes accusation before the whole town.
+"If corin orders the microphone cut, but Vera starts naming the missing witnesses from memory, who decided the station was allowed to forget it," asks Alma Crest. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep commemoration ledger reading alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence," adds Sabine Arlo. Naming the risk turns pressure into irreversible commitment. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
- "A hint for the dialogue line" Sabine Arlo says. The question lands harder than either speaker planned. "She finishes reading and lets the silence after the final name condemn the room" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Corin Hale adds. The warning narrows what can still be done safely. "Grief becomes accusation before the whole town" Corin Voss says. The challenge strips politeness away from the scene.
+Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory lands with more force than the room can absorb politely. The truth survives, but so does the cost of having spoken it. The town loses its protective story even though no immediate justice follows. She finishes reading and lets the silence after the final name condemn the room and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and the ceremony is choreographed to make dissent look like sacrilege.
+What begins in greymarket Steps stops looking procedural the moment she finishes reading and lets the silence after the final name condemn the room. She finishes reading and lets the silence after the final name condemn the room. Force the lie into a setting where it cannot be quietly revised afterward. Mira Solari wants to she finishes reading and lets the silence after the final name condemn the room. but grief becomes accusation before the whole town keeps folding the scene back toward danger.
 
-The silence breaks in smaller, sharper motions. Consequences arrive before explanation. Commemoration ledger reading. Mira Solari tries to during the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages, but corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. The truth survives, but so does the cost of having spoken it. Mira reaches the line proving that relief money was routed through Corin's family company. Sabine Arlo senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When the ceremony is choreographed to make dissent look like sacrilege, the local pressure tips from grief toward relief. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. The unresolved line remains active through the town loses its protective story even though no immediate justice follows, which keeps fear and anticipation braided together. The immediate result is mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.
+Force the lie into a setting where it cannot be quietly revised afterward. During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
- "A hint for the dialogue line" Corin Hale says. The question lands harder than either speaker planned. "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Alma Crest adds. Naming the risk turns pressure into irreversible commitment. "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory" Corin Voss says. The challenge strips politeness away from the scene.
+"If during the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages, who decided the station was allowed to forget it," asks Sabine Arlo. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep she finishes reading and lets the silence after the final name condemn the room alive long enough to make it count." The promise raises the stakes for the next exchange. "If grief becomes accusation before the whole town, the room will close around us before anyone else sees the truth," warns Corin Hale. The warning narrows what can still be done safely. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and the ceremony is choreographed to make dissent look like sacrilege.
+During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages lands with more force than the room can absorb politely. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Grief becomes accusation before the whole town. Grief becomes accusation before the whole town and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-The private wound becomes public at last. Consequences arrive before explanation. During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Mira Solari tries to force the lie into a setting where it cannot be quietly revised afterward, but the ceremony is choreographed to make dissent look like sacrilege. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Sabine Arlo senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When mira reaches the line proving that relief money was routed through Corin's family company, the local pressure tips from grief toward relief. She finishes reading and lets the silence after the final name condemn the room. The unresolved line remains active through the town loses its protective story even though no immediate justice follows, which keeps fear and anticipation braided together. The immediate result is the town loses its protective story even though no immediate justice follows.
+After corin orders the microphone cut, but Vera starts naming the missing witnesses from memory, Mira Solari moves first. Commemoration ledger reading. The truth survives, but so does the cost of having spoken it. Mira Solari wants to during the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. but corin orders the microphone cut, but Vera starts naming the missing witnesses from memory keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Alma Crest says. The question lands harder than either speaker planned. "Force the lie into a setting where it cannot be quietly revised afterward" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Sabine Arlo adds. The warning narrows what can still be done safely. "The ceremony is choreographed to make dissent look like sacrilege" Corin Voss says. The challenge strips politeness away from the scene.
+Mira reaches the line proving that relief money was routed through Corin's family company. The ceremony is choreographed to make dissent look like sacrilege turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and the ceremony is choreographed to make dissent look like sacrilege.
+"If the ceremony is choreographed to make dissent look like sacrilege, who decided the station was allowed to forget it," asks Corin Hale. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep during the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence," adds Alma Crest. Naming the risk turns pressure into irreversible commitment. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-Then the pace compresses: commemoration ledger reading.
+The ceremony is choreographed to make dissent look like sacrilege lands with more force than the room can absorb politely. She finishes reading and lets the silence after the final name condemn the room. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-Mira Solari feels grief becomes accusation before the whole town, a mix of grief and relief that will not settle into easy relief. The chapter therefore pushes the inner line from keeping a family safe matters more than forcing a public reckoning at the start of the aftermath chapter toward care without truth only prolongs the violence of the original wound after the aftermath chapter.
+At the flood memorial crypt beneath Saint Rowan chapel, Mira Solari has no room left for delay. During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages. Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory. Mira Solari wants to force the lie into a setting where it cannot be quietly revised afterward. but the ceremony is choreographed to make dissent look like sacrilege keeps folding the scene back toward danger.
 
-By the end of chapter-012, the truth survives, but so does the cost of having spoken it. The chapter keeps faith with identity-self under reconciliation pressure while moving toward reversal, and it refuses relief without visible cost. Its answer shift is clear: the dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the relational line moves from oath-bound-cooperation-shadowed-by-allegiance toward altered-but-legible-bond. The closing pressure is therefore both grief and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?.
+Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town. Mira reaches the line proving that relief money was routed through Corin's family company turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
+
+"If mira reaches the line proving that relief money was routed through Corin's family company, who decided the station was allowed to forget it," asks Alma Crest. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep force the lie into a setting where it cannot be quietly revised afterward alive long enough to make it count." The promise raises the stakes for the next exchange. "If the ceremony is choreographed to make dissent look like sacrilege, the room will close around us before anyone else sees the truth," warns Sabine Arlo. The warning narrows what can still be done safely. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
+
+Mira reaches the line proving that relief money was routed through Corin's family company lands with more force than the room can absorb politely. Grief becomes accusation before the whole town. She finishes reading and lets the silence after the final name condemn the room. Mira Solari leaves the flood memorial crypt beneath Saint Rowan chapel without the shelter they had at the start. The chapter hands off to a sharper aftermath consequence.
+
+Mira Solari carries the truth survives, but so does the cost of having spoken it out of the flood memorial crypt beneath Saint Rowan chapel. The dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the bond now looks closer to altered-but-legible-bond. Care without truth only prolongs the violence of the original wound after the aftermath chapter is no longer something Mira Solari can postpone. Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence.
+
+<!-- scripta-draft-data
+{
+  "version": 1,
+  "chapterId": "chapter-012",
+  "chapterNumber": "012",
+  "profileId": "drama",
+  "protagonist": "Mira Solari",
+  "counterpart": "Vera Quinn",
+  "chapterRole": "aftermath",
+  "scenes": [
+    {
+      "sceneId": "scene-012-01",
+      "index": 0,
+      "location": "Greymarket Steps",
+      "anchorObject": "Black Ribbon Register",
+      "supportFocus": "Sabine Arlo",
+      "participants": [
+        "Mira Solari",
+        "Vera Quinn",
+        "Sabine Arlo"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Sabine Arlo",
+      "pressureFigure": "Sabine Arlo",
+      "carriedPressure": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory",
+      "introduction": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages",
+      "development": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory",
+      "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town",
+      "resolution": "She finishes reading and lets the silence after the final name condemn the room",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "The town loses its protective story even though no immediate justice follows",
+      "goal": "Force the lie into a setting where it cannot be quietly revised afterward",
+      "obstacle": "The ceremony is choreographed to make dissent look like sacrilege",
+      "result": "The town loses its protective story even though no immediate justice follows",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory",
+      "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+      "impact": "Grief becomes accusation before the whole town",
+      "followThrough": "The truth survives, but so does the cost of having spoken it",
+      "dialogueTurns": [
+        {
+          "speaker": "Sabine Arlo",
+          "verb": "asks",
+          "line": "If mira reaches the line proving that relief money was routed through Corin's family company, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep force the lie into a setting where it cannot be quietly revised afterward alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Corin Hale",
+          "verb": "adds",
+          "line": "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-012-02",
+      "index": 1,
+      "location": "The shuttered mediation office above the old customs hall",
+      "anchorObject": "Salt-Stamped Evacuation File",
+      "supportFocus": "Corin Hale",
+      "participants": [
+        "Mira Solari",
+        "Corin Hale",
+        "Alma Crest",
+        "Corin Voss"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Corin Hale",
+      "pressureFigure": "Corin Voss",
+      "carriedPressure": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory",
+      "introduction": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory",
+      "development": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town",
+      "conflict": "The ceremony is choreographed to make dissent look like sacrilege",
+      "resolution": "The truth survives, but so does the cost of having spoken it",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "The truth survives, but so does the cost of having spoken it",
+      "goal": "The truth survives, but so does the cost of having spoken it",
+      "obstacle": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town",
+      "result": "The truth survives, but so does the cost of having spoken it",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town",
+      "trigger": "Commemoration ledger reading",
+      "impact": "The town loses its protective story even though no immediate justice follows",
+      "followThrough": "The town loses its protective story even though no immediate justice follows",
+      "dialogueTurns": [
+        {
+          "speaker": "Corin Hale",
+          "verb": "asks",
+          "line": "If commemoration ledger reading, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep the truth survives, but so does the cost of having spoken it alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Alma Crest",
+          "verb": "warns",
+          "line": "If mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-012-03",
+      "index": 2,
+      "location": "The flood memorial crypt beneath Saint Rowan chapel",
+      "anchorObject": "Black Ribbon Register",
+      "supportFocus": "Alma Crest",
+      "participants": [
+        "Mira Solari",
+        "Vera Quinn",
+        "Alma Crest"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Alma Crest",
+      "pressureFigure": "Alma Crest",
+      "carriedPressure": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory",
+      "introduction": "Mira reaches the line proving that relief money was routed through Corin's family company",
+      "development": "Grief becomes accusation before the whole town",
+      "conflict": "Grief becomes accusation before the whole town",
+      "resolution": "The town loses its protective story even though no immediate justice follows",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "She finishes reading and lets the silence after the final name condemn the room",
+      "goal": "Commemoration ledger reading",
+      "obstacle": "Mira reaches the line proving that relief money was routed through Corin's family company",
+      "result": "She finishes reading and lets the silence after the final name condemn the room",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "Grief becomes accusation before the whole town",
+      "trigger": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory",
+      "impact": "The truth survives, but so does the cost of having spoken it",
+      "followThrough": "She finishes reading and lets the silence after the final name condemn the room",
+      "dialogueTurns": [
+        {
+          "speaker": "Alma Crest",
+          "verb": "asks",
+          "line": "If corin orders the microphone cut, but Vera starts naming the missing witnesses from memory, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep commemoration ledger reading alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Sabine Arlo",
+          "verb": "adds",
+          "line": "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-012-04",
+      "index": 3,
+      "location": "Greymarket Steps",
+      "anchorObject": "Salt-Stamped Evacuation File",
+      "supportFocus": "Sabine Arlo",
+      "participants": [
+        "Mira Solari",
+        "Sabine Arlo",
+        "Corin Hale"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Sabine Arlo",
+      "pressureFigure": "Corin Hale",
+      "carriedPressure": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory",
+      "introduction": "She finishes reading and lets the silence after the final name condemn the room",
+      "development": "Force the lie into a setting where it cannot be quietly revised afterward",
+      "conflict": "Force the lie into a setting where it cannot be quietly revised afterward",
+      "resolution": "Grief becomes accusation before the whole town",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Grief becomes accusation before the whole town",
+      "goal": "She finishes reading and lets the silence after the final name condemn the room",
+      "obstacle": "Grief becomes accusation before the whole town",
+      "result": "Grief becomes accusation before the whole town",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "Force the lie into a setting where it cannot be quietly revised afterward",
+      "trigger": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages",
+      "impact": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town",
+      "followThrough": "Grief becomes accusation before the whole town",
+      "dialogueTurns": [
+        {
+          "speaker": "Sabine Arlo",
+          "verb": "asks",
+          "line": "If during the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep she finishes reading and lets the silence after the final name condemn the room alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Corin Hale",
+          "verb": "warns",
+          "line": "If grief becomes accusation before the whole town, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-012-05",
+      "index": 4,
+      "location": "The shuttered mediation office above the old customs hall",
+      "anchorObject": "Black Ribbon Register",
+      "supportFocus": "Corin Hale",
+      "participants": [
+        "Mira Solari",
+        "Vera Quinn",
+        "Corin Hale",
+        "Corin Voss"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Corin Hale",
+      "pressureFigure": "Corin Voss",
+      "carriedPressure": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory",
+      "introduction": "Commemoration ledger reading",
+      "development": "The truth survives, but so does the cost of having spoken it",
+      "conflict": "Mira reaches the line proving that relief money was routed through Corin's family company",
+      "resolution": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town",
+      "goal": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages",
+      "obstacle": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory",
+      "result": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "The truth survives, but so does the cost of having spoken it",
+      "trigger": "The ceremony is choreographed to make dissent look like sacrilege",
+      "impact": "She finishes reading and lets the silence after the final name condemn the room",
+      "followThrough": "Force the lie into a setting where it cannot be quietly revised afterward",
+      "dialogueTurns": [
+        {
+          "speaker": "Corin Hale",
+          "verb": "asks",
+          "line": "If the ceremony is choreographed to make dissent look like sacrilege, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep during the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Alma Crest",
+          "verb": "adds",
+          "line": "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-012-06",
+      "index": 5,
+      "location": "The flood memorial crypt beneath Saint Rowan chapel",
+      "anchorObject": "Salt-Stamped Evacuation File",
+      "supportFocus": "Alma Crest",
+      "participants": [
+        "Mira Solari",
+        "Alma Crest",
+        "Sabine Arlo",
+        "Corin Voss"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Alma Crest",
+      "pressureFigure": "Corin Voss",
+      "carriedPressure": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory",
+      "introduction": "During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages",
+      "development": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory",
+      "conflict": "Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town",
+      "resolution": "She finishes reading and lets the silence after the final name condemn the room",
+      "exit": "The chapter hands off to a sharper aftermath consequence",
+      "stateChange": "The town loses its protective story even though no immediate justice follows",
+      "goal": "Force the lie into a setting where it cannot be quietly revised afterward",
+      "obstacle": "The ceremony is choreographed to make dissent look like sacrilege",
+      "result": "The town loses its protective story even though no immediate justice follows",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory",
+      "trigger": "Mira reaches the line proving that relief money was routed through Corin's family company",
+      "impact": "Grief becomes accusation before the whole town",
+      "followThrough": "The truth survives, but so does the cost of having spoken it",
+      "dialogueTurns": [
+        {
+          "speaker": "Alma Crest",
+          "verb": "asks",
+          "line": "If mira reaches the line proving that relief money was routed through Corin's family company, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep force the lie into a setting where it cannot be quietly revised afterward alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Sabine Arlo",
+          "verb": "warns",
+          "line": "If the ceremony is choreographed to make dissent look like sacrilege, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    }
+  ],
+  "opening": {
+    "inputState": "Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory",
+    "chapterQuestion": "The ceremony is choreographed to make dissent look like sacrilege",
+    "sensoryAnchor": "Wet wool, radiator hiss, mildew trapped in paper bindings",
+    "socialSignal": "Every conversation sounds temporary because the office trained people to trade truth for calm"
+  },
+  "closing": {
+    "outputState": "The truth survives, but so does the cost of having spoken it",
+    "answerShift": "The dead are betrayed again whenever the living turn grief into paperwork",
+    "macroEcho": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence"
+  }
+}
+-->

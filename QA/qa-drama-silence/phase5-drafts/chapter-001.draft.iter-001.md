@@ -1,47 +1,417 @@
 # Chapter 001
 
-Mira Solari enters the shuttered mediation office above the old customs hall while at her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book. In this drama chapter, setup movement anchored by memorial supper recording, so choices around identity-self under reconciliation pressure carry grief and tension. Vera Quinn keeps searching for a path toward relief, while Rufus Dene works to keep the conflict inside a safer official story. The central question here is mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall. The conflict thread is mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall. The setting is anchored by wet wool, radiator hiss, mildew trapped in paper bindings and keeps a civic room designed to soften language until responsibility disappears in view. The governing constraint is still active: mira cannot accuse the town hall without exposing her mother and Vera to the same hearing. At the start, Mira Solari believes keeping a family safe matters more than forcing a public reckoning at the start of the setup chapter. Its rhythm leans on description-action-dialogue-pause-event-monologue.
+Mira Solari steps into the shuttered mediation office above the old customs hall carrying at her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book. Wet wool, radiator hiss, mildew trapped in paper bindings hangs over the room before anyone speaks. Every conversation sounds temporary because the office trained people to trade truth for calm keeps trying to pass for order. Rufus Dene reads the first disturbance faster than the rest of the room. Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall is no longer theoretical once the first exchange begins to tilt.
 
-The room tightens before anyone can pretend calm is enough. This is still the first readable crack in the promise of the chapter. At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book. Mira Solari tries to secure the recording and identify the file number mentioned in it, but family members keep interrupting every attempt to name what the voice implies. The message points toward one erased witness statement and a ledger that should not exist anymore. Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall. Rufus Dene senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When the recording ends with Mira's brother naming Corin before the tape cuts off, the local pressure tips from grief toward tension. They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys. The unresolved line remains active through the memorial becomes evidence instead of closure, which keeps fear and anticipation braided together. The immediate result is grief shifts from private mourning into a timed investigation.
+After at her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book, Mira Solari moves first. At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book. The message points toward one erased witness statement and a ledger that should not exist anymore. Mira Solari wants to secure the recording and identify the file number mentioned in it. but family members keep interrupting every attempt to name what the voice implies keeps folding the scene back toward danger.
 
-Their speech stays careful, but grief keeps roughening the edges of each sentence. Subtext matters as much as the explicit claim. Mira Solari, Vera Quinn, Rufus Dene, Sabine Arlo keep circling mira Solari and Mira Solari keep circling the truth they cannot safely name yet. "A hint for the dialogue line" Rufus Dene says. The question lands harder than either speaker planned. "Secure the recording and identify the file number mentioned in it" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Sabine Arlo adds. Naming the risk turns pressure into irreversible commitment. "Family members keep interrupting every attempt to name what the voice implies" Corin Voss says. The challenge strips politeness away from the scene.
+Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall. Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and family members keep interrupting every attempt to name what the voice implies.
+"If the recording ends with Mira's brother naming Corin before the tape cuts off, who decided the station was allowed to forget it," asks Rufus Dene. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep secure the recording and identify the file number mentioned in it alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence," adds Sabine Arlo. Naming the risk turns pressure into irreversible commitment. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-The first deceleration is deliberate: grief shifts from private mourning into a timed investigation.
+The recording ends with Mira's brother naming Corin before the tape cuts off lands with more force than the room can absorb politely. The memorial becomes evidence instead of closure. They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys. Grief shifts from private mourning into a timed investigation and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-The silence breaks in smaller, sharper motions. This is still the first readable crack in the promise of the chapter. The message points toward one erased witness statement and a ledger that should not exist anymore. Mira Solari tries to mira can no longer pretend the death belongs only to the past, but mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall. Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall. Family members keep interrupting every attempt to name what the voice implies. Rufus Dene senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When memorial supper recording, the local pressure tips from grief toward tension. Mira can no longer pretend the death belongs only to the past. The unresolved line remains active through the memorial becomes evidence instead of closure, which keeps fear and anticipation braided together. The immediate result is mira can no longer pretend the death belongs only to the past.
+At the flood memorial crypt beneath Saint Rowan chapel, Mira Solari has no room left for delay. The message points toward one erased witness statement and a ledger that should not exist anymore. Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall. Mira Solari wants to mira can no longer pretend the death belongs only to the past. but mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Sabine Arlo says. The question lands harder than either speaker planned. "Mira can no longer pretend the death belongs only to the past" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Corin Hale adds. The warning narrows what can still be done safely. "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall" Corin Voss says. The challenge strips politeness away from the scene.
+Family members keep interrupting every attempt to name what the voice implies. Memorial supper recording turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and family members keep interrupting every attempt to name what the voice implies.
+"If memorial supper recording, who decided the station was allowed to forget it," asks Sabine Arlo. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep mira can no longer pretend the death belongs only to the past alive long enough to make it count." The promise raises the stakes for the next exchange. "If mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall, the room will close around us before anyone else sees the truth," warns Corin Hale. The warning narrows what can still be done safely. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-The private wound becomes public at last. This is still the first readable crack in the promise of the chapter. The recording ends with Mira's brother naming Corin before the tape cuts off. Mira Solari tries to memorial supper recording, but the recording ends with Mira's brother naming Corin before the tape cuts off. The memorial becomes evidence instead of closure. The memorial becomes evidence instead of closure. Rufus Dene senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When the message points toward one erased witness statement and a ledger that should not exist anymore, the local pressure tips from grief toward tension. Grief shifts from private mourning into a timed investigation. The unresolved line remains active through the memorial becomes evidence instead of closure, which keeps fear and anticipation braided together. The immediate result is they agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys.
+Memorial supper recording lands with more force than the room can absorb politely. Grief shifts from private mourning into a timed investigation. Mira can no longer pretend the death belongs only to the past. Mira can no longer pretend the death belongs only to the past and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
- "A hint for the dialogue line" Corin Hale says. The question lands harder than either speaker planned. "Memorial supper recording" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Rufus Dene adds. Naming the risk turns pressure into irreversible commitment. "The recording ends with Mira's brother naming Corin before the tape cuts off" Corin Voss says. The challenge strips politeness away from the scene.
+Mira Solari reaches for the flood compensation ledger before the room can decide who is allowed to touch it. The recording ends with Mira's brother naming Corin before the tape cuts off. The memorial becomes evidence instead of closure. Mira Solari wants to memorial supper recording. but the recording ends with Mira's brother naming Corin before the tape cuts off keeps folding the scene back toward danger.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and family members keep interrupting every attempt to name what the voice implies.
+The memorial becomes evidence instead of closure. The message points toward one erased witness statement and a ledger that should not exist anymore turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
-The room tightens before anyone can pretend calm is enough. This is still the first readable crack in the promise of the chapter. They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys. Mira Solari tries to they agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys, but the memorial becomes evidence instead of closure. Secure the recording and identify the file number mentioned in it. Secure the recording and identify the file number mentioned in it. Rufus Dene senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When at her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book, the local pressure tips from grief toward tension. The memorial becomes evidence instead of closure. The unresolved line remains active through the memorial becomes evidence instead of closure, which keeps fear and anticipation braided together. The immediate result is the memorial becomes evidence instead of closure.
+"If the message points toward one erased witness statement and a ledger that should not exist anymore, who decided the station was allowed to forget it," asks Corin Hale. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep memorial supper recording alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence," adds Rufus Dene. Naming the risk turns pressure into irreversible commitment. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
- "A hint for the dialogue line" Rufus Dene says. The question lands harder than either speaker planned. "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Sabine Arlo adds. The warning narrows what can still be done safely. "The memorial becomes evidence instead of closure" Corin Voss says. The challenge strips politeness away from the scene.
+The message points toward one erased witness statement and a ledger that should not exist anymore lands with more force than the room can absorb politely. Mira can no longer pretend the death belongs only to the past. Grief shifts from private mourning into a timed investigation. They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and family members keep interrupting every attempt to name what the voice implies.
+What begins in the shuttered mediation office above the old customs hall stops looking procedural the moment they agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys. They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys. Secure the recording and identify the file number mentioned in it. Mira Solari wants to they agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys. but the memorial becomes evidence instead of closure keeps folding the scene back toward danger.
 
-The silence breaks in smaller, sharper motions. This is still the first readable crack in the promise of the chapter. Memorial supper recording. Mira Solari tries to at her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book, but the message points toward one erased witness statement and a ledger that should not exist anymore. Mira can no longer pretend the death belongs only to the past. The recording ends with Mira's brother naming Corin before the tape cuts off. Rufus Dene senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When family members keep interrupting every attempt to name what the voice implies, the local pressure tips from grief toward tension. The message points toward one erased witness statement and a ledger that should not exist anymore. The unresolved line remains active through the memorial becomes evidence instead of closure, which keeps fear and anticipation braided together. The immediate result is mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall.
+Secure the recording and identify the file number mentioned in it. At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
- "A hint for the dialogue line" Sabine Arlo says. The question lands harder than either speaker planned. "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Corin Hale adds. Naming the risk turns pressure into irreversible commitment. "The message points toward one erased witness statement and a ledger that should not exist anymore" Corin Voss says. The challenge strips politeness away from the scene.
+"If at her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book, who decided the station was allowed to forget it," asks Rufus Dene. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep they agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys alive long enough to make it count." The promise raises the stakes for the next exchange. "If the memorial becomes evidence instead of closure, the room will close around us before anyone else sees the truth," warns Sabine Arlo. The warning narrows what can still be done safely. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and family members keep interrupting every attempt to name what the voice implies.
+At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book lands with more force than the room can absorb politely. Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall. The memorial becomes evidence instead of closure. The memorial becomes evidence instead of closure and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-The private wound becomes public at last. This is still the first readable crack in the promise of the chapter. At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book. Mira Solari tries to secure the recording and identify the file number mentioned in it, but family members keep interrupting every attempt to name what the voice implies. The message points toward one erased witness statement and a ledger that should not exist anymore. Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall. Rufus Dene senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When the recording ends with Mira's brother naming Corin before the tape cuts off, the local pressure tips from grief toward tension. They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys. The unresolved line remains active through the memorial becomes evidence instead of closure, which keeps fear and anticipation braided together. The immediate result is grief shifts from private mourning into a timed investigation.
+After at her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book, Mira Solari moves first. Memorial supper recording. Mira can no longer pretend the death belongs only to the past. Mira Solari wants to at her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book. but the message points toward one erased witness statement and a ledger that should not exist anymore keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Corin Hale says. The question lands harder than either speaker planned. "Secure the recording and identify the file number mentioned in it" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Rufus Dene adds. The warning narrows what can still be done safely. "Family members keep interrupting every attempt to name what the voice implies" Corin Voss says. The challenge strips politeness away from the scene.
+The recording ends with Mira's brother naming Corin before the tape cuts off. Family members keep interrupting every attempt to name what the voice implies turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and family members keep interrupting every attempt to name what the voice implies.
+"If family members keep interrupting every attempt to name what the voice implies, who decided the station was allowed to forget it," asks Sabine Arlo. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep at her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence," adds Corin Hale. Naming the risk turns pressure into irreversible commitment. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-Then the pace compresses: the recording ends with Mira's brother naming Corin before the tape cuts off.
+Family members keep interrupting every attempt to name what the voice implies lands with more force than the room can absorb politely. They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys. The message points toward one erased witness statement and a ledger that should not exist anymore. Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-Mira Solari feels the memorial becomes evidence instead of closure, a mix of grief and tension that will not settle into easy relief. The chapter therefore pushes the inner line from keeping a family safe matters more than forcing a public reckoning at the start of the setup chapter toward care without truth only prolongs the violence of the original wound after the setup chapter.
+At saltglass Walk, Mira Solari has no room left for delay. At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book. The message points toward one erased witness statement and a ledger that should not exist anymore. Mira Solari wants to secure the recording and identify the file number mentioned in it. but family members keep interrupting every attempt to name what the voice implies keeps folding the scene back toward danger.
 
-By the end of chapter-001, grief shifts from private mourning into a timed investigation. The chapter keeps faith with identity-self under reconciliation pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: the dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the relational line moves from professional-alliance-with-unequal-risk toward altered-but-legible-bond. The closing pressure is therefore both grief and tension, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?.
+Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall. The recording ends with Mira's brother naming Corin before the tape cuts off turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
+
+"If the recording ends with Mira's brother naming Corin before the tape cuts off, who decided the station was allowed to forget it," asks Corin Hale. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep secure the recording and identify the file number mentioned in it alive long enough to make it count." The promise raises the stakes for the next exchange. "If family members keep interrupting every attempt to name what the voice implies, the room will close around us before anyone else sees the truth," warns Rufus Dene. The warning narrows what can still be done safely. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
+
+The recording ends with Mira's brother naming Corin before the tape cuts off lands with more force than the room can absorb politely. The memorial becomes evidence instead of closure. They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys. Mira Solari leaves saltglass Walk without the shelter they had at the start. The chapter hands off to a sharper setup consequence.
+
+Mira Solari carries grief shifts from private mourning into a timed investigation out of saltglass Walk. The dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the bond now looks closer to altered-but-legible-bond. Care without truth only prolongs the violence of the original wound after the setup chapter is no longer something Mira Solari can postpone. Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence.
+
+<!-- scripta-draft-data
+{
+  "version": 1,
+  "chapterId": "chapter-001",
+  "chapterNumber": "001",
+  "profileId": "drama",
+  "protagonist": "Mira Solari",
+  "counterpart": "Vera Quinn",
+  "chapterRole": "setup",
+  "scenes": [
+    {
+      "sceneId": "scene-001-01",
+      "index": 0,
+      "location": "The shuttered mediation office above the old customs hall",
+      "anchorObject": "The flood compensation ledger",
+      "supportFocus": "Rufus Dene",
+      "participants": [
+        "Mira Solari",
+        "Vera Quinn",
+        "Rufus Dene"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Rufus Dene",
+      "pressureFigure": "Rufus Dene",
+      "carriedPressure": "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book",
+      "introduction": "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book",
+      "development": "The message points toward one erased witness statement and a ledger that should not exist anymore",
+      "conflict": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall",
+      "resolution": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Grief shifts from private mourning into a timed investigation",
+      "goal": "Secure the recording and identify the file number mentioned in it",
+      "obstacle": "Family members keep interrupting every attempt to name what the voice implies",
+      "result": "Grief shifts from private mourning into a timed investigation",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "The message points toward one erased witness statement and a ledger that should not exist anymore",
+      "trigger": "The recording ends with Mira's brother naming Corin before the tape cuts off",
+      "impact": "The memorial becomes evidence instead of closure",
+      "followThrough": "Mira can no longer pretend the death belongs only to the past",
+      "dialogueTurns": [
+        {
+          "speaker": "Rufus Dene",
+          "verb": "asks",
+          "line": "If the recording ends with Mira's brother naming Corin before the tape cuts off, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep secure the recording and identify the file number mentioned in it alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Sabine Arlo",
+          "verb": "adds",
+          "line": "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-001-02",
+      "index": 1,
+      "location": "The flood memorial crypt beneath Saint Rowan chapel",
+      "anchorObject": "Black Ribbon Register",
+      "supportFocus": "Sabine Arlo",
+      "participants": [
+        "Mira Solari",
+        "Sabine Arlo",
+        "Corin Hale",
+        "Corin Voss"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Sabine Arlo",
+      "pressureFigure": "Corin Voss",
+      "carriedPressure": "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book",
+      "introduction": "The message points toward one erased witness statement and a ledger that should not exist anymore",
+      "development": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall",
+      "conflict": "Family members keep interrupting every attempt to name what the voice implies",
+      "resolution": "Mira can no longer pretend the death belongs only to the past",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Mira can no longer pretend the death belongs only to the past",
+      "goal": "Mira can no longer pretend the death belongs only to the past",
+      "obstacle": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall",
+      "result": "Mira can no longer pretend the death belongs only to the past",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall",
+      "trigger": "Memorial supper recording",
+      "impact": "Grief shifts from private mourning into a timed investigation",
+      "followThrough": "Grief shifts from private mourning into a timed investigation",
+      "dialogueTurns": [
+        {
+          "speaker": "Sabine Arlo",
+          "verb": "asks",
+          "line": "If memorial supper recording, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep mira can no longer pretend the death belongs only to the past alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Corin Hale",
+          "verb": "warns",
+          "line": "If mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-001-03",
+      "index": 2,
+      "location": "Saltglass Walk",
+      "anchorObject": "The flood compensation ledger",
+      "supportFocus": "Corin Hale",
+      "participants": [
+        "Mira Solari",
+        "Vera Quinn",
+        "Corin Hale"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Corin Hale",
+      "pressureFigure": "Corin Hale",
+      "carriedPressure": "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book",
+      "introduction": "The recording ends with Mira's brother naming Corin before the tape cuts off",
+      "development": "The memorial becomes evidence instead of closure",
+      "conflict": "The memorial becomes evidence instead of closure",
+      "resolution": "Grief shifts from private mourning into a timed investigation",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys",
+      "goal": "Memorial supper recording",
+      "obstacle": "The recording ends with Mira's brother naming Corin before the tape cuts off",
+      "result": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "The memorial becomes evidence instead of closure",
+      "trigger": "The message points toward one erased witness statement and a ledger that should not exist anymore",
+      "impact": "Mira can no longer pretend the death belongs only to the past",
+      "followThrough": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys",
+      "dialogueTurns": [
+        {
+          "speaker": "Corin Hale",
+          "verb": "asks",
+          "line": "If the message points toward one erased witness statement and a ledger that should not exist anymore, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep memorial supper recording alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Rufus Dene",
+          "verb": "adds",
+          "line": "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-001-04",
+      "index": 3,
+      "location": "The shuttered mediation office above the old customs hall",
+      "anchorObject": "Black Ribbon Register",
+      "supportFocus": "Rufus Dene",
+      "participants": [
+        "Mira Solari",
+        "Rufus Dene",
+        "Sabine Arlo"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Rufus Dene",
+      "pressureFigure": "Sabine Arlo",
+      "carriedPressure": "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book",
+      "introduction": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys",
+      "development": "Secure the recording and identify the file number mentioned in it",
+      "conflict": "Secure the recording and identify the file number mentioned in it",
+      "resolution": "The memorial becomes evidence instead of closure",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "The memorial becomes evidence instead of closure",
+      "goal": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys",
+      "obstacle": "The memorial becomes evidence instead of closure",
+      "result": "The memorial becomes evidence instead of closure",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "Secure the recording and identify the file number mentioned in it",
+      "trigger": "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book",
+      "impact": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall",
+      "followThrough": "The memorial becomes evidence instead of closure",
+      "dialogueTurns": [
+        {
+          "speaker": "Rufus Dene",
+          "verb": "asks",
+          "line": "If at her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep they agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Sabine Arlo",
+          "verb": "warns",
+          "line": "If the memorial becomes evidence instead of closure, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-001-05",
+      "index": 4,
+      "location": "The flood memorial crypt beneath Saint Rowan chapel",
+      "anchorObject": "The flood compensation ledger",
+      "supportFocus": "Sabine Arlo",
+      "participants": [
+        "Mira Solari",
+        "Vera Quinn",
+        "Sabine Arlo",
+        "Corin Voss"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Sabine Arlo",
+      "pressureFigure": "Corin Voss",
+      "carriedPressure": "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book",
+      "introduction": "Memorial supper recording",
+      "development": "Mira can no longer pretend the death belongs only to the past",
+      "conflict": "The recording ends with Mira's brother naming Corin before the tape cuts off",
+      "resolution": "The message points toward one erased witness statement and a ledger that should not exist anymore",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall",
+      "goal": "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book",
+      "obstacle": "The message points toward one erased witness statement and a ledger that should not exist anymore",
+      "result": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "Mira can no longer pretend the death belongs only to the past",
+      "trigger": "Family members keep interrupting every attempt to name what the voice implies",
+      "impact": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys",
+      "followThrough": "Secure the recording and identify the file number mentioned in it",
+      "dialogueTurns": [
+        {
+          "speaker": "Sabine Arlo",
+          "verb": "asks",
+          "line": "If family members keep interrupting every attempt to name what the voice implies, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep at her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Corin Hale",
+          "verb": "adds",
+          "line": "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-001-06",
+      "index": 5,
+      "location": "Saltglass Walk",
+      "anchorObject": "Black Ribbon Register",
+      "supportFocus": "Corin Hale",
+      "participants": [
+        "Mira Solari",
+        "Corin Hale",
+        "Rufus Dene",
+        "Corin Voss"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Corin Hale",
+      "pressureFigure": "Corin Voss",
+      "carriedPressure": "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book",
+      "introduction": "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book",
+      "development": "The message points toward one erased witness statement and a ledger that should not exist anymore",
+      "conflict": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall",
+      "resolution": "They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys",
+      "exit": "The chapter hands off to a sharper setup consequence",
+      "stateChange": "Grief shifts from private mourning into a timed investigation",
+      "goal": "Secure the recording and identify the file number mentioned in it",
+      "obstacle": "Family members keep interrupting every attempt to name what the voice implies",
+      "result": "Grief shifts from private mourning into a timed investigation",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "The message points toward one erased witness statement and a ledger that should not exist anymore",
+      "trigger": "The recording ends with Mira's brother naming Corin before the tape cuts off",
+      "impact": "The memorial becomes evidence instead of closure",
+      "followThrough": "Mira can no longer pretend the death belongs only to the past",
+      "dialogueTurns": [
+        {
+          "speaker": "Corin Hale",
+          "verb": "asks",
+          "line": "If the recording ends with Mira's brother naming Corin before the tape cuts off, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep secure the recording and identify the file number mentioned in it alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Rufus Dene",
+          "verb": "warns",
+          "line": "If family members keep interrupting every attempt to name what the voice implies, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    }
+  ],
+  "opening": {
+    "inputState": "At her brother's memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book",
+    "chapterQuestion": "Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall",
+    "sensoryAnchor": "Wet wool, radiator hiss, mildew trapped in paper bindings",
+    "socialSignal": "Every conversation sounds temporary because the office trained people to trade truth for calm"
+  },
+  "closing": {
+    "outputState": "Grief shifts from private mourning into a timed investigation",
+    "answerShift": "The dead are betrayed again whenever the living turn grief into paperwork",
+    "macroEcho": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence"
+  }
+}
+-->

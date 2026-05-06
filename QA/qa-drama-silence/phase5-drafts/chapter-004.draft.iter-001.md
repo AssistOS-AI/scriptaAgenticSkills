@@ -1,47 +1,417 @@
 # Chapter 004
 
-Mira Solari enters The Drowned Registry Annex while they steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass. In this drama chapter, escalation movement anchored by archive window without signatures, so choices around identity-self under reconciliation pressure carry grief and tension. Vera Quinn keeps searching for a path toward relief, while Alma Crest works to keep the conflict inside a safer official story. The central question here is extract enough records to prove the compensation pattern is deliberate. The conflict thread is vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. The setting is anchored by wet wool, radiator hiss, mildew trapped in paper bindings and keeps a civic room designed to soften language until responsibility disappears in view. The governing constraint is still active: mira cannot accuse the town hall without exposing her mother and Vera to the same hearing. At the start, Mira Solari believes keeping a family safe matters more than forcing a public reckoning at the start of the bridge chapter. Its rhythm leans on description-action-dialogue-pause-event-monologue.
+Mira Solari steps into the Drowned Registry Annex carrying they steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass. Wet wool, radiator hiss, mildew trapped in paper bindings hangs over the room before anyone speaks. Every conversation sounds temporary because the office trained people to trade truth for calm keeps trying to pass for order. Alma Crest reads the first disturbance faster than the rest of the room. Extract enough records to prove the compensation pattern is deliberate is no longer theoretical once the first exchange begins to tilt.
 
-The room tightens before anyone can pretend calm is enough. The chapter crosses a threshold without releasing pressure. Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living. Mira Solari tries to extract enough records to prove the compensation pattern is deliberate, but the archive software now mirrors paper files only after political approval. Corin arrives with coffee, condolences, and a rewritten story about emergency discretion. Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. Alma Crest senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When one photographed page carries Mira's mother's signature beneath a false evacuation report, the local pressure tips from grief toward tension. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass. The unresolved line remains active through vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again, which keeps fear and anticipation braided together. The immediate result is the lie becomes documentable, and therefore more dangerous.
+After they steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass, Mira Solari moves first. Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living. Corin arrives with coffee, condolences, and a rewritten story about emergency discretion. Mira Solari wants to extract enough records to prove the compensation pattern is deliberate. but the archive software now mirrors paper files only after political approval keeps folding the scene back toward danger.
 
-Their speech stays careful, but grief keeps roughening the edges of each sentence. Subtext matters as much as the explicit claim. Mira Solari, Vera Quinn, Alma Crest, Petra Linn keep circling mira Solari and Mira Solari keep circling the truth they cannot safely name yet. "A hint for the dialogue line" Alma Crest says. The question lands harder than either speaker planned. "Extract enough records to prove the compensation pattern is deliberate" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Petra Linn adds. Naming the risk turns pressure into irreversible commitment. "The archive software now mirrors paper files only after political approval" Corin Voss says. The challenge strips politeness away from the scene.
+Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and the archive software now mirrors paper files only after political approval.
+"If one photographed page carries Mira's mother's signature beneath a false evacuation report, who decided the station was allowed to forget it," asks Alma Crest. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep extract enough records to prove the compensation pattern is deliberate alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence," adds Petra Linn. Naming the risk turns pressure into irreversible commitment. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-The first deceleration is deliberate: the investigation now threatens the family as much as the institution.
+One photographed page carries Mira's mother's signature beneath a false evacuation report lands with more force than the room can absorb politely. The investigation now threatens the family as much as the institution. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass. The lie becomes documentable, and therefore more dangerous and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-The silence breaks in smaller, sharper motions. The chapter crosses a threshold without releasing pressure. Corin arrives with coffee, condolences, and a rewritten story about emergency discretion. Mira Solari tries to mira loses the comfort of treating her mother as untouched by the fraud, but vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. The archive software now mirrors paper files only after political approval. Alma Crest senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When archive window without signatures, the local pressure tips from grief toward tension. Mira loses the comfort of treating her mother as untouched by the fraud. The unresolved line remains active through vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again, which keeps fear and anticipation braided together. The immediate result is mira loses the comfort of treating her mother as untouched by the fraud.
+At ravelin Ferry Office, Mira Solari has no room left for delay. Corin arrives with coffee, condolences, and a rewritten story about emergency discretion. Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. Mira Solari wants to mira loses the comfort of treating her mother as untouched by the fraud. but vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Petra Linn says. The question lands harder than either speaker planned. "Mira loses the comfort of treating her mother as untouched by the fraud" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Rufus Dene adds. The warning narrows what can still be done safely. "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again" Corin Voss says. The challenge strips politeness away from the scene.
+The archive software now mirrors paper files only after political approval. Archive window without signatures turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and the archive software now mirrors paper files only after political approval.
+"If archive window without signatures, who decided the station was allowed to forget it," asks Petra Linn. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep mira loses the comfort of treating her mother as untouched by the fraud alive long enough to make it count." The promise raises the stakes for the next exchange. "If vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again, the room will close around us before anyone else sees the truth," warns Rufus Dene. The warning narrows what can still be done safely. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-The private wound becomes public at last. The chapter crosses a threshold without releasing pressure. One photographed page carries Mira's mother's signature beneath a false evacuation report. Mira Solari tries to archive window without signatures, but one photographed page carries Mira's mother's signature beneath a false evacuation report. The investigation now threatens the family as much as the institution. The investigation now threatens the family as much as the institution. Alma Crest senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When corin arrives with coffee, condolences, and a rewritten story about emergency discretion, the local pressure tips from grief toward tension. The lie becomes documentable, and therefore more dangerous. The unresolved line remains active through vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again, which keeps fear and anticipation braided together. The immediate result is they steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
+Archive window without signatures lands with more force than the room can absorb politely. The lie becomes documentable, and therefore more dangerous. Mira loses the comfort of treating her mother as untouched by the fraud. Mira loses the comfort of treating her mother as untouched by the fraud and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
- "A hint for the dialogue line" Rufus Dene says. The question lands harder than either speaker planned. "Archive window without signatures" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Alma Crest adds. Naming the risk turns pressure into irreversible commitment. "One photographed page carries Mira's mother's signature beneath a false evacuation report" Corin Voss says. The challenge strips politeness away from the scene.
+Mira Solari reaches for floodplain Key Packet before the room can decide who is allowed to touch it. One photographed page carries Mira's mother's signature beneath a false evacuation report. The investigation now threatens the family as much as the institution. Mira Solari wants to archive window without signatures. but one photographed page carries Mira's mother's signature beneath a false evacuation report keeps folding the scene back toward danger.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and the archive software now mirrors paper files only after political approval.
+The investigation now threatens the family as much as the institution. Corin arrives with coffee, condolences, and a rewritten story about emergency discretion turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
-The room tightens before anyone can pretend calm is enough. The chapter crosses a threshold without releasing pressure. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass. Mira Solari tries to they steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass, but the investigation now threatens the family as much as the institution. Extract enough records to prove the compensation pattern is deliberate. Extract enough records to prove the compensation pattern is deliberate. Alma Crest senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living, the local pressure tips from grief toward tension. The investigation now threatens the family as much as the institution. The unresolved line remains active through vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again, which keeps fear and anticipation braided together. The immediate result is the investigation now threatens the family as much as the institution.
+"If corin arrives with coffee, condolences, and a rewritten story about emergency discretion, who decided the station was allowed to forget it," asks Rufus Dene. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep archive window without signatures alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence," adds Alma Crest. Naming the risk turns pressure into irreversible commitment. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
- "A hint for the dialogue line" Alma Crest says. The question lands harder than either speaker planned. "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Petra Linn adds. The warning narrows what can still be done safely. "The investigation now threatens the family as much as the institution" Corin Voss says. The challenge strips politeness away from the scene.
+Corin arrives with coffee, condolences, and a rewritten story about emergency discretion lands with more force than the room can absorb politely. Mira loses the comfort of treating her mother as untouched by the fraud. The lie becomes documentable, and therefore more dangerous. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and the archive software now mirrors paper files only after political approval.
+What begins in the Drowned Registry Annex stops looking procedural the moment they steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass. Extract enough records to prove the compensation pattern is deliberate. Mira Solari wants to they steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass. but the investigation now threatens the family as much as the institution keeps folding the scene back toward danger.
 
-The silence breaks in smaller, sharper motions. The chapter crosses a threshold without releasing pressure. Archive window without signatures. Mira Solari tries to inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living, but corin arrives with coffee, condolences, and a rewritten story about emergency discretion. Mira loses the comfort of treating her mother as untouched by the fraud. One photographed page carries Mira's mother's signature beneath a false evacuation report. Alma Crest senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When the archive software now mirrors paper files only after political approval, the local pressure tips from grief toward tension. Corin arrives with coffee, condolences, and a rewritten story about emergency discretion. The unresolved line remains active through vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again, which keeps fear and anticipation braided together. The immediate result is vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
+Extract enough records to prove the compensation pattern is deliberate. Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
- "A hint for the dialogue line" Petra Linn says. The question lands harder than either speaker planned. "Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Rufus Dene adds. Naming the risk turns pressure into irreversible commitment. "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion" Corin Voss says. The challenge strips politeness away from the scene.
+"If inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living, who decided the station was allowed to forget it," asks Alma Crest. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep they steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass alive long enough to make it count." The promise raises the stakes for the next exchange. "If the investigation now threatens the family as much as the institution, the room will close around us before anyone else sees the truth," warns Petra Linn. The warning narrows what can still be done safely. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and the archive software now mirrors paper files only after political approval.
+Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living lands with more force than the room can absorb politely. Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. The investigation now threatens the family as much as the institution. The investigation now threatens the family as much as the institution and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-The private wound becomes public at last. The chapter crosses a threshold without releasing pressure. Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living. Mira Solari tries to extract enough records to prove the compensation pattern is deliberate, but the archive software now mirrors paper files only after political approval. Corin arrives with coffee, condolences, and a rewritten story about emergency discretion. Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. Alma Crest senses that her brother's last testimony, her mother's survival, and the town's false innocence now hang inside the same exchange. The setting mirrors a civic room designed to soften language until responsibility disappears. When one photographed page carries Mira's mother's signature beneath a false evacuation report, the local pressure tips from grief toward tension. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass. The unresolved line remains active through vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again, which keeps fear and anticipation braided together. The immediate result is the lie becomes documentable, and therefore more dangerous.
+After they steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass, Mira Solari moves first. Archive window without signatures. Mira loses the comfort of treating her mother as untouched by the fraud. Mira Solari wants to inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living. but corin arrives with coffee, condolences, and a rewritten story about emergency discretion keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Rufus Dene says. The question lands harder than either speaker planned. "Extract enough records to prove the compensation pattern is deliberate" Mira Solari replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Alma Crest adds. The warning narrows what can still be done safely. "The archive software now mirrors paper files only after political approval" Corin Voss says. The challenge strips politeness away from the scene.
+One photographed page carries Mira's mother's signature beneath a false evacuation report. The archive software now mirrors paper files only after political approval turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
 
-At the level of place, every conversation sounds temporary because the office trained people to trade truth for calm; private negotiations keep collapsing into accusations that belong in public. The chapter rule keeps shaping possibility: files return with fresh signatures but older dates, as if grief itself were rewritten overnight, and the archive software now mirrors paper files only after political approval.
+"If the archive software now mirrors paper files only after political approval, who decided the station was allowed to forget it," asks Petra Linn. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence," adds Rufus Dene. Naming the risk turns pressure into irreversible commitment. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
 
-Then the pace compresses: inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
+The archive software now mirrors paper files only after political approval lands with more force than the room can absorb politely. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass. Corin arrives with coffee, condolences, and a rewritten story about emergency discretion. Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-Mira Solari feels the investigation now threatens the family as much as the institution, a mix of grief and tension that will not settle into easy relief. The chapter therefore pushes the inner line from keeping a family safe matters more than forcing a public reckoning at the start of the bridge chapter toward care without truth only prolongs the violence of the original wound after the bridge chapter.
+At greymarket Steps, Mira Solari has no room left for delay. Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living. Corin arrives with coffee, condolences, and a rewritten story about emergency discretion. Mira Solari wants to extract enough records to prove the compensation pattern is deliberate. but the archive software now mirrors paper files only after political approval keeps folding the scene back toward danger.
 
-By the end of chapter-004, the investigation now threatens the family as much as the institution. The chapter keeps faith with identity-self under reconciliation pressure while moving toward cliffhanger, and it refuses relief without visible cost. Its answer shift is clear: the dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the relational line moves from oath-bound-cooperation-shadowed-by-allegiance toward scarred-trust-rebuilt-on-painful-clarity. The closing pressure is therefore both grief and tension, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?.
+Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again. One photographed page carries Mira's mother's signature beneath a false evacuation report turns hesitation into a deadline. Her brother's last testimony, her mother's survival, and the town's false innocence stop sounding abstract once mira Solari realizes who will be blamed first. Files return with fresh signatures but older dates, as if grief itself were rewritten overnight stays visible in every small reaction around them.
+
+"If one photographed page carries Mira's mother's signature beneath a false evacuation report, who decided the station was allowed to forget it," asks Rufus Dene. The question lands harder than either speaker planned. Mira Solari insists, "Then we keep extract enough records to prove the compensation pattern is deliberate alive long enough to make it count." The promise raises the stakes for the next exchange. "If the archive software now mirrors paper files only after political approval, the room will close around us before anyone else sees the truth," warns Alma Crest. The warning narrows what can still be done safely. Corin Voss cuts in, "Stability justifies concealment, and you are turning procedure into theater." The challenge strips politeness away from the scene.
+
+One photographed page carries Mira's mother's signature beneath a false evacuation report lands with more force than the room can absorb politely. The investigation now threatens the family as much as the institution. They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass. Mira Solari leaves greymarket Steps without the shelter they had at the start. The chapter hands off to a sharper bridge consequence.
+
+Mira Solari carries the investigation now threatens the family as much as the institution out of greymarket Steps. The dead are betrayed again whenever the living turn grief into paperwork. Between Mira Solari and Vera Quinn, the bond now looks closer to scarred-trust-rebuilt-on-painful-clarity. Care without truth only prolongs the violence of the original wound after the bridge chapter is no longer something Mira Solari can postpone. Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence.
+
+<!-- scripta-draft-data
+{
+  "version": 1,
+  "chapterId": "chapter-004",
+  "chapterNumber": "004",
+  "profileId": "drama",
+  "protagonist": "Mira Solari",
+  "counterpart": "Vera Quinn",
+  "chapterRole": "bridge",
+  "scenes": [
+    {
+      "sceneId": "scene-004-01",
+      "index": 0,
+      "location": "The Drowned Registry Annex",
+      "anchorObject": "Floodplain Key Packet",
+      "supportFocus": "Alma Crest",
+      "participants": [
+        "Mira Solari",
+        "Vera Quinn",
+        "Alma Crest"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Alma Crest",
+      "pressureFigure": "Alma Crest",
+      "carriedPressure": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass",
+      "introduction": "Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living",
+      "development": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion",
+      "conflict": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again",
+      "resolution": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "The lie becomes documentable, and therefore more dangerous",
+      "goal": "Extract enough records to prove the compensation pattern is deliberate",
+      "obstacle": "The archive software now mirrors paper files only after political approval",
+      "result": "The lie becomes documentable, and therefore more dangerous",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion",
+      "trigger": "One photographed page carries Mira's mother's signature beneath a false evacuation report",
+      "impact": "The investigation now threatens the family as much as the institution",
+      "followThrough": "Mira loses the comfort of treating her mother as untouched by the fraud",
+      "dialogueTurns": [
+        {
+          "speaker": "Alma Crest",
+          "verb": "asks",
+          "line": "If one photographed page carries Mira's mother's signature beneath a false evacuation report, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep extract enough records to prove the compensation pattern is deliberate alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Petra Linn",
+          "verb": "adds",
+          "line": "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-004-02",
+      "index": 1,
+      "location": "Ravelin Ferry Office",
+      "anchorObject": "Greywater Ledger",
+      "supportFocus": "Petra Linn",
+      "participants": [
+        "Mira Solari",
+        "Petra Linn",
+        "Rufus Dene",
+        "Corin Voss"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Petra Linn",
+      "pressureFigure": "Corin Voss",
+      "carriedPressure": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass",
+      "introduction": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion",
+      "development": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again",
+      "conflict": "The archive software now mirrors paper files only after political approval",
+      "resolution": "Mira loses the comfort of treating her mother as untouched by the fraud",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Mira loses the comfort of treating her mother as untouched by the fraud",
+      "goal": "Mira loses the comfort of treating her mother as untouched by the fraud",
+      "obstacle": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again",
+      "result": "Mira loses the comfort of treating her mother as untouched by the fraud",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again",
+      "trigger": "Archive window without signatures",
+      "impact": "The lie becomes documentable, and therefore more dangerous",
+      "followThrough": "The lie becomes documentable, and therefore more dangerous",
+      "dialogueTurns": [
+        {
+          "speaker": "Petra Linn",
+          "verb": "asks",
+          "line": "If archive window without signatures, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep mira loses the comfort of treating her mother as untouched by the fraud alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Rufus Dene",
+          "verb": "warns",
+          "line": "If vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-004-03",
+      "index": 2,
+      "location": "Greymarket Steps",
+      "anchorObject": "Floodplain Key Packet",
+      "supportFocus": "Rufus Dene",
+      "participants": [
+        "Mira Solari",
+        "Vera Quinn",
+        "Rufus Dene"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Rufus Dene",
+      "pressureFigure": "Rufus Dene",
+      "carriedPressure": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass",
+      "introduction": "One photographed page carries Mira's mother's signature beneath a false evacuation report",
+      "development": "The investigation now threatens the family as much as the institution",
+      "conflict": "The investigation now threatens the family as much as the institution",
+      "resolution": "The lie becomes documentable, and therefore more dangerous",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass",
+      "goal": "Archive window without signatures",
+      "obstacle": "One photographed page carries Mira's mother's signature beneath a false evacuation report",
+      "result": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "The investigation now threatens the family as much as the institution",
+      "trigger": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion",
+      "impact": "Mira loses the comfort of treating her mother as untouched by the fraud",
+      "followThrough": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass",
+      "dialogueTurns": [
+        {
+          "speaker": "Rufus Dene",
+          "verb": "asks",
+          "line": "If corin arrives with coffee, condolences, and a rewritten story about emergency discretion, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep archive window without signatures alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Alma Crest",
+          "verb": "adds",
+          "line": "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-004-04",
+      "index": 3,
+      "location": "The Drowned Registry Annex",
+      "anchorObject": "Greywater Ledger",
+      "supportFocus": "Alma Crest",
+      "participants": [
+        "Mira Solari",
+        "Alma Crest",
+        "Petra Linn"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Alma Crest",
+      "pressureFigure": "Petra Linn",
+      "carriedPressure": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass",
+      "introduction": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass",
+      "development": "Extract enough records to prove the compensation pattern is deliberate",
+      "conflict": "Extract enough records to prove the compensation pattern is deliberate",
+      "resolution": "The investigation now threatens the family as much as the institution",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "The investigation now threatens the family as much as the institution",
+      "goal": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass",
+      "obstacle": "The investigation now threatens the family as much as the institution",
+      "result": "The investigation now threatens the family as much as the institution",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "Extract enough records to prove the compensation pattern is deliberate",
+      "trigger": "Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living",
+      "impact": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again",
+      "followThrough": "The investigation now threatens the family as much as the institution",
+      "dialogueTurns": [
+        {
+          "speaker": "Alma Crest",
+          "verb": "asks",
+          "line": "If inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep they steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Petra Linn",
+          "verb": "warns",
+          "line": "If the investigation now threatens the family as much as the institution, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-004-05",
+      "index": 4,
+      "location": "Ravelin Ferry Office",
+      "anchorObject": "Floodplain Key Packet",
+      "supportFocus": "Petra Linn",
+      "participants": [
+        "Mira Solari",
+        "Vera Quinn",
+        "Petra Linn",
+        "Corin Voss"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Petra Linn",
+      "pressureFigure": "Corin Voss",
+      "carriedPressure": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass",
+      "introduction": "Archive window without signatures",
+      "development": "Mira loses the comfort of treating her mother as untouched by the fraud",
+      "conflict": "One photographed page carries Mira's mother's signature beneath a false evacuation report",
+      "resolution": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again",
+      "goal": "Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living",
+      "obstacle": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion",
+      "result": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "Mira loses the comfort of treating her mother as untouched by the fraud",
+      "trigger": "The archive software now mirrors paper files only after political approval",
+      "impact": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass",
+      "followThrough": "Extract enough records to prove the compensation pattern is deliberate",
+      "dialogueTurns": [
+        {
+          "speaker": "Petra Linn",
+          "verb": "asks",
+          "line": "If the archive software now mirrors paper files only after political approval, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Rufus Dene",
+          "verb": "adds",
+          "line": "Once this reaches open air, her brother's last testimony, her mother's survival, and the town's false innocence",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-004-06",
+      "index": 5,
+      "location": "Greymarket Steps",
+      "anchorObject": "Greywater Ledger",
+      "supportFocus": "Rufus Dene",
+      "participants": [
+        "Mira Solari",
+        "Rufus Dene",
+        "Alma Crest",
+        "Corin Voss"
+      ],
+      "focusCharacter": "Mira Solari",
+      "supportCharacter": "Rufus Dene",
+      "pressureFigure": "Corin Voss",
+      "carriedPressure": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass",
+      "introduction": "Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living",
+      "development": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion",
+      "conflict": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again",
+      "resolution": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass",
+      "exit": "The chapter hands off to a sharper bridge consequence",
+      "stateChange": "The lie becomes documentable, and therefore more dangerous",
+      "goal": "Extract enough records to prove the compensation pattern is deliberate",
+      "obstacle": "The archive software now mirrors paper files only after political approval",
+      "result": "The lie becomes documentable, and therefore more dangerous",
+      "stakes": "Her brother's last testimony, her mother's survival, and the town's false innocence",
+      "escalation": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion",
+      "trigger": "One photographed page carries Mira's mother's signature beneath a false evacuation report",
+      "impact": "The investigation now threatens the family as much as the institution",
+      "followThrough": "Mira loses the comfort of treating her mother as untouched by the fraud",
+      "dialogueTurns": [
+        {
+          "speaker": "Rufus Dene",
+          "verb": "asks",
+          "line": "If one photographed page carries Mira's mother's signature beneath a false evacuation report, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Mira Solari",
+          "verb": "insists",
+          "line": "Then we keep extract enough records to prove the compensation pattern is deliberate alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Alma Crest",
+          "verb": "warns",
+          "line": "If the archive software now mirrors paper files only after political approval, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Corin Voss",
+          "verb": "cuts in",
+          "line": "Stability justifies concealment, and you are turning procedure into theater",
+          "reaction": "The challenge strips politeness away from the scene."
+        }
+      ]
+    }
+  ],
+  "opening": {
+    "inputState": "They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass",
+    "chapterQuestion": "Extract enough records to prove the compensation pattern is deliberate",
+    "sensoryAnchor": "Wet wool, radiator hiss, mildew trapped in paper bindings",
+    "socialSignal": "Every conversation sounds temporary because the office trained people to trade truth for calm"
+  },
+  "closing": {
+    "outputState": "The investigation now threatens the family as much as the institution",
+    "answerShift": "The dead are betrayed again whenever the living turn grief into paperwork",
+    "macroEcho": "Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence"
+  }
+}
+-->

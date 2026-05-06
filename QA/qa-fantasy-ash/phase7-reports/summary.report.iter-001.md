@@ -1,19 +1,21 @@
 # Validation report for qa-fantasy-ash
 
 ## Metrics
-- **OI**: 66%
+- **OI**: 65%
 - **NCS**: 100%
 - **BCI**: 96%
 - **VAD_score**: 100%
 - **TOP_score**: 100%
 - **PRC**: 100%
+- **RPA**: 100%
+- **DSI**: 100%
 - **SFSG**: 95%
 - **CCI**: 94%
 - **CAD_score**: 88%
-- **EAP**: 92%
+- **EAP**: 88%
 - **CAR**: 99%
-- **CS**: 93%
-- **NQS**: 87%
+- **CS**: 92%
+- **NQS**: 85%
 
 ## Issues
 - No major deterministic issues were detected.

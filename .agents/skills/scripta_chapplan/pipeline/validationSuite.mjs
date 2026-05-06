@@ -96,6 +96,22 @@ export async function runValidationSuite(input = {}) {
     message: `Cliche expression detected: "${match.phrase}".`
   })));
 
+  const repetitionMatches = drafts.flatMap((draft) => detectRepeatedScaffolds(draft));
+  issues.push(...repetitionMatches.map((match) => ({
+    metric: 'RPA',
+    chapter: match.chapter,
+    paragraph: match.paragraph,
+    message: `Repeated scaffold detected: "${match.phrase}".`
+  })));
+
+  const draftSurfaceMatches = drafts.flatMap((draft) => detectDraftSurfaceLeaks(draft));
+  issues.push(...draftSurfaceMatches.map((match) => ({
+    metric: 'DSI',
+    chapter: match.chapter,
+    paragraph: match.paragraph,
+    message: match.message
+  })));
+
   const exportAudit = buildExportAudit({
     options,
     exportEntries,
@@ -110,13 +126,15 @@ export async function runValidationSuite(input = {}) {
   const VAD_score = clampScore(100 - rawDeviation);
   const TOP_score = clampScore(100 - overlapMatches.length * 20);
   const placeholderScore = clampScore(100 - placeholderHits.length * 25);
+  const RPA = clampScore(100 - repetitionMatches.length * 12);
+  const DSI = clampScore(100 - draftSurfaceMatches.length * 18);
   const SFSG = clampScore(70 + comparePlanCoverage(chapterPlans, drafts, refinedPlans) - placeholderHits.length * 10);
   const CCI = clampScore(74 + compareContinuity(refinedPlans, drafts, options.chapterCount));
   const CAD_score = clampScore(76 + compareCharacterStability(drafts, refinedMacroText));
   const EAP = clampScore(72 + compareEmotionalArc(drafts));
   const thematicDepth = clampScore(68 + detectThemeDensity(drafts, options.profile.themeTopic));
   const characterComplexity = clampScore(70 + compareCharacterStability(drafts, refinedMacroText));
-  const stylisticQuality = clampScore(72 + uniqueTokenRatio(drafts.map((draft) => draft.content).join(' ')) * 25 - placeholderHits.length * 10);
+  const stylisticQuality = clampScore(72 + uniqueTokenRatio(drafts.map((draft) => draft.content).join(' ')) * 25 - placeholderHits.length * 10 - repetitionMatches.length * 3 - draftSurfaceMatches.length * 5);
   const emotionalImpact = clampScore(70 + compareEmotionalArc(drafts));
   const interpretiveOpenness = clampScore(options.baselineProfile === 'romance-relational' ? 74 : 82);
   const culturalValue = clampScore(['power-corruption', 'identity-self', 'freedom-security', 'redemption', 'love-connection'].includes(options.profile.themeTopic) ? 78 : 62);
@@ -131,6 +149,8 @@ export async function runValidationSuite(input = {}) {
     VAD_score,
     TOP_score,
     PRC: placeholderScore,
+    RPA,
+    DSI,
     SFSG,
     CCI,
     CAD_score,
@@ -274,7 +294,8 @@ function inspectEdition(entry) {
     check('placeholder residue', !html.includes('{{')),
     check('external css', !/<link\b/i.test(html)),
     check('external images', !/<img\b/i.test(html)),
-    check('runtime scripts', !/<script(?![^>]*application\/json)/i.test(html))
+    check('runtime scripts', !/<script(?![^>]*application\/json)/i.test(html)),
+    check('hidden technical telemetry', !/Generated with|Generat cu|Translation instruction|Instructiune de traducere|Chunked translation renderer|Renderer cu traducere pe bucati|SCRIPTA Translation Skill|SCRIPTA BookWriter/.test(visibleHtml))
   ];
 
   if (languageCode === 'ro') {
@@ -338,7 +359,8 @@ function buildStageAudit({
     stageResult('drafts', [
       check('draft count matches requested chapter count', drafts.length === options.chapterCount),
       check('chapter drafts preserve refined chapter state fields', refinedPlans.every((entry) => entry.content.includes('input-state:') && entry.content.includes('output-state:'))),
-      check('drafts are not trivially short', drafts.every((draft) => countWords(draft.content) >= 120))
+      check('drafts are not trivially short', drafts.every((draft) => countWords(draft.content) >= 120)),
+      check('drafts embed hidden draft payloads', drafts.every((draft) => /<!-- scripta-draft-data/.test(draft.content)))
     ]),
     stageResult('exports', [
       check('all requested language editions exist', exportAudit.summary.missingLanguages.length === 0),
@@ -407,6 +429,26 @@ function buildRevisionTasks({ options, metrics, issues, stageAudit }) {
       title: 'Improve final prose polish',
       action: 'Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.',
       evidence: `NQS=${metrics.NQS}`
+    });
+  }
+
+  if (metrics.RPA < 92) {
+    pushTask({
+      priority: 'high',
+      stage: 'chapgen',
+      title: 'Reduce repeated scene scaffolds',
+      action: 'Vary scene progression and sentence kernels so chapters stop recycling the same narrative scaffolds.',
+      evidence: `RPA=${metrics.RPA}`
+    });
+  }
+
+  if (metrics.DSI < 95) {
+    pushTask({
+      priority: 'high',
+      stage: 'bookwriter',
+      title: 'Remove leaked draft scaffolding',
+      action: 'Eliminate visible drafting formulas, dialogue placeholders, and technical labels from draft and export surfaces.',
+      evidence: `DSI=${metrics.DSI}`
     });
   }
 
@@ -511,6 +553,84 @@ function detectOverlap(content) {
   }
 
   return matches;
+}
+
+function detectRepeatedScaffolds(draft) {
+  const paragraphs = splitParagraphs(draft.content);
+  const chapter = draft.artifact.baseName;
+  const seen = new Map();
+  const matches = [];
+
+  for (let index = 0; index < paragraphs.length; index += 1) {
+    const normalized = normalizeScaffoldSentence(paragraphs[index]);
+    if (!normalized || normalized.split(' ').length < 7) {
+      continue;
+    }
+
+    if (seen.has(normalized)) {
+      matches.push({
+        chapter,
+        paragraph: index + 1,
+        phrase: normalized
+      });
+      continue;
+    }
+
+    seen.set(normalized, index + 1);
+  }
+
+  return matches;
+}
+
+function detectDraftSurfaceLeaks(draft) {
+  const paragraphs = splitParagraphs(draft.content);
+  const chapter = draft.artifact.baseName;
+  const matches = [];
+  const leakPatterns = [
+    /a hint for the dialogue line/i,
+    /\bthe immediate result is\b/i,
+    /\bthe central question here is\b/i,
+    /\bby the end of (?:the )?chapter\b/i,
+    /\bhow this scene opens\b/i,
+    /\bhow this scene develops\b/i,
+    /\bwhat the protagonist tries to accomplish\b/i,
+    /\bwhat prevents easy success\b/i,
+    /\bwhat triggers this event\b/i
+  ];
+
+  for (let index = 0; index < paragraphs.length; index += 1) {
+    const paragraph = paragraphs[index];
+    const pattern = leakPatterns.find((entry) => entry.test(paragraph));
+    if (pattern) {
+      matches.push({
+        chapter,
+        paragraph: index + 1,
+        message: `Draft scaffold leaked into visible prose: "${paragraph}".`
+      });
+    }
+  }
+
+  if (!/<!-- scripta-draft-data/.test(draft.content)) {
+    matches.push({
+      chapter,
+      paragraph: null,
+      message: 'Draft artifact is missing the hidden draft payload marker.'
+    });
+  }
+
+  return matches;
+}
+
+function normalizeScaffoldSentence(value) {
+  return String(value ?? '')
+    .toLowerCase()
+    .replace(/<!--[\s\S]*?-->/g, '')
+    .replace(/^#+\s+/gm, '')
+    .replace(/"[^"]+"/g, '"quote"')
+    .replace(/\b[a-z]+-\d+\b/g, 'token')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .replace(/[.?!]+$/g, '');
 }
 
 function locateParagraph(paragraphs, token) {

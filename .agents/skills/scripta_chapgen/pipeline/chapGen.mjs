@@ -97,23 +97,23 @@ function buildDraftText({ chapterId, chapterObject, microBlocks, macroText, macr
     chapterRole: resolvedChapterObject['chapter-role'] ?? 'bridge',
     protagonist,
     counterpart,
-    inputState: sentenceCase(resolvedChapterObject['input-state']),
-    outputState: sentenceCase(resolvedChapterObject['output-state']),
-    thematicFocus: sentenceCase(resolvedChapterObject['thematic-focus']),
-    chapterQuestion: sentenceCase(resolvedChapterObject['chapter-question']),
-    answerShift: sentenceCase(resolvedChapterObject['answer-shift']),
+    inputState: readableValue(resolvedChapterObject['input-state']),
+    outputState: readableValue(resolvedChapterObject['output-state']),
+    thematicFocus: readableValue(resolvedChapterObject['thematic-focus']),
+    chapterQuestion: readableValue(resolvedChapterObject['chapter-question']),
+    answerShift: readableValue(resolvedChapterObject['answer-shift']),
     macroEcho: sentenceCase(firstSentence(macroText)),
-    suspense: sentenceCase(resolveText(getFieldValue(suspenseBlock, 'uncertainty') ?? '')),
-    sensoryAnchor: sentenceCase(resolveText(getFieldValue(locationBlock, 'sensory-anchor') ?? '')),
-    socialSignal: sentenceCase(resolveText(getFieldValue(locationBlock, 'social-signal') ?? '')),
-    symbolicCharge: sentenceCase(resolveText(getFieldValue(locationBlock, 'symbolic-charge') ?? '')),
-    conflictUse: sentenceCase(resolveText(getFieldValue(locationBlock, 'conflict-use') ?? '')),
-    visibleSymptom: sentenceCase(resolveText(getFieldValue(rulePressureBlock, 'visible-symptom') ?? '')),
-    actionLimitation: sentenceCase(resolveText(getFieldValue(rulePressureBlock, 'action-limitation') ?? '')),
-    protagonistBelief: sentenceCase(resolveText(getFieldValue(protagonistArcBlock, 'entry-belief') ?? '')),
-    protagonistExitBelief: sentenceCase(resolveText(getFieldValue(protagonistArcBlock, 'exit-belief') ?? '')),
-    relationshipEntry: sentenceCase(resolveText(getFieldValue(relationshipArcBlock, 'entry-dynamic') ?? '')),
-    relationshipExit: sentenceCase(resolveText(getFieldValue(relationshipArcBlock, 'exit-dynamic') ?? '')),
+    suspense: readableValue(resolveText(getFieldValue(suspenseBlock, 'uncertainty') ?? '')),
+    sensoryAnchor: readableValue(resolveText(getFieldValue(locationBlock, 'sensory-anchor') ?? '')),
+    socialSignal: readableValue(resolveText(getFieldValue(locationBlock, 'social-signal') ?? '')),
+    symbolicCharge: readableValue(resolveText(getFieldValue(locationBlock, 'symbolic-charge') ?? '')),
+    conflictUse: readableValue(resolveText(getFieldValue(locationBlock, 'conflict-use') ?? '')),
+    visibleSymptom: readableValue(resolveText(getFieldValue(rulePressureBlock, 'visible-symptom') ?? '')),
+    actionLimitation: readableValue(resolveText(getFieldValue(rulePressureBlock, 'action-limitation') ?? '')),
+    protagonistBelief: readableValue(resolveText(getFieldValue(protagonistArcBlock, 'entry-belief') ?? '')),
+    protagonistExitBelief: readableValue(resolveText(getFieldValue(protagonistArcBlock, 'exit-belief') ?? '')),
+    relationshipEntry: readableValue(resolveText(getFieldValue(relationshipArcBlock, 'entry-dynamic') ?? '')),
+    relationshipExit: readableValue(resolveText(getFieldValue(relationshipArcBlock, 'exit-dynamic') ?? '')),
     scenes: []
   };
 
@@ -149,28 +149,28 @@ function buildDraftText({ chapterId, chapterObject, microBlocks, macroText, macr
     return {
       sceneId: sceneBlock.identifier,
       index,
-      location: sentenceCase(scene['time-space']),
-      anchorObject: sentenceCase(scene['anchor-object']),
-      supportFocus: sentenceCase(supportFocus),
+      location: readableValue(scene['time-space']),
+      anchorObject: readableValue(scene['anchor-object']),
+      supportFocus: readableValue(supportFocus),
       participants,
       focusCharacter,
       supportCharacter,
       pressureFigure,
-      carriedPressure: sentenceCase(previousScene?.stateChange ?? resolvedChapterObject['input-state']),
-      introduction: sentenceCase(scene.introduction),
-      development: sentenceCase(scene.development),
-      conflict: sentenceCase(scene.conflict),
-      resolution: sentenceCase(scene.resolution),
-      exit: sentenceCase(scene.exit),
-      stateChange: sentenceCase(scene['state-change']),
-      goal: sentenceCase(action.goal),
-      obstacle: sentenceCase(action.obstacle),
-      result: sentenceCase(action.result),
-      stakes: sentenceCase(conflict.stakes),
-      escalation: sentenceCase(conflict.escalation),
-      trigger: sentenceCase(event.trigger),
-      impact: sentenceCase(event.impact),
-      followThrough: sentenceCase(event['follow-through']),
+      carriedPressure: readableValue(previousScene?.stateChange ?? resolvedChapterObject['input-state']),
+      introduction: readableValue(scene.introduction),
+      development: readableValue(scene.development),
+      conflict: readableValue(scene.conflict),
+      resolution: readableValue(scene.resolution),
+      exit: readableValue(scene.exit),
+      stateChange: readableValue(scene['state-change']),
+      goal: readableValue(action.goal),
+      obstacle: readableValue(action.obstacle),
+      result: readableValue(action.result),
+      stakes: readableValue(conflict.stakes),
+      escalation: readableValue(conflict.escalation),
+      trigger: readableValue(event.trigger),
+      impact: readableValue(event.impact),
+      followThrough: readableValue(event['follow-through']),
       dialogueTurns
     };
   });
@@ -448,6 +448,11 @@ function sentenceCase(value) {
   return text ? text.charAt(0).toUpperCase() + text.slice(1) : text;
 }
 
+function readableValue(value) {
+  const text = normalizeFragment(value);
+  return isGenericScaffold(text) ? '' : sentenceCase(text);
+}
+
 function clause(value) {
   const text = normalizeFragment(value);
   return text ? text.charAt(0).toLowerCase() + text.slice(1) : text;
@@ -466,6 +471,10 @@ function normalizeFragment(value) {
     .replace(/\s+/g, ' ')
     .trim()
     .replace(/[.?!]+$/g, '');
+}
+
+function isGenericScaffold(value) {
+  return /^(how this scene opens|how this scene develops|how this scene resolves|how this scene changes the story state|what the protagonist tries to accomplish|what prevents easy success|what is at stake in this conflict|what triggers this event|the impact of this event|how the world rule limits what characters can do|how the world rule becomes visible to characters|the question this chapter asks)$/i.test(String(value ?? '').trim());
 }
 
 function stripTerminalPunctuation(value) {

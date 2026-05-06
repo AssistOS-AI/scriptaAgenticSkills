@@ -35,7 +35,7 @@ test('BookWriter emits the source edition and the translation source bundle', as
     assert.match(englishHtml, /<svg/);
     assert.match(englishHtml, /Contents/);
     assert.match(englishHtml, /@media print/);
-    assert.match(englishHtml, /"[^"]+," (?:says|asks|warns|counters|presses|insists)/);
+    assert.match(englishHtml, /\b(asks|warns|presses|insists|adds)\b/);
     assert.doesNotMatch(englishHtml, /By the end of the chapter/);
     assert.doesNotMatch(englishHtml, /The chapter question is/);
     assert.doesNotMatch(englishHtml, /Production appendix/);

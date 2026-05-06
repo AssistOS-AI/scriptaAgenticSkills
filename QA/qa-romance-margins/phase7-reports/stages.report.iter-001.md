@@ -35,6 +35,7 @@
 - [pass] draft count matches requested chapter count
 - [pass] chapter drafts preserve refined chapter state fields
 - [pass] drafts are not trivially short
+- [pass] drafts embed hidden draft payloads
 
 ## exports
 - Score: 100%

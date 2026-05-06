@@ -3,11 +3,11 @@
 One-line summary for each canonical QA book run.
 
 ## Books
-- qa-detective-river (detective-police) — NQS 87% · CS 93% · CAR 99%
+- qa-detective-river (detective-police) — NQS 84% · CS 89% · CAR 99%
 - qa-drama-silence (drama) — NQS 87% · CS 93% · CAR 99%
-- qa-fantasy-ash (fantasy) — NQS 87% · CS 93% · CAR 99%
-- qa-romance-margins (romance-relational) — NQS 87% · CS 93% · CAR 99%
-- qa-scifi-orbit (science-fiction) — NQS 87% · CS 93% · CAR 99%
+- qa-fantasy-ash (fantasy) — NQS 85% · CS 92% · CAR 99%
+- qa-romance-margins (romance-relational) — NQS 85% · CS 92% · CAR 99%
+- qa-scifi-orbit (science-fiction) — NQS 82% · CS 89% · CAR 99%
 
 <!-- scripta-data
 {
@@ -17,19 +17,21 @@ One-line summary for each canonical QA book run.
       "profile": "detective-police",
       "workspaceRoot": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-detective-river",
       "metrics": {
-        "OI": 66,
+        "OI": 65,
         "NCS": 100,
         "BCI": 96,
         "VAD_score": 100,
         "TOP_score": 100,
         "PRC": 100,
+        "RPA": 100,
+        "DSI": 100,
         "SFSG": 95,
         "CCI": 94,
         "CAD_score": 88,
-        "EAP": 92,
+        "EAP": 76,
         "CAR": 99,
-        "CS": 93,
-        "NQS": 87
+        "CS": 89,
+        "NQS": 84
       },
       "exportAudit": {
         "score": 100,
@@ -153,6 +155,10 @@ One-line summary for each canonical QA book run.
             {
               "name": "drafts are not trivially short",
               "pass": true
+            },
+            {
+              "name": "drafts embed hidden draft payloads",
+              "pass": true
             }
           ]
         },
@@ -179,10 +185,18 @@ One-line summary for each canonical QA book run.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=66"
+          "evidence": "OI=65"
         },
         {
           "id": "task-002",
+          "priority": "medium",
+          "stage": "drafts",
+          "title": "Sharpen emotional progression",
+          "action": "Strengthen chapter-to-chapter emotional contrast so the emotional arc is easier to perceive in the final manuscript.",
+          "evidence": "EAP=76"
+        },
+        {
+          "id": "task-003",
           "priority": "medium",
           "stage": "cnl",
           "title": "Reinforce character continuity",
@@ -190,12 +204,12 @@ One-line summary for each canonical QA book run.
           "evidence": "CAD_score=88"
         },
         {
-          "id": "task-003",
+          "id": "task-004",
           "priority": "high",
           "stage": "bookwriter",
           "title": "Improve final prose polish",
           "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-          "evidence": "NQS=87"
+          "evidence": "NQS=84"
         }
       ],
       "publishedEditions": [
@@ -208,11 +222,11 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/en/qa-detective-river.html",
           "metricsPage": "books/metrics/qa-detective-river.html",
           "metricsSnapshot": {
-            "NQS": 87,
-            "CS": 93,
+            "NQS": 84,
+            "CS": 89,
             "CAR": 99,
-            "OI": 66,
-            "EAP": 92
+            "OI": 65,
+            "EAP": 76
           }
         },
         {
@@ -224,11 +238,11 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/ro/qa-detective-river.html",
           "metricsPage": "books/metrics/qa-detective-river.html",
           "metricsSnapshot": {
-            "NQS": 87,
-            "CS": 93,
+            "NQS": 84,
+            "CS": 89,
             "CAR": 99,
-            "OI": 66,
-            "EAP": 92
+            "OI": 65,
+            "EAP": 76
           }
         }
       ],
@@ -239,12 +253,14 @@ One-line summary for each canonical QA book run.
       "profile": "drama",
       "workspaceRoot": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-drama-silence",
       "metrics": {
-        "OI": 66,
+        "OI": 65,
         "NCS": 100,
         "BCI": 96,
         "VAD_score": 100,
         "TOP_score": 100,
         "PRC": 100,
+        "RPA": 100,
+        "DSI": 100,
         "SFSG": 95,
         "CCI": 94,
         "CAD_score": 88,
@@ -375,6 +391,10 @@ One-line summary for each canonical QA book run.
             {
               "name": "drafts are not trivially short",
               "pass": true
+            },
+            {
+              "name": "drafts embed hidden draft payloads",
+              "pass": true
             }
           ]
         },
@@ -401,7 +421,7 @@ One-line summary for each canonical QA book run.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=66"
+          "evidence": "OI=65"
         },
         {
           "id": "task-002",
@@ -433,7 +453,7 @@ One-line summary for each canonical QA book run.
             "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 66,
+            "OI": 65,
             "EAP": 92
           }
         },
@@ -449,7 +469,7 @@ One-line summary for each canonical QA book run.
             "NQS": 87,
             "CS": 93,
             "CAR": 99,
-            "OI": 66,
+            "OI": 65,
             "EAP": 92
           }
         }
@@ -461,19 +481,21 @@ One-line summary for each canonical QA book run.
       "profile": "fantasy",
       "workspaceRoot": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-fantasy-ash",
       "metrics": {
-        "OI": 66,
+        "OI": 65,
         "NCS": 100,
         "BCI": 96,
         "VAD_score": 100,
         "TOP_score": 100,
         "PRC": 100,
+        "RPA": 100,
+        "DSI": 100,
         "SFSG": 95,
         "CCI": 94,
         "CAD_score": 88,
-        "EAP": 92,
+        "EAP": 88,
         "CAR": 99,
-        "CS": 93,
-        "NQS": 87
+        "CS": 92,
+        "NQS": 85
       },
       "exportAudit": {
         "score": 100,
@@ -597,6 +619,10 @@ One-line summary for each canonical QA book run.
             {
               "name": "drafts are not trivially short",
               "pass": true
+            },
+            {
+              "name": "drafts embed hidden draft payloads",
+              "pass": true
             }
           ]
         },
@@ -623,7 +649,7 @@ One-line summary for each canonical QA book run.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=66"
+          "evidence": "OI=65"
         },
         {
           "id": "task-002",
@@ -639,7 +665,7 @@ One-line summary for each canonical QA book run.
           "stage": "bookwriter",
           "title": "Improve final prose polish",
           "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-          "evidence": "NQS=87"
+          "evidence": "NQS=85"
         }
       ],
       "publishedEditions": [
@@ -652,11 +678,11 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/en/qa-fantasy-ash.html",
           "metricsPage": "books/metrics/qa-fantasy-ash.html",
           "metricsSnapshot": {
-            "NQS": 87,
-            "CS": 93,
+            "NQS": 85,
+            "CS": 92,
             "CAR": 99,
-            "OI": 66,
-            "EAP": 92
+            "OI": 65,
+            "EAP": 88
           }
         },
         {
@@ -668,11 +694,11 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/ro/qa-fantasy-ash.html",
           "metricsPage": "books/metrics/qa-fantasy-ash.html",
           "metricsSnapshot": {
-            "NQS": 87,
-            "CS": 93,
+            "NQS": 85,
+            "CS": 92,
             "CAR": 99,
-            "OI": 66,
-            "EAP": 92
+            "OI": 65,
+            "EAP": 88
           }
         }
       ],
@@ -683,19 +709,21 @@ One-line summary for each canonical QA book run.
       "profile": "romance-relational",
       "workspaceRoot": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-romance-margins",
       "metrics": {
-        "OI": 66,
+        "OI": 65,
         "NCS": 100,
         "BCI": 96,
         "VAD_score": 100,
         "TOP_score": 100,
         "PRC": 100,
+        "RPA": 100,
+        "DSI": 100,
         "SFSG": 95,
         "CCI": 94,
         "CAD_score": 88,
-        "EAP": 92,
+        "EAP": 90,
         "CAR": 99,
-        "CS": 93,
-        "NQS": 87
+        "CS": 92,
+        "NQS": 85
       },
       "exportAudit": {
         "score": 100,
@@ -819,6 +847,10 @@ One-line summary for each canonical QA book run.
             {
               "name": "drafts are not trivially short",
               "pass": true
+            },
+            {
+              "name": "drafts embed hidden draft payloads",
+              "pass": true
             }
           ]
         },
@@ -845,7 +877,7 @@ One-line summary for each canonical QA book run.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=66"
+          "evidence": "OI=65"
         },
         {
           "id": "task-002",
@@ -861,7 +893,7 @@ One-line summary for each canonical QA book run.
           "stage": "bookwriter",
           "title": "Improve final prose polish",
           "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-          "evidence": "NQS=87"
+          "evidence": "NQS=85"
         }
       ],
       "publishedEditions": [
@@ -874,11 +906,11 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/en/qa-romance-margins.html",
           "metricsPage": "books/metrics/qa-romance-margins.html",
           "metricsSnapshot": {
-            "NQS": 87,
-            "CS": 93,
+            "NQS": 85,
+            "CS": 92,
             "CAR": 99,
-            "OI": 66,
-            "EAP": 92
+            "OI": 65,
+            "EAP": 90
           }
         },
         {
@@ -890,11 +922,11 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/ro/qa-romance-margins.html",
           "metricsPage": "books/metrics/qa-romance-margins.html",
           "metricsSnapshot": {
-            "NQS": 87,
-            "CS": 93,
+            "NQS": 85,
+            "CS": 92,
             "CAR": 99,
-            "OI": 66,
-            "EAP": 92
+            "OI": 65,
+            "EAP": 90
           }
         }
       ],
@@ -905,19 +937,21 @@ One-line summary for each canonical QA book run.
       "profile": "science-fiction",
       "workspaceRoot": "/home/salboaie/work/scriptaAgenticSkills/QA/qa-scifi-orbit",
       "metrics": {
-        "OI": 66,
+        "OI": 65,
         "NCS": 100,
         "BCI": 96,
         "VAD_score": 100,
         "TOP_score": 100,
         "PRC": 100,
+        "RPA": 100,
+        "DSI": 100,
         "SFSG": 95,
         "CCI": 94,
         "CAD_score": 88,
-        "EAP": 92,
+        "EAP": 76,
         "CAR": 99,
-        "CS": 93,
-        "NQS": 87
+        "CS": 89,
+        "NQS": 82
       },
       "exportAudit": {
         "score": 100,
@@ -1041,6 +1075,10 @@ One-line summary for each canonical QA book run.
             {
               "name": "drafts are not trivially short",
               "pass": true
+            },
+            {
+              "name": "drafts embed hidden draft payloads",
+              "pass": true
             }
           ]
         },
@@ -1067,10 +1105,18 @@ One-line summary for each canonical QA book run.
           "stage": "micro",
           "title": "Increase lexical novelty",
           "action": "Diversify scene-level action and trigger phrasing so the originality index rises without weakening continuity.",
-          "evidence": "OI=66"
+          "evidence": "OI=65"
         },
         {
           "id": "task-002",
+          "priority": "medium",
+          "stage": "drafts",
+          "title": "Sharpen emotional progression",
+          "action": "Strengthen chapter-to-chapter emotional contrast so the emotional arc is easier to perceive in the final manuscript.",
+          "evidence": "EAP=76"
+        },
+        {
+          "id": "task-003",
           "priority": "medium",
           "stage": "cnl",
           "title": "Reinforce character continuity",
@@ -1078,12 +1124,12 @@ One-line summary for each canonical QA book run.
           "evidence": "CAD_score=88"
         },
         {
-          "id": "task-003",
+          "id": "task-004",
           "priority": "high",
           "stage": "bookwriter",
           "title": "Improve final prose polish",
           "action": "Tighten repeated formulations and deepen scene-specific language in the final edition so the narrative quality score moves above the current band.",
-          "evidence": "NQS=87"
+          "evidence": "NQS=82"
         }
       ],
       "publishedEditions": [
@@ -1096,11 +1142,11 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/en/qa-scifi-orbit.html",
           "metricsPage": "books/metrics/qa-scifi-orbit.html",
           "metricsSnapshot": {
-            "NQS": 87,
-            "CS": 93,
+            "NQS": 82,
+            "CS": 89,
             "CAR": 99,
-            "OI": 66,
-            "EAP": 92
+            "OI": 65,
+            "EAP": 76
           }
         },
         {
@@ -1112,11 +1158,11 @@ One-line summary for each canonical QA book run.
           "publishedPath": "books/ro/qa-scifi-orbit.html",
           "metricsPage": "books/metrics/qa-scifi-orbit.html",
           "metricsSnapshot": {
-            "NQS": 87,
-            "CS": 93,
+            "NQS": 82,
+            "CS": 89,
             "CAR": 99,
-            "OI": 66,
-            "EAP": 92
+            "OI": 65,
+            "EAP": 76
           }
         }
       ],

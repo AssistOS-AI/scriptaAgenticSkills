@@ -1,47 +1,417 @@
 # Chapter 011
 
-Leora Kestrel enters Ink Room Mezzanine while on launch night, Leora inserts the once-abandoned dedication page back into the finished edition. In this romance / relational chapter, culmination movement anchored by launch with the unfinished dedication, so choices around love-connection under transformation pressure carry fear and relief. Talia Voss keeps searching for a path toward relief, while Owen Crest works to keep the conflict inside a safer official story. The central question here is leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability. The conflict thread is leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability. The working space is anchored by ink oil, paper dust, hot metal type, winter air trapped in skylight glass and keeps a place where touch leaves visible marks and every correction shows in view. The governing constraint is still active: leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure. At the start, Leora Kestrel believes competence is safer than emotional dependence at the start of the culmination chapter. Its rhythm leans on dialogue-description-interior-monologue-action-pause-dialogue-cliffhanger.
+Leora Kestrel steps into ink Room Mezzanine carrying on launch night, Leora inserts the once-abandoned dedication page back into the finished edition. Ink oil, paper dust, hot metal type, winter air trapped in skylight glass hangs over the room before anyone speaks. Work replaces confession here because every surface carries the memory of collaboration keeps trying to pass for order. Owen Crest reads the first disturbance faster than the rest of the room. Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability is no longer theoretical once the first exchange begins to tilt.
 
-Routine offers cover, but not safety. No one can leave this moment unchanged. On launch night, Leora inserts the once-abandoned dedication page back into the finished edition. Leora Kestrel tries to finish the commission without sacrificing the truth that now gives it meaning, but public celebration offers an easy way to hide inside performance instead of confession. Talia sees the page only after the first public copy is opened in front of the crowd. Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability. Owen Crest senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When the dedication names the year Talia left and the future Leora still wants, the local pressure tips from fear toward relief. She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view. The unresolved line remains active through the launch becomes confession as much as success, which keeps fear and anticipation braided together. The immediate result is their bond shifts from guarded usefulness to acknowledged reciprocity.
+After on launch night, Leora inserts the once-abandoned dedication page back into the finished edition, Leora Kestrel moves first. On launch night, Leora inserts the once-abandoned dedication page back into the finished edition. Talia sees the page only after the first public copy is opened in front of the crowd. Leora Kestrel wants to finish the commission without sacrificing the truth that now gives it meaning. but public celebration offers an easy way to hide inside performance instead of confession keeps folding the scene back toward danger.
 
-They keep the talk practical even while tender hesitation keeps undoing the surface. Subtext matters as much as the explicit claim. Leora Kestrel, Talia Voss, Owen Crest, Juniper Hale keep circling leora Kestrel and Leora Kestrel keep circling the truth they cannot safely name yet. "A hint for the dialogue line" Owen Crest says. The question lands harder than either speaker planned. "Finish the commission without sacrificing the truth that now gives it meaning" Leora Kestrel replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Juniper Hale adds. Naming the risk turns pressure into irreversible commitment. "Public celebration offers an easy way to hide inside performance instead of confession" Cassia Mercer says. The evasion makes the silence more visible than the answer would have.
+Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability. Leora and Talia cannot protect the studio without working inside the same room and the same deadline pressure turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and public celebration offers an easy way to hide inside performance instead of confession.
+"If the dedication names the year Talia left and the future Leora still wants, who decided the station was allowed to forget it," asks Owen Crest. The question lands harder than either speaker planned. Leora Kestrel insists, "Then we keep finish the commission without sacrificing the truth that now gives it meaning alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again," adds Juniper Hale. Naming the risk turns pressure into irreversible commitment. Cassia Mercer adds, "Public celebration offers an easy way to hide inside performance instead of confession." The evasion makes the silence more visible than the answer would have.
 
-The first deceleration is deliberate: their bond shifts from guarded usefulness to acknowledged reciprocity.
+The dedication names the year Talia left and the future Leora still wants lands with more force than the room can absorb politely. The launch becomes confession as much as success. She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view. Their bond shifts from guarded usefulness to acknowledged reciprocity and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-Practical collaboration starts exposing what private caution cannot hide. No one can leave this moment unchanged. Talia sees the page only after the first public copy is opened in front of the crowd. Leora Kestrel tries to the partnership survives because honesty finally becomes part of the work, but leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability. Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability. Public celebration offers an easy way to hide inside performance instead of confession. Owen Crest senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When launch with the unfinished dedication, the local pressure tips from fear toward relief. The partnership survives because honesty finally becomes part of the work. The unresolved line remains active through the launch becomes confession as much as success, which keeps fear and anticipation braided together. The immediate result is the partnership survives because honesty finally becomes part of the work.
+At riverside Binding Loft, Leora Kestrel has no room left for delay. Talia sees the page only after the first public copy is opened in front of the crowd. Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability. Leora Kestrel wants to the partnership survives because honesty finally becomes part of the work. but leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Juniper Hale says. The question lands harder than either speaker planned. "The partnership survives because honesty finally becomes part of the work" Leora Kestrel replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Imogen Pike adds. The warning narrows what can still be done safely. "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability" Cassia Mercer says. The evasion makes the silence more visible than the answer would have.
+Public celebration offers an easy way to hide inside performance instead of confession. Launch with the unfinished dedication turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and public celebration offers an easy way to hide inside performance instead of confession.
+"If launch with the unfinished dedication, who decided the station was allowed to forget it," asks Juniper Hale. The question lands harder than either speaker planned. Leora Kestrel insists, "Then we keep the partnership survives because honesty finally becomes part of the work alive long enough to make it count." The promise raises the stakes for the next exchange. "If leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability, the room will close around us before anyone else sees the truth," warns Imogen Pike. The warning narrows what can still be done safely. Cassia Mercer adds, "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability." The evasion makes the silence more visible than the answer would have.
 
-Tenderness appears in the same breath as fresh defensiveness. No one can leave this moment unchanged. The dedication names the year Talia left and the future Leora still wants. Leora Kestrel tries to launch with the unfinished dedication, but the dedication names the year Talia left and the future Leora still wants. The launch becomes confession as much as success. The launch becomes confession as much as success. Owen Crest senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When talia sees the page only after the first public copy is opened in front of the crowd, the local pressure tips from fear toward relief. Their bond shifts from guarded usefulness to acknowledged reciprocity. The unresolved line remains active through the launch becomes confession as much as success, which keeps fear and anticipation braided together. The immediate result is she tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view.
+Launch with the unfinished dedication lands with more force than the room can absorb politely. Their bond shifts from guarded usefulness to acknowledged reciprocity. The partnership survives because honesty finally becomes part of the work. The partnership survives because honesty finally becomes part of the work and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
- "A hint for the dialogue line" Imogen Pike says. The question lands harder than either speaker planned. "Launch with the unfinished dedication" Leora Kestrel replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Owen Crest adds. Naming the risk turns pressure into irreversible commitment. "The dedication names the year Talia left and the future Leora still wants" Cassia Mercer says. The evasion makes the silence more visible than the answer would have.
+Leora Kestrel reaches for the doubled-margin proof set before the room can decide who is allowed to touch it. The dedication names the year Talia left and the future Leora still wants. The launch becomes confession as much as success. Leora Kestrel wants to launch with the unfinished dedication. but the dedication names the year Talia left and the future Leora still wants keeps folding the scene back toward danger.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and public celebration offers an easy way to hide inside performance instead of confession.
+The launch becomes confession as much as success. Talia sees the page only after the first public copy is opened in front of the crowd turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
 
-Routine offers cover, but not safety. No one can leave this moment unchanged. She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view. Leora Kestrel tries to she tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view, but the launch becomes confession as much as success. Finish the commission without sacrificing the truth that now gives it meaning. Finish the commission without sacrificing the truth that now gives it meaning. Owen Crest senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When on launch night, Leora inserts the once-abandoned dedication page back into the finished edition, the local pressure tips from fear toward relief. The launch becomes confession as much as success. The unresolved line remains active through the launch becomes confession as much as success, which keeps fear and anticipation braided together. The immediate result is the launch becomes confession as much as success.
+"If talia sees the page only after the first public copy is opened in front of the crowd, who decided the station was allowed to forget it," asks Imogen Pike. The question lands harder than either speaker planned. Leora Kestrel insists, "Then we keep launch with the unfinished dedication alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again," adds Owen Crest. Naming the risk turns pressure into irreversible commitment. Cassia Mercer adds, "The dedication names the year Talia left and the future Leora still wants." The evasion makes the silence more visible than the answer would have.
 
- "A hint for the dialogue line" Owen Crest says. The question lands harder than either speaker planned. "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view" Leora Kestrel replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Juniper Hale adds. The warning narrows what can still be done safely. "The launch becomes confession as much as success" Cassia Mercer says. The evasion makes the silence more visible than the answer would have.
+Talia sees the page only after the first public copy is opened in front of the crowd lands with more force than the room can absorb politely. The partnership survives because honesty finally becomes part of the work. Their bond shifts from guarded usefulness to acknowledged reciprocity. She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and public celebration offers an easy way to hide inside performance instead of confession.
+What begins in ink Room Mezzanine stops looking procedural the moment she tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view. She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view. Finish the commission without sacrificing the truth that now gives it meaning. Leora Kestrel wants to she tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view. but the launch becomes confession as much as success keeps folding the scene back toward danger.
 
-Practical collaboration starts exposing what private caution cannot hide. No one can leave this moment unchanged. Launch with the unfinished dedication. Leora Kestrel tries to on launch night, Leora inserts the once-abandoned dedication page back into the finished edition, but talia sees the page only after the first public copy is opened in front of the crowd. The partnership survives because honesty finally becomes part of the work. The dedication names the year Talia left and the future Leora still wants. Owen Crest senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When public celebration offers an easy way to hide inside performance instead of confession, the local pressure tips from fear toward relief. Talia sees the page only after the first public copy is opened in front of the crowd. The unresolved line remains active through the launch becomes confession as much as success, which keeps fear and anticipation braided together. The immediate result is leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
+Finish the commission without sacrificing the truth that now gives it meaning. On launch night, Leora inserts the once-abandoned dedication page back into the finished edition turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
 
- "A hint for the dialogue line" Juniper Hale says. The question lands harder than either speaker planned. "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition" Leora Kestrel replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Imogen Pike adds. Naming the risk turns pressure into irreversible commitment. "Talia sees the page only after the first public copy is opened in front of the crowd" Cassia Mercer says. The evasion makes the silence more visible than the answer would have.
+"If on launch night, Leora inserts the once-abandoned dedication page back into the finished edition, who decided the station was allowed to forget it," asks Owen Crest. The question lands harder than either speaker planned. Leora Kestrel insists, "Then we keep she tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view alive long enough to make it count." The promise raises the stakes for the next exchange. "If the launch becomes confession as much as success, the room will close around us before anyone else sees the truth," warns Juniper Hale. The warning narrows what can still be done safely. Cassia Mercer adds, "The launch becomes confession as much as success." The evasion makes the silence more visible than the answer would have.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and public celebration offers an easy way to hide inside performance instead of confession.
+On launch night, Leora inserts the once-abandoned dedication page back into the finished edition lands with more force than the room can absorb politely. Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability. The launch becomes confession as much as success. The launch becomes confession as much as success and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-Tenderness appears in the same breath as fresh defensiveness. No one can leave this moment unchanged. On launch night, Leora inserts the once-abandoned dedication page back into the finished edition. Leora Kestrel tries to finish the commission without sacrificing the truth that now gives it meaning, but public celebration offers an easy way to hide inside performance instead of confession. Talia sees the page only after the first public copy is opened in front of the crowd. Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability. Owen Crest senses that the studio's survival, the commission that could define both careers, and the possibility of loving honestly again now hang inside the same exchange. The working space mirrors a place where touch leaves visible marks and every correction shows. When the dedication names the year Talia left and the future Leora still wants, the local pressure tips from fear toward relief. She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view. The unresolved line remains active through the launch becomes confession as much as success, which keeps fear and anticipation braided together. The immediate result is their bond shifts from guarded usefulness to acknowledged reciprocity.
+After on launch night, Leora inserts the once-abandoned dedication page back into the finished edition, Leora Kestrel moves first. Launch with the unfinished dedication. The partnership survives because honesty finally becomes part of the work. Leora Kestrel wants to on launch night, Leora inserts the once-abandoned dedication page back into the finished edition. but talia sees the page only after the first public copy is opened in front of the crowd keeps folding the scene back toward danger.
 
- "A hint for the dialogue line" Imogen Pike says. The question lands harder than either speaker planned. "Finish the commission without sacrificing the truth that now gives it meaning" Leora Kestrel replies. The promise raises the stakes for the next exchange. "A hint for the dialogue line" Owen Crest adds. The warning narrows what can still be done safely. "Public celebration offers an easy way to hide inside performance instead of confession" Cassia Mercer says. The evasion makes the silence more visible than the answer would have.
+The dedication names the year Talia left and the future Leora still wants. Public celebration offers an easy way to hide inside performance instead of confession turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
 
-At the level of place, work replaces confession here because every surface carries the memory of collaboration; routine tasks keep exposing the intimacy both women call professional. The chapter rule keeps shaping possibility: the most beautiful pages are the ones where old corrections remain faintly visible beneath the new work, and public celebration offers an easy way to hide inside performance instead of confession.
+"If public celebration offers an easy way to hide inside performance instead of confession, who decided the station was allowed to forget it," asks Juniper Hale. The question lands harder than either speaker planned. Leora Kestrel insists, "Then we keep on launch night, Leora inserts the once-abandoned dedication page back into the finished edition alive long enough to make it count." The promise raises the stakes for the next exchange. "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again," adds Imogen Pike. Naming the risk turns pressure into irreversible commitment. Cassia Mercer adds, "Talia sees the page only after the first public copy is opened in front of the crowd." The evasion makes the silence more visible than the answer would have.
 
-Then the pace compresses: the dedication names the year Talia left and the future Leora still wants.
+Public celebration offers an easy way to hide inside performance instead of confession lands with more force than the room can absorb politely. She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view. Talia sees the page only after the first public copy is opened in front of the crowd. Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability and the next movement starts before anyone can make it harmless again. The next scene begins before the pressure can settle.
 
-Leora Kestrel feels the launch becomes confession as much as success, a mix of fear and relief that will not settle into easy relief. The chapter therefore pushes the inner line from competence is safer than emotional dependence at the start of the culmination chapter toward shared risk creates a truer form of security than controlled distance after the culmination chapter.
+At the inherited letterpress studio on Brindle Lane, Leora Kestrel has no room left for delay. On launch night, Leora inserts the once-abandoned dedication page back into the finished edition. Talia sees the page only after the first public copy is opened in front of the crowd. Leora Kestrel wants to finish the commission without sacrificing the truth that now gives it meaning. but public celebration offers an easy way to hide inside performance instead of confession keeps folding the scene back toward danger.
 
-By the end of chapter-011, their bond shifts from guarded usefulness to acknowledged reciprocity. The chapter keeps faith with love-connection under transformation pressure while moving toward open-question, and it refuses relief without visible cost. Its answer shift is clear: the studio survives only if the people inside it stop pretending usefulness is neutral. Between Leora Kestrel and Talia Voss, the relational line moves from careful-cooperation-strained-by-withheld-history toward altered-but-legible-bond. The closing pressure is therefore both fear and relief, which keeps the next chapter morally and emotionally legible. Echoes from the macro promise remain visible: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?.
+Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability. The dedication names the year Talia left and the future Leora still wants turns hesitation into a deadline. The studio's survival, the commission that could define both careers, and the possibility of loving honestly again stop sounding abstract once leora Kestrel realizes who will be blamed first. The most beautiful pages are the ones where old corrections remain faintly visible beneath the new work stays visible in every small reaction around them.
+
+"If the dedication names the year Talia left and the future Leora still wants, who decided the station was allowed to forget it," asks Imogen Pike. The question lands harder than either speaker planned. Leora Kestrel insists, "Then we keep finish the commission without sacrificing the truth that now gives it meaning alive long enough to make it count." The promise raises the stakes for the next exchange. "If public celebration offers an easy way to hide inside performance instead of confession, the room will close around us before anyone else sees the truth," warns Owen Crest. The warning narrows what can still be done safely. Cassia Mercer adds, "Public celebration offers an easy way to hide inside performance instead of confession." The evasion makes the silence more visible than the answer would have.
+
+The dedication names the year Talia left and the future Leora still wants lands with more force than the room can absorb politely. The launch becomes confession as much as success. She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view. Leora Kestrel leaves the inherited letterpress studio on Brindle Lane without the shelter they had at the start. The chapter hands off to a sharper culmination consequence.
+
+Leora Kestrel carries their bond shifts from guarded usefulness to acknowledged reciprocity out of the inherited letterpress studio on Brindle Lane. The studio survives only if the people inside it stop pretending usefulness is neutral. Between Leora Kestrel and Talia Voss, the bond now looks closer to altered-but-legible-bond. Shared risk creates a truer form of security than controlled distance after the culmination chapter is no longer something Leora Kestrel can postpone. Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them.
+
+<!-- scripta-draft-data
+{
+  "version": 1,
+  "chapterId": "chapter-011",
+  "chapterNumber": "011",
+  "profileId": "romance-relational",
+  "protagonist": "Leora Kestrel",
+  "counterpart": "Talia Voss",
+  "chapterRole": "culmination",
+  "scenes": [
+    {
+      "sceneId": "scene-011-01",
+      "index": 0,
+      "location": "Ink Room Mezzanine",
+      "anchorObject": "The doubled-margin proof set",
+      "supportFocus": "Owen Crest",
+      "participants": [
+        "Leora Kestrel",
+        "Talia Voss",
+        "Owen Crest"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Owen Crest",
+      "pressureFigure": "Owen Crest",
+      "carriedPressure": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition",
+      "introduction": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition",
+      "development": "Talia sees the page only after the first public copy is opened in front of the crowd",
+      "conflict": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability",
+      "resolution": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Their bond shifts from guarded usefulness to acknowledged reciprocity",
+      "goal": "Finish the commission without sacrificing the truth that now gives it meaning",
+      "obstacle": "Public celebration offers an easy way to hide inside performance instead of confession",
+      "result": "Their bond shifts from guarded usefulness to acknowledged reciprocity",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "Talia sees the page only after the first public copy is opened in front of the crowd",
+      "trigger": "The dedication names the year Talia left and the future Leora still wants",
+      "impact": "The launch becomes confession as much as success",
+      "followThrough": "The partnership survives because honesty finally becomes part of the work",
+      "dialogueTurns": [
+        {
+          "speaker": "Owen Crest",
+          "verb": "asks",
+          "line": "If the dedication names the year Talia left and the future Leora still wants, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "insists",
+          "line": "Then we keep finish the commission without sacrificing the truth that now gives it meaning alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Juniper Hale",
+          "verb": "adds",
+          "line": "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "adds",
+          "line": "Public celebration offers an easy way to hide inside performance instead of confession",
+          "reaction": "The evasion makes the silence more visible than the answer would have."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-011-02",
+      "index": 1,
+      "location": "Riverside Binding Loft",
+      "anchorObject": "Letterpress Dedication Slip",
+      "supportFocus": "Juniper Hale",
+      "participants": [
+        "Leora Kestrel",
+        "Juniper Hale",
+        "Imogen Pike",
+        "Cassia Mercer"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Juniper Hale",
+      "pressureFigure": "Cassia Mercer",
+      "carriedPressure": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition",
+      "introduction": "Talia sees the page only after the first public copy is opened in front of the crowd",
+      "development": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability",
+      "conflict": "Public celebration offers an easy way to hide inside performance instead of confession",
+      "resolution": "The partnership survives because honesty finally becomes part of the work",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "The partnership survives because honesty finally becomes part of the work",
+      "goal": "The partnership survives because honesty finally becomes part of the work",
+      "obstacle": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability",
+      "result": "The partnership survives because honesty finally becomes part of the work",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability",
+      "trigger": "Launch with the unfinished dedication",
+      "impact": "Their bond shifts from guarded usefulness to acknowledged reciprocity",
+      "followThrough": "Their bond shifts from guarded usefulness to acknowledged reciprocity",
+      "dialogueTurns": [
+        {
+          "speaker": "Juniper Hale",
+          "verb": "asks",
+          "line": "If launch with the unfinished dedication, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "insists",
+          "line": "Then we keep the partnership survives because honesty finally becomes part of the work alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Imogen Pike",
+          "verb": "warns",
+          "line": "If leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "adds",
+          "line": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability",
+          "reaction": "The evasion makes the silence more visible than the answer would have."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-011-03",
+      "index": 2,
+      "location": "The inherited letterpress studio on Brindle Lane",
+      "anchorObject": "The doubled-margin proof set",
+      "supportFocus": "Imogen Pike",
+      "participants": [
+        "Leora Kestrel",
+        "Talia Voss",
+        "Imogen Pike"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Imogen Pike",
+      "pressureFigure": "Imogen Pike",
+      "carriedPressure": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition",
+      "introduction": "The dedication names the year Talia left and the future Leora still wants",
+      "development": "The launch becomes confession as much as success",
+      "conflict": "The launch becomes confession as much as success",
+      "resolution": "Their bond shifts from guarded usefulness to acknowledged reciprocity",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view",
+      "goal": "Launch with the unfinished dedication",
+      "obstacle": "The dedication names the year Talia left and the future Leora still wants",
+      "result": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "The launch becomes confession as much as success",
+      "trigger": "Talia sees the page only after the first public copy is opened in front of the crowd",
+      "impact": "The partnership survives because honesty finally becomes part of the work",
+      "followThrough": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view",
+      "dialogueTurns": [
+        {
+          "speaker": "Imogen Pike",
+          "verb": "asks",
+          "line": "If talia sees the page only after the first public copy is opened in front of the crowd, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "insists",
+          "line": "Then we keep launch with the unfinished dedication alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Owen Crest",
+          "verb": "adds",
+          "line": "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "adds",
+          "line": "The dedication names the year Talia left and the future Leora still wants",
+          "reaction": "The evasion makes the silence more visible than the answer would have."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-011-04",
+      "index": 3,
+      "location": "Ink Room Mezzanine",
+      "anchorObject": "Letterpress Dedication Slip",
+      "supportFocus": "Owen Crest",
+      "participants": [
+        "Leora Kestrel",
+        "Owen Crest",
+        "Juniper Hale"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Owen Crest",
+      "pressureFigure": "Juniper Hale",
+      "carriedPressure": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition",
+      "introduction": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view",
+      "development": "Finish the commission without sacrificing the truth that now gives it meaning",
+      "conflict": "Finish the commission without sacrificing the truth that now gives it meaning",
+      "resolution": "The launch becomes confession as much as success",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "The launch becomes confession as much as success",
+      "goal": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view",
+      "obstacle": "The launch becomes confession as much as success",
+      "result": "The launch becomes confession as much as success",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "Finish the commission without sacrificing the truth that now gives it meaning",
+      "trigger": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition",
+      "impact": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability",
+      "followThrough": "The launch becomes confession as much as success",
+      "dialogueTurns": [
+        {
+          "speaker": "Owen Crest",
+          "verb": "asks",
+          "line": "If on launch night, Leora inserts the once-abandoned dedication page back into the finished edition, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "insists",
+          "line": "Then we keep she tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Juniper Hale",
+          "verb": "warns",
+          "line": "If the launch becomes confession as much as success, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "adds",
+          "line": "The launch becomes confession as much as success",
+          "reaction": "The evasion makes the silence more visible than the answer would have."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-011-05",
+      "index": 4,
+      "location": "Riverside Binding Loft",
+      "anchorObject": "The doubled-margin proof set",
+      "supportFocus": "Juniper Hale",
+      "participants": [
+        "Leora Kestrel",
+        "Talia Voss",
+        "Juniper Hale",
+        "Cassia Mercer"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Juniper Hale",
+      "pressureFigure": "Cassia Mercer",
+      "carriedPressure": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition",
+      "introduction": "Launch with the unfinished dedication",
+      "development": "The partnership survives because honesty finally becomes part of the work",
+      "conflict": "The dedication names the year Talia left and the future Leora still wants",
+      "resolution": "Talia sees the page only after the first public copy is opened in front of the crowd",
+      "exit": "The next scene begins before the pressure can settle",
+      "stateChange": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability",
+      "goal": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition",
+      "obstacle": "Talia sees the page only after the first public copy is opened in front of the crowd",
+      "result": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "The partnership survives because honesty finally becomes part of the work",
+      "trigger": "Public celebration offers an easy way to hide inside performance instead of confession",
+      "impact": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view",
+      "followThrough": "Finish the commission without sacrificing the truth that now gives it meaning",
+      "dialogueTurns": [
+        {
+          "speaker": "Juniper Hale",
+          "verb": "asks",
+          "line": "If public celebration offers an easy way to hide inside performance instead of confession, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "insists",
+          "line": "Then we keep on launch night, Leora inserts the once-abandoned dedication page back into the finished edition alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Imogen Pike",
+          "verb": "adds",
+          "line": "Once this reaches open air, the studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+          "reaction": "Naming the risk turns pressure into irreversible commitment."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "adds",
+          "line": "Talia sees the page only after the first public copy is opened in front of the crowd",
+          "reaction": "The evasion makes the silence more visible than the answer would have."
+        }
+      ]
+    },
+    {
+      "sceneId": "scene-011-06",
+      "index": 5,
+      "location": "The inherited letterpress studio on Brindle Lane",
+      "anchorObject": "Letterpress Dedication Slip",
+      "supportFocus": "Imogen Pike",
+      "participants": [
+        "Leora Kestrel",
+        "Imogen Pike",
+        "Owen Crest",
+        "Cassia Mercer"
+      ],
+      "focusCharacter": "Leora Kestrel",
+      "supportCharacter": "Imogen Pike",
+      "pressureFigure": "Cassia Mercer",
+      "carriedPressure": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition",
+      "introduction": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition",
+      "development": "Talia sees the page only after the first public copy is opened in front of the crowd",
+      "conflict": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability",
+      "resolution": "She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view",
+      "exit": "The chapter hands off to a sharper culmination consequence",
+      "stateChange": "Their bond shifts from guarded usefulness to acknowledged reciprocity",
+      "goal": "Finish the commission without sacrificing the truth that now gives it meaning",
+      "obstacle": "Public celebration offers an easy way to hide inside performance instead of confession",
+      "result": "Their bond shifts from guarded usefulness to acknowledged reciprocity",
+      "stakes": "The studio's survival, the commission that could define both careers, and the possibility of loving honestly again",
+      "escalation": "Talia sees the page only after the first public copy is opened in front of the crowd",
+      "trigger": "The dedication names the year Talia left and the future Leora still wants",
+      "impact": "The launch becomes confession as much as success",
+      "followThrough": "The partnership survives because honesty finally becomes part of the work",
+      "dialogueTurns": [
+        {
+          "speaker": "Imogen Pike",
+          "verb": "asks",
+          "line": "If the dedication names the year Talia left and the future Leora still wants, who decided the station was allowed to forget it",
+          "reaction": "The question lands harder than either speaker planned."
+        },
+        {
+          "speaker": "Leora Kestrel",
+          "verb": "insists",
+          "line": "Then we keep finish the commission without sacrificing the truth that now gives it meaning alive long enough to make it count",
+          "reaction": "The promise raises the stakes for the next exchange."
+        },
+        {
+          "speaker": "Owen Crest",
+          "verb": "warns",
+          "line": "If public celebration offers an easy way to hide inside performance instead of confession, the room will close around us before anyone else sees the truth",
+          "reaction": "The warning narrows what can still be done safely."
+        },
+        {
+          "speaker": "Cassia Mercer",
+          "verb": "adds",
+          "line": "Public celebration offers an easy way to hide inside performance instead of confession",
+          "reaction": "The evasion makes the silence more visible than the answer would have."
+        }
+      ]
+    }
+  ],
+  "opening": {
+    "inputState": "On launch night, Leora inserts the once-abandoned dedication page back into the finished edition",
+    "chapterQuestion": "Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability",
+    "sensoryAnchor": "Ink oil, paper dust, hot metal type, winter air trapped in skylight glass",
+    "socialSignal": "Work replaces confession here because every surface carries the memory of collaboration"
+  },
+  "closing": {
+    "outputState": "Their bond shifts from guarded usefulness to acknowledged reciprocity",
+    "answerShift": "The studio survives only if the people inside it stop pretending usefulness is neutral",
+    "macroEcho": "Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them"
+  }
+}
+-->
