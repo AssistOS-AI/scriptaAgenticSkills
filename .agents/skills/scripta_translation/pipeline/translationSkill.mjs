@@ -197,7 +197,7 @@ async function buildTranslatedEdition({ sourceEdition, translationModel, targetL
     coverPalette: sourceEdition.coverPalette,
     unsupportedNote: builtIn
       ? null
-      : `Requested target language "${targetLanguage}" was recorded, but the translation stage only ships fluent packs for English and Romanian. This edition preserves the source-language narrative while keeping the translation instruction in metadata.`,
+      : `A fluent built-in translation for "${targetLanguage}" is not available yet, so this edition preserves the source-language narrative while recording the translation intent in metadata.`,
     generatedWith: 'SCRIPTA Translation Skill'
   };
 }

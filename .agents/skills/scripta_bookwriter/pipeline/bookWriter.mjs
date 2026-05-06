@@ -204,6 +204,7 @@ function buildManuscriptModel({
 
     const chapterBlock = findRequiredBlock(chapterEntry.blocks, chapterEntry.artifact.baseName, 'define');
     const chapter = resolveObjectTexts(blockToObject(chapterBlock), resolveText);
+    const draftArtifact = extractDraftArtifact(draftMap.get(chapterEntry.artifact.baseName) ?? '');
     const sequenceBlock = microEntry.blocks.find((block) => block.identifier.startsWith('sequence-') && block.verb === 'define');
     const dialogueBlock = microEntry.blocks.find((block) => block.identifier.startsWith('dialogue-') && block.verb === 'apply');
     const rawDialogueTurns = microEntry.blocks
@@ -261,7 +262,9 @@ function buildManuscriptModel({
       acceleration: resolveObjectTexts(blockToObject(accelerationBlock ?? emptyBlock()), resolveText),
       alternation: resolveObjectTexts(blockToObject(alternationBlock ?? emptyBlock()), resolveText),
       scenes,
-      draftText: draftMap.get(chapterEntry.artifact.baseName) ?? '',
+      draftText: draftArtifact.bodyText,
+      draftParagraphs: draftArtifact.paragraphs,
+      draftPayload: draftArtifact.payload,
     };
   }).sort((left, right) => left.id.localeCompare(right.id));
 
@@ -293,6 +296,25 @@ function buildManuscriptModel({
     chapters,
     characters,
     validationSummary
+  };
+}
+
+function extractDraftArtifact(draftText) {
+  const raw = String(draftText ?? '');
+  const payloadMatch = raw.match(/<!-- scripta-draft-data\s*([\s\S]*?)\s*-->/);
+  const payload = payloadMatch ? JSON.parse(payloadMatch[1]) : null;
+
+  const bodyText = raw
+    .replace(/<!-- scripta-draft-data[\s\S]*?-->/g, '')
+    .split('\n')
+    .filter((line) => !/^# /.test(line))
+    .join('\n')
+    .trim();
+
+  return {
+    bodyText,
+    paragraphs: bodyText.split(/\n{2,}/).map((entry) => entry.replace(/\s+/g, ' ').trim()).filter(Boolean),
+    payload
   };
 }
 
@@ -335,7 +357,7 @@ export function buildLocalizedEditionFromModel(model, {
     coverPalette: buildCoverPalette(model.profileId),
     unsupportedNote: contentLanguage === requestedLanguage
       ? null
-      : `Requested source language "${requestedLanguage}" is not available as a built-in source renderer, so BookWriter exported the canonical English source edition instead.`,
+      : `This source edition keeps the canonical English narrative because a fluent built-in source renderer for "${requestedLanguage}" is not available yet.`,
     stageSources: {
       macro: ['macro-refined-plan'],
       chapters: ['chapter-refined-plan'],
@@ -346,6 +368,20 @@ export function buildLocalizedEditionFromModel(model, {
 }
 
 function buildEditionChapter(model, chapter, languageCode) {
+  if (languageCode === 'en' && Array.isArray(chapter.draftParagraphs) && chapter.draftParagraphs.length > 0) {
+    return {
+      id: chapter.id,
+      number: chapter.number,
+      role: chapter.role,
+      displayTitle: buildChapterDisplayTitle({
+        chapterNumber: String(chapter.number).padStart(2, '0'),
+        role: chapter.role,
+        languageCode
+      }),
+      paragraphs: chapter.draftParagraphs.map((paragraph) => paragraph.replace(/\s+/g, ' ').trim()).filter(Boolean)
+    };
+  }
+
   const profileFlavor = getProfileFlavor(model.profileId, languageCode);
   const firstScene = chapter.scenes[0];
   const lastScene = chapter.scenes.at(-1);
