@@ -487,7 +487,7 @@ function buildSceneConsequenceParagraph({ scene, index, languageCode }) {
   const goal = normalizeNarrativePhrase(scene.action.goal ?? '', languageCode);
   const obstacle = normalizeNarrativePhrase(scene.action.obstacle ?? '', languageCode);
   const stakes = normalizeNarrativePhrase(scene.conflictPacket.stakes ?? '', languageCode);
-  const followThrough = normalizeNarrativePhrase(scene.event.follow-through ?? '', languageCode);
+  const followThrough = normalizeNarrativePhrase(scene.event['follow-through'] ?? '', languageCode);
   const stateChange = normalizeNarrativePhrase(scene['state-change'] ?? '', languageCode);
   const focal = scene.participants[0] ?? (languageCode === 'ro' ? 'protagonistul' : 'the protagonist');
 

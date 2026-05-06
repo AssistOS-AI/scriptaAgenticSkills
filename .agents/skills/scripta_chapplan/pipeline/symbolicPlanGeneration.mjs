@@ -48,13 +48,14 @@ export async function generateMacroSeed(options) {
   const c = options.constraints;
   const scale = deriveNarrativeScale(options);
   const entityMap = buildExtendedEntityMap(scale);
-  const protagonistPlaceholder = placeholder('character', entityMap.characters.protagonist);
-  const counterpartPlaceholder = placeholder('character', entityMap.characters.counterpart);
-  const pressurePlaceholder = placeholder('character', entityMap.characters.pressure);
-  const primaryLocationPlaceholder = placeholder('location', entityMap.locations.primary);
-  const secondaryLocationPlaceholder = placeholder('location', entityMap.locations.secondary);
-  const organizationPlaceholder = placeholder('organization', entityMap.organizations.institution);
-  const objectPlaceholder = placeholder('object', entityMap.objects.plot);
+  const primaryEntities = resolvePrimaryEntities(options);
+  const protagonistPlaceholder = primaryEntities.protagonist;
+  const counterpartPlaceholder = primaryEntities.counterpart;
+  const pressurePlaceholder = primaryEntities.pressure;
+  const primaryLocationPlaceholder = primaryEntities.primaryLocation;
+  const secondaryLocationPlaceholder = primaryEntities.secondaryLocation;
+  const organizationPlaceholder = primaryEntities.organization;
+  const objectPlaceholder = primaryEntities.coreObject;
   const protagonistRef = reference('character-protagonist-001');
   const counterpartRef = reference('character-counterpart-001');
   const pressureRef = reference('character-pressure-001');
@@ -797,6 +798,22 @@ function buildExtendedEntityMap(scale) {
   return entityMap;
 }
 
+function resolvePrimaryEntities(options) {
+  const fallbacks = PRIMARY_ENTITY_FALLBACKS[options.baselineProfile] ?? PRIMARY_ENTITY_FALLBACKS.drama;
+  const visionCharacters = options.vision?.characters ?? {};
+  const visionLocations = options.vision?.locations ?? {};
+
+  return {
+    protagonist: firstMeaningfulText(visionCharacters.protagonist?.name, fallbacks.protagonist),
+    counterpart: firstMeaningfulText(visionCharacters.counterpart?.name, fallbacks.counterpart),
+    pressure: firstMeaningfulText(visionCharacters.pressure?.name, fallbacks.pressure),
+    primaryLocation: firstMeaningfulText(visionLocations.primary?.name, fallbacks.primaryLocation),
+    secondaryLocation: firstMeaningfulText(visionLocations.secondary?.name, fallbacks.secondaryLocation),
+    organization: fallbacks.organization,
+    coreObject: fallbacks.coreObject
+  };
+}
+
 function buildSupportingCharacters(options, random, scale) {
   const catalog = ENTITY_CATALOG[options.baselineProfile] ?? ENTITY_CATALOG.drama;
   const names = pickCatalogEntries(catalog.supportingNames, scale.supportCharacterCount, random);
@@ -843,10 +860,10 @@ function buildSupportingLocations(options, random, scale) {
 }
 
 function buildSupportingObjects(options, random, scale) {
-  const catalog = ENTITY_CATALOG[options.baselineProfile] ?? ENTITY_CATALOG.drama;
-  const names = pickCatalogEntries(catalog.objectNames, scale.extraObjectCount, random);
-  const activations = pickCatalogEntries(catalog.objectActivations, scale.extraObjectCount, random);
-  const stakes = pickCatalogEntries(catalog.objectStakes, scale.extraObjectCount, random);
+  const objectCatalog = OBJECT_CATALOG[options.baselineProfile] ?? OBJECT_CATALOG.drama;
+  const names = pickCatalogEntries(objectCatalog.names, scale.extraObjectCount, random);
+  const activations = pickCatalogEntries(objectCatalog.activations, scale.extraObjectCount, random);
+  const stakes = pickCatalogEntries(objectCatalog.stakes, scale.extraObjectCount, random);
 
   return names.map((name, index) => ({
     id: `plot-element-secondary-${String(index + 1).padStart(3, '0')}`,
@@ -919,9 +936,154 @@ function clamp(value, min, max) {
   return Math.min(max, Math.max(min, value));
 }
 
+function firstMeaningfulText(...values) {
+  for (const value of values) {
+    if (typeof value === 'string' && value.trim()) {
+      return value.trim();
+    }
+  }
+  return '';
+}
+
 const SUPPORT_ARCHETYPES = ['ally', 'witness', 'broker', 'caretaker', 'fixer', 'rival'];
 const SECONDARY_OBJECT_CATEGORIES = ['document', 'artifact', 'token', 'device', 'relic'];
 const SECONDARY_OBJECT_SUBTYPES = ['ledger', 'seal', 'key', 'recording', 'packet'];
+
+const PRIMARY_ENTITY_FALLBACKS = {
+  drama: {
+    protagonist: 'Mira Solari',
+    counterpart: 'Vera Quinn',
+    pressure: 'Corin Voss',
+    primaryLocation: 'the shuttered mediation office above the old customs hall',
+    secondaryLocation: 'the church crypt below Greywater',
+    organization: 'Greywater mediation office',
+    coreObject: 'the flood compensation ledger'
+  },
+  'detective-police': {
+    protagonist: 'Nadia Voss',
+    counterpart: 'Theo Mercer',
+    pressure: 'Soren Arden',
+    primaryLocation: 'the evidence hangar by Lock Six',
+    secondaryLocation: 'the abandoned control room beneath the spillway',
+    organization: 'the redevelopment corridor precinct',
+    coreObject: 'the stolen drive case'
+  },
+  'science-fiction': {
+    protagonist: 'Elian Quill',
+    counterpart: 'Yara Sen',
+    pressure: 'Councilor Mirax Pell',
+    primaryLocation: 'the mnemonic orchard on Nacre Station',
+    secondaryLocation: 'the sealed archive airlock',
+    organization: 'the Nacre station council',
+    coreObject: 'the erased vote lattice'
+  },
+  fantasy: {
+    protagonist: 'Neris Vale',
+    counterpart: 'Brother Caelan Vey',
+    pressure: 'Maeron Dask',
+    primaryLocation: 'the ash terrace above Drovna',
+    secondaryLocation: 'the catacombs beneath the ward gate',
+    organization: 'the oath furnace court',
+    coreObject: 'the hidden chronicle leaf'
+  },
+  'romance-relational': {
+    protagonist: 'Leora Kestrel',
+    counterpart: 'Talia Voss',
+    pressure: 'Cassia Mercer',
+    primaryLocation: 'the riverside print studio on Brindle Lane',
+    secondaryLocation: 'the museum mock-up hall above the loading dock',
+    organization: 'the estate trust behind the studio',
+    coreObject: 'the doubled-margin proof set'
+  }
+};
+
+const OBJECT_CATALOG = {
+  drama: {
+    names: ['Greywater Ledger', 'Memorial Audio Reel', 'Salt-Stamped Evacuation File', 'Floodplain Key Packet', 'Black Ribbon Register'],
+    activations: [
+      'it surfaces during a memorial exchange that should have remained ceremonial',
+      'someone produces it while trying to make grief look procedural',
+      'it is discovered inside a locked civic drawer after hours',
+      'it reappears when the public story begins to contradict the dates',
+      'it turns a private suspicion into a town-wide accusation'
+    ],
+    stakes: [
+      'it can prove the institution profited from selective silence',
+      'it links family survival to the same compromise now under suspicion',
+      'it carries evidence that mourning was administratively curated',
+      'it makes compassion itself look like a laundering mechanism',
+      'it forces the town to choose between peace and truth'
+    ]
+  },
+  'detective-police': {
+    names: ['Lock Six Override Sheet', 'Harbor Camera Spindle', 'Deputy Mayor Tide Brief', 'Cold Room Bolt Packet', 'Dock Chain Custody Tag'],
+    activations: [
+      'it is logged at the exact minute the official timeline begins to fail',
+      'someone tries to reclassify it as salvage before the report is filed',
+      'it appears where evidence should have been impossible to keep',
+      'it ties the river scene to a meeting no one admitted took place',
+      'it turns administrative delay into direct obstruction'
+    ],
+    stakes: [
+      'it can shift the case from accident to institutionally managed murder',
+      'it proves procedure was used to bury physical evidence',
+      'it drags redevelopment money directly into the death',
+      'it exposes command authority as part of the concealment',
+      'it makes the precinct itself a viable suspect'
+    ]
+  },
+  'science-fiction': {
+    names: ['Nacre Vote Lattice', 'Halo Recall Cylinder', 'Dock Nine Archive Key', 'Pacification Patch Core', 'Witness Bloom Cache'],
+    activations: [
+      'it unlocks only when erased testimony and live systems overlap',
+      'it emerges from maintenance metadata no civilian was meant to inspect',
+      'it begins broadcasting its own audit trail under load',
+      'it ties the memory smoothing protocol to an old authorization signature',
+      'it turns a technical anomaly into a constitutional breach'
+    ],
+    stakes: [
+      'it can restore one erased vote and unravel years of counterfeit consent',
+      'it proves the station automated obedience through memory loss',
+      'it makes civic harmony read like managed coercion',
+      'it forces residents to confront a peace built on amputation',
+      'it can return public memory faster than the council can erase it again'
+    ]
+  },
+  fantasy: {
+    names: ['Ashbound Chronicle Leaf', 'Cinder Seal of Drovna', 'Wardstone Bone Key', 'Furnace Memory Flask', 'Oathfire Chain Link'],
+    activations: [
+      'it glows only when the ward is fed a truth the rite was built to hide',
+      'it surfaces during a chant that should have preserved obedience',
+      'it reveals a name the valley had already sacrificed to legend',
+      'it turns ceremony into testimony before the entire terrace',
+      'it breaks the boundary between ancestral reverence and public accusation'
+    ],
+    stakes: [
+      'it can prove the valley fed memory into protection as payment',
+      'it links family legitimacy to an erased child',
+      'it makes ritual beauty inseparable from coercive debt',
+      'it turns succession into a visible moral wound',
+      'it offers protection only if someone accepts the whole truth of its cost'
+    ]
+  },
+  'romance-relational': {
+    names: ['Double-Margin Proof', 'Riverside Signature Plate', 'Museum Dummy Spine', 'Ink Ledger of Corrections', 'Letterpress Dedication Slip'],
+    activations: [
+      'it reappears when craft decisions begin reading like emotional evidence',
+      'it shows up in a workroom no one can keep professionally neutral',
+      'it makes an old departure physically legible inside the new commission',
+      'it turns repair marks into public design language',
+      'it forces usefulness and vulnerability into the same object'
+    ],
+    stakes: [
+      'it can expose how much of the relationship survived inside the work',
+      'it makes the finished book carry visible traces of prior damage',
+      'it pushes professional collaboration into confession',
+      'it shows that aesthetic polish was built on mutual hurt',
+      'it lets the commission become proof instead of camouflage'
+    ]
+  }
+};
 
 const ENTITY_CATALOG = {
   drama: {

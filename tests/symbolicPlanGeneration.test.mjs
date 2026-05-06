@@ -44,8 +44,8 @@ test('symbolic generation creates append-only macro, chapter, and micro artifact
     assert.match(firstBookContent, /hook-pattern:/);
     assert.match(firstBookContent, /@arc-book-main map/);
     assert.match(characterContent, /@character-protagonist-001 define/);
-    assert.match(characterContent, /name: \{\{character:PERSON_001\}\}/);
-    assert.match(worldContent, /name: \{\{location:LOCATION_001\}\}/);
+    assert.doesNotMatch(characterContent, /PERSON_001/);
+    assert.doesNotMatch(worldContent, /LOCATION_001/);
     assert.match(worldContent, /@location-primary define/);
 
     const microContent = await readFile(firstMicroArtifact.filePath, 'utf8');
