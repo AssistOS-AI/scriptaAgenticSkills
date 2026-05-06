@@ -584,16 +584,16 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
                 "translated": "Leora Kestrel intelege acum ca shared risk creates a truer form of security than controlled distance interdependence-is-stronger-than-isolation."
               },
               {
-                "path": "chapter.chapter-001.paragraph.1",
-                "chunkIndex": 2,
-                "source": "Work replaces confession here because every surface carries the memory of collaboration.",
-                "translated": "Aici munca tine locul confesiunii fiindca fiecare suprafata poarta memoria colaborarii."
-              },
-              {
                 "path": "chapter.chapter-001.paragraph.2",
                 "chunkIndex": 2,
                 "source": "Cassia announces the launch deadline and makes their joint contract unavoidable.",
                 "translated": "Cassia announces the launch deadline and makes their joint contract unavoidable."
+              },
+              {
+                "path": "chapter.chapter-001.paragraph.1",
+                "chunkIndex": 2,
+                "source": "Work replaces confession here because every surface carries the memory of collaboration.",
+                "translated": "Aici munca tine locul confesiunii fiindca fiecare suprafata poarta memoria colaborarii."
               },
               {
                 "path": "chapter.chapter-001.paragraph.3",
@@ -704,13 +704,19 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
                 "translated": "Scarred-trust-rebuilt-on-painful-clarity."
               },
               {
+                "path": "chapter.chapter-001.paragraph.2",
+                "chunkIndex": 3,
+                "source": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.",
+                "translated": "Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit."
+              },
+              {
                 "path": "chapter.chapter-001.paragraph.1",
                 "chunkIndex": 3,
                 "source": "Talia Voss reads the room too carefully, while Cassia Mercer keeps alive the version of events other people would rather believe.",
                 "translated": "Talia Voss citeste prea atent incaperea, iar Cassia Mercer mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
               },
               {
-                "path": "chapter.chapter-001.paragraph.2",
+                "path": "chapter.chapter-001.paragraph.4",
                 "chunkIndex": 3,
                 "source": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.",
                 "translated": "Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit."
@@ -720,12 +726,6 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
                 "chunkIndex": 3,
                 "source": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.",
                 "translated": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor."
-              },
-              {
-                "path": "chapter.chapter-001.paragraph.4",
-                "chunkIndex": 3,
-                "source": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.",
-                "translated": "Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit."
               },
               {
                 "path": "chapter.chapter-002.paragraph.1",
@@ -800,12 +800,6 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
                 "translated": "Leora mai poate prezenta gestul drept branding sau il poate lasa sa stea ca un act public de vulnerabilitate asumata."
               },
               {
-                "path": "chapter.chapter-001.paragraph.3",
-                "chunkIndex": 4,
-                "source": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.",
-                "translated": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved."
-              },
-              {
                 "path": "chapter.chapter-001.paragraph.2",
                 "chunkIndex": 4,
                 "source": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.",
@@ -816,6 +810,12 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
                 "chunkIndex": 4,
                 "source": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.",
                 "translated": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor."
+              },
+              {
+                "path": "chapter.chapter-001.paragraph.3",
+                "chunkIndex": 4,
+                "source": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.",
+                "translated": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved."
               },
               {
                 "path": "chapter.chapter-002.paragraph.2",
@@ -1407,16 +1407,16 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
               "translated": "Leora Kestrel intelege acum ca shared risk creates a truer form of security than controlled distance interdependence-is-stronger-than-isolation."
             },
             {
-              "path": "chapter.chapter-001.paragraph.1",
-              "chunkIndex": 2,
-              "source": "Work replaces confession here because every surface carries the memory of collaboration.",
-              "translated": "Aici munca tine locul confesiunii fiindca fiecare suprafata poarta memoria colaborarii."
-            },
-            {
               "path": "chapter.chapter-001.paragraph.2",
               "chunkIndex": 2,
               "source": "Cassia announces the launch deadline and makes their joint contract unavoidable.",
               "translated": "Cassia announces the launch deadline and makes their joint contract unavoidable."
+            },
+            {
+              "path": "chapter.chapter-001.paragraph.1",
+              "chunkIndex": 2,
+              "source": "Work replaces confession here because every surface carries the memory of collaboration.",
+              "translated": "Aici munca tine locul confesiunii fiindca fiecare suprafata poarta memoria colaborarii."
             },
             {
               "path": "chapter.chapter-001.paragraph.3",
@@ -1527,13 +1527,19 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
               "translated": "Scarred-trust-rebuilt-on-painful-clarity."
             },
             {
+              "path": "chapter.chapter-001.paragraph.2",
+              "chunkIndex": 3,
+              "source": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.",
+              "translated": "Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit."
+            },
+            {
               "path": "chapter.chapter-001.paragraph.1",
               "chunkIndex": 3,
               "source": "Talia Voss reads the room too carefully, while Cassia Mercer keeps alive the version of events other people would rather believe.",
               "translated": "Talia Voss citeste prea atent incaperea, iar Cassia Mercer mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
             },
             {
-              "path": "chapter.chapter-001.paragraph.2",
+              "path": "chapter.chapter-001.paragraph.4",
               "chunkIndex": 3,
               "source": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.",
               "translated": "Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit."
@@ -1543,12 +1549,6 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
               "chunkIndex": 3,
               "source": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.",
               "translated": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor."
-            },
-            {
-              "path": "chapter.chapter-001.paragraph.4",
-              "chunkIndex": 3,
-              "source": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.",
-              "translated": "Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit."
             },
             {
               "path": "chapter.chapter-002.paragraph.1",
@@ -1623,12 +1623,6 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
               "translated": "Leora mai poate prezenta gestul drept branding sau il poate lasa sa stea ca un act public de vulnerabilitate asumata."
             },
             {
-              "path": "chapter.chapter-001.paragraph.3",
-              "chunkIndex": 4,
-              "source": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.",
-              "translated": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved."
-            },
-            {
               "path": "chapter.chapter-001.paragraph.2",
               "chunkIndex": 4,
               "source": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.",
@@ -1639,6 +1633,12 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
               "chunkIndex": 4,
               "source": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.",
               "translated": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor."
+            },
+            {
+              "path": "chapter.chapter-001.paragraph.3",
+              "chunkIndex": 4,
+              "source": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.",
+              "translated": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved."
             },
             {
               "path": "chapter.chapter-002.paragraph.2",

@@ -4,22 +4,25 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { createTempWorkspace } from './testUtils.mjs';
 import { cleanQaWorkspace } from '../QA/clean.js';
 
-test('QA clean preserves specs and removes generated outputs', async () => {
+test('QA clean preserves specs and removes only generated qa workspaces', async () => {
   const workspace = await createTempWorkspace('scripta-qa-clean-');
 
   try {
     const qaRoot = `${workspace.directoryPath}/QA`;
     await mkdir(`${qaRoot}/specs`, { recursive: true });
+    await mkdir(`${qaRoot}/books/en`, { recursive: true });
     await mkdir(`${qaRoot}/qa-drama-silence/phase8-exports`, { recursive: true });
     await writeFile(`${qaRoot}/specs/qa-drama-silence.md`, '# Spec\n', 'utf8');
+    await writeFile(`${qaRoot}/books/en/qa-drama-silence.html`, '<html></html>\n', 'utf8');
     await writeFile(`${qaRoot}/qa-drama-silence/book-vision.md`, '# Generated copy\n', 'utf8');
     await writeFile(`${qaRoot}/qa-summary.md`, '# Old summary\n', 'utf8');
 
     await cleanQaWorkspace(qaRoot);
 
     assert.equal(await readFile(`${qaRoot}/specs/qa-drama-silence.md`, 'utf8'), '# Spec\n');
+    assert.equal(await readFile(`${qaRoot}/books/en/qa-drama-silence.html`, 'utf8'), '<html></html>\n');
+    assert.equal(await readFile(`${qaRoot}/qa-summary.md`, 'utf8'), '# Old summary\n');
     await assert.rejects(readFile(`${qaRoot}/qa-drama-silence/book-vision.md`, 'utf8'));
-    await assert.rejects(readFile(`${qaRoot}/qa-summary.md`, 'utf8'));
   } finally {
     await workspace.cleanup();
   }

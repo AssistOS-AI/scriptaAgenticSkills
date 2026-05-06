@@ -24,7 +24,7 @@ The QA campaign must always contain five authored QA workspaces, one for each ca
 | `qa-fantasy-ash` | `fantasy` | `novelette` |
 | `qa-romance-margins` | `romance-relational` | `novelette` |
 
-The QA campaign must keep its authored source packets under `QA/specs/<book-id>.md`, one file per canonical book. The `qa` command may discover those specs automatically, but it must not depend on a separate hardcoded runtime list of QA books. During generation, each spec must be copied into the generated workspace as `book-vision.md`. Before regeneration, `QA/clean.js` must remove generated workspaces, published books, and summary artifacts while preserving `QA/specs/`, so a fresh `qa` run proves that the campaign was rebuilt from the authored sources.
+The QA campaign must keep its authored source packets under `QA/specs/<book-id>.md`, one file per canonical book. The `qa` command may discover those specs automatically, but it must not depend on a separate hardcoded runtime list of QA books. During generation, each spec must be copied into the generated workspace as `book-vision.md`. Before regeneration, `QA/clean.js` must remove only the generated `QA/qa-*` workspace folders while preserving `QA/specs/`, so a fresh `qa` run rebuilds the workspaces from the authored sources.
 
 Each book in the campaign must be able to run through the full stage chain:
 

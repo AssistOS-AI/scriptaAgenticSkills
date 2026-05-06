@@ -126,13 +126,13 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?.
 - Translated: Poate Mira sa expuna minciuna care i-a ucis fratele daca adevarul dovedeste totodata ca familia ei a supravietuit prin aceeasi tacere?.
 
-## chapter.chapter-002.paragraph.1 — chunk 2
-- Source: Every conversation sounds temporary because the office trained people to trade truth for calm.
-- Translated: Fiecare conversatie suna provizoriu fiindca biroul i-a invatat pe oameni sa schimbe adevarul pe calm.
-
 ## chapter.chapter-002.paragraph.2 — chunk 2
 - Source: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
 - Translated: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+
+## chapter.chapter-002.paragraph.1 — chunk 2
+- Source: Every conversation sounds temporary because the office trained people to trade truth for calm.
+- Translated: Fiecare conversatie suna provizoriu fiindca biroul i-a invatat pe oameni sa schimbe adevarul pe calm.
 
 ## chapter.chapter-002.paragraph.3 — chunk 2
 - Source: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
@@ -202,13 +202,13 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: Mira needs Vera's help immediately, but Vera refuses to move without proof that will survive the town hall.
 - Translated: Mira are nevoie imediat de ajutorul Verei, dar Vera refuza sa se miste fara dovezi care sa reziste in fata primariei.
 
-## chapter.chapter-002.paragraph.1 — chunk 3
-- Source: Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.
-- Translated: Vera Quinn citeste prea atent incaperea, iar Corin Voss mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada.
-
 ## chapter.chapter-002.paragraph.2 — chunk 3
 - Source: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
 - Translated: Vera vrea sa copieze registrul in tacere, in timp ce Mira vrea sa-l confrunte pe Corin inainte ca el sa poata recoda din nou fisierele.
+
+## chapter.chapter-002.paragraph.1 — chunk 3
+- Source: Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.
+- Translated: Vera Quinn citeste prea atent incaperea, iar Corin Voss mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada.
 
 ## chapter.chapter-002.paragraph.3 — chunk 3
 - Source: When one photographed page carries Mira's mother's signature beneath a false evacuation report, the investigation now threatens the family as much as the institution.
@@ -234,13 +234,13 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: Mira realizes public exposure will erase the pension her mother depends on, while silence will erase her brother completely.
 - Translated: Mira intelege ca expunerea publica ii va sterge pensia de care depinde mama ei, in timp ce tacerea il va sterge complet pe fratele ei.
 
-## chapter.chapter-004.paragraph.1 — chunk 3
-- Source: Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.
-- Translated: Vera Quinn citeste prea atent incaperea, iar Corin Voss mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada.
-
 ## chapter.chapter-004.paragraph.2 — chunk 3
 - Source: Mira must decide whether to stop before her mother is implicated or finish the testimony in full view of the town.
 - Translated: Mira trebuie sa hotarasca daca se opreste inainte ca mama ei sa fie implicata sau daca isi duce marturia pana la capat in vazul intregului oras.
+
+## chapter.chapter-004.paragraph.1 — chunk 3
+- Source: Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.
+- Translated: Vera Quinn citeste prea atent incaperea, iar Corin Voss mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada.
 
 ## chapter.chapter-004.paragraph.3 — chunk 3
 - Source: When mira reaches the line proving that relief money was routed through Corin's family company, grief becomes accusation before the whole town.
@@ -518,16 +518,16 @@ Sequential chunk translation trace for the translated reader edition.
       "translated": "Poate Mira sa expuna minciuna care i-a ucis fratele daca adevarul dovedeste totodata ca familia ei a supravietuit prin aceeasi tacere?."
     },
     {
-      "path": "chapter.chapter-002.paragraph.1",
-      "chunkIndex": 2,
-      "source": "Every conversation sounds temporary because the office trained people to trade truth for calm.",
-      "translated": "Fiecare conversatie suna provizoriu fiindca biroul i-a invatat pe oameni sa schimbe adevarul pe calm."
-    },
-    {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 2,
       "source": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.",
       "translated": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion."
+    },
+    {
+      "path": "chapter.chapter-002.paragraph.1",
+      "chunkIndex": 2,
+      "source": "Every conversation sounds temporary because the office trained people to trade truth for calm.",
+      "translated": "Fiecare conversatie suna provizoriu fiindca biroul i-a invatat pe oameni sa schimbe adevarul pe calm."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
@@ -632,16 +632,16 @@ Sequential chunk translation trace for the translated reader edition.
       "translated": "Mira are nevoie imediat de ajutorul Verei, dar Vera refuza sa se miste fara dovezi care sa reziste in fata primariei."
     },
     {
-      "path": "chapter.chapter-002.paragraph.1",
-      "chunkIndex": 3,
-      "source": "Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
-      "translated": "Vera Quinn citeste prea atent incaperea, iar Corin Voss mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
-    },
-    {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 3,
       "source": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
       "translated": "Vera vrea sa copieze registrul in tacere, in timp ce Mira vrea sa-l confrunte pe Corin inainte ca el sa poata recoda din nou fisierele."
+    },
+    {
+      "path": "chapter.chapter-002.paragraph.1",
+      "chunkIndex": 3,
+      "source": "Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
+      "translated": "Vera Quinn citeste prea atent incaperea, iar Corin Voss mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",

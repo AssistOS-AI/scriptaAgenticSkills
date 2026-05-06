@@ -106,13 +106,13 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: Leora Kestrel understands now that shared risk creates a truer form of security than controlled distance interdependence-is-stronger-than-isolation.
 - Translated: Leora Kestrel intelege acum ca shared risk creates a truer form of security than controlled distance interdependence-is-stronger-than-isolation.
 
-## chapter.chapter-001.paragraph.1 — chunk 2
-- Source: Work replaces confession here because every surface carries the memory of collaboration.
-- Translated: Aici munca tine locul confesiunii fiindca fiecare suprafata poarta memoria colaborarii.
-
 ## chapter.chapter-001.paragraph.2 — chunk 2
 - Source: Cassia announces the launch deadline and makes their joint contract unavoidable.
 - Translated: Cassia announces the launch deadline and makes their joint contract unavoidable.
+
+## chapter.chapter-001.paragraph.1 — chunk 2
+- Source: Work replaces confession here because every surface carries the memory of collaboration.
+- Translated: Aici munca tine locul confesiunii fiindca fiecare suprafata poarta memoria colaborarii.
 
 ## chapter.chapter-001.paragraph.3 — chunk 2
 - Source: Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.
@@ -186,21 +186,21 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: Scarred-trust-rebuilt-on-painful-clarity.
 - Translated: Scarred-trust-rebuilt-on-painful-clarity.
 
-## chapter.chapter-001.paragraph.1 — chunk 3
-- Source: Talia Voss reads the room too carefully, while Cassia Mercer keeps alive the version of events other people would rather believe.
-- Translated: Talia Voss citeste prea atent incaperea, iar Cassia Mercer mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada.
-
-## chapter.chapter-001.paragraph.3 — chunk 3
-- Source: When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.
-- Translated: When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.
-
 ## chapter.chapter-001.paragraph.2 — chunk 3
 - Source: Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.
 - Translated: Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit.
 
+## chapter.chapter-001.paragraph.1 — chunk 3
+- Source: Talia Voss reads the room too carefully, while Cassia Mercer keeps alive the version of events other people would rather believe.
+- Translated: Talia Voss citeste prea atent incaperea, iar Cassia Mercer mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada.
+
 ## chapter.chapter-001.paragraph.4 — chunk 3
 - Source: Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.
 - Translated: Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit.
+
+## chapter.chapter-001.paragraph.3 — chunk 3
+- Source: When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.
+- Translated: When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.
 
 ## chapter.chapter-002.paragraph.1 — chunk 3
 - Source: Talia Voss reads the room too carefully, while Cassia Mercer keeps alive the version of events other people would rather believe.
@@ -234,13 +234,13 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: Leora can keep the partnership safely undefined, or admit that the commission cannot outlive another season of silence.
 - Translated: Leora poate pastra parteneriatul intr-o ambiguitate sigura sau poate admite ca aceasta comanda nu poate supravietui unui nou sezon de tacere.
 
-## chapter.chapter-004.paragraph.2 — chunk 3
-- Source: Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
-- Translated: Leora mai poate prezenta gestul drept branding sau il poate lasa sa stea ca un act public de vulnerabilitate asumata.
-
 ## chapter.chapter-004.paragraph.1 — chunk 3
 - Source: Talia Voss reads the room too carefully, while Cassia Mercer keeps alive the version of events other people would rather believe.
 - Translated: Talia Voss citeste prea atent incaperea, iar Cassia Mercer mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada.
+
+## chapter.chapter-004.paragraph.2 — chunk 3
+- Source: Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
+- Translated: Leora mai poate prezenta gestul drept branding sau il poate lasa sa stea ca un act public de vulnerabilitate asumata.
 
 ## chapter.chapter-004.paragraph.3 — chunk 3
 - Source: When the dedication names the year Talia left and the future Leora still wants, the launch becomes confession as much as success.
@@ -250,10 +250,6 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
 - Translated: Leora mai poate prezenta gestul drept branding sau il poate lasa sa stea ca un act public de vulnerabilitate asumata.
 
-## chapter.chapter-001.paragraph.3 — chunk 4
-- Source: They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.
-- Translated: They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.
-
 ## chapter.chapter-001.paragraph.2 — chunk 4
 - Source: When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.
 - Translated: When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.
@@ -261,6 +257,10 @@ Sequential chunk translation trace for the translated reader edition.
 ## chapter.chapter-001.paragraph.4 — chunk 4
 - Source: When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.
 - Translated: When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.
+
+## chapter.chapter-001.paragraph.3 — chunk 4
+- Source: They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.
+- Translated: They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.
 
 ## chapter.chapter-002.paragraph.2 — chunk 4
 - Source: When the misprint mirrors the exact margin shift from the night Talia left, the studio forces the past into the present workload.
@@ -278,13 +278,13 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: When the curator chooses the doubled-margin proof as the book's defining design feature, their most damaged page becomes the commission's emotional signature.
 - Translated: When the curator chooses the doubled-margin proof as the book's defining design feature, their most damaged page becomes the commission's emotional signature.
 
-## chapter.chapter-003.paragraph.4 — chunk 4
-- Source: When the curator chooses the doubled-margin proof as the book's defining design feature, their most damaged page becomes the commission's emotional signature.
-- Translated: When the curator chooses the doubled-margin proof as the book's defining design feature, their most damaged page becomes the commission's emotional signature.
-
 ## chapter.chapter-003.paragraph.3 — chunk 4
 - Source: She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.
 - Translated: She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.
+
+## chapter.chapter-003.paragraph.4 — chunk 4
+- Source: When the curator chooses the doubled-margin proof as the book's defining design feature, their most damaged page becomes the commission's emotional signature.
+- Translated: When the curator chooses the doubled-margin proof as the book's defining design feature, their most damaged page becomes the commission's emotional signature.
 
 ## chapter.chapter-004.paragraph.2 — chunk 4
 - Source: When the dedication names the year Talia left and the future Leora still wants, the launch becomes confession as much as success.
@@ -488,16 +488,16 @@ Sequential chunk translation trace for the translated reader edition.
       "translated": "Leora Kestrel intelege acum ca shared risk creates a truer form of security than controlled distance interdependence-is-stronger-than-isolation."
     },
     {
-      "path": "chapter.chapter-001.paragraph.1",
-      "chunkIndex": 2,
-      "source": "Work replaces confession here because every surface carries the memory of collaboration.",
-      "translated": "Aici munca tine locul confesiunii fiindca fiecare suprafata poarta memoria colaborarii."
-    },
-    {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 2,
       "source": "Cassia announces the launch deadline and makes their joint contract unavoidable.",
       "translated": "Cassia announces the launch deadline and makes their joint contract unavoidable."
+    },
+    {
+      "path": "chapter.chapter-001.paragraph.1",
+      "chunkIndex": 2,
+      "source": "Work replaces confession here because every surface carries the memory of collaboration.",
+      "translated": "Aici munca tine locul confesiunii fiindca fiecare suprafata poarta memoria colaborarii."
     },
     {
       "path": "chapter.chapter-001.paragraph.3",
@@ -608,13 +608,19 @@ Sequential chunk translation trace for the translated reader edition.
       "translated": "Scarred-trust-rebuilt-on-painful-clarity."
     },
     {
+      "path": "chapter.chapter-001.paragraph.2",
+      "chunkIndex": 3,
+      "source": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.",
+      "translated": "Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit."
+    },
+    {
       "path": "chapter.chapter-001.paragraph.1",
       "chunkIndex": 3,
       "source": "Talia Voss reads the room too carefully, while Cassia Mercer keeps alive the version of events other people would rather believe.",
       "translated": "Talia Voss citeste prea atent incaperea, iar Cassia Mercer mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
     },
     {
-      "path": "chapter.chapter-001.paragraph.2",
+      "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 3,
       "source": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.",
       "translated": "Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit."
@@ -624,12 +630,6 @@ Sequential chunk translation trace for the translated reader edition.
       "chunkIndex": 3,
       "source": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.",
       "translated": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor."
-    },
-    {
-      "path": "chapter.chapter-001.paragraph.4",
-      "chunkIndex": 3,
-      "source": "Leora wants clear workflow boundaries, while Talia keeps treating practical language as a way to test whether tenderness survived.",
-      "translated": "Leora vrea limite clare de lucru, in timp ce Talia continua sa trateze limbajul practic drept o proba pentru a vedea daca tandretea a supravietuit."
     },
     {
       "path": "chapter.chapter-002.paragraph.1",
@@ -704,12 +704,6 @@ Sequential chunk translation trace for the translated reader edition.
       "translated": "Leora mai poate prezenta gestul drept branding sau il poate lasa sa stea ca un act public de vulnerabilitate asumata."
     },
     {
-      "path": "chapter.chapter-001.paragraph.3",
-      "chunkIndex": 4,
-      "source": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.",
-      "translated": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved."
-    },
-    {
       "path": "chapter.chapter-001.paragraph.2",
       "chunkIndex": 4,
       "source": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.",
@@ -720,6 +714,12 @@ Sequential chunk translation trace for the translated reader edition.
       "chunkIndex": 4,
       "source": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor.",
       "translated": "When the annotated proof reveals a page Talia once designed around Leora's private dedication line, the job starts carrying evidence of love rather than just shared labor."
+    },
+    {
+      "path": "chapter.chapter-001.paragraph.3",
+      "chunkIndex": 4,
+      "source": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.",
+      "translated": "They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",

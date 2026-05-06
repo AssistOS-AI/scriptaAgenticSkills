@@ -34,13 +34,13 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.
 - Translated: Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.
 
-## chapter.chapter-001.paragraph.4 — chunk 1
-- Source: Later, the body shows wrist abrasions inconsistent with drifting debris.
-- Translated: Later, Corpul poarta urme la incheieturi care nu se potrivesc cu resturi purtate de apa.
-
 ## chapter.chapter-001.paragraph.3 — chunk 1
 - Source: Later, the medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
 - Translated: Later, the medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+
+## chapter.chapter-001.paragraph.4 — chunk 1
+- Source: Later, the body shows wrist abrasions inconsistent with drifting debris.
+- Translated: Later, Corpul poarta urme la incheieturi care nu se potrivesc cu resturi purtate de apa.
 
 ## chapter.chapter-001.paragraph.5 — chunk 1
 - Source: Nothing that has opened here will close easily.
@@ -114,10 +114,6 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
 - Translated: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
 
-## chapter.chapter-001.paragraph.4 — chunk 2
-- Source: Cause-of-death certainty is replaced by a procedural hole.
-- Translated: Cause-of-death certainty is replaced by a procedural hole.
-
 ## chapter.chapter-001.paragraph.3 — chunk 2
 - Source: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
 - Translated: Nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ.
@@ -125,6 +121,10 @@ Sequential chunk translation trace for the translated reader edition.
 ## chapter.chapter-001.paragraph.5 — chunk 2
 - Source: Can Nadia prove murder before procedure itself is used to wash the evidence clean?.
 - Translated: Poate Nadia sa dovedeasca omorul inainte ca procedura insasi sa fie folosita pentru a spala probele?.
+
+## chapter.chapter-001.paragraph.4 — chunk 2
+- Source: Cause-of-death certainty is replaced by a procedural hole.
+- Translated: Cause-of-death certainty is replaced by a procedural hole.
 
 ## chapter.chapter-002.paragraph.1 — chunk 2
 - Source: Everyone speaks in clipped inventory terms because the room only respects what can be tagged.
@@ -194,10 +194,6 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
 - Translated: Nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ.
 
-## chapter.chapter-001.paragraph.4 — chunk 3
-- Source: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
-- Translated: Nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ.
-
 ## chapter.chapter-001.paragraph.3 — chunk 3
 - Source: When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole.
 - Translated: When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole.
@@ -206,13 +202,17 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: Theo Mercer reads the room too carefully, while Soren Arden keeps alive the version of events other people would rather believe.
 - Translated: Theo Mercer citeste prea atent incaperea, iar Soren Arden mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada.
 
-## chapter.chapter-002.paragraph.2 — chunk 3
-- Source: Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
-- Translated: Theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie.
+## chapter.chapter-001.paragraph.4 — chunk 3
+- Source: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
+- Translated: Nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ.
 
 ## chapter.chapter-002.paragraph.3 — chunk 3
 - Source: When a duplicate maintenance form appears with two different timestamps, chain-of-custody becomes the crime scene.
 - Translated: When a duplicate maintenance form appears with two different timestamps, chain-of-custody becomes the crime scene.
+
+## chapter.chapter-002.paragraph.2 — chunk 3
+- Source: Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
+- Translated: Theo vrea sa publice imediat, in timp ce Nadia mai are nevoie de dovada ca lipsa din filmare ascunde o omucidere, nu doar coruptie.
 
 ## chapter.chapter-002.paragraph.4 — chunk 3
 - Source: Theo wants to publish immediately, while Nadia still needs proof that the camera gap conceals homicide rather than corruption alone.
@@ -254,21 +254,21 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole.
 - Translated: When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole.
 
-## chapter.chapter-001.paragraph.4 — chunk 4
-- Source: When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole.
-- Translated: When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole.
-
 ## chapter.chapter-001.paragraph.3 — chunk 4
 - Source: Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
 - Translated: Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
 
-## chapter.chapter-002.paragraph.2 — chunk 4
-- Source: When a duplicate maintenance form appears with two different timestamps, chain-of-custody becomes the crime scene.
-- Translated: When a duplicate maintenance form appears with two different timestamps, chain-of-custody becomes the crime scene.
+## chapter.chapter-001.paragraph.4 — chunk 4
+- Source: When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole.
+- Translated: When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole.
 
 ## chapter.chapter-002.paragraph.3 — chunk 4
 - Source: They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
 - Translated: They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.
+
+## chapter.chapter-002.paragraph.2 — chunk 4
+- Source: When a duplicate maintenance form appears with two different timestamps, chain-of-custody becomes the crime scene.
+- Translated: When a duplicate maintenance form appears with two different timestamps, chain-of-custody becomes the crime scene.
 
 ## chapter.chapter-002.paragraph.4 — chunk 4
 - Source: When a duplicate maintenance form appears with two different timestamps, chain-of-custody becomes the crime scene.
@@ -500,16 +500,16 @@ Sequential chunk translation trace for the translated reader edition.
       "translated": "The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before."
     },
     {
-      "path": "chapter.chapter-001.paragraph.4",
-      "chunkIndex": 2,
-      "source": "Cause-of-death certainty is replaced by a procedural hole.",
-      "translated": "Cause-of-death certainty is replaced by a procedural hole."
-    },
-    {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 2,
       "source": "Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.",
       "translated": "Nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ."
+    },
+    {
+      "path": "chapter.chapter-001.paragraph.4",
+      "chunkIndex": 2,
+      "source": "Cause-of-death certainty is replaced by a procedural hole.",
+      "translated": "Cause-of-death certainty is replaced by a procedural hole."
     },
     {
       "path": "chapter.chapter-001.paragraph.5",
@@ -620,16 +620,16 @@ Sequential chunk translation trace for the translated reader edition.
       "translated": "Nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ."
     },
     {
-      "path": "chapter.chapter-001.paragraph.4",
-      "chunkIndex": 3,
-      "source": "Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.",
-      "translated": "Nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ."
-    },
-    {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 3,
       "source": "When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole.",
       "translated": "When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole."
+    },
+    {
+      "path": "chapter.chapter-001.paragraph.4",
+      "chunkIndex": 3,
+      "source": "Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.",
+      "translated": "Nadia are nevoie de geanta disparuta si de imaginile camerei de la ecluza, dar Soren insista ca inecul este deja inchis administrativ."
     },
     {
       "path": "chapter.chapter-002.paragraph.1",
@@ -710,28 +710,28 @@ Sequential chunk translation trace for the translated reader edition.
       "translated": "When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole."
     },
     {
-      "path": "chapter.chapter-001.paragraph.4",
-      "chunkIndex": 4,
-      "source": "When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole.",
-      "translated": "When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole."
-    },
-    {
       "path": "chapter.chapter-001.paragraph.3",
       "chunkIndex": 4,
       "source": "Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.",
       "translated": "Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline."
     },
     {
-      "path": "chapter.chapter-002.paragraph.2",
+      "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 4,
-      "source": "When a duplicate maintenance form appears with two different timestamps, chain-of-custody becomes the crime scene.",
-      "translated": "When a duplicate maintenance form appears with two different timestamps, chain-of-custody becomes the crime scene."
+      "source": "When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole.",
+      "translated": "When the body shows wrist abrasions inconsistent with drifting debris, cause-of-death certainty is replaced by a procedural hole."
     },
     {
       "path": "chapter.chapter-002.paragraph.3",
       "chunkIndex": 4,
       "source": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.",
       "translated": "They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room."
+    },
+    {
+      "path": "chapter.chapter-002.paragraph.2",
+      "chunkIndex": 4,
+      "source": "When a duplicate maintenance form appears with two different timestamps, chain-of-custody becomes the crime scene.",
+      "translated": "When a duplicate maintenance form appears with two different timestamps, chain-of-custody becomes the crime scene."
     },
     {
       "path": "chapter.chapter-002.paragraph.4",

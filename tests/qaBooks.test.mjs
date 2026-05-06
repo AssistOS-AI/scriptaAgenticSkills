@@ -10,8 +10,8 @@ test('QA generation emits consolidated review and task artifacts', async () => {
 
     try {
       const qaRoot = `${workspace.directoryPath}/QA`;
-      await mkdir(`${qaRoot}/obsolete-book`, { recursive: true });
-      await writeFile(`${qaRoot}/obsolete-book/stale.txt`, 'stale', 'utf8');
+      await mkdir(`${qaRoot}/qa-obsolete-book`, { recursive: true });
+      await writeFile(`${qaRoot}/qa-obsolete-book/stale.txt`, 'stale', 'utf8');
       await writeFile(`${qaRoot}/qa-summary.md`, 'stale summary', 'utf8');
       const summaries = await runQaGeneration(qaRoot);
       const review = await readStructuredMarkdown(`${qaRoot}/qa-review.md`, { books: [], tasks: [] });
@@ -38,7 +38,7 @@ test('QA generation emits consolidated review and task artifacts', async () => {
       assert.match(metricsIndex, /SCRIPTA QA Metrics Library/);
       assert.match(metricsPage, /Localized issues/);
       assert.match(preservedVision, /qa-drama-silence/);
-      await assert.rejects(readFile(`${qaRoot}/obsolete-book/stale.txt`, 'utf8'));
+      await assert.rejects(readFile(`${qaRoot}/qa-obsolete-book/stale.txt`, 'utf8'));
     } finally {
       await workspace.cleanup();
     }

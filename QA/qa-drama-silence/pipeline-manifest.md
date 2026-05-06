@@ -614,16 +614,16 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
                 "translated": "Poate Mira sa expuna minciuna care i-a ucis fratele daca adevarul dovedeste totodata ca familia ei a supravietuit prin aceeasi tacere?."
               },
               {
-                "path": "chapter.chapter-002.paragraph.1",
-                "chunkIndex": 2,
-                "source": "Every conversation sounds temporary because the office trained people to trade truth for calm.",
-                "translated": "Fiecare conversatie suna provizoriu fiindca biroul i-a invatat pe oameni sa schimbe adevarul pe calm."
-              },
-              {
                 "path": "chapter.chapter-002.paragraph.2",
                 "chunkIndex": 2,
                 "source": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.",
                 "translated": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion."
+              },
+              {
+                "path": "chapter.chapter-002.paragraph.1",
+                "chunkIndex": 2,
+                "source": "Every conversation sounds temporary because the office trained people to trade truth for calm.",
+                "translated": "Fiecare conversatie suna provizoriu fiindca biroul i-a invatat pe oameni sa schimbe adevarul pe calm."
               },
               {
                 "path": "chapter.chapter-002.paragraph.3",
@@ -728,16 +728,16 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
                 "translated": "Mira are nevoie imediat de ajutorul Verei, dar Vera refuza sa se miste fara dovezi care sa reziste in fata primariei."
               },
               {
-                "path": "chapter.chapter-002.paragraph.1",
-                "chunkIndex": 3,
-                "source": "Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
-                "translated": "Vera Quinn citeste prea atent incaperea, iar Corin Voss mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
-              },
-              {
                 "path": "chapter.chapter-002.paragraph.2",
                 "chunkIndex": 3,
                 "source": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
                 "translated": "Vera vrea sa copieze registrul in tacere, in timp ce Mira vrea sa-l confrunte pe Corin inainte ca el sa poata recoda din nou fisierele."
+              },
+              {
+                "path": "chapter.chapter-002.paragraph.1",
+                "chunkIndex": 3,
+                "source": "Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
+                "translated": "Vera Quinn citeste prea atent incaperea, iar Corin Voss mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
               },
               {
                 "path": "chapter.chapter-002.paragraph.3",
@@ -1437,16 +1437,16 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
               "translated": "Poate Mira sa expuna minciuna care i-a ucis fratele daca adevarul dovedeste totodata ca familia ei a supravietuit prin aceeasi tacere?."
             },
             {
-              "path": "chapter.chapter-002.paragraph.1",
-              "chunkIndex": 2,
-              "source": "Every conversation sounds temporary because the office trained people to trade truth for calm.",
-              "translated": "Fiecare conversatie suna provizoriu fiindca biroul i-a invatat pe oameni sa schimbe adevarul pe calm."
-            },
-            {
               "path": "chapter.chapter-002.paragraph.2",
               "chunkIndex": 2,
               "source": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.",
               "translated": "Corin arrives with coffee, condolences, and a rewritten story about emergency discretion."
+            },
+            {
+              "path": "chapter.chapter-002.paragraph.1",
+              "chunkIndex": 2,
+              "source": "Every conversation sounds temporary because the office trained people to trade truth for calm.",
+              "translated": "Fiecare conversatie suna provizoriu fiindca biroul i-a invatat pe oameni sa schimbe adevarul pe calm."
             },
             {
               "path": "chapter.chapter-002.paragraph.3",
@@ -1551,16 +1551,16 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
               "translated": "Mira are nevoie imediat de ajutorul Verei, dar Vera refuza sa se miste fara dovezi care sa reziste in fata primariei."
             },
             {
-              "path": "chapter.chapter-002.paragraph.1",
-              "chunkIndex": 3,
-              "source": "Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
-              "translated": "Vera Quinn citeste prea atent incaperea, iar Corin Voss mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
-            },
-            {
               "path": "chapter.chapter-002.paragraph.2",
               "chunkIndex": 3,
               "source": "Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.",
               "translated": "Vera vrea sa copieze registrul in tacere, in timp ce Mira vrea sa-l confrunte pe Corin inainte ca el sa poata recoda din nou fisierele."
+            },
+            {
+              "path": "chapter.chapter-002.paragraph.1",
+              "chunkIndex": 3,
+              "source": "Vera Quinn reads the room too carefully, while Corin Voss keeps alive the version of events other people would rather believe.",
+              "translated": "Vera Quinn citeste prea atent incaperea, iar Corin Voss mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
             },
             {
               "path": "chapter.chapter-002.paragraph.3",

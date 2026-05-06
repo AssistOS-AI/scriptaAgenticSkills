@@ -806,16 +806,16 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
                 "translated": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion."
               },
               {
-                "path": "chapter.chapter-001.paragraph.3",
-                "chunkIndex": 4,
-                "source": "They trace the chant to a recall shard marked as botanical maintenance metadata.",
-                "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata."
-              },
-              {
                 "path": "chapter.chapter-001.paragraph.4",
                 "chunkIndex": 4,
                 "source": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion.",
                 "translated": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion."
+              },
+              {
+                "path": "chapter.chapter-001.paragraph.3",
+                "chunkIndex": 4,
+                "source": "They trace the chant to a recall shard marked as botanical maintenance metadata.",
+                "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata."
               },
               {
                 "path": "chapter.chapter-002.paragraph.2",
@@ -884,12 +884,6 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
                 "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata."
               },
               {
-                "path": "chapter.chapter-002.paragraph.4",
-                "chunkIndex": 5,
-                "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
-                "translated": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map."
-              },
-              {
                 "path": "chapter.chapter-002.paragraph.2",
                 "chunkIndex": 5,
                 "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
@@ -900,6 +894,12 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
                 "chunkIndex": 5,
                 "source": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
                 "translated": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once."
+              },
+              {
+                "path": "chapter.chapter-002.paragraph.4",
+                "chunkIndex": 5,
+                "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+                "translated": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map."
               },
               {
                 "path": "chapter.chapter-003.paragraph.4",
@@ -1629,16 +1629,16 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
               "translated": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion."
             },
             {
-              "path": "chapter.chapter-001.paragraph.3",
-              "chunkIndex": 4,
-              "source": "They trace the chant to a recall shard marked as botanical maintenance metadata.",
-              "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata."
-            },
-            {
               "path": "chapter.chapter-001.paragraph.4",
               "chunkIndex": 4,
               "source": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion.",
               "translated": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion."
+            },
+            {
+              "path": "chapter.chapter-001.paragraph.3",
+              "chunkIndex": 4,
+              "source": "They trace the chant to a recall shard marked as botanical maintenance metadata.",
+              "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata."
             },
             {
               "path": "chapter.chapter-002.paragraph.2",
@@ -1707,12 +1707,6 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
               "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata."
             },
             {
-              "path": "chapter.chapter-002.paragraph.4",
-              "chunkIndex": 5,
-              "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
-              "translated": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map."
-            },
-            {
               "path": "chapter.chapter-002.paragraph.2",
               "chunkIndex": 5,
               "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
@@ -1723,6 +1717,12 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
               "chunkIndex": 5,
               "source": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
               "translated": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once."
+            },
+            {
+              "path": "chapter.chapter-002.paragraph.4",
+              "chunkIndex": 5,
+              "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+              "translated": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map."
             },
             {
               "path": "chapter.chapter-003.paragraph.4",

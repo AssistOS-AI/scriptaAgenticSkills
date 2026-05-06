@@ -602,16 +602,16 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
                 "translated": "Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier."
               },
               {
-                "path": "chapter.chapter-001.paragraph.4",
-                "chunkIndex": 2,
-                "source": "Family legend breaks open into accusation.",
-                "translated": "Family legend breaks open into accusation."
-              },
-              {
                 "path": "chapter.chapter-001.paragraph.3",
                 "chunkIndex": 2,
                 "source": "Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.",
                 "translated": "Neris vrea dovezi ca soaptele sunt mai mult decat magie a doliului, in timp ce Caelan insista ca valea o avertizeaza deja direct."
+              },
+              {
+                "path": "chapter.chapter-001.paragraph.4",
+                "chunkIndex": 2,
+                "source": "Family legend breaks open into accusation.",
+                "translated": "Family legend breaks open into accusation."
               },
               {
                 "path": "chapter.chapter-001.paragraph.5",
@@ -650,16 +650,16 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
                 "translated": "Poate Neris sa elibereze valea de juramantul familiei sale fara sa o lase fara aparare in fata pretului pe care juramantul il tinea candva inchis?."
               },
               {
-                "path": "chapter.chapter-003.paragraph.1",
-                "chunkIndex": 2,
-                "source": "Every greeting sounds half like welcome and half like ritual surveillance.",
-                "translated": "Fiecare salut suna pe jumatate a bun-venit si pe jumatate a supraveghere ritualica."
-              },
-              {
                 "path": "chapter.chapter-003.paragraph.2",
                 "chunkIndex": 2,
                 "source": "Neris realizes the ward responds more strongly to named truth than to repeated liturgy.",
                 "translated": "Neris realizes the ward responds more strongly to named truth than to repeated liturgy."
+              },
+              {
+                "path": "chapter.chapter-003.paragraph.1",
+                "chunkIndex": 2,
+                "source": "Every greeting sounds half like welcome and half like ritual surveillance.",
+                "translated": "Fiecare salut suna pe jumatate a bun-venit si pe jumatate a supraveghere ritualica."
               },
               {
                 "path": "chapter.chapter-003.paragraph.3",
@@ -710,28 +710,28 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
                 "translated": "Altered-but-legible-bond."
               },
               {
-                "path": "chapter.chapter-001.paragraph.1",
-                "chunkIndex": 3,
-                "source": "Brother Caelan Vey reads the room too carefully, while Regent Maeron Vale keeps alive the version of events other people would rather believe.",
-                "translated": "Brother Caelan Vey citeste prea atent incaperea, iar Regent Maeron Vale mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
-              },
-              {
                 "path": "chapter.chapter-001.paragraph.2",
                 "chunkIndex": 3,
                 "source": "Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.",
                 "translated": "Neris vrea dovezi ca soaptele sunt mai mult decat magie a doliului, in timp ce Caelan insista ca valea o avertizeaza deja direct."
               },
               {
-                "path": "chapter.chapter-001.paragraph.4",
+                "path": "chapter.chapter-001.paragraph.1",
                 "chunkIndex": 3,
-                "source": "Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.",
-                "translated": "Neris vrea dovezi ca soaptele sunt mai mult decat magie a doliului, in timp ce Caelan insista ca valea o avertizeaza deja direct."
+                "source": "Brother Caelan Vey reads the room too carefully, while Regent Maeron Vale keeps alive the version of events other people would rather believe.",
+                "translated": "Brother Caelan Vey citeste prea atent incaperea, iar Regent Maeron Vale mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
               },
               {
                 "path": "chapter.chapter-001.paragraph.3",
                 "chunkIndex": 3,
                 "source": "When the ash names Neris's younger sister, long said to have died of fever, family legend breaks open into accusation.",
                 "translated": "When the ash names Neris's younger sister, long said to have died of fever, family legend breaks open into accusation."
+              },
+              {
+                "path": "chapter.chapter-001.paragraph.4",
+                "chunkIndex": 3,
+                "source": "Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.",
+                "translated": "Neris vrea dovezi ca soaptele sunt mai mult decat magie a doliului, in timp ce Caelan insista ca valea o avertizeaza deja direct."
               },
               {
                 "path": "chapter.chapter-002.paragraph.1",
@@ -758,16 +758,16 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
                 "translated": "Neris vrea sa-l demaste imediat pe Maeron, dar daca face asta inainte de ritualul de aparare ar putea lasa valea deschisa spre ruptura iernii."
               },
               {
-                "path": "chapter.chapter-003.paragraph.1",
-                "chunkIndex": 3,
-                "source": "Brother Caelan Vey reads the room too carefully, while Regent Maeron Vale keeps alive the version of events other people would rather believe.",
-                "translated": "Brother Caelan Vey citeste prea atent incaperea, iar Regent Maeron Vale mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
-              },
-              {
                 "path": "chapter.chapter-003.paragraph.2",
                 "chunkIndex": 3,
                 "source": "If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.",
                 "translated": "Daca dezvaluie public ritualul, panica ar putea sfarama valea inainte ca ea sa poata reface cinstit protectia."
+              },
+              {
+                "path": "chapter.chapter-003.paragraph.1",
+                "chunkIndex": 3,
+                "source": "Brother Caelan Vey reads the room too carefully, while Regent Maeron Vale keeps alive the version of events other people would rather believe.",
+                "translated": "Brother Caelan Vey citeste prea atent incaperea, iar Regent Maeron Vale mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
               },
               {
                 "path": "chapter.chapter-003.paragraph.3",
@@ -812,16 +812,16 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
                 "translated": "When the ash names Neris's younger sister, long said to have died of fever, family legend breaks open into accusation."
               },
               {
-                "path": "chapter.chapter-001.paragraph.4",
-                "chunkIndex": 4,
-                "source": "When the ash names Neris's younger sister, long said to have died of fever, family legend breaks open into accusation.",
-                "translated": "When the ash names Neris's younger sister, long said to have died of fever, family legend breaks open into accusation."
-              },
-              {
                 "path": "chapter.chapter-001.paragraph.3",
                 "chunkIndex": 4,
                 "source": "They descend toward the catacombs before Maeron can bind her publicly at dusk.",
                 "translated": "They descend toward the catacombs before Maeron can bind her publicly at dusk."
+              },
+              {
+                "path": "chapter.chapter-001.paragraph.4",
+                "chunkIndex": 4,
+                "source": "When the ash names Neris's younger sister, long said to have died of fever, family legend breaks open into accusation.",
+                "translated": "When the ash names Neris's younger sister, long said to have died of fever, family legend breaks open into accusation."
               },
               {
                 "path": "chapter.chapter-002.paragraph.2",
@@ -1431,16 +1431,16 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
               "translated": "Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier."
             },
             {
-              "path": "chapter.chapter-001.paragraph.4",
-              "chunkIndex": 2,
-              "source": "Family legend breaks open into accusation.",
-              "translated": "Family legend breaks open into accusation."
-            },
-            {
               "path": "chapter.chapter-001.paragraph.3",
               "chunkIndex": 2,
               "source": "Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.",
               "translated": "Neris vrea dovezi ca soaptele sunt mai mult decat magie a doliului, in timp ce Caelan insista ca valea o avertizeaza deja direct."
+            },
+            {
+              "path": "chapter.chapter-001.paragraph.4",
+              "chunkIndex": 2,
+              "source": "Family legend breaks open into accusation.",
+              "translated": "Family legend breaks open into accusation."
             },
             {
               "path": "chapter.chapter-001.paragraph.5",
@@ -1479,16 +1479,16 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
               "translated": "Poate Neris sa elibereze valea de juramantul familiei sale fara sa o lase fara aparare in fata pretului pe care juramantul il tinea candva inchis?."
             },
             {
-              "path": "chapter.chapter-003.paragraph.1",
-              "chunkIndex": 2,
-              "source": "Every greeting sounds half like welcome and half like ritual surveillance.",
-              "translated": "Fiecare salut suna pe jumatate a bun-venit si pe jumatate a supraveghere ritualica."
-            },
-            {
               "path": "chapter.chapter-003.paragraph.2",
               "chunkIndex": 2,
               "source": "Neris realizes the ward responds more strongly to named truth than to repeated liturgy.",
               "translated": "Neris realizes the ward responds more strongly to named truth than to repeated liturgy."
+            },
+            {
+              "path": "chapter.chapter-003.paragraph.1",
+              "chunkIndex": 2,
+              "source": "Every greeting sounds half like welcome and half like ritual surveillance.",
+              "translated": "Fiecare salut suna pe jumatate a bun-venit si pe jumatate a supraveghere ritualica."
             },
             {
               "path": "chapter.chapter-003.paragraph.3",
@@ -1539,28 +1539,28 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
               "translated": "Altered-but-legible-bond."
             },
             {
-              "path": "chapter.chapter-001.paragraph.1",
-              "chunkIndex": 3,
-              "source": "Brother Caelan Vey reads the room too carefully, while Regent Maeron Vale keeps alive the version of events other people would rather believe.",
-              "translated": "Brother Caelan Vey citeste prea atent incaperea, iar Regent Maeron Vale mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
-            },
-            {
               "path": "chapter.chapter-001.paragraph.2",
               "chunkIndex": 3,
               "source": "Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.",
               "translated": "Neris vrea dovezi ca soaptele sunt mai mult decat magie a doliului, in timp ce Caelan insista ca valea o avertizeaza deja direct."
             },
             {
-              "path": "chapter.chapter-001.paragraph.4",
+              "path": "chapter.chapter-001.paragraph.1",
               "chunkIndex": 3,
-              "source": "Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.",
-              "translated": "Neris vrea dovezi ca soaptele sunt mai mult decat magie a doliului, in timp ce Caelan insista ca valea o avertizeaza deja direct."
+              "source": "Brother Caelan Vey reads the room too carefully, while Regent Maeron Vale keeps alive the version of events other people would rather believe.",
+              "translated": "Brother Caelan Vey citeste prea atent incaperea, iar Regent Maeron Vale mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
             },
             {
               "path": "chapter.chapter-001.paragraph.3",
               "chunkIndex": 3,
               "source": "When the ash names Neris's younger sister, long said to have died of fever, family legend breaks open into accusation.",
               "translated": "When the ash names Neris's younger sister, long said to have died of fever, family legend breaks open into accusation."
+            },
+            {
+              "path": "chapter.chapter-001.paragraph.4",
+              "chunkIndex": 3,
+              "source": "Neris wants proof the whispers are more than grief-magic, while Caelan insists the valley is already warning her directly.",
+              "translated": "Neris vrea dovezi ca soaptele sunt mai mult decat magie a doliului, in timp ce Caelan insista ca valea o avertizeaza deja direct."
             },
             {
               "path": "chapter.chapter-002.paragraph.1",
@@ -1587,16 +1587,16 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
               "translated": "Neris vrea sa-l demaste imediat pe Maeron, dar daca face asta inainte de ritualul de aparare ar putea lasa valea deschisa spre ruptura iernii."
             },
             {
-              "path": "chapter.chapter-003.paragraph.1",
-              "chunkIndex": 3,
-              "source": "Brother Caelan Vey reads the room too carefully, while Regent Maeron Vale keeps alive the version of events other people would rather believe.",
-              "translated": "Brother Caelan Vey citeste prea atent incaperea, iar Regent Maeron Vale mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
-            },
-            {
               "path": "chapter.chapter-003.paragraph.2",
               "chunkIndex": 3,
               "source": "If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.",
               "translated": "Daca dezvaluie public ritualul, panica ar putea sfarama valea inainte ca ea sa poata reface cinstit protectia."
+            },
+            {
+              "path": "chapter.chapter-003.paragraph.1",
+              "chunkIndex": 3,
+              "source": "Brother Caelan Vey reads the room too carefully, while Regent Maeron Vale keeps alive the version of events other people would rather believe.",
+              "translated": "Brother Caelan Vey citeste prea atent incaperea, iar Regent Maeron Vale mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada."
             },
             {
               "path": "chapter.chapter-003.paragraph.3",
@@ -1641,16 +1641,16 @@ Append-only record of stage runs and latest phase artifacts for this book worksp
               "translated": "When the ash names Neris's younger sister, long said to have died of fever, family legend breaks open into accusation."
             },
             {
-              "path": "chapter.chapter-001.paragraph.4",
-              "chunkIndex": 4,
-              "source": "When the ash names Neris's younger sister, long said to have died of fever, family legend breaks open into accusation.",
-              "translated": "When the ash names Neris's younger sister, long said to have died of fever, family legend breaks open into accusation."
-            },
-            {
               "path": "chapter.chapter-001.paragraph.3",
               "chunkIndex": 4,
               "source": "They descend toward the catacombs before Maeron can bind her publicly at dusk.",
               "translated": "They descend toward the catacombs before Maeron can bind her publicly at dusk."
+            },
+            {
+              "path": "chapter.chapter-001.paragraph.4",
+              "chunkIndex": 4,
+              "source": "When the ash names Neris's younger sister, long said to have died of fever, family legend breaks open into accusation.",
+              "translated": "When the ash names Neris's younger sister, long said to have died of fever, family legend breaks open into accusation."
             },
             {
               "path": "chapter.chapter-002.paragraph.2",

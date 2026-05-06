@@ -122,13 +122,13 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: Memory corruption becomes proof of historical deletion.
 - Translated: Memory corruption becomes proof of historical deletion.
 
-## chapter.chapter-001.paragraph.5 — chunk 2
-- Source: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?.
-- Translated: Poate Elian sa restaureze memoria statiei fara sa distruga pacea fragila construita pe uitare?.
-
 ## chapter.chapter-002.paragraph.1 — chunk 2
 - Source: Citizens come here to rehearse approved memories in carefully moderated quiet.
 - Translated: Cetatenii vin aici sa repete amintiri aprobate intr-o liniste atent controlata.
+
+## chapter.chapter-001.paragraph.5 — chunk 2
+- Source: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?.
+- Translated: Poate Elian sa restaureze memoria statiei fara sa distruga pacea fragila construita pe uitare?.
 
 ## chapter.chapter-002.paragraph.2 — chunk 2
 - Source: They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.
@@ -194,21 +194,21 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.
 - Translated: Elian vrea sa izoleze anomalia in tacere, in timp ce Yara insista ca anomaliile supravietuiesc doar daca cineva actioneaza inainte ca sistemul sa se reechilibreze.
 
-## chapter.chapter-001.paragraph.3 — chunk 3
-- Source: When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion.
-- Translated: When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion.
-
 ## chapter.chapter-001.paragraph.4 — chunk 3
 - Source: Elian wants to isolate the anomaly quietly, while Yara insists anomalies only survive if someone acts before the system rebalances.
 - Translated: Elian vrea sa izoleze anomalia in tacere, in timp ce Yara insista ca anomaliile supravietuiesc doar daca cineva actioneaza inainte ca sistemul sa se reechilibreze.
 
-## chapter.chapter-002.paragraph.1 — chunk 3
-- Source: Yara Sen reads the room too carefully, while Director Cael Oris keeps alive the version of events other people would rather believe.
-- Translated: Yara Sen citeste prea atent incaperea, iar Director Cael Oris mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada.
+## chapter.chapter-001.paragraph.3 — chunk 3
+- Source: When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion.
+- Translated: When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion.
 
 ## chapter.chapter-002.paragraph.2 — chunk 3
 - Source: Elian still hopes the council preserved the memories for lawful quarantine, while Yara assumes the archive is a burial chamber for dissent.
 - Translated: Elian inca spera ca forul a pastrat amintirile pentru o carantina legala, in timp ce Yara crede ca arhiva este o camera mortuara pentru disidenta.
+
+## chapter.chapter-002.paragraph.1 — chunk 3
+- Source: Yara Sen reads the room too carefully, while Director Cael Oris keeps alive the version of events other people would rather believe.
+- Translated: Yara Sen citeste prea atent incaperea, iar Director Cael Oris mentine vie versiunea faptelor pe care ceilalti ar prefera sa o creada.
 
 ## chapter.chapter-002.paragraph.3 — chunk 3
 - Source: When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past.
@@ -254,13 +254,13 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion.
 - Translated: When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion.
 
-## chapter.chapter-001.paragraph.3 — chunk 4
-- Source: They trace the chant to a recall shard marked as botanical maintenance metadata.
-- Translated: They trace the chant to a recall shard marked as botanical maintenance metadata.
-
 ## chapter.chapter-001.paragraph.4 — chunk 4
 - Source: When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion.
 - Translated: When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion.
+
+## chapter.chapter-001.paragraph.3 — chunk 4
+- Source: They trace the chant to a recall shard marked as botanical maintenance metadata.
+- Translated: They trace the chant to a recall shard marked as botanical maintenance metadata.
 
 ## chapter.chapter-002.paragraph.2 — chunk 4
 - Source: When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past.
@@ -270,21 +270,21 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
 - Translated: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
 
+## chapter.chapter-003.paragraph.2 — chunk 4
+- Source: When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file.
+- Translated: When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file.
+
 ## chapter.chapter-002.paragraph.4 — chunk 4
 - Source: When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past.
 - Translated: When one phantom crate is tagged with Elian's own authorization signature from two years earlier, the conspiracy reaches into Elian's professional past.
 
-## chapter.chapter-003.paragraph.2 — chunk 4
+## chapter.chapter-003.paragraph.4 — chunk 4
 - Source: When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file.
 - Translated: When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file.
 
 ## chapter.chapter-003.paragraph.3 — chunk 4
 - Source: Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.
 - Translated: Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.
-
-## chapter.chapter-003.paragraph.4 — chunk 4
-- Source: When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file.
-- Translated: When the recovered vote proves the station once rejected the pacification protocol outright, the council's legitimacy evaporates in one file.
 
 ## chapter.chapter-004.paragraph.2 — chunk 4
 - Source: When citizens across the station begin repeating the erased vote count aloud, public memory becomes impossible to confiscate again in silence.
@@ -306,10 +306,6 @@ Sequential chunk translation trace for the translated reader edition.
 - Source: They trace the chant to a recall shard marked as botanical maintenance metadata.
 - Translated: They trace the chant to a recall shard marked as botanical maintenance metadata.
 
-## chapter.chapter-002.paragraph.4 — chunk 5
-- Source: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
-- Translated: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
-
 ## chapter.chapter-002.paragraph.2 — chunk 5
 - Source: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
 - Translated: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
@@ -317,6 +313,10 @@ Sequential chunk translation trace for the translated reader edition.
 ## chapter.chapter-003.paragraph.2 — chunk 5
 - Source: Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.
 - Translated: Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.
+
+## chapter.chapter-002.paragraph.4 — chunk 5
+- Source: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
+- Translated: A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.
 
 ## chapter.chapter-003.paragraph.4 — chunk 5
 - Source: Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.
@@ -710,16 +710,16 @@ Sequential chunk translation trace for the translated reader edition.
       "translated": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion."
     },
     {
-      "path": "chapter.chapter-001.paragraph.3",
-      "chunkIndex": 4,
-      "source": "They trace the chant to a recall shard marked as botanical maintenance metadata.",
-      "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata."
-    },
-    {
       "path": "chapter.chapter-001.paragraph.4",
       "chunkIndex": 4,
       "source": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion.",
       "translated": "When the shard contains voices naming a vote that station records say never occurred, memory corruption becomes proof of historical deletion."
+    },
+    {
+      "path": "chapter.chapter-001.paragraph.3",
+      "chunkIndex": 4,
+      "source": "They trace the chant to a recall shard marked as botanical maintenance metadata.",
+      "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata."
     },
     {
       "path": "chapter.chapter-002.paragraph.2",
@@ -788,12 +788,6 @@ Sequential chunk translation trace for the translated reader edition.
       "translated": "They trace the chant to a recall shard marked as botanical maintenance metadata."
     },
     {
-      "path": "chapter.chapter-002.paragraph.4",
-      "chunkIndex": 5,
-      "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
-      "translated": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map."
-    },
-    {
       "path": "chapter.chapter-002.paragraph.2",
       "chunkIndex": 5,
       "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
@@ -804,6 +798,12 @@ Sequential chunk translation trace for the translated reader edition.
       "chunkIndex": 5,
       "source": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.",
       "translated": "Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once."
+    },
+    {
+      "path": "chapter.chapter-002.paragraph.4",
+      "chunkIndex": 5,
+      "source": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.",
+      "translated": "A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map."
     },
     {
       "path": "chapter.chapter-003.paragraph.4",
