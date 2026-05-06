@@ -35,6 +35,10 @@ test('QA generation emits consolidated review and task artifacts', async () => {
       assert.match(libraryIndex, /metrics library/i);
       assert.match(englishBook, /When the Silence Returns/);
       assert.match(romanianBook, /Cand se intoarce tacerea/);
+      assert.ok((englishBook.match(/class="chapter page-break"/g) ?? []).length >= 8);
+      assert.ok((romanianBook.match(/class="chapter page-break"/g) ?? []).length >= 8);
+      assert.match(englishBook, / says\./);
+      assert.match(romanianBook, / spune /);
       assert.match(metricsIndex, /SCRIPTA QA Metrics Library/);
       assert.match(metricsPage, /Localized issues/);
       assert.match(preservedVision, /qa-drama-silence/);

@@ -8,9 +8,17 @@ export async function cleanQaWorkspace(qaRoot = resolve(process.cwd(), 'QA')) {
 
   const entries = await readdir(resolvedRoot, { withFileTypes: true });
   for (const entry of entries) {
-    if (entry.isDirectory() && /^qa-/.test(entry.name)) {
-      await rm(join(resolvedRoot, entry.name), { recursive: true, force: true });
+    const entryPath = join(resolvedRoot, entry.name);
+    if (entry.name === 'specs' || entry.name === 'clean.js') {
+      continue;
     }
+
+    if (entry.isDirectory()) {
+      await rm(entryPath, { recursive: true, force: true });
+      continue;
+    }
+
+    await rm(entryPath, { force: true });
   }
   return resolvedRoot;
 }

@@ -258,6 +258,8 @@ function buildManuscriptModel({
     profileId: options.profile.id,
     profileLabel: options.profile.label,
     workForm: options.workForm,
+    dialogueDensity: options.dialogueDensity,
+    descriptionDensity: options.descriptionDensity,
     editorialProfile: options.editorialProfile,
     title: options.title,
     centralIdea,
@@ -334,6 +336,7 @@ function buildEditionChapter(model, chapter, languageCode) {
   const finalBelief = localizeBookText(model.protagonistArc['exit-belief'] ?? '', languageCode);
   const finalRelationship = localizeBookText(model.relationshipArc['exit-dynamic'] ?? '', languageCode);
   const uncertainty = sentenceCase(localizeBookText(chapter.suspense.uncertainty ?? '', languageCode));
+  const dialogueLimit = dialogueTurnLimit(model.dialogueDensity);
 
   if (firstScene) {
     const location = localizeBookText(firstScene['time-space'], languageCode);
@@ -375,6 +378,11 @@ function buildEditionChapter(model, chapter, languageCode) {
       trigger && impact ? `When ${lowerFirst(trigger)}, ${lowerFirst(stripTerminalPunctuation(impact))}.` : '',
       resolution ? `${resolution}.` : ''
     ]));
+
+    const renderedDialogue = renderEditionDialogue(scene.dialogueTurns.slice(0, dialogueLimit), languageCode);
+    if (renderedDialogue) {
+      pushUniqueParagraph(paragraphs, renderedDialogue);
+    }
   });
 
   pushUniqueParagraph(paragraphs, buildChapterClosingParagraph({
@@ -576,6 +584,16 @@ function renderEditionDialogue(turns, languageCode) {
     const line = sentenceCase(localizeBookText(turn['line-hint'] ?? '', languageCode));
     return `"${line}" ${turn.speaker} says.`;
   }).join(' ');
+}
+
+function dialogueTurnLimit(dialogueDensity) {
+  if (dialogueDensity === 'high') {
+    return 4;
+  }
+  if (dialogueDensity === 'low') {
+    return 1;
+  }
+  return 2;
 }
 
 function normalizeNarrativePhrase(value, languageCode) {

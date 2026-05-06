@@ -2,9 +2,12 @@
 book-id: qa-fantasy-ash
 title: "The Ash Keeps Your Name"
 profile: fantasy
-work-form: novelette
-chapter-count: 4
+work-form: novel
+chapter-count: 10
+target-words: 64000
 scene-density: high
+dialogue-density: high
+description-density: high
 target-languages: ["en", "ro"]
 ---
 # The Ash Keeps Your Name

@@ -2,9 +2,12 @@
 book-id: qa-romance-margins
 title: "Margins of the Heart"
 profile: romance-relational
-work-form: novelette
-chapter-count: 4
+work-form: novel
+chapter-count: 10
+target-words: 64000
 scene-density: high
+dialogue-density: high
+description-density: high
 target-languages: ["en", "ro"]
 ---
 # Margins of the Heart

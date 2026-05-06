@@ -41,16 +41,19 @@ export function parseBookVisionMarkdown(content, { sourcePath = '' } = {}) {
   const constraints = normalizeDictionary(parseKeyValueBlock(sections.Constraints));
   const themeAnchors = normalizeDictionary(parseKeyValueBlock(sections['Theme anchors']));
 
-  return {
-    bookId,
-    title,
-    baselineProfile: String(metadata.profile ?? 'drama'),
-    profile: String(metadata.profile ?? 'drama'),
-    workForm: String(metadata['work-form'] ?? 'novelette'),
-    chapterCount: Number(metadata['chapter-count'] ?? (countSceneGroups(scenes) || 4)),
-    sceneDensity: String(metadata['scene-density'] ?? 'medium'),
-    targetLanguages: normalizeArray(metadata['target-languages'], ['en', 'ro']),
-    brief: firstMeaningful(cleanBody(sections['Core idea']), cleanBody(sections['Short story']), `Vision packet for ${title}`),
+    return {
+      bookId,
+      title,
+      baselineProfile: String(metadata.profile ?? 'drama'),
+      profile: String(metadata.profile ?? 'drama'),
+      workForm: String(metadata['work-form'] ?? 'novelette'),
+      chapterCount: Number(metadata['chapter-count'] ?? (countSceneGroups(scenes) || 4)),
+      targetWords: Number(metadata['target-words'] ?? 0) || undefined,
+      sceneDensity: String(metadata['scene-density'] ?? 'medium'),
+      dialogueDensity: String(metadata['dialogue-density'] ?? 'medium'),
+      descriptionDensity: String(metadata['description-density'] ?? 'medium'),
+      targetLanguages: normalizeArray(metadata['target-languages'], ['en', 'ro']),
+      brief: firstMeaningful(cleanBody(sections['Core idea']), cleanBody(sections['Short story']), `Vision packet for ${title}`),
     storySummary: cleanBody(sections['Short story']),
     sourceLanguage: String(metadata['source-language'] ?? 'en'),
     translationInstructions: {},
