@@ -11,10 +11,10 @@ closing-mode: cliffhanger
 handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-010
 thematic-focus: freedom-security under dilemma pressure
 rhythm-note: wave-like
-chapter-question: {{chapter-question:revelation}}
-answer-shift: {{answer-shift:science-fiction}}
+chapter-question: {{chapter-question:revelation-9}}
+answer-shift: {{answer-shift:science-fiction-revelation-9}}
 arc-stage: meaning-shift
-world-pressure: {{world-pressure:revelation}}
+world-pressure: {{world-pressure:revelation-9}}
 location-focus: $location-primary
 block-alternation: description-dialogue-action-interior-monologue-suspense-revelation-acceleration
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.

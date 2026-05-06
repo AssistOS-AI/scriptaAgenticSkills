@@ -11,10 +11,10 @@ closing-mode: cliffhanger
 handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-010
 thematic-focus: love-connection under transformation pressure
 rhythm-note: wave-like
-chapter-question: {{chapter-question:revelation}}
-answer-shift: {{answer-shift:romance-relational}}
+chapter-question: {{chapter-question:revelation-9}}
+answer-shift: {{answer-shift:romance-relational-revelation-9}}
 arc-stage: meaning-shift
-world-pressure: {{world-pressure:revelation}}
+world-pressure: {{world-pressure:revelation-9}}
 location-focus: $location-primary
 block-alternation: dialogue-description-interior-monologue-action-pause-dialogue-cliffhanger
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.

@@ -11,10 +11,10 @@ closing-mode: cliffhanger
 handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-004
 thematic-focus: identity-self under resistance pressure
 rhythm-note: escalating
-chapter-question: {{chapter-question:bridge}}
-answer-shift: {{answer-shift:detective-police}}
+chapter-question: {{chapter-question:bridge-3}}
+answer-shift: {{answer-shift:detective-police-bridge-3}}
 arc-stage: threshold-crossing
-world-pressure: {{world-pressure:bridge}}
+world-pressure: {{world-pressure:bridge-3}}
 location-focus: $location-primary
 block-alternation: action-dialogue-description-conflict-revelation-suspense-cliffhanger
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.

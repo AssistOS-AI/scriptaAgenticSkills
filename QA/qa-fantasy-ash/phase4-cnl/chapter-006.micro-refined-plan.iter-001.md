@@ -26,7 +26,7 @@ chapter: $chapter-006
 rule-reference: $world-rule-primary
 visible-symptom: ash drifts indoors and whispers names the ruling house refuses to acknowledge
 action-limitation: Neris cannot break the oath in secret because the valley must witness and accept the cost together.
-conflict-output: every promise of protection arrives already entangled with control, debt, and ancestral shame
+conflict-output: Maeron controls the ceremony platform, the guards, and the valley's fear
 reveal-pattern: embed-rule-in-dialogue
 
 @arc-006-protagonist map
@@ -39,7 +39,7 @@ exit-belief: some inheritances become just only when they are surrendered after 
 @arc-006-relationship map
 chapter: $chapter-006
 pair: $character-protagonist-001, $character-support-001
-entry-dynamic: careful-cooperation-strained-by-withheld-history
+entry-dynamic: productive-partnership-guarded-by-emotional-self-defense
 stress-line: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
 exit-dynamic: scarred-trust-rebuilt-on-painful-clarity
 
@@ -70,18 +70,18 @@ scene: $scene-006-01
 actor: $character-protagonist-001
 goal: replace coerced obedience with a protection the valley chooses knowingly
 obstacle: Maeron controls the ceremony platform, the guards, and the valley's fear
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+result: renunciation becomes the only form of leadership left to her
 
 @conflict-006-1 place
 scope: $scene-006-01
-type: external-character
+type: external-society
 forces: $character-protagonist-001 versus $character-support-001
 stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
 escalation: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
 
 @event-006-1 trigger
 scope: $scene-006-01
-event-type: discovery
+event-type: accident
 trigger: the winter spirit retreats only when Neris names one of the forgotten dead aloud
 impact: truth reveals itself as the missing element in the valley's defense
 follow-through: Neris finally knows what must be sacrificed and what must be preserved
@@ -89,314 +89,314 @@ follow-through: Neris finally knows what must be sacrificed and what must be pre
 @dialogue-turn-006-01-01 line
 scene: $scene-006-01
 speaker: $character-support-001
-intent: name-risk
-subtext: speaks the consequence both speakers hoped could stay implied
-line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-reaction-beat: Naming the risk turns pressure into irreversible commitment.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-006-01-02 line
 scene: $scene-006-01
 speaker: $character-protagonist-001
-intent: challenge
-subtext: refuses the easier story and forces the pressure into view
-line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-reaction-beat: The challenge strips politeness away from the scene.
+intent: commit
+subtext: makes risk sound practical enough to become a promise
+line-hint: replace coerced obedience with a protection the valley chooses knowingly
+reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-006-01-03 line
 scene: $scene-006-01
 speaker: $character-support-002
-intent: probe
-subtext: tests whether the other speaker can bear the unsoftened truth
-line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-reaction-beat: The question lands harder than either speaker planned.
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: a hint for the dialogue line
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @dialogue-turn-006-01-04 line
 scene: $scene-006-01
 speaker: $character-pressure-001
-intent: deflect
-subtext: turns confession sideways to protect status and control
-line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-reaction-beat: The evasion makes the silence more visible than the answer would have.
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: Maeron controls the ceremony platform, the guards, and the valley's fear
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-006-02 define
 chapter: $chapter-006
-showing-mode: direct-showing
+showing-mode: introspective
 focalization: internal-shifting
 time-space: $location-primary
 introduction: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
 development: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
-conflict: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
-resolution: She decides to break the binding ceremony and speak the hidden names during the next warding chant.
+conflict: Maeron controls the ceremony platform, the guards, and the valley's fear
+resolution: Neris finally knows what must be sacrificed and what must be preserved
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-002, $character-support-003, $character-pressure-001
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-002
-state-change: renunciation becomes the only form of leadership left to her
+state-change: Neris finally knows what must be sacrificed and what must be preserved
 
 @action-006-2 place
-action-mode: negotiation
+action-mode: attempt
 scene: $scene-006-02
 actor: $character-protagonist-001
 goal: Neris finally knows what must be sacrificed and what must be preserved
-obstacle: Maeron controls the ceremony platform, the guards, and the valley's fear
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
+result: Neris finally knows what must be sacrificed and what must be preserved
 
 @conflict-006-2 place
 scope: $scene-006-02
-type: external-character
+type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
-escalation: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+escalation: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
 
 @event-006-2 trigger
 scope: $scene-006-02
-event-type: accident
-trigger: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-impact: truth reveals itself as the missing element in the valley's defense
-follow-through: Neris finally knows what must be sacrificed and what must be preserved
+event-type: arrival
+trigger: Ward breach at the mountain gate
+impact: renunciation becomes the only form of leadership left to her
+follow-through: renunciation becomes the only form of leadership left to her
 
 @dialogue-turn-006-02-01 line
 scene: $scene-006-02
 speaker: $character-support-002
-intent: tease-probe
-subtext: uses wit to test whether the wound can be named safely
-line-hint: Ward breach at the mountain gate
-reaction-beat: The joke opens a bruise neither speaker can ignore now.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-006-02-02 line
 scene: $scene-006-02
 speaker: $character-protagonist-001
-intent: reframe
-subtext: changes the moral meaning of what was just said
-line-hint: Ward breach at the mountain gate
-reaction-beat: The new framing makes the old position harder to keep.
+intent: commit
+subtext: makes risk sound practical enough to become a promise
+line-hint: Neris finally knows what must be sacrificed and what must be preserved
+reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-006-02-03 line
 scene: $scene-006-02
 speaker: $character-support-003
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: Ward breach at the mountain gate
-reaction-beat: The honesty changes the balance of power in the room.
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: a hint for the dialogue line
+reaction-beat: The warning narrows what can still be done safely.
 
 @dialogue-turn-006-02-04 line
 scene: $scene-006-02
 speaker: $character-pressure-001
-intent: deflect
-subtext: turns confession sideways to protect status and control
-line-hint: Ward breach at the mountain gate
-reaction-beat: The evasion makes the silence more visible than the answer would have.
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-006-03 define
 chapter: $chapter-006
-showing-mode: direct-showing
+showing-mode: compressed-showing
 focalization: internal-shifting
 time-space: $location-secondary
 introduction: the winter spirit retreats only when Neris names one of the forgotten dead aloud
 development: truth reveals itself as the missing element in the valley's defense
-conflict: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
-resolution: She decides to break the binding ceremony and speak the hidden names during the next warding chant.
+conflict: truth reveals itself as the missing element in the valley's defense
+resolution: renunciation becomes the only form of leadership left to her
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-003
 anchor-object: $plot-element-core-object
 support-focus: $character-support-003
-state-change: renunciation becomes the only form of leadership left to her
+state-change: She decides to break the binding ceremony and speak the hidden names during the next warding chant.
 
 @action-006-3 place
-action-mode: attempt
+action-mode: sacrifice
 scene: $scene-006-03
 actor: $character-protagonist-001
 goal: Ward breach at the mountain gate
-obstacle: Maeron controls the ceremony platform, the guards, and the valley's fear
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: the winter spirit retreats only when Neris names one of the forgotten dead aloud
+result: She decides to break the binding ceremony and speak the hidden names during the next warding chant.
 
 @conflict-006-3 place
 scope: $scene-006-03
-type: external-nature
+type: external-society
 forces: $character-protagonist-001 versus $character-support-003
 stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
-escalation: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+escalation: truth reveals itself as the missing element in the valley's defense
 
 @event-006-3 trigger
 scope: $scene-006-03
-event-type: decision
-trigger: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-impact: truth reveals itself as the missing element in the valley's defense
-follow-through: Neris finally knows what must be sacrificed and what must be preserved
+event-type: loss
+trigger: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+impact: Neris finally knows what must be sacrificed and what must be preserved
+follow-through: She decides to break the binding ceremony and speak the hidden names during the next warding chant.
 
 @dialogue-turn-006-03-01 line
 scene: $scene-006-03
 speaker: $character-support-003
-intent: tease-probe
-subtext: uses wit to test whether the wound can be named safely
-line-hint: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
-reaction-beat: The joke opens a bruise neither speaker can ignore now.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-006-03-02 line
 scene: $scene-006-03
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+line-hint: Ward breach at the mountain gate
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-006-03-03 line
 scene: $scene-006-03
 speaker: $character-support-001
-intent: commit
-subtext: makes risk sound practical enough to become a promise
-line-hint: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
-reaction-beat: The promise raises the stakes for the next exchange.
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: a hint for the dialogue line
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @dialogue-turn-006-03-04 line
 scene: $scene-006-03
 speaker: $character-pressure-001
-intent: deflect
-subtext: turns confession sideways to protect status and control
-line-hint: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
-reaction-beat: The evasion makes the silence more visible than the answer would have.
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-006-04 define
 chapter: $chapter-006
-showing-mode: direct-showing
+showing-mode: mixed
 focalization: internal-shifting
 time-space: $location-tertiary-004
-introduction: A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
-development: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
-conflict: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
-resolution: She decides to break the binding ceremony and speak the hidden names during the next warding chant.
+introduction: She decides to break the binding ceremony and speak the hidden names during the next warding chant.
+development: replace coerced obedience with a protection the valley chooses knowingly
+conflict: replace coerced obedience with a protection the valley chooses knowingly
+resolution: truth reveals itself as the missing element in the valley's defense
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-001, $character-support-002
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-001
-state-change: renunciation becomes the only form of leadership left to her
+state-change: truth reveals itself as the missing element in the valley's defense
 
 @action-006-4 place
-action-mode: negotiation
+action-mode: pursuit
 scene: $scene-006-04
 actor: $character-protagonist-001
-goal: replace coerced obedience with a protection the valley chooses knowingly
-obstacle: Maeron controls the ceremony platform, the guards, and the valley's fear
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+goal: She decides to break the binding ceremony and speak the hidden names during the next warding chant.
+obstacle: truth reveals itself as the missing element in the valley's defense
+result: truth reveals itself as the missing element in the valley's defense
 
 @conflict-006-4 place
 scope: $scene-006-04
-type: external-nature
+type: external-technology
 forces: $character-protagonist-001 versus $character-support-002
 stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
-escalation: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+escalation: replace coerced obedience with a protection the valley chooses knowingly
 
 @event-006-4 trigger
 scope: $scene-006-04
-event-type: crime
-trigger: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-impact: truth reveals itself as the missing element in the valley's defense
-follow-through: Neris finally knows what must be sacrificed and what must be preserved
+event-type: reversal
+trigger: A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
+impact: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
+follow-through: truth reveals itself as the missing element in the valley's defense
 
 @dialogue-turn-006-04-01 line
 scene: $scene-006-04
 speaker: $character-support-001
 intent: probe
 subtext: tests whether the other speaker can bear the unsoftened truth
-line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
+line-hint: a hint for the dialogue line
 reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-006-04-02 line
 scene: $scene-006-04
 speaker: $character-protagonist-001
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-reaction-beat: The honesty changes the balance of power in the room.
+intent: commit
+subtext: makes risk sound practical enough to become a promise
+line-hint: She decides to break the binding ceremony and speak the hidden names during the next warding chant.
+reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-006-04-03 line
 scene: $scene-006-04
 speaker: $character-support-002
 intent: warn
 subtext: tries to protect the bond by narrowing the next available move
-line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
+line-hint: a hint for the dialogue line
 reaction-beat: The warning narrows what can still be done safely.
 
 @dialogue-turn-006-04-04 line
 scene: $scene-006-04
 speaker: $character-pressure-001
-intent: deflect
-subtext: turns confession sideways to protect status and control
-line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-reaction-beat: The evasion makes the silence more visible than the answer would have.
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: truth reveals itself as the missing element in the valley's defense
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-006-05 define
 chapter: $chapter-006
-showing-mode: mixed
+showing-mode: dialogic
 focalization: internal-shifting
 time-space: $location-primary
-introduction: A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
-development: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
-conflict: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
-resolution: She decides to break the binding ceremony and speak the hidden names during the next warding chant.
+introduction: Ward breach at the mountain gate
+development: Neris finally knows what must be sacrificed and what must be preserved
+conflict: the winter spirit retreats only when Neris names one of the forgotten dead aloud
+resolution: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-002, $character-pressure-001
 anchor-object: $plot-element-core-object
 support-focus: $character-support-002
-state-change: renunciation becomes the only form of leadership left to her
+state-change: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
 
 @action-006-5 place
 action-mode: sacrifice
 scene: $scene-006-05
 actor: $character-protagonist-001
-goal: replace coerced obedience with a protection the valley chooses knowingly
-obstacle: Maeron controls the ceremony platform, the guards, and the valley's fear
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+goal: A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
+obstacle: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+result: If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
 
 @conflict-006-5 place
 scope: $scene-006-05
-type: external-technology
+type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
-escalation: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+escalation: Neris finally knows what must be sacrificed and what must be preserved
 
 @event-006-5 trigger
 scope: $scene-006-05
-event-type: loss
-trigger: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-impact: truth reveals itself as the missing element in the valley's defense
-follow-through: Neris finally knows what must be sacrificed and what must be preserved
+event-type: betrayal
+trigger: Maeron controls the ceremony platform, the guards, and the valley's fear
+impact: She decides to break the binding ceremony and speak the hidden names during the next warding chant.
+follow-through: replace coerced obedience with a protection the valley chooses knowingly
 
 @dialogue-turn-006-05-01 line
 scene: $scene-006-05
 speaker: $character-support-002
-intent: name-risk
-subtext: speaks the consequence both speakers hoped could stay implied
-line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-reaction-beat: Naming the risk turns pressure into irreversible commitment.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-006-05-02 line
 scene: $scene-006-05
 speaker: $character-protagonist-001
-intent: probe
-subtext: tests whether the other speaker can bear the unsoftened truth
-line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-reaction-beat: The question lands harder than either speaker planned.
+intent: commit
+subtext: makes risk sound practical enough to become a promise
+line-hint: A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
+reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-006-05-03 line
 scene: $scene-006-05
 speaker: $character-support-003
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-reaction-beat: The honesty changes the balance of power in the room.
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: a hint for the dialogue line
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @dialogue-turn-006-05-04 line
 scene: $scene-006-05
 speaker: $character-pressure-001
-intent: commit
-subtext: makes risk sound practical enough to become a promise
-line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-reaction-beat: The promise raises the stakes for the next exchange.
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-006-06 define
 chapter: $chapter-006
-showing-mode: introspective
+showing-mode: dialogic
 focalization: internal-shifting
 time-space: $location-secondary
 introduction: A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
@@ -410,7 +410,7 @@ support-focus: $character-support-003
 state-change: renunciation becomes the only form of leadership left to her
 
 @action-006-6 place
-action-mode: sacrifice
+action-mode: attempt
 scene: $scene-006-06
 actor: $character-protagonist-001
 goal: replace coerced obedience with a protection the valley chooses knowingly
@@ -419,14 +419,14 @@ result: renunciation becomes the only form of leadership left to her
 
 @conflict-006-6 place
 scope: $scene-006-06
-type: external-technology
+type: external-character
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the valley's survival, the memory of the consumed dead, and Neris's right to belong without domination
 escalation: Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
 
 @event-006-6 trigger
 scope: $scene-006-06
-event-type: crime
+event-type: arrival
 trigger: the winter spirit retreats only when Neris names one of the forgotten dead aloud
 impact: truth reveals itself as the missing element in the valley's defense
 follow-through: Neris finally knows what must be sacrificed and what must be preserved
@@ -434,41 +434,41 @@ follow-through: Neris finally knows what must be sacrificed and what must be pre
 @dialogue-turn-006-06-01 line
 scene: $scene-006-06
 speaker: $character-support-003
-intent: tease-probe
-subtext: uses wit to test whether the wound can be named safely
-line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-reaction-beat: The joke opens a bruise neither speaker can ignore now.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-006-06-02 line
 scene: $scene-006-06
 speaker: $character-protagonist-001
-intent: tease-probe
-subtext: uses wit to test whether the wound can be named safely
-line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-reaction-beat: The joke opens a bruise neither speaker can ignore now.
+intent: commit
+subtext: makes risk sound practical enough to become a promise
+line-hint: replace coerced obedience with a protection the valley chooses knowingly
+reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-006-06-03 line
 scene: $scene-006-06
 speaker: $character-support-001
-intent: tease-probe
-subtext: uses wit to test whether the wound can be named safely
-line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-reaction-beat: The joke opens a bruise neither speaker can ignore now.
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: a hint for the dialogue line
+reaction-beat: The warning narrows what can still be done safely.
 
 @dialogue-turn-006-06-04 line
 scene: $scene-006-06
 speaker: $character-pressure-001
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: the winter spirit retreats only when Neris names one of the forgotten dead aloud
-reaction-beat: The honesty changes the balance of power in the room.
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: Maeron controls the ceremony platform, the guards, and the valley's fear
+reaction-beat: The challenge strips politeness away from the scene.
 
 @description-006-atmosphere apply
 scope: $chapter-006
 description-type: symbolic
 focus: a homeland that records lineage in the same ash that settles on the living
 function: symbolic
-rhythm-effect: frame
+rhythm-effect: hold
 
 @dialogue-006-core apply
 scene: $scene-006-01
@@ -493,7 +493,7 @@ texture: reflective
 @suspense-006-core build
 scope: $chapter-006
 suspense-type: situational
-uncertainty: Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
+uncertainty: truth reveals itself as the missing element in the valley's defense
 delay-technique: foreshadowing
 payoff-zone: event-006-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
@@ -514,7 +514,7 @@ target-zone: $scene-006-06
 
 @cliffhanger-006-exit cut
 scope: $chapter-006
-cliffhanger-type: critical-decision
+cliffhanger-type: danger
 cut-moment: the winter spirit retreats only when Neris names one of the forgotten dead aloud
 continuation-pressure: Neris finally knows what must be sacrificed and what must be preserved
 
@@ -531,7 +531,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @rule-pressure-006-core refine
 ref: visible-symptom:reversal -> ash drifts indoors and whispers names the ruling house refuses to acknowledge
 ref: action-limitation:reversal -> Neris cannot break the oath in secret because the valley must witness and accept the cost together.
-ref: conflict-output-rule:reversal -> every promise of protection arrives already entangled with control, debt, and ancestral shame
+ref: conflict-output-rule:reversal -> Maeron controls the ceremony platform, the guards, and the valley's fear
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make laws magical, political, and costly in the same movement
@@ -564,112 +564,112 @@ The refined artifact preserves identifier continuity so deterministic validation
 @scene-006-01 refine
 ref: scene-introduction:reversal-0 -> A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
 ref: scene-development:reversal-0 -> Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
-ref: scene-conflict:reversal -> If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
-ref: scene-resolution:reversal-mid -> She decides to break the binding ceremony and speak the hidden names during the next warding chant.
-ref: scene-state-change:reversal-mid -> renunciation becomes the only form of leadership left to her
+ref: scene-conflict:reversal-0 -> If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
+ref: scene-resolution:reversal-0-mid -> She decides to break the binding ceremony and speak the hidden names during the next warding chant.
+ref: scene-state-change:reversal-0-mid -> renunciation becomes the only form of leadership left to her
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the magical cost visible in action and atmosphere
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-01-01 refine
-ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
-ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
-ref: dialogue-line-hint:reversal-0-0 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:reversal-support-0-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-01-02 refine
-ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
-ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:reversal-0-1 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:reversal-protagonist-0-1 -> replace coerced obedience with a protection the valley chooses knowingly
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-01-03 refine
-ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
-ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
-ref: dialogue-line-hint:reversal-0-2 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:reversal-support-0-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-01-04 refine
-ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
-ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:reversal-0-3 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:reversal-pressure-0-3 -> Maeron controls the ceremony platform, the guards, and the valley's fear
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-006-02 refine
-ref: scene-conflict:reversal -> If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
-ref: scene-resolution:reversal-mid -> She decides to break the binding ceremony and speak the hidden names during the next warding chant.
-ref: scene-state-change:reversal-mid -> renunciation becomes the only form of leadership left to her
 ref: scene-introduction:reversal-1 -> Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
 ref: scene-development:reversal-1 -> If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
+ref: scene-conflict:reversal-1 -> Maeron controls the ceremony platform, the guards, and the valley's fear
+ref: scene-resolution:reversal-1-mid -> Neris finally knows what must be sacrificed and what must be preserved
+ref: scene-state-change:reversal-1-mid -> Neris finally knows what must be sacrificed and what must be preserved
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the magical cost visible in action and atmosphere
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-02-01 refine
-ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
-ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:reversal-1-0 -> Ward breach at the mountain gate
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:reversal-support-1-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-02-02 refine
-ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
-ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
-ref: dialogue-line-hint:reversal-1-1 -> Ward breach at the mountain gate
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:reversal-protagonist-1-1 -> Neris finally knows what must be sacrificed and what must be preserved
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-02-03 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:reversal-1-2 -> Ward breach at the mountain gate
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:reversal-support-1-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-02-04 refine
-ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
-ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:reversal-1-3 -> Ward breach at the mountain gate
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:reversal-pressure-1-3 -> If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-006-03 refine
-ref: scene-conflict:reversal -> If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
-ref: scene-resolution:reversal-mid -> She decides to break the binding ceremony and speak the hidden names during the next warding chant.
-ref: scene-state-change:reversal-mid -> renunciation becomes the only form of leadership left to her
 ref: scene-introduction:reversal-2 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
 ref: scene-development:reversal-2 -> truth reveals itself as the missing element in the valley's defense
+ref: scene-conflict:reversal-2 -> truth reveals itself as the missing element in the valley's defense
+ref: scene-resolution:reversal-2-mid -> renunciation becomes the only form of leadership left to her
+ref: scene-state-change:reversal-2-mid -> She decides to break the binding ceremony and speak the hidden names during the next warding chant.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the magical cost visible in action and atmosphere
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-03-01 refine
-ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
-ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:reversal-2-0 -> Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:reversal-support-2-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
@@ -678,36 +678,36 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-006-03-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:reversal-2-1 -> Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+ref: dialogue-line-hint:reversal-protagonist-2-1 -> Ward breach at the mountain gate
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-03-03 refine
-ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
-ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:reversal-2-2 -> Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:reversal-support-2-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-03-04 refine
-ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
-ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:reversal-2-3 -> Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:reversal-pressure-2-3 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-006-04 refine
-ref: scene-conflict:reversal -> If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
-ref: scene-resolution:reversal-mid -> She decides to break the binding ceremony and speak the hidden names during the next warding chant.
-ref: scene-state-change:reversal-mid -> renunciation becomes the only form of leadership left to her
-ref: scene-introduction:reversal-3 -> A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
-ref: scene-development:reversal-3 -> Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+ref: scene-introduction:reversal-3 -> She decides to break the binding ceremony and speak the hidden names during the next warding chant.
+ref: scene-development:reversal-3 -> replace coerced obedience with a protection the valley chooses knowingly
+ref: scene-conflict:reversal-3 -> replace coerced obedience with a protection the valley chooses knowingly
+ref: scene-resolution:reversal-3-mid -> truth reveals itself as the missing element in the valley's defense
+ref: scene-state-change:reversal-3-mid -> truth reveals itself as the missing element in the valley's defense
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the magical cost visible in action and atmosphere
@@ -716,16 +716,16 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-006-04-01 refine
 ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
 ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
-ref: dialogue-line-hint:reversal-3-0 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: dialogue-line-hint:reversal-support-3-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-04-02 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:reversal-3-1 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:reversal-protagonist-3-1 -> She decides to break the binding ceremony and speak the hidden names during the next warding chant.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
@@ -734,110 +734,110 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-006-04-03 refine
 ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
 ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
-ref: dialogue-line-hint:reversal-3-2 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: dialogue-line-hint:reversal-support-3-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-04-04 refine
-ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
-ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:reversal-3-3 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:reversal-pressure-3-3 -> truth reveals itself as the missing element in the valley's defense
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-006-05 refine
-ref: scene-conflict:reversal -> If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
-ref: scene-resolution:reversal-mid -> She decides to break the binding ceremony and speak the hidden names during the next warding chant.
-ref: scene-state-change:reversal-mid -> renunciation becomes the only form of leadership left to her
-ref: scene-introduction:reversal-4 -> A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
-ref: scene-development:reversal-4 -> Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+ref: scene-introduction:reversal-4 -> Ward breach at the mountain gate
+ref: scene-development:reversal-4 -> Neris finally knows what must be sacrificed and what must be preserved
+ref: scene-conflict:reversal-4 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: scene-resolution:reversal-4-mid -> Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
+ref: scene-state-change:reversal-4-mid -> If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the magical cost visible in action and atmosphere
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-05-01 refine
-ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
-ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
-ref: dialogue-line-hint:reversal-4-0 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:reversal-support-4-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-05-02 refine
-ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
-ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
-ref: dialogue-line-hint:reversal-4-1 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:reversal-protagonist-4-1 -> A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-05-03 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:reversal-4-2 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:reversal-support-4-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-05-04 refine
-ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
-ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:reversal-4-3 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:reversal-pressure-4-3 -> Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-006-06 refine
-ref: scene-conflict:reversal -> If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
 ref: scene-introduction:reversal-5 -> A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.
 ref: scene-development:reversal-5 -> Neris realizes the ward responds more strongly to named truth than to repeated liturgy.
-ref: scene-resolution:reversal-final -> She decides to break the binding ceremony and speak the hidden names during the next warding chant.
-ref: scene-state-change:reversal-final -> renunciation becomes the only form of leadership left to her
+ref: scene-conflict:reversal-5 -> If she reveals the rite publicly, panic may shatter the valley before she can reforge the protection honestly.
+ref: scene-resolution:reversal-5-final -> She decides to break the binding ceremony and speak the hidden names during the next warding chant.
+ref: scene-state-change:reversal-5-final -> renunciation becomes the only form of leadership left to her
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the magical cost visible in action and atmosphere
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-06-01 refine
-ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
-ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:reversal-5-0 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:reversal-support-5-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-06-02 refine
-ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
-ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:reversal-5-1 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:reversal-protagonist-5-1 -> replace coerced obedience with a protection the valley chooses knowingly
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-06-03 refine
-ref: dialogue-subtext:tease-probe -> uses wit to test whether the wound can be named safely
-ref: dialogue-reaction:tease-probe -> The joke opens a bruise neither speaker can ignore now.
-ref: dialogue-line-hint:reversal-5-2 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:reversal-support-5-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-006-06-04 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:reversal-5-3 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:reversal-pressure-5-3 -> Maeron controls the ceremony platform, the guards, and the valley's fear
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make the speech feel ritual, material, and costly at once
@@ -851,21 +851,21 @@ should: anchor wonder in material detail, cost, and consequence
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @suspense-006-core refine
-ref: suspense-uncertainty:reversal -> Can Neris free the valley from her family's vow without leaving it defenseless against the cost the vow once contained?
+ref: suspense-uncertainty:reversal-5 -> truth reveals itself as the missing element in the valley's defense
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: anchor wonder in material detail, cost, and consequence
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @pause-006-core refine
-ref: pause-focus:reversal -> renunciation becomes the only form of leadership left to her
+ref: pause-focus:reversal-5 -> renunciation becomes the only form of leadership left to her
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: alternate wonder, cost, and decisive movement deliberately
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @acceleration-006-core refine
-ref: acceleration-trigger:reversal -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
+ref: acceleration-trigger:reversal-5 -> the winter spirit retreats only when Neris names one of the forgotten dead aloud
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: alternate wonder, cost, and decisive movement deliberately

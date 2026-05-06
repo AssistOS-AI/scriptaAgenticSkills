@@ -11,10 +11,10 @@ closing-mode: cliffhanger
 handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-002
 thematic-focus: love-connection under transformation pressure
 rhythm-note: escalating
-chapter-question: {{chapter-question:escalation}}
-answer-shift: {{answer-shift:romance-relational}}
+chapter-question: {{chapter-question:escalation-1}}
+answer-shift: {{answer-shift:romance-relational-escalation-1}}
 arc-stage: pressure-rise
-world-pressure: {{world-pressure:escalation}}
+world-pressure: {{world-pressure:escalation-1}}
 location-focus: $location-primary
 block-alternation: dialogue-description-interior-monologue-action-pause-dialogue-cliffhanger
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.

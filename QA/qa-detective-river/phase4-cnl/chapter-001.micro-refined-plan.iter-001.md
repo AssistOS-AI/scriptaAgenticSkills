@@ -26,7 +26,7 @@ chapter: $chapter-001
 rule-reference: $world-rule-primary
 visible-symptom: logs are complete on paper but physically impossible when matched against the river timing
 action-limitation: Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
-conflict-output: every lawful request alerts the people most interested in erasing the answer
+conflict-output: the precinct has already reassigned the scene file to property damage review
 reveal-pattern: show-consequence-first-explain-cause-later
 
 @arc-001-protagonist map
@@ -70,7 +70,7 @@ scene: $scene-001-01
 actor: $character-protagonist-001
 goal: preserve the physical inconsistency before it is corrected in the paperwork
 obstacle: the precinct has already reassigned the scene file to property damage review
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+result: the accidental drowning becomes a timed contradiction
 
 @conflict-001-1 place
 scope: $scene-001-01
@@ -99,7 +99,7 @@ scene: $scene-001-01
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: the body shows wrist abrasions inconsistent with drifting debris
+line-hint: preserve the physical inconsistency before it is corrected in the paperwork
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-001-01-03 line
@@ -115,7 +115,7 @@ scene: $scene-001-01
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: the body shows wrist abrasions inconsistent with drifting debris
+line-hint: the precinct has already reassigned the scene file to property damage review
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-001-02 define
@@ -125,35 +125,35 @@ focalization: internal-single
 time-space: $location-secondary
 introduction: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
 development: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
-conflict: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
-resolution: Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
+conflict: the precinct has already reassigned the scene file to property damage review
+resolution: Nadia has enough doubt to justify disobedience
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-002, $character-support-003, $character-pressure-001
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-002
-state-change: the accidental drowning becomes a timed contradiction
+state-change: Nadia has enough doubt to justify disobedience
 
 @action-001-2 place
 action-mode: revelation-act
 scene: $scene-001-02
 actor: $character-protagonist-001
 goal: Nadia has enough doubt to justify disobedience
-obstacle: the precinct has already reassigned the scene file to property damage review
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
+result: Nadia has enough doubt to justify disobedience
 
 @conflict-001-2 place
 scope: $scene-001-02
 type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
-escalation: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+escalation: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
 
 @event-001-2 trigger
 scope: $scene-001-02
 event-type: deadline
-trigger: the body shows wrist abrasions inconsistent with drifting debris
-impact: cause-of-death certainty is replaced by a procedural hole
-follow-through: Nadia has enough doubt to justify disobedience
+trigger: Autopsy against the report
+impact: the accidental drowning becomes a timed contradiction
+follow-through: the accidental drowning becomes a timed contradiction
 
 @dialogue-turn-001-02-01 line
 scene: $scene-001-02
@@ -168,7 +168,7 @@ scene: $scene-001-02
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: Autopsy against the report
+line-hint: Nadia has enough doubt to justify disobedience
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-001-02-03 line
@@ -184,7 +184,7 @@ scene: $scene-001-02
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: Autopsy against the report
+line-hint: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-001-03 define
@@ -194,35 +194,35 @@ focalization: internal-single
 time-space: $location-tertiary-001
 introduction: the body shows wrist abrasions inconsistent with drifting debris
 development: cause-of-death certainty is replaced by a procedural hole
-conflict: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
-resolution: Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
+conflict: cause-of-death certainty is replaced by a procedural hole
+resolution: the accidental drowning becomes a timed contradiction
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-003
 anchor-object: $plot-element-core-object
 support-focus: $character-support-003
-state-change: the accidental drowning becomes a timed contradiction
+state-change: Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
 
 @action-001-3 place
 action-mode: negotiation
 scene: $scene-001-03
 actor: $character-protagonist-001
 goal: Autopsy against the report
-obstacle: the precinct has already reassigned the scene file to property damage review
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: the body shows wrist abrasions inconsistent with drifting debris
+result: Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
 
 @conflict-001-3 place
 scope: $scene-001-03
 type: mixed
 forces: $character-protagonist-001 versus $character-support-003
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
-escalation: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+escalation: cause-of-death certainty is replaced by a procedural hole
 
 @event-001-3 trigger
 scope: $scene-001-03
 event-type: reversal
-trigger: the body shows wrist abrasions inconsistent with drifting debris
-impact: cause-of-death certainty is replaced by a procedural hole
-follow-through: Nadia has enough doubt to justify disobedience
+trigger: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+impact: Nadia has enough doubt to justify disobedience
+follow-through: Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
 
 @dialogue-turn-001-03-01 line
 scene: $scene-001-03
@@ -237,7 +237,7 @@ scene: $scene-001-03
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+line-hint: Autopsy against the report
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-001-03-03 line
@@ -253,7 +253,7 @@ scene: $scene-001-03
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+line-hint: the body shows wrist abrasions inconsistent with drifting debris
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-001-04 define
@@ -261,37 +261,37 @@ chapter: $chapter-001
 showing-mode: dialogic
 focalization: internal-single
 time-space: $location-primary
-introduction: Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.
-development: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
-conflict: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
-resolution: Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
+introduction: Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
+development: preserve the physical inconsistency before it is corrected in the paperwork
+conflict: preserve the physical inconsistency before it is corrected in the paperwork
+resolution: cause-of-death certainty is replaced by a procedural hole
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-001, $character-support-002
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-001
-state-change: the accidental drowning becomes a timed contradiction
+state-change: cause-of-death certainty is replaced by a procedural hole
 
 @action-001-4 place
 action-mode: negotiation
 scene: $scene-001-04
 actor: $character-protagonist-001
-goal: preserve the physical inconsistency before it is corrected in the paperwork
-obstacle: the precinct has already reassigned the scene file to property damage review
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+goal: Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
+obstacle: cause-of-death certainty is replaced by a procedural hole
+result: cause-of-death certainty is replaced by a procedural hole
 
 @conflict-001-4 place
 scope: $scene-001-04
 type: external-character
 forces: $character-protagonist-001 versus $character-support-002
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
-escalation: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+escalation: preserve the physical inconsistency before it is corrected in the paperwork
 
 @event-001-4 trigger
 scope: $scene-001-04
 event-type: reversal
-trigger: the body shows wrist abrasions inconsistent with drifting debris
-impact: cause-of-death certainty is replaced by a procedural hole
-follow-through: Nadia has enough doubt to justify disobedience
+trigger: Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.
+impact: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
+follow-through: cause-of-death certainty is replaced by a procedural hole
 
 @dialogue-turn-001-04-01 line
 scene: $scene-001-04
@@ -306,7 +306,7 @@ scene: $scene-001-04
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: the body shows wrist abrasions inconsistent with drifting debris
+line-hint: Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-001-04-03 line
@@ -322,7 +322,7 @@ scene: $scene-001-04
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: the body shows wrist abrasions inconsistent with drifting debris
+line-hint: cause-of-death certainty is replaced by a procedural hole
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-001-05 define
@@ -330,37 +330,37 @@ chapter: $chapter-001
 showing-mode: dialogic
 focalization: internal-single
 time-space: $location-secondary
-introduction: Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.
-development: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
-conflict: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
-resolution: Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
+introduction: Autopsy against the report
+development: Nadia has enough doubt to justify disobedience
+conflict: the body shows wrist abrasions inconsistent with drifting debris
+resolution: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-002, $character-pressure-001
 anchor-object: $plot-element-core-object
 support-focus: $character-support-002
-state-change: the accidental drowning becomes a timed contradiction
+state-change: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
 
 @action-001-5 place
 action-mode: negotiation
 scene: $scene-001-05
 actor: $character-protagonist-001
-goal: preserve the physical inconsistency before it is corrected in the paperwork
-obstacle: the precinct has already reassigned the scene file to property damage review
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+goal: Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.
+obstacle: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+result: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
 
 @conflict-001-5 place
 scope: $scene-001-05
 type: external-character
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
-escalation: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+escalation: Nadia has enough doubt to justify disobedience
 
 @event-001-5 trigger
 scope: $scene-001-05
 event-type: arrival
-trigger: the body shows wrist abrasions inconsistent with drifting debris
-impact: cause-of-death certainty is replaced by a procedural hole
-follow-through: Nadia has enough doubt to justify disobedience
+trigger: the precinct has already reassigned the scene file to property damage review
+impact: Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
+follow-through: preserve the physical inconsistency before it is corrected in the paperwork
 
 @dialogue-turn-001-05-01 line
 scene: $scene-001-05
@@ -375,7 +375,7 @@ scene: $scene-001-05
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: the body shows wrist abrasions inconsistent with drifting debris
+line-hint: Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-001-05-03 line
@@ -391,7 +391,7 @@ scene: $scene-001-05
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: the body shows wrist abrasions inconsistent with drifting debris
+line-hint: The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-001-06 define
@@ -444,7 +444,7 @@ scene: $scene-001-06
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: the body shows wrist abrasions inconsistent with drifting debris
+line-hint: preserve the physical inconsistency before it is corrected in the paperwork
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-001-06-03 line
@@ -460,7 +460,7 @@ scene: $scene-001-06
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: the body shows wrist abrasions inconsistent with drifting debris
+line-hint: the precinct has already reassigned the scene file to property damage review
 reaction-beat: The challenge strips politeness away from the scene.
 
 @description-001-atmosphere apply
@@ -493,7 +493,7 @@ texture: fragmented
 @suspense-001-core build
 scope: $chapter-001
 suspense-type: cognitive
-uncertainty: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
+uncertainty: cause-of-death certainty is replaced by a procedural hole
 delay-technique: delayed-information
 payoff-zone: event-001-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
@@ -531,7 +531,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @rule-pressure-001-core refine
 ref: visible-symptom:setup -> logs are complete on paper but physically impossible when matched against the river timing
 ref: action-limitation:setup -> Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
-ref: conflict-output-rule:setup -> every lawful request alerts the people most interested in erasing the answer
+ref: conflict-output-rule:setup -> the precinct has already reassigned the scene file to property damage review
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make rules generate clue pressure and institutional obstruction
@@ -564,9 +564,9 @@ The refined artifact preserves identifier continuity so deterministic validation
 @scene-001-01 refine
 ref: scene-introduction:setup-0 -> Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.
 ref: scene-development:setup-0 -> The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
-ref: scene-conflict:setup -> Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
-ref: scene-resolution:setup-mid -> Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
-ref: scene-state-change:setup-mid -> the accidental drowning becomes a timed contradiction
+ref: scene-conflict:setup-0 -> Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
+ref: scene-resolution:setup-0-mid -> Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
+ref: scene-state-change:setup-0-mid -> the accidental drowning becomes a timed contradiction
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -583,7 +583,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 
 @dialogue-turn-001-01-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
-ref: dialogue-line-hint:setup-protagonist-0-1 -> the body shows wrist abrasions inconsistent with drifting debris
+ref: dialogue-line-hint:setup-protagonist-0-1 -> preserve the physical inconsistency before it is corrected in the paperwork
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
@@ -601,7 +601,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 
 @dialogue-turn-001-01-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
-ref: dialogue-line-hint:setup-pressure-0-3 -> the body shows wrist abrasions inconsistent with drifting debris
+ref: dialogue-line-hint:setup-pressure-0-3 -> the precinct has already reassigned the scene file to property damage review
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
@@ -609,11 +609,11 @@ should: keep the speech procedural on the surface while letting leverage and dan
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-001-02 refine
-ref: scene-conflict:setup -> Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
-ref: scene-resolution:setup-mid -> Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
-ref: scene-state-change:setup-mid -> the accidental drowning becomes a timed contradiction
 ref: scene-introduction:setup-1 -> The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
 ref: scene-development:setup-1 -> Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
+ref: scene-conflict:setup-1 -> the precinct has already reassigned the scene file to property damage review
+ref: scene-resolution:setup-1-mid -> Nadia has enough doubt to justify disobedience
+ref: scene-state-change:setup-1-mid -> Nadia has enough doubt to justify disobedience
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -631,7 +631,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-001-02-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:setup-protagonist-1-1 -> Autopsy against the report
+ref: dialogue-line-hint:setup-protagonist-1-1 -> Nadia has enough doubt to justify disobedience
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -649,18 +649,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-001-02-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:setup-pressure-1-3 -> Autopsy against the report
+ref: dialogue-line-hint:setup-pressure-1-3 -> Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-001-03 refine
-ref: scene-conflict:setup -> Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
-ref: scene-resolution:setup-mid -> Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
-ref: scene-state-change:setup-mid -> the accidental drowning becomes a timed contradiction
 ref: scene-introduction:setup-2 -> the body shows wrist abrasions inconsistent with drifting debris
 ref: scene-development:setup-2 -> cause-of-death certainty is replaced by a procedural hole
+ref: scene-conflict:setup-2 -> cause-of-death certainty is replaced by a procedural hole
+ref: scene-resolution:setup-2-mid -> the accidental drowning becomes a timed contradiction
+ref: scene-state-change:setup-2-mid -> Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -678,7 +678,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-001-03-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:setup-protagonist-2-1 -> The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+ref: dialogue-line-hint:setup-protagonist-2-1 -> Autopsy against the report
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -696,18 +696,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-001-03-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:setup-pressure-2-3 -> The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+ref: dialogue-line-hint:setup-pressure-2-3 -> the body shows wrist abrasions inconsistent with drifting debris
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-001-04 refine
-ref: scene-conflict:setup -> Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
-ref: scene-resolution:setup-mid -> Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
-ref: scene-state-change:setup-mid -> the accidental drowning becomes a timed contradiction
-ref: scene-introduction:setup-3 -> Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.
-ref: scene-development:setup-3 -> The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+ref: scene-introduction:setup-3 -> Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
+ref: scene-development:setup-3 -> preserve the physical inconsistency before it is corrected in the paperwork
+ref: scene-conflict:setup-3 -> preserve the physical inconsistency before it is corrected in the paperwork
+ref: scene-resolution:setup-3-mid -> cause-of-death certainty is replaced by a procedural hole
+ref: scene-state-change:setup-3-mid -> cause-of-death certainty is replaced by a procedural hole
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -725,7 +725,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-001-04-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:setup-protagonist-3-1 -> the body shows wrist abrasions inconsistent with drifting debris
+ref: dialogue-line-hint:setup-protagonist-3-1 -> Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -743,18 +743,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-001-04-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:setup-pressure-3-3 -> the body shows wrist abrasions inconsistent with drifting debris
+ref: dialogue-line-hint:setup-pressure-3-3 -> cause-of-death certainty is replaced by a procedural hole
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-001-05 refine
-ref: scene-conflict:setup -> Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
-ref: scene-resolution:setup-mid -> Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
-ref: scene-state-change:setup-mid -> the accidental drowning becomes a timed contradiction
-ref: scene-introduction:setup-4 -> Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.
-ref: scene-development:setup-4 -> The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+ref: scene-introduction:setup-4 -> Autopsy against the report
+ref: scene-development:setup-4 -> Nadia has enough doubt to justify disobedience
+ref: scene-conflict:setup-4 -> the body shows wrist abrasions inconsistent with drifting debris
+ref: scene-resolution:setup-4-mid -> The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
+ref: scene-state-change:setup-4-mid -> Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -772,7 +772,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-001-05-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:setup-protagonist-4-1 -> the body shows wrist abrasions inconsistent with drifting debris
+ref: dialogue-line-hint:setup-protagonist-4-1 -> Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -790,18 +790,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-001-05-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:setup-pressure-4-3 -> the body shows wrist abrasions inconsistent with drifting debris
+ref: dialogue-line-hint:setup-pressure-4-3 -> The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-001-06 refine
-ref: scene-conflict:setup -> Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
 ref: scene-introduction:setup-5 -> Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.
 ref: scene-development:setup-5 -> The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.
-ref: scene-resolution:setup-final -> Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
-ref: scene-state-change:setup-final -> the accidental drowning becomes a timed contradiction
+ref: scene-conflict:setup-5 -> Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
+ref: scene-resolution:setup-5-final -> Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.
+ref: scene-state-change:setup-5-final -> the accidental drowning becomes a timed contradiction
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -819,7 +819,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-001-06-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:setup-protagonist-5-1 -> the body shows wrist abrasions inconsistent with drifting debris
+ref: dialogue-line-hint:setup-protagonist-5-1 -> preserve the physical inconsistency before it is corrected in the paperwork
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -837,7 +837,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-001-06-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:setup-pressure-5-3 -> the body shows wrist abrasions inconsistent with drifting debris
+ref: dialogue-line-hint:setup-pressure-5-3 -> the precinct has already reassigned the scene file to property damage review
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -851,21 +851,21 @@ should: prefer clean procedural detail over melodramatic explanation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @suspense-001-core refine
-ref: suspense-uncertainty:setup -> Can Nadia prove murder before procedure itself is used to wash the evidence clean?
+ref: suspense-uncertainty:setup-0 -> cause-of-death certainty is replaced by a procedural hole
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: prefer clean procedural detail over melodramatic explanation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @pause-001-core refine
-ref: pause-focus:setup -> the accidental drowning becomes a timed contradiction
+ref: pause-focus:setup-0 -> the accidental drowning becomes a timed contradiction
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pacing to alternate clue logic, danger, and institutional tension
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @acceleration-001-core refine
-ref: acceleration-trigger:setup -> the body shows wrist abrasions inconsistent with drifting debris
+ref: acceleration-trigger:setup-0 -> the body shows wrist abrasions inconsistent with drifting debris
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pacing to alternate clue logic, danger, and institutional tension

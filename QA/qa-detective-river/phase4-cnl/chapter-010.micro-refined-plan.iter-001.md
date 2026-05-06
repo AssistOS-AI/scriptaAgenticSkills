@@ -26,7 +26,7 @@ chapter: $chapter-010
 rule-reference: $world-rule-primary
 visible-symptom: logs are complete on paper but physically impossible when matched against the river timing
 action-limitation: Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
-conflict-output: every lawful request alerts the people most interested in erasing the answer
+conflict-output: the only lawful reporting channel leads back to Soren's office
 reveal-pattern: embed-rule-in-dialogue
 
 @arc-010-protagonist map
@@ -70,7 +70,7 @@ scene: $scene-010-01
 actor: $character-protagonist-001
 goal: separate proof of murder from the police pathway designed to bury it
 obstacle: the only lawful reporting channel leads back to Soren's office
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+result: the investigation turns from hidden search into institutional showdown
 
 @conflict-010-1 place
 scope: $scene-010-01
@@ -99,7 +99,7 @@ scene: $scene-010-01
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+line-hint: separate proof of murder from the police pathway designed to bury it
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-010-01-03 line
@@ -115,7 +115,7 @@ scene: $scene-010-01
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+line-hint: the only lawful reporting channel leads back to Soren's office
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-010-02 define
@@ -125,35 +125,35 @@ focalization: internal-single
 time-space: $location-tertiary-003
 introduction: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
 development: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
-conflict: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
-resolution: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
+conflict: the only lawful reporting channel leads back to Soren's office
+resolution: Nadia can now accuse the precinct itself of obstruction
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-001, $character-support-002, $character-pressure-001
 anchor-object: $plot-element-core-object
 support-focus: $character-support-001
-state-change: the investigation turns from hidden search into institutional showdown
+state-change: Nadia can now accuse the precinct itself of obstruction
 
 @action-010-2 place
 action-mode: revelation-act
 scene: $scene-010-02
 actor: $character-protagonist-001
 goal: Nadia can now accuse the precinct itself of obstruction
-obstacle: the only lawful reporting channel leads back to Soren's office
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+result: Nadia can now accuse the precinct itself of obstruction
 
 @conflict-010-2 place
 scope: $scene-010-02
 type: external-nature
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
-escalation: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+escalation: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
 
 @event-010-2 trigger
 scope: $scene-010-02
 event-type: reversal
-trigger: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-impact: murder, not drowning, becomes the central fact
-follow-through: Nadia can now accuse the precinct itself of obstruction
+trigger: Diversion beneath the spillway
+impact: the investigation turns from hidden search into institutional showdown
+follow-through: the investigation turns from hidden search into institutional showdown
 
 @dialogue-turn-010-02-01 line
 scene: $scene-010-02
@@ -168,7 +168,7 @@ scene: $scene-010-02
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: Diversion beneath the spillway
+line-hint: Nadia can now accuse the precinct itself of obstruction
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-010-02-03 line
@@ -184,7 +184,7 @@ scene: $scene-010-02
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: Diversion beneath the spillway
+line-hint: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-010-03 define
@@ -194,35 +194,35 @@ focalization: internal-single
 time-space: $location-tertiary-004
 introduction: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 development: murder, not drowning, becomes the central fact
-conflict: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
-resolution: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
+conflict: murder, not drowning, becomes the central fact
+resolution: the investigation turns from hidden search into institutional showdown
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-002
 anchor-object: $plot-element-secondary-004
 support-focus: $character-support-002
-state-change: the investigation turns from hidden search into institutional showdown
+state-change: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
 
 @action-010-3 place
 action-mode: revelation-act
 scene: $scene-010-03
 actor: $character-protagonist-001
 goal: Diversion beneath the spillway
-obstacle: the only lawful reporting channel leads back to Soren's office
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+result: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
 
 @conflict-010-3 place
 scope: $scene-010-03
 type: internal
 forces: $character-protagonist-001 versus $character-support-002
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
-escalation: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+escalation: murder, not drowning, becomes the central fact
 
 @event-010-3 trigger
 scope: $scene-010-03
 event-type: deadline
-trigger: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-impact: murder, not drowning, becomes the central fact
-follow-through: Nadia can now accuse the precinct itself of obstruction
+trigger: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+impact: Nadia can now accuse the precinct itself of obstruction
+follow-through: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
 
 @dialogue-turn-010-03-01 line
 scene: $scene-010-03
@@ -237,7 +237,7 @@ scene: $scene-010-03
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+line-hint: Diversion beneath the spillway
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-010-03-03 line
@@ -253,7 +253,7 @@ scene: $scene-010-03
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-010-04 define
@@ -261,37 +261,37 @@ chapter: $chapter-010
 showing-mode: mixed
 focalization: internal-single
 time-space: $location-tertiary-002
-introduction: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
-development: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
-conflict: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
-resolution: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
+introduction: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
+development: separate proof of murder from the police pathway designed to bury it
+conflict: separate proof of murder from the police pathway designed to bury it
+resolution: murder, not drowning, becomes the central fact
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-005, $character-support-001
 anchor-object: $plot-element-core-object
 support-focus: $character-support-005
-state-change: the investigation turns from hidden search into institutional showdown
+state-change: murder, not drowning, becomes the central fact
 
 @action-010-4 place
 action-mode: negotiation
 scene: $scene-010-04
 actor: $character-protagonist-001
-goal: separate proof of murder from the police pathway designed to bury it
-obstacle: the only lawful reporting channel leads back to Soren's office
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+goal: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
+obstacle: murder, not drowning, becomes the central fact
+result: murder, not drowning, becomes the central fact
 
 @conflict-010-4 place
 scope: $scene-010-04
 type: external-nature
 forces: $character-protagonist-001 versus $character-support-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
-escalation: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+escalation: separate proof of murder from the police pathway designed to bury it
 
 @event-010-4 trigger
 scope: $scene-010-04
 event-type: betrayal
-trigger: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-impact: murder, not drowning, becomes the central fact
-follow-through: Nadia can now accuse the precinct itself of obstruction
+trigger: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
+impact: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+follow-through: murder, not drowning, becomes the central fact
 
 @dialogue-turn-010-04-01 line
 scene: $scene-010-04
@@ -306,7 +306,7 @@ scene: $scene-010-04
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+line-hint: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-010-04-03 line
@@ -322,7 +322,7 @@ scene: $scene-010-04
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+line-hint: murder, not drowning, becomes the central fact
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-010-05 define
@@ -330,37 +330,37 @@ chapter: $chapter-010
 showing-mode: dialogic
 focalization: internal-single
 time-space: $location-tertiary-003
-introduction: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
-development: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
-conflict: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
-resolution: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
+introduction: Diversion beneath the spillway
+development: Nadia can now accuse the precinct itself of obstruction
+conflict: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+resolution: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-001, $character-pressure-001
 anchor-object: $plot-element-secondary-004
 support-focus: $character-support-001
-state-change: the investigation turns from hidden search into institutional showdown
+state-change: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
 
 @action-010-5 place
 action-mode: pursuit
 scene: $scene-010-05
 actor: $character-protagonist-001
-goal: separate proof of murder from the police pathway designed to bury it
-obstacle: the only lawful reporting channel leads back to Soren's office
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+goal: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
+obstacle: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+result: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
 
 @conflict-010-5 place
 scope: $scene-010-05
 type: external-nature
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
-escalation: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+escalation: Nadia can now accuse the precinct itself of obstruction
 
 @event-010-5 trigger
 scope: $scene-010-05
 event-type: reversal
-trigger: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-impact: murder, not drowning, becomes the central fact
-follow-through: Nadia can now accuse the precinct itself of obstruction
+trigger: the only lawful reporting channel leads back to Soren's office
+impact: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
+follow-through: separate proof of murder from the police pathway designed to bury it
 
 @dialogue-turn-010-05-01 line
 scene: $scene-010-05
@@ -375,7 +375,7 @@ scene: $scene-010-05
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+line-hint: At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-010-05-03 line
@@ -391,7 +391,7 @@ scene: $scene-010-05
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+line-hint: Theo realizes the victim was killed during a meeting about the lock privatization signatures.
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-010-06 define
@@ -444,7 +444,7 @@ scene: $scene-010-06
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+line-hint: separate proof of murder from the police pathway designed to bury it
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-010-06-03 line
@@ -460,7 +460,7 @@ scene: $scene-010-06
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+line-hint: the only lawful reporting channel leads back to Soren's office
 reaction-beat: The challenge strips politeness away from the scene.
 
 @description-010-atmosphere apply
@@ -493,7 +493,7 @@ texture: fragmented
 @suspense-010-core build
 scope: $chapter-010
 suspense-type: cognitive
-uncertainty: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
+uncertainty: She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
 delay-technique: delayed-information
 payoff-zone: event-010-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
@@ -501,22 +501,22 @@ Delayed access, withheld explanation, and emotional pressure should work togethe
 @pause-010-core hold
 scope: $chapter-010
 pause-function: explanatory
-focus: the investigation turns from hidden search into institutional showdown
+focus: Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-010-core burst
 scope: $chapter-010
 acceleration-mode: pursuit-compression
-trigger: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+trigger: the only lawful reporting channel leads back to Soren's office
 reader-effect: compress time and force the next consequence to land without emotional escape
 target-zone: $scene-010-06
 
 @cliffhanger-010-exit cut
 scope: $chapter-010
 cliffhanger-type: unresolved-confrontation
-cut-moment: the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
-continuation-pressure: Nadia can now accuse the precinct itself of obstruction
+cut-moment: the only lawful reporting channel leads back to Soren's office
+continuation-pressure: separate proof of murder from the police pathway designed to bury it
 
 @location-010-anchor refine
 ref: sensory-anchor:location-primary -> diesel sheen, wet rope, fluorescent glare on metal trays
@@ -531,7 +531,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @rule-pressure-010-core refine
 ref: visible-symptom:revelation -> logs are complete on paper but physically impossible when matched against the river timing
 ref: action-limitation:revelation -> Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
-ref: conflict-output-rule:revelation -> every lawful request alerts the people most interested in erasing the answer
+ref: conflict-output-rule:revelation -> the only lawful reporting channel leads back to Soren's office
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make rules generate clue pressure and institutional obstruction
@@ -564,9 +564,9 @@ The refined artifact preserves identifier continuity so deterministic validation
 @scene-010-01 refine
 ref: scene-introduction:revelation-0 -> At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
 ref: scene-development:revelation-0 -> Theo realizes the victim was killed during a meeting about the lock privatization signatures.
-ref: scene-conflict:revelation -> Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
-ref: scene-resolution:revelation-mid -> She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
-ref: scene-state-change:revelation-mid -> the investigation turns from hidden search into institutional showdown
+ref: scene-conflict:revelation-0 -> Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+ref: scene-resolution:revelation-0-mid -> She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
+ref: scene-state-change:revelation-0-mid -> the investigation turns from hidden search into institutional showdown
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -584,7 +584,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-010-01-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:revelation-protagonist-0-1 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-line-hint:revelation-protagonist-0-1 -> separate proof of murder from the police pathway designed to bury it
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -602,18 +602,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-010-01-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:revelation-pressure-0-3 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-line-hint:revelation-pressure-0-3 -> the only lawful reporting channel leads back to Soren's office
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-010-02 refine
-ref: scene-conflict:revelation -> Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
-ref: scene-resolution:revelation-mid -> She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
-ref: scene-state-change:revelation-mid -> the investigation turns from hidden search into institutional showdown
 ref: scene-introduction:revelation-1 -> Theo realizes the victim was killed during a meeting about the lock privatization signatures.
 ref: scene-development:revelation-1 -> Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+ref: scene-conflict:revelation-1 -> the only lawful reporting channel leads back to Soren's office
+ref: scene-resolution:revelation-1-mid -> Nadia can now accuse the precinct itself of obstruction
+ref: scene-state-change:revelation-1-mid -> Nadia can now accuse the precinct itself of obstruction
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -631,7 +631,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-010-02-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:revelation-protagonist-1-1 -> Diversion beneath the spillway
+ref: dialogue-line-hint:revelation-protagonist-1-1 -> Nadia can now accuse the precinct itself of obstruction
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -649,18 +649,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-010-02-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:revelation-pressure-1-3 -> Diversion beneath the spillway
+ref: dialogue-line-hint:revelation-pressure-1-3 -> Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-010-03 refine
-ref: scene-conflict:revelation -> Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
-ref: scene-resolution:revelation-mid -> She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
-ref: scene-state-change:revelation-mid -> the investigation turns from hidden search into institutional showdown
 ref: scene-introduction:revelation-2 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 ref: scene-development:revelation-2 -> murder, not drowning, becomes the central fact
+ref: scene-conflict:revelation-2 -> murder, not drowning, becomes the central fact
+ref: scene-resolution:revelation-2-mid -> the investigation turns from hidden search into institutional showdown
+ref: scene-state-change:revelation-2-mid -> She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -678,7 +678,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-010-03-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:revelation-protagonist-2-1 -> Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+ref: dialogue-line-hint:revelation-protagonist-2-1 -> Diversion beneath the spillway
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -696,18 +696,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-010-03-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:revelation-pressure-2-3 -> Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+ref: dialogue-line-hint:revelation-pressure-2-3 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-010-04 refine
-ref: scene-conflict:revelation -> Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
-ref: scene-resolution:revelation-mid -> She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
-ref: scene-state-change:revelation-mid -> the investigation turns from hidden search into institutional showdown
-ref: scene-introduction:revelation-3 -> At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
-ref: scene-development:revelation-3 -> Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+ref: scene-introduction:revelation-3 -> She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
+ref: scene-development:revelation-3 -> separate proof of murder from the police pathway designed to bury it
+ref: scene-conflict:revelation-3 -> separate proof of murder from the police pathway designed to bury it
+ref: scene-resolution:revelation-3-mid -> murder, not drowning, becomes the central fact
+ref: scene-state-change:revelation-3-mid -> murder, not drowning, becomes the central fact
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -725,7 +725,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-010-04-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:revelation-protagonist-3-1 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-line-hint:revelation-protagonist-3-1 -> She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -743,18 +743,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-010-04-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:revelation-pressure-3-3 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-line-hint:revelation-pressure-3-3 -> murder, not drowning, becomes the central fact
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-010-05 refine
-ref: scene-conflict:revelation -> Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
-ref: scene-resolution:revelation-mid -> She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
-ref: scene-state-change:revelation-mid -> the investigation turns from hidden search into institutional showdown
-ref: scene-introduction:revelation-4 -> At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
-ref: scene-development:revelation-4 -> Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+ref: scene-introduction:revelation-4 -> Diversion beneath the spillway
+ref: scene-development:revelation-4 -> Nadia can now accuse the precinct itself of obstruction
+ref: scene-conflict:revelation-4 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: scene-resolution:revelation-4-mid -> Theo realizes the victim was killed during a meeting about the lock privatization signatures.
+ref: scene-state-change:revelation-4-mid -> Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -772,7 +772,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-010-05-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:revelation-protagonist-4-1 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-line-hint:revelation-protagonist-4-1 -> At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -790,18 +790,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-010-05-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:revelation-pressure-4-3 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-line-hint:revelation-pressure-4-3 -> Theo realizes the victim was killed during a meeting about the lock privatization signatures.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-010-06 refine
-ref: scene-conflict:revelation -> Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
 ref: scene-introduction:revelation-5 -> At the abandoned control room, they recover the drive case and a blood-marked retaining bolt.
 ref: scene-development:revelation-5 -> Theo realizes the victim was killed during a meeting about the lock privatization signatures.
-ref: scene-resolution:revelation-final -> She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
-ref: scene-state-change:revelation-final -> the investigation turns from hidden search into institutional showdown
+ref: scene-conflict:revelation-5 -> Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
+ref: scene-resolution:revelation-5-final -> She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
+ref: scene-state-change:revelation-5-final -> the investigation turns from hidden search into institutional showdown
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -819,7 +819,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-010-06-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:revelation-protagonist-5-1 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-line-hint:revelation-protagonist-5-1 -> separate proof of murder from the police pathway designed to bury it
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -837,7 +837,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-010-06-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:revelation-pressure-5-3 -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: dialogue-line-hint:revelation-pressure-5-3 -> the only lawful reporting channel leads back to Soren's office
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -851,21 +851,21 @@ should: prefer clean procedural detail over melodramatic explanation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @suspense-010-core refine
-ref: suspense-uncertainty:revelation -> Can Nadia prove murder before procedure itself is used to wash the evidence clean?
+ref: suspense-uncertainty:revelation-9 -> She copies the drive, then files the bolt officially so the precinct cannot deny it existed.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: prefer clean procedural detail over melodramatic explanation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @pause-010-core refine
-ref: pause-focus:revelation -> the investigation turns from hidden search into institutional showdown
+ref: pause-focus:revelation-9 -> Nadia must decide whether to log the evidence through Soren's system or leak it to the prosecutor first.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pacing to alternate clue logic, danger, and institutional tension
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @acceleration-010-core refine
-ref: acceleration-trigger:revelation -> the recovered drive contains muted footage of the victim arriving with the deputy mayor alive
+ref: acceleration-trigger:revelation-9 -> the only lawful reporting channel leads back to Soren's office
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pacing to alternate clue logic, danger, and institutional tension

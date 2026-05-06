@@ -56,35 +56,35 @@ focalization: internal-single
 time-space: $location-tertiary-004
 introduction: {{scene-introduction:reversal-0}}
 development: {{scene-development:reversal-0}}
-conflict: {{scene-conflict:reversal}}
-resolution: {{scene-resolution:reversal-mid}}
+conflict: {{scene-conflict:reversal-0}}
+resolution: {{scene-resolution:reversal-0-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-001
 anchor-object: $plot-element-core-object
 support-focus: $character-support-001
-state-change: {{scene-state-change:reversal-mid}}
+state-change: {{scene-state-change:reversal-0-mid}}
 
 @action-006-1 place
 action-mode: pursuit
 scene: $scene-006-01
 actor: $character-protagonist-001
 goal: {{action-goal:reversal-0}}
-obstacle: {{action-obstacle:reversal}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:reversal-0}}
+result: {{action-result:reversal-0-mid}}
 
 @conflict-006-1 place
 scope: $scene-006-01
 type: external-nature
 forces: $character-protagonist-001 versus $character-support-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:reversal}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-reversal-0}}
+escalation: {{conflict-escalation:reversal-0}}
 
 @event-006-1 trigger
 scope: $scene-006-01
 event-type: loss
-trigger: {{event-trigger:reversal-mid}}
-impact: {{event-impact:reversal}}
-follow-through: {{event-follow-through:reversal-mid}}
+trigger: {{event-trigger:reversal-0-mid}}
+impact: {{event-impact:reversal-0}}
+follow-through: {{event-follow-through:reversal-0-mid}}
 
 @dialogue-turn-006-01-01 line
 scene: $scene-006-01
@@ -125,35 +125,35 @@ focalization: internal-single
 time-space: $location-primary
 introduction: {{scene-introduction:reversal-1}}
 development: {{scene-development:reversal-1}}
-conflict: {{scene-conflict:reversal}}
-resolution: {{scene-resolution:reversal-mid}}
+conflict: {{scene-conflict:reversal-1}}
+resolution: {{scene-resolution:reversal-1-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-002, $character-support-003, $character-pressure-001
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-002
-state-change: {{scene-state-change:reversal-mid}}
+state-change: {{scene-state-change:reversal-1-mid}}
 
 @action-006-2 place
 action-mode: sacrifice
 scene: $scene-006-02
 actor: $character-protagonist-001
 goal: {{action-goal:reversal-1}}
-obstacle: {{action-obstacle:reversal}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:reversal-1}}
+result: {{action-result:reversal-1-mid}}
 
 @conflict-006-2 place
 scope: $scene-006-02
 type: mixed
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:reversal}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-reversal-1}}
+escalation: {{conflict-escalation:reversal-1}}
 
 @event-006-2 trigger
 scope: $scene-006-02
 event-type: revelation
-trigger: {{event-trigger:reversal-mid}}
-impact: {{event-impact:reversal}}
-follow-through: {{event-follow-through:reversal-mid}}
+trigger: {{event-trigger:reversal-1-mid}}
+impact: {{event-impact:reversal-1}}
+follow-through: {{event-follow-through:reversal-1-mid}}
 
 @dialogue-turn-006-02-01 line
 scene: $scene-006-02
@@ -194,35 +194,35 @@ focalization: internal-single
 time-space: $location-secondary
 introduction: {{scene-introduction:reversal-2}}
 development: {{scene-development:reversal-2}}
-conflict: {{scene-conflict:reversal}}
-resolution: {{scene-resolution:reversal-mid}}
+conflict: {{scene-conflict:reversal-2}}
+resolution: {{scene-resolution:reversal-2-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-003
 anchor-object: $plot-element-core-object
 support-focus: $character-support-003
-state-change: {{scene-state-change:reversal-mid}}
+state-change: {{scene-state-change:reversal-2-mid}}
 
 @action-006-3 place
 action-mode: pursuit
 scene: $scene-006-03
 actor: $character-protagonist-001
 goal: {{action-goal:reversal-2}}
-obstacle: {{action-obstacle:reversal}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:reversal-2}}
+result: {{action-result:reversal-2-mid}}
 
 @conflict-006-3 place
 scope: $scene-006-03
 type: mixed
 forces: $character-protagonist-001 versus $character-support-003
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:reversal}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-reversal-2}}
+escalation: {{conflict-escalation:reversal-2}}
 
 @event-006-3 trigger
 scope: $scene-006-03
 event-type: crime
-trigger: {{event-trigger:reversal-mid}}
-impact: {{event-impact:reversal}}
-follow-through: {{event-follow-through:reversal-mid}}
+trigger: {{event-trigger:reversal-2-mid}}
+impact: {{event-impact:reversal-2}}
+follow-through: {{event-follow-through:reversal-2-mid}}
 
 @dialogue-turn-006-03-01 line
 scene: $scene-006-03
@@ -263,35 +263,35 @@ focalization: internal-single
 time-space: $location-tertiary-004
 introduction: {{scene-introduction:reversal-3}}
 development: {{scene-development:reversal-3}}
-conflict: {{scene-conflict:reversal}}
-resolution: {{scene-resolution:reversal-mid}}
+conflict: {{scene-conflict:reversal-3}}
+resolution: {{scene-resolution:reversal-3-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-001, $character-support-002
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-001
-state-change: {{scene-state-change:reversal-mid}}
+state-change: {{scene-state-change:reversal-3-mid}}
 
 @action-006-4 place
 action-mode: negotiation
 scene: $scene-006-04
 actor: $character-protagonist-001
 goal: {{action-goal:reversal-3}}
-obstacle: {{action-obstacle:reversal}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:reversal-3}}
+result: {{action-result:reversal-3-mid}}
 
 @conflict-006-4 place
 scope: $scene-006-04
 type: external-character
 forces: $character-protagonist-001 versus $character-support-002
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:reversal}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-reversal-3}}
+escalation: {{conflict-escalation:reversal-3}}
 
 @event-006-4 trigger
 scope: $scene-006-04
 event-type: crime
-trigger: {{event-trigger:reversal-mid}}
-impact: {{event-impact:reversal}}
-follow-through: {{event-follow-through:reversal-mid}}
+trigger: {{event-trigger:reversal-3-mid}}
+impact: {{event-impact:reversal-3}}
+follow-through: {{event-follow-through:reversal-3-mid}}
 
 @dialogue-turn-006-04-01 line
 scene: $scene-006-04
@@ -332,35 +332,35 @@ focalization: internal-single
 time-space: $location-primary
 introduction: {{scene-introduction:reversal-4}}
 development: {{scene-development:reversal-4}}
-conflict: {{scene-conflict:reversal}}
-resolution: {{scene-resolution:reversal-mid}}
+conflict: {{scene-conflict:reversal-4}}
+resolution: {{scene-resolution:reversal-4-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-002, $character-pressure-001
 anchor-object: $plot-element-core-object
 support-focus: $character-support-002
-state-change: {{scene-state-change:reversal-mid}}
+state-change: {{scene-state-change:reversal-4-mid}}
 
 @action-006-5 place
 action-mode: attempt
 scene: $scene-006-05
 actor: $character-protagonist-001
 goal: {{action-goal:reversal-4}}
-obstacle: {{action-obstacle:reversal}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:reversal-4}}
+result: {{action-result:reversal-4-mid}}
 
 @conflict-006-5 place
 scope: $scene-006-05
 type: internal
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:reversal}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-reversal-4}}
+escalation: {{conflict-escalation:reversal-4}}
 
 @event-006-5 trigger
 scope: $scene-006-05
 event-type: deadline
-trigger: {{event-trigger:reversal-mid}}
-impact: {{event-impact:reversal}}
-follow-through: {{event-follow-through:reversal-mid}}
+trigger: {{event-trigger:reversal-4-mid}}
+impact: {{event-impact:reversal-4}}
+follow-through: {{event-follow-through:reversal-4-mid}}
 
 @dialogue-turn-006-05-01 line
 scene: $scene-006-05
@@ -401,35 +401,35 @@ focalization: internal-single
 time-space: $location-secondary
 introduction: {{scene-introduction:reversal-5}}
 development: {{scene-development:reversal-5}}
-conflict: {{scene-conflict:reversal}}
-resolution: {{scene-resolution:reversal-final}}
+conflict: {{scene-conflict:reversal-5}}
+resolution: {{scene-resolution:reversal-5-final}}
 exit: the chapter hands off to a sharper reversal consequence
 participants: $character-protagonist-001, $character-support-003, $character-support-001, $character-pressure-001
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-003
-state-change: {{scene-state-change:reversal-final}}
+state-change: {{scene-state-change:reversal-5-final}}
 
 @action-006-6 place
 action-mode: pursuit
 scene: $scene-006-06
 actor: $character-protagonist-001
 goal: {{action-goal:reversal-5}}
-obstacle: {{action-obstacle:reversal}}
-result: {{action-result:reversal-final}}
+obstacle: {{action-obstacle:reversal-5}}
+result: {{action-result:reversal-5-final}}
 
 @conflict-006-6 place
 scope: $scene-006-06
 type: external-supernatural
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:reversal}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-reversal-5}}
+escalation: {{conflict-escalation:reversal-5}}
 
 @event-006-6 trigger
 scope: $scene-006-06
 event-type: crime
-trigger: {{event-trigger:reversal-final}}
-impact: {{event-impact:reversal}}
-follow-through: {{event-follow-through:reversal-final}}
+trigger: {{event-trigger:reversal-5-final}}
+impact: {{event-impact:reversal-5}}
+follow-through: {{event-follow-through:reversal-5-final}}
 
 @dialogue-turn-006-06-01 line
 scene: $scene-006-06
@@ -493,7 +493,7 @@ texture: fragmented
 @suspense-006-core build
 scope: $chapter-006
 suspense-type: cognitive
-uncertainty: {{suspense-uncertainty:reversal}}
+uncertainty: {{suspense-uncertainty:reversal-5}}
 delay-technique: delayed-information
 payoff-zone: event-006-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
@@ -501,19 +501,19 @@ Delayed access, withheld explanation, and emotional pressure should work togethe
 @pause-006-core hold
 scope: $chapter-006
 pause-function: explanatory
-focus: {{pause-focus:reversal}}
+focus: {{pause-focus:reversal-5}}
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-006-core burst
 scope: $chapter-006
 acceleration-mode: pursuit-compression
-trigger: {{acceleration-trigger:reversal}}
+trigger: {{acceleration-trigger:reversal-5}}
 reader-effect: compress time and force the next consequence to land without emotional escape
 target-zone: $scene-006-06
 
 @cliffhanger-006-exit cut
 scope: $chapter-006
 cliffhanger-type: interrupted-revelation
-cut-moment: {{cliffhanger-moment:reversal}}
-continuation-pressure: {{cliffhanger-continuation:reversal}}
+cut-moment: {{cliffhanger-moment:reversal-5}}
+continuation-pressure: {{cliffhanger-continuation:reversal-5}}

@@ -56,35 +56,35 @@ focalization: internal-single
 time-space: $location-primary
 introduction: {{scene-introduction:setup-0}}
 development: {{scene-development:setup-0}}
-conflict: {{scene-conflict:setup}}
-resolution: {{scene-resolution:setup-mid}}
+conflict: {{scene-conflict:setup-0}}
+resolution: {{scene-resolution:setup-0-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-001
 anchor-object: $plot-element-core-object
 support-focus: $character-support-001
-state-change: {{scene-state-change:setup-mid}}
+state-change: {{scene-state-change:setup-0-mid}}
 
 @action-001-1 place
 action-mode: attempt
 scene: $scene-001-01
 actor: $character-protagonist-001
 goal: {{action-goal:setup-0}}
-obstacle: {{action-obstacle:setup}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:setup-0}}
+result: {{action-result:setup-0-mid}}
 
 @conflict-001-1 place
 scope: $scene-001-01
 type: mixed
 forces: $character-protagonist-001 versus $character-support-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:setup}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-setup-0}}
+escalation: {{conflict-escalation:setup-0}}
 
 @event-001-1 trigger
 scope: $scene-001-01
 event-type: crime
-trigger: {{event-trigger:setup-mid}}
-impact: {{event-impact:setup}}
-follow-through: {{event-follow-through:setup-mid}}
+trigger: {{event-trigger:setup-0-mid}}
+impact: {{event-impact:setup-0}}
+follow-through: {{event-follow-through:setup-0-mid}}
 
 @dialogue-turn-001-01-01 line
 scene: $scene-001-01
@@ -125,35 +125,35 @@ focalization: internal-single
 time-space: $location-secondary
 introduction: {{scene-introduction:setup-1}}
 development: {{scene-development:setup-1}}
-conflict: {{scene-conflict:setup}}
-resolution: {{scene-resolution:setup-mid}}
+conflict: {{scene-conflict:setup-1}}
+resolution: {{scene-resolution:setup-1-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-002, $character-support-003, $character-pressure-001
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-002
-state-change: {{scene-state-change:setup-mid}}
+state-change: {{scene-state-change:setup-1-mid}}
 
 @action-001-2 place
 action-mode: revelation-act
 scene: $scene-001-02
 actor: $character-protagonist-001
 goal: {{action-goal:setup-1}}
-obstacle: {{action-obstacle:setup}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:setup-1}}
+result: {{action-result:setup-1-mid}}
 
 @conflict-001-2 place
 scope: $scene-001-02
 type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:setup}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-setup-1}}
+escalation: {{conflict-escalation:setup-1}}
 
 @event-001-2 trigger
 scope: $scene-001-02
 event-type: deadline
-trigger: {{event-trigger:setup-mid}}
-impact: {{event-impact:setup}}
-follow-through: {{event-follow-through:setup-mid}}
+trigger: {{event-trigger:setup-1-mid}}
+impact: {{event-impact:setup-1}}
+follow-through: {{event-follow-through:setup-1-mid}}
 
 @dialogue-turn-001-02-01 line
 scene: $scene-001-02
@@ -194,35 +194,35 @@ focalization: internal-single
 time-space: $location-tertiary-001
 introduction: {{scene-introduction:setup-2}}
 development: {{scene-development:setup-2}}
-conflict: {{scene-conflict:setup}}
-resolution: {{scene-resolution:setup-mid}}
+conflict: {{scene-conflict:setup-2}}
+resolution: {{scene-resolution:setup-2-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-003
 anchor-object: $plot-element-core-object
 support-focus: $character-support-003
-state-change: {{scene-state-change:setup-mid}}
+state-change: {{scene-state-change:setup-2-mid}}
 
 @action-001-3 place
 action-mode: negotiation
 scene: $scene-001-03
 actor: $character-protagonist-001
 goal: {{action-goal:setup-2}}
-obstacle: {{action-obstacle:setup}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:setup-2}}
+result: {{action-result:setup-2-mid}}
 
 @conflict-001-3 place
 scope: $scene-001-03
 type: mixed
 forces: $character-protagonist-001 versus $character-support-003
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:setup}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-setup-2}}
+escalation: {{conflict-escalation:setup-2}}
 
 @event-001-3 trigger
 scope: $scene-001-03
 event-type: reversal
-trigger: {{event-trigger:setup-mid}}
-impact: {{event-impact:setup}}
-follow-through: {{event-follow-through:setup-mid}}
+trigger: {{event-trigger:setup-2-mid}}
+impact: {{event-impact:setup-2}}
+follow-through: {{event-follow-through:setup-2-mid}}
 
 @dialogue-turn-001-03-01 line
 scene: $scene-001-03
@@ -263,35 +263,35 @@ focalization: internal-single
 time-space: $location-primary
 introduction: {{scene-introduction:setup-3}}
 development: {{scene-development:setup-3}}
-conflict: {{scene-conflict:setup}}
-resolution: {{scene-resolution:setup-mid}}
+conflict: {{scene-conflict:setup-3}}
+resolution: {{scene-resolution:setup-3-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-001, $character-support-002
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-001
-state-change: {{scene-state-change:setup-mid}}
+state-change: {{scene-state-change:setup-3-mid}}
 
 @action-001-4 place
 action-mode: negotiation
 scene: $scene-001-04
 actor: $character-protagonist-001
 goal: {{action-goal:setup-3}}
-obstacle: {{action-obstacle:setup}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:setup-3}}
+result: {{action-result:setup-3-mid}}
 
 @conflict-001-4 place
 scope: $scene-001-04
 type: external-character
 forces: $character-protagonist-001 versus $character-support-002
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:setup}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-setup-3}}
+escalation: {{conflict-escalation:setup-3}}
 
 @event-001-4 trigger
 scope: $scene-001-04
 event-type: reversal
-trigger: {{event-trigger:setup-mid}}
-impact: {{event-impact:setup}}
-follow-through: {{event-follow-through:setup-mid}}
+trigger: {{event-trigger:setup-3-mid}}
+impact: {{event-impact:setup-3}}
+follow-through: {{event-follow-through:setup-3-mid}}
 
 @dialogue-turn-001-04-01 line
 scene: $scene-001-04
@@ -332,35 +332,35 @@ focalization: internal-single
 time-space: $location-secondary
 introduction: {{scene-introduction:setup-4}}
 development: {{scene-development:setup-4}}
-conflict: {{scene-conflict:setup}}
-resolution: {{scene-resolution:setup-mid}}
+conflict: {{scene-conflict:setup-4}}
+resolution: {{scene-resolution:setup-4-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-002, $character-pressure-001
 anchor-object: $plot-element-core-object
 support-focus: $character-support-002
-state-change: {{scene-state-change:setup-mid}}
+state-change: {{scene-state-change:setup-4-mid}}
 
 @action-001-5 place
 action-mode: negotiation
 scene: $scene-001-05
 actor: $character-protagonist-001
 goal: {{action-goal:setup-4}}
-obstacle: {{action-obstacle:setup}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:setup-4}}
+result: {{action-result:setup-4-mid}}
 
 @conflict-001-5 place
 scope: $scene-001-05
 type: external-character
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:setup}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-setup-4}}
+escalation: {{conflict-escalation:setup-4}}
 
 @event-001-5 trigger
 scope: $scene-001-05
 event-type: arrival
-trigger: {{event-trigger:setup-mid}}
-impact: {{event-impact:setup}}
-follow-through: {{event-follow-through:setup-mid}}
+trigger: {{event-trigger:setup-4-mid}}
+impact: {{event-impact:setup-4}}
+follow-through: {{event-follow-through:setup-4-mid}}
 
 @dialogue-turn-001-05-01 line
 scene: $scene-001-05
@@ -401,35 +401,35 @@ focalization: internal-single
 time-space: $location-tertiary-001
 introduction: {{scene-introduction:setup-5}}
 development: {{scene-development:setup-5}}
-conflict: {{scene-conflict:setup}}
-resolution: {{scene-resolution:setup-final}}
+conflict: {{scene-conflict:setup-5}}
+resolution: {{scene-resolution:setup-5-final}}
 exit: the chapter hands off to a sharper setup consequence
 participants: $character-protagonist-001, $character-support-003, $character-support-001, $character-pressure-001
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-003
-state-change: {{scene-state-change:setup-final}}
+state-change: {{scene-state-change:setup-5-final}}
 
 @action-001-6 place
 action-mode: pursuit
 scene: $scene-001-06
 actor: $character-protagonist-001
 goal: {{action-goal:setup-5}}
-obstacle: {{action-obstacle:setup}}
-result: {{action-result:setup-final}}
+obstacle: {{action-obstacle:setup-5}}
+result: {{action-result:setup-5-final}}
 
 @conflict-001-6 place
 scope: $scene-001-06
 type: external-nature
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:setup}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-setup-5}}
+escalation: {{conflict-escalation:setup-5}}
 
 @event-001-6 trigger
 scope: $scene-001-06
 event-type: crime
-trigger: {{event-trigger:setup-final}}
-impact: {{event-impact:setup}}
-follow-through: {{event-follow-through:setup-final}}
+trigger: {{event-trigger:setup-5-final}}
+impact: {{event-impact:setup-5}}
+follow-through: {{event-follow-through:setup-5-final}}
 
 @dialogue-turn-001-06-01 line
 scene: $scene-001-06
@@ -493,7 +493,7 @@ texture: fragmented
 @suspense-001-core build
 scope: $chapter-001
 suspense-type: cognitive
-uncertainty: {{suspense-uncertainty:setup}}
+uncertainty: {{suspense-uncertainty:setup-0}}
 delay-technique: delayed-information
 payoff-zone: event-001-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
@@ -501,19 +501,19 @@ Delayed access, withheld explanation, and emotional pressure should work togethe
 @pause-001-core hold
 scope: $chapter-001
 pause-function: explanatory
-focus: {{pause-focus:setup}}
+focus: {{pause-focus:setup-0}}
 placement: after-first-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-001-core burst
 scope: $chapter-001
 acceleration-mode: pursuit-compression
-trigger: {{acceleration-trigger:setup}}
+trigger: {{acceleration-trigger:setup-0}}
 reader-effect: compress time and force the next consequence to land without emotional escape
 target-zone: $scene-001-06
 
 @cliffhanger-001-exit cut
 scope: $chapter-001
 cliffhanger-type: critical-decision
-cut-moment: {{cliffhanger-moment:setup}}
-continuation-pressure: {{cliffhanger-continuation:setup}}
+cut-moment: {{cliffhanger-moment:setup-0}}
+continuation-pressure: {{cliffhanger-continuation:setup-0}}

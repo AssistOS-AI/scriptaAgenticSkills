@@ -11,23 +11,23 @@ closing-mode: open-question
 handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-011
 thematic-focus: freedom-security under dilemma pressure
 rhythm-note: escalating
-chapter-question: Can Elian restore the station's memory without destroying the fragile peace built on forgetting?
+chapter-question: Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
 answer-shift: peace without memory turns citizens into well-maintained evidence gaps
 arc-stage: irreversible-choice
-world-pressure: technical maintenance becomes indistinguishable from political censorship
+world-pressure: the pacification cycle treats truth itself as a destabilizing contaminant
 location-focus: $location-primary
 block-alternation: description-dialogue-action-interior-monologue-suspense-revelation-acceleration
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.
 
 @chapter-011 refine
 ref: stakes:freedom-consent-memory-agency -> the station's political legitimacy, Elian's own complicity, and the residents' right to remember
-ref: answer-shift:science-fiction -> peace without memory turns citizens into well-maintained evidence gaps
 ref: purpose:culmination -> Culmination movement anchored by broadcast of the unreturned
 ref: input-state:culmination-10 -> As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.
 ref: output-state:culmination-10 -> peace fractures, but consent re-enters the political life of the station
 ref: conflict:culmination -> Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
-ref: chapter-question:culmination -> Can Elian restore the station's memory without destroying the fragile peace built on forgetting?
-ref: world-pressure:culmination -> technical maintenance becomes indistinguishable from political censorship
+ref: chapter-question:culmination-10 -> Elian can still narrow the release to the council alone or let every resident recover the same missing decision at once.
+ref: answer-shift:science-fiction-culmination-10 -> peace without memory turns citizens into well-maintained evidence gaps
+ref: world-pressure:culmination-10 -> the pacification cycle treats truth itself as a destabilizing contaminant
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use concrete system language without losing emotional readability

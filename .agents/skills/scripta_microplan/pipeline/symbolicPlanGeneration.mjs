@@ -378,10 +378,10 @@ export async function generateChapterSeeds(options) {
         { name: 'handoff-pressure', value: `the next chapter must open from the sharper consequence exposed in ${chapterId}` },
         { name: 'thematic-focus', value: `${options.themeTopic} under ${options.themeShape} pressure` },
         { name: 'rhythm-note', value: chapterRhythmNote(role, chapterIndex, options.chapterCount) },
-      { name: 'chapter-question', value: `{{chapter-question:${role}}}` },
-      { name: 'answer-shift', value: `{{answer-shift:${options.baselineProfile}}}` },
+      { name: 'chapter-question', value: `{{chapter-question:${role}-${chapterIndex}}}` },
+      { name: 'answer-shift', value: `{{answer-shift:${options.baselineProfile}-${role}-${chapterIndex}}}` },
       { name: 'arc-stage', value: chapterArcStage(role) },
-      { name: 'world-pressure', value: `{{world-pressure:${role}}}` },
+      { name: 'world-pressure', value: `{{world-pressure:${role}-${chapterIndex}}}` },
       { name: 'location-focus', value: primaryLocationRef },
       { name: 'block-alternation', value: c.chapter.blockAlternation }
     ], [
@@ -513,13 +513,13 @@ export async function generateMicroSeeds(options) {
         { name: 'time-space', value: sceneLocationRef },
         { name: 'introduction', value: `{{scene-introduction:${chapterRole}-${sceneIndex}}}` },
         { name: 'development', value: `{{scene-development:${chapterRole}-${sceneIndex}}}` },
-        { name: 'conflict', value: `{{scene-conflict:${chapterRole}}}` },
-        { name: 'resolution', value: `{{scene-resolution:${chapterRole}-${isFinalScene ? 'final' : 'mid'}}}` },
+        { name: 'conflict', value: `{{scene-conflict:${chapterRole}-${sceneIndex}}}` },
+        { name: 'resolution', value: `{{scene-resolution:${chapterRole}-${sceneIndex}-${isFinalScene ? 'final' : 'mid'}}}` },
         { name: 'exit', value: isFinalScene ? `the chapter hands off to a sharper ${chapterRole} consequence` : 'the next scene begins before the pressure can settle' },
         { name: 'participants', value: sceneParticipants.join(', ') },
         { name: 'anchor-object', value: sceneObjectRef },
         { name: 'support-focus', value: chapterSupportRefs[sceneIndex % Math.max(chapterSupportRefs.length, 1)] ?? counterpartRef },
-        { name: 'state-change', value: `{{scene-state-change:${chapterRole}-${isFinalScene ? 'final' : 'mid'}}}` }
+        { name: 'state-change', value: `{{scene-state-change:${chapterRole}-${sceneIndex}-${isFinalScene ? 'final' : 'mid'}}}` }
       ]));
 
       blocks.push(createBlock(`action-${chapterNumber}-${sceneIndex + 1}`, 'place', [
@@ -527,16 +527,16 @@ export async function generateMicroSeeds(options) {
         { name: 'scene', value: sceneRef },
         { name: 'actor', value: protagonistRef },
         { name: 'goal', value: `{{action-goal:${chapterRole}-${sceneIndex}}}` },
-        { name: 'obstacle', value: `{{action-obstacle:${chapterRole}}}` },
-        { name: 'result', value: isFinalScene ? `{{action-result:${chapterRole}-final}}` : 'the attempt reveals only part of the hidden structure and deepens the next demand' }
+        { name: 'obstacle', value: `{{action-obstacle:${chapterRole}-${sceneIndex}}}` },
+        { name: 'result', value: isFinalScene ? `{{action-result:${chapterRole}-${sceneIndex}-final}}` : `{{action-result:${chapterRole}-${sceneIndex}-mid}}` }
       ]));
 
       blocks.push(createBlock(`conflict-${chapterNumber}-${sceneIndex + 1}`, 'place', [
         { name: 'scope', value: sceneRef },
         { name: 'type', value: pickProfileConfiguredValue(random, contentConfig, 'conflictTypes', options.profile, 'content', 'allowedConflictTypes') },
         { name: 'forces', value: `${sceneParticipants[0]} versus ${sceneParticipants.at(-1) ?? pressureRef}` },
-        { name: 'stakes', value: `{{conflict-stakes:${c.content.stakePattern}}}` },
-        { name: 'escalation', value: `{{conflict-escalation:${chapterRole}}}` }
+        { name: 'stakes', value: `{{conflict-stakes:${c.content.stakePattern}-${chapterRole}-${sceneIndex}}}` },
+        { name: 'escalation', value: `{{conflict-escalation:${chapterRole}-${sceneIndex}}}` }
       ]));
 
       blocks.push(createBlock(`event-${chapterNumber}-${sceneIndex + 1}`, 'trigger', [
@@ -544,9 +544,9 @@ export async function generateMicroSeeds(options) {
         { name: 'event-type', value: isFinalScene
           ? pickWeightedValue(random, ['revelation'], configuredPreferencePool(contentConfig, 'eventTypes', options.profile, 'content', 'allowedEventTypes'))
           : pickProfileConfiguredValue(random, contentConfig, 'eventTypes', options.profile, 'content', 'allowedEventTypes') },
-        { name: 'trigger', value: `{{event-trigger:${chapterRole}-${isFinalScene ? 'final' : 'mid'}}}` },
-        { name: 'impact', value: `{{event-impact:${chapterRole}}}` },
-        { name: 'follow-through', value: `{{event-follow-through:${chapterRole}-${isFinalScene ? 'final' : 'mid'}}}` }
+        { name: 'trigger', value: `{{event-trigger:${chapterRole}-${sceneIndex}-${isFinalScene ? 'final' : 'mid'}}}` },
+        { name: 'impact', value: `{{event-impact:${chapterRole}-${sceneIndex}}}` },
+        { name: 'follow-through', value: `{{event-follow-through:${chapterRole}-${sceneIndex}-${isFinalScene ? 'final' : 'mid'}}}` }
       ]));
 
       const dialogueTurns = dialogueTurnBlueprints({
@@ -605,29 +605,29 @@ export async function generateMicroSeeds(options) {
         : expressionPrefs.monologueTexture }
     ]));
 
-    blocks.push(createBlock(`suspense-${chapterNumber}-core`, 'build', [
-      { name: 'scope', value: chapterRef },
-      { name: 'suspense-type', value: rhythmPrefs.suspenseType },
-      { name: 'uncertainty', value: `{{suspense-uncertainty:${chapterRole}}}` },
-      { name: 'delay-technique', value: rhythmPrefs.delayTechnique },
-      { name: 'payoff-zone', value: `event-${chapterNumber}-${sceneCount}` }
-    ], ['Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.']));
+      blocks.push(createBlock(`suspense-${chapterNumber}-core`, 'build', [
+        { name: 'scope', value: chapterRef },
+        { name: 'suspense-type', value: rhythmPrefs.suspenseType },
+        { name: 'uncertainty', value: `{{suspense-uncertainty:${chapterRole}-${chapterIndex}}}` },
+        { name: 'delay-technique', value: rhythmPrefs.delayTechnique },
+        { name: 'payoff-zone', value: `event-${chapterNumber}-${sceneCount}` }
+      ], ['Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.']));
 
-    blocks.push(createBlock(`pause-${chapterNumber}-core`, 'hold', [
-      { name: 'scope', value: chapterRef },
-      { name: 'pause-function', value: resolvePauseFunction(options.profile, chapterRole) },
-      { name: 'focus', value: `{{pause-focus:${chapterRole}}}` },
-      { name: 'placement', value: chapterIndex === 0 ? 'after-first-scene' : 'before-final-scene' },
-      { name: 'reader-effect', value: 'decelerate just enough to let consequence become legible' }
-    ]));
+      blocks.push(createBlock(`pause-${chapterNumber}-core`, 'hold', [
+        { name: 'scope', value: chapterRef },
+        { name: 'pause-function', value: resolvePauseFunction(options.profile, chapterRole) },
+        { name: 'focus', value: `{{pause-focus:${chapterRole}-${chapterIndex}}}` },
+        { name: 'placement', value: chapterIndex === 0 ? 'after-first-scene' : 'before-final-scene' },
+        { name: 'reader-effect', value: 'decelerate just enough to let consequence become legible' }
+      ]));
 
-    blocks.push(createBlock(`acceleration-${chapterNumber}-core`, 'burst', [
-      { name: 'scope', value: chapterRef },
-      { name: 'acceleration-mode', value: resolveAccelerationMode(options.profile, chapterRole) },
-      { name: 'trigger', value: `{{acceleration-trigger:${chapterRole}}}` },
-      { name: 'reader-effect', value: 'compress time and force the next consequence to land without emotional escape' },
-      { name: 'target-zone', value: reference(`scene-${chapterNumber}-${String(sceneCount).padStart(2, '0')}`) }
-    ]));
+      blocks.push(createBlock(`acceleration-${chapterNumber}-core`, 'burst', [
+        { name: 'scope', value: chapterRef },
+        { name: 'acceleration-mode', value: resolveAccelerationMode(options.profile, chapterRole) },
+        { name: 'trigger', value: `{{acceleration-trigger:${chapterRole}-${chapterIndex}}}` },
+        { name: 'reader-effect', value: 'compress time and force the next consequence to land without emotional escape' },
+        { name: 'target-zone', value: reference(`scene-${chapterNumber}-${String(sceneCount).padStart(2, '0')}`) }
+      ]));
 
     if (chapterIndex < options.chapterCount - 1) {
       blocks.push(createBlock(`cliffhanger-${chapterNumber}-exit`, 'cut', [
@@ -637,8 +637,8 @@ export async function generateMicroSeeds(options) {
           [chapterIndex === options.chapterCount - 2 ? 'critical-decision' : 'interrupted-revelation'],
           rhythmConfig.cliffhangerTypes
         ) },
-        { name: 'cut-moment', value: `{{cliffhanger-moment:${chapterRole}}}` },
-        { name: 'continuation-pressure', value: `{{cliffhanger-continuation:${chapterRole}}}` }
+        { name: 'cut-moment', value: `{{cliffhanger-moment:${chapterRole}-${chapterIndex}}}` },
+        { name: 'continuation-pressure', value: `{{cliffhanger-continuation:${chapterRole}-${chapterIndex}}}` }
       ]));
     }
 

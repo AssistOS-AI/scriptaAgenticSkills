@@ -1,8 +1,8 @@
 @chapter-009 define
 chapter-role: bridge
 purpose: Escalation movement anchored by the misprinted folio night
-input-state: A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.
-output-state: the work begins storing their conflict instead of hiding it
+input-state: They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+output-state: the studio forces the past into the present workload
 conflict: Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
 stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
 opening-mode: mystery-entry
@@ -11,23 +11,23 @@ closing-mode: cliffhanger
 handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-009
 thematic-focus: love-connection under transformation pressure
 rhythm-note: escalating
-chapter-question: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
+chapter-question: save the damaged folios without destroying the schedule
 answer-shift: the studio survives only if the people inside it stop pretending usefulness is neutral
 arc-stage: threshold-crossing
-world-pressure: shared labor turns every practical choice into a referendum on trust, apology, and future risk
+world-pressure: the studio forces the past into the present workload
 location-focus: $location-primary
 block-alternation: dialogue-description-interior-monologue-action-pause-dialogue-cliffhanger
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.
 
 @chapter-009 refine
 ref: stakes:autonomy-tenderness-trust-future -> the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
-ref: answer-shift:romance-relational -> the studio survives only if the people inside it stop pretending usefulness is neutral
 ref: purpose:bridge -> Escalation movement anchored by the misprinted folio night
 ref: conflict:bridge -> Leora wants the apology named clearly, not tucked inside production chatter, while Talia fears direct honesty will cost them the commission.
-ref: chapter-question:bridge -> Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
-ref: world-pressure:bridge -> shared labor turns every practical choice into a referendum on trust, apology, and future risk
-ref: input-state:bridge-8 -> A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.
-ref: output-state:bridge-8 -> the work begins storing their conflict instead of hiding it
+ref: input-state:bridge-8 -> They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.
+ref: output-state:bridge-8 -> the studio forces the past into the present workload
+ref: chapter-question:bridge-8 -> save the damaged folios without destroying the schedule
+ref: answer-shift:romance-relational-bridge-8 -> the studio survives only if the people inside it stop pretending usefulness is neutral
+ref: world-pressure:bridge-8 -> the studio forces the past into the present workload
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make subtext carry as much weight as direct confession

@@ -189,12 +189,12 @@ function generateContentPlaceholder(placeholder, options, random, visionContext)
       );
     case 'stakes':
     case 'conflict-stakes':
-      return firstMeaningful(constraints.stakes, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'stakes'), constraints.stakes, fallback);
     case 'dilemma':
       return firstMeaningful(visionContext.dilemma, fallback);
     case 'story-question':
     case 'chapter-question':
-      return firstMeaningful(visionContext.storyQuestion, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'conflict'), sceneVariant(scene, sceneIndex, 'actionGoal'), visionContext.storyQuestion, fallback);
     case 'thematic-question':
       return firstMeaningful(visionContext.themeQuestion, fallback);
     case 'thematic-statement':
@@ -222,11 +222,11 @@ function generateContentPlaceholder(placeholder, options, random, visionContext)
     case 'conflict':
       return firstMeaningful(sceneVariant(scene, sceneIndex, 'conflict'), visionContext.dilemma, constraints.conflictOutput, fallback);
     case 'answer-shift':
-      return firstMeaningful(scene?.payoff, protagonist?.turningInsight, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'payoff'), sceneVariant(scene, sceneIndex, 'stateChange'), protagonist?.turningInsight, fallback);
     case 'world-pressure':
     case 'conflict-output':
     case 'conflict-output-rule':
-      return firstMeaningful(constraints.conflictOutput, constraints.actionLimitation, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'actionObstacle'), sceneVariant(scene, sceneIndex, 'conflict'), constraints.conflictOutput, constraints.actionLimitation, fallback);
     case 'wisdom':
       return firstMeaningful(
         spec === 'moral' ? visionContext.themeStatement : '',
@@ -279,13 +279,13 @@ function generateContentPlaceholder(placeholder, options, random, visionContext)
     case 'dialogue-core-subtext':
       return firstMeaningful(sceneVariant(scene, sceneIndex, 'conflict'), `${protagonist?.name ?? 'the protagonist'} and ${counterpart?.name ?? 'the counterpart'} keep circling the truth they cannot safely name yet`, fallback);
     case 'dialogue-line-hint':
-      return firstMeaningful(sceneVariant(scene, sceneIndex, 'eventTrigger'), sceneVariant(scene, sceneIndex, 'development'), scene?.title, fallback);
+      return firstMeaningful(dialogueLineHint(scene, sceneIndex, parseSpeakerRole(spec)), sceneVariant(scene, sceneIndex, 'eventTrigger'), sceneVariant(scene, sceneIndex, 'development'), scene?.title, fallback);
     case 'description-focus':
       return firstMeaningful(location?.symbolicCharge, location?.conflictUse, fallback);
     case 'monologue-trigger':
       return firstMeaningful(sceneVariant(scene, sceneIndex, 'eventImpact'), protagonist?.hiddenNeed, protagonist?.fear, fallback);
     case 'suspense-uncertainty':
-      return firstMeaningful(visionContext.storyQuestion, constraints.visibleSymptom, fallback);
+      return firstMeaningful(sceneVariant(scene, sceneIndex, 'eventImpact'), sceneVariant(scene, sceneIndex, 'payoff'), visionContext.storyQuestion, constraints.visibleSymptom, fallback);
     case 'cliffhanger-moment':
       return firstMeaningful(sceneVariant(scene, sceneIndex, 'eventTrigger'), sceneVariant(scene, sceneIndex, 'conflict'), fallback);
     case 'cliffhanger-continuation':
@@ -343,7 +343,10 @@ function getLocationSeed(visionContext, stableId) {
 function getSceneSeed(visionContext, spec) {
   const role = parseChapterRole(spec);
   const index = parseSceneIndex(spec);
-  const scenes = visionContext.scenes?.[role] ?? visionContext.scenes?.[fallbackChapterRole(role)] ?? [];
+  const scenes = [
+    ...(visionContext.scenes?.[role] ?? []),
+    ...fallbackChapterRoles(role).flatMap((candidateRole) => visionContext.scenes?.[candidateRole] ?? [])
+  ];
   if (!Array.isArray(scenes) || scenes.length === 0) {
     return null;
   }
@@ -352,7 +355,7 @@ function getSceneSeed(visionContext, spec) {
     return scenes[scenes.length - 1];
   }
 
-  return scenes[Math.min(index, scenes.length - 1)] ?? scenes[0];
+  return scenes[index % scenes.length] ?? scenes[0];
 }
 
 function parseChapterRole(spec) {
@@ -376,6 +379,16 @@ function fallbackChapterRole(role) {
     bridge: 'escalation'
   };
   return aliases[role] ?? role;
+}
+
+function fallbackChapterRoles(role) {
+  const aliases = {
+    investigation: ['escalation', 'revelation'],
+    reversal: ['revelation', 'culmination'],
+    aftermath: ['culmination', 'revelation'],
+    bridge: ['escalation', 'setup']
+  };
+  return aliases[role] ?? [fallbackChapterRole(role)];
 }
 
 function fallbackContentPlaceholder(id, spec, lowerLabel) {
@@ -481,20 +494,53 @@ function sceneVariant(scene, index, slot) {
   }
 
   const variations = {
-    introduction: [scene.introduction, scene.development, scene.eventTrigger],
-    development: [scene.development, scene.conflict, scene.eventImpact],
-    conflict: [scene.conflict, scene.actionObstacle, scene.eventImpact],
-    resolution: [scene.resolution, scene.payoff, scene.stateChange],
-    stateChange: [scene.stateChange, scene.payoff, scene.resolution],
-    actionGoal: [scene.actionGoal, scene.payoff, scene.title],
-    actionObstacle: [scene.actionObstacle, scene.conflict, scene.eventTrigger],
-    eventTrigger: [scene.eventTrigger, scene.title, scene.development],
-    eventImpact: [scene.eventImpact, scene.stateChange, scene.payoff],
-    payoff: [scene.payoff, scene.stateChange, scene.resolution]
+    introduction: [scene.introduction, scene.development, scene.eventTrigger, scene.resolution, scene.title],
+    development: [scene.development, scene.conflict, scene.eventImpact, scene.actionGoal, scene.payoff],
+    conflict: [scene.conflict, scene.actionObstacle, scene.eventImpact, scene.actionGoal, scene.eventTrigger],
+    resolution: [scene.resolution, scene.payoff, scene.stateChange, scene.eventImpact, scene.development],
+    stateChange: [scene.stateChange, scene.payoff, scene.resolution, scene.eventImpact, scene.conflict],
+    actionGoal: [scene.actionGoal, scene.payoff, scene.title, scene.resolution, scene.introduction],
+    actionObstacle: [scene.actionObstacle, scene.conflict, scene.eventTrigger, scene.eventImpact, scene.development],
+    actionResult: [scene.stateChange, scene.payoff, scene.resolution, scene.eventImpact, scene.conflict],
+    eventTrigger: [scene.eventTrigger, scene.title, scene.development, scene.introduction, scene.actionObstacle],
+    eventImpact: [scene.eventImpact, scene.stateChange, scene.payoff, scene.conflict, scene.resolution],
+    payoff: [scene.payoff, scene.stateChange, scene.resolution, scene.eventImpact, scene.actionGoal],
+    stakes: [scene.payoff, scene.eventImpact, scene.stateChange, scene.conflict, scene.actionGoal]
   };
 
   const values = variations[slot] ?? [scene[slot]];
-  return firstMeaningful(values[index] ?? '', ...values);
+  return firstMeaningful(values[index % values.length] ?? '', ...values);
+}
+
+function parseSpeakerRole(spec) {
+  return tokenizeSpec(spec).find((token) => ['protagonist', 'counterpart', 'pressure', 'support'].includes(token)) ?? 'support';
+}
+
+function dialogueLineHint(scene, sceneIndex, speakerRole) {
+  const pools = {
+    protagonist: [
+      sceneVariant(scene, sceneIndex, 'actionGoal'),
+      sceneVariant(scene, sceneIndex, 'stateChange'),
+      sceneVariant(scene, sceneIndex, 'resolution')
+    ],
+    counterpart: [
+      sceneVariant(scene, sceneIndex, 'development'),
+      sceneVariant(scene, sceneIndex, 'eventTrigger'),
+      sceneVariant(scene, sceneIndex, 'payoff')
+    ],
+    pressure: [
+      sceneVariant(scene, sceneIndex, 'actionObstacle'),
+      sceneVariant(scene, sceneIndex, 'conflict'),
+      sceneVariant(scene, sceneIndex, 'eventImpact')
+    ],
+    support: [
+      sceneVariant(scene, sceneIndex, 'eventImpact'),
+      sceneVariant(scene, sceneIndex, 'payoff'),
+      sceneVariant(scene, sceneIndex, 'development')
+    ]
+  };
+
+  return firstMeaningful(...(pools[speakerRole] ?? pools.support));
 }
 
 function buildRefineBlock({ sourceBlock, resolvedBlock, options, replacements }) {

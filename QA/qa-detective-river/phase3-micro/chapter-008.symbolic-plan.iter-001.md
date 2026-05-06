@@ -56,35 +56,35 @@ focalization: internal-single
 time-space: $location-secondary
 introduction: {{scene-introduction:escalation-0}}
 development: {{scene-development:escalation-0}}
-conflict: {{scene-conflict:escalation}}
-resolution: {{scene-resolution:escalation-mid}}
+conflict: {{scene-conflict:escalation-0}}
+resolution: {{scene-resolution:escalation-0-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-003
 anchor-object: $plot-element-secondary-002
 support-focus: $character-support-003
-state-change: {{scene-state-change:escalation-mid}}
+state-change: {{scene-state-change:escalation-0-mid}}
 
 @action-008-1 place
 action-mode: revelation-act
 scene: $scene-008-01
 actor: $character-protagonist-001
 goal: {{action-goal:escalation-0}}
-obstacle: {{action-obstacle:escalation}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:escalation-0}}
+result: {{action-result:escalation-0-mid}}
 
 @conflict-008-1 place
 scope: $scene-008-01
 type: internal
 forces: $character-protagonist-001 versus $character-support-003
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:escalation}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-escalation-0}}
+escalation: {{conflict-escalation:escalation-0}}
 
 @event-008-1 trigger
 scope: $scene-008-01
 event-type: crime
-trigger: {{event-trigger:escalation-mid}}
-impact: {{event-impact:escalation}}
-follow-through: {{event-follow-through:escalation-mid}}
+trigger: {{event-trigger:escalation-0-mid}}
+impact: {{event-impact:escalation-0}}
+follow-through: {{event-follow-through:escalation-0-mid}}
 
 @dialogue-turn-008-01-01 line
 scene: $scene-008-01
@@ -125,35 +125,35 @@ focalization: internal-single
 time-space: $location-tertiary-001
 introduction: {{scene-introduction:escalation-1}}
 development: {{scene-development:escalation-1}}
-conflict: {{scene-conflict:escalation}}
-resolution: {{scene-resolution:escalation-mid}}
+conflict: {{scene-conflict:escalation-1}}
+resolution: {{scene-resolution:escalation-1-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-004, $character-support-005, $character-pressure-001
 anchor-object: $plot-element-secondary-003
 support-focus: $character-support-004
-state-change: {{scene-state-change:escalation-mid}}
+state-change: {{scene-state-change:escalation-1-mid}}
 
 @action-008-2 place
 action-mode: attempt
 scene: $scene-008-02
 actor: $character-protagonist-001
 goal: {{action-goal:escalation-1}}
-obstacle: {{action-obstacle:escalation}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:escalation-1}}
+result: {{action-result:escalation-1-mid}}
 
 @conflict-008-2 place
 scope: $scene-008-02
 type: external-supernatural
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:escalation}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-escalation-1}}
+escalation: {{conflict-escalation:escalation-1}}
 
 @event-008-2 trigger
 scope: $scene-008-02
 event-type: arrival
-trigger: {{event-trigger:escalation-mid}}
-impact: {{event-impact:escalation}}
-follow-through: {{event-follow-through:escalation-mid}}
+trigger: {{event-trigger:escalation-1-mid}}
+impact: {{event-impact:escalation-1}}
+follow-through: {{event-follow-through:escalation-1-mid}}
 
 @dialogue-turn-008-02-01 line
 scene: $scene-008-02
@@ -194,35 +194,35 @@ focalization: internal-single
 time-space: $location-tertiary-002
 introduction: {{scene-introduction:escalation-2}}
 development: {{scene-development:escalation-2}}
-conflict: {{scene-conflict:escalation}}
-resolution: {{scene-resolution:escalation-mid}}
+conflict: {{scene-conflict:escalation-2}}
+resolution: {{scene-resolution:escalation-2-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-005
 anchor-object: $plot-element-secondary-002
 support-focus: $character-support-005
-state-change: {{scene-state-change:escalation-mid}}
+state-change: {{scene-state-change:escalation-2-mid}}
 
 @action-008-3 place
 action-mode: pursuit
 scene: $scene-008-03
 actor: $character-protagonist-001
 goal: {{action-goal:escalation-2}}
-obstacle: {{action-obstacle:escalation}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:escalation-2}}
+result: {{action-result:escalation-2-mid}}
 
 @conflict-008-3 place
 scope: $scene-008-03
 type: internal
 forces: $character-protagonist-001 versus $character-support-005
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:escalation}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-escalation-2}}
+escalation: {{conflict-escalation:escalation-2}}
 
 @event-008-3 trigger
 scope: $scene-008-03
 event-type: discovery
-trigger: {{event-trigger:escalation-mid}}
-impact: {{event-impact:escalation}}
-follow-through: {{event-follow-through:escalation-mid}}
+trigger: {{event-trigger:escalation-2-mid}}
+impact: {{event-impact:escalation-2}}
+follow-through: {{event-follow-through:escalation-2-mid}}
 
 @dialogue-turn-008-03-01 line
 scene: $scene-008-03
@@ -263,35 +263,35 @@ focalization: internal-single
 time-space: $location-secondary
 introduction: {{scene-introduction:escalation-3}}
 development: {{scene-development:escalation-3}}
-conflict: {{scene-conflict:escalation}}
-resolution: {{scene-resolution:escalation-mid}}
+conflict: {{scene-conflict:escalation-3}}
+resolution: {{scene-resolution:escalation-3-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-003, $character-support-004
 anchor-object: $plot-element-secondary-003
 support-focus: $character-support-003
-state-change: {{scene-state-change:escalation-mid}}
+state-change: {{scene-state-change:escalation-3-mid}}
 
 @action-008-4 place
 action-mode: attempt
 scene: $scene-008-04
 actor: $character-protagonist-001
 goal: {{action-goal:escalation-3}}
-obstacle: {{action-obstacle:escalation}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:escalation-3}}
+result: {{action-result:escalation-3-mid}}
 
 @conflict-008-4 place
 scope: $scene-008-04
 type: mixed
 forces: $character-protagonist-001 versus $character-support-004
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:escalation}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-escalation-3}}
+escalation: {{conflict-escalation:escalation-3}}
 
 @event-008-4 trigger
 scope: $scene-008-04
 event-type: reversal
-trigger: {{event-trigger:escalation-mid}}
-impact: {{event-impact:escalation}}
-follow-through: {{event-follow-through:escalation-mid}}
+trigger: {{event-trigger:escalation-3-mid}}
+impact: {{event-impact:escalation-3}}
+follow-through: {{event-follow-through:escalation-3-mid}}
 
 @dialogue-turn-008-04-01 line
 scene: $scene-008-04
@@ -332,35 +332,35 @@ focalization: internal-single
 time-space: $location-tertiary-001
 introduction: {{scene-introduction:escalation-4}}
 development: {{scene-development:escalation-4}}
-conflict: {{scene-conflict:escalation}}
-resolution: {{scene-resolution:escalation-mid}}
+conflict: {{scene-conflict:escalation-4}}
+resolution: {{scene-resolution:escalation-4-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-004, $character-pressure-001
 anchor-object: $plot-element-secondary-002
 support-focus: $character-support-004
-state-change: {{scene-state-change:escalation-mid}}
+state-change: {{scene-state-change:escalation-4-mid}}
 
 @action-008-5 place
 action-mode: evasion
 scene: $scene-008-05
 actor: $character-protagonist-001
 goal: {{action-goal:escalation-4}}
-obstacle: {{action-obstacle:escalation}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:escalation-4}}
+result: {{action-result:escalation-4-mid}}
 
 @conflict-008-5 place
 scope: $scene-008-05
 type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:escalation}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-escalation-4}}
+escalation: {{conflict-escalation:escalation-4}}
 
 @event-008-5 trigger
 scope: $scene-008-05
 event-type: crime
-trigger: {{event-trigger:escalation-mid}}
-impact: {{event-impact:escalation}}
-follow-through: {{event-follow-through:escalation-mid}}
+trigger: {{event-trigger:escalation-4-mid}}
+impact: {{event-impact:escalation-4}}
+follow-through: {{event-follow-through:escalation-4-mid}}
 
 @dialogue-turn-008-05-01 line
 scene: $scene-008-05
@@ -401,35 +401,35 @@ focalization: internal-single
 time-space: $location-tertiary-002
 introduction: {{scene-introduction:escalation-5}}
 development: {{scene-development:escalation-5}}
-conflict: {{scene-conflict:escalation}}
-resolution: {{scene-resolution:escalation-final}}
+conflict: {{scene-conflict:escalation-5}}
+resolution: {{scene-resolution:escalation-5-final}}
 exit: the chapter hands off to a sharper escalation consequence
 participants: $character-protagonist-001, $character-support-005, $character-support-003, $character-pressure-001
 anchor-object: $plot-element-secondary-003
 support-focus: $character-support-005
-state-change: {{scene-state-change:escalation-final}}
+state-change: {{scene-state-change:escalation-5-final}}
 
 @action-008-6 place
 action-mode: pursuit
 scene: $scene-008-06
 actor: $character-protagonist-001
 goal: {{action-goal:escalation-5}}
-obstacle: {{action-obstacle:escalation}}
-result: {{action-result:escalation-final}}
+obstacle: {{action-obstacle:escalation-5}}
+result: {{action-result:escalation-5-final}}
 
 @conflict-008-6 place
 scope: $scene-008-06
 type: internal
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:escalation}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-escalation-5}}
+escalation: {{conflict-escalation:escalation-5}}
 
 @event-008-6 trigger
 scope: $scene-008-06
 event-type: discovery
-trigger: {{event-trigger:escalation-final}}
-impact: {{event-impact:escalation}}
-follow-through: {{event-follow-through:escalation-final}}
+trigger: {{event-trigger:escalation-5-final}}
+impact: {{event-impact:escalation-5}}
+follow-through: {{event-follow-through:escalation-5-final}}
 
 @dialogue-turn-008-06-01 line
 scene: $scene-008-06
@@ -493,7 +493,7 @@ texture: fragmented
 @suspense-008-core build
 scope: $chapter-008
 suspense-type: cognitive
-uncertainty: {{suspense-uncertainty:escalation}}
+uncertainty: {{suspense-uncertainty:escalation-7}}
 delay-technique: delayed-information
 payoff-zone: event-008-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
@@ -501,19 +501,19 @@ Delayed access, withheld explanation, and emotional pressure should work togethe
 @pause-008-core hold
 scope: $chapter-008
 pause-function: explanatory
-focus: {{pause-focus:escalation}}
+focus: {{pause-focus:escalation-7}}
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-008-core burst
 scope: $chapter-008
 acceleration-mode: pursuit-compression
-trigger: {{acceleration-trigger:escalation}}
+trigger: {{acceleration-trigger:escalation-7}}
 reader-effect: compress time and force the next consequence to land without emotional escape
 target-zone: $scene-008-06
 
 @cliffhanger-008-exit cut
 scope: $chapter-008
 cliffhanger-type: critical-decision
-cut-moment: {{cliffhanger-moment:escalation}}
-continuation-pressure: {{cliffhanger-continuation:escalation}}
+cut-moment: {{cliffhanger-moment:escalation-7}}
+continuation-pressure: {{cliffhanger-continuation:escalation-7}}

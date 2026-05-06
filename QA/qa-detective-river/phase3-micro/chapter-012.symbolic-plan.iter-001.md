@@ -56,35 +56,35 @@ focalization: internal-single
 time-space: $location-tertiary-004
 introduction: {{scene-introduction:aftermath-0}}
 development: {{scene-development:aftermath-0}}
-conflict: {{scene-conflict:aftermath}}
-resolution: {{scene-resolution:aftermath-mid}}
+conflict: {{scene-conflict:aftermath-0}}
+resolution: {{scene-resolution:aftermath-0-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-002
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-002
-state-change: {{scene-state-change:aftermath-mid}}
+state-change: {{scene-state-change:aftermath-0-mid}}
 
 @action-012-1 place
 action-mode: pursuit
 scene: $scene-012-01
 actor: $character-protagonist-001
 goal: {{action-goal:aftermath-0}}
-obstacle: {{action-obstacle:aftermath}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:aftermath-0}}
+result: {{action-result:aftermath-0-mid}}
 
 @conflict-012-1 place
 scope: $scene-012-01
 type: external-society
 forces: $character-protagonist-001 versus $character-support-002
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:aftermath}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-aftermath-0}}
+escalation: {{conflict-escalation:aftermath-0}}
 
 @event-012-1 trigger
 scope: $scene-012-01
 event-type: accident
-trigger: {{event-trigger:aftermath-mid}}
-impact: {{event-impact:aftermath}}
-follow-through: {{event-follow-through:aftermath-mid}}
+trigger: {{event-trigger:aftermath-0-mid}}
+impact: {{event-impact:aftermath-0}}
+follow-through: {{event-follow-through:aftermath-0-mid}}
 
 @dialogue-turn-012-01-01 line
 scene: $scene-012-01
@@ -125,35 +125,35 @@ focalization: internal-single
 time-space: $location-primary
 introduction: {{scene-introduction:aftermath-1}}
 development: {{scene-development:aftermath-1}}
-conflict: {{scene-conflict:aftermath}}
-resolution: {{scene-resolution:aftermath-mid}}
+conflict: {{scene-conflict:aftermath-1}}
+resolution: {{scene-resolution:aftermath-1-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-003, $character-support-004, $character-pressure-001
 anchor-object: $plot-element-secondary-002
 support-focus: $character-support-003
-state-change: {{scene-state-change:aftermath-mid}}
+state-change: {{scene-state-change:aftermath-1-mid}}
 
 @action-012-2 place
 action-mode: evasion
 scene: $scene-012-02
 actor: $character-protagonist-001
 goal: {{action-goal:aftermath-1}}
-obstacle: {{action-obstacle:aftermath}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:aftermath-1}}
+result: {{action-result:aftermath-1-mid}}
 
 @conflict-012-2 place
 scope: $scene-012-02
 type: mixed
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:aftermath}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-aftermath-1}}
+escalation: {{conflict-escalation:aftermath-1}}
 
 @event-012-2 trigger
 scope: $scene-012-02
 event-type: deadline
-trigger: {{event-trigger:aftermath-mid}}
-impact: {{event-impact:aftermath}}
-follow-through: {{event-follow-through:aftermath-mid}}
+trigger: {{event-trigger:aftermath-1-mid}}
+impact: {{event-impact:aftermath-1}}
+follow-through: {{event-follow-through:aftermath-1-mid}}
 
 @dialogue-turn-012-02-01 line
 scene: $scene-012-02
@@ -194,35 +194,35 @@ focalization: internal-single
 time-space: $location-secondary
 introduction: {{scene-introduction:aftermath-2}}
 development: {{scene-development:aftermath-2}}
-conflict: {{scene-conflict:aftermath}}
-resolution: {{scene-resolution:aftermath-mid}}
+conflict: {{scene-conflict:aftermath-2}}
+resolution: {{scene-resolution:aftermath-2-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-004
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-004
-state-change: {{scene-state-change:aftermath-mid}}
+state-change: {{scene-state-change:aftermath-2-mid}}
 
 @action-012-3 place
 action-mode: sacrifice
 scene: $scene-012-03
 actor: $character-protagonist-001
 goal: {{action-goal:aftermath-2}}
-obstacle: {{action-obstacle:aftermath}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:aftermath-2}}
+result: {{action-result:aftermath-2-mid}}
 
 @conflict-012-3 place
 scope: $scene-012-03
 type: external-society
 forces: $character-protagonist-001 versus $character-support-004
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:aftermath}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-aftermath-2}}
+escalation: {{conflict-escalation:aftermath-2}}
 
 @event-012-3 trigger
 scope: $scene-012-03
 event-type: revelation
-trigger: {{event-trigger:aftermath-mid}}
-impact: {{event-impact:aftermath}}
-follow-through: {{event-follow-through:aftermath-mid}}
+trigger: {{event-trigger:aftermath-2-mid}}
+impact: {{event-impact:aftermath-2}}
+follow-through: {{event-follow-through:aftermath-2-mid}}
 
 @dialogue-turn-012-03-01 line
 scene: $scene-012-03
@@ -263,35 +263,35 @@ focalization: internal-single
 time-space: $location-tertiary-004
 introduction: {{scene-introduction:aftermath-3}}
 development: {{scene-development:aftermath-3}}
-conflict: {{scene-conflict:aftermath}}
-resolution: {{scene-resolution:aftermath-mid}}
+conflict: {{scene-conflict:aftermath-3}}
+resolution: {{scene-resolution:aftermath-3-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-002, $character-support-003
 anchor-object: $plot-element-secondary-002
 support-focus: $character-support-002
-state-change: {{scene-state-change:aftermath-mid}}
+state-change: {{scene-state-change:aftermath-3-mid}}
 
 @action-012-4 place
 action-mode: attempt
 scene: $scene-012-04
 actor: $character-protagonist-001
 goal: {{action-goal:aftermath-3}}
-obstacle: {{action-obstacle:aftermath}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:aftermath-3}}
+result: {{action-result:aftermath-3-mid}}
 
 @conflict-012-4 place
 scope: $scene-012-04
 type: external-character
 forces: $character-protagonist-001 versus $character-support-003
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:aftermath}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-aftermath-3}}
+escalation: {{conflict-escalation:aftermath-3}}
 
 @event-012-4 trigger
 scope: $scene-012-04
 event-type: revelation
-trigger: {{event-trigger:aftermath-mid}}
-impact: {{event-impact:aftermath}}
-follow-through: {{event-follow-through:aftermath-mid}}
+trigger: {{event-trigger:aftermath-3-mid}}
+impact: {{event-impact:aftermath-3}}
+follow-through: {{event-follow-through:aftermath-3-mid}}
 
 @dialogue-turn-012-04-01 line
 scene: $scene-012-04
@@ -332,35 +332,35 @@ focalization: internal-single
 time-space: $location-primary
 introduction: {{scene-introduction:aftermath-4}}
 development: {{scene-development:aftermath-4}}
-conflict: {{scene-conflict:aftermath}}
-resolution: {{scene-resolution:aftermath-mid}}
+conflict: {{scene-conflict:aftermath-4}}
+resolution: {{scene-resolution:aftermath-4-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-003, $character-pressure-001
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-003
-state-change: {{scene-state-change:aftermath-mid}}
+state-change: {{scene-state-change:aftermath-4-mid}}
 
 @action-012-5 place
 action-mode: revelation-act
 scene: $scene-012-05
 actor: $character-protagonist-001
 goal: {{action-goal:aftermath-4}}
-obstacle: {{action-obstacle:aftermath}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:aftermath-4}}
+result: {{action-result:aftermath-4-mid}}
 
 @conflict-012-5 place
 scope: $scene-012-05
 type: internal
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:aftermath}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-aftermath-4}}
+escalation: {{conflict-escalation:aftermath-4}}
 
 @event-012-5 trigger
 scope: $scene-012-05
 event-type: accident
-trigger: {{event-trigger:aftermath-mid}}
-impact: {{event-impact:aftermath}}
-follow-through: {{event-follow-through:aftermath-mid}}
+trigger: {{event-trigger:aftermath-4-mid}}
+impact: {{event-impact:aftermath-4}}
+follow-through: {{event-follow-through:aftermath-4-mid}}
 
 @dialogue-turn-012-05-01 line
 scene: $scene-012-05
@@ -401,35 +401,35 @@ focalization: internal-single
 time-space: $location-secondary
 introduction: {{scene-introduction:aftermath-5}}
 development: {{scene-development:aftermath-5}}
-conflict: {{scene-conflict:aftermath}}
-resolution: {{scene-resolution:aftermath-final}}
+conflict: {{scene-conflict:aftermath-5}}
+resolution: {{scene-resolution:aftermath-5-final}}
 exit: the chapter hands off to a sharper aftermath consequence
 participants: $character-protagonist-001, $character-support-004, $character-support-002, $character-pressure-001
 anchor-object: $plot-element-secondary-002
 support-focus: $character-support-004
-state-change: {{scene-state-change:aftermath-final}}
+state-change: {{scene-state-change:aftermath-5-final}}
 
 @action-012-6 place
 action-mode: attempt
 scene: $scene-012-06
 actor: $character-protagonist-001
 goal: {{action-goal:aftermath-5}}
-obstacle: {{action-obstacle:aftermath}}
-result: {{action-result:aftermath-final}}
+obstacle: {{action-obstacle:aftermath-5}}
+result: {{action-result:aftermath-5-final}}
 
 @conflict-012-6 place
 scope: $scene-012-06
 type: external-character
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:aftermath}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-aftermath-5}}
+escalation: {{conflict-escalation:aftermath-5}}
 
 @event-012-6 trigger
 scope: $scene-012-06
 event-type: revelation
-trigger: {{event-trigger:aftermath-final}}
-impact: {{event-impact:aftermath}}
-follow-through: {{event-follow-through:aftermath-final}}
+trigger: {{event-trigger:aftermath-5-final}}
+impact: {{event-impact:aftermath-5}}
+follow-through: {{event-follow-through:aftermath-5-final}}
 
 @dialogue-turn-012-06-01 line
 scene: $scene-012-06
@@ -493,7 +493,7 @@ texture: recursive
 @suspense-012-core build
 scope: $chapter-012
 suspense-type: cognitive
-uncertainty: {{suspense-uncertainty:aftermath}}
+uncertainty: {{suspense-uncertainty:aftermath-11}}
 delay-technique: delayed-information
 payoff-zone: event-012-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
@@ -501,13 +501,13 @@ Delayed access, withheld explanation, and emotional pressure should work togethe
 @pause-012-core hold
 scope: $chapter-012
 pause-function: explanatory
-focus: {{pause-focus:aftermath}}
+focus: {{pause-focus:aftermath-11}}
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-012-core burst
 scope: $chapter-012
 acceleration-mode: pursuit-compression
-trigger: {{acceleration-trigger:aftermath}}
+trigger: {{acceleration-trigger:aftermath-11}}
 reader-effect: compress time and force the next consequence to land without emotional escape
 target-zone: $scene-012-06

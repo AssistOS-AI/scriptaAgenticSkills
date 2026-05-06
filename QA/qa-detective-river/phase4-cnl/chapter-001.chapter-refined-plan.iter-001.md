@@ -11,10 +11,10 @@ closing-mode: cliffhanger
 handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-001
 thematic-focus: identity-self under resistance pressure
 rhythm-note: balanced
-chapter-question: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
+chapter-question: Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
 answer-shift: the cover-up is not separate from the institution; it is how the institution currently functions
 arc-stage: entry-instability
-world-pressure: every lawful request alerts the people most interested in erasing the answer
+world-pressure: the precinct has already reassigned the scene file to property damage review
 location-focus: $location-primary
 block-alternation: action-dialogue-description-conflict-revelation-suspense-cliffhanger
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.
@@ -25,9 +25,9 @@ ref: purpose:setup -> Setup movement anchored by autopsy against the report
 ref: input-state:setup-0 -> Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.
 ref: output-state:setup-0 -> the accidental drowning becomes a timed contradiction
 ref: conflict:setup -> Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
-ref: chapter-question:setup -> Can Nadia prove murder before procedure itself is used to wash the evidence clean?
-ref: answer-shift:detective-police -> the cover-up is not separate from the institution; it is how the institution currently functions
-ref: world-pressure:setup -> every lawful request alerts the people most interested in erasing the answer
+ref: chapter-question:setup-0 -> Nadia needs the missing bag and the lock-camera footage, but Soren insists the drowning is already administratively closed.
+ref: answer-shift:detective-police-setup-0 -> the cover-up is not separate from the institution; it is how the institution currently functions
+ref: world-pressure:setup-0 -> the precinct has already reassigned the scene file to property damage review
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: prefer clean procedural detail over melodramatic explanation

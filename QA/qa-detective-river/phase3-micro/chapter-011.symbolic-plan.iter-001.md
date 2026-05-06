@@ -56,35 +56,35 @@ focalization: internal-single
 time-space: $location-tertiary-003
 introduction: {{scene-introduction:culmination-0}}
 development: {{scene-development:culmination-0}}
-conflict: {{scene-conflict:culmination}}
-resolution: {{scene-resolution:culmination-mid}}
+conflict: {{scene-conflict:culmination-0}}
+resolution: {{scene-resolution:culmination-0-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-001
 anchor-object: $plot-element-core-object
 support-focus: $character-support-001
-state-change: {{scene-state-change:culmination-mid}}
+state-change: {{scene-state-change:culmination-0-mid}}
 
 @action-011-1 place
 action-mode: revelation-act
 scene: $scene-011-01
 actor: $character-protagonist-001
 goal: {{action-goal:culmination-0}}
-obstacle: {{action-obstacle:culmination}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:culmination-0}}
+result: {{action-result:culmination-0-mid}}
 
 @conflict-011-1 place
 scope: $scene-011-01
 type: mixed
 forces: $character-protagonist-001 versus $character-support-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:culmination}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-culmination-0}}
+escalation: {{conflict-escalation:culmination-0}}
 
 @event-011-1 trigger
 scope: $scene-011-01
 event-type: accident
-trigger: {{event-trigger:culmination-mid}}
-impact: {{event-impact:culmination}}
-follow-through: {{event-follow-through:culmination-mid}}
+trigger: {{event-trigger:culmination-0-mid}}
+impact: {{event-impact:culmination-0}}
+follow-through: {{event-follow-through:culmination-0-mid}}
 
 @dialogue-turn-011-01-01 line
 scene: $scene-011-01
@@ -125,35 +125,35 @@ focalization: internal-single
 time-space: $location-tertiary-004
 introduction: {{scene-introduction:culmination-1}}
 development: {{scene-development:culmination-1}}
-conflict: {{scene-conflict:culmination}}
-resolution: {{scene-resolution:culmination-mid}}
+conflict: {{scene-conflict:culmination-1}}
+resolution: {{scene-resolution:culmination-1-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-002, $character-support-003, $character-pressure-001
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-002
-state-change: {{scene-state-change:culmination-mid}}
+state-change: {{scene-state-change:culmination-1-mid}}
 
 @action-011-2 place
 action-mode: revelation-act
 scene: $scene-011-02
 actor: $character-protagonist-001
 goal: {{action-goal:culmination-1}}
-obstacle: {{action-obstacle:culmination}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:culmination-1}}
+result: {{action-result:culmination-1-mid}}
 
 @conflict-011-2 place
 scope: $scene-011-02
 type: external-technology
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:culmination}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-culmination-1}}
+escalation: {{conflict-escalation:culmination-1}}
 
 @event-011-2 trigger
 scope: $scene-011-02
 event-type: deadline
-trigger: {{event-trigger:culmination-mid}}
-impact: {{event-impact:culmination}}
-follow-through: {{event-follow-through:culmination-mid}}
+trigger: {{event-trigger:culmination-1-mid}}
+impact: {{event-impact:culmination-1}}
+follow-through: {{event-follow-through:culmination-1-mid}}
 
 @dialogue-turn-011-02-01 line
 scene: $scene-011-02
@@ -194,35 +194,35 @@ focalization: internal-single
 time-space: $location-primary
 introduction: {{scene-introduction:culmination-2}}
 development: {{scene-development:culmination-2}}
-conflict: {{scene-conflict:culmination}}
-resolution: {{scene-resolution:culmination-mid}}
+conflict: {{scene-conflict:culmination-2}}
+resolution: {{scene-resolution:culmination-2-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-003
 anchor-object: $plot-element-core-object
 support-focus: $character-support-003
-state-change: {{scene-state-change:culmination-mid}}
+state-change: {{scene-state-change:culmination-2-mid}}
 
 @action-011-3 place
 action-mode: pursuit
 scene: $scene-011-03
 actor: $character-protagonist-001
 goal: {{action-goal:culmination-2}}
-obstacle: {{action-obstacle:culmination}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:culmination-2}}
+result: {{action-result:culmination-2-mid}}
 
 @conflict-011-3 place
 scope: $scene-011-03
 type: external-society
 forces: $character-protagonist-001 versus $character-support-003
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:culmination}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-culmination-2}}
+escalation: {{conflict-escalation:culmination-2}}
 
 @event-011-3 trigger
 scope: $scene-011-03
 event-type: loss
-trigger: {{event-trigger:culmination-mid}}
-impact: {{event-impact:culmination}}
-follow-through: {{event-follow-through:culmination-mid}}
+trigger: {{event-trigger:culmination-2-mid}}
+impact: {{event-impact:culmination-2}}
+follow-through: {{event-follow-through:culmination-2-mid}}
 
 @dialogue-turn-011-03-01 line
 scene: $scene-011-03
@@ -263,35 +263,35 @@ focalization: internal-single
 time-space: $location-tertiary-003
 introduction: {{scene-introduction:culmination-3}}
 development: {{scene-development:culmination-3}}
-conflict: {{scene-conflict:culmination}}
-resolution: {{scene-resolution:culmination-mid}}
+conflict: {{scene-conflict:culmination-3}}
+resolution: {{scene-resolution:culmination-3-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-001, $character-support-002
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-001
-state-change: {{scene-state-change:culmination-mid}}
+state-change: {{scene-state-change:culmination-3-mid}}
 
 @action-011-4 place
 action-mode: negotiation
 scene: $scene-011-04
 actor: $character-protagonist-001
 goal: {{action-goal:culmination-3}}
-obstacle: {{action-obstacle:culmination}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:culmination-3}}
+result: {{action-result:culmination-3-mid}}
 
 @conflict-011-4 place
 scope: $scene-011-04
 type: internal
 forces: $character-protagonist-001 versus $character-support-002
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:culmination}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-culmination-3}}
+escalation: {{conflict-escalation:culmination-3}}
 
 @event-011-4 trigger
 scope: $scene-011-04
 event-type: accident
-trigger: {{event-trigger:culmination-mid}}
-impact: {{event-impact:culmination}}
-follow-through: {{event-follow-through:culmination-mid}}
+trigger: {{event-trigger:culmination-3-mid}}
+impact: {{event-impact:culmination-3}}
+follow-through: {{event-follow-through:culmination-3-mid}}
 
 @dialogue-turn-011-04-01 line
 scene: $scene-011-04
@@ -332,35 +332,35 @@ focalization: internal-single
 time-space: $location-tertiary-004
 introduction: {{scene-introduction:culmination-4}}
 development: {{scene-development:culmination-4}}
-conflict: {{scene-conflict:culmination}}
-resolution: {{scene-resolution:culmination-mid}}
+conflict: {{scene-conflict:culmination-4}}
+resolution: {{scene-resolution:culmination-4-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-002, $character-pressure-001
 anchor-object: $plot-element-core-object
 support-focus: $character-support-002
-state-change: {{scene-state-change:culmination-mid}}
+state-change: {{scene-state-change:culmination-4-mid}}
 
 @action-011-5 place
 action-mode: revelation-act
 scene: $scene-011-05
 actor: $character-protagonist-001
 goal: {{action-goal:culmination-4}}
-obstacle: {{action-obstacle:culmination}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:culmination-4}}
+result: {{action-result:culmination-4-mid}}
 
 @conflict-011-5 place
 scope: $scene-011-05
 type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:culmination}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-culmination-4}}
+escalation: {{conflict-escalation:culmination-4}}
 
 @event-011-5 trigger
 scope: $scene-011-05
 event-type: reversal
-trigger: {{event-trigger:culmination-mid}}
-impact: {{event-impact:culmination}}
-follow-through: {{event-follow-through:culmination-mid}}
+trigger: {{event-trigger:culmination-4-mid}}
+impact: {{event-impact:culmination-4}}
+follow-through: {{event-follow-through:culmination-4-mid}}
 
 @dialogue-turn-011-05-01 line
 scene: $scene-011-05
@@ -401,35 +401,35 @@ focalization: internal-single
 time-space: $location-primary
 introduction: {{scene-introduction:culmination-5}}
 development: {{scene-development:culmination-5}}
-conflict: {{scene-conflict:culmination}}
-resolution: {{scene-resolution:culmination-final}}
+conflict: {{scene-conflict:culmination-5}}
+resolution: {{scene-resolution:culmination-5-final}}
 exit: the chapter hands off to a sharper culmination consequence
 participants: $character-protagonist-001, $character-support-003, $character-support-001, $character-pressure-001
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-003
-state-change: {{scene-state-change:culmination-final}}
+state-change: {{scene-state-change:culmination-5-final}}
 
 @action-011-6 place
 action-mode: pursuit
 scene: $scene-011-06
 actor: $character-protagonist-001
 goal: {{action-goal:culmination-5}}
-obstacle: {{action-obstacle:culmination}}
-result: {{action-result:culmination-final}}
+obstacle: {{action-obstacle:culmination-5}}
+result: {{action-result:culmination-5-final}}
 
 @conflict-011-6 place
 scope: $scene-011-06
 type: external-technology
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:culmination}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-culmination-5}}
+escalation: {{conflict-escalation:culmination-5}}
 
 @event-011-6 trigger
 scope: $scene-011-06
 event-type: accident
-trigger: {{event-trigger:culmination-final}}
-impact: {{event-impact:culmination}}
-follow-through: {{event-follow-through:culmination-final}}
+trigger: {{event-trigger:culmination-5-final}}
+impact: {{event-impact:culmination-5}}
+follow-through: {{event-follow-through:culmination-5-final}}
 
 @dialogue-turn-011-06-01 line
 scene: $scene-011-06
@@ -493,7 +493,7 @@ texture: fragmented
 @suspense-011-core build
 scope: $chapter-011
 suspense-type: cognitive
-uncertainty: {{suspense-uncertainty:culmination}}
+uncertainty: {{suspense-uncertainty:culmination-10}}
 delay-technique: delayed-information
 payoff-zone: event-011-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
@@ -501,19 +501,19 @@ Delayed access, withheld explanation, and emotional pressure should work togethe
 @pause-011-core hold
 scope: $chapter-011
 pause-function: explanatory
-focus: {{pause-focus:culmination}}
+focus: {{pause-focus:culmination-10}}
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-011-core burst
 scope: $chapter-011
 acceleration-mode: pursuit-compression
-trigger: {{acceleration-trigger:culmination}}
+trigger: {{acceleration-trigger:culmination-10}}
 reader-effect: compress time and force the next consequence to land without emotional escape
 target-zone: $scene-011-06
 
 @cliffhanger-011-exit cut
 scope: $chapter-011
 cliffhanger-type: danger
-cut-moment: {{cliffhanger-moment:culmination}}
-continuation-pressure: {{cliffhanger-continuation:culmination}}
+cut-moment: {{cliffhanger-moment:culmination-10}}
+continuation-pressure: {{cliffhanger-continuation:culmination-10}}

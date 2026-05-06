@@ -56,35 +56,35 @@ focalization: internal-single
 time-space: $location-tertiary-001
 introduction: {{scene-introduction:investigation-0}}
 development: {{scene-development:investigation-0}}
-conflict: {{scene-conflict:investigation}}
-resolution: {{scene-resolution:investigation-mid}}
+conflict: {{scene-conflict:investigation-0}}
+resolution: {{scene-resolution:investigation-0-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-003
 anchor-object: $plot-element-secondary-002
 support-focus: $character-support-003
-state-change: {{scene-state-change:investigation-mid}}
+state-change: {{scene-state-change:investigation-0-mid}}
 
 @action-003-1 place
 action-mode: sacrifice
 scene: $scene-003-01
 actor: $character-protagonist-001
 goal: {{action-goal:investigation-0}}
-obstacle: {{action-obstacle:investigation}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:investigation-0}}
+result: {{action-result:investigation-0-mid}}
 
 @conflict-003-1 place
 scope: $scene-003-01
 type: external-supernatural
 forces: $character-protagonist-001 versus $character-support-003
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:investigation}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-investigation-0}}
+escalation: {{conflict-escalation:investigation-0}}
 
 @event-003-1 trigger
 scope: $scene-003-01
 event-type: decision
-trigger: {{event-trigger:investigation-mid}}
-impact: {{event-impact:investigation}}
-follow-through: {{event-follow-through:investigation-mid}}
+trigger: {{event-trigger:investigation-0-mid}}
+impact: {{event-impact:investigation-0}}
+follow-through: {{event-follow-through:investigation-0-mid}}
 
 @dialogue-turn-003-01-01 line
 scene: $scene-003-01
@@ -125,35 +125,35 @@ focalization: internal-single
 time-space: $location-tertiary-002
 introduction: {{scene-introduction:investigation-1}}
 development: {{scene-development:investigation-1}}
-conflict: {{scene-conflict:investigation}}
-resolution: {{scene-resolution:investigation-mid}}
+conflict: {{scene-conflict:investigation-1}}
+resolution: {{scene-resolution:investigation-1-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-004, $character-support-005, $character-pressure-001
 anchor-object: $plot-element-secondary-003
 support-focus: $character-support-004
-state-change: {{scene-state-change:investigation-mid}}
+state-change: {{scene-state-change:investigation-1-mid}}
 
 @action-003-2 place
 action-mode: sacrifice
 scene: $scene-003-02
 actor: $character-protagonist-001
 goal: {{action-goal:investigation-1}}
-obstacle: {{action-obstacle:investigation}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:investigation-1}}
+result: {{action-result:investigation-1-mid}}
 
 @conflict-003-2 place
 scope: $scene-003-02
 type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:investigation}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-investigation-1}}
+escalation: {{conflict-escalation:investigation-1}}
 
 @event-003-2 trigger
 scope: $scene-003-02
 event-type: revelation
-trigger: {{event-trigger:investigation-mid}}
-impact: {{event-impact:investigation}}
-follow-through: {{event-follow-through:investigation-mid}}
+trigger: {{event-trigger:investigation-1-mid}}
+impact: {{event-impact:investigation-1}}
+follow-through: {{event-follow-through:investigation-1-mid}}
 
 @dialogue-turn-003-02-01 line
 scene: $scene-003-02
@@ -194,35 +194,35 @@ focalization: internal-single
 time-space: $location-tertiary-003
 introduction: {{scene-introduction:investigation-2}}
 development: {{scene-development:investigation-2}}
-conflict: {{scene-conflict:investigation}}
-resolution: {{scene-resolution:investigation-mid}}
+conflict: {{scene-conflict:investigation-2}}
+resolution: {{scene-resolution:investigation-2-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-005
 anchor-object: $plot-element-secondary-002
 support-focus: $character-support-005
-state-change: {{scene-state-change:investigation-mid}}
+state-change: {{scene-state-change:investigation-2-mid}}
 
 @action-003-3 place
 action-mode: revelation-act
 scene: $scene-003-03
 actor: $character-protagonist-001
 goal: {{action-goal:investigation-2}}
-obstacle: {{action-obstacle:investigation}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:investigation-2}}
+result: {{action-result:investigation-2-mid}}
 
 @conflict-003-3 place
 scope: $scene-003-03
 type: mixed
 forces: $character-protagonist-001 versus $character-support-005
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:investigation}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-investigation-2}}
+escalation: {{conflict-escalation:investigation-2}}
 
 @event-003-3 trigger
 scope: $scene-003-03
 event-type: crime
-trigger: {{event-trigger:investigation-mid}}
-impact: {{event-impact:investigation}}
-follow-through: {{event-follow-through:investigation-mid}}
+trigger: {{event-trigger:investigation-2-mid}}
+impact: {{event-impact:investigation-2}}
+follow-through: {{event-follow-through:investigation-2-mid}}
 
 @dialogue-turn-003-03-01 line
 scene: $scene-003-03
@@ -263,35 +263,35 @@ focalization: internal-single
 time-space: $location-tertiary-001
 introduction: {{scene-introduction:investigation-3}}
 development: {{scene-development:investigation-3}}
-conflict: {{scene-conflict:investigation}}
-resolution: {{scene-resolution:investigation-mid}}
+conflict: {{scene-conflict:investigation-3}}
+resolution: {{scene-resolution:investigation-3-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-003, $character-support-004
 anchor-object: $plot-element-secondary-003
 support-focus: $character-support-003
-state-change: {{scene-state-change:investigation-mid}}
+state-change: {{scene-state-change:investigation-3-mid}}
 
 @action-003-4 place
 action-mode: pursuit
 scene: $scene-003-04
 actor: $character-protagonist-001
 goal: {{action-goal:investigation-3}}
-obstacle: {{action-obstacle:investigation}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:investigation-3}}
+result: {{action-result:investigation-3-mid}}
 
 @conflict-003-4 place
 scope: $scene-003-04
 type: external-character
 forces: $character-protagonist-001 versus $character-support-004
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:investigation}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-investigation-3}}
+escalation: {{conflict-escalation:investigation-3}}
 
 @event-003-4 trigger
 scope: $scene-003-04
 event-type: discovery
-trigger: {{event-trigger:investigation-mid}}
-impact: {{event-impact:investigation}}
-follow-through: {{event-follow-through:investigation-mid}}
+trigger: {{event-trigger:investigation-3-mid}}
+impact: {{event-impact:investigation-3}}
+follow-through: {{event-follow-through:investigation-3-mid}}
 
 @dialogue-turn-003-04-01 line
 scene: $scene-003-04
@@ -332,35 +332,35 @@ focalization: internal-single
 time-space: $location-tertiary-002
 introduction: {{scene-introduction:investigation-4}}
 development: {{scene-development:investigation-4}}
-conflict: {{scene-conflict:investigation}}
-resolution: {{scene-resolution:investigation-mid}}
+conflict: {{scene-conflict:investigation-4}}
+resolution: {{scene-resolution:investigation-4-mid}}
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-004, $character-pressure-001
 anchor-object: $plot-element-secondary-002
 support-focus: $character-support-004
-state-change: {{scene-state-change:investigation-mid}}
+state-change: {{scene-state-change:investigation-4-mid}}
 
 @action-003-5 place
 action-mode: evasion
 scene: $scene-003-05
 actor: $character-protagonist-001
 goal: {{action-goal:investigation-4}}
-obstacle: {{action-obstacle:investigation}}
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: {{action-obstacle:investigation-4}}
+result: {{action-result:investigation-4-mid}}
 
 @conflict-003-5 place
 scope: $scene-003-05
 type: external-character
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:investigation}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-investigation-4}}
+escalation: {{conflict-escalation:investigation-4}}
 
 @event-003-5 trigger
 scope: $scene-003-05
 event-type: deadline
-trigger: {{event-trigger:investigation-mid}}
-impact: {{event-impact:investigation}}
-follow-through: {{event-follow-through:investigation-mid}}
+trigger: {{event-trigger:investigation-4-mid}}
+impact: {{event-impact:investigation-4}}
+follow-through: {{event-follow-through:investigation-4-mid}}
 
 @dialogue-turn-003-05-01 line
 scene: $scene-003-05
@@ -401,35 +401,35 @@ focalization: internal-single
 time-space: $location-tertiary-003
 introduction: {{scene-introduction:investigation-5}}
 development: {{scene-development:investigation-5}}
-conflict: {{scene-conflict:investigation}}
-resolution: {{scene-resolution:investigation-final}}
+conflict: {{scene-conflict:investigation-5}}
+resolution: {{scene-resolution:investigation-5-final}}
 exit: the chapter hands off to a sharper investigation consequence
 participants: $character-protagonist-001, $character-support-005, $character-support-003, $character-pressure-001
 anchor-object: $plot-element-secondary-003
 support-focus: $character-support-005
-state-change: {{scene-state-change:investigation-final}}
+state-change: {{scene-state-change:investigation-5-final}}
 
 @action-003-6 place
 action-mode: pursuit
 scene: $scene-003-06
 actor: $character-protagonist-001
 goal: {{action-goal:investigation-5}}
-obstacle: {{action-obstacle:investigation}}
-result: {{action-result:investigation-final}}
+obstacle: {{action-obstacle:investigation-5}}
+result: {{action-result:investigation-5-final}}
 
 @conflict-003-6 place
 scope: $scene-003-06
 type: external-supernatural
 forces: $character-protagonist-001 versus $character-pressure-001
-stakes: {{conflict-stakes:justice-legitimacy-trust-safety}}
-escalation: {{conflict-escalation:investigation}}
+stakes: {{conflict-stakes:justice-legitimacy-trust-safety-investigation-5}}
+escalation: {{conflict-escalation:investigation-5}}
 
 @event-003-6 trigger
 scope: $scene-003-06
 event-type: accident
-trigger: {{event-trigger:investigation-final}}
-impact: {{event-impact:investigation}}
-follow-through: {{event-follow-through:investigation-final}}
+trigger: {{event-trigger:investigation-5-final}}
+impact: {{event-impact:investigation-5}}
+follow-through: {{event-follow-through:investigation-5-final}}
 
 @dialogue-turn-003-06-01 line
 scene: $scene-003-06
@@ -493,7 +493,7 @@ texture: fragmented
 @suspense-003-core build
 scope: $chapter-003
 suspense-type: cognitive
-uncertainty: {{suspense-uncertainty:investigation}}
+uncertainty: {{suspense-uncertainty:investigation-2}}
 delay-technique: delayed-information
 payoff-zone: event-003-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
@@ -501,19 +501,19 @@ Delayed access, withheld explanation, and emotional pressure should work togethe
 @pause-003-core hold
 scope: $chapter-003
 pause-function: explanatory
-focus: {{pause-focus:investigation}}
+focus: {{pause-focus:investigation-2}}
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-003-core burst
 scope: $chapter-003
 acceleration-mode: pursuit-compression
-trigger: {{acceleration-trigger:investigation}}
+trigger: {{acceleration-trigger:investigation-2}}
 reader-effect: compress time and force the next consequence to land without emotional escape
 target-zone: $scene-003-06
 
 @cliffhanger-003-exit cut
 scope: $chapter-003
 cliffhanger-type: danger
-cut-moment: {{cliffhanger-moment:investigation}}
-continuation-pressure: {{cliffhanger-continuation:investigation}}
+cut-moment: {{cliffhanger-moment:investigation-2}}
+continuation-pressure: {{cliffhanger-continuation:investigation-2}}

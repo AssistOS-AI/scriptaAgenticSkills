@@ -53,6 +53,9 @@ test('symbolic generation creates append-only macro, chapter, and micro artifact
     assert.match(microContent, /@rule-pressure-/);
     assert.match(microContent, /@pause-/);
     assert.match(microContent, /\$scene-001-01/);
+    assert.match(microContent, /\{\{scene-conflict:setup-0\}\}/);
+    assert.match(microContent, /\{\{action-obstacle:setup-0\}\}/);
+    assert.match(microContent, /\{\{event-impact:setup-0\}\}/);
   } finally {
     await workspace.cleanup();
   }
@@ -85,6 +88,7 @@ test('symbolic generation expands cast, locations, objects, and dialogue turns f
     assert.match(worldContent, /@plot-element-secondary-001 define/);
     assert.ok((microContent.match(/^@dialogue-turn-/gm) ?? []).length >= 20);
     assert.ok((microContent.match(/^@scene-/gm) ?? []).length >= 5);
+    assert.match(microContent, /\{\{dialogue-line-hint:[a-z-]+-(protagonist|counterpart|pressure|support)-\d+-\d+\}\}/);
   } finally {
     await workspace.cleanup();
   }

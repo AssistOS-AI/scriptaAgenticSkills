@@ -26,8 +26,8 @@ chapter: $chapter-009
 rule-reference: $world-rule-primary
 visible-symptom: files return with fresh signatures but older dates, as if grief itself were rewritten overnight
 action-limitation: Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing.
-conflict-output: bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity
-reveal-pattern: show-consequence-first-explain-cause-later
+conflict-output: the archive software now mirrors paper files only after political approval
+reveal-pattern: show-exception-to-reveal-rule
 
 @arc-009-protagonist map
 chapter: $chapter-009
@@ -39,7 +39,7 @@ exit-belief: care without truth only prolongs the violence of the original wound
 @arc-009-relationship map
 chapter: $chapter-009
 pair: $character-protagonist-001, $character-support-004
-entry-dynamic: careful-cooperation-strained-by-withheld-history
+entry-dynamic: oath-bound-cooperation-shadowed-by-allegiance
 stress-line: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
 exit-dynamic: altered-but-legible-bond
 
@@ -51,7 +51,7 @@ anti-flatness-rule: do not chain action summaries without dialogue, atmosphere, 
 
 @scene-009-01 define
 chapter: $chapter-009
-showing-mode: direct-showing
+showing-mode: introspective
 focalization: internal-single
 time-space: $location-tertiary-001
 introduction: Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
@@ -65,23 +65,23 @@ support-focus: $character-support-004
 state-change: the lie becomes documentable, and therefore more dangerous
 
 @action-009-1 place
-action-mode: pursuit
+action-mode: evasion
 scene: $scene-009-01
 actor: $character-protagonist-001
 goal: extract enough records to prove the compensation pattern is deliberate
 obstacle: the archive software now mirrors paper files only after political approval
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+result: the lie becomes documentable, and therefore more dangerous
 
 @conflict-009-1 place
 scope: $scene-009-01
-type: external-nature
+type: mixed
 forces: $character-protagonist-001 versus $character-support-004
 stakes: her brother's last testimony, her mother's survival, and the town's false innocence
 escalation: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
 
 @event-009-1 trigger
 scope: $scene-009-01
-event-type: deadline
+event-type: betrayal
 trigger: one photographed page carries Mira's mother's signature beneath a false evacuation report
 impact: the investigation now threatens the family as much as the institution
 follow-through: Mira loses the comfort of treating her mother as untouched by the fraud
@@ -89,103 +89,103 @@ follow-through: Mira loses the comfort of treating her mother as untouched by th
 @dialogue-turn-009-01-01 line
 scene: $scene-009-01
 speaker: $character-support-004
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
-reaction-beat: The honesty changes the balance of power in the room.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-009-01-02 line
 scene: $scene-009-01
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
+line-hint: extract enough records to prove the compensation pattern is deliberate
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-009-01-03 line
 scene: $scene-009-01
 speaker: $character-support-005
-intent: warn
-subtext: tries to protect the bond by narrowing the next available move
-line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
-reaction-beat: The warning narrows what can still be done safely.
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: a hint for the dialogue line
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @dialogue-turn-009-01-04 line
 scene: $scene-009-01
 speaker: $character-pressure-001
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
-reaction-beat: The honesty changes the balance of power in the room.
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: the archive software now mirrors paper files only after political approval
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-009-02 define
 chapter: $chapter-009
-showing-mode: introspective
+showing-mode: dialogic
 focalization: internal-single
 time-space: $location-tertiary-002
 introduction: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
 development: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
-conflict: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
-resolution: They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
+conflict: the archive software now mirrors paper files only after political approval
+resolution: Mira loses the comfort of treating her mother as untouched by the fraud
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-005, $character-support-001, $character-pressure-001
 anchor-object: $plot-element-secondary-004
 support-focus: $character-support-005
-state-change: the lie becomes documentable, and therefore more dangerous
+state-change: Mira loses the comfort of treating her mother as untouched by the fraud
 
 @action-009-2 place
-action-mode: sacrifice
+action-mode: revelation-act
 scene: $scene-009-02
 actor: $character-protagonist-001
 goal: Mira loses the comfort of treating her mother as untouched by the fraud
-obstacle: the archive software now mirrors paper files only after political approval
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
+result: Mira loses the comfort of treating her mother as untouched by the fraud
 
 @conflict-009-2 place
 scope: $scene-009-02
-type: internal
+type: external-supernatural
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: her brother's last testimony, her mother's survival, and the town's false innocence
-escalation: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+escalation: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
 
 @event-009-2 trigger
 scope: $scene-009-02
-event-type: discovery
-trigger: one photographed page carries Mira's mother's signature beneath a false evacuation report
-impact: the investigation now threatens the family as much as the institution
-follow-through: Mira loses the comfort of treating her mother as untouched by the fraud
+event-type: loss
+trigger: Archive window without signatures
+impact: the lie becomes documentable, and therefore more dangerous
+follow-through: the lie becomes documentable, and therefore more dangerous
 
 @dialogue-turn-009-02-01 line
 scene: $scene-009-02
 speaker: $character-support-005
-intent: warn
-subtext: tries to protect the bond by narrowing the next available move
-line-hint: Archive window without signatures
-reaction-beat: The warning narrows what can still be done safely.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-009-02-02 line
 scene: $scene-009-02
 speaker: $character-protagonist-001
-intent: reframe
-subtext: changes the moral meaning of what was just said
-line-hint: Archive window without signatures
-reaction-beat: The new framing makes the old position harder to keep.
+intent: commit
+subtext: makes risk sound practical enough to become a promise
+line-hint: Mira loses the comfort of treating her mother as untouched by the fraud
+reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-009-02-03 line
 scene: $scene-009-02
 speaker: $character-support-001
-intent: reframe
-subtext: changes the moral meaning of what was just said
-line-hint: Archive window without signatures
-reaction-beat: The new framing makes the old position harder to keep.
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: a hint for the dialogue line
+reaction-beat: The warning narrows what can still be done safely.
 
 @dialogue-turn-009-02-04 line
 scene: $scene-009-02
 speaker: $character-pressure-001
-intent: warn
-subtext: tries to protect the bond by narrowing the next available move
-line-hint: Archive window without signatures
-reaction-beat: The warning narrows what can still be done safely.
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-009-03 define
 chapter: $chapter-009
@@ -194,209 +194,209 @@ focalization: internal-single
 time-space: $location-tertiary-003
 introduction: one photographed page carries Mira's mother's signature beneath a false evacuation report
 development: the investigation now threatens the family as much as the institution
-conflict: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
-resolution: They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
+conflict: the investigation now threatens the family as much as the institution
+resolution: the lie becomes documentable, and therefore more dangerous
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-001
 anchor-object: $plot-element-secondary-003
 support-focus: $character-support-001
-state-change: the lie becomes documentable, and therefore more dangerous
+state-change: They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
 
 @action-009-3 place
-action-mode: negotiation
+action-mode: evasion
 scene: $scene-009-03
 actor: $character-protagonist-001
 goal: Archive window without signatures
-obstacle: the archive software now mirrors paper files only after political approval
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: one photographed page carries Mira's mother's signature beneath a false evacuation report
+result: They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
 
 @conflict-009-3 place
 scope: $scene-009-03
-type: external-character
+type: external-nature
 forces: $character-protagonist-001 versus $character-support-001
 stakes: her brother's last testimony, her mother's survival, and the town's false innocence
-escalation: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+escalation: the investigation now threatens the family as much as the institution
 
 @event-009-3 trigger
 scope: $scene-009-03
-event-type: revelation
-trigger: one photographed page carries Mira's mother's signature beneath a false evacuation report
-impact: the investigation now threatens the family as much as the institution
-follow-through: Mira loses the comfort of treating her mother as untouched by the fraud
+event-type: arrival
+trigger: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+impact: Mira loses the comfort of treating her mother as untouched by the fraud
+follow-through: They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
 
 @dialogue-turn-009-03-01 line
 scene: $scene-009-03
 speaker: $character-support-001
-intent: challenge
-subtext: refuses the easier story and forces the pressure into view
-line-hint: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
-reaction-beat: The challenge strips politeness away from the scene.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-009-03-02 line
 scene: $scene-009-03
 speaker: $character-protagonist-001
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
-reaction-beat: The honesty changes the balance of power in the room.
+intent: commit
+subtext: makes risk sound practical enough to become a promise
+line-hint: Archive window without signatures
+reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-009-03-03 line
 scene: $scene-009-03
 speaker: $character-support-004
-intent: challenge
-subtext: refuses the easier story and forces the pressure into view
-line-hint: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
-reaction-beat: The challenge strips politeness away from the scene.
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: a hint for the dialogue line
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @dialogue-turn-009-03-04 line
 scene: $scene-009-03
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-009-04 define
 chapter: $chapter-009
-showing-mode: introspective
+showing-mode: mixed
 focalization: internal-single
 time-space: $location-tertiary-001
-introduction: Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
-development: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
-conflict: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
-resolution: They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
+introduction: They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
+development: extract enough records to prove the compensation pattern is deliberate
+conflict: extract enough records to prove the compensation pattern is deliberate
+resolution: the investigation now threatens the family as much as the institution
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-004, $character-support-005
 anchor-object: $plot-element-secondary-004
 support-focus: $character-support-004
-state-change: the lie becomes documentable, and therefore more dangerous
+state-change: the investigation now threatens the family as much as the institution
 
 @action-009-4 place
-action-mode: attempt
+action-mode: revelation-act
 scene: $scene-009-04
 actor: $character-protagonist-001
-goal: extract enough records to prove the compensation pattern is deliberate
-obstacle: the archive software now mirrors paper files only after political approval
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+goal: They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
+obstacle: the investigation now threatens the family as much as the institution
+result: the investigation now threatens the family as much as the institution
 
 @conflict-009-4 place
 scope: $scene-009-04
-type: external-character
+type: external-technology
 forces: $character-protagonist-001 versus $character-support-005
 stakes: her brother's last testimony, her mother's survival, and the town's false innocence
-escalation: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+escalation: extract enough records to prove the compensation pattern is deliberate
 
 @event-009-4 trigger
 scope: $scene-009-04
-event-type: loss
-trigger: one photographed page carries Mira's mother's signature beneath a false evacuation report
-impact: the investigation now threatens the family as much as the institution
-follow-through: Mira loses the comfort of treating her mother as untouched by the fraud
+event-type: deadline
+trigger: Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
+impact: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
+follow-through: the investigation now threatens the family as much as the institution
 
 @dialogue-turn-009-04-01 line
 scene: $scene-009-04
 speaker: $character-support-004
-intent: challenge
-subtext: refuses the easier story and forces the pressure into view
-line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
-reaction-beat: The challenge strips politeness away from the scene.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-009-04-02 line
 scene: $scene-009-04
 speaker: $character-protagonist-001
-intent: name-risk
-subtext: speaks the consequence both speakers hoped could stay implied
-line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
-reaction-beat: Naming the risk turns pressure into irreversible commitment.
+intent: commit
+subtext: makes risk sound practical enough to become a promise
+line-hint: They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
+reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-009-04-03 line
 scene: $scene-009-04
 speaker: $character-support-005
-intent: commit
-subtext: makes risk sound practical enough to become a promise
-line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
-reaction-beat: The promise raises the stakes for the next exchange.
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: a hint for the dialogue line
+reaction-beat: The warning narrows what can still be done safely.
 
 @dialogue-turn-009-04-04 line
 scene: $scene-009-04
 speaker: $character-pressure-001
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
-reaction-beat: The honesty changes the balance of power in the room.
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: the investigation now threatens the family as much as the institution
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-009-05 define
 chapter: $chapter-009
-showing-mode: introspective
+showing-mode: mixed
 focalization: internal-single
 time-space: $location-tertiary-002
-introduction: Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
-development: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
-conflict: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
-resolution: They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
+introduction: Archive window without signatures
+development: Mira loses the comfort of treating her mother as untouched by the fraud
+conflict: one photographed page carries Mira's mother's signature beneath a false evacuation report
+resolution: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-005, $character-pressure-001
 anchor-object: $plot-element-secondary-003
 support-focus: $character-support-005
-state-change: the lie becomes documentable, and therefore more dangerous
+state-change: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
 
 @action-009-5 place
-action-mode: negotiation
+action-mode: revelation-act
 scene: $scene-009-05
 actor: $character-protagonist-001
-goal: extract enough records to prove the compensation pattern is deliberate
-obstacle: the archive software now mirrors paper files only after political approval
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+goal: Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
+obstacle: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+result: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
 
 @conflict-009-5 place
 scope: $scene-009-05
-type: external-society
+type: external-technology
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: her brother's last testimony, her mother's survival, and the town's false innocence
-escalation: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+escalation: Mira loses the comfort of treating her mother as untouched by the fraud
 
 @event-009-5 trigger
 scope: $scene-009-05
-event-type: discovery
-trigger: one photographed page carries Mira's mother's signature beneath a false evacuation report
-impact: the investigation now threatens the family as much as the institution
-follow-through: Mira loses the comfort of treating her mother as untouched by the fraud
+event-type: revelation
+trigger: the archive software now mirrors paper files only after political approval
+impact: They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
+follow-through: extract enough records to prove the compensation pattern is deliberate
 
 @dialogue-turn-009-05-01 line
 scene: $scene-009-05
 speaker: $character-support-005
-intent: reframe
-subtext: changes the moral meaning of what was just said
-line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
-reaction-beat: The new framing makes the old position harder to keep.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-009-05-02 line
 scene: $scene-009-05
 speaker: $character-protagonist-001
-intent: warn
-subtext: tries to protect the bond by narrowing the next available move
-line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
-reaction-beat: The warning narrows what can still be done safely.
+intent: commit
+subtext: makes risk sound practical enough to become a promise
+line-hint: Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
+reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-009-05-03 line
 scene: $scene-009-05
 speaker: $character-support-001
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
-reaction-beat: The honesty changes the balance of power in the room.
+intent: name-risk
+subtext: speaks the consequence both speakers hoped could stay implied
+line-hint: a hint for the dialogue line
+reaction-beat: Naming the risk turns pressure into irreversible commitment.
 
 @dialogue-turn-009-05-04 line
 scene: $scene-009-05
 speaker: $character-pressure-001
-intent: reframe
-subtext: changes the moral meaning of what was just said
-line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
-reaction-beat: The new framing makes the old position harder to keep.
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-009-06 define
 chapter: $chapter-009
-showing-mode: compressed-showing
+showing-mode: dialogic
 focalization: internal-single
 time-space: $location-tertiary-003
 introduction: Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
@@ -410,7 +410,7 @@ support-focus: $character-support-001
 state-change: the lie becomes documentable, and therefore more dangerous
 
 @action-009-6 place
-action-mode: negotiation
+action-mode: revelation-act
 scene: $scene-009-06
 actor: $character-protagonist-001
 goal: extract enough records to prove the compensation pattern is deliberate
@@ -419,14 +419,14 @@ result: the lie becomes documentable, and therefore more dangerous
 
 @conflict-009-6 place
 scope: $scene-009-06
-type: external-nature
+type: external-society
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: her brother's last testimony, her mother's survival, and the town's false innocence
 escalation: Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
 
 @event-009-6 trigger
 scope: $scene-009-06
-event-type: revelation
+event-type: betrayal
 trigger: one photographed page carries Mira's mother's signature beneath a false evacuation report
 impact: the investigation now threatens the family as much as the institution
 follow-through: Mira loses the comfort of treating her mother as untouched by the fraud
@@ -434,41 +434,41 @@ follow-through: Mira loses the comfort of treating her mother as untouched by th
 @dialogue-turn-009-06-01 line
 scene: $scene-009-06
 speaker: $character-support-001
-intent: challenge
-subtext: refuses the easier story and forces the pressure into view
-line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
-reaction-beat: The challenge strips politeness away from the scene.
+intent: probe
+subtext: tests whether the other speaker can bear the unsoftened truth
+line-hint: a hint for the dialogue line
+reaction-beat: The question lands harder than either speaker planned.
 
 @dialogue-turn-009-06-02 line
 scene: $scene-009-06
 speaker: $character-protagonist-001
-intent: deflect
-subtext: turns confession sideways to protect status and control
-line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
-reaction-beat: The evasion makes the silence more visible than the answer would have.
+intent: commit
+subtext: makes risk sound practical enough to become a promise
+line-hint: extract enough records to prove the compensation pattern is deliberate
+reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-009-06-03 line
 scene: $scene-009-06
 speaker: $character-support-004
-intent: probe
-subtext: tests whether the other speaker can bear the unsoftened truth
-line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
-reaction-beat: The question lands harder than either speaker planned.
+intent: warn
+subtext: tries to protect the bond by narrowing the next available move
+line-hint: a hint for the dialogue line
+reaction-beat: The warning narrows what can still be done safely.
 
 @dialogue-turn-009-06-04 line
 scene: $scene-009-06
 speaker: $character-pressure-001
-intent: answer-honestly
-subtext: gives away more vulnerability than strategy intended
-line-hint: one photographed page carries Mira's mother's signature beneath a false evacuation report
-reaction-beat: The honesty changes the balance of power in the room.
+intent: challenge
+subtext: refuses the easier story and forces the pressure into view
+line-hint: the archive software now mirrors paper files only after political approval
+reaction-beat: The challenge strips politeness away from the scene.
 
 @description-009-atmosphere apply
 scope: $chapter-009
 description-type: atmosphere
 focus: a civic room designed to soften language until responsibility disappears
 function: atmospheric
-rhythm-effect: frame
+rhythm-effect: contrast
 
 @dialogue-009-core apply
 scene: $scene-009-01
@@ -493,7 +493,7 @@ texture: reflective
 @suspense-009-core build
 scope: $chapter-009
 suspense-type: emotional
-uncertainty: Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?
+uncertainty: Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
 delay-technique: mixed
 payoff-zone: event-009-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
@@ -501,22 +501,22 @@ Delayed access, withheld explanation, and emotional pressure should work togethe
 @pause-009-core hold
 scope: $chapter-009
 pause-function: psychological
-focus: the lie becomes documentable, and therefore more dangerous
+focus: the investigation now threatens the family as much as the institution
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-009-core burst
 scope: $chapter-009
 acceleration-mode: summary-burst
-trigger: one photographed page carries Mira's mother's signature beneath a false evacuation report
+trigger: Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
 reader-effect: compress time and force the next consequence to land without emotional escape
 target-zone: $scene-009-06
 
 @cliffhanger-009-exit cut
 scope: $chapter-009
 cliffhanger-type: danger
-cut-moment: one photographed page carries Mira's mother's signature beneath a false evacuation report
-continuation-pressure: Mira loses the comfort of treating her mother as untouched by the fraud
+cut-moment: Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
+continuation-pressure: the investigation now threatens the family as much as the institution
 
 @location-009-anchor refine
 ref: sensory-anchor:location-primary -> wet wool, radiator hiss, mildew trapped in paper bindings
@@ -531,7 +531,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @rule-pressure-009-core refine
 ref: visible-symptom:bridge -> files return with fresh signatures but older dates, as if grief itself were rewritten overnight
 ref: action-limitation:bridge -> Mira cannot accuse the town hall without exposing her mother and Vera to the same hearing.
-ref: conflict-output-rule:bridge -> bureaucratic delay turns each act of mourning into a negotiation over who gets to keep dignity
+ref: conflict-output-rule:bridge -> the archive software now mirrors paper files only after political approval
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: show how institutions and norms shape action without over-explaining them
@@ -564,18 +564,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @scene-009-01 refine
 ref: scene-introduction:bridge-0 -> Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
 ref: scene-development:bridge-0 -> Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
-ref: scene-conflict:bridge -> Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
-ref: scene-resolution:bridge-mid -> They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
-ref: scene-state-change:bridge-mid -> the lie becomes documentable, and therefore more dangerous
+ref: scene-conflict:bridge-0 -> Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
+ref: scene-resolution:bridge-0-mid -> They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
+ref: scene-state-change:bridge-0-mid -> the lie becomes documentable, and therefore more dangerous
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let bodily tension and emotional hesitation appear before explanation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-01-01 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:bridge-0-0 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:bridge-support-0-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
@@ -584,110 +584,110 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-009-01-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:bridge-0-1 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: dialogue-line-hint:bridge-protagonist-0-1 -> extract enough records to prove the compensation pattern is deliberate
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-01-03 refine
-ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
-ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
-ref: dialogue-line-hint:bridge-0-2 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:bridge-support-0-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-01-04 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:bridge-0-3 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:bridge-pressure-0-3 -> the archive software now mirrors paper files only after political approval
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-009-02 refine
-ref: scene-conflict:bridge -> Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
-ref: scene-resolution:bridge-mid -> They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
-ref: scene-state-change:bridge-mid -> the lie becomes documentable, and therefore more dangerous
 ref: scene-introduction:bridge-1 -> Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
 ref: scene-development:bridge-1 -> Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
+ref: scene-conflict:bridge-1 -> the archive software now mirrors paper files only after political approval
+ref: scene-resolution:bridge-1-mid -> Mira loses the comfort of treating her mother as untouched by the fraud
+ref: scene-state-change:bridge-1-mid -> Mira loses the comfort of treating her mother as untouched by the fraud
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let bodily tension and emotional hesitation appear before explanation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-02-01 refine
-ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
-ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
-ref: dialogue-line-hint:bridge-1-0 -> Archive window without signatures
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:bridge-support-1-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-02-02 refine
-ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
-ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
-ref: dialogue-line-hint:bridge-1-1 -> Archive window without signatures
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:bridge-protagonist-1-1 -> Mira loses the comfort of treating her mother as untouched by the fraud
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-02-03 refine
-ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
-ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
-ref: dialogue-line-hint:bridge-1-2 -> Archive window without signatures
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:bridge-support-1-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-02-04 refine
-ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
-ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
-ref: dialogue-line-hint:bridge-1-3 -> Archive window without signatures
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:bridge-pressure-1-3 -> Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-009-03 refine
-ref: scene-conflict:bridge -> Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
-ref: scene-resolution:bridge-mid -> They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
-ref: scene-state-change:bridge-mid -> the lie becomes documentable, and therefore more dangerous
 ref: scene-introduction:bridge-2 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
 ref: scene-development:bridge-2 -> the investigation now threatens the family as much as the institution
+ref: scene-conflict:bridge-2 -> the investigation now threatens the family as much as the institution
+ref: scene-resolution:bridge-2-mid -> the lie becomes documentable, and therefore more dangerous
+ref: scene-state-change:bridge-2-mid -> They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let bodily tension and emotional hesitation appear before explanation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-03-01 refine
-ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
-ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:bridge-2-0 -> Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:bridge-support-2-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-03-02 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:bridge-2-1 -> Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:bridge-protagonist-2-1 -> Archive window without signatures
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-03-03 refine
-ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
-ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:bridge-2-2 -> Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:bridge-support-2-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
@@ -696,148 +696,148 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-009-03-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:bridge-2-3 -> Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+ref: dialogue-line-hint:bridge-pressure-2-3 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-009-04 refine
-ref: scene-conflict:bridge -> Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
-ref: scene-resolution:bridge-mid -> They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
-ref: scene-state-change:bridge-mid -> the lie becomes documentable, and therefore more dangerous
-ref: scene-introduction:bridge-3 -> Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
-ref: scene-development:bridge-3 -> Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+ref: scene-introduction:bridge-3 -> They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
+ref: scene-development:bridge-3 -> extract enough records to prove the compensation pattern is deliberate
+ref: scene-conflict:bridge-3 -> extract enough records to prove the compensation pattern is deliberate
+ref: scene-resolution:bridge-3-mid -> the investigation now threatens the family as much as the institution
+ref: scene-state-change:bridge-3-mid -> the investigation now threatens the family as much as the institution
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let bodily tension and emotional hesitation appear before explanation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-04-01 refine
-ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
-ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:bridge-3-0 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:bridge-support-3-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-04-02 refine
-ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
-ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
-ref: dialogue-line-hint:bridge-3-1 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:bridge-protagonist-3-1 -> They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-04-03 refine
-ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
-ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:bridge-3-2 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:bridge-support-3-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-04-04 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:bridge-3-3 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:bridge-pressure-3-3 -> the investigation now threatens the family as much as the institution
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-009-05 refine
-ref: scene-conflict:bridge -> Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
-ref: scene-resolution:bridge-mid -> They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
-ref: scene-state-change:bridge-mid -> the lie becomes documentable, and therefore more dangerous
-ref: scene-introduction:bridge-4 -> Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
-ref: scene-development:bridge-4 -> Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+ref: scene-introduction:bridge-4 -> Archive window without signatures
+ref: scene-development:bridge-4 -> Mira loses the comfort of treating her mother as untouched by the fraud
+ref: scene-conflict:bridge-4 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: scene-resolution:bridge-4-mid -> Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
+ref: scene-state-change:bridge-4-mid -> Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let bodily tension and emotional hesitation appear before explanation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-05-01 refine
-ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
-ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
-ref: dialogue-line-hint:bridge-4-0 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:bridge-support-4-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-05-02 refine
-ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
-ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
-ref: dialogue-line-hint:bridge-4-1 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:bridge-protagonist-4-1 -> Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-05-03 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:bridge-4-2 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: dialogue-subtext:name-risk -> speaks the consequence both speakers hoped could stay implied
+ref: dialogue-reaction:name-risk -> Naming the risk turns pressure into irreversible commitment.
+ref: dialogue-line-hint:bridge-support-4-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-05-04 refine
-ref: dialogue-subtext:reframe -> changes the moral meaning of what was just said
-ref: dialogue-reaction:reframe -> The new framing makes the old position harder to keep.
-ref: dialogue-line-hint:bridge-4-3 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:bridge-pressure-4-3 -> Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-009-06 refine
-ref: scene-conflict:bridge -> Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
 ref: scene-introduction:bridge-5 -> Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
 ref: scene-development:bridge-5 -> Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.
-ref: scene-resolution:bridge-final -> They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
-ref: scene-state-change:bridge-final -> the lie becomes documentable, and therefore more dangerous
+ref: scene-conflict:bridge-5 -> Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
+ref: scene-resolution:bridge-5-final -> They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.
+ref: scene-state-change:bridge-5-final -> the lie becomes documentable, and therefore more dangerous
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let bodily tension and emotional hesitation appear before explanation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-06-01 refine
-ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
-ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:bridge-5-0 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
+ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
+ref: dialogue-line-hint:bridge-support-5-0 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-06-02 refine
-ref: dialogue-subtext:deflect -> turns confession sideways to protect status and control
-ref: dialogue-reaction:deflect -> The evasion makes the silence more visible than the answer would have.
-ref: dialogue-line-hint:bridge-5-1 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
+ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
+ref: dialogue-line-hint:bridge-protagonist-5-1 -> extract enough records to prove the compensation pattern is deliberate
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-06-03 refine
-ref: dialogue-subtext:probe -> tests whether the other speaker can bear the unsoftened truth
-ref: dialogue-reaction:probe -> The question lands harder than either speaker planned.
-ref: dialogue-line-hint:bridge-5-2 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: dialogue-subtext:warn -> tries to protect the bond by narrowing the next available move
+ref: dialogue-reaction:warn -> The warning narrows what can still be done safely.
+ref: dialogue-line-hint:bridge-support-5-2 -> a hint for the dialogue line
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @dialogue-turn-009-06-04 refine
-ref: dialogue-subtext:answer-honestly -> gives away more vulnerability than strategy intended
-ref: dialogue-reaction:answer-honestly -> The honesty changes the balance of power in the room.
-ref: dialogue-line-hint:bridge-5-3 -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
+ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
+ref: dialogue-line-hint:bridge-pressure-5-3 -> the archive software now mirrors paper files only after political approval
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make each line sound emotionally specific and morally contested rather than declarative
@@ -851,21 +851,21 @@ should: keep the language intimate, restrained, and emotionally specific
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @suspense-009-core refine
-ref: suspense-uncertainty:bridge -> Can Mira expose the lie that killed her brother if the truth also proves her family survived on the same silence?
+ref: suspense-uncertainty:bridge-8 -> Vera wants to copy the ledger quietly, while Mira wants to confront Corin before he can recode the files again.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the language intimate, restrained, and emotionally specific
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @pause-009-core refine
-ref: pause-focus:bridge -> the lie becomes documentable, and therefore more dangerous
+ref: pause-focus:bridge-8 -> the investigation now threatens the family as much as the institution
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let rhythm changes expose emotional consequence instead of merely changing speed
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @acceleration-009-core refine
-ref: acceleration-trigger:bridge -> one photographed page carries Mira's mother's signature beneath a false evacuation report
+ref: acceleration-trigger:bridge-8 -> Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: let rhythm changes expose emotional consequence instead of merely changing speed

@@ -1,8 +1,8 @@
 @chapter-012 define
 chapter-role: aftermath
 purpose: Culmination movement anchored by launch with the unfinished dedication
-input-state: On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.
-output-state: their bond shifts from guarded usefulness to acknowledged reciprocity
+input-state: Talia sees the page only after the first public copy is opened in front of the crowd.
+output-state: the partnership survives because honesty finally becomes part of the work
 conflict: Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
 stakes: the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
 opening-mode: in-medias-res
@@ -11,23 +11,23 @@ closing-mode: reversal
 handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-012
 thematic-focus: love-connection under transformation pressure
 rhythm-note: breathless
-chapter-question: Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
+chapter-question: public celebration offers an easy way to hide inside performance instead of confession
 answer-shift: the studio survives only if the people inside it stop pretending usefulness is neutral
 arc-stage: changed-state-reading
-world-pressure: shared labor turns every practical choice into a referendum on trust, apology, and future risk
+world-pressure: Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
 location-focus: $location-primary
 block-alternation: dialogue-description-interior-monologue-action-pause-dialogue-cliffhanger
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.
 
 @chapter-012 refine
 ref: stakes:autonomy-tenderness-trust-future -> the studio's survival, the commission that could define both careers, and the possibility of loving honestly again
-ref: answer-shift:romance-relational -> the studio survives only if the people inside it stop pretending usefulness is neutral
 ref: purpose:aftermath -> Culmination movement anchored by launch with the unfinished dedication
-ref: input-state:aftermath-11 -> On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.
-ref: output-state:aftermath-11 -> their bond shifts from guarded usefulness to acknowledged reciprocity
+ref: input-state:aftermath-11 -> Talia sees the page only after the first public copy is opened in front of the crowd.
+ref: output-state:aftermath-11 -> the partnership survives because honesty finally becomes part of the work
 ref: conflict:aftermath -> Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
-ref: chapter-question:aftermath -> Can Leora and Talia rebuild the studio without turning the work into another polite way of avoiding the truth between them?
-ref: world-pressure:aftermath -> shared labor turns every practical choice into a referendum on trust, apology, and future risk
+ref: chapter-question:aftermath-11 -> public celebration offers an easy way to hide inside performance instead of confession
+ref: answer-shift:romance-relational-aftermath-11 -> the studio survives only if the people inside it stop pretending usefulness is neutral
+ref: world-pressure:aftermath-11 -> Leora can still present the gesture as branding, or let it stand as a public act of chosen vulnerability.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make subtext carry as much weight as direct confession

@@ -26,7 +26,7 @@ chapter: $chapter-012
 rule-reference: $world-rule-primary
 visible-symptom: logs are complete on paper but physically impossible when matched against the river timing
 action-limitation: Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
-conflict-output: every lawful request alerts the people most interested in erasing the answer
+conflict-output: the briefing room was built to keep testimony internal and deniable
 reveal-pattern: show-exception-to-reveal-rule
 
 @arc-012-protagonist map
@@ -70,7 +70,7 @@ scene: $scene-012-01
 actor: $character-protagonist-001
 goal: move the evidence faster than the suspension order
 obstacle: the briefing room was built to keep testimony internal and deniable
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+result: the case survives because the institution loses control of its own narrative
 
 @conflict-012-1 place
 scope: $scene-012-01
@@ -99,7 +99,7 @@ scene: $scene-012-01
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
+line-hint: move the evidence faster than the suspension order
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-012-01-03 line
@@ -115,7 +115,7 @@ scene: $scene-012-01
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
+line-hint: the briefing room was built to keep testimony internal and deniable
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-012-02 define
@@ -125,35 +125,35 @@ focalization: internal-single
 time-space: $location-primary
 introduction: Theo streams the room live while officers realize the cover-up reaches beyond one report.
 development: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
-conflict: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
-resolution: She names him and files the footage directly to the prosecutor while the live stream continues.
+conflict: the briefing room was built to keep testimony internal and deniable
+resolution: the victim finally receives a case worthy of the facts
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-003, $character-support-004, $character-pressure-001
 anchor-object: $plot-element-secondary-002
 support-focus: $character-support-003
-state-change: the case survives because the institution loses control of its own narrative
+state-change: the victim finally receives a case worthy of the facts
 
 @action-012-2 place
 action-mode: evasion
 scene: $scene-012-02
 actor: $character-protagonist-001
 goal: the victim finally receives a case worthy of the facts
-obstacle: the briefing room was built to keep testimony internal and deniable
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+result: the victim finally receives a case worthy of the facts
 
 @conflict-012-2 place
 scope: $scene-012-02
 type: mixed
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
-escalation: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+escalation: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 
 @event-012-2 trigger
 scope: $scene-012-02
 event-type: deadline
-trigger: the footage freezes on Soren entering the lock corridor minutes after the murder
-impact: command authority becomes visible complicity
-follow-through: the victim finally receives a case worthy of the facts
+trigger: Briefing room breach
+impact: the case survives because the institution loses control of its own narrative
+follow-through: the case survives because the institution loses control of its own narrative
 
 @dialogue-turn-012-02-01 line
 scene: $scene-012-02
@@ -168,7 +168,7 @@ scene: $scene-012-02
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: Briefing room breach
+line-hint: the victim finally receives a case worthy of the facts
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-012-02-03 line
@@ -184,7 +184,7 @@ scene: $scene-012-02
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: Briefing room breach
+line-hint: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-012-03 define
@@ -194,35 +194,35 @@ focalization: internal-single
 time-space: $location-secondary
 introduction: the footage freezes on Soren entering the lock corridor minutes after the murder
 development: command authority becomes visible complicity
-conflict: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
-resolution: She names him and files the footage directly to the prosecutor while the live stream continues.
+conflict: command authority becomes visible complicity
+resolution: the case survives because the institution loses control of its own narrative
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-004
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-004
-state-change: the case survives because the institution loses control of its own narrative
+state-change: She names him and files the footage directly to the prosecutor while the live stream continues.
 
 @action-012-3 place
 action-mode: sacrifice
 scene: $scene-012-03
 actor: $character-protagonist-001
 goal: Briefing room breach
-obstacle: the briefing room was built to keep testimony internal and deniable
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+obstacle: the footage freezes on Soren entering the lock corridor minutes after the murder
+result: She names him and files the footage directly to the prosecutor while the live stream continues.
 
 @conflict-012-3 place
 scope: $scene-012-03
 type: external-society
 forces: $character-protagonist-001 versus $character-support-004
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
-escalation: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+escalation: command authority becomes visible complicity
 
 @event-012-3 trigger
 scope: $scene-012-03
 event-type: revelation
-trigger: the footage freezes on Soren entering the lock corridor minutes after the murder
-impact: command authority becomes visible complicity
-follow-through: the victim finally receives a case worthy of the facts
+trigger: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+impact: the victim finally receives a case worthy of the facts
+follow-through: She names him and files the footage directly to the prosecutor while the live stream continues.
 
 @dialogue-turn-012-03-01 line
 scene: $scene-012-03
@@ -237,7 +237,7 @@ scene: $scene-012-03
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+line-hint: Briefing room breach
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-012-03-03 line
@@ -253,7 +253,7 @@ scene: $scene-012-03
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-012-04 define
@@ -261,37 +261,37 @@ chapter: $chapter-012
 showing-mode: direct-showing
 focalization: internal-single
 time-space: $location-tertiary-004
-introduction: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
-development: Theo streams the room live while officers realize the cover-up reaches beyond one report.
-conflict: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
-resolution: She names him and files the footage directly to the prosecutor while the live stream continues.
+introduction: She names him and files the footage directly to the prosecutor while the live stream continues.
+development: move the evidence faster than the suspension order
+conflict: move the evidence faster than the suspension order
+resolution: command authority becomes visible complicity
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-support-002, $character-support-003
 anchor-object: $plot-element-secondary-002
 support-focus: $character-support-002
-state-change: the case survives because the institution loses control of its own narrative
+state-change: command authority becomes visible complicity
 
 @action-012-4 place
 action-mode: attempt
 scene: $scene-012-04
 actor: $character-protagonist-001
-goal: move the evidence faster than the suspension order
-obstacle: the briefing room was built to keep testimony internal and deniable
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+goal: She names him and files the footage directly to the prosecutor while the live stream continues.
+obstacle: command authority becomes visible complicity
+result: command authority becomes visible complicity
 
 @conflict-012-4 place
 scope: $scene-012-04
 type: external-character
 forces: $character-protagonist-001 versus $character-support-003
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
-escalation: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+escalation: move the evidence faster than the suspension order
 
 @event-012-4 trigger
 scope: $scene-012-04
 event-type: revelation
-trigger: the footage freezes on Soren entering the lock corridor minutes after the murder
-impact: command authority becomes visible complicity
-follow-through: the victim finally receives a case worthy of the facts
+trigger: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+impact: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+follow-through: command authority becomes visible complicity
 
 @dialogue-turn-012-04-01 line
 scene: $scene-012-04
@@ -306,7 +306,7 @@ scene: $scene-012-04
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
+line-hint: She names him and files the footage directly to the prosecutor while the live stream continues.
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-012-04-03 line
@@ -322,7 +322,7 @@ scene: $scene-012-04
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
+line-hint: command authority becomes visible complicity
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-012-05 define
@@ -330,37 +330,37 @@ chapter: $chapter-012
 showing-mode: compressed-showing
 focalization: internal-single
 time-space: $location-primary
-introduction: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
-development: Theo streams the room live while officers realize the cover-up reaches beyond one report.
-conflict: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
-resolution: She names him and files the footage directly to the prosecutor while the live stream continues.
+introduction: Briefing room breach
+development: the victim finally receives a case worthy of the facts
+conflict: the footage freezes on Soren entering the lock corridor minutes after the murder
+resolution: Theo streams the room live while officers realize the cover-up reaches beyond one report.
 exit: the next scene begins before the pressure can settle
 participants: $character-protagonist-001, $character-counterpart-001, $character-support-003, $character-pressure-001
 anchor-object: $plot-element-secondary-001
 support-focus: $character-support-003
-state-change: the case survives because the institution loses control of its own narrative
+state-change: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 
 @action-012-5 place
 action-mode: revelation-act
 scene: $scene-012-05
 actor: $character-protagonist-001
-goal: move the evidence faster than the suspension order
-obstacle: the briefing room was built to keep testimony internal and deniable
-result: the attempt reveals only part of the hidden structure and deepens the next demand
+goal: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
+obstacle: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+result: Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 
 @conflict-012-5 place
 scope: $scene-012-05
 type: internal
 forces: $character-protagonist-001 versus $character-pressure-001
 stakes: the victim's true cause of death, the integrity of the precinct, and the city contract tied to the riverfront
-escalation: Theo streams the room live while officers realize the cover-up reaches beyond one report.
+escalation: the victim finally receives a case worthy of the facts
 
 @event-012-5 trigger
 scope: $scene-012-05
 event-type: accident
-trigger: the footage freezes on Soren entering the lock corridor minutes after the murder
-impact: command authority becomes visible complicity
-follow-through: the victim finally receives a case worthy of the facts
+trigger: the briefing room was built to keep testimony internal and deniable
+impact: She names him and files the footage directly to the prosecutor while the live stream continues.
+follow-through: move the evidence faster than the suspension order
 
 @dialogue-turn-012-05-01 line
 scene: $scene-012-05
@@ -375,7 +375,7 @@ scene: $scene-012-05
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
+line-hint: During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-012-05-03 line
@@ -391,7 +391,7 @@ scene: $scene-012-05
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
+line-hint: Theo streams the room live while officers realize the cover-up reaches beyond one report.
 reaction-beat: The challenge strips politeness away from the scene.
 
 @scene-012-06 define
@@ -444,7 +444,7 @@ scene: $scene-012-06
 speaker: $character-protagonist-001
 intent: commit
 subtext: makes risk sound practical enough to become a promise
-line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
+line-hint: move the evidence faster than the suspension order
 reaction-beat: The promise raises the stakes for the next exchange.
 
 @dialogue-turn-012-06-03 line
@@ -460,7 +460,7 @@ scene: $scene-012-06
 speaker: $character-pressure-001
 intent: challenge
 subtext: refuses the easier story and forces the pressure into view
-line-hint: the footage freezes on Soren entering the lock corridor minutes after the murder
+line-hint: the briefing room was built to keep testimony internal and deniable
 reaction-beat: The challenge strips politeness away from the scene.
 
 @description-012-atmosphere apply
@@ -493,7 +493,7 @@ texture: recursive
 @suspense-012-core build
 scope: $chapter-012
 suspense-type: cognitive
-uncertainty: Can Nadia prove murder before procedure itself is used to wash the evidence clean?
+uncertainty: the case survives because the institution loses control of its own narrative
 delay-technique: delayed-information
 payoff-zone: event-012-6
 Delayed access, withheld explanation, and emotional pressure should work together instead of in isolation.
@@ -501,14 +501,14 @@ Delayed access, withheld explanation, and emotional pressure should work togethe
 @pause-012-core hold
 scope: $chapter-012
 pause-function: explanatory
-focus: the case survives because the institution loses control of its own narrative
+focus: the victim finally receives a case worthy of the facts
 placement: before-final-scene
 reader-effect: decelerate just enough to let consequence become legible
 
 @acceleration-012-core burst
 scope: $chapter-012
 acceleration-mode: pursuit-compression
-trigger: the footage freezes on Soren entering the lock corridor minutes after the murder
+trigger: Briefing room breach
 reader-effect: compress time and force the next consequence to land without emotional escape
 target-zone: $scene-012-06
 
@@ -525,7 +525,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @rule-pressure-012-core refine
 ref: visible-symptom:aftermath -> logs are complete on paper but physically impossible when matched against the river timing
 ref: action-limitation:aftermath -> Nadia cannot move the evidence outside the precinct without committing the very breach Soren is waiting to punish.
-ref: conflict-output-rule:aftermath -> every lawful request alerts the people most interested in erasing the answer
+ref: conflict-output-rule:aftermath -> the briefing room was built to keep testimony internal and deniable
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: make rules generate clue pressure and institutional obstruction
@@ -558,9 +558,9 @@ The refined artifact preserves identifier continuity so deterministic validation
 @scene-012-01 refine
 ref: scene-introduction:aftermath-0 -> During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
 ref: scene-development:aftermath-0 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
-ref: scene-conflict:aftermath -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
-ref: scene-resolution:aftermath-mid -> She names him and files the footage directly to the prosecutor while the live stream continues.
-ref: scene-state-change:aftermath-mid -> the case survives because the institution loses control of its own narrative
+ref: scene-conflict:aftermath-0 -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+ref: scene-resolution:aftermath-0-mid -> She names him and files the footage directly to the prosecutor while the live stream continues.
+ref: scene-state-change:aftermath-0-mid -> the case survives because the institution loses control of its own narrative
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -578,7 +578,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-012-01-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:aftermath-protagonist-0-1 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-line-hint:aftermath-protagonist-0-1 -> move the evidence faster than the suspension order
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -596,18 +596,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-012-01-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:aftermath-pressure-0-3 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-line-hint:aftermath-pressure-0-3 -> the briefing room was built to keep testimony internal and deniable
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-012-02 refine
-ref: scene-conflict:aftermath -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
-ref: scene-resolution:aftermath-mid -> She names him and files the footage directly to the prosecutor while the live stream continues.
-ref: scene-state-change:aftermath-mid -> the case survives because the institution loses control of its own narrative
 ref: scene-introduction:aftermath-1 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
 ref: scene-development:aftermath-1 -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+ref: scene-conflict:aftermath-1 -> the briefing room was built to keep testimony internal and deniable
+ref: scene-resolution:aftermath-1-mid -> the victim finally receives a case worthy of the facts
+ref: scene-state-change:aftermath-1-mid -> the victim finally receives a case worthy of the facts
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -625,7 +625,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-012-02-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:aftermath-protagonist-1-1 -> Briefing room breach
+ref: dialogue-line-hint:aftermath-protagonist-1-1 -> the victim finally receives a case worthy of the facts
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -643,18 +643,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-012-02-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:aftermath-pressure-1-3 -> Briefing room breach
+ref: dialogue-line-hint:aftermath-pressure-1-3 -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-012-03 refine
-ref: scene-conflict:aftermath -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
-ref: scene-resolution:aftermath-mid -> She names him and files the footage directly to the prosecutor while the live stream continues.
-ref: scene-state-change:aftermath-mid -> the case survives because the institution loses control of its own narrative
 ref: scene-introduction:aftermath-2 -> the footage freezes on Soren entering the lock corridor minutes after the murder
 ref: scene-development:aftermath-2 -> command authority becomes visible complicity
+ref: scene-conflict:aftermath-2 -> command authority becomes visible complicity
+ref: scene-resolution:aftermath-2-mid -> the case survives because the institution loses control of its own narrative
+ref: scene-state-change:aftermath-2-mid -> She names him and files the footage directly to the prosecutor while the live stream continues.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -672,7 +672,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-012-03-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:aftermath-protagonist-2-1 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
+ref: dialogue-line-hint:aftermath-protagonist-2-1 -> Briefing room breach
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -690,18 +690,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-012-03-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:aftermath-pressure-2-3 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
+ref: dialogue-line-hint:aftermath-pressure-2-3 -> the footage freezes on Soren entering the lock corridor minutes after the murder
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-012-04 refine
-ref: scene-conflict:aftermath -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
-ref: scene-resolution:aftermath-mid -> She names him and files the footage directly to the prosecutor while the live stream continues.
-ref: scene-state-change:aftermath-mid -> the case survives because the institution loses control of its own narrative
-ref: scene-introduction:aftermath-3 -> During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
-ref: scene-development:aftermath-3 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
+ref: scene-introduction:aftermath-3 -> She names him and files the footage directly to the prosecutor while the live stream continues.
+ref: scene-development:aftermath-3 -> move the evidence faster than the suspension order
+ref: scene-conflict:aftermath-3 -> move the evidence faster than the suspension order
+ref: scene-resolution:aftermath-3-mid -> command authority becomes visible complicity
+ref: scene-state-change:aftermath-3-mid -> command authority becomes visible complicity
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -719,7 +719,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-012-04-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:aftermath-protagonist-3-1 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-line-hint:aftermath-protagonist-3-1 -> She names him and files the footage directly to the prosecutor while the live stream continues.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -737,18 +737,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-012-04-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:aftermath-pressure-3-3 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-line-hint:aftermath-pressure-3-3 -> command authority becomes visible complicity
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-012-05 refine
-ref: scene-conflict:aftermath -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
-ref: scene-resolution:aftermath-mid -> She names him and files the footage directly to the prosecutor while the live stream continues.
-ref: scene-state-change:aftermath-mid -> the case survives because the institution loses control of its own narrative
-ref: scene-introduction:aftermath-4 -> During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
-ref: scene-development:aftermath-4 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
+ref: scene-introduction:aftermath-4 -> Briefing room breach
+ref: scene-development:aftermath-4 -> the victim finally receives a case worthy of the facts
+ref: scene-conflict:aftermath-4 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: scene-resolution:aftermath-4-mid -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
+ref: scene-state-change:aftermath-4-mid -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -766,7 +766,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-012-05-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:aftermath-protagonist-4-1 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-line-hint:aftermath-protagonist-4-1 -> During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -784,18 +784,18 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-012-05-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:aftermath-pressure-4-3 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-line-hint:aftermath-pressure-4-3 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @scene-012-06 refine
-ref: scene-conflict:aftermath -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
 ref: scene-introduction:aftermath-5 -> During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.
 ref: scene-development:aftermath-5 -> Theo streams the room live while officers realize the cover-up reaches beyond one report.
-ref: scene-resolution:aftermath-final -> She names him and files the footage directly to the prosecutor while the live stream continues.
-ref: scene-state-change:aftermath-final -> the case survives because the institution loses control of its own narrative
+ref: scene-conflict:aftermath-5 -> Nadia can still frame the scandal as a deputy's mistake or name Soren as the architect of the concealment.
+ref: scene-resolution:aftermath-5-final -> She names him and files the footage directly to the prosecutor while the live stream continues.
+ref: scene-state-change:aftermath-5-final -> the case survives because the institution loses control of its own narrative
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep pressure procedural and evidence-led before the reveal lands
@@ -813,7 +813,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-012-06-02 refine
 ref: dialogue-subtext:commit -> makes risk sound practical enough to become a promise
 ref: dialogue-reaction:commit -> The promise raises the stakes for the next exchange.
-ref: dialogue-line-hint:aftermath-protagonist-5-1 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-line-hint:aftermath-protagonist-5-1 -> move the evidence faster than the suspension order
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -831,7 +831,7 @@ The refined artifact preserves identifier continuity so deterministic validation
 @dialogue-turn-012-06-04 refine
 ref: dialogue-subtext:challenge -> refuses the easier story and forces the pressure into view
 ref: dialogue-reaction:challenge -> The challenge strips politeness away from the scene.
-ref: dialogue-line-hint:aftermath-pressure-5-3 -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: dialogue-line-hint:aftermath-pressure-5-3 -> the briefing room was built to keep testimony internal and deniable
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: keep the speech procedural on the surface while letting leverage and danger sit underneath
@@ -845,21 +845,21 @@ should: prefer clean procedural detail over melodramatic explanation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @suspense-012-core refine
-ref: suspense-uncertainty:aftermath -> Can Nadia prove murder before procedure itself is used to wash the evidence clean?
+ref: suspense-uncertainty:aftermath-11 -> the case survives because the institution loses control of its own narrative
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: prefer clean procedural detail over melodramatic explanation
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @pause-012-core refine
-ref: pause-focus:aftermath -> the case survives because the institution loses control of its own narrative
+ref: pause-focus:aftermath-11 -> the victim finally receives a case worthy of the facts
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pacing to alternate clue logic, danger, and institutional tension
 The refined artifact preserves identifier continuity so deterministic validation can compare seed and successor outputs.
 
 @acceleration-012-core refine
-ref: acceleration-trigger:aftermath -> the footage freezes on Soren entering the lock corridor minutes after the murder
+ref: acceleration-trigger:aftermath-11 -> Briefing room breach
 naming-rule: resolved names must be internationally portable proper names and must not embed role words such as inspector, journalist, mayor, or doctor
 validation-gate: no placeholder tokens may remain after refinement; if any survive, later drafting and export stages must fail explicitly
 should: use pacing to alternate clue logic, danger, and institutional tension

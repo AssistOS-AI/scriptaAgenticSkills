@@ -11,10 +11,10 @@ closing-mode: cliffhanger
 handoff-pressure: the next chapter must open from the sharper consequence exposed in chapter-008
 thematic-focus: identity-self under resistance pressure
 rhythm-note: escalating
-chapter-question: {{chapter-question:escalation}}
-answer-shift: {{answer-shift:detective-police}}
+chapter-question: {{chapter-question:escalation-7}}
+answer-shift: {{answer-shift:detective-police-escalation-7}}
 arc-stage: pressure-rise
-world-pressure: {{world-pressure:escalation}}
+world-pressure: {{world-pressure:escalation-7}}
 location-focus: $location-primary
 block-alternation: action-dialogue-description-conflict-revelation-suspense-cliffhanger
 This chapter must remain traceable to the symbolic seed so validation can compare chapter purpose to later prose.
