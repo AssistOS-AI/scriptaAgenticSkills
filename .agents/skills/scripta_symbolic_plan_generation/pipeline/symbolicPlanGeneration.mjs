@@ -46,7 +46,8 @@ export async function generateSymbolicSeed(input = {}) {
 export async function generateMacroSeed(options) {
   const random = createSeededRandom(`${options.seed}:macro`);
   const c = options.constraints;
-  const entityMap = structuredClone(DEFAULT_ENTITY_MAP);
+  const scale = deriveNarrativeScale(options);
+  const entityMap = buildExtendedEntityMap(scale);
   const protagonistPlaceholder = placeholder('character', entityMap.characters.protagonist);
   const counterpartPlaceholder = placeholder('character', entityMap.characters.counterpart);
   const pressurePlaceholder = placeholder('character', entityMap.characters.pressure);
@@ -59,6 +60,10 @@ export async function generateMacroSeed(options) {
   const pressureRef = reference('character-pressure-001');
   const primaryLocationRef = reference('location-primary');
   const secondaryLocationRef = reference('location-secondary');
+  const supportCharacters = buildSupportingCharacters(options, random, scale);
+  const tertiaryLocations = buildSupportingLocations(options, random, scale);
+  const secondaryObjects = buildSupportingObjects(options, random, scale);
+  const supportCharacterRefs = supportCharacters.map((entry) => reference(entry.id));
 
   const charConfig = COMMAND_CONFIGS.character;
   const arcConfig = COMMAND_CONFIGS.arc;
@@ -147,7 +152,8 @@ export async function generateMacroSeed(options) {
       { name: 'climax', value: '{{dilemma:central}}' },
       { name: 'resolution', value: `the core conflict resolves with lasting cost and a redefined relation to ${organizationPlaceholder}` },
       { name: 'emotional-layer', value: emotionalTrack.join(' -> ') },
-       { name: 'stakes-ladder', value: pickProfileConfiguredValue(random, blueprintConfig, 'stakesLadderPatterns', options.profile, 'blueprint', 'allowedStakesLadders') }
+      { name: 'ensemble-pressure', value: `${supportCharacterRefs.slice(0, 3).join(', ')} widen the cost beyond the central trio` },
+      { name: 'stakes-ladder', value: pickProfileConfiguredValue(random, blueprintConfig, 'stakesLadderPatterns', options.profile, 'blueprint', 'allowedStakesLadders') }
     ]),
     createBlock('arc-book-main', 'map', [
       { name: 'arc-axis', value: `${options.themeTopic} under ${options.themeShape} pressure` },
@@ -226,7 +232,23 @@ export async function generateMacroSeed(options) {
       { name: 'arc', value: 'flat' },
       { name: 'contradictions', value: 'calm yet coercive, rational yet self-serving' },
       { name: 'relationships', value: `${protagonistRef} [conflictual], ${counterpartRef} [hierarchical]` }
-    ])
+    ]),
+    ...supportCharacters.map((entry, index) => createBlock(entry.id, 'define', [
+      { name: 'name', value: entry.name },
+      { name: 'complexity', value: entry.complexity },
+      { name: 'development-type', value: entry.developmentType },
+      { name: 'archetype', value: entry.archetype },
+      { name: 'role', value: entry.role },
+      { name: 'desire', value: entry.desire },
+      { name: 'need', value: entry.need },
+      { name: 'fear', value: entry.fear },
+      { name: 'lie', value: entry.lie },
+      { name: 'truth', value: entry.truth },
+      { name: 'conflict-mode', value: index % 2 === 0 ? 'mixed' : 'external' },
+      { name: 'arc', value: index < 2 ? 'dynamic' : 'supporting-static' },
+      { name: 'contradictions', value: entry.contradictions },
+      { name: 'relationships', value: `${protagonistRef} [${entry.protagonistBond}], ${counterpartRef} [${entry.counterpartBond}], ${pressureRef} [${entry.pressureBond}]` }
+    ]))
   ];
 
   const primaryRuleType = random.pick(c.worldbuilding.primaryRuleTypes);
@@ -296,7 +318,25 @@ export async function generateMacroSeed(options) {
       { name: 'social-signal', value: '{{social-signal:location-secondary}}' },
       { name: 'symbolic-charge', value: '{{symbolic-charge:location-secondary}}' },
       { name: 'conflict-use', value: '{{conflict-use:location-secondary}}' }
-    ])
+    ]),
+    ...tertiaryLocations.map((entry) => createBlock(entry.id, 'define', [
+      { name: 'name', value: entry.name },
+      { name: 'role', value: entry.role },
+      { name: 'sensory-anchor', value: entry.sensoryAnchor },
+      { name: 'social-signal', value: entry.socialSignal },
+      { name: 'symbolic-charge', value: entry.symbolicCharge },
+      { name: 'conflict-use', value: entry.conflictUse }
+    ])),
+    ...secondaryObjects.map((entry) => createBlock(entry.id, 'define', [
+      { name: 'name', value: entry.name },
+      { name: 'category', value: entry.category },
+      { name: 'subtype', value: entry.subtype },
+      { name: 'function', value: entry.function },
+      { name: 'stakes', value: entry.stakes },
+      { name: 'holders', value: `${organizationPlaceholder}, ${pressureRef}` },
+      { name: 'activation', value: entry.activation },
+      { name: 'payoff-zone', value: entry.payoffZone }
+    ]))
   ];
 
   const bookArtifact = await writeStageFile(options, 'macro', 'book', 'symbolic-plan', serializeBlocks(bookBlocks));
@@ -357,7 +397,8 @@ export async function generateChapterSeeds(options) {
 export async function generateMicroSeeds(options) {
   const random = createSeededRandom(`${options.seed}:micro`);
   const c = options.constraints;
-  const sceneCount = options.sceneDensity === 'high' ? 3 : 2;
+  const scale = deriveNarrativeScale(options);
+  const sceneCount = scale.sceneCountPerChapter;
   const artifacts = [];
   const chapterConfig = COMMAND_CONFIGS.chapter;
   const chapterRoles = buildChapterRoleSequence(options.chapterCount, options.profile, chapterConfig);
@@ -369,8 +410,16 @@ export async function generateMicroSeeds(options) {
   const protagonistRef = reference('character-protagonist-001');
   const counterpartRef = reference('character-counterpart-001');
   const pressureRef = reference('character-pressure-001');
-  const primaryLocationRef = reference('location-primary');
-  const secondaryLocationRef = reference('location-secondary');
+  const locationRefs = [
+    reference('location-primary'),
+    reference('location-secondary'),
+    ...Array.from({ length: scale.extraLocationCount }, (_, index) => reference(`location-tertiary-${String(index + 1).padStart(3, '0')}`))
+  ];
+  const objectRefs = [
+    reference('plot-element-core-object'),
+    ...Array.from({ length: scale.extraObjectCount }, (_, index) => reference(`plot-element-secondary-${String(index + 1).padStart(3, '0')}`))
+  ];
+  const supportCharacterRefs = Array.from({ length: scale.supportCharacterCount }, (_, index) => reference(`character-support-${String(index + 1).padStart(3, '0')}`));
 
   const expressionPrefs = c.expression;
   const rhythmPrefs = c.rhythm;
@@ -381,6 +430,9 @@ export async function generateMicroSeeds(options) {
     const chapterRef = reference(chapterId);
     const chapterRole = chapterRoles[chapterIndex] ?? 'bridge';
     const blocks = [];
+    const chapterSupportRefs = rotateReferences(supportCharacterRefs, chapterIndex, Math.min(3, supportCharacterRefs.length));
+    const chapterLocationRefs = rotateReferences(locationRefs, chapterIndex, Math.min(3, locationRefs.length));
+    const chapterObjectRefs = rotateReferences(objectRefs, chapterIndex, Math.min(2, objectRefs.length));
 
     blocks.push(createBlock(`sequence-${chapterNumber}-core`, 'define', [
       { name: 'sequence-type', value: options.sequenceType },
@@ -390,13 +442,17 @@ export async function generateMicroSeeds(options) {
       { name: 'scene-chain', value: Array.from({ length: sceneCount }, (_, index) => `scene-${chapterNumber}-${String(index + 1).padStart(2, '0')}`).join(', ') },
       { name: 'carry-forward-pressure', value: 'each scene must inherit and intensify the previous unresolved pressure' },
       { name: 'conflict-line', value: `{{sequence-conflict:${chapterRole}}}` },
+      { name: 'supporting-cast', value: chapterSupportRefs.join(', ') || `${counterpartRef}` },
+      { name: 'chapter-object', value: chapterObjectRefs[0] ?? reference('plot-element-core-object') },
       { name: 'payoff', value: chapterIndex === options.chapterCount - 1 ? 'the sequence delivers its final irreversible choice' : `{{sequence-payoff:${chapterRole}}}` }
     ]));
 
     blocks.push(createBlock(`location-${chapterNumber}-anchor`, 'define', [
       { name: 'chapter', value: chapterRef },
-      { name: 'primary-setting', value: primaryLocationRef },
-      { name: 'secondary-setting', value: secondaryLocationRef },
+      { name: 'primary-setting', value: chapterLocationRefs[0] ?? reference('location-primary') },
+      { name: 'secondary-setting', value: chapterLocationRefs[1] ?? reference('location-secondary') },
+      { name: 'transit-setting', value: chapterLocationRefs[2] ?? chapterLocationRefs[0] ?? reference('location-primary') },
+      { name: 'chapter-object', value: chapterObjectRefs[0] ?? reference('plot-element-core-object') },
       { name: 'sensory-anchor', value: '{{sensory-anchor:location-primary}}' },
       { name: 'social-signal', value: '{{social-signal:location-primary}}' },
       { name: 'symbolic-charge', value: '{{symbolic-charge:location-primary}}' },
@@ -422,7 +478,7 @@ export async function generateMicroSeeds(options) {
 
     blocks.push(createBlock(`arc-${chapterNumber}-relationship`, 'map', [
       { name: 'chapter', value: chapterRef },
-      { name: 'pair', value: `${protagonistRef}, ${counterpartRef}` },
+      { name: 'pair', value: `${protagonistRef}, ${chapterSupportRefs[0] ?? counterpartRef}` },
       { name: 'entry-dynamic', value: pickProfileConfiguredValue(random, COMMAND_CONFIGS.arc, 'relationshipOpeningPatterns', options.profile, 'arc', 'preferredRelationshipPattern') },
       { name: 'stress-line', value: `{{relationship-stress:${chapterRole}}}` },
       { name: 'exit-dynamic', value: random.pick(COMMAND_CONFIGS.arc.relationshipExitPatterns) }
@@ -435,21 +491,33 @@ export async function generateMicroSeeds(options) {
       { name: 'anti-flatness-rule', value: 'do not chain action summaries without dialogue, atmosphere, or reflection support' }
     ]));
 
-      for (let sceneIndex = 0; sceneIndex < sceneCount; sceneIndex += 1) {
-        const sceneId = `scene-${chapterNumber}-${String(sceneIndex + 1).padStart(2, '0')}`;
-        const sceneRef = reference(sceneId);
-        const isFinalScene = sceneIndex === sceneCount - 1;
-        blocks.push(createBlock(sceneId, 'define', [
+    for (let sceneIndex = 0; sceneIndex < sceneCount; sceneIndex += 1) {
+      const sceneId = `scene-${chapterNumber}-${String(sceneIndex + 1).padStart(2, '0')}`;
+      const sceneRef = reference(sceneId);
+      const isFinalScene = sceneIndex === sceneCount - 1;
+      const sceneParticipants = buildSceneParticipants({
+        protagonistRef,
+        counterpartRef,
+        pressureRef,
+        chapterSupportRefs,
+        sceneIndex,
+        sceneCount
+      });
+      const sceneLocationRef = chapterLocationRefs[sceneIndex % chapterLocationRefs.length] ?? chapterLocationRefs[0] ?? reference('location-primary');
+      const sceneObjectRef = chapterObjectRefs[sceneIndex % chapterObjectRefs.length] ?? reference('plot-element-core-object');
+      blocks.push(createBlock(sceneId, 'define', [
         { name: 'chapter', value: chapterRef },
         { name: 'showing-mode', value: sceneIndex === 0 ? pickProfileConfiguredValue(random, sceneConfig, 'showingModes', options.profile, 'scene', 'preferredShowingMode') : random.pick(sceneConfig.showingModes) },
         { name: 'focalization', value: options.focalizationMode },
-        { name: 'time-space', value: primaryLocationRef },
+        { name: 'time-space', value: sceneLocationRef },
         { name: 'introduction', value: `{{scene-introduction:${chapterRole}-${sceneIndex}}}` },
         { name: 'development', value: `{{scene-development:${chapterRole}-${sceneIndex}}}` },
         { name: 'conflict', value: `{{scene-conflict:${chapterRole}}}` },
         { name: 'resolution', value: `{{scene-resolution:${chapterRole}-${isFinalScene ? 'final' : 'mid'}}}` },
         { name: 'exit', value: isFinalScene ? `the chapter hands off to a sharper ${chapterRole} consequence` : 'the next scene begins before the pressure can settle' },
-        { name: 'participants', value: `${protagonistRef}, ${counterpartRef}, ${pressureRef}` },
+        { name: 'participants', value: sceneParticipants.join(', ') },
+        { name: 'anchor-object', value: sceneObjectRef },
+        { name: 'support-focus', value: chapterSupportRefs[sceneIndex % Math.max(chapterSupportRefs.length, 1)] ?? counterpartRef },
         { name: 'state-change', value: `{{scene-state-change:${chapterRole}-${isFinalScene ? 'final' : 'mid'}}}` }
       ]));
 
@@ -465,7 +533,7 @@ export async function generateMicroSeeds(options) {
       blocks.push(createBlock(`conflict-${chapterNumber}-${sceneIndex + 1}`, 'place', [
         { name: 'scope', value: sceneRef },
         { name: 'type', value: pickProfileConfiguredValue(random, contentConfig, 'conflictTypes', options.profile, 'content', 'allowedConflictTypes') },
-        { name: 'forces', value: `${protagonistRef} versus ${pressureRef}` },
+        { name: 'forces', value: `${sceneParticipants[0]} versus ${sceneParticipants.at(-1) ?? pressureRef}` },
         { name: 'stakes', value: `{{conflict-stakes:${c.content.stakePattern}}}` },
         { name: 'escalation', value: `{{conflict-escalation:${chapterRole}}}` }
       ]));
@@ -480,14 +548,24 @@ export async function generateMicroSeeds(options) {
         { name: 'follow-through', value: `{{event-follow-through:${chapterRole}-${isFinalScene ? 'final' : 'mid'}}}` }
       ]));
 
-      const dialogueTurns = dialogueTurnBlueprints(options.baselineProfile, chapterRole, sceneIndex, random);
+      const dialogueTurns = dialogueTurnBlueprints({
+        profileId: options.baselineProfile,
+        role: chapterRole,
+        sceneIndex,
+        random,
+        turnCount: scale.dialogueTurnsPerScene,
+        protagonistRef,
+        counterpartRef,
+        pressureRef,
+        chapterSupportRefs
+      });
       dialogueTurns.forEach((turn, turnIndex) => {
         blocks.push(createBlock(`dialogue-turn-${chapterNumber}-${String(sceneIndex + 1).padStart(2, '0')}-${String(turnIndex + 1).padStart(2, '0')}`, 'line', [
           { name: 'scene', value: sceneRef },
-          { name: 'speaker', value: turn.speaker === 'protagonist' ? protagonistRef : counterpartRef },
+          { name: 'speaker', value: turn.speaker },
           { name: 'intent', value: turn.intent },
           { name: 'subtext', value: `{{dialogue-subtext:${turn.intent}}}` },
-          { name: 'line-hint', value: `{{dialogue-line-hint:${chapterRole}-${sceneIndex}-${turnIndex}}}` },
+          { name: 'line-hint', value: turn.lineHint ?? `{{dialogue-line-hint:${chapterRole}-${sceneIndex}-${turnIndex}}}` },
           { name: 'reaction-beat', value: `{{dialogue-reaction:${turn.intent}}}` }
         ]));
       });
@@ -503,7 +581,7 @@ export async function generateMicroSeeds(options) {
 
     blocks.push(createBlock(`dialogue-${chapterNumber}-core`, 'apply', [
       { name: 'scene', value: reference(`scene-${chapterNumber}-01`) },
-      { name: 'speakers', value: `${protagonistRef}, ${counterpartRef}` },
+      { name: 'speakers', value: [protagonistRef, counterpartRef, ...chapterSupportRefs.slice(0, 2)].join(', ') },
       { name: 'exchange-type', value: expressionPrefs.exchangeType },
       { name: 'purpose', value: expressionPrefs.dialoguePurpose },
       { name: 'subtext', value: `{{dialogue-core-subtext:${options.baselineProfile}}}` }
