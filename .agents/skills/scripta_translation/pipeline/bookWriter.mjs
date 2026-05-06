@@ -352,9 +352,9 @@ function buildEditionChapter(model, chapter, languageCode) {
   const paragraphs = [];
   const chapterLocationSignal = localizeBookText(chapter.location['social-signal'] ?? model.primaryLocation['social-signal'] ?? '', languageCode);
   const chapterLocationSymbol = localizeBookText(chapter.location['symbolic-charge'] ?? model.primaryLocation['symbolic-charge'] ?? '', languageCode);
-  const finalBelief = localizeBookText(model.protagonistArc['exit-belief'] ?? '', languageCode);
-  const finalRelationship = localizeBookText(model.relationshipArc['exit-dynamic'] ?? '', languageCode);
-  const uncertainty = sentenceCase(localizeBookText(chapter.suspense.uncertainty ?? '', languageCode));
+  const finalBelief = suppressEnglishResidue(localizeBookText(model.protagonistArc['exit-belief'] ?? '', languageCode), languageCode);
+  const finalRelationship = suppressEnglishResidue(localizeBookText(model.relationshipArc['exit-dynamic'] ?? '', languageCode), languageCode);
+  const uncertainty = sentenceCase(suppressEnglishResidue(localizeBookText(chapter.suspense.uncertainty ?? '', languageCode), languageCode));
   const dialogueLimit = dialogueTurnLimit(model.dialogueDensity);
 
   if (firstScene) {
@@ -405,9 +405,9 @@ function buildEditionChapter(model, chapter, languageCode) {
   pushUniqueParagraph(paragraphs, buildChapterClosingParagraph({
     chapter,
     lastScene,
-    outputState: renderOutputState(chapter, languageCode),
-    answerShift: localizeBookText(chapter.answerShift ?? '', languageCode),
-    chapterQuestion: localizeBookText(chapter.chapterQuestion ?? '', languageCode),
+    outputState: suppressEnglishResidue(renderOutputState(chapter, languageCode), languageCode),
+    answerShift: suppressEnglishResidue(localizeBookText(chapter.answerShift ?? '', languageCode), languageCode),
+    chapterQuestion: suppressEnglishResidue(localizeBookText(chapter.chapterQuestion ?? '', languageCode), languageCode),
     finalBelief,
     finalRelationship,
     uncertainty,
@@ -454,9 +454,11 @@ function buildChapterFocusLabel(chapter, languageCode) {
     chapter.scenes.at(-1)?.['time-space']
   ];
 
-  return candidates
+  const labels = candidates
     .map((value) => compactFocusLabel(localizeBookText(value ?? '', languageCode), languageCode))
-    .find(Boolean) ?? '';
+    .filter(Boolean);
+
+  return labels.slice(0, 2).join(languageCode === 'ro' ? ' · ' : ' · ');
 }
 
 function compactFocusLabel(value, languageCode) {
@@ -879,7 +881,8 @@ function renderDialogueTurn({ turn, index, languageCode, speakerVoice, cue, hasP
 }
 
 function buildDialogueSurface({ turn, cue, speakerVoice, index, languageCode }) {
-  const cleanCue = stripTerminalPunctuation(sentenceCase(cue || localizeBookText(turn['line-hint'] ?? '', languageCode)));
+  const sanitizedCue = suppressEnglishResidue(cue || localizeBookText(turn['line-hint'] ?? '', languageCode), languageCode);
+  const cleanCue = stripTerminalPunctuation(sentenceCase(sanitizedCue || (languageCode === 'ro' ? 'asta nu se leaga' : 'this does not hold together')));
   const loweredCue = lowerFirst(cleanCue);
   const templates = languageCode === 'ro'
     ? {
@@ -1070,7 +1073,7 @@ function buildDialogueCuePool(scene, languageCode) {
   ];
 
   const cleaned = candidates
-    .map((value) => condenseDialogueCue(localizeBookText(value ?? '', languageCode), languageCode))
+    .map((value) => suppressEnglishResidue(condenseDialogueCue(localizeBookText(value ?? '', languageCode), languageCode), languageCode))
     .filter(Boolean);
 
   return [...new Set(cleaned)];
@@ -1167,6 +1170,28 @@ function resolveLocationProfile(model, locationName) {
     model.secondaryLocation,
     ...(model.supportingLocations ?? [])
   ].find((entry) => entry?.name === target) ?? null;
+}
+
+function suppressEnglishResidue(value, languageCode) {
+  const text = String(value ?? '').replace(/\s+/g, ' ').trim();
+  if (!text || languageCode !== 'ro') {
+    return text;
+  }
+
+  const markers = [/\bthe\b/gi, /\bwhen\b/gi, /\blater\b/gi, /\bthey\b/gi, /\bwith\b/gi, /\bduring\b/gi, /\bwhile\b/gi, /\bthrough\b/gi, /\bbefore\b/gi, /\bafter\b/gi];
+  const residuePatterns = [
+    /reads the room too carefully/i,
+    /keeps alive the version of events/i,
+    /Nothing that has opened here will close easily/i,
+    /understands now that/i
+  ];
+
+  if (residuePatterns.some((pattern) => pattern.test(text))) {
+    return '';
+  }
+
+  const markerCount = markers.reduce((sum, pattern) => sum + (text.match(pattern)?.length ?? 0), 0);
+  return markerCount >= 2 ? '' : text;
 }
 
 function normalizeNarrativePhrase(value, languageCode) {
