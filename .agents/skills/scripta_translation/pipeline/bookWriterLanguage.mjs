@@ -551,6 +551,7 @@ const SUPPLEMENTAL_EXACT_TEXT_TRANSLATIONS = {
     'Family legend breaks open into accusation.': 'Legenda familiei se deschide brutal in acuzatie.',
     'In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.': 'In catacombe, Caelan dezvaluie insemnarile cuptorului care enumera fiecare viata schimbata pentru ward-urile muntelui.',
     'The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.': 'Insemnarile dovedesc ca juramantul a consumat memoria la fel de mult ca sangele, lasand gospodarii intregi obediente, dar incomplete.',
+    'The ash names Neris\'s younger sister, long said to have died of fever.': 'Cenusa rosteste numele surorii mai mici a lui Neris, despre care s-a spus mult timp ca a murit de febra.',
     'She steals the regent\'s binding seal instead, buying time but alerting him to the betrayal.': 'In schimb, fura sigiliul de legare al regentului, castigand timp, dar avertizandu-l asupra tradarii.',
     'Inheritance becomes personal wound rather than abstract lineage guilt.': 'Mostenirea devine rana personala, nu vina abstracta a unei genealogii.',
     'A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.': 'Un spirit al iernii pune la incercare ward-ul vaii, in timp ce Maeron o acuza pe Neris ca a chemat ruptura prin neascultare.',
@@ -570,6 +571,7 @@ const SUPPLEMENTAL_EXACT_TEXT_TRANSLATIONS = {
     'The inheritance keeps the studio open only if the museum commission is delivered on schedule and signed by both women.': 'Mostenirea tine atelierul deschis doar daca lucrarea pentru muzeu este livrata la timp si semnata de ambele femei.',
     'On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes.': 'In prima zi inapoi in atelier, Leora si Talia sorteaza formele mostenite si descopera un set de probe acoperit de notitele lor scrise de mana.',
     'Cassia announces the launch deadline and makes their joint contract unavoidable.': 'Cassia anunta termenul de lansare si face contractul lor comun inevitabil.',
+    'The annotated proof reveals a page Talia once designed around Leora\'s private dedication line.': 'Proba adnotata dezvaluie o pagina pe care Talia a construit-o candva in jurul randului de dedicatie privata al Leorei.',
     'They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.': 'Cad de acord sa imparta camera de lucru pentru comanda, dar sa nu discute de ce a plecat Talia pana dupa aprobarea primului dummy book.',
     'The job starts carrying evidence of love rather than just shared labor.': 'Lucrarea incepe sa poarte dovezi ale iubirii, nu doar ale muncii impartite.',
     'A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.': 'Un lot de coli iese cu erori de tipar in timpul unei ture de noapte la presa, fortandu-le sa lucreze in aceeasi tura epuizata.',
@@ -591,6 +593,7 @@ const SUPPLEMENTAL_EXACT_TEXT_TRANSLATIONS = {
     'The station\'s peace index allows the council to authorize memory smoothing whenever dissent crosses a quantified risk threshold.': 'Indicele de pace al statiei permite consiliului sa autorizeze netezirea memoriei ori de cate ori disidenta trece de un prag de risc cuantificat.',
     'During a routine recalibration in the mnemonic orchard, Elian hears a protest chant no one else remembers uttering.': 'In timpul unei recalibrari de rutina in livada mnemonica, Elian aude un cantec de protest pe care nimeni altcineva nu-si aminteste sa-l fi rostit.',
     'Yara identifies the chant as dockside slang from a vanished labor vote.': 'Yara identifica acel cantec drept argou de doc dintr-un vot muncitoresc disparut.',
+    'The shard contains voices naming a vote that station records say never occurred.': 'Fragmentul contine voci care numesc un vot despre care arhivele statiei spun ca nu a avut loc niciodata.',
     'They trace the chant to a recall shard marked as botanical maintenance metadata.': 'Urmaresc cantecul pana la un fragment de rememorare etichetat drept metadata de mentenanta botanica.',
     'Memory corruption becomes proof of historical deletion.': 'Coruperea memoriei devine dovada stergerii istorice.',
     'They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.': 'Descopera miscari fantoma de marfa care alimenteaza o ecluza ascunsa a arhivei dupa fiecare disputa politica majora.',
@@ -604,7 +607,11 @@ const SUPPLEMENTAL_EXACT_TEXT_TRANSLATIONS = {
     'Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.': 'Yara reruteaza curentul suficient de mult incat votul sters si marturiile martorilor sa infloreasca pe toate spițele habitatului.',
     'She releases the memory to everyone and lets the station face its first honest unrest in years.': 'Elibereaza memoria catre toata lumea si lasa statia sa infrunte primul ei val sincer de tulburare din ultimii ani.',
     'Public memory becomes impossible to confiscate again in silence.': 'Memoria publica devine imposibil de confiscat din nou in tacere.',
-    'a system that edits consent cannot claim legitimacy even if it remains efficient': 'un sistem care editeaza consimtamantul nu poate pretinde legitimitate, chiar daca ramane eficient'
+    'a system that edits consent cannot claim legitimacy even if it remains efficient': 'un sistem care editeaza consimtamantul nu poate pretinde legitimitate, chiar daca ramane eficient',
+    'the belief the protagonist holds after change': 'credinta pe care protagonistul o poarta dupa schimbare',
+    'the belief the protagonist holds at entry': 'credinta pe care protagonistul o poarta la intrare',
+    'the bond or social arrangement that remains at the end': 'legatura sau aranjamentul social care ramane la final',
+    'what kind of conflict the world rule produces': 'ce fel de conflict produce regula lumii'
   }
 };
 
