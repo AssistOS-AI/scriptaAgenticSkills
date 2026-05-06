@@ -497,6 +497,117 @@ const EXACT_TEXT_TRANSLATIONS = {
   }
 };
 
+const SUPPLEMENTAL_EXACT_TEXT_TRANSLATIONS = {
+  ro: {
+    'Inspector Nadia Voss reopens a river drowning that the county police marked accidental, only to find tide logs, surveillance gaps, and witness transfers pointing back to a redevelopment contract.': 'Inspectoarea Nadia Voss redeschide cazul unei inecari pe rau pe care politia districtuala a clasat-o drept accident, doar pentru a descoperi jurnale de maree, goluri in supraveghere si mutari de martori care duc inapoi la un contract de reamenajare.',
+    'Diver-journalist Theo Mercer helps her track the physical evidence while precinct chief Soren Arden turns procedure into a moving wall designed to exhaust the case.': 'Jurnalistul-scafandru Theo Mercer o ajuta sa urmareasca probele fizice, in timp ce seful de precinct Soren Arden transforma procedura intr-un zid miscator menit sa epuizeze cazul.',
+    'Procedure stops protecting order the moment it is weaponized against the facts it claims to preserve.': 'Procedura inceteaza sa mai protejeze ordinea in clipa in care este folosita ca arma impotriva faptelor pe care pretinde ca le pastreaza.',
+    'Any river death inside the redevelopment corridor is reviewed first by the precinct and only later by the civil prosecutor.': 'Orice moarte petrecuta pe rau in interiorul coridorului de reamenajare este examinata mai intai de precinct si abia apoi de procurorul civil.',
+    'Nadia watches the river autopsy and notices blunt-force trauma hidden beneath water damage.': 'Nadia urmareste autopsia de pe rau si observa traumatisme produse prin lovire ascunse sub urmele apei.',
+    'The medical examiner lowers his voice when he mentions a missing evidence bag logged the night before.': 'Medicul legist isi coboara vocea cand pomeneste de o punga de probe disparuta, inregistrata in noaptea precedenta.',
+    'Cause-of-death certainty is replaced by a procedural hole.': 'Certitudinea cauzei mortii este inlocuita de o bresa procedurala.',
+    'Theo offers her an off-record copy of tide maintenance logs that should not match the official timeline.': 'Theo ii ofera, neoficial, o copie a jurnalelor de mentenanta pentru maree, care n-ar trebui sa se potriveasca deloc cu cronologia oficiala.',
+    'In the evidence hangar, Nadia and Theo trace the victim\'s last route through broken camera timestamps.': 'In hangarul probelor, Nadia si Theo refac ultimul traseu al victimei prin marcaje de timp rupte din camere.',
+    'The footage gap lines up exactly with a maintenance override signed by Soren\'s deputy.': 'Golul din filmare se alinaza perfect cu o derogare de mentenanta semnata de adjunctul lui Soren.',
+    'They identify a stolen drive case tagged as scrap and follow it toward the abandoned control room.': 'Identifica o carcasa de unitate furata, etichetata drept rebut, si ii urmaresc traseul catre sala de control abandonata.',
+    'Chain-of-custody becomes the crime scene.': 'Lantul de custodie devine scena crimei.',
+    'During the precinct briefing, Nadia projects the recovered footage before Soren can suspend her.': 'In timpul briefingului de precinct, Nadia proiecteaza filmarea recuperata inainte ca Soren sa o poata suspenda.',
+    'Theo streams the room live while officers realize the cover-up reaches beyond one report.': 'Theo transmite camera in direct in timp ce ofiterii isi dau seama ca musamalizarea depaseste cu mult un singur raport.',
+    'She names him and files the footage directly to the prosecutor while the live stream continues.': 'Il numeste fara ocolisuri si trimite filmarea direct procurorului in timp ce transmisia live continua.',
+    'Command authority becomes visible complicity.': 'Autoritatea de comanda devine complicitate vizibila.',
+    'evidence survives only when someone refuses the procedure designed to neutralize it': 'dovada supravietuieste doar atunci cand cineva refuza procedura conceputa sa o neutralizeze',
+    'concealment-breeds-larger-collapse': 'ascunderea hraneste un colaps si mai mare',
+    'Scarred-trust-rebuilt-on-painful-clarity.': 'Incredere cicatrizata, reconstruita prin claritate dureroasa.',
+    'Mediator Mira Solari returns to the flood-struck town of Greywater after her brother dies in what officials call an accident.': 'Mediatoarea Mira Solari se intoarce in orasul Greywater, lovit de inundatii, dupa ce fratele ei moare in ceea ce autoritatile numesc un accident.',
+    'With archivist Vera Quinn she uncovers a compensation fraud hidden inside the mediation office, but exposing it would strip Mira\'s mother of the pension that kept the family alive.': 'Alaturi de arhivista Vera Quinn, descopera o frauda cu despagubiri ascunsa in biroul de mediere, dar dezvaluirea ei ar lasa-o pe mama Mirei fara pensia care a tinut familia in viata.',
+    'Private sorrow becomes public duty the moment institutions begin feeding on silence.': 'Durerea privata devine datorie publica in clipa in care institutiile incep sa se hraneasca din tacere.',
+    'Every flood-district compensation claim must pass through the mediation office before it reaches the court archive.': 'Fiecare cerere de despagubire din districtul inundabil trebuie sa treaca prin biroul de mediere inainte sa ajunga in arhiva instantei.',
+    'At her brother\'s memorial supper, Mira hears a hidden recording tucked inside a borrowed prayer book.': 'La masa de pomenire a fratelui ei, Mira aude o inregistrare ascunsa intr-o carte de rugaciuni imprumutata.',
+    'The message points toward one erased witness statement and a ledger that should not exist anymore.': 'Mesajul indica o declaratie de martor stearsa si un registru care n-ar mai trebui sa existe.',
+    'They agree to meet at dawn inside the sealed mediation office before the deputy mayor can collect the archive keys.': 'Cad de acord sa se intalneasca in zori, in biroul de mediere sigilat, inainte ca viceprimarul sa poata ridica cheile arhivei.',
+    'The memorial becomes evidence instead of closure.': 'Memorialul devine proba, nu inchidere.',
+    'Inside the mediation office, Mira and Vera find claims approved for the dead and rejected for the living.': 'In interiorul biroului de mediere, Mira si Vera gasesc cereri aprobate pentru morti si respinse pentru cei vii.',
+    'Corin arrives with coffee, condolences, and a rewritten story about emergency discretion.': 'Corin soseste cu cafea, condoleante si o poveste rescrisa despre discretia din timpul urgentei.',
+    'They steal only three photographed pages and leave knowing Corin saw the flash reflection in the cabinet glass.': 'Fura doar trei pagini fotografiate si pleaca stiind ca Corin a vazut reflexia blitzului in sticla dulapului.',
+    'The investigation now threatens the family as much as the institution.': 'Ancheta ameninta acum familia la fel de mult ca institutia.',
+    'In the church crypt, Vera reveals that Mira\'s brother planned to testify during the annual flood commemoration.': 'In cripta bisericii, Vera dezvaluie ca fratele Mirei voia sa depuna marturie in timpul comemorarii anuale a inundatiei.',
+    'The plaques show corrected dates that match the forged ledger rather than the actual deaths.': 'Placile arata date corectate care se potrivesc cu registrul falsificat, nu cu mortile reale.',
+    'She asks Vera to stand beside her publicly, even if it means both families lose protection.': 'Ii cere Verei sa stea public alaturi de ea, chiar daca asta inseamna ca ambele familii isi pierd protectia.',
+    'Forgery turns from suspicion into undeniable chronology.': 'Falsul trece din zona suspiciunii in cronologie imposibil de contestat.',
+    'During the public flood ceremony, Mira interrupts the scripted prayer and reads from the photographed ledger pages.': 'In timpul ceremoniei publice a inundatiei, Mira intrerupe rugaciunea regizata si citeste din paginile fotografiate ale registrului.',
+    'Corin orders the microphone cut, but Vera starts naming the missing witnesses from memory.': 'Corin ordona sa fie taiat microfonul, dar Vera incepe sa numeasca din memorie martorii disparuti.',
+    'She finishes reading and lets the silence after the final name condemn the room.': 'Termina de citit si lasa tacerea de dupa ultimul nume sa condamne incaperea.',
+    'Grief becomes accusation before the whole town.': 'Durerea se transforma in acuzatie in fata intregului oras.',
+    'care without truth only prolongs the violence of the original wound': 'grija fara adevar nu face decat sa prelungeasca violenta ranii originare',
+    'visible-cost-is-preferable-to-stable-falsehood': 'costul vizibil este preferabil unei falsitati stabile',
+    'Solidarity-forged-through-contested-truth.': 'Solidaritate forjata prin adevar contestat.',
+    'Exiled heir Neris Vale returns to the ash valley of Drovna when the family oath-fires begin speaking the names of the dead aloud.': 'Mostenitoarea exilata Neris Vale se intoarce in valea de cenusa a Drovnei cand focurile juramantului incep sa rosteasca cu voce tare numele mortilor.',
+    'Guided by oath-keeper Brother Caelan, she learns that her dynasty\'s power comes from a vow furnace that burns witness memories into political obedience, and breaking it will strip the valley of the same protection that kept the winter spirits out.': 'Indrumata de pazitorul juramantului, fratele Caelan, ea afla ca puterea dinastiei sale vine dintr-un cuptor al juramantului care arde amintirile martorilor pana le transforma in obedienta politica, iar spargerea lui ar lasa valea fara aceeasi protectie care a tinut spiritele iernii la distanta.',
+    'Redemption begins when inherited power is treated as a debt to be relinquished rather than a right to be managed.': 'Rascumpararea incepe cand puterea mostenita este tratata ca o datorie de care trebuie sa te desprinzi, nu ca un drept pe care sa-l administrezi.',
+    'The valley wards hold only while an heir keeps the furnace vow active through lineage-bound ritual obedience.': 'Ward-urile vaii rezista doar atat timp cat un mostenitor mentine activ juramantul cuptorului prin obedienta ritualica legata de sange.',
+    'Neris returns to the terrace as the oath-fires begin whispering the names of children no one admits were taken.': 'Neris se intoarce pe terasa in timp ce focurile juramantului incep sa sopteasca numele copiilor despre care nimeni nu admite ca au fost luati.',
+    'Brother Caelan shows her a chronicle leaf spared from the furnace generations earlier.': 'Fratele Caelan ii arata o fila de cronica salvata din cuptor cu generatii in urma.',
+    'They descend toward the catacombs before Maeron can bind her publicly at dusk.': 'Coboara spre catacombe inainte ca Maeron sa o poata lega public de juramant la lasarea serii.',
+    'Family legend breaks open into accusation.': 'Legenda familiei se deschide brutal in acuzatie.',
+    'In the catacombs, Caelan reveals furnace records listing each life traded into the mountain wards.': 'In catacombe, Caelan dezvaluie insemnarile cuptorului care enumera fiecare viata schimbata pentru ward-urile muntelui.',
+    'The records prove the vow consumed memory as well as blood, leaving entire households obedient but incomplete.': 'Insemnarile dovedesc ca juramantul a consumat memoria la fel de mult ca sangele, lasand gospodarii intregi obediente, dar incomplete.',
+    'She steals the regent\'s binding seal instead, buying time but alerting him to the betrayal.': 'In schimb, fura sigiliul de legare al regentului, castigand timp, dar avertizandu-l asupra tradarii.',
+    'Inheritance becomes personal wound rather than abstract lineage guilt.': 'Mostenirea devine rana personala, nu vina abstracta a unei genealogii.',
+    'A winter spirit tests the valley ward while Maeron accuses Neris of inviting the breach through disobedience.': 'Un spirit al iernii pune la incercare ward-ul vaii, in timp ce Maeron o acuza pe Neris ca a chemat ruptura prin neascultare.',
+    'Neris realizes the ward responds more strongly to named truth than to repeated liturgy.': 'Neris isi da seama ca ward-ul raspunde mai puternic adevarului numit pe sleau decat liturghiei repetate.',
+    'She decides to break the binding ceremony and speak the hidden names during the next warding chant.': 'Hotaraste sa rupa ceremonia de legare si sa rosteasca numele ascunse in timpul urmatorului cantec de aparare.',
+    'Truth reveals itself as the missing element in the valley\'s defense.': 'Adevarul se dovedeste a fi elementul lipsa din apararea vaii.',
+    'During the valley rite, Neris interrupts Maeron\'s succession oath with the stolen seal and the hidden chronicle.': 'In timpul ritului vaii, Neris intrerupe juramantul de succesiune al lui Maeron cu sigiliul furat si cronica ascunsa.',
+    'She names the dead, breaks the seal, and forces the furnace to release the stored memories as ash-light across the terrace.': 'Numeste mortii, rupe sigiliul si forteaza cuptorul sa elibereze amintirile stocate ca lumina de cenusa peste terasa.',
+    'Maeron falls with the collapsing rite, and the valley joins Neris in a new chant built on remembered names rather than erased ones.': 'Maeron cade odata cu ritul care se prabuseste, iar valea i se alatura lui Neris intr-un nou cantec cladit pe nume amintite, nu sterse.',
+    'The valley witnesses the true cost of its protection at once.': 'Valea vede dintr-odata pretul adevarat al propriei protectii.',
+    'some inheritances become just only when they are surrendered': 'unele mosteniri devin drepte doar atunci cand sunt cedate',
+    'shared-risk-creates-stronger-agency': 'riscul impartasit creeaza o agentie mai puternica',
+    'Altered-but-legible-bond.': 'Legatura schimbata, dar lizibila.',
+    'Editor Leora Kestrel inherits a failing letterpress studio and can save it only by working with designer Talia Voss, the woman who left both the business and their relationship unfinished three years earlier.': 'Editoarea Leora Kestrel mosteneste un atelier tipografic aflat in declin si il poate salva doar lucrand cu designerul Talia Voss, femeia care a lasat neterminate atat afacerea, cat si relatia lor, cu trei ani in urma.',
+    'Estate manager Cassia Mercer gives them one season to deliver a landmark art-book commission, forcing every practical decision to reopen the tenderness and betrayal buried in the studio itself.': 'Administratoarea domeniului, Cassia Mercer, le da un singur sezon pentru a livra o comanda-emblema de carte de arta, fortand fiecare decizie practica sa redeschida tandretea si tradarea ingropate chiar in atelier.',
+    'Partnership becomes real only when usefulness stops impersonating emotional safety.': 'Parteneriatul devine real doar atunci cand utilitatea inceteaza sa mai joace rolul sigurantei emotionale.',
+    'The inheritance keeps the studio open only if the museum commission is delivered on schedule and signed by both women.': 'Mostenirea tine atelierul deschis doar daca lucrarea pentru muzeu este livrata la timp si semnata de ambele femei.',
+    'On the first day back in the studio, Leora and Talia sort inherited forms and discover a proof set covered in both their handwritten notes.': 'In prima zi inapoi in atelier, Leora si Talia sorteaza formele mostenite si descopera un set de probe acoperit de notitele lor scrise de mana.',
+    'Cassia announces the launch deadline and makes their joint contract unavoidable.': 'Cassia anunta termenul de lansare si face contractul lor comun inevitabil.',
+    'They agree to share the commission room but not discuss why Talia left until after the first dummy book is approved.': 'Cad de acord sa imparta camera de lucru pentru comanda, dar sa nu discute de ce a plecat Talia pana dupa aprobarea primului dummy book.',
+    'The job starts carrying evidence of love rather than just shared labor.': 'Lucrarea incepe sa poarte dovezi ale iubirii, nu doar ale muncii impartite.',
+    'A batch of folios misprints during an overnight press run, forcing them into the same exhausted shift.': 'Un lot de coli iese cu erori de tipar in timpul unei ture de noapte la presa, fortandu-le sa lucreze in aceeasi tura epuizata.',
+    'Talia admits she left after receiving an offer that promised security she never trusted herself to ask Leora for.': 'Talia marturiseste ca a plecat dupa ce a primit o oferta care promitea o siguranta pe care nu s-a putut niciodata incredinta sa i-o ceara Leorei.',
+    'They salvage the run together, but the repaired sheets now carry a faint doubled margin they decide to keep.': 'Salveaza impreuna tirajul, dar colile reparate poarta acum o margine dublata, abia vizibila, pe care decid sa o pastreze.',
+    'The studio forces the past into the present workload.': 'Atelierul forteaza trecutul sa intre direct in munca prezentului.',
+    'At the warehouse mock-up, a museum curator mistakes them for a long-established couple and thanks them for working so seamlessly together.': 'La macheta din depozit, o curatoare de muzeu le confunda cu un cuplu vechi si le multumeste pentru cat de firesc lucreaza impreuna.',
+    'The public misreading makes both women realize how much of their intimacy remains visible even after the rupture.': 'Aceasta lectura gresita in public le face pe amandoua sa inteleaga cat de multa intimitate a ramas vizibila chiar si dupa ruptura.',
+    'She asks Talia to stay after the mock-up and tell the full story of the departure without turning it into logistics.': 'Ii cere Taliei sa ramana dupa macheta si sa spuna intreaga poveste a plecarii fara s-o transforme in logistica.',
+    'Their most damaged page becomes the commission\'s emotional signature.': 'Pagina lor cea mai avariata devine semnatura emotionala a comenzii.',
+    'On launch night, Leora inserts the once-abandoned dedication page back into the finished edition.': 'In noaptea lansarii, Leora reintroduce in editia finala pagina de dedicatie abandonata candva.',
+    'Talia sees the page only after the first public copy is opened in front of the crowd.': 'Talia vede pagina abia dupa ce primul exemplar public este deschis in fata multimii.',
+    'She tells Talia the page stayed because the studio, and the relationship, were worth rebuilding in full view.': 'Ii spune Taliei ca pagina a ramas pentru ca atelierul, si relatia lor, meritau sa fie reconstruite la vedere.',
+    'The launch becomes confession as much as success.': 'Lansarea devine marturisire la fel de mult cat devine succes.',
+    'shared risk creates a truer form of security than controlled distance': 'riscul impartasit creeaza o forma de siguranta mai adevarata decat distanta controlata',
+    'interdependence-is-stronger-than-isolation': 'interdependenta este mai puternica decat izolarea',
+    'Memory architect Elian Quill discovers that the orbital station Nacre keeps social harmony by erasing witness memory whenever dissent threatens the station council.': 'Arhitecta memoriei Elian Quill descopera ca statia orbitala Nacre pastreaza armonia sociala stergand memoria martorilor ori de cate ori disidenta ameninta consiliul statiei.',
+    'With shuttle pilot Yara Sen she traces a series of benign technical anomalies back to a hidden archive where entire political decisions have been amputated from collective recall.': 'Alaturi de pilotul de naveta Yara Sen, urmareste o serie de anomalii tehnice aparent benigne pana la o arhiva ascunsa unde decizii politice intregi au fost amputate din memoria colectiva.',
+    'The station\'s peace index allows the council to authorize memory smoothing whenever dissent crosses a quantified risk threshold.': 'Indicele de pace al statiei permite consiliului sa autorizeze netezirea memoriei ori de cate ori disidenta trece de un prag de risc cuantificat.',
+    'During a routine recalibration in the mnemonic orchard, Elian hears a protest chant no one else remembers uttering.': 'In timpul unei recalibrari de rutina in livada mnemonica, Elian aude un cantec de protest pe care nimeni altcineva nu-si aminteste sa-l fi rostit.',
+    'Yara identifies the chant as dockside slang from a vanished labor vote.': 'Yara identifica acel cantec drept argou de doc dintr-un vot muncitoresc disparut.',
+    'They trace the chant to a recall shard marked as botanical maintenance metadata.': 'Urmaresc cantecul pana la un fragment de rememorare etichetat drept metadata de mentenanta botanica.',
+    'Memory corruption becomes proof of historical deletion.': 'Coruperea memoriei devine dovada stergerii istorice.',
+    'They discover phantom cargo movements feeding a hidden archive airlock after every major policy dispute.': 'Descopera miscari fantoma de marfa care alimenteaza o ecluza ascunsa a arhivei dupa fiecare disputa politica majora.',
+    'A council drone nearly traps them, forcing Elian to copy partial manifests rather than the whole route map.': 'O drona a consiliului aproape ca ii prinde, fortand-o pe Elian sa copieze manifeste partiale in locul intregii harti de traseu.',
+    'The conspiracy reaches into Elian\'s professional past.': 'Conspiratia patrunde pana in trecutul profesional al lui Elian.',
+    'Inside the sealed archive airlock, they uncover memory lattices containing erased debates, strikes, and citizen testimonies.': 'In ecluza sigilata a arhivei, descopera retele de memorie care contin dezbateri, greve si marturii cetatenesti sterse.',
+    'Elian sees that her old optimization patch became the core of the pacification protocol.': 'Elian vede ca vechiul ei patch de optimizare a devenit nucleul protocolului de pacificare.',
+    'Elian prepares a targeted broadcast that returns the erased council vote first, not the entire archive at once.': 'Elian pregateste o difuzare tintita care readuce mai intai votul sters al consiliului, nu intreaga arhiva dintr-o singura miscare.',
+    'The council\'s legitimacy evaporates in one file.': 'Legitimitatea consiliului se evapora intr-un singur fisier.',
+    'As the council begins a fresh memory smoothing cycle, Elian hijacks the orchard display lattice.': 'Pe masura ce consiliul incepe un nou ciclu de netezire a memoriei, Elian deturneaza reteaua de afisaj a livezii.',
+    'Yara reroutes power long enough for the erased vote and witness testimony to bloom across the habitat spokes.': 'Yara reruteaza curentul suficient de mult incat votul sters si marturiile martorilor sa infloreasca pe toate spițele habitatului.',
+    'She releases the memory to everyone and lets the station face its first honest unrest in years.': 'Elibereaza memoria catre toata lumea si lasa statia sa infrunte primul ei val sincer de tulburare din ultimii ani.',
+    'Public memory becomes impossible to confiscate again in silence.': 'Memoria publica devine imposibil de confiscat din nou in tacere.',
+    'a system that edits consent cannot claim legitimacy even if it remains efficient': 'un sistem care editeaza consimtamantul nu poate pretinde legitimitate, chiar daca ramane eficient'
+  }
+};
+
 const REGEX_TRANSLATIONS = {
   ro: [
     [/\bchapter-(\d{3})\b/g, 'capitolul-$1'],
@@ -616,11 +727,14 @@ export function localizeBookText(text, languageCode) {
   }
 
   let localized = String(text ?? '');
-  const exactMap = EXACT_TEXT_TRANSLATIONS[code] ?? {};
+  const exactMap = {
+    ...(EXACT_TEXT_TRANSLATIONS[code] ?? {}),
+    ...(SUPPLEMENTAL_EXACT_TEXT_TRANSLATIONS[code] ?? {})
+  };
   const exactEntries = Object.entries(exactMap).sort((left, right) => right[0].length - left[0].length);
 
   for (const [source, target] of exactEntries) {
-    localized = localized.replace(new RegExp(escapeRegex(source), 'gi'), target);
+    localized = localized.replace(buildFlexibleExactPattern(source), (match) => preserveTerminalPunctuation(target, match));
   }
 
   for (const [pattern, replacement] of REGEX_TRANSLATIONS[code] ?? []) {
@@ -632,6 +746,23 @@ export function localizeBookText(text, languageCode) {
 
 function escapeRegex(value) {
   return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function buildFlexibleExactPattern(source) {
+  const normalized = String(source ?? '').trim();
+  const stripped = normalized.replace(/[.?!]+$/g, '');
+  const escaped = escapeRegex(stripped).replace(/\s+/g, '\\s+');
+  return new RegExp(`${escaped}(?:[.?!]+)?`, 'gi');
+}
+
+function preserveTerminalPunctuation(target, match) {
+  const translated = String(target ?? '');
+  if (/[.?!]+$/u.test(translated)) {
+    return translated;
+  }
+
+  const punctuation = String(match ?? '').match(/[.?!]+$/u)?.[0] ?? '';
+  return `${translated}${punctuation}`;
 }
 
 export function localizeRoleToken(role) {

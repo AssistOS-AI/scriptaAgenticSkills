@@ -402,7 +402,7 @@ function buildEditionChapter(model, chapter, languageCode) {
 
 function buildChapterClosingParagraph({ lastScene, finalBelief, finalRelationship, uncertainty, isFinalChapter, languageCode }) {
   const focalCharacter = lastScene?.participants?.[0] ?? 'the protagonist';
-  const renderedUncertainty = uncertainty ? `${uncertainty}.` : '';
+  const renderedUncertainty = finalizeNarrativeSentence(uncertainty);
 
   if (languageCode === 'ro') {
     if (isFinalChapter) {
@@ -463,6 +463,15 @@ function lowerFirst(value) {
 
 function stripTerminalPeriod(value) {
   return String(value ?? '').trim().replace(/[.]+$/g, '');
+}
+
+function finalizeNarrativeSentence(value) {
+  const text = String(value ?? '').trim();
+  if (!text) {
+    return '';
+  }
+
+  return /[.?!]$/u.test(text) ? text : `${text}.`;
 }
 
 function splitCsv(value) {

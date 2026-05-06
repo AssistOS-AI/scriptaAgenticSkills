@@ -47,12 +47,15 @@ export async function createChunkTranslationTool({ workspaceRoot, bookId, source
   );
 
   return {
-    async recordSection({ path, source, translated, metadata = null }) {
+    async recordSection({ path, source, translated, metadata = null, validate = true }) {
+      const resolved = normalizeLanguageCode(targetLanguage) === 'ro' && validate
+        ? assertNoRomanianResidue(String(translated ?? '').trim())
+        : String(translated ?? '').trim();
       const entry = {
         path,
         chunkIndex: chunks.length + 1,
         source: String(source ?? '').trim(),
-        translated: String(translated ?? '').trim(),
+        translated: resolved,
         metadata
       };
 

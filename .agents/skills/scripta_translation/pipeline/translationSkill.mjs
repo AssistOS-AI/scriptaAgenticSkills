@@ -207,7 +207,8 @@ async function recordEditionTrace({ translationTool, sourceEdition, renderedEdit
     path: 'front.title',
     source: sourceEdition.title,
     translated: renderedEdition.title,
-    metadata: { granularity: 'section' }
+    metadata: { granularity: 'section' },
+    validate: false
   });
   await translationTool.recordSection({
     path: 'front.subtitle',
